@@ -67,20 +67,26 @@
       categoryFilter.innerHTML = '<option value="">الكل</option>' + categories.map(c => `<option value="${c}">${c}</option>`).join('');
     }
 
-    function renderProducts() {
-      const outlet = warehouseFilter.value;
-      const category = categoryFilter.value;
-      const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
+   function renderProducts() {
+  const outlet = warehouseFilter.value;
+  const category = categoryFilter.value;
+  const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
 
-      filteredProducts = data.filter(d =>
-        d.stock > 20 &&
-        (!outlet || d.outlet === outlet) &&
-        (!category || d.category === category) &&
-        (!searchTerm || (d.alias && d.alias.toString().toLowerCase().includes(searchTerm)))
-      );
+  if (!outlet) {
+    productContainer.innerHTML = "<h3 style='text-align:center;'>يرجى اختيار مستودع لعرض المنتجات</h3>";
+    pagination.innerHTML = '';
+    return;
+  }
 
-      renderPage(1);
-    }
+  filteredProducts = data.filter(d =>
+    d.stock > 20 &&
+    (!outlet || d.outlet === outlet) &&
+    (!category || d.category === category) &&
+    (!searchTerm || (d.alias && d.alias.toString().toLowerCase().includes(searchTerm)))
+  );
+
+  renderPage(1);
+}
 
     function renderPage(page) {
       currentPage = page;
