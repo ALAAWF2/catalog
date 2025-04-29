@@ -149,14 +149,32 @@
     }
 
     function submitOrder() {
-      const mallName = mallSelect.value;
-      if (!mallName) {
-        alert("يرجى اختيار معرض صحيح!");
-        return;
-      }
-      closeOrderModal();
-      alert("تم إرسال الطلبية بنجاح (محاكاة)");
-    }
+  const mallName = mallSelect.value;
+  if (!mallName) return alert("يرجى اختيار المعرض!");
+
+  fetch("https://catalog-email-server.onrender.com/submit-order", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      mall: mallName,
+      orders: Object.entries(cart).map(([code, d]) => ({
+        code,
+        name: d.name,
+        qty: d.qty
+      }))
+    })
+  })
+  .then(res => res.json())
+  .then(data => {
+    alert(data.message);
+    closeOrderModal();
+  })
+  .catch(err => {
+    alert("❌ حدث خطأ أثناء الإرسال");
+    console.error(err);
+  });
+}
+
 
     function sortBySales() {
       filteredProducts.sort((a, b) => (b.sales || 0) - (a.sales || 0));
