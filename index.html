@@ -29,6 +29,7 @@
       <select id="categoryFilter"></select>
     </label>
     <input type="text" id="searchInput" placeholder="ابحث بالـ Alias..." oninput="renderProducts()" />
+    <button onclick="sortBySales()">ترتيب حسب الأكثر مبيعًا</button>
     <button onclick="openOrderModal()">ارسال الطلبية</button>
   </div>
 
@@ -67,26 +68,26 @@
       categoryFilter.innerHTML = '<option value="">الكل</option>' + categories.map(c => `<option value="${c}">${c}</option>`).join('');
     }
 
-   function renderProducts() {
-  const outlet = warehouseFilter.value;
-  const category = categoryFilter.value;
-  const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
+    function renderProducts() {
+      const outlet = warehouseFilter.value;
+      const category = categoryFilter.value;
+      const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
 
-  if (!outlet) {
-    productContainer.innerHTML = "<h3 style='text-align:center;'>يرجى اختيار مستودع لعرض المنتجات</h3>";
-    pagination.innerHTML = '';
-    return;
-  }
+      if (!outlet) {
+        productContainer.innerHTML = "<h3 style='text-align:center;'>يرجى اختيار مستودع لعرض المنتجات</h3>";
+        pagination.innerHTML = '';
+        return;
+      }
 
-  filteredProducts = data.filter(d =>
-    d.stock > 20 &&
-    (!outlet || d.outlet === outlet) &&
-    (!category || d.category === category) &&
-    (!searchTerm || (d.alias && d.alias.toString().toLowerCase().includes(searchTerm)))
-  );
+      filteredProducts = data.filter(d =>
+        d.stock > 20 &&
+        (!outlet || d.outlet === outlet) &&
+        (!category || d.category === category) &&
+        (!searchTerm || (d.alias && d.alias.toString().toLowerCase().includes(searchTerm)))
+      );
 
-  renderPage(1);
-}
+      renderPage(1);
+    }
 
     function renderPage(page) {
       currentPage = page;
@@ -154,7 +155,11 @@
       }
       closeOrderModal();
       alert("تم إرسال الطلبية بنجاح (محاكاة)");
-      // هنا يمكنك لاحقاً إضافة كود إرسال الطلبية الحقيقي
+    }
+
+    function sortBySales() {
+      filteredProducts.sort((a, b) => (b.sales || 0) - (a.sales || 0));
+      renderPage(1);
     }
 
     warehouseFilter.addEventListener('change', renderProducts);
