@@ -71,6 +71,16 @@ const data = [
   },
   {
     "outlet": "warehouse riyadh",
+    "category": "شراشف",
+    "code": "9999999",
+    "alias": "607301",
+    "name": "test",
+    "price": 79.0,
+    "stock": 13866,
+    "sales": 99999
+  },
+  {
+    "outlet": "warehouse riyadh",
     "category": "مخدات",
     "code": "12309",
     "alias": "9154",
