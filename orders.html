@@ -50,7 +50,7 @@
       <h3>تفاصيل الطلبية</h3>
       <table id="itemsTable">
         <thead>
-          <tr><th>الكود</th><th>الاسم</th><th>الكمية</th></tr>
+          <tr><th>الكود</th><th>الاسم</th><th>Alias</th><th>الكمية</th></tr>
         </thead>
         <tbody></tbody>
       </table>
@@ -111,11 +111,11 @@
       const tbody = document.querySelector("#itemsTable tbody");
       tbody.innerHTML = "";
       if (!data.orders || !Array.isArray(data.orders)) {
-        tbody.innerHTML = "<tr><td colspan='3'>لا توجد تفاصيل</td></tr>";
+        tbody.innerHTML = "<tr><td colspan='4'>لا توجد تفاصيل</td></tr>";
       } else {
         data.orders.forEach(item => {
           const row = document.createElement("tr");
-          row.innerHTML = `<td>${item.code}</td><td>${item.name}</td><td>${item.qty}</td>`;
+          row.innerHTML = `<td>${item.code}</td><td>${item.name}</td><td>${item.alias ?? ''}</td><td>${item.qty}</td>`;
           tbody.appendChild(row);
         });
       }
@@ -134,10 +134,12 @@
         ["المستودع", currentOrder.warehouse],
         ["مستلزمات إضافية", currentOrder.hasExtras ? "نعم" : "لا"],
         [],
-        ["الكود", "الاسم", "الكمية"]
+        ["الكود", "الاسم", "Alias", "الكمية"]
       ];
       if (Array.isArray(currentOrder.orders)) {
-        currentOrder.orders.forEach(item => wsData.push([item.code, item.name, item.qty]));
+        currentOrder.orders.forEach(item => wsData.push([
+          item.code, item.name, item.alias ?? '', item.qty
+        ]));
       }
       const ws = XLSX.utils.aoa_to_sheet(wsData);
       XLSX.utils.book_append_sheet(wb, ws, "طلبية");
