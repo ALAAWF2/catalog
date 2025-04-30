@@ -138,8 +138,12 @@
 
       productContainer.innerHTML = productsToShow.map(d => `
         <div class="product">
-          <img src="images/${d.code}.jpg" alt="${d.name}" 
-     onerror="this.onerror=null; this.src='images/${d.code}.JPG'">
+        <img 
+  src="images/${d.code}.jpg" 
+  alt="${d.name}" 
+  onerror="this.onerror=null; this.src='images/${d.code}.jpeg'; this.onerror=function(){this.src='images/${d.code}.JPG'}" 
+>
+
 
           <h4>${d.name}</h4>
           <p>السعر: ${d.price} ريال</p>
