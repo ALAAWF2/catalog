@@ -62,16 +62,6 @@ const data = [
   {
     "outlet": "Warehouse",
     "category": "شراشف",
-    "code": "9999999",
-    "alias": "607302",
-    "name": "alaa test",
-    "price": 9999.0,
-    "stock": 9999,
-    "sales": 99999
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "شراشف",
     "code": "11700",
     "alias": "607601",
     "name": "SHEET 4 PCS 300 STITSH KING WHITE",
