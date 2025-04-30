@@ -141,10 +141,19 @@
       renderPage(Number(page));
     }
 
-    function addToCart(code, name, qty) {
-      if (qty && parseInt(qty) > 0) cart[code] = { name, qty };
-      else delete cart[code];
-    }
+  function addToCart(code, name, qty) {
+  const product = data.find(p => p.code === code);
+  if (qty && parseInt(qty) > 0) {
+    cart[code] = {
+      name,
+      alias: product.alias ?? '',
+      qty
+    };
+  } else {
+    delete cart[code];
+  }
+}
+
 
     function openOrderModal() {
       const selectedWarehouse = warehouseFilter.value;
@@ -178,6 +187,7 @@
           orders: Object.entries(cart).map(([code, d]) => ({
             code,
             name: d.name,
+			alias: d.alias ?? "", // ← أضف هذا السطر
             qty: d.qty
           }))
         })
