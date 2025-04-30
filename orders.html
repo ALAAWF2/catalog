@@ -62,35 +62,43 @@
     const db = firebase.firestore();
 
     let currentOrder = null;
+    let allOrders = [];
 
     function loadOrders() {
-      db.collection("orders").orderBy("date", "desc").get().then(snapshot => {
+      db.collection("orders").orderBy("timestamp", "desc").get().then(snapshot => {
         const tbody = document.querySelector("#ordersTable tbody");
+        tbody.innerHTML = "";
         snapshot.forEach(doc => {
           const data = doc.data();
+          allOrders.push(data);
+          const date = data.timestamp?.toDate?.()?.toLocaleDateString("ar-EG") || "—";
           const row = document.createElement("tr");
           row.innerHTML = `
-            <td>${new Date(data.date.seconds * 1000).toLocaleString("ar-EG")}</td>
+            <td>${date}</td>
             <td>${data.mall}</td>
             <td>${data.warehouse}</td>
             <td>${data.hasExtras ? 'نعم' : 'لا'}</td>
-            <td><button onclick='showOrder(${JSON.stringify(JSON.stringify(data))})'>عرض</button></td>
+            <td><button onclick='showOrder(${allOrders.length - 1})'>عرض</button></td>
           `;
           tbody.appendChild(row);
         });
       });
     }
 
-    function showOrder(dataString) {
-      const data = JSON.parse(dataString);
+    function showOrder(index) {
+      const data = allOrders[index];
       currentOrder = data;
       const tbody = document.querySelector("#itemsTable tbody");
       tbody.innerHTML = "";
-      data.items.forEach(item => {
-        const row = document.createElement("tr");
-        row.innerHTML = `<td>${item.code}</td><td>${item.name}</td><td>${item.qty}</td>`;
-        tbody.appendChild(row);
-      });
+      if (!data.orders || !Array.isArray(data.orders)) {
+        tbody.innerHTML = "<tr><td colspan='3'>لا توجد تفاصيل</td></tr>";
+      } else {
+        data.orders.forEach(item => {
+          const row = document.createElement("tr");
+          row.innerHTML = `<td>${item.code}</td><td>${item.name}</td><td>${item.qty}</td>`;
+          tbody.appendChild(row);
+        });
+      }
       document.getElementById("modal").style.display = "flex";
     }
 
@@ -108,7 +116,9 @@
         [],
         ["الكود", "الاسم", "الكمية"]
       ];
-      currentOrder.items.forEach(item => wsData.push([item.code, item.name, item.qty]));
+      if (Array.isArray(currentOrder.orders)) {
+        currentOrder.orders.forEach(item => wsData.push([item.code, item.name, item.qty]));
+      }
       const ws = XLSX.utils.aoa_to_sheet(wsData);
       XLSX.utils.book_append_sheet(wb, ws, "طلبية");
       XLSX.writeFile(wb, `طلبية ${currentOrder.mall}.xlsx`);
