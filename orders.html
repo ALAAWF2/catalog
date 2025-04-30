@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>عرض الطلبات</title>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <style>
+    body { font-family: Arial; background: #fdf6f0; padding: 20px; }
+    h1 { text-align: center; color: #e67e22; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+    th { background-color: #e67e22; color: white; }
+    tr:hover { background-color: #f3e8da; }
+    button { padding: 5px 10px; background: #e67e22; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); align-items: center; justify-content: center; }
+    #modalContent { background: white; padding: 20px; border-radius: 10px; max-width: 600px; width: 90%; }
+  </style>
+</head>
+<body>
+  <h1>قائمة الطلبات</h1>
+  <table id="ordersTable">
+    <thead>
+      <tr>
+        <th>التاريخ</th>
+        <th>المعرض</th>
+        <th>المستودع</th>
+        <th>مستلزمات</th>
+        <th>تفاصيل</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div id="modal">
+    <div id="modalContent">
+      <h3>تفاصيل الطلبية</h3>
+      <table id="itemsTable">
+        <thead>
+          <tr><th>الكود</th><th>الاسم</th><th>الكمية</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <br>
+      <button onclick="downloadExcel()">📥 تحميل الطلبية</button>
+      <button onclick="closeModal()" style="background: gray;">إغلاق</button>
+    </div>
+  </div>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDBhsMvDPwECDlFNYNkmFXDVq4nWrEejJc",
+      authDomain: "orders-fb3bf.firebaseapp.com",
+      projectId: "orders-fb3bf",
+      storageBucket: "orders-fb3bf.firebasestorage.app",
+      messagingSenderId: "970674722848",
+      appId: "1:970674722848:web:e2e17f7a62bf59e51f0445",
+      measurementId: "G-7LFHS7SRER"
+    };
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+
+    let currentOrder = null;
+
+    function loadOrders() {
+      db.collection("orders").orderBy("date", "desc").get().then(snapshot => {
+        const tbody = document.querySelector("#ordersTable tbody");
+        snapshot.forEach(doc => {
+          const data = doc.data();
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${new Date(data.date.seconds * 1000).toLocaleString("ar-EG")}</td>
+            <td>${data.mall}</td>
+            <td>${data.warehouse}</td>
+            <td>${data.hasExtras ? 'نعم' : 'لا'}</td>
+            <td><button onclick='showOrder(${JSON.stringify(JSON.stringify(data))})'>عرض</button></td>
+          `;
+          tbody.appendChild(row);
+        });
+      });
+    }
+
+    function showOrder(dataString) {
+      const data = JSON.parse(dataString);
+      currentOrder = data;
+      const tbody = document.querySelector("#itemsTable tbody");
+      tbody.innerHTML = "";
+      data.items.forEach(item => {
+        const row = document.createElement("tr");
+        row.innerHTML = `<td>${item.code}</td><td>${item.name}</td><td>${item.qty}</td>`;
+        tbody.appendChild(row);
+      });
+      document.getElementById("modal").style.display = "flex";
+    }
+
+    function closeModal() {
+      document.getElementById("modal").style.display = "none";
+    }
+
+    function downloadExcel() {
+      if (!currentOrder) return;
+      const wb = XLSX.utils.book_new();
+      const wsData = [
+        ["اسم المعرض", currentOrder.mall],
+        ["المستودع", currentOrder.warehouse],
+        ["مستلزمات إضافية", currentOrder.hasExtras ? "نعم" : "لا"],
+        [],
+        ["الكود", "الاسم", "الكمية"]
+      ];
+      currentOrder.items.forEach(item => wsData.push([item.code, item.name, item.qty]));
+      const ws = XLSX.utils.aoa_to_sheet(wsData);
+      XLSX.utils.book_append_sheet(wb, ws, "طلبية");
+      XLSX.writeFile(wb, `طلبية ${currentOrder.mall}.xlsx`);
+    }
+
+    loadOrders();
+  </script>
+</body>
+</html>
