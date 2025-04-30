@@ -40,6 +40,11 @@
     <div style="background:white; padding:20px; border-radius:10px; text-align:center;">
       <h3>اختر المعرض</h3>
       <select id="mallSelect"></select><br><br>
+      <label>
+        <input type="checkbox" id="extraItemsCheckbox" />
+        يوجد مستلزمات إضافية مع الطلبية
+      </label>
+      <br><br>
       <button onclick="submitOrder()">تأكيد الطلبية</button>
       <button onclick="closeOrderModal()" style="background:grey;">إلغاء</button>
     </div>
@@ -59,27 +64,9 @@
     const cart = {};
 
     const mallMap = {
-  "Warehouse": [
-    "04-Andalos Mall", "05-Haifa Mall", "06-Red Sea Mall", "07-Arab Mall",
-    "08-Makkah Mall", "09-Al-Salam Mall", "11-Jouri Mall", "13-Al-Yasmin Mall",
-    "14-Al Kamal Mall", "17-Arar Othaim Mall", "18-Al_Khayyat Center",
-    "20-Sitten Street Makkah", "21-Abha Al_Rashid Mall New", "22-Tabuk Park",
-    "23-Alia Mall Madinah", "24-Yanbu Dana Mall", "26-Al-Noor Mall Madinah",
-    "41-Khamis Avenue", "43-Mujan Park", "44-Al-Jouf Center", "48 - Jeddah Park",
-    "52-Al_Baha Mall", "53-Al Basateen Mall", "54-THE VILLAGE", "55- Jabl Omar",
-    "56- Aziz Mall 2", "57-Sauq7"
-  ],
-  "warehouse riyadh": [
-    "12-Al_Hamra Mall", "15-Riyadh Othaim Mall", "16-Ehsa Othaim Mall",
-    "19-Hail Othaim Mall", "25-Rabwa Othaim Mall", "27-Dhahran Mall khobar",
-    "28-Al Nakheel Mall Dammam", "29-Al Nakheel Mall Riyadh",
-    "30-Tala Mall Riyadh", "32-Atyaf Mall Riyadh", "36-Al jubail Mall",
-    "38-Al_Riyadh Park", "39-Salam Mall Riyadh", "40-Hayat Mall Riyad",
-    "42-Dareen Mall Dammam", "45- Riyadh Gallery Mall", "46-Khaleej Mall Riyadh",
-    "47-Al-Nakheel Plaza", "49-AlAhsa Mall", "50-Meem Plaza Riyadh",
-    "51-Park Avenue Riyadh"
-  ]
-};
+      "Warehouse": [ "04-Andalos Mall", "05-Haifa Mall", "06-Red Sea Mall", "07-Arab Mall", "08-Makkah Mall", "09-Al-Salam Mall", "11-Jouri Mall", "13-Al-Yasmin Mall", "14-Al Kamal Mall", "17-Arar Othaim Mall", "18-Al_Khayyat Center", "20-Sitten Street Makkah", "21-Abha Al_Rashid Mall New", "22-Tabuk Park", "23-Alia Mall Madinah", "24-Yanbu Dana Mall", "26-Al-Noor Mall Madinah", "41-Khamis Avenue", "43-Mujan Park", "44-Al-Jouf Center", "48 - Jeddah Park", "52-Al_Baha Mall", "53-Al Basateen Mall", "54-THE VILLAGE", "55- Jabl Omar", "56- Aziz Mall 2", "57-Sauq7" ],
+      "warehouse riyadh": [ "12-Al_Hamra Mall", "15-Riyadh Othaim Mall", "16-Ehsa Othaim Mall", "19-Hail Othaim Mall", "25-Rabwa Othaim Mall", "27-Dhahran Mall khobar", "28-Al Nakheel Mall Dammam", "29-Al Nakheel Mall Riyadh", "30-Tala Mall Riyadh", "32-Atyaf Mall Riyadh", "36-Al jubail Mall", "38-Al_Riyadh Park", "39-Salam Mall Riyadh", "40-Hayat Mall Riyad", "42-Dareen Mall Dammam", "45- Riyadh Gallery Mall", "46-Khaleej Mall Riyadh", "47-Al-Nakheel Plaza", "49-AlAhsa Mall", "50-Meem Plaza Riyadh", "51-Park Avenue Riyadh" ]
+    };
 
     function populateFilters() {
       const outlets = [...new Set(data.map(d => d.outlet))];
@@ -123,9 +110,8 @@
           <p>السعر: ${d.price} ريال</p>
           <p><strong>الكود:</strong> ${d.code}</p>
           <p><strong>Alias:</strong> ${d.alias ?? '—'}</p>
-         <p>الكمية المباعة: ${d.sales ?? '—'}</p>
+          <p>الكمية المباعة: ${d.sales ?? '—'}</p>
           <input type="number" min="1" placeholder="الكمية المطلوبة" value="${cart[d.code]?.qty ?? ''}" onchange="addToCart('${d.code}', '${d.name}', this.value)">
-
         </div>
       `).join('');
 
@@ -161,56 +147,50 @@
     }
 
     function openOrderModal() {
-  const selectedWarehouse = warehouseFilter.value;
+      const selectedWarehouse = warehouseFilter.value;
+      if (!selectedWarehouse || !mallMap[selectedWarehouse]) {
+        alert("يرجى اختيار مستودع أولاً.");
+        return;
+      }
 
-  if (!selectedWarehouse || !mallMap[selectedWarehouse]) {
-    alert("يرجى اختيار مستودع أولاً.");
-    return;
-  }
-
-  mallSelect.innerHTML = mallMap[selectedWarehouse]
-    .map(m => `<option value="${m}">${m}</option>`)
-    .join('');
-
-  document.getElementById('orderModal').style.display = 'flex';
-}
-
+      mallSelect.innerHTML = mallMap[selectedWarehouse]
+        .map(m => `<option value="${m}">${m}</option>`)
+        .join('');
+      document.getElementById('orderModal').style.display = 'flex';
+    }
 
     function closeOrderModal() {
       document.getElementById('orderModal').style.display = 'none';
     }
 
     function submitOrder() {
-  const mallName = mallSelect.value;
-  if (!mallName) return alert("يرجى اختيار المعرض!");
+      const mallName = mallSelect.value;
+      const hasExtras = document.getElementById("extraItemsCheckbox").checked;
 
-  fetch("https://catalog-email-server.onrender.com/submit-order", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      mall: mallName,
-      orders: Object.entries(cart).map(([code, d]) => ({
-        code,
-        name: d.name,
-        qty: d.qty
-      }))
-    })
-  })
-  .then(res => res.json())
-  .then(data => {
-    alert(data.message);
-    closeOrderModal();
-  })
-  .catch(err => {
-    alert("❌ حدث خطأ أثناء الإرسال");
-    console.error(err);
-  });
-}
+      if (!mallName) return alert("يرجى اختيار المعرض!");
 
-
-    function sortBySales() {
-      filteredProducts.sort((a, b) => (b.sales || 0) - (a.sales || 0));
-      renderPage(1);
+      fetch("https://catalog-email-server.onrender.com/submit-order", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          mall: mallName,
+          hasExtras: hasExtras,
+          orders: Object.entries(cart).map(([code, d]) => ({
+            code,
+            name: d.name,
+            qty: d.qty
+          }))
+        })
+      })
+      .then(res => res.json())
+      .then(data => {
+        alert(data.message);
+        closeOrderModal();
+      })
+      .catch(err => {
+        alert("❌ حدث خطأ أثناء الإرسال");
+        console.error(err);
+      });
     }
 
     warehouseFilter.addEventListener('change', renderProducts);
