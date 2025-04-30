@@ -9,17 +9,27 @@
   <style>
     body { font-family: Arial; background: #fdf6f0; padding: 20px; }
     h1 { text-align: center; color: #e67e22; }
+    select { padding: 5px; margin-bottom: 15px; font-size: 14px; }
     table { width: 100%; border-collapse: collapse; margin-top: 20px; }
     th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
     th { background-color: #e67e22; color: white; }
     tr:hover { background-color: #f3e8da; }
-    button { padding: 5px 10px; background: #e67e22; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    button { padding: 5px 10px; background: #e67e22; color: white; border: none; border-radius: 4px; cursor: pointer; margin: 2px; }
     #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); align-items: center; justify-content: center; }
     #modalContent { background: white; padding: 20px; border-radius: 10px; max-width: 600px; width: 90%; }
   </style>
 </head>
 <body>
   <h1>قائمة الطلبات</h1>
+
+  <label>فلترة حسب المستودع:
+    <select id="warehouseFilter" onchange="loadOrders()">
+      <option value="all">الكل</option>
+      <option value="Warehouse">مستودع جدة</option>
+      <option value="warehouse riyadh">مستودع الرياض</option>
+    </select>
+  </label>
+
   <table id="ordersTable">
     <thead>
       <tr>
@@ -28,6 +38,8 @@
         <th>المستودع</th>
         <th>مستلزمات</th>
         <th>تفاصيل</th>
+        <th>الحالة</th>
+        <th>إجراء</th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -63,14 +75,20 @@
 
     let currentOrder = null;
     let allOrders = [];
+    let allDocs = [];
 
     function loadOrders() {
+      const filter = document.getElementById("warehouseFilter").value;
       db.collection("orders").orderBy("timestamp", "desc").get().then(snapshot => {
         const tbody = document.querySelector("#ordersTable tbody");
         tbody.innerHTML = "";
+        allOrders = [];
+        allDocs = [];
         snapshot.forEach(doc => {
           const data = doc.data();
+          if (filter !== "all" && data.warehouse !== filter) return;
           allOrders.push(data);
+          allDocs.push(doc.id);
           const date = data.timestamp?.toDate?.()?.toLocaleDateString("ar-EG") || "—";
           const row = document.createElement("tr");
           row.innerHTML = `
@@ -79,6 +97,8 @@
             <td>${data.warehouse}</td>
             <td>${data.hasExtras ? 'نعم' : 'لا'}</td>
             <td><button onclick='showOrder(${allOrders.length - 1})'>عرض</button></td>
+            <td>${data.status || '—'}</td>
+            <td><button onclick='updateStatus(${allOrders.length - 1})'>🚚 تم الإرسال</button></td>
           `;
           tbody.appendChild(row);
         });
@@ -122,6 +142,19 @@
       const ws = XLSX.utils.aoa_to_sheet(wsData);
       XLSX.utils.book_append_sheet(wb, ws, "طلبية");
       XLSX.writeFile(wb, `طلبية ${currentOrder.mall}.xlsx`);
+    }
+
+    function updateStatus(index) {
+      const docId = allDocs[index];
+      db.collection("orders").doc(docId).update({ status: "تم الإرسال" })
+        .then(() => {
+          alert("✅ تم تحديث حالة الطلبية");
+          loadOrders();
+        })
+        .catch(err => {
+          alert("❌ فشل التحديث");
+          console.error(err);
+        });
     }
 
     loadOrders();
