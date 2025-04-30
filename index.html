@@ -79,9 +79,28 @@
     const cart = {};
 
     const mallMap = {
-      "Warehouse": [ /* ... */ ],
-      "warehouse riyadh": [ /* ... */ ]
-    };
+  "Warehouse": [
+    "04-Andalos Mall", "05-Haifa Mall", "06-Red Sea Mall", "07-Arab Mall",
+    "08-Makkah Mall", "09-Al-Salam Mall", "11-Jouri Mall", "13-Al-Yasmin Mall",
+    "14-Al Kamal Mall", "17-Arar Othaim Mall", "18-Al_Khayyat Center",
+    "20-Sitten Street Makkah", "21-Abha Al_Rashid Mall New", "22-Tabuk Park",
+    "23-Alia Mall Madinah", "24-Yanbu Dana Mall", "26-Al-Noor Mall Madinah",
+    "41-Khamis Avenue", "43-Mujan Park", "44-Al-Jouf Center", "48 - Jeddah Park",
+    "52-Al_Baha Mall", "53-Al Basateen Mall", "54-THE VILLAGE", "55- Jabl Omar",
+    "56- Aziz Mall 2", "57-Sauq7"
+  ],
+  "warehouse riyadh": [
+    "12-Al_Hamra Mall", "15-Riyadh Othaim Mall", "16-Ehsa Othaim Mall",
+    "19-Hail Othaim Mall", "25-Rabwa Othaim Mall", "27-Dhahran Mall khobar",
+    "28-Al Nakheel Mall Dammam", "29-Al Nakheel Mall Riyadh",
+    "30-Tala Mall Riyadh", "32-Atyaf Mall Riyadh", "36-Al jubail Mall",
+    "38-Al_Riyadh Park", "39-Salam Mall Riyadh", "40-Hayat Mall Riyad",
+    "42-Dareen Mall Dammam", "45- Riyadh Gallery Mall", "46-Khaleej Mall Riyadh",
+    "47-Al-Nakheel Plaza", "49-AlAhsa Mall", "50-Meem Plaza Riyadh",
+    "51-Park Avenue Riyadh"
+  ]
+};
+
 
     function populateFilters() {
       const outlets = [...new Set(data.map(d => d.outlet))];
