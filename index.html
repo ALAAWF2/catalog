@@ -193,6 +193,29 @@
       });
     }
 
+    function sortBySales() {
+      const outlet = warehouseFilter.value;
+      const category = categoryFilter.value;
+      const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
+
+      if (!outlet) {
+        productContainer.innerHTML = "<h3 style='text-align:center;'>يرجى اختيار مستودع لعرض المنتجات</h3>";
+        pagination.innerHTML = '';
+        return;
+      }
+
+      filteredProducts = data.filter(d =>
+        d.stock > 20 &&
+        (!outlet || d.outlet === outlet) &&
+        (!category || d.category === category) &&
+        (!searchTerm || (d.alias && d.alias.toString().toLowerCase().includes(searchTerm)))
+      );
+
+      filteredProducts.sort((a, b) => (b.sales || 0) - (a.sales || 0));
+
+      renderPage(1);
+    }
+
     warehouseFilter.addEventListener('change', renderProducts);
     categoryFilter.addEventListener('change', renderProducts);
 
