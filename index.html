@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>جدول البضاعة</title>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
   <style>
     body { font-family: Arial; background: #fff8f0; padding: 20px; }
     h1 { text-align: center; color: #e67e22; }
@@ -52,6 +54,19 @@
 
   <script src="products.js"></script>
   <script>
+    // Firebase config
+    const firebaseConfig = {
+      apiKey: "AIzaSyDBhsMvDPwECDlFNYNkmFXDVq4nWrEejJc",
+      authDomain: "orders-fb3bf.firebaseapp.com",
+      projectId: "orders-fb3bf",
+      storageBucket: "orders-fb3bf.firebasestorage.app",
+      messagingSenderId: "970674722848",
+      appId: "1:970674722848:web:e2e17f7a62bf59e51f0445",
+      measurementId: "G-7LFHS7SRER"
+    };
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+
     const warehouseFilter = document.getElementById('warehouseFilter');
     const categoryFilter = document.getElementById('categoryFilter');
     const productContainer = document.getElementById('productContainer');
@@ -64,8 +79,8 @@
     const cart = {};
 
     const mallMap = {
-      "Warehouse": [ "04-Andalos Mall", "05-Haifa Mall", "06-Red Sea Mall", "07-Arab Mall", "08-Makkah Mall", "09-Al-Salam Mall", "11-Jouri Mall", "13-Al-Yasmin Mall", "14-Al Kamal Mall", "17-Arar Othaim Mall", "18-Al_Khayyat Center", "20-Sitten Street Makkah", "21-Abha Al_Rashid Mall New", "22-Tabuk Park", "23-Alia Mall Madinah", "24-Yanbu Dana Mall", "26-Al-Noor Mall Madinah", "41-Khamis Avenue", "43-Mujan Park", "44-Al-Jouf Center", "48 - Jeddah Park", "52-Al_Baha Mall", "53-Al Basateen Mall", "54-THE VILLAGE", "55- Jabl Omar", "56- Aziz Mall 2", "57-Sauq7" ],
-      "warehouse riyadh": [ "12-Al_Hamra Mall", "15-Riyadh Othaim Mall", "16-Ehsa Othaim Mall", "19-Hail Othaim Mall", "25-Rabwa Othaim Mall", "27-Dhahran Mall khobar", "28-Al Nakheel Mall Dammam", "29-Al Nakheel Mall Riyadh", "30-Tala Mall Riyadh", "32-Atyaf Mall Riyadh", "36-Al jubail Mall", "38-Al_Riyadh Park", "39-Salam Mall Riyadh", "40-Hayat Mall Riyad", "42-Dareen Mall Dammam", "45- Riyadh Gallery Mall", "46-Khaleej Mall Riyadh", "47-Al-Nakheel Plaza", "49-AlAhsa Mall", "50-Meem Plaza Riyadh", "51-Park Avenue Riyadh" ]
+      "Warehouse": [ /* ... */ ],
+      "warehouse riyadh": [ /* ... */ ]
     };
 
     function populateFilters() {
@@ -90,7 +105,7 @@
         d.stock > 20 &&
         (!outlet || d.outlet === outlet) &&
         (!category || d.category === category) &&
-        (!searchTerm || (d.alias && d.alias.toString().toLowerCase().includes(searchTerm)))
+        (!searchTerm || (d.alias && d.alias.toLowerCase().includes(searchTerm)))
       );
 
       renderPage(1);
@@ -143,11 +158,7 @@
     function addToCart(code, name, qty) {
       const product = data.find(p => p.code === code);
       if (qty && parseInt(qty) > 0) {
-        cart[code] = {
-          name,
-          alias: product.alias ?? '',
-          qty
-        };
+        cart[code] = { name, alias: product.alias ?? '', qty };
       } else {
         delete cart[code];
       }
@@ -160,9 +171,7 @@
         return;
       }
 
-      mallSelect.innerHTML = mallMap[selectedWarehouse]
-        .map(m => `<option value="${m}">${m}</option>`)
-        .join('');
+      mallSelect.innerHTML = mallMap[selectedWarehouse].map(m => `<option value="${m}">${m}</option>`).join('');
       document.getElementById('orderModal').style.display = 'flex';
     }
 
@@ -173,30 +182,26 @@
     function submitOrder() {
       const mallName = mallSelect.value;
       const hasExtras = document.getElementById("extraItemsCheckbox").checked;
+      const selectedWarehouse = warehouseFilter.value;
 
       if (!mallName) return alert("يرجى اختيار المعرض!");
 
-      fetch("https://catalog-email-server.onrender.com/submit-order", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          mall: mallName,
-          hasExtras: hasExtras,
-          orders: Object.entries(cart).map(([code, d]) => ({
-            code,
-            name: d.name,
-            alias: d.alias ?? "",
-            qty: d.qty
-          }))
-        })
-      })
-      .then(res => res.json())
-      .then(data => {
-        alert(data.message);
+      db.collection("orders").add({
+        mall: mallName,
+        warehouse: selectedWarehouse,
+        hasExtras: hasExtras,
+        orders: Object.entries(cart).map(([code, d]) => ({
+          code,
+          name: d.name,
+          alias: d.alias ?? "",
+          qty: d.qty
+        })),
+        timestamp: firebase.firestore.FieldValue.serverTimestamp()
+      }).then(() => {
+        alert("✅ تم حفظ الطلبية بنجاح");
         closeOrderModal();
-      })
-      .catch(err => {
-        alert("❌ حدث خطأ أثناء الإرسال");
+      }).catch(err => {
+        alert("❌ حدث خطأ أثناء الحفظ");
         console.error(err);
       });
     }
@@ -216,11 +221,10 @@
         d.stock > 20 &&
         (!outlet || d.outlet === outlet) &&
         (!category || d.category === category) &&
-        (!searchTerm || (d.alias && d.alias.toString().toLowerCase().includes(searchTerm)))
+        (!searchTerm || (d.alias && d.alias.toLowerCase().includes(searchTerm)))
       );
 
       filteredProducts.sort((a, b) => (b.sales || 0) - (a.sales || 0));
-
       renderPage(1);
     }
 
