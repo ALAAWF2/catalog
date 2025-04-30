@@ -71,7 +71,6 @@
     function populateFilters() {
       const outlets = [...new Set(data.map(d => d.outlet))];
       const categories = [...new Set(data.map(d => d.category))];
-
       warehouseFilter.innerHTML = '<option value="">الكل</option>' + outlets.map(o => `<option value="${o}">${o}</option>`).join('');
       categoryFilter.innerHTML = '<option value="">الكل</option>' + categories.map(c => `<option value="${c}">${c}</option>`).join('');
     }
@@ -141,19 +140,18 @@
       renderPage(Number(page));
     }
 
-  function addToCart(code, name, qty) {
-  const product = data.find(p => p.code === code);
-  if (qty && parseInt(qty) > 0) {
-    cart[code] = {
-      name,
-      alias: product.alias ?? '',
-      qty
-    };
-  } else {
-    delete cart[code];
-  }
-}
-
+    function addToCart(code, name, qty) {
+      const product = data.find(p => p.code === code);
+      if (qty && parseInt(qty) > 0) {
+        cart[code] = {
+          name,
+          alias: product.alias ?? '',
+          qty
+        };
+      } else {
+        delete cart[code];
+      }
+    }
 
     function openOrderModal() {
       const selectedWarehouse = warehouseFilter.value;
@@ -187,7 +185,7 @@
           orders: Object.entries(cart).map(([code, d]) => ({
             code,
             name: d.name,
-			alias: d.alias ?? "", // ← أضف هذا السطر
+            alias: d.alias ?? "",
             qty: d.qty
           }))
         })
