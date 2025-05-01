@@ -155,6 +155,8 @@
           <p><strong>الكود:</strong> ${d.code}</p>
           <p><strong>Alias:</strong> ${d.alias ?? '—'}</p>
           <p>الكمية المباعة: ${d.sales !== undefined ? d.sales : '—'}</p>
+		  <p><strong>الكمية المتوفرة:</strong> ${d.stock ?? '—'}</p>
+		  
 
          <input type="number" min="1" placeholder="الكمية المطلوبة" value="${cart[d.code]?.qty ?? ''}" onchange="addToCart('${d.code}', '${d.name}', this.value)">
         </div>
