@@ -246,32 +246,38 @@ function updateTotalSales() {
       document.getElementById('orderModal').style.display = 'none';
     }
 
-    function submitOrder() {
-      const mallName = mallSelect.value;
-      const hasExtras = document.getElementById("extraItemsCheckbox").checked;
-      const selectedWarehouse = warehouseFilter.value;
+  function submitOrder() {
+  const mallName = mallSelect.value;
+  const hasExtras = document.getElementById("extraItemsCheckbox").checked;
+  const selectedWarehouse = warehouseFilter.value;
 
-      if (!mallName) return alert("يرجى اختيار المعرض!");
+  if (!mallName) return alert("يرجى اختيار المعرض!");
 
-      db.collection("orders").add({
-        mall: mallName,
-        warehouse: selectedWarehouse,
-        hasExtras: hasExtras,
-        orders: Object.entries(cart).map(([code, d]) => ({
-          code,
-          name: d.name,
-          alias: d.alias ?? "",
-          qty: d.qty
-        })),
-        timestamp: firebase.firestore.FieldValue.serverTimestamp()
-      }).then(() => {
-        alert("✅ تم حفظ الطلبية بنجاح");
-        closeOrderModal();
-      }).catch(err => {
-        alert("❌ حدث خطأ أثناء الحفظ");
-        console.error(err);
-      });
-    }
+  if (Object.keys(cart).length === 0) {
+    alert("🚫 لا يمكن إرسال طلبية بدون منتجات");
+    return;
+  }
+
+  db.collection("orders").add({
+    mall: mallName,
+    warehouse: selectedWarehouse,
+    hasExtras: hasExtras,
+    orders: Object.entries(cart).map(([code, d]) => ({
+      code,
+      name: d.name,
+      alias: d.alias ?? "",
+      qty: d.qty
+    })),
+    timestamp: firebase.firestore.FieldValue.serverTimestamp()
+  }).then(() => {
+    alert("✅ تم حفظ الطلبية بنجاح");
+    closeOrderModal();
+  }).catch(err => {
+    alert("❌ حدث خطأ أثناء الحفظ");
+    console.error(err);
+  });
+}
+
 
     function sortBySales() {
       const outlet = warehouseFilter.value;
