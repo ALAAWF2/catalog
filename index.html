@@ -138,24 +138,48 @@
 
       productContainer.innerHTML = productsToShow.map(d => `
         <div class="product">
-        <img 
-  src="images/${d.code}.jpg" 
-  alt="${d.name}" 
-  onerror="this.onerror=null; this.src='images/${d.code}.jpeg'; this.onerror=function(){this.src='images/${d.code}.JPG'}" 
->
+       <img loading="lazy"
+     src="images/${d.code}.jpg"
+     alt="${d.name}"
+     onerror="handleImageError(this, '${d.code}')">
+
+
 
 
           <h4>${d.name}</h4>
           <p>السعر: ${d.price} ريال</p>
           <p><strong>الكود:</strong> ${d.code}</p>
           <p><strong>Alias:</strong> ${d.alias ?? '—'}</p>
-          <p>الكمية المباعة: ${d.sales ?? '—'}</p>
+          <p>الكمية المباعة: ${d.sales !== undefined ? d.sales : '—'}</p>
+
           <input type="number" min="1" placeholder="الكمية المطلوبة" value="${cart[d.code]?.qty ?? ''}" onchange="addToCart('${d.code}', '${d.name}', this.value)">
         </div>
       `).join('');
 
       renderPagination();
     }
+	
+	function handleImageError(img, code) {
+  const tried = img.getAttribute("data-tried") || "";
+
+  if (!tried.includes("jpg")) {
+    img.setAttribute("data-tried", tried + "jpg;");
+    img.src = `images/${code}.jpg`;
+  } else if (!tried.includes("jpeg")) {
+    img.setAttribute("data-tried", tried + "jpeg;");
+    img.src = `images/${code}.jpeg`;
+  } else if (!tried.includes("JPG")) {
+    img.setAttribute("data-tried", tried + "JPG;");
+    img.src = `images/${code}.JPG`;
+  } else if (!tried.includes("JPEG")) {
+    img.setAttribute("data-tried", tried + "JPEG;");
+    img.src = `images/${code}.JPEG`;
+  } else {
+    img.src = 'images/noimage.png';
+  }
+}
+
+
 
     function renderPagination() {
       const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
