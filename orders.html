@@ -16,7 +16,16 @@
     tr:hover { background-color: #f3e8da; }
     button { padding: 5px 10px; background: #e67e22; color: white; border: none; border-radius: 4px; cursor: pointer; margin: 2px; }
     #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); align-items: center; justify-content: center; }
-    #modalContent { background: white; padding: 20px; border-radius: 10px; max-width: 600px; width: 90%; }
+    #modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh; /* نحدد أقصى ارتفاع */
+  display: flex;
+  flex-direction: column;
+}
   </style>
 </head>
 <body>
@@ -45,20 +54,22 @@
     <tbody></tbody>
   </table>
 
-  <div id="modal">
-    <div id="modalContent">
-      <h3>تفاصيل الطلبية</h3>
-      <table id="itemsTable">
-        <thead>
-          <tr><th>الكود</th><th>الاسم</th><th>Alias</th><th>الكمية</th></tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-      <br>
-      <button onclick="downloadExcel()">📥 تحميل الطلبية</button>
-      <button onclick="closeModal()" style="background: gray;">إغلاق</button>
-    </div>
+  <div id="modalContent">
+  <h3>تفاصيل الطلبية</h3>
+  <div style="flex: 1; overflow-y: auto;">
+    <table id="itemsTable">
+      <thead>
+        <tr><th>الكود</th><th>الاسم</th><th>Alias</th><th>الكمية</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
   </div>
+  <div style="text-align: center; margin-top: 10px;">
+    <button onclick="downloadExcel()">📥 تحميل الطلبية</button>
+    <button onclick="closeModal()" style="background: gray;">إغلاق</button>
+  </div>
+</div>
+
 
   <script>
     const firebaseConfig = {
