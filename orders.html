@@ -107,9 +107,13 @@
             <td>${data.mall}</td>
             <td>${data.warehouse}</td>
             <td>${data.hasExtras ? 'نعم' : 'لا'}</td>
-            <td><button onclick='showOrder(${allOrders.length - 1})'>عرض</button></td>
-            <td>${data.status || '—'}</td>
-            <td><button onclick='updateStatus(${allOrders.length - 1})'>🚚 تم الإرسال</button></td>
+            <td>
+  <button onclick='showOrder(${allOrders.length - 1})'>عرض</button>
+  <button onclick='downloadExcelDirect(${allOrders.length - 1})'>تحميل</button>
+</td>
+<td>${data.status || '—'}</td>
+<td><button onclick='updateStatus(${allOrders.length - 1})'>🚚 تم الإرسال</button></td>
+
           `;
           tbody.appendChild(row);
         });
@@ -137,25 +141,27 @@
       document.getElementById("modal").style.display = "none";
     }
 
-    function downloadExcel() {
-      if (!currentOrder) return;
-      const wb = XLSX.utils.book_new();
-      const wsData = [
-        ["اسم المعرض", currentOrder.mall],
-        ["المستودع", currentOrder.warehouse],
-        ["مستلزمات إضافية", currentOrder.hasExtras ? "نعم" : "لا"],
-        [],
-        ["الكود", "الاسم", "Alias", "الكمية"]
-      ];
-      if (Array.isArray(currentOrder.orders)) {
-        currentOrder.orders.forEach(item => wsData.push([
-          item.code, item.name, item.alias ?? '', item.qty
-        ]));
-      }
-      const ws = XLSX.utils.aoa_to_sheet(wsData);
-      XLSX.utils.book_append_sheet(wb, ws, "طلبية");
-      XLSX.writeFile(wb, `طلبية ${currentOrder.mall}.xlsx`);
-    }
+    function downloadExcelDirect(index) {
+  const data = allOrders[index];
+  if (!data) return;
+
+  const wb = XLSX.utils.book_new();
+  const wsData = [
+    ["اسم المعرض", data.mall],
+    ["المستودع", data.warehouse],
+    ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
+    [],
+    ["الكود", "الاسم", "Alias", "الكمية"]
+  ];
+  if (Array.isArray(data.orders)) {
+    data.orders.forEach(item => wsData.push([
+      item.code, item.name, item.alias ?? '', item.qty
+    ]));
+  }
+  const ws = XLSX.utils.aoa_to_sheet(wsData);
+  XLSX.utils.book_append_sheet(wb, ws, "طلبية");
+  XLSX.writeFile(wb, `طلبية ${data.mall}.xlsx`);
+}
 
     function updateStatus(index) {
       const docId = allDocs[index];
