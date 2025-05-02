@@ -17,20 +17,19 @@
     button { padding: 5px 10px; background: #e67e22; color: white; border: none; border-radius: 4px; cursor: pointer; margin: 2px; }
     #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); align-items: center; justify-content: center; }
     #modalContent {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 600px;
-  width: 90%;
-  max-height: 90vh; /* نحدد أقصى ارتفاع */
-  display: flex;
-  flex-direction: column;
-}
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      width: 90%;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+    }
   </style>
 </head>
 <body>
   <h1>قائمة الطلبات</h1>
-
   <label>فلترة حسب المستودع:
     <select id="warehouseFilter" onchange="loadOrders()">
       <option value="all">الكل</option>
@@ -54,22 +53,23 @@
     <tbody></tbody>
   </table>
 
-  <div id="modalContent">
-  <h3>تفاصيل الطلبية</h3>
-  <div style="flex: 1; overflow-y: auto;">
-    <table id="itemsTable">
-      <thead>
-        <tr><th>الكود</th><th>الاسم</th><th>Alias</th><th>الكمية</th></tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+  <div id="modal" style="display: none;">
+    <div id="modalContent">
+      <h3>تفاصيل الطلبية</h3>
+      <div style="flex: 1; overflow-y: auto;">
+        <table id="itemsTable">
+          <thead>
+            <tr><th>الكود</th><th>الاسم</th><th>Alias</th><th>الكمية</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div style="text-align: center; margin-top: 10px;">
+        <button onclick="downloadExcel()">📥 تحميل الطلبية</button>
+        <button onclick="closeModal()" style="background: gray;">إغلاق</button>
+      </div>
+    </div>
   </div>
-  <div style="text-align: center; margin-top: 10px;">
-    <button onclick="downloadExcel()">📥 تحميل الطلبية</button>
-    <button onclick="closeModal()" style="background: gray;">إغلاق</button>
-  </div>
-</div>
-
 
   <script>
     const firebaseConfig = {
@@ -85,21 +85,19 @@
     const db = firebase.firestore();
 
     let currentOrder = null;
-    let allOrders = [];
-    let allDocs = [];
+    let orderMap = new Map();
 
     function loadOrders() {
       const filter = document.getElementById("warehouseFilter").value;
       db.collection("orders").orderBy("timestamp", "desc").get().then(snapshot => {
         const tbody = document.querySelector("#ordersTable tbody");
         tbody.innerHTML = "";
-        allOrders = [];
-        allDocs = [];
+        orderMap.clear();
         snapshot.forEach(doc => {
           const data = doc.data();
           if (filter !== "all" && data.warehouse !== filter) return;
-          allOrders.push(data);
-          allDocs.push(doc.id);
+          orderMap.set(doc.id, data);
+
           const date = data.timestamp?.toDate?.()?.toLocaleDateString("ar-EG") || "—";
           const row = document.createElement("tr");
           row.innerHTML = `
@@ -108,20 +106,20 @@
             <td>${data.warehouse}</td>
             <td>${data.hasExtras ? 'نعم' : 'لا'}</td>
             <td>
-  <button onclick='showOrder(${allOrders.length - 1})'>عرض</button>
-  <button onclick='downloadExcelDirect(${allOrders.length - 1})'>تحميل</button>
-</td>
-<td>${data.status || '—'}</td>
-<td><button onclick='updateStatus(${allOrders.length - 1})'>🚚 تم الإرسال</button></td>
-
+              <button onclick='showOrder("${doc.id}")'>عرض</button>
+              <button onclick='downloadExcelDirect("${doc.id}")'>تحميل</button>
+            </td>
+            <td>${data.status || '—'}</td>
+            <td><button onclick='updateStatus("${doc.id}")'>🚚 تم الإرسال</button></td>
           `;
           tbody.appendChild(row);
         });
       });
     }
 
-    function showOrder(index) {
-      const data = allOrders[index];
+    function showOrder(docId) {
+      const data = orderMap.get(docId);
+      if (!data) return;
       currentOrder = data;
       const tbody = document.querySelector("#itemsTable tbody");
       tbody.innerHTML = "";
@@ -141,30 +139,49 @@
       document.getElementById("modal").style.display = "none";
     }
 
-    function downloadExcelDirect(index) {
-  const data = allOrders[index];
-  if (!data) return;
+    function downloadExcel() {
+      if (!currentOrder) return;
+      const wb = XLSX.utils.book_new();
+      const wsData = [
+        ["اسم المعرض", currentOrder.mall],
+        ["المستودع", currentOrder.warehouse],
+        ["مستلزمات إضافية", currentOrder.hasExtras ? "نعم" : "لا"],
+        [],
+        ["الكود", "الاسم", "Alias", "الكمية"]
+      ];
+      if (Array.isArray(currentOrder.orders)) {
+        currentOrder.orders.forEach(item => wsData.push([
+          item.code, item.name, item.alias ?? '', item.qty
+        ]));
+      }
+      const ws = XLSX.utils.aoa_to_sheet(wsData);
+      XLSX.utils.book_append_sheet(wb, ws, "طلبية");
+      XLSX.writeFile(wb, `طلبية ${currentOrder.mall}.xlsx`);
+    }
 
-  const wb = XLSX.utils.book_new();
-  const wsData = [
-    ["اسم المعرض", data.mall],
-    ["المستودع", data.warehouse],
-    ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
-    [],
-    ["الكود", "الاسم", "Alias", "الكمية"]
-  ];
-  if (Array.isArray(data.orders)) {
-    data.orders.forEach(item => wsData.push([
-      item.code, item.name, item.alias ?? '', item.qty
-    ]));
-  }
-  const ws = XLSX.utils.aoa_to_sheet(wsData);
-  XLSX.utils.book_append_sheet(wb, ws, "طلبية");
-  XLSX.writeFile(wb, `طلبية ${data.mall}.xlsx`);
-}
+    function downloadExcelDirect(docId) {
+      const data = orderMap.get(docId);
+      if (!data) return;
 
-    function updateStatus(index) {
-      const docId = allDocs[index];
+      const wb = XLSX.utils.book_new();
+      const wsData = [
+        ["اسم المعرض", data.mall],
+        ["المستودع", data.warehouse],
+        ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
+        [],
+        ["الكود", "الاسم", "Alias", "الكمية"]
+      ];
+      if (Array.isArray(data.orders)) {
+        data.orders.forEach(item => wsData.push([
+          item.code, item.name, item.alias ?? '', item.qty
+        ]));
+      }
+      const ws = XLSX.utils.aoa_to_sheet(wsData);
+      XLSX.utils.book_append_sheet(wb, ws, "طلبية");
+      XLSX.writeFile(wb, `طلبية ${data.mall}.xlsx`);
+    }
+
+    function updateStatus(docId) {
       db.collection("orders").doc(docId).update({ status: "تم الإرسال" })
         .then(() => {
           alert("✅ تم تحديث حالة الطلبية");
