@@ -98,7 +98,9 @@
           if (filter !== "all" && data.warehouse !== filter) return;
           orderMap.set(doc.id, data);
 
-          const date = data.timestamp?.toDate?.()?.toLocaleDateString("ar-EG") || "—";
+          const dateObj = data.timestamp?.toDate?.();
+const date = dateObj ? dateObj.toLocaleString("en-GB", { hour12: false }) : "—";
+
           const row = document.createElement("tr");
           row.innerHTML = `
             <td>${date}</td>
