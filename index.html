@@ -73,7 +73,8 @@
     let currentUser = null;
     let userWarehouse = "";
     let userMall = "";
-    const cart = {};
+    let cart = {};
+
     const productsPerPage = 40;
     let filteredProducts = [], currentPage = 1;
 
@@ -89,7 +90,32 @@
         populateFilters();
         renderProducts();
       }
+	  else {
+  cart = {};
+  userWarehouse = "";
+  renderProducts(); // لإخفاء المنتجات
+}
+
+	  
     });
+	
+	let logoutTimer;
+
+function resetLogoutTimer() {
+  if (logoutTimer) clearTimeout(logoutTimer);
+  logoutTimer = setTimeout(() => {
+    if (currentUser) {
+      alert("تم تسجيل الخروج تلقائيًا بعد 15 دقيقة من عدم التفاعل.");
+      auth.signOut();
+    }
+  }, 15 * 60 * 1000); // 15 دقيقة بالمللي ثانية
+}
+
+// مراقبة أي تفاعل لتجديد المؤقت
+['click', 'mousemove', 'keydown', 'scroll', 'touchstart'].forEach(event => {
+  document.addEventListener(event, resetLogoutTimer);
+});
+
 
     function login() {
   if (currentUser) {
