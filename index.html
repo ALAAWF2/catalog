@@ -37,18 +37,6 @@
   <div class="products" id="productContainer"></div>
   <div id="totalSales" style="text-align:center; margin-top: 20px; font-size: 16px; font-weight: bold; color: #e67e22;"></div>
   <div class="pagination" id="pagination"></div>
-<!-- Login Modal -->
-<div id="loginModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center;">
-  <div style="background:white; padding:20px; border-radius:10px; width:300px; text-align:center;">
-    <h3>تسجيل الدخول</h3>
-    <input id="emailInput" type="email" placeholder="البريد الإلكتروني" style="width:90%; padding:8px; margin:8px 0;"><br>
-    <input id="passwordInput" type="password" placeholder="كلمة المرور" style="width:90%; padding:8px; margin:8px 0;"><br>
-    <button onclick="confirmLogin()" style="background:#e67e22; color:white; padding:8px 16px; margin-top:10px;">دخول</button>
-    <button onclick="closeLoginModal()" style="background:gray; color:white; padding:8px 16px; margin-top:10px;">إلغاء</button>
-  </div>
-</div>
-
-
 
   <div id="orderModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); align-items:center; justify-content:center;">
     <div style="background:white; padding:20px; border-radius:10px; text-align:center;">
@@ -58,7 +46,7 @@
         يوجد مستلزمات إضافية مع الطلبية
       </label>
       <br><br>
-      <button onclick="submitOrder()">تأكيد الطلبية</button>
+      <button id="confirmOrderBtn" onclick="submitOrder()">تأكيد الطلبية</button>
       <button onclick="closeOrderModal()" style="background:grey;">إلغاء</button>
     </div>
   </div>
@@ -74,6 +62,8 @@
     let userWarehouse = "";
     let userMall = "";
     let cart = {};
+    let logoutTimer;
+    let submitting = false;
 
     const productsPerPage = 40;
     let filteredProducts = [], currentPage = 1;
@@ -89,59 +79,39 @@
         userMall = doc.data()?.mall ?? "";
         populateFilters();
         renderProducts();
+        resetLogoutTimer();
+      } else {
+        cart = {};
+        userWarehouse = "";
+        renderProducts();
       }
-	  else {
-  cart = {};
-  userWarehouse = "";
-  renderProducts(); // لإخفاء المنتجات
-}
-
-	  
     });
-	
-	let logoutTimer;
 
-function resetLogoutTimer() {
-  if (logoutTimer) clearTimeout(logoutTimer);
-  logoutTimer = setTimeout(() => {
-    if (currentUser) {
-      alert("تم تسجيل الخروج تلقائيًا بعد 15 دقيقة من عدم التفاعل.");
-      auth.signOut();
+    function resetLogoutTimer() {
+      clearTimeout(logoutTimer);
+      logoutTimer = setTimeout(() => {
+        if (currentUser) {
+          alert("تم تسجيل الخروج تلقائيًا بعد 15 دقيقة من عدم التفاعل.");
+          auth.signOut();
+        }
+      }, 15 * 60 * 1000);
     }
-  }, 15 * 60 * 1000); // 15 دقيقة بالمللي ثانية
-}
 
-// مراقبة أي تفاعل لتجديد المؤقت
-['click', 'mousemove', 'keydown', 'scroll', 'touchstart'].forEach(event => {
-  document.addEventListener(event, resetLogoutTimer);
-});
-
+    ['click', 'mousemove', 'keydown', 'scroll', 'touchstart'].forEach(event => {
+      document.addEventListener(event, resetLogoutTimer);
+    });
 
     function login() {
-  if (currentUser) {
-    auth.signOut();
-  } else {
-    document.getElementById('loginModal').style.display = 'flex';
-  }
-}
-
-function closeLoginModal() {
-  document.getElementById('loginModal').style.display = 'none';
-}
-
-function confirmLogin() {
-  const email = document.getElementById('emailInput').value;
-  const password = document.getElementById('passwordInput').value;
-
-  if (email && password) {
-    auth.signInWithEmailAndPassword(email, password)
-      .then(() => closeLoginModal())
-      .catch(e => alert("فشل الدخول: " + e.message));
-  } else {
-    alert("يرجى إدخال البريد وكلمة المرور");
-  }
-}
-
+      if (currentUser) {
+        auth.signOut();
+      } else {
+        const email = prompt("البريد الإلكتروني:");
+        const password = prompt("كلمة المرور:");
+        if (email && password) {
+          auth.signInWithEmailAndPassword(email, password).catch(e => alert("فشل الدخول: " + e.message));
+        }
+      }
+    }
 
     function openOrderModal() {
       if (!currentUser) return alert("يرجى تسجيل الدخول أولاً.");
@@ -153,6 +123,12 @@ function confirmLogin() {
     }
 
     async function submitOrder() {
+      if (submitting) return;
+      submitting = true;
+      const confirmBtn = document.getElementById("confirmOrderBtn");
+      confirmBtn.disabled = true;
+      confirmBtn.textContent = "جاري الإرسال...";
+
       if (!currentUser) return alert("يجب تسجيل الدخول.");
       if (!userWarehouse || !userMall) return alert("تعذر تحديد بيانات المستخدم.");
       if (Object.keys(cart).length === 0) return alert("🚫 لا يمكن إرسال طلبية بدون منتجات");
@@ -167,12 +143,26 @@ function confirmLogin() {
         orders: Object.entries(cart).map(([code, d]) => ({ code, name: d.name, alias: d.alias ?? '', qty: d.qty })),
         timestamp: firebase.firestore.FieldValue.serverTimestamp()
       }).then(() => {
-        alert("✅ تم حفظ الطلبية بنجاح");
+        showSuccessModal("✅ تم إرسال الطلبية بنجاح");
+        cart = {};
         closeOrderModal();
+        renderProducts();
       }).catch(err => {
         alert("❌ حدث خطأ أثناء الحفظ");
         console.error(err);
+      }).finally(() => {
+        submitting = false;
+        confirmBtn.disabled = false;
+        confirmBtn.textContent = "تأكيد الطلبية";
       });
+    }
+
+    function showSuccessModal(message) {
+      const modal = document.createElement('div');
+      modal.style.cssText = `position: fixed; top: 30%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 25px 40px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.2); z-index: 9999; text-align: center; font-size: 18px; color: #2ecc71;`;
+      modal.textContent = message;
+      document.body.appendChild(modal);
+      setTimeout(() => modal.remove(), 3000);
     }
 
     function populateFilters() {

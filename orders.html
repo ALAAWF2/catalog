@@ -32,32 +32,32 @@
   <h1>قائمة الطلبات</h1>
 
   <div style="margin-bottom: 10px;">
-  <label>فلترة حسب المستودع:
-    <select id="warehouseFilter" onchange="loadOrders()">
-      <option value="all">الكل</option>
-      <option value="Warehouse">مستودع جدة</option>
-      <option value="warehouse riyadh">مستودع الرياض</option>
-    </select>
-  </label>
+    <label>فلترة حسب المستودع:
+      <select id="warehouseFilter" onchange="loadOrders()">
+        <option value="all">الكل</option>
+        <option value="Warehouse">مستودع جدة</option>
+        <option value="warehouse riyadh">مستودع الرياض</option>
+      </select>
+    </label>
 
-  <label>فلترة حسب الحالة:
-    <select id="statusFilter" onchange="loadOrders()">
-      <option value="all">الكل</option>
-      <option value="تم الإرسال">تم الإرسال</option>
-      <option value="—">غير محدد</option>
-    </select>
-  </label>
+    <label>فلترة حسب الحالة:
+      <select id="statusFilter" onchange="loadOrders()">
+        <option value="all">الكل</option>
+        <option value="تم الإرسال">تم الإرسال</option>
+        <option value="—">غير محدد</option>
+      </select>
+    </label>
 
-  <label>فلترة بالتاريخ:
-    <input type="date" id="dateFilter" onchange="loadOrders()">
-  </label>
-</div>
-
+    <label>فلترة بالتاريخ:
+      <input type="date" id="dateFilter" onchange="loadOrders()">
+    </label>
+  </div>
 
   <div style="margin-bottom: 10px;">
     <button onclick="downloadSelected()">📥 تحميل المحدد</button>
     <button onclick="downloadAll()">📥 تحميل الكل</button>
-	<button onclick="toggleSort()">🔤 ترتيب المعارض</button>
+    <button onclick="toggleSort('mall')">🔤 ترتيب المعارض</button>
+    <button onclick="toggleSort('date')">🕒 ترتيب بالتاريخ</button>
   </div>
 
   <table id="ordersTable">
@@ -110,72 +110,72 @@
 
     let currentOrder = null;
     let orderMap = new Map();
+    let currentSortField = null;
+    let currentSortDirection = "none";
 
-   function loadOrders() {
-  const warehouse = document.getElementById("warehouseFilter").value;
-  const status = document.getElementById("statusFilter").value;
-  const selectedDate = document.getElementById("dateFilter").value;
-  db.collection("orders").orderBy("timestamp", "desc").get().then(snapshot => {
-    const tbody = document.querySelector("#ordersTable tbody");
-    tbody.innerHTML = "";
-    orderMap.clear();
-let orders = [];
-    snapshot.forEach(doc => {
-  const data = doc.data();
-  const dateObj = data.timestamp?.toDate?.();
-  const dateStr = dateObj ? dateObj.toISOString().slice(0, 10) : "";
+    function toggleSort(field) {
+      if (currentSortField !== field) {
+        currentSortField = field;
+        currentSortDirection = "asc";
+      } else {
+        currentSortDirection = currentSortDirection === "asc" ? "desc" : "asc";
+      }
+      loadOrders();
+    }
 
-  // الفلاتر
-  if (warehouse !== "all" && data.warehouse !== warehouse) return;
-  if (status !== "all" && (data.status || '—') !== status) return;
-  if (selectedDate && selectedDate !== dateStr) return;
+    function loadOrders() {
+      const warehouse = document.getElementById("warehouseFilter").value;
+      const status = document.getElementById("statusFilter").value;
+      const selectedDate = document.getElementById("dateFilter").value;
 
-  orders.push({ id: doc.id, data, dateObj });
-});
+      db.collection("orders").orderBy("timestamp", "desc").get().then(snapshot => {
+        const tbody = document.querySelector("#ordersTable tbody");
+        tbody.innerHTML = "";
+        orderMap.clear();
+        let orders = [];
 
-// ترتيب حسب المعرض
-if (currentSort === "asc") {
-  orders.sort((a, b) => a.data.mall.localeCompare(b.data.mall));
-} else if (currentSort === "desc") {
-  orders.sort((a, b) => b.data.mall.localeCompare(a.data.mall));
-}
+        snapshot.forEach(doc => {
+          const data = doc.data();
+          const dateObj = data.timestamp?.toDate?.();
+          const dateStr = dateObj ? dateObj.toISOString().slice(0, 10) : "";
 
-// بناء الجدول
-orders.forEach(({ id, data, dateObj }) => {
-  const displayDate = dateObj ? dateObj.toLocaleString("en-GB", { hour12: false }) : "—";
-  const numItems = Array.isArray(data.orders) ? data.orders.length : 0;
+          if (warehouse !== "all" && data.warehouse !== warehouse) return;
+          if (status !== "all" && (data.status || '—') !== status) return;
+          if (selectedDate && selectedDate !== dateStr) return;
 
-  orderMap.set(id, data);
-  const row = document.createElement("tr");
-  row.innerHTML = `
-    <td><input type="checkbox" class="orderCheckbox" value="${id}"></td>
-    <td>${displayDate}</td>
-    <td>${data.mall}</td>
-    <td>${data.warehouse}</td>
-    <td>${data.hasExtras ? 'نعم' : 'لا'}</td>
-    <td>${numItems}</td>
-    <td>
-      <button onclick='showOrder("${id}")'>عرض</button>
-      <button onclick='downloadExcelDirect("${id}")'>تحميل</button>
-    </td>
-    <td>${data.status || '—'}</td>
-    <td><button onclick='updateStatus("${id}")'>🚚 تم الإرسال</button></td>
-  `;
-  tbody.appendChild(row);
-});
-  });
-}
-let currentSort = "none"; // أو "asc" أو "desc"
+          orders.push({ id: doc.id, data, dateObj });
+        });
 
-function toggleSort() {
-  if (currentSort === "none" || currentSort === "desc") {
-    currentSort = "asc";
-  } else {
-    currentSort = "desc";
-  }
-  loadOrders(); // إعادة تحميل الطلبات مع الترتيب الجديد
-}
+        if (currentSortField === "mall") {
+          orders.sort((a, b) => a.data.mall.localeCompare(b.data.mall));
+        } else if (currentSortField === "date") {
+          orders.sort((a, b) => (a.dateObj - b.dateObj) * (currentSortDirection === "asc" ? 1 : -1));
+        }
 
+        orders.forEach(({ id, data, dateObj }) => {
+          const displayDate = dateObj ? dateObj.toLocaleString("en-GB", { hour12: false }) : "—";
+          const numItems = Array.isArray(data.orders) ? data.orders.length : 0;
+
+          orderMap.set(id, data);
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td><input type="checkbox" class="orderCheckbox" value="${id}"></td>
+            <td>${displayDate}</td>
+            <td>${data.mall}</td>
+            <td>${data.warehouse}</td>
+            <td>${data.hasExtras ? 'نعم' : 'لا'}</td>
+            <td>${numItems}</td>
+            <td>
+              <button onclick='showOrder("${id}")'>عرض</button>
+              <button onclick='downloadExcelDirect("${id}")'>تحميل</button>
+            </td>
+            <td>${data.status || '—'}</td>
+            <td><button onclick='updateStatus("${id}")'>🚚 تم الإرسال</button></td>
+          `;
+          tbody.appendChild(row);
+        });
+      });
+    }
 
     function toggleAll(source) {
       document.querySelectorAll('.orderCheckbox').forEach(cb => cb.checked = source.checked);
