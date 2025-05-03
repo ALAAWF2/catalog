@@ -24,6 +24,7 @@
 <body>
   <h1>جدول البضاعة</h1>
   <p id="lastUpdated" style="text-align:center; color: #999;">آخر تحديث: 2025-05-01</p>
+  <div id="userInfo" style="text-align:center; margin-bottom: 15px; font-size: 18px; color: #e67e22; font-weight: bold;"></div>
   <div class="filters">
     <label>اختر التصنيف:
       <select id="categoryFilter" onchange="renderProducts()"></select>
@@ -78,12 +79,14 @@
         const doc = await db.collection("users").doc(user.uid).get();
         userWarehouse = doc.data()?.warehouse ?? "";
         userMall = doc.data()?.mall ?? "";
+        document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
         populateFilters();
         renderProducts();
         resetLogoutTimer();
       } else {
         cart = {};
         userWarehouse = "";
+        document.getElementById('userInfo').textContent = '';
         renderProducts();
       }
     });
