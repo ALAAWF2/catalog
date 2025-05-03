@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -26,7 +27,8 @@
   <p id="lastUpdated" style="text-align:center; color: #999;">آخر تحديث: 2025-05-01</p>
   <div class="filters">
     <label>اختر التصنيف:
-      <select id="categoryFilter"></select>
+      <select id="categoryFilter" onchange="renderProducts()"></select>
+
     </label>
     <input type="text" id="searchInput" placeholder="ابحث بالـ Alias..." oninput="renderProducts()" />
     <button onclick="sortBySales()">ترتيب حسب الأكثر مبيعًا</button>
