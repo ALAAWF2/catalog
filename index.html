@@ -11,14 +11,215 @@
     h1 { text-align: center; color: #e67e22; }
     select, button, input[type='number'], input[type='text'] {
       margin: 5px; padding: 8px; font-size: 14px; border-radius: 5px; border: 1px solid #ccc;
+      transition: all 0.3s ease;
+    }
+    select:hover, button:hover, input[type='number']:hover, input[type='text']:hover {
+      border-color: #e67e22;
+    }
+    button {
+      background: #e67e22;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #d35400;
     }
     .filters { text-align: center; margin-bottom: 20px; }
     .products { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
-    .product { background: white; padding: 15px; border-radius: 10px; border: 1px solid #f0c79b; box-shadow: 0 2px 5px rgba(230, 126, 34, 0.1); text-align: center; }
-    .product img { width: 100%; height: 150px; object-fit: contain; margin-bottom: 10px; border-radius: 8px; background-color: #fff0e0; }
+    .product { 
+      background: white; 
+      padding: 15px; 
+      border-radius: 10px; 
+      border: 1px solid #f0c79b; 
+      box-shadow: 0 2px 5px rgba(230, 126, 34, 0.1); 
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(230, 126, 34, 0.2);
+    }
+    .product img { 
+      width: 100%; 
+      height: 150px; 
+      object-fit: contain; 
+      margin-bottom: 10px; 
+      border-radius: 8px; 
+      background-color: #fff0e0;
+      transition: opacity 0.3s ease;
+    }
+    .product img.loading {
+      opacity: 0.5;
+    }
+    .product img.error {
+      border: 2px solid #e74c3c;
+    }
+    .product h4 {
+      color: #2c3e50;
+      margin: 10px 0;
+    }
+    .product p {
+      color: #7f8c8d;
+      margin: 5px 0;
+    }
+    .product input[type='number'] {
+      width: 80px;
+      text-align: center;
+    }
     .pagination { text-align: center; margin-top: 20px; }
-    .pagination button, .pagination select { margin: 5px; padding: 8px 16px; background: #e67e22; color: white; border: none; border-radius: 5px; cursor: pointer; }
-    .pagination button:disabled { background: #ccc; cursor: not-allowed; }
+    .pagination button, .pagination select { 
+      margin: 5px; 
+      padding: 8px 16px; 
+      background: #e67e22; 
+      color: white; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .pagination button:hover {
+      background: #d35400;
+    }
+    .pagination button:disabled { 
+      background: #ccc; 
+      cursor: not-allowed; 
+    }
+    #userInfo {
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 18px;
+      color: #e67e22;
+      font-weight: bold;
+      padding: 10px;
+      background: rgba(230, 126, 34, 0.1);
+      border-radius: 5px;
+    }
+    .loading-spinner {
+      display: none;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .loading-spinner.active {
+      display: block;
+    }
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+    .product-overlay {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: flex;
+      gap: 5px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .product:hover .product-overlay {
+      opacity: 1;
+    }
+    .favorite-btn, .share-btn {
+      background: white;
+      border: none;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease;
+    }
+    .favorite-btn:hover, .share-btn:hover {
+      transform: scale(1.1);
+    }
+    .favorite-icon, .share-icon {
+      font-size: 16px;
+    }
+    #exportBtn {
+      background: #27ae60;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    #exportBtn:hover {
+      background: #219a52;
+    }
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    .modal-content {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      max-width: 600px;
+      width: 90%;
+      max-height: 90vh;
+      overflow-y: auto;
+      position: relative;
+    }
+    .modal-close {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #e67e22;
+      color: white;
+      border: none;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+    .modal-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: contain;
+      border-radius: 10px;
+      margin: 15px 0;
+      background: #f8f9fa;
+    }
+    .modal-image.error {
+      border: 2px solid #e74c3c;
+      padding: 20px;
+    }
+    .modal-details {
+      text-align: right;
+      margin-top: 20px;
+    }
+    .modal-details p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    .modal-details strong {
+      color: #e67e22;
+    }
+    .product img {
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .product img:hover {
+      transform: scale(1.05);
+    }
   </style>
 </head>
 <body>
@@ -28,10 +229,26 @@
   <div class="filters">
     <label>اختر التصنيف:
       <select id="categoryFilter" onchange="renderProducts()"></select>
-
+    </label>
+    <label>السعر:
+      <select id="priceFilter" onchange="renderProducts()">
+        <option value="">الكل</option>
+        <option value="0-50">0 - 50 ريال</option>
+        <option value="50-100">50 - 100 ريال</option>
+        <option value="100-200">100 - 200 ريال</option>
+        <option value="200+">200+ ريال</option>
+      </select>
+    </label>
+    <label>الترتيب:
+      <select id="sortFilter" onchange="renderProducts()">
+        <option value="default">الترتيب الافتراضي</option>
+        <option value="price-asc">السعر: من الأقل للأعلى</option>
+        <option value="price-desc">السعر: من الأعلى للأقل</option>
+        <option value="sales-desc">الأكثر مبيعاً</option>
+        <option value="stock-desc">الأعلى مخزوناً</option>
+      </select>
     </label>
     <input type="text" id="searchInput" placeholder="ابحث بالـ Alias..." oninput="renderProducts()" />
-    <button onclick="sortBySales()">ترتيب حسب الأكثر مبيعًا</button>
     <button id="sendOrderBtn" onclick="openOrderModal()" style="display:none;">ارسال الطلبية</button>
     <button id="loginBtn" onclick="login()">تسجيل الدخول</button>
   </div>
@@ -53,7 +270,19 @@
     </div>
   </div>
 
+  <div id="loadingSpinner" class="loading-spinner"></div>
+
+  <div id="productModal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeProductModal()">×</button>
+      <h3 id="modalProductName" style="color:#e67e22; margin-bottom:15px; text-align:center;"></h3>
+      <img id="modalProductImage" class="modal-image" alt="صورة المنتج">
+      <div id="modalProductDetails" class="modal-details"></div>
+    </div>
+  </div>
+
   <script src="products.js"></script>
+  <script src="https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js"></script>
   <script>
     const firebaseConfig = { apiKey: "AIzaSyDBhsMvDPwECDlFNYNkmFXDVq4nWrEejJc", authDomain: "orders-fb3bf.firebaseapp.com", projectId: "orders-fb3bf", storageBucket: "orders-fb3bf.firebasestorage.app", messagingSenderId: "970674722848", appId: "1:970674722848:web:e2e17f7a62bf59e51f0445" };
     firebase.initializeApp(firebaseConfig);
@@ -204,18 +433,56 @@
     }
 
     function renderProducts() {
+      document.getElementById('loadingSpinner').classList.add('active');
+      
       const category = document.getElementById('categoryFilter').value;
+      const priceRange = document.getElementById('priceFilter').value;
+      const sortBy = document.getElementById('sortFilter').value;
       const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
 
       filteredProducts = data.filter(d =>
         d.stock > 20 &&
         d.outlet === userWarehouse &&
         (!category || d.category === category) &&
-        (!searchTerm || (d.alias && d.alias.toLowerCase().includes(searchTerm)))
+        (!searchTerm || (d.alias && d.alias.toLowerCase().includes(searchTerm))) &&
+        filterByPrice(d.price, priceRange)
       );
 
+      sortProducts(sortBy);
       renderPage(1);
       updateTotalSales();
+      
+      setTimeout(() => {
+        document.getElementById('loadingSpinner').classList.remove('active');
+      }, 500);
+    }
+
+    function filterByPrice(price, range) {
+      if (!range) return true;
+      
+      if (range === '200+') {
+        return price >= 200;
+      }
+      
+      const [min, max] = range.split('-').map(Number);
+      return price >= min && price < max;
+    }
+
+    function sortProducts(sortBy) {
+      switch(sortBy) {
+        case 'price-asc':
+          filteredProducts.sort((a, b) => a.price - b.price);
+          break;
+        case 'price-desc':
+          filteredProducts.sort((a, b) => b.price - a.price);
+          break;
+        case 'sales-desc':
+          filteredProducts.sort((a, b) => (b.sales || 0) - (a.sales || 0));
+          break;
+        case 'stock-desc':
+          filteredProducts.sort((a, b) => b.stock - a.stock);
+          break;
+      }
     }
 
     function renderPage(page) {
@@ -226,7 +493,14 @@
 
       document.getElementById('productContainer').innerHTML = productsToShow.map(d => `
         <div class="product">
-          <img loading="lazy" src="images/${d.code}.jpg" alt="${d.name}" onerror="this.src='images/noimage.png'">
+          <img loading="lazy" 
+               src="images/${d.code}.jpg" 
+               alt="${d.name}" 
+               onerror="this.onerror=null; this.src='images/noimage.png'; this.classList.add('error');"
+               onload="this.classList.remove('loading')"
+               class="loading"
+               onclick="showProductDetails('${d.code}')"
+               style="cursor:pointer;">
           <h4>${d.name}</h4>
           <p>السعر: ${d.price} ريال</p>
           <p><strong>الكود:</strong> ${d.code}</p>
@@ -276,6 +550,116 @@
       const category = document.getElementById('categoryFilter').value;
       const label = category ? `إجمالي الكميات المباعة لتصنيف "${category}"` : "إجمالي الكميات المباعة للمنتجات المعروضة";
       document.getElementById("totalSales").textContent = `${label}: ${total.toLocaleString()} من ${count} منتج`;
+    }
+
+    function showProductDetails(code) {
+      const product = data.find(p => p.code === code);
+      if (!product) return;
+
+      const modal = document.getElementById('productModal');
+      const modalImage = document.getElementById('modalProductImage');
+      const modalName = document.getElementById('modalProductName');
+      const modalDetails = document.getElementById('modalProductDetails');
+
+      modalName.textContent = product.name;
+      
+      // تحسين معالجة الصور المفقودة
+      modalImage.src = `images/${code}.jpg`;
+      modalImage.onerror = function() {
+        this.src = 'images/noimage.png';
+        this.classList.add('error');
+        this.title = 'الصورة غير متوفرة';
+      };
+      
+      modalDetails.innerHTML = `
+        <p><strong>السعر:</strong> ${product.price} ريال</p>
+        <p><strong>الكود:</strong> ${product.code}</p>
+        <p><strong>Alias:</strong> ${product.alias || '—'}</p>
+        <p><strong>الكمية المباعة:</strong> ${product.sales !== undefined ? product.sales : '—'}</p>
+        <p><strong>الكمية المتوفرة:</strong> ${product.stock}</p>
+        <p><strong>التصنيف:</strong> ${product.category}</p>
+      `;
+      
+      modal.style.display = 'flex';
+    }
+
+    function closeProductModal() {
+      document.getElementById('productModal').style.display = 'none';
+    }
+
+    // إضافة إمكانية إغلاق النافذة المنبثقة عند النقر خارجها
+    document.getElementById('productModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeProductModal();
+      }
+    });
+
+    // إضافة إمكانية إغلاق النافذة المنبثقة باستخدام مفتاح ESC
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeProductModal();
+      }
+    });
+
+    function exportToExcel() {
+      const products = filteredProducts.map(p => ({
+        'اسم المنتج': p.name,
+        'السعر': p.price,
+        'الكود': p.code,
+        'Alias': p.alias || '',
+        'الكمية المباعة': p.sales || 0,
+        'الكمية المتوفرة': p.stock,
+        'التصنيف': p.category
+      }));
+
+      const ws = XLSX.utils.json_to_sheet(products);
+      const wb = XLSX.utils.book_new();
+      XLSX.utils.book_append_sheet(wb, ws, "المنتجات");
+      XLSX.writeFile(wb, "المنتجات.xlsx");
+    }
+
+    function handleImageError(img) {
+      img.onerror = null;
+      img.src = 'images/noimage.png';
+      img.classList.add('error');
+      img.title = 'الصورة غير متوفرة';
+    }
+
+    function addToFavorites(code) {
+      let favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+      const index = favorites.indexOf(code);
+      
+      if (index === -1) {
+        favorites.push(code);
+      } else {
+        favorites.splice(index, 1);
+      }
+      
+      localStorage.setItem('favorites', JSON.stringify(favorites));
+      renderProducts();
+    }
+
+    function isFavorite(code) {
+      const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+      return favorites.includes(code);
+    }
+
+    function shareProduct(code) {
+      const product = data.find(p => p.code === code);
+      if (!product) return;
+
+      const shareText = `منتج: ${product.name}\nالسعر: ${product.price} ريال\nالكود: ${product.code}`;
+      
+      if (navigator.share) {
+        navigator.share({
+          title: product.name,
+          text: shareText
+        }).catch(console.error);
+      } else {
+        navigator.clipboard.writeText(shareText)
+          .then(() => alert('تم نسخ معلومات المنتج'))
+          .catch(console.error);
+      }
     }
   </script>
   <!-- نافذة تسجيل الدخول المخصصة -->
