@@ -25,16 +25,12 @@
   <h1>جدول البضاعة</h1>
   <p id="lastUpdated" style="text-align:center; color: #999;">آخر تحديث: 2025-05-01</p>
   <div class="filters">
-    <label>اختر المستودع:
-      <select id="warehouseFilter"></select>
-    </label>
     <label>اختر التصنيف:
       <select id="categoryFilter"></select>
     </label>
     <input type="text" id="searchInput" placeholder="ابحث بالـ Alias..." oninput="renderProducts()" />
     <button onclick="sortBySales()">ترتيب حسب الأكثر مبيعًا</button>
-    <button id="sendOrderBtn" onclick="submitOrder()" style="display:none;">ارسال الطلبية</button>
-
+    <button id="sendOrderBtn" onclick="openOrderModal()" style="display:none;">ارسال الطلبية</button>
     <button id="loginBtn" onclick="login()">تسجيل الدخول</button>
   </div>
 
@@ -54,17 +50,6 @@
       <button onclick="closeOrderModal()" style="background:grey;">إلغاء</button>
     </div>
   </div>
-<div id="loginModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center;">
-  <div style="background:white; padding:20px; border-radius:10px; width:300px; text-align:center;">
-    <h3>تسجيل الدخول</h3>
-    <input id="emailInput" type="email" placeholder="البريد الإلكتروني" style="width:90%; padding:8px; margin:8px 0;"><br>
-    <input id="passwordInput" type="password" placeholder="كلمة المرور" style="width:90%; padding:8px; margin:8px 0;"><br>
-    <button onclick="confirmLogin()" style="background:#e67e22; color:white; padding:8px 16px; margin-top:10px;">دخول</button>
-    <button onclick="closeLoginModal()" style="background:gray; color:white; padding:8px 16px; margin-top:10px;">إلغاء</button>
-  </div>
-</div>
-
-
 
   <script src="products.js"></script>
   <script>
@@ -74,41 +59,30 @@
     const auth = firebase.auth();
 
     let currentUser = null;
-	const productsPerPage = 40;
-
     const cart = {};
+    const productsPerPage = 40;
+    let filteredProducts = [], currentPage = 1, userWarehouse = "";
 
-    auth.onAuthStateChanged(user => {
+    auth.onAuthStateChanged(async user => {
       currentUser = user;
       document.getElementById('sendOrderBtn').style.display = user ? 'inline-block' : 'none';
       document.getElementById('loginBtn').textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
+      if (user) {
+        const doc = await db.collection("users").doc(user.uid).get();
+        userWarehouse = doc.data()?.warehouse ?? "";
+        populateFilters();
+        renderProducts();
+      }
     });
 
-  function login() {
-  if (currentUser) {
-    auth.signOut();
-  } else {
-    document.getElementById('loginModal').style.display = 'flex';
-  }
-}
-
-function closeLoginModal() {
-  document.getElementById('loginModal').style.display = 'none';
-}
-
-function confirmLogin() {
-  const email = document.getElementById('emailInput').value;
-  const password = document.getElementById('passwordInput').value;
-
-  if (email && password) {
-    auth.signInWithEmailAndPassword(email, password)
-      .then(() => closeLoginModal())
-      .catch(e => alert("فشل الدخول: " + e.message));
-  } else {
-    alert("يرجى إدخال البريد وكلمة المرور");
-  }
-}
-
+    function login() {
+      if (currentUser) return auth.signOut();
+      const email = prompt("البريد الإلكتروني:");
+      const password = prompt("كلمة المرور:");
+      if (email && password) {
+        auth.signInWithEmailAndPassword(email, password).catch(e => alert("فشل الدخول: " + e.message));
+      }
+    }
 
     function openOrderModal() {
       if (!currentUser) return alert("يرجى تسجيل الدخول أولاً.");
@@ -125,8 +99,8 @@ function confirmLogin() {
       const userDoc = await db.collection("users").doc(currentUser.uid).get();
       const mallName = userDoc.data()?.mall;
       const warehouse = userDoc.data()?.warehouse;
-      if (!mallName || !warehouse) return alert("لا يمكن تحديد المعرض أو المستودع من حساب المستخدم.");
 
+      if (!mallName || !warehouse) return alert("لا يمكن تحديد المعرض أو المستودع من حساب المستخدم.");
       if (Object.keys(cart).length === 0) return alert("🚫 لا يمكن إرسال طلبية بدون منتجات");
 
       db.collection("orders").add({
@@ -145,35 +119,24 @@ function confirmLogin() {
       });
     }
 
-
     function populateFilters() {
-      const outlets = [...new Set(data.map(d => d.outlet))];
       const categories = [...new Set(data.map(d => d.category))];
-      warehouseFilter.innerHTML = '<option value="">الكل</option>' + outlets.map(o => `<option value="${o}">${o}</option>`).join('');
-      categoryFilter.innerHTML = '<option value="">الكل</option>' + categories.map(c => `<option value="${c}">${c}</option>`).join('');
+      document.getElementById('categoryFilter').innerHTML = '<option value="">الكل</option>' + categories.map(c => `<option value="${c}">${c}</option>`).join('');
     }
 
     function renderProducts() {
-      const outlet = warehouseFilter.value;
-      const category = categoryFilter.value;
+      const category = document.getElementById('categoryFilter').value;
       const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
-
-      if (!outlet) {
-        productContainer.innerHTML = "<h3 style='text-align:center;'>يرجى اختيار مستودع لعرض المنتجات</h3>";
-        pagination.innerHTML = '';
-        return;
-      }
 
       filteredProducts = data.filter(d =>
         d.stock > 20 &&
-        (!outlet || d.outlet === outlet) &&
         (!category || d.category === category) &&
-        (!searchTerm || (d.alias && d.alias.toLowerCase().includes(searchTerm)))
+        (!searchTerm || (d.alias && d.alias.toLowerCase().includes(searchTerm))) &&
+        (!userWarehouse || d.outlet === userWarehouse)
       );
 
       renderPage(1);
-	  updateTotalSales();
-
+      updateTotalSales();
     }
 
     function renderPage(page) {
@@ -182,64 +145,20 @@ function confirmLogin() {
       const end = start + productsPerPage;
       const productsToShow = filteredProducts.slice(start, end);
 
-      productContainer.innerHTML = productsToShow.map(d => `
+      document.getElementById('productContainer').innerHTML = productsToShow.map(d => `
         <div class="product">
-       <img loading="lazy"
-     src="images/${d.code}.jpg"
-     alt="${d.name}"
-     onerror="handleImageError(this, '${d.code}')">
-
-
-
-
+          <img loading="lazy" src="images/${d.code}.jpg" alt="${d.name}" onerror="this.src='images/noimage.png'">
           <h4>${d.name}</h4>
           <p>السعر: ${d.price} ريال</p>
           <p><strong>الكود:</strong> ${d.code}</p>
           <p><strong>Alias:</strong> ${d.alias ?? '—'}</p>
           <p>الكمية المباعة: ${d.sales !== undefined ? d.sales : '—'}</p>
-		  <p><strong>الكمية المتوفرة:</strong> ${d.stock ?? '—'}</p>
-		  
-
-         <input type="number" min="1" placeholder="الكمية المطلوبة" value="${cart[d.code]?.qty ?? ''}" onchange="addToCart('${d.code}', '${d.name}', this.value)">
-        </div>
-      `).join('');
+          <p><strong>الكمية المتوفرة:</strong> ${d.stock ?? '—'}</p>
+          <input type="number" min="1" placeholder="الكمية المطلوبة" value="${cart[d.code]?.qty ?? ''}" onchange="addToCart('${d.code}', '${d.name}', this.value)">
+        </div>`).join('');
 
       renderPagination();
     }
-	
-	function handleImageError(img, code) {
-  const tried = img.getAttribute("data-tried") || "";
-
-  if (!tried.includes("jpg")) {
-    img.setAttribute("data-tried", tried + "jpg;");
-    img.src = `images/${code}.jpg`;
-  } else if (!tried.includes("jpeg")) {
-    img.setAttribute("data-tried", tried + "jpeg;");
-    img.src = `images/${code}.jpeg`;
-  } else if (!tried.includes("JPG")) {
-    img.setAttribute("data-tried", tried + "JPG;");
-    img.src = `images/${code}.JPG`;
-  } else if (!tried.includes("JPEG")) {
-    img.setAttribute("data-tried", tried + "JPEG;");
-    img.src = `images/${code}.JPEG`;
-  } else {
-    img.src = 'images/noimage.png';
-  }
-}
-
-
-function updateTotalSales() {
-  const total = filteredProducts.reduce((sum, p) => sum + (p.sales || 0), 0);
-  const count = filteredProducts.length;
-  const category = categoryFilter.value;
-
-  const label = category
-    ? `إجمالي الكميات المباعة لتصنيف "${category}"`
-    : "إجمالي الكميات المباعة للمنتجات المعروضة";
-
-  document.getElementById("totalSales").textContent = `${label}: ${total.toLocaleString()} من ${count} منتج`;
-}
-
 
     function renderPagination() {
       const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
@@ -247,11 +166,10 @@ function updateTotalSales() {
       for (let i = 1; i <= totalPages; i++) {
         options += `<option value="${i}" ${i === currentPage ? 'selected' : ''}>${i}</option>`;
       }
-      pagination.innerHTML = `
+      document.getElementById('pagination').innerHTML = `
         <button onclick="changePage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>السابق</button>
         اختر صفحة <select onchange="goToPage(this.value)">${options}</select>
-        <button onclick="changePage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>التالي</button>
-      `;
+        <button onclick="changePage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>التالي</button>`;
     }
 
     function changePage(page) {
@@ -273,83 +191,13 @@ function updateTotalSales() {
       }
     }
 
-    function openOrderModal() {
-      const selectedWarehouse = warehouseFilter.value;
-      if (!selectedWarehouse || !mallMap[selectedWarehouse]) {
-        alert("يرجى اختيار مستودع أولاً.");
-        return;
-      }
-
-      mallSelect.innerHTML = mallMap[selectedWarehouse].map(m => `<option value="${m}">${m}</option>`).join('');
-      document.getElementById('orderModal').style.display = 'flex';
+    function updateTotalSales() {
+      const total = filteredProducts.reduce((sum, p) => sum + (p.sales || 0), 0);
+      const count = filteredProducts.length;
+      const category = document.getElementById('categoryFilter').value;
+      const label = category ? `إجمالي الكميات المباعة لتصنيف "${category}"` : "إجمالي الكميات المباعة للمنتجات المعروضة";
+      document.getElementById("totalSales").textContent = `${label}: ${total.toLocaleString()} من ${count} منتج`;
     }
-
-    function closeOrderModal() {
-      document.getElementById('orderModal').style.display = 'none';
-    }
-
-  function submitOrder() {
-  const mallName = mallSelect.value;
-  const hasExtras = document.getElementById("extraItemsCheckbox").checked;
-  const selectedWarehouse = warehouseFilter.value;
-
-  if (!mallName) return alert("يرجى اختيار المعرض!");
-
-  if (Object.keys(cart).length === 0) {
-    alert("🚫 لا يمكن إرسال طلبية بدون منتجات");
-    return;
-  }
-
-  db.collection("orders").add({
-    mall: mallName,
-    warehouse: selectedWarehouse,
-    hasExtras: hasExtras,
-    orders: Object.entries(cart).map(([code, d]) => ({
-      code,
-      name: d.name,
-      alias: d.alias ?? "",
-      qty: d.qty
-    })),
-    timestamp: firebase.firestore.FieldValue.serverTimestamp()
-  }).then(() => {
-    alert("✅ تم حفظ الطلبية بنجاح");
-    closeOrderModal();
-  }).catch(err => {
-    alert("❌ حدث خطأ أثناء الحفظ");
-    console.error(err);
-  });
-}
-
-
-    function sortBySales() {
-      const outlet = warehouseFilter.value;
-      const category = categoryFilter.value;
-      const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
-
-      if (!outlet) {
-        productContainer.innerHTML = "<h3 style='text-align:center;'>يرجى اختيار مستودع لعرض المنتجات</h3>";
-        pagination.innerHTML = '';
-        return;
-      }
-
-      filteredProducts = data.filter(d =>
-        d.stock > 20 &&
-        (!outlet || d.outlet === outlet) &&
-        (!category || d.category === category) &&
-        (!searchTerm || (d.alias && d.alias.toLowerCase().includes(searchTerm)))
-      );
-
-      filteredProducts.sort((a, b) => (b.sales || 0) - (a.sales || 0));
-      renderPage(1);
-	  updateTotalSales();
-
-    }
-
-    warehouseFilter.addEventListener('change', renderProducts);
-    categoryFilter.addEventListener('change', renderProducts);
-
-    populateFilters();
-    renderProducts();
   </script>
 </body>
 </html>
