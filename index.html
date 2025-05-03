@@ -37,6 +37,18 @@
   <div class="products" id="productContainer"></div>
   <div id="totalSales" style="text-align:center; margin-top: 20px; font-size: 16px; font-weight: bold; color: #e67e22;"></div>
   <div class="pagination" id="pagination"></div>
+<!-- Login Modal -->
+<div id="loginModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center;">
+  <div style="background:white; padding:20px; border-radius:10px; width:300px; text-align:center;">
+    <h3>تسجيل الدخول</h3>
+    <input id="emailInput" type="email" placeholder="البريد الإلكتروني" style="width:90%; padding:8px; margin:8px 0;"><br>
+    <input id="passwordInput" type="password" placeholder="كلمة المرور" style="width:90%; padding:8px; margin:8px 0;"><br>
+    <button onclick="confirmLogin()" style="background:#e67e22; color:white; padding:8px 16px; margin-top:10px;">دخول</button>
+    <button onclick="closeLoginModal()" style="background:gray; color:white; padding:8px 16px; margin-top:10px;">إلغاء</button>
+  </div>
+</div>
+
+
 
   <div id="orderModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); align-items:center; justify-content:center;">
     <div style="background:white; padding:20px; border-radius:10px; text-align:center;">
@@ -80,13 +92,30 @@
     });
 
     function login() {
-      if (currentUser) return auth.signOut();
-      const email = prompt("البريد الإلكتروني:");
-      const password = prompt("كلمة المرور:");
-      if (email && password) {
-        auth.signInWithEmailAndPassword(email, password).catch(e => alert("فشل الدخول: " + e.message));
-      }
-    }
+  if (currentUser) {
+    auth.signOut();
+  } else {
+    document.getElementById('loginModal').style.display = 'flex';
+  }
+}
+
+function closeLoginModal() {
+  document.getElementById('loginModal').style.display = 'none';
+}
+
+function confirmLogin() {
+  const email = document.getElementById('emailInput').value;
+  const password = document.getElementById('passwordInput').value;
+
+  if (email && password) {
+    auth.signInWithEmailAndPassword(email, password)
+      .then(() => closeLoginModal())
+      .catch(e => alert("فشل الدخول: " + e.message));
+  } else {
+    alert("يرجى إدخال البريد وكلمة المرور");
+  }
+}
+
 
     function openOrderModal() {
       if (!currentUser) return alert("يرجى تسجيل الدخول أولاً.");
