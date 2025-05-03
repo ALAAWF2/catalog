@@ -30,6 +30,7 @@
 </head>
 <body>
   <h1>قائمة الطلبات</h1>
+
   <label>فلترة حسب المستودع:
     <select id="warehouseFilter" onchange="loadOrders()">
       <option value="all">الكل</option>
@@ -38,19 +39,24 @@
     </select>
   </label>
 
+  <div style="margin-bottom: 10px;">
+    <button onclick="downloadSelected()">📥 تحميل المحدد</button>
+    <button onclick="downloadAll()">📥 تحميل الكل</button>
+  </div>
+
   <table id="ordersTable">
     <thead>
-     <tr>
-  <th>التاريخ</th>
-  <th>المعرض</th>
-  <th>المستودع</th>
-  <th>مستلزمات</th>
-  <th>عدد القطع</th>
-  <th>تفاصيل</th>
-  <th>الحالة</th>
-  <th>إجراء</th>
-</tr>
-
+      <tr>
+        <th><input type="checkbox" onclick="toggleAll(this)"></th>
+        <th>التاريخ</th>
+        <th>المعرض</th>
+        <th>المستودع</th>
+        <th>مستلزمات</th>
+        <th>عدد القطع</th>
+        <th>تفاصيل</th>
+        <th>الحالة</th>
+        <th>إجراء</th>
+      </tr>
     </thead>
     <tbody></tbody>
   </table>
@@ -101,30 +107,72 @@
           orderMap.set(doc.id, data);
 
           const dateObj = data.timestamp?.toDate?.();
-const date = dateObj ? dateObj.toLocaleString("en-GB", { hour12: false }) : "—";
-
+          const date = dateObj ? dateObj.toLocaleString("en-GB", { hour12: false }) : "—";
           const totalQty = Array.isArray(data.orders)
-  ? data.orders.reduce((sum, item) => sum + (parseFloat(item.qty) || 0), 0)
-  : 0;
+            ? data.orders.reduce((sum, item) => sum + (parseFloat(item.qty) || 0), 0)
+            : 0;
 
-const row = document.createElement("tr");
-row.innerHTML = `
-  <td>${date}</td>
-  <td>${data.mall}</td>
-  <td>${data.warehouse}</td>
-  <td>${data.hasExtras ? 'نعم' : 'لا'}</td>
-  <td>${totalQty}</td>
-  <td>
-    <button onclick='showOrder("${doc.id}")'>عرض</button>
-    <button onclick='downloadExcelDirect("${doc.id}")'>تحميل</button>
-  </td>
-  <td>${data.status || '—'}</td>
-  <td><button onclick='updateStatus("${doc.id}")'>🚚 تم الإرسال</button></td>
-`;
-
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td><input type="checkbox" class="orderCheckbox" value="${doc.id}"></td>
+            <td>${date}</td>
+            <td>${data.mall}</td>
+            <td>${data.warehouse}</td>
+            <td>${data.hasExtras ? 'نعم' : 'لا'}</td>
+            <td>${totalQty}</td>
+            <td>
+              <button onclick='showOrder("${doc.id}")'>عرض</button>
+              <button onclick='downloadExcelDirect("${doc.id}")'>تحميل</button>
+            </td>
+            <td>${data.status || '—'}</td>
+            <td><button onclick='updateStatus("${doc.id}")'>🚚 تم الإرسال</button></td>
+          `;
           tbody.appendChild(row);
         });
       });
+    }
+
+    function toggleAll(source) {
+      document.querySelectorAll('.orderCheckbox').forEach(cb => cb.checked = source.checked);
+    }
+
+    function downloadSelected() {
+      const selectedIds = [...document.querySelectorAll('.orderCheckbox:checked')].map(el => el.value);
+      if (selectedIds.length === 0) return alert("🚫 لم يتم تحديد أي طلبية");
+      const wb = XLSX.utils.book_new();
+      selectedIds.forEach(id => {
+        const data = orderMap.get(id);
+        if (!data || !Array.isArray(data.orders)) return;
+        const wsData = [
+          ["اسم المعرض", data.mall],
+          ["المستودع", data.warehouse],
+          ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
+          [],
+          ["الكود", "الاسم", "Alias", "الكمية"],
+          ...data.orders.map(item => [item.code, item.name, item.alias ?? '', item.qty])
+        ];
+        const ws = XLSX.utils.aoa_to_sheet(wsData);
+        XLSX.utils.book_append_sheet(wb, ws, data.mall.substring(0, 31));
+      });
+      XLSX.writeFile(wb, `الطلبيات_المحددة.xlsx`);
+    }
+
+    function downloadAll() {
+      const wb = XLSX.utils.book_new();
+      for (const [id, data] of orderMap.entries()) {
+        if (!Array.isArray(data.orders)) continue;
+        const wsData = [
+          ["اسم المعرض", data.mall],
+          ["المستودع", data.warehouse],
+          ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
+          [],
+          ["الكود", "الاسم", "Alias", "الكمية"],
+          ...data.orders.map(item => [item.code, item.name, item.alias ?? '', item.qty])
+        ];
+        const ws = XLSX.utils.aoa_to_sheet(wsData);
+        XLSX.utils.book_append_sheet(wb, ws, data.mall.substring(0, 31));
+      }
+      XLSX.writeFile(wb, `كل_الطلبيات.xlsx`);
     }
 
     function showOrder(docId) {
@@ -172,7 +220,6 @@ row.innerHTML = `
     function downloadExcelDirect(docId) {
       const data = orderMap.get(docId);
       if (!data) return;
-
       const wb = XLSX.utils.book_new();
       const wsData = [
         ["اسم المعرض", data.mall],
