@@ -5,6 +5,7 @@
   <title>جدول البضاعة</title>
   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
   <style>
     body { font-family: Arial; background: #fff8f0; padding: 20px; }
     h1 { text-align: center; color: #e67e22; }
@@ -22,7 +23,7 @@
 </head>
 <body>
   <h1>جدول البضاعة</h1>
-<p id="lastUpdated" style="text-align:center; color: #999;">آخر تحديث: 2025-05-01</p>
+  <p id="lastUpdated" style="text-align:center; color: #999;">آخر تحديث: 2025-05-01</p>
   <div class="filters">
     <label>اختر المستودع:
       <select id="warehouseFilter"></select>
@@ -32,9 +33,8 @@
     </label>
     <input type="text" id="searchInput" placeholder="ابحث بالـ Alias..." oninput="renderProducts()" />
     <button onclick="sortBySales()">ترتيب حسب الأكثر مبيعًا</button>
-  <button onclick="openOrderModal()" style="display:none;">ارسال الطلبية</button>
-
-
+    <button id="sendOrderBtn" onclick="openOrderModal()" style="display:none;">ارسال الطلبية</button>
+    <button id="loginBtn" onclick="login()">تسجيل الدخول</button>
   </div>
 
   <div class="products" id="productContainer"></div>
@@ -43,8 +43,7 @@
 
   <div id="orderModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); align-items:center; justify-content:center;">
     <div style="background:white; padding:20px; border-radius:10px; text-align:center;">
-      <h3>اختر المعرض</h3>
-      <select id="mallSelect"></select><br><br>
+      <h3>تأكيد الطلبية</h3>
       <label>
         <input type="checkbox" id="extraItemsCheckbox" />
         يوجد مستلزمات إضافية مع الطلبية
@@ -54,55 +53,96 @@
       <button onclick="closeOrderModal()" style="background:grey;">إلغاء</button>
     </div>
   </div>
+<div id="loginModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center;">
+  <div style="background:white; padding:20px; border-radius:10px; width:300px; text-align:center;">
+    <h3>تسجيل الدخول</h3>
+    <input id="emailInput" type="email" placeholder="البريد الإلكتروني" style="width:90%; padding:8px; margin:8px 0;"><br>
+    <input id="passwordInput" type="password" placeholder="كلمة المرور" style="width:90%; padding:8px; margin:8px 0;"><br>
+    <button onclick="confirmLogin()" style="background:#e67e22; color:white; padding:8px 16px; margin-top:10px;">دخول</button>
+    <button onclick="closeLoginModal()" style="background:gray; color:white; padding:8px 16px; margin-top:10px;">إلغاء</button>
+  </div>
+</div>
+
+
 
   <script src="products.js"></script>
   <script>
-    // Firebase config
-    const firebaseConfig = {
-      apiKey: "AIzaSyDBhsMvDPwECDlFNYNkmFXDVq4nWrEejJc",
-      authDomain: "orders-fb3bf.firebaseapp.com",
-      projectId: "orders-fb3bf",
-      storageBucket: "orders-fb3bf.firebasestorage.app",
-      messagingSenderId: "970674722848",
-      appId: "1:970674722848:web:e2e17f7a62bf59e51f0445",
-      measurementId: "G-7LFHS7SRER"
-    };
+    const firebaseConfig = { apiKey: "AIzaSyDBhsMvDPwECDlFNYNkmFXDVq4nWrEejJc", authDomain: "orders-fb3bf.firebaseapp.com", projectId: "orders-fb3bf", storageBucket: "orders-fb3bf.firebasestorage.app", messagingSenderId: "970674722848", appId: "1:970674722848:web:e2e17f7a62bf59e51f0445" };
     firebase.initializeApp(firebaseConfig);
     const db = firebase.firestore();
+    const auth = firebase.auth();
 
-    const warehouseFilter = document.getElementById('warehouseFilter');
-    const categoryFilter = document.getElementById('categoryFilter');
-    const productContainer = document.getElementById('productContainer');
-    const pagination = document.getElementById('pagination');
-    const mallSelect = document.getElementById('mallSelect');
+    let currentUser = null;
+	const productsPerPage = 40;
 
-    let filteredProducts = [];
-    let currentPage = 1;
-    const productsPerPage = 40;
     const cart = {};
 
-    const mallMap = {
-  "Warehouse": [
-    "04-Andalos Mall", "05-Haifa Mall", "06-Red Sea Mall", "07-Arab Mall",
-    "08-Makkah Mall", "09-Al-Salam Mall", "11-Jouri Mall", "13-Al-Yasmin Mall",
-    "14-Al Kamal Mall", "17-Arar Othaim Mall", "18-Al_Khayyat Center",
-    "20-Sitten Street Makkah", "21-Abha Al_Rashid Mall New", "22-Tabuk Park",
-    "23-Alia Mall Madinah", "24-Yanbu Dana Mall", "26-Al-Noor Mall Madinah",
-    "41-Khamis Avenue", "43-Mujan Park", "44-Al-Jouf Center", "48 - Jeddah Park",
-    "52-Al_Baha Mall", "53-Al Basateen Mall", "54-THE VILLAGE", "55- Jabl Omar",
-    "56- Aziz Mall 2", "57-Sauq7"
-  ],
-  "warehouse riyadh": [
-    "12-Al_Hamra Mall", "15-Riyadh Othaim Mall", "16-Ehsa Othaim Mall",
-    "19-Hail Othaim Mall", "25-Rabwa Othaim Mall", "27-Dhahran Mall khobar",
-    "28-Al Nakheel Mall Dammam", "29-Al Nakheel Mall Riyadh",
-    "30-Tala Mall Riyadh", "32-Atyaf Mall Riyadh", "36-Al jubail Mall",
-    "38-Al_Riyadh Park", "39-Salam Mall Riyadh", "40-Hayat Mall Riyad",
-    "42-Dareen Mall Dammam", "45- Riyadh Gallery Mall", "46-Khaleej Mall Riyadh",
-    "47-Al-Nakheel Plaza", "49-AlAhsa Mall", "50-Meem Plaza Riyadh",
-    "51-Park Avenue Riyadh"
-  ]
-};
+    auth.onAuthStateChanged(user => {
+      currentUser = user;
+      document.getElementById('sendOrderBtn').style.display = user ? 'inline-block' : 'none';
+      document.getElementById('loginBtn').textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
+    });
+
+  function login() {
+  if (currentUser) {
+    auth.signOut();
+  } else {
+    document.getElementById('loginModal').style.display = 'flex';
+  }
+}
+
+function closeLoginModal() {
+  document.getElementById('loginModal').style.display = 'none';
+}
+
+function confirmLogin() {
+  const email = document.getElementById('emailInput').value;
+  const password = document.getElementById('passwordInput').value;
+
+  if (email && password) {
+    auth.signInWithEmailAndPassword(email, password)
+      .then(() => closeLoginModal())
+      .catch(e => alert("فشل الدخول: " + e.message));
+  } else {
+    alert("يرجى إدخال البريد وكلمة المرور");
+  }
+}
+
+
+    function openOrderModal() {
+      if (!currentUser) return alert("يرجى تسجيل الدخول أولاً.");
+      document.getElementById('orderModal').style.display = 'flex';
+    }
+
+    function closeOrderModal() {
+      document.getElementById('orderModal').style.display = 'none';
+    }
+
+    async function submitOrder() {
+      if (!currentUser) return alert("يجب تسجيل الدخول.");
+      const hasExtras = document.getElementById("extraItemsCheckbox").checked;
+      const userDoc = await db.collection("users").doc(currentUser.uid).get();
+      const mallName = userDoc.data()?.mall;
+      const warehouse = userDoc.data()?.warehouse;
+      if (!mallName || !warehouse) return alert("لا يمكن تحديد المعرض أو المستودع من حساب المستخدم.");
+
+      if (Object.keys(cart).length === 0) return alert("🚫 لا يمكن إرسال طلبية بدون منتجات");
+
+      db.collection("orders").add({
+        mall: mallName,
+        warehouse,
+        hasExtras,
+        userId: currentUser.uid,
+        orders: Object.entries(cart).map(([code, d]) => ({ code, name: d.name, alias: d.alias ?? '', qty: d.qty })),
+        timestamp: firebase.firestore.FieldValue.serverTimestamp()
+      }).then(() => {
+        alert("✅ تم حفظ الطلبية بنجاح");
+        closeOrderModal();
+      }).catch(err => {
+        alert("❌ حدث خطأ أثناء الحفظ");
+        console.error(err);
+      });
+    }
 
 
     function populateFilters() {
