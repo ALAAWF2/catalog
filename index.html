@@ -59,17 +59,21 @@
     const auth = firebase.auth();
 
     let currentUser = null;
+    let userWarehouse = "";
+    let userMall = "";
     const cart = {};
     const productsPerPage = 40;
-    let filteredProducts = [], currentPage = 1, userWarehouse = "";
+    let filteredProducts = [], currentPage = 1;
 
     auth.onAuthStateChanged(async user => {
       currentUser = user;
       document.getElementById('sendOrderBtn').style.display = user ? 'inline-block' : 'none';
       document.getElementById('loginBtn').textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
+
       if (user) {
         const doc = await db.collection("users").doc(user.uid).get();
         userWarehouse = doc.data()?.warehouse ?? "";
+        userMall = doc.data()?.mall ?? "";
         populateFilters();
         renderProducts();
       }
@@ -95,17 +99,14 @@
 
     async function submitOrder() {
       if (!currentUser) return alert("يجب تسجيل الدخول.");
-      const hasExtras = document.getElementById("extraItemsCheckbox").checked;
-      const userDoc = await db.collection("users").doc(currentUser.uid).get();
-      const mallName = userDoc.data()?.mall;
-      const warehouse = userDoc.data()?.warehouse;
-
-      if (!mallName || !warehouse) return alert("لا يمكن تحديد المعرض أو المستودع من حساب المستخدم.");
+      if (!userWarehouse || !userMall) return alert("تعذر تحديد بيانات المستخدم.");
       if (Object.keys(cart).length === 0) return alert("🚫 لا يمكن إرسال طلبية بدون منتجات");
 
+      const hasExtras = document.getElementById("extraItemsCheckbox").checked;
+
       db.collection("orders").add({
-        mall: mallName,
-        warehouse,
+        mall: userMall,
+        warehouse: userWarehouse,
         hasExtras,
         userId: currentUser.uid,
         orders: Object.entries(cart).map(([code, d]) => ({ code, name: d.name, alias: d.alias ?? '', qty: d.qty })),
@@ -130,9 +131,9 @@
 
       filteredProducts = data.filter(d =>
         d.stock > 20 &&
+        d.outlet === userWarehouse &&
         (!category || d.category === category) &&
-        (!searchTerm || (d.alias && d.alias.toLowerCase().includes(searchTerm))) &&
-        (!userWarehouse || d.outlet === userWarehouse)
+        (!searchTerm || (d.alias && d.alias.toLowerCase().includes(searchTerm)))
       );
 
       renderPage(1);
