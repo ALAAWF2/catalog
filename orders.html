@@ -40,15 +40,17 @@
 
   <table id="ordersTable">
     <thead>
-      <tr>
-        <th>التاريخ</th>
-        <th>المعرض</th>
-        <th>المستودع</th>
-        <th>مستلزمات</th>
-        <th>تفاصيل</th>
-        <th>الحالة</th>
-        <th>إجراء</th>
-      </tr>
+     <tr>
+  <th>التاريخ</th>
+  <th>المعرض</th>
+  <th>المستودع</th>
+  <th>مستلزمات</th>
+  <th>عدد القطع</th>
+  <th>تفاصيل</th>
+  <th>الحالة</th>
+  <th>إجراء</th>
+</tr>
+
     </thead>
     <tbody></tbody>
   </table>
@@ -101,19 +103,25 @@
           const dateObj = data.timestamp?.toDate?.();
 const date = dateObj ? dateObj.toLocaleString("en-GB", { hour12: false }) : "—";
 
-          const row = document.createElement("tr");
-          row.innerHTML = `
-            <td>${date}</td>
-            <td>${data.mall}</td>
-            <td>${data.warehouse}</td>
-            <td>${data.hasExtras ? 'نعم' : 'لا'}</td>
-            <td>
-              <button onclick='showOrder("${doc.id}")'>عرض</button>
-              <button onclick='downloadExcelDirect("${doc.id}")'>تحميل</button>
-            </td>
-            <td>${data.status || '—'}</td>
-            <td><button onclick='updateStatus("${doc.id}")'>🚚 تم الإرسال</button></td>
-          `;
+          const totalQty = Array.isArray(data.orders)
+  ? data.orders.reduce((sum, item) => sum + (parseFloat(item.qty) || 0), 0)
+  : 0;
+
+const row = document.createElement("tr");
+row.innerHTML = `
+  <td>${date}</td>
+  <td>${data.mall}</td>
+  <td>${data.warehouse}</td>
+  <td>${data.hasExtras ? 'نعم' : 'لا'}</td>
+  <td>${totalQty}</td>
+  <td>
+    <button onclick='showOrder("${doc.id}")'>عرض</button>
+    <button onclick='downloadExcelDirect("${doc.id}")'>تحميل</button>
+  </td>
+  <td>${data.status || '—'}</td>
+  <td><button onclick='updateStatus("${doc.id}")'>🚚 تم الإرسال</button></td>
+`;
+
           tbody.appendChild(row);
         });
       });
