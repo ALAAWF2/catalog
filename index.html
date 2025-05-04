@@ -246,6 +246,8 @@
         <option value="price-desc">السعر: من الأعلى للأقل</option>
         <option value="sales-desc">الأكثر مبيعاً</option>
         <option value="stock-desc">الأعلى مخزوناً</option>
+        <option value="alias-asc">رقم الالياس: من الأقل للأعلى</option>
+        <option value="alias-desc">رقم الالياس: من الأعلى للأقل</option>
       </select>
     </label>
     <input type="text" id="searchInput" placeholder="ابحث بالـ Alias..." oninput="renderProducts()" />
@@ -481,6 +483,20 @@
           break;
         case 'stock-desc':
           filteredProducts.sort((a, b) => b.stock - a.stock);
+          break;
+        case 'alias-asc':
+          filteredProducts.sort((a, b) => {
+            const aAlias = isNaN(Number(a.alias)) ? 0 : Number(a.alias);
+            const bAlias = isNaN(Number(b.alias)) ? 0 : Number(b.alias);
+            return aAlias - bAlias;
+          });
+          break;
+        case 'alias-desc':
+          filteredProducts.sort((a, b) => {
+            const aAlias = isNaN(Number(a.alias)) ? 0 : Number(a.alias);
+            const bAlias = isNaN(Number(b.alias)) ? 0 : Number(b.alias);
+            return bAlias - aAlias;
+          });
           break;
       }
     }
