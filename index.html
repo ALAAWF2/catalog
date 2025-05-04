@@ -251,6 +251,7 @@
       </select>
     </label>
     <input type="text" id="searchInput" placeholder="ابحث بالـ Alias..." oninput="renderProducts()" autocomplete="off" />
+    <input type="text" id="barcodeInput" placeholder="امسح الباركود..." onkeypress="handleBarcodeInput(event)" autocomplete="off" />
     <button id="sendOrderBtn" onclick="openOrderModal()" style="display:none;">ارسال الطلبية</button>
     <button id="loginBtn" onclick="login()">تسجيل الدخول</button>
   </div>
@@ -594,6 +595,11 @@
         <p><strong>الكمية المباعة:</strong> ${product.sales !== undefined ? product.sales : '—'}</p>
         <p><strong>الكمية المتوفرة:</strong> ${product.stock}</p>
         <p><strong>التصنيف:</strong> ${product.category}</p>
+        <div style="margin-top:15px;">
+          <input id="modalQtyInput" type="number" min="1" placeholder="الكمية المطلوبة" style="width:120px; padding:6px; border-radius:5px; border:1px solid #ccc;">
+          <button onclick="addModalQtyToCart('${product.code}', '${product.name}', '${product.alias ?? ''}')"
+            style="background:#e67e22; color:white; border:none; border-radius:5px; padding:6px 16px; margin-right:8px;">إضافة للسلة</button>
+        </div>
       `;
       
       modal.style.display = 'flex';
@@ -676,6 +682,44 @@
           .then(() => alert('تم نسخ معلومات المنتج'))
           .catch(console.error);
       }
+    }
+
+    function handleBarcodeInput(event) {
+      if (event.key === 'Enter') {
+        let barcode = event.target.value.replace(/\D/g, '').trim();
+        if (!barcode) return;
+
+        // إضافة أصفار بادئة إذا كان الباركود أقل من 6 أرقام
+        if (barcode.length < 6) {
+          barcode = barcode.padStart(6, '0');
+        }
+
+        // البحث مع تجاهل الأصفار من اليسار ويقتصر على مستودع المستخدم
+        const product = data.find(p => {
+          const cleanInput = barcode.replace(/^0+/, '');
+          const cleanCode = String(p.code).replace(/^0+/, '');
+          return cleanInput === cleanCode && p.outlet === userWarehouse;
+        });
+
+        if (product) {
+          showProductDetails(product.code);
+        } else {
+          alert('لم يتم العثور على المنتج');
+        }
+
+        event.target.value = '';
+      }
+    }
+
+    function addModalQtyToCart(code, name, alias) {
+      const qty = document.getElementById('modalQtyInput').value;
+      if (!qty || isNaN(qty) || Number(qty) < 1) {
+        alert('يرجى إدخال كمية صحيحة');
+        return;
+      }
+      cart[code] = { name, alias, qty: Number(qty) };
+      closeProductModal();
+      renderProducts();
     }
   </script>
   <!-- نافذة تسجيل الدخول المخصصة -->
