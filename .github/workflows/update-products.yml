@@ -1,0 +1,33 @@
+name: Update Products
+
+on:
+  push:
+    paths:
+      - 'cattemp.xlsx'
+
+jobs:
+  update-products:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas openpyxl
+          
+      - name: Update products.js
+        run: python jscreate.py
+        
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add products.js
+          git commit -m "تحديث المنتجات - $(date +'%Y-%m-%d')" || exit 0
+          git push 

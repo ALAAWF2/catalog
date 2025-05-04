@@ -6,8 +6,8 @@ const data = [
     "alias": "9999",
     "name": "@KING PILLOW MARAM",
     "price": 99.0,
-    "stock": 495,
-    "sales": 23
+    "stock": 240,
+    "sales": 13
   },
   {
     "outlet": "Warehouse",
@@ -26,8 +26,8 @@ const data = [
     "alias": "607301",
     "name": "WHITE SHEET ( FULL ) SET 3PCS",
     "price": 79.0,
-    "stock": 14191,
-    "sales": 13
+    "stock": 36,
+    "sales": 21
   },
   {
     "outlet": "Warehouse",
@@ -36,8 +36,8 @@ const data = [
     "alias": "9114",
     "name": "PILLOW DOWN ALT EXTRA FIRM KING",
     "price": 69.0,
-    "stock": 7718,
-    "sales": 1475
+    "stock": 1274,
+    "sales": 1709
   },
   {
     "outlet": "Warehouse",
@@ -46,8 +46,8 @@ const data = [
     "alias": "607307",
     "name": "SILVER SHEET ( FULL )  SET 3PCS",
     "price": 79.0,
-    "stock": 286,
-    "sales": 4
+    "stock": 284,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -56,8 +56,8 @@ const data = [
     "alias": "607302",
     "name": "MARSHMALLOW SHEET ( FULL ) SET 3PCS",
     "price": 79.0,
-    "stock": 5513,
-    "sales": 0
+    "stock": 5511,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -66,8 +66,8 @@ const data = [
     "alias": "607601",
     "name": "SHEET 4 PCS 300 STITSH KING WHITE",
     "price": 219.0,
-    "stock": 3982,
-    "sales": 128
+    "stock": 3946,
+    "sales": 135
   },
   {
     "outlet": "Warehouse",
@@ -76,8 +76,8 @@ const data = [
     "alias": "607701",
     "name": "WHITE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 17678,
-    "sales": 164
+    "stock": 109,
+    "sales": 183
   },
   {
     "outlet": "Warehouse",
@@ -86,8 +86,8 @@ const data = [
     "alias": "607709",
     "name": "PINK SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 718,
-    "sales": 97
+    "stock": 678,
+    "sales": 113
   },
   {
     "outlet": "Warehouse",
@@ -107,7 +107,7 @@ const data = [
     "name": "BLUE JEANS  3PCS ( FULL ) SHEET",
     "price": 79.0,
     "stock": 12,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -116,8 +116,8 @@ const data = [
     "alias": "608503",
     "name": "SILVER DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495.0,
-    "stock": 566,
-    "sales": 8
+    "stock": 561,
+    "sales": 15
   },
   {
     "outlet": "Warehouse",
@@ -126,7 +126,7 @@ const data = [
     "alias": "608504",
     "name": "LT.BLUE DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495.0,
-    "stock": 192,
+    "stock": 187,
     "sales": 5
   },
   {
@@ -136,8 +136,8 @@ const data = [
     "alias": "608507",
     "name": "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495.0,
-    "stock": 662,
-    "sales": 9
+    "stock": 657,
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -146,8 +146,8 @@ const data = [
     "alias": "608508",
     "name": "WHITE DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495.0,
-    "stock": 1007,
-    "sales": 26
+    "stock": 997,
+    "sales": 32
   },
   {
     "outlet": "Warehouse",
@@ -156,8 +156,8 @@ const data = [
     "alias": "9154",
     "name": "(SPECIAL OFFER) DOWN ALT FIRM STANDARD PILLOW 233TC",
     "price": 39.0,
-    "stock": 18580,
-    "sales": 2044
+    "stock": 10126,
+    "sales": 2581
   },
   {
     "outlet": "Warehouse",
@@ -166,7 +166,7 @@ const data = [
     "alias": "608704",
     "name": "DUVET POTANICAL GARDEN 3 PCS",
     "price": 294.0,
-    "stock": 10,
+    "stock": 9,
     "sales": 0
   },
   {
@@ -176,8 +176,8 @@ const data = [
     "alias": "608705",
     "name": "DUVET TETBURY 3 PCS",
     "price": 294.0,
-    "stock": 10,
-    "sales": 3
+    "stock": 8,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -186,8 +186,8 @@ const data = [
     "alias": "710801",
     "name": "SQUARE TOWELS AIR-RICH IVORY",
     "price": 5.0,
-    "stock": 7462,
-    "sales": 259
+    "stock": 3894,
+    "sales": 271
   },
   {
     "outlet": "Warehouse",
@@ -196,8 +196,8 @@ const data = [
     "alias": "710802",
     "name": "SQUARE TOWELS AIR-RICH WHITE",
     "price": 5.0,
-    "stock": 5435,
-    "sales": 365
+    "stock": 1858,
+    "sales": 436
   },
   {
     "outlet": "Warehouse",
@@ -206,8 +206,8 @@ const data = [
     "alias": "710803",
     "name": "SQUARE TOWELS AIR-RICH LINEN",
     "price": 5.0,
-    "stock": 6516,
-    "sales": 199
+    "stock": 2952,
+    "sales": 217
   },
   {
     "outlet": "Warehouse",
@@ -216,8 +216,8 @@ const data = [
     "alias": "710809",
     "name": "SQUARE TOWELS AIR-RICH PINK",
     "price": 5.0,
-    "stock": 4862,
-    "sales": 181
+    "stock": 1295,
+    "sales": 196
   },
   {
     "outlet": "Warehouse",
@@ -227,7 +227,7 @@ const data = [
     "name": "SQUARE TOWELS AIR-RICH P.BLUE",
     "price": 5.0,
     "stock": 106,
-    "sales": 43
+    "sales": 53
   },
   {
     "outlet": "Warehouse",
@@ -236,8 +236,8 @@ const data = [
     "alias": "710812",
     "name": "SQUARE TOWELS AIR-RICH TITANIUM",
     "price": 5.0,
-    "stock": 296,
-    "sales": 125
+    "stock": 233,
+    "sales": 132
   },
   {
     "outlet": "Warehouse",
@@ -246,8 +246,8 @@ const data = [
     "alias": "710601",
     "name": "BATH SHEET AIR-RICH IVORY",
     "price": 69.0,
-    "stock": 9597,
-    "sales": 63
+    "stock": 25,
+    "sales": 52
   },
   {
     "outlet": "Warehouse",
@@ -256,8 +256,8 @@ const data = [
     "alias": "710602",
     "name": "BATH SHEET AIR-RICH WHITE",
     "price": 69.0,
-    "stock": 8581,
-    "sales": 140
+    "stock": 4,
+    "sales": 131
   },
   {
     "outlet": "Warehouse",
@@ -266,8 +266,8 @@ const data = [
     "alias": "710603",
     "name": "BATH SHEET AIR-RICH LINEN",
     "price": 69.0,
-    "stock": 3643,
-    "sales": 88
+    "stock": 2046,
+    "sales": 113
   },
   {
     "outlet": "Warehouse",
@@ -276,8 +276,8 @@ const data = [
     "alias": "710609",
     "name": "BATH SHEET AIR-RICH PINK",
     "price": 69.0,
-    "stock": 5694,
-    "sales": 44
+    "stock": 128,
+    "sales": 65
   },
   {
     "outlet": "Warehouse",
@@ -287,7 +287,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH BURGANDY",
     "price": 69.0,
     "stock": 5,
-    "sales": 1
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -297,7 +297,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH P.BLUE",
     "price": 69.0,
     "stock": 3,
-    "sales": 16
+    "sales": 17
   },
   {
     "outlet": "Warehouse",
@@ -306,8 +306,8 @@ const data = [
     "alias": "710612",
     "name": "BATH SHEET AIR-RICH TITANIUM",
     "price": 69.0,
-    "stock": 485,
-    "sales": 71
+    "stock": 471,
+    "sales": 77
   },
   {
     "outlet": "Warehouse",
@@ -316,8 +316,8 @@ const data = [
     "alias": "710614",
     "name": "BATH SHEET AIR-RICH ROSE",
     "price": 69.0,
-    "stock": 433,
-    "sales": 41
+    "stock": 430,
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -326,8 +326,8 @@ const data = [
     "alias": "710701",
     "name": "EUR TOWEL AIR-RICH IVORY",
     "price": 25.0,
-    "stock": 10114,
-    "sales": 225
+    "stock": 1559,
+    "sales": 286
   },
   {
     "outlet": "Warehouse",
@@ -336,8 +336,8 @@ const data = [
     "alias": "710702",
     "name": "EUR TOWEL AIR-RICH WHITE",
     "price": 25.0,
-    "stock": 10095,
-    "sales": 191
+    "stock": 1683,
+    "sales": 211
   },
   {
     "outlet": "Warehouse",
@@ -346,8 +346,8 @@ const data = [
     "alias": "710703",
     "name": "EUR TOWEL AIR-RICH LINEN",
     "price": 25.0,
-    "stock": 5768,
-    "sales": 125
+    "stock": 3260,
+    "sales": 170
   },
   {
     "outlet": "Warehouse",
@@ -356,8 +356,8 @@ const data = [
     "alias": "710709",
     "name": "EUR TOWEL AIR-RICH PINK",
     "price": 25.0,
-    "stock": 4072,
-    "sales": 155
+    "stock": 1485,
+    "sales": 198
   },
   {
     "outlet": "Warehouse",
@@ -366,8 +366,8 @@ const data = [
     "alias": "710712",
     "name": "EUR TOWEL AIR-RICH TITANIUM",
     "price": 25.0,
-    "stock": 1220,
-    "sales": 73
+    "stock": 1207,
+    "sales": 94
   },
   {
     "outlet": "Warehouse",
@@ -376,8 +376,8 @@ const data = [
     "alias": "710714",
     "name": "EUR TOWEL AIR-RICH ROSE",
     "price": 25.0,
-    "stock": 111,
-    "sales": 110
+    "stock": 98,
+    "sales": 120
   },
   {
     "outlet": "Warehouse",
@@ -416,8 +416,8 @@ const data = [
     "alias": "916801",
     "name": "ROBE IVORY S/M",
     "price": 99.0,
-    "stock": 2317,
-    "sales": 155
+    "stock": 10,
+    "sales": 203
   },
   {
     "outlet": "Warehouse",
@@ -426,8 +426,8 @@ const data = [
     "alias": "916802",
     "name": "ROBE WHITE S/M",
     "price": 99.0,
-    "stock": 1623,
-    "sales": 118
+    "stock": 1582,
+    "sales": 140
   },
   {
     "outlet": "Warehouse",
@@ -436,8 +436,8 @@ const data = [
     "alias": "916803",
     "name": "ROBE LINEN S/M.",
     "price": 99.0,
-    "stock": 3417,
-    "sales": 84
+    "stock": 10,
+    "sales": 105
   },
   {
     "outlet": "Warehouse",
@@ -446,18 +446,8 @@ const data = [
     "alias": "916808",
     "name": "ROBE PINK S/M",
     "price": 99.0,
-    "stock": 471,
-    "sales": 106
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "أرواب حمام",
-    "code": "12785",
-    "alias": "916810",
-    "name": "ROBE P.BLUE S/M",
-    "price": 99.0,
-    "stock": 34,
-    "sales": 55
+    "stock": 388,
+    "sales": 127
   },
   {
     "outlet": "Warehouse",
@@ -466,8 +456,8 @@ const data = [
     "alias": "916901",
     "name": "ROBE IVORY L/XL",
     "price": 99.0,
-    "stock": 3134,
-    "sales": 110
+    "stock": 24,
+    "sales": 126
   },
   {
     "outlet": "Warehouse",
@@ -476,8 +466,8 @@ const data = [
     "alias": "916902",
     "name": "ROBE WHITE L/XL",
     "price": 99.0,
-    "stock": 3223,
-    "sales": 106
+    "stock": 41,
+    "sales": 115
   },
   {
     "outlet": "Warehouse",
@@ -486,8 +476,8 @@ const data = [
     "alias": "916903",
     "name": "ROBE LINEN L/XL",
     "price": 99.0,
-    "stock": 2052,
-    "sales": 166
+    "stock": 7,
+    "sales": 188
   },
   {
     "outlet": "Warehouse",
@@ -496,8 +486,8 @@ const data = [
     "alias": "916908",
     "name": "ROBE PINK L/XL",
     "price": 99.0,
-    "stock": 1322,
-    "sales": 136
+    "stock": 10,
+    "sales": 158
   },
   {
     "outlet": "Warehouse",
@@ -506,8 +496,8 @@ const data = [
     "alias": "916910",
     "name": "ROBE P.BLUE L/XL",
     "price": 99.0,
-    "stock": 196,
-    "sales": 75
+    "stock": 115,
+    "sales": 97
   },
   {
     "outlet": "Warehouse",
@@ -527,7 +517,7 @@ const data = [
     "name": "ROBE ROSE L/XL",
     "price": 99.0,
     "stock": 1,
-    "sales": 5
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -537,7 +527,7 @@ const data = [
     "name": "STERLNG BLUE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
     "stock": 1,
-    "sales": 44
+    "sales": 51
   },
   {
     "outlet": "Warehouse",
@@ -546,7 +536,7 @@ const data = [
     "alias": "607724",
     "name": "MARCHMALOW SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 12,
+    "stock": 11,
     "sales": 0
   },
   {
@@ -556,8 +546,8 @@ const data = [
     "alias": "607727",
     "name": "SHEET 3 PCS 300 STITSH KING BURGUNDY",
     "price": 129.0,
-    "stock": 1052,
-    "sales": 51
+    "stock": 2,
+    "sales": 58
   },
   {
     "outlet": "Warehouse",
@@ -566,8 +556,8 @@ const data = [
     "alias": "607729",
     "name": "GREY SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 3176,
-    "sales": 78
+    "stock": 773,
+    "sales": 103
   },
   {
     "outlet": "Warehouse",
@@ -576,8 +566,8 @@ const data = [
     "alias": "607730",
     "name": "PLATINUM GREY SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 1143,
-    "sales": 181
+    "stock": 1062,
+    "sales": 202
   },
   {
     "outlet": "Warehouse",
@@ -586,8 +576,8 @@ const data = [
     "alias": "607732",
     "name": "OFF WHITE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 29077,
-    "sales": 109
+    "stock": 45,
+    "sales": 155
   },
   {
     "outlet": "Warehouse",
@@ -596,18 +586,38 @@ const data = [
     "alias": "4076",
     "name": "*KAYA GOLD KING COMFORTER 11 PCS",
     "price": 895.0,
-    "stock": 72,
+    "stock": 55,
     "sales": 0
   },
   {
     "outlet": "Warehouse",
     "category": "لحافات كينغ",
-    "code": "13503",
-    "alias": "408509",
-    "name": "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
-    "price": 695.0,
-    "stock": 3,
-    "sales": 12
+    "code": "13492",
+    "alias": "408501",
+    "name": "WHITE DAMASK KING COMFORTER 500 TC 6 PCS",
+    "price": 699.0,
+    "stock": 943,
+    "sales": 3
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "لحافات كينغ",
+    "code": "13493",
+    "alias": "408502",
+    "name": "COUBLESTONE DAMASK KING  COMFORTER 500 TC 6 PCS",
+    "price": 699.0,
+    "stock": 455,
+    "sales": 4
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "لحافات كينغ",
+    "code": "13498",
+    "alias": "408507",
+    "name": "SILVER DAMASK KING COMFORTER 500 TC 6 PCS",
+    "price": 699.0,
+    "stock": 705,
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -615,9 +625,9 @@ const data = [
     "code": "13533",
     "alias": "408511",
     "name": "LT.BLUE DAMASK KING COMFORTER 500 TC 6 PCS",
-    "price": 695.0,
-    "stock": 16,
-    "sales": 16
+    "price": 699.0,
+    "stock": 13,
+    "sales": 19
   },
   {
     "outlet": "Warehouse",
@@ -625,9 +635,9 @@ const data = [
     "code": "13536",
     "alias": "408514",
     "name": "IVORY DAMASK KING COMFORTER 500 TC 6 PCS",
-    "price": 695.0,
-    "stock": 83,
-    "sales": 30
+    "price": 699.0,
+    "stock": 24,
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -642,12 +652,42 @@ const data = [
   {
     "outlet": "Warehouse",
     "category": "لحافات فل",
+    "code": "13608",
+    "alias": "239904",
+    "name": "HUSH VIOLT DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
+    "price": 499.0,
+    "stock": 355,
+    "sales": 6
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "لحافات فل",
+    "code": "13610",
+    "alias": "239906",
+    "name": "SILVER DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
+    "price": 499.0,
+    "stock": 343,
+    "sales": 3
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "لحافات فل",
+    "code": "13613",
+    "alias": "239913",
+    "name": "IVORY DAMASK  FULL COMFORTER 4 PCS 500 STITSH",
+    "price": 499.0,
+    "stock": 209,
+    "sales": 18
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "لحافات فل",
     "code": "13615",
     "alias": "239901",
     "name": "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    "price": 595.0,
-    "stock": 9,
-    "sales": 3
+    "price": 499.0,
+    "stock": 456,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -655,9 +695,19 @@ const data = [
     "code": "13616",
     "alias": "239902",
     "name": "COUBLE STONE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    "price": 595.0,
-    "stock": 1,
-    "sales": 4
+    "price": 499.0,
+    "stock": 348,
+    "sales": 8
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "لحافات فل",
+    "code": "13629",
+    "alias": "239908",
+    "name": "LT BLUE DAMASK FULL COMFORTER 4 PCS 500 STITSH - 13618",
+    "price": 499.0,
+    "stock": 255,
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -667,7 +717,7 @@ const data = [
     "name": "@ACCESS SET 3 PCS NZ90-628",
     "price": 59.0,
     "stock": 1,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -696,7 +746,7 @@ const data = [
     "alias": "456021",
     "name": "CRIMSOM SO-SOFT KING COMFORTER 3PCS",
     "price": 299.0,
-    "stock": 2,
+    "stock": 1,
     "sales": 0
   },
   {
@@ -707,7 +757,7 @@ const data = [
     "name": "AS IS 9.",
     "price": 9.0,
     "stock": 103,
-    "sales": 8
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -716,8 +766,8 @@ const data = [
     "alias": "538716",
     "name": "BIG ONE MALLORY KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 1,
-    "sales": 28
+    "stock": 2,
+    "sales": 41
   },
   {
     "outlet": "Warehouse",
@@ -736,8 +786,8 @@ const data = [
     "alias": "607735",
     "name": "LINEN KING 3 PCS 300 STITSH",
     "price": 129.0,
-    "stock": 2215,
-    "sales": 64
+    "stock": 2154,
+    "sales": 91
   },
   {
     "outlet": "Warehouse",
@@ -747,7 +797,7 @@ const data = [
     "name": "SLIT KING 3 PCS 300 STITSH",
     "price": 129.0,
     "stock": 2,
-    "sales": 27
+    "sales": 30
   },
   {
     "outlet": "Warehouse",
@@ -766,8 +816,8 @@ const data = [
     "alias": "814904",
     "name": "VIOLET SKY WAVE MAT SIZ 51*86",
     "price": 49.0,
-    "stock": 21,
-    "sales": 0
+    "stock": 4,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -807,7 +857,7 @@ const data = [
     "name": "BATH ROBE LAVENDER L/XL",
     "price": 99.0,
     "stock": 4,
-    "sales": 0
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -826,7 +876,7 @@ const data = [
     "alias": "419300",
     "name": "*MHEA KING COMFORTER 8 PCS.",
     "price": 895.0,
-    "stock": 526,
+    "stock": 50,
     "sales": 0
   },
   {
@@ -837,7 +887,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH LAVENDER",
     "price": 69.0,
     "stock": 8,
-    "sales": 0
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -847,7 +897,7 @@ const data = [
     "name": "SQUARE TOWELS AIR-RICH LAVENDE",
     "price": 5.0,
     "stock": 2,
-    "sales": 5
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -877,17 +927,7 @@ const data = [
     "name": "*(SPECIAL OFFER) KAYA SILVER KING COMFORTER 11 PCS_KIT",
     "price": 796.0,
     "stock": 2,
-    "sales": 10
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "لحافات كينغ",
-    "code": "14716",
-    "alias": "44076",
-    "name": "*(SPECIAL OFFER) KAYA GOLD KING COMFORTER 11 PCS_KIT",
-    "price": 796.0,
-    "stock": 3,
-    "sales": 6
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -916,8 +956,8 @@ const data = [
     "alias": "538727",
     "name": "BIG ONE HARLEY KING 3 PCS",
     "price": 149.0,
-    "stock": 760,
-    "sales": 13
+    "stock": 748,
+    "sales": 20
   },
   {
     "outlet": "Warehouse",
@@ -936,8 +976,8 @@ const data = [
     "alias": "44746",
     "name": "*ROPE EMBRODERY KING COMFORTER 11 PCS KIT",
     "price": 1299.0,
-    "stock": 28,
-    "sales": 24
+    "stock": 7,
+    "sales": 39
   },
   {
     "outlet": "Warehouse",
@@ -946,8 +986,8 @@ const data = [
     "alias": "538730",
     "name": "BIG ONE JUNE KING 3 PCS",
     "price": 149.0,
-    "stock": 618,
-    "sales": 76
+    "stock": 572,
+    "sales": 92
   },
   {
     "outlet": "Warehouse",
@@ -956,8 +996,8 @@ const data = [
     "alias": "538733",
     "name": "BIG ONE ASTER KING 3 PCS",
     "price": 149.0,
-    "stock": 115,
-    "sales": 56
+    "stock": 97,
+    "sales": 59
   },
   {
     "outlet": "Warehouse",
@@ -966,8 +1006,8 @@ const data = [
     "alias": "538735",
     "name": "BIG ONE CASELLI KING 3 PCS",
     "price": 149.0,
-    "stock": 3,
-    "sales": 48
+    "stock": 2,
+    "sales": 55
   },
   {
     "outlet": "Warehouse",
@@ -976,8 +1016,8 @@ const data = [
     "alias": "44193",
     "name": "*MHEA KING COMFORTER 11 PCS KIT",
     "price": 895.0,
-    "stock": 96,
-    "sales": 124
+    "stock": 32,
+    "sales": 134
   },
   {
     "outlet": "Warehouse",
@@ -986,8 +1026,8 @@ const data = [
     "alias": "9300",
     "name": "JUST RELAX 200*200 CM KING MATRESPAD",
     "price": 199.0,
-    "stock": 9579,
-    "sales": 386
+    "stock": 1,
+    "sales": 419
   },
   {
     "outlet": "Warehouse",
@@ -996,8 +1036,8 @@ const data = [
     "alias": "9301",
     "name": "JUST RELAX 203*218 CM FULL DUVET",
     "price": 194.0,
-    "stock": 734,
-    "sales": 53
+    "stock": 716,
+    "sales": 50
   },
   {
     "outlet": "Warehouse",
@@ -1006,8 +1046,8 @@ const data = [
     "alias": "710721",
     "name": "EUR TOWEL AIR-RICH OYSTER MUSHROOM",
     "price": 25.0,
-    "stock": 5718,
-    "sales": 177
+    "stock": 3185,
+    "sales": 200
   },
   {
     "outlet": "Warehouse",
@@ -1016,8 +1056,8 @@ const data = [
     "alias": "710821",
     "name": "SQUARE TOWELS AIR-RICH OYSTER MUSHROOM",
     "price": 5.0,
-    "stock": 6420,
-    "sales": 143
+    "stock": 2901,
+    "sales": 159
   },
   {
     "outlet": "Warehouse",
@@ -1026,8 +1066,8 @@ const data = [
     "alias": "710621",
     "name": "BATH SHEET AIR-RICH OYSTER MUSHROOM",
     "price": 69.0,
-    "stock": 5018,
-    "sales": 92
+    "stock": 78,
+    "sales": 89
   },
   {
     "outlet": "Warehouse",
@@ -1067,7 +1107,7 @@ const data = [
     "name": "LATTICE LEAF KING QUILT 3 PCS",
     "price": 299.0,
     "stock": 1,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -1077,7 +1117,7 @@ const data = [
     "name": "(SPECIAL OFFER) ROYAL EMB KING COMFORTER 12 PCS",
     "price": 595.0,
     "stock": 13,
-    "sales": 4
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -1086,8 +1126,8 @@ const data = [
     "alias": "9263",
     "name": "JUST RELAX FULL MATTRES PAD 122X191 CM",
     "price": 189.0,
-    "stock": 203,
-    "sales": 179
+    "stock": 124,
+    "sales": 189
   },
   {
     "outlet": "Warehouse",
@@ -1096,8 +1136,8 @@ const data = [
     "alias": "608517",
     "name": "HUSHED V. DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495.0,
-    "stock": 183,
-    "sales": 6
+    "stock": 173,
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -1106,8 +1146,8 @@ const data = [
     "alias": "9306",
     "name": "JUST RELAX 163*203CM QUEEN MATRESPAD",
     "price": 199.0,
-    "stock": 200,
-    "sales": 101
+    "stock": 118,
+    "sales": 119
   },
   {
     "outlet": "Warehouse",
@@ -1116,8 +1156,8 @@ const data = [
     "alias": "9563",
     "name": "300TC DREAM COMFORT KING PILLOW",
     "price": 99.0,
-    "stock": 5282,
-    "sales": 488
+    "stock": 2,
+    "sales": 562
   },
   {
     "outlet": "Warehouse",
@@ -1126,8 +1166,8 @@ const data = [
     "alias": "916821",
     "name": "BATH ROBE OYSTER MUSHROOM S/M",
     "price": 136.5,
-    "stock": 1310,
-    "sales": 140
+    "stock": 16,
+    "sales": 166
   },
   {
     "outlet": "Warehouse",
@@ -1136,8 +1176,18 @@ const data = [
     "alias": "916921",
     "name": "BATH ROBE OYSTER MUSHROOM L/XL",
     "price": 99.0,
-    "stock": 678,
-    "sales": 108
+    "stock": 611,
+    "sales": 117
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "فواحات",
+    "code": "16890",
+    "alias": "926504",
+    "name": "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
+    "price": 39.0,
+    "stock": 1,
+    "sales": 112
   },
   {
     "outlet": "Warehouse",
@@ -1146,8 +1196,8 @@ const data = [
     "alias": "926501",
     "name": "BABY POWDER FRESHENER COCODOR 500 ML ROOM SPRAY",
     "price": 39.0,
-    "stock": 349,
-    "sales": 1
+    "stock": 25,
+    "sales": 15
   },
   {
     "outlet": "Warehouse",
@@ -1157,7 +1207,7 @@ const data = [
     "name": "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
     "price": 39.0,
     "stock": 1,
-    "sales": 16
+    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -1166,8 +1216,8 @@ const data = [
     "alias": "9564",
     "name": "STANDARD PILLOW DREAM COMFORT 300TC",
     "price": 69.0,
-    "stock": 1672,
-    "sales": 516
+    "stock": 137,
+    "sales": 618
   },
   {
     "outlet": "Warehouse",
@@ -1176,7 +1226,7 @@ const data = [
     "alias": "4011400",
     "name": "*LEXY BLUSH KING COMFORTER 5 PCS",
     "price": 495.0,
-    "stock": 326,
+    "stock": 296,
     "sales": 0
   },
   {
@@ -1186,8 +1236,8 @@ const data = [
     "alias": "440114",
     "name": "*LEXY BLUSH KING COMFORTER 8 PCS KIT",
     "price": 495.0,
-    "stock": 73,
-    "sales": 36
+    "stock": 5,
+    "sales": 44
   },
   {
     "outlet": "Warehouse",
@@ -1196,8 +1246,8 @@ const data = [
     "alias": "607315",
     "name": "TAUPE SHEET ( FULL )SET 3PCS",
     "price": 79.0,
-    "stock": 17,
-    "sales": -2
+    "stock": 15,
+    "sales": -1
   },
   {
     "outlet": "Warehouse",
@@ -1206,7 +1256,7 @@ const data = [
     "alias": "607316",
     "name": "PLATINUM GREY SHEET  ( FULL )SET 3PCS",
     "price": 79.0,
-    "stock": 3237,
+    "stock": 3235,
     "sales": 2
   },
   {
@@ -1216,8 +1266,8 @@ const data = [
     "alias": "607318",
     "name": "PINK SHEET( FULL ) SET 3PCS",
     "price": 79.0,
-    "stock": 1244,
-    "sales": 1
+    "stock": 1242,
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -1226,8 +1276,8 @@ const data = [
     "alias": "9565",
     "name": "EURO SHAM DOWN ALT FIRM PILLOW ( PAIRE )",
     "price": 99.0,
-    "stock": 1,
-    "sales": 21
+    "stock": 2,
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -1246,8 +1296,8 @@ const data = [
     "alias": "440123",
     "name": "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
     "price": 595.0,
-    "stock": 111,
-    "sales": 23
+    "stock": 10,
+    "sales": 28
   },
   {
     "outlet": "Warehouse",
@@ -1257,7 +1307,7 @@ const data = [
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS B",
     "price": 99.0,
     "stock": 36,
-    "sales": 4
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -1266,7 +1316,7 @@ const data = [
     "alias": "709937",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS G",
     "price": 99.0,
-    "stock": 111,
+    "stock": 102,
     "sales": 1
   },
   {
@@ -1277,7 +1327,7 @@ const data = [
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS J",
     "price": 99.0,
     "stock": 24,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -1287,7 +1337,7 @@ const data = [
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS K",
     "price": 99.0,
     "stock": 31,
-    "sales": 4
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -1297,7 +1347,7 @@ const data = [
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS L",
     "price": 99.0,
     "stock": 32,
-    "sales": 6
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -1316,8 +1366,8 @@ const data = [
     "alias": "709955",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS W",
     "price": 99.0,
-    "stock": 58,
-    "sales": 3
+    "stock": 57,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -1346,8 +1396,8 @@ const data = [
     "alias": "44049",
     "name": "*SHANGIA SAFRON KING COMFORTER 8 PCS KIT",
     "price": 495.0,
-    "stock": 105,
-    "sales": 36
+    "stock": 91,
+    "sales": 35
   },
   {
     "outlet": "Warehouse",
@@ -1356,8 +1406,8 @@ const data = [
     "alias": "800802",
     "name": "HEATHER FAUX RABBIT FUR 50*85 CM MAT",
     "price": 59.0,
-    "stock": 166,
-    "sales": 10
+    "stock": 154,
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -1367,7 +1417,7 @@ const data = [
     "name": "SILVER FAUX RABBIT FUR  50*85 CM MAT",
     "price": 59.0,
     "stock": 24,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -1377,7 +1427,7 @@ const data = [
     "name": "WHITE FAUX RABBIT FUR  50*85 CM MAT",
     "price": 59.0,
     "stock": 12,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -1386,8 +1436,8 @@ const data = [
     "alias": "800805",
     "name": "CHARCOAL FAUX RABBIT FUR 50*85 CM MAT",
     "price": 59.0,
-    "stock": 245,
-    "sales": 11
+    "stock": 231,
+    "sales": 9
   },
   {
     "outlet": "Warehouse",
@@ -1397,7 +1447,7 @@ const data = [
     "name": "WINTER ROSE PINK FULL 2 PCS",
     "price": 59.0,
     "stock": 2,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -1436,8 +1486,8 @@ const data = [
     "alias": "9312",
     "name": "ADJUSTABLE KING PILLOW",
     "price": 189.0,
-    "stock": 10502,
-    "sales": 188
+    "stock": 10403,
+    "sales": 204
   },
   {
     "outlet": "Warehouse",
@@ -1506,8 +1556,8 @@ const data = [
     "alias": "618305",
     "name": "WINTER SHEET HAS SKY KING 3 PCS",
     "price": 99.0,
-    "stock": 283,
-    "sales": 16
+    "stock": 242,
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -1547,7 +1597,7 @@ const data = [
     "name": "WINTER SHEET ROSE PINK KING 3 PCS",
     "price": 99.0,
     "stock": 2,
-    "sales": 1
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -1587,7 +1637,7 @@ const data = [
     "name": "WINTER SHEET SILVER KING 3 PCS",
     "price": 99.0,
     "stock": 10,
-    "sales": 3
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -1596,8 +1646,8 @@ const data = [
     "alias": "714401",
     "name": "AIR-RICH IVORY 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 4430,
-    "sales": 154
+    "stock": 2650,
+    "sales": 175
   },
   {
     "outlet": "Warehouse",
@@ -1606,8 +1656,8 @@ const data = [
     "alias": "714403",
     "name": "AIR-RICH LINEN 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 3253,
-    "sales": 110
+    "stock": 1489,
+    "sales": 122
   },
   {
     "outlet": "Warehouse",
@@ -1626,8 +1676,8 @@ const data = [
     "alias": "714421",
     "name": "AIR-RICH OYSTER MUSHROOM 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 2709,
-    "sales": 157
+    "stock": 896,
+    "sales": 153
   },
   {
     "outlet": "Warehouse",
@@ -1636,8 +1686,8 @@ const data = [
     "alias": "714409",
     "name": "AIR-RICH PINK 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 4187,
-    "sales": 124
+    "stock": 2375,
+    "sales": 158
   },
   {
     "outlet": "Warehouse",
@@ -1646,28 +1696,28 @@ const data = [
     "alias": "714402",
     "name": "AIR-RICH WHITE 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 8261,
-    "sales": 150
+    "stock": 1079,
+    "sales": 145
   },
   {
     "outlet": "Warehouse",
     "category": "أطقم دعاسات",
     "code": "19362",
     "alias": "816201",
-    "name": "BATH MAT SET 2 PCS LIGHT YELLOW",
-    "price": 94.0,
-    "stock": 1685,
-    "sales": 35
+    "name": "BATH MAT SET 2 PCS IVORY",
+    "price": 99.0,
+    "stock": 734,
+    "sales": 49
   },
   {
     "outlet": "Warehouse",
     "category": "أطقم دعاسات",
     "code": "19363",
     "alias": "816202",
-    "name": "BATH MAT SET 2 PCS TAN",
-    "price": 94.0,
-    "stock": 294,
-    "sales": 36
+    "name": "BATH MAT SET 2 PCS CHINO GREEN",
+    "price": 99.0,
+    "stock": 246,
+    "sales": 42
   },
   {
     "outlet": "Warehouse",
@@ -1675,39 +1725,29 @@ const data = [
     "code": "19365",
     "alias": "816204",
     "name": "BATH MAT SET 2 PCS BURGUNDY",
-    "price": 94.0,
+    "price": 99.0,
     "stock": 6,
     "sales": 0
   },
   {
     "outlet": "Warehouse",
     "category": "أطقم دعاسات",
-    "code": "19366",
-    "alias": "816205",
-    "name": "BATH MAT SET 2 PCS WHITE",
-    "price": 94.0,
-    "stock": 36,
-    "sales": 14
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "أطقم دعاسات",
     "code": "19368",
     "alias": "816207",
-    "name": "BATH MAT SET 2 PCS DARKER LIGHT GREY",
-    "price": 94.0,
-    "stock": 482,
-    "sales": 22
+    "name": "BATH MAT SET 2 PCS OYESTER MUSHROOM",
+    "price": 99.0,
+    "stock": 428,
+    "sales": 18
   },
   {
     "outlet": "Warehouse",
     "category": "أطقم دعاسات",
     "code": "19370",
     "alias": "816209",
-    "name": "BATH MAT SET 2 PCS LIGHT ROSE",
-    "price": 94.0,
-    "stock": 490,
-    "sales": 12
+    "name": "BATH MAT SET 2 PCS PINK",
+    "price": 99.0,
+    "stock": 273,
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -1715,9 +1755,9 @@ const data = [
     "code": "19371",
     "alias": "816210",
     "name": "BATH MAT SET 2 PCS ROSE",
-    "price": 94.0,
+    "price": 99.0,
     "stock": 2,
-    "sales": 3
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -1807,7 +1847,7 @@ const data = [
     "name": "BATH MAT 24X60IN PINK",
     "price": 129.0,
     "stock": 15,
-    "sales": 3
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -1826,8 +1866,8 @@ const data = [
     "alias": "816401",
     "name": "BATH MAT 21X34IN LIGHT YELLOW",
     "price": 59.0,
-    "stock": 118,
-    "sales": 33
+    "stock": 103,
+    "sales": 34
   },
   {
     "outlet": "Warehouse",
@@ -1836,8 +1876,8 @@ const data = [
     "alias": "816402",
     "name": "BATH MAT 21X34IN CHINO GREEN",
     "price": 59.0,
-    "stock": 690,
-    "sales": 20
+    "stock": 630,
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -1857,7 +1897,7 @@ const data = [
     "name": "BATH MAT 21X34IN WHITE",
     "price": 59.0,
     "stock": 4,
-    "sales": 21
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -1876,7 +1916,7 @@ const data = [
     "alias": "816407",
     "name": "BATH MAT 21X34IN DARKER LIGHT GREY",
     "price": 59.0,
-    "stock": 78,
+    "stock": 24,
     "sales": 31
   },
   {
@@ -1896,8 +1936,8 @@ const data = [
     "alias": "816409",
     "name": "BATH MAT 21X34IN LIGHT ROSE",
     "price": 59.0,
-    "stock": 93,
-    "sales": 13
+    "stock": 32,
+    "sales": 16
   },
   {
     "outlet": "Warehouse",
@@ -1906,8 +1946,8 @@ const data = [
     "alias": "816410",
     "name": "BATH MAT 21X34IN ROSE",
     "price": 59.0,
-    "stock": 469,
-    "sales": 5
+    "stock": 16,
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -1916,8 +1956,8 @@ const data = [
     "alias": "816301",
     "name": "BATH MAT 17X24IN LIGHT YELLOW",
     "price": 39.0,
-    "stock": 477,
-    "sales": 24
+    "stock": 314,
+    "sales": 20
   },
   {
     "outlet": "Warehouse",
@@ -1926,8 +1966,8 @@ const data = [
     "alias": "816302",
     "name": "BATH MAT 17X24IN CHINO GREEN",
     "price": 39.0,
-    "stock": 201,
-    "sales": 14
+    "stock": 153,
+    "sales": 19
   },
   {
     "outlet": "Warehouse",
@@ -1946,8 +1986,8 @@ const data = [
     "alias": "816304",
     "name": "BATH MAT 17X24IN BURGUNDY",
     "price": 39.0,
-    "stock": 115,
-    "sales": 9
+    "stock": 111,
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -1956,8 +1996,8 @@ const data = [
     "alias": "816305",
     "name": "BATH MAT 17X24IN WHITE",
     "price": 39.0,
-    "stock": 37,
-    "sales": 13
+    "stock": 7,
+    "sales": 11
   },
   {
     "outlet": "Warehouse",
@@ -1976,8 +2016,8 @@ const data = [
     "alias": "816307",
     "name": "BATH MAT 17X24IN DARKER LIGHT GREY",
     "price": 39.0,
-    "stock": 384,
-    "sales": 41
+    "stock": 348,
+    "sales": 40
   },
   {
     "outlet": "Warehouse",
@@ -1987,7 +2027,7 @@ const data = [
     "name": "BATH MAT 17X24IN PINK",
     "price": 39.0,
     "stock": 383,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -1996,8 +2036,8 @@ const data = [
     "alias": "816310",
     "name": "BATH MAT 17X24IN ROSE",
     "price": 39.0,
-    "stock": 1591,
-    "sales": 5
+    "stock": 1575,
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -2027,7 +2067,7 @@ const data = [
     "name": "N EMBROIDERED IVORY TOWEL SET WAVES 3 PCS",
     "price": 99.0,
     "stock": 16,
-    "sales": 2
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -2046,8 +2086,8 @@ const data = [
     "alias": "709996",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS D",
     "price": 99.0,
-    "stock": 122,
-    "sales": 4
+    "stock": 102,
+    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -2097,7 +2137,7 @@ const data = [
     "name": "BOWEN 5 PCS ACCESS",
     "price": 294.0,
     "stock": 1,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -2126,8 +2166,8 @@ const data = [
     "alias": "607613",
     "name": "SHEET 4 PCS 300 STITSH KING PLATINUM",
     "price": 219.0,
-    "stock": 516,
-    "sales": 68
+    "stock": 483,
+    "sales": 62
   },
   {
     "outlet": "Warehouse",
@@ -2136,8 +2176,8 @@ const data = [
     "alias": "607614",
     "name": "SHEET 4 PCS 300 STITSH KING GREY",
     "price": 219.0,
-    "stock": 1541,
-    "sales": 11
+    "stock": 1534,
+    "sales": 18
   },
   {
     "outlet": "Warehouse",
@@ -2146,8 +2186,8 @@ const data = [
     "alias": "607616",
     "name": "SHEET 4 PCS 300 STITSH KING BURGANDY",
     "price": 219.0,
-    "stock": 224,
-    "sales": 8
+    "stock": 220,
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -2156,8 +2196,8 @@ const data = [
     "alias": "607619",
     "name": "SHEET 4 PCS 300 STITSH KING SLIT",
     "price": 219.0,
-    "stock": 102,
-    "sales": 18
+    "stock": 73,
+    "sales": 31
   },
   {
     "outlet": "Warehouse",
@@ -2166,8 +2206,8 @@ const data = [
     "alias": "607622",
     "name": "SHEET 4 PCS 300 STITSH KING MARSHMALLOW",
     "price": 219.0,
-    "stock": 1290,
-    "sales": 45
+    "stock": 1278,
+    "sales": 60
   },
   {
     "outlet": "Warehouse",
@@ -2176,7 +2216,7 @@ const data = [
     "alias": "543114",
     "name": "ROSAIE COLORPHILE KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 17,
+    "stock": 3,
     "sales": 0
   },
   {
@@ -2196,8 +2236,8 @@ const data = [
     "alias": "958201",
     "name": "BATH ROBE IVORY XS/S",
     "price": 99.0,
-    "stock": 1739,
-    "sales": 17
+    "stock": 9,
+    "sales": 23
   },
   {
     "outlet": "Warehouse",
@@ -2206,8 +2246,8 @@ const data = [
     "alias": "958202",
     "name": "BATH ROBE WHITE XS/S",
     "price": 99.0,
-    "stock": 1521,
-    "sales": 23
+    "stock": 2,
+    "sales": 30
   },
   {
     "outlet": "Warehouse",
@@ -2216,8 +2256,8 @@ const data = [
     "alias": "958203",
     "name": "BATH ROBE LINEN XS/S",
     "price": 99.0,
-    "stock": 1925,
-    "sales": 9
+    "stock": 9,
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -2226,8 +2266,8 @@ const data = [
     "alias": "958208",
     "name": "BATH ROBE PINK XS/S",
     "price": 99.0,
-    "stock": 1115,
-    "sales": 48
+    "stock": 52,
+    "sales": 73
   },
   {
     "outlet": "Warehouse",
@@ -2236,8 +2276,8 @@ const data = [
     "alias": "958210",
     "name": "BATH ROBE P.BLUE XS/S",
     "price": 99.0,
-    "stock": 772,
-    "sales": 18
+    "stock": 50,
+    "sales": 17
   },
   {
     "outlet": "Warehouse",
@@ -2246,8 +2286,8 @@ const data = [
     "alias": "958211",
     "name": "BATH ROBE TITANIUM XS/S",
     "price": 99.0,
-    "stock": 131,
-    "sales": 14
+    "stock": 125,
+    "sales": 23
   },
   {
     "outlet": "Warehouse",
@@ -2256,8 +2296,8 @@ const data = [
     "alias": "958217",
     "name": "BATH ROBE LAVENDER XS/S",
     "price": 99.0,
-    "stock": 4,
-    "sales": 9
+    "stock": 3,
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -2266,8 +2306,8 @@ const data = [
     "alias": "958221",
     "name": "BATH ROBE OYSTER MUSHROOM XS/S",
     "price": 99.0,
-    "stock": 1516,
-    "sales": 24
+    "stock": 8,
+    "sales": 23
   },
   {
     "outlet": "Warehouse",
@@ -2276,8 +2316,8 @@ const data = [
     "alias": "958223",
     "name": "BATH ROBE NAVY XS/S",
     "price": 99.0,
-    "stock": 182,
-    "sales": 11
+    "stock": 8,
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -2286,8 +2326,8 @@ const data = [
     "alias": "927005",
     "name": "PLATINUM GREY PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 360,
-    "sales": 71
+    "stock": 312,
+    "sales": 63
   },
   {
     "outlet": "Warehouse",
@@ -2296,8 +2336,8 @@ const data = [
     "alias": "927001",
     "name": "WHITE PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 1200,
-    "sales": 85
+    "stock": 1128,
+    "sales": 93
   },
   {
     "outlet": "Warehouse",
@@ -2306,8 +2346,8 @@ const data = [
     "alias": "927002",
     "name": "OFF WHITE PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 473,
-    "sales": 87
+    "stock": 401,
+    "sales": 96
   },
   {
     "outlet": "Warehouse",
@@ -2316,8 +2356,8 @@ const data = [
     "alias": "927012",
     "name": "STERLING BLUW PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 56,
-    "sales": 39
+    "stock": 8,
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -2327,17 +2367,7 @@ const data = [
     "name": "LINEN PILLOW CASES KING 2 PCS",
     "price": 35.0,
     "stock": 5,
-    "sales": 29
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "بيوت مخدة",
-    "code": "20032",
-    "alias": "927009",
-    "name": "PINK PILLOW CASES KING 2 PCS",
-    "price": 35.0,
-    "stock": 31,
-    "sales": 28
+    "sales": 18
   },
   {
     "outlet": "Warehouse",
@@ -2347,7 +2377,7 @@ const data = [
     "name": "LILAC MARBLE PILLOW CASES KING 2 PCS",
     "price": 35.0,
     "stock": 4,
-    "sales": 18
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -2357,7 +2387,7 @@ const data = [
     "name": "HEATHER PILLOW CASES KING 2 PCS",
     "price": 35.0,
     "stock": 6,
-    "sales": 16
+    "sales": 20
   },
   {
     "outlet": "Warehouse",
@@ -2366,8 +2396,8 @@ const data = [
     "alias": "927011",
     "name": "NEW BURGANDY PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 85,
-    "sales": 15
+    "stock": 37,
+    "sales": 19
   },
   {
     "outlet": "Warehouse",
@@ -2377,7 +2407,7 @@ const data = [
     "name": "SLIT PILLOW CASES KING 2 PCS",
     "price": 35.0,
     "stock": 6,
-    "sales": 7
+    "sales": 9
   },
   {
     "outlet": "Warehouse",
@@ -2387,7 +2417,7 @@ const data = [
     "name": "PLATINUM GREY SHEET 3 PCS 300 STITSH QUEEN",
     "price": 89.0,
     "stock": 2,
-    "sales": 51
+    "sales": 57
   },
   {
     "outlet": "Warehouse",
@@ -2397,7 +2427,7 @@ const data = [
     "name": "MARSHMELLOW SHEET 3 PCS 300 STITSH QUEEN",
     "price": 89.0,
     "stock": 1183,
-    "sales": 19
+    "sales": 41
   },
   {
     "outlet": "Warehouse",
@@ -2406,8 +2436,8 @@ const data = [
     "alias": "619401",
     "name": "WHITE SHEET 3 PCS 300 STITSH QUEEN",
     "price": 89.0,
-    "stock": 366,
-    "sales": 94
+    "stock": 345,
+    "sales": 114
   },
   {
     "outlet": "Warehouse",
@@ -2417,7 +2447,7 @@ const data = [
     "name": "PINK SHEET 3 PCS 300 STITSH QUEEN",
     "price": 89.0,
     "stock": 1,
-    "sales": 31
+    "sales": 34
   },
   {
     "outlet": "Warehouse",
@@ -2426,8 +2456,8 @@ const data = [
     "alias": "608909",
     "name": "PINK SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 271,
-    "sales": 65
+    "stock": 265,
+    "sales": 75
   },
   {
     "outlet": "Warehouse",
@@ -2436,8 +2466,8 @@ const data = [
     "alias": "608912",
     "name": "STERLING BLUE SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 38,
-    "sales": 51
+    "stock": 2,
+    "sales": 66
   },
   {
     "outlet": "Warehouse",
@@ -2446,8 +2476,8 @@ const data = [
     "alias": "608901",
     "name": "WHITE SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 1772,
-    "sales": 56
+    "stock": 1752,
+    "sales": 70
   },
   {
     "outlet": "Warehouse",
@@ -2466,8 +2496,8 @@ const data = [
     "alias": "608902",
     "name": "OFF WHITE SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 2457,
-    "sales": 76
+    "stock": 2445,
+    "sales": 112
   },
   {
     "outlet": "Warehouse",
@@ -2486,8 +2516,8 @@ const data = [
     "alias": "927108",
     "name": "LILAC MARBLE STANDARD PILLOW CASES",
     "price": 35.0,
-    "stock": 27,
-    "sales": 33
+    "stock": 3,
+    "sales": 44
   },
   {
     "outlet": "Warehouse",
@@ -2497,7 +2527,7 @@ const data = [
     "name": "PINK STANDARD PILLOW CASES",
     "price": 35.0,
     "stock": 7,
-    "sales": 17
+    "sales": 26
   },
   {
     "outlet": "Warehouse",
@@ -2507,7 +2537,7 @@ const data = [
     "name": "PLATINUM GREY STANDARD PILLOW CASES",
     "price": 35.0,
     "stock": 5,
-    "sales": 59
+    "sales": 55
   },
   {
     "outlet": "Warehouse",
@@ -2516,8 +2546,8 @@ const data = [
     "alias": "927103",
     "name": "WHITE STANDARD PILLOW CASES",
     "price": 35.0,
-    "stock": 869,
-    "sales": 98
+    "stock": 797,
+    "sales": 117
   },
   {
     "outlet": "Warehouse",
@@ -2536,8 +2566,8 @@ const data = [
     "alias": "958301",
     "name": "FRESHENER BLACK CHERRY BLACK 500 ML",
     "price": 79.0,
-    "stock": 1964,
-    "sales": 101
+    "stock": 1940,
+    "sales": 95
   },
   {
     "outlet": "Warehouse",
@@ -2546,8 +2576,8 @@ const data = [
     "alias": "958302",
     "name": "FRESHENER APRIL BREEZE BLACK 500 ML",
     "price": 79.0,
-    "stock": 128,
-    "sales": 50
+    "stock": 104,
+    "sales": 55
   },
   {
     "outlet": "Warehouse",
@@ -2556,8 +2586,8 @@ const data = [
     "alias": "958303",
     "name": "FRESHENER GARDEN LAVENDER BLACK 500 ML",
     "price": 79.0,
-    "stock": 1286,
-    "sales": 52
+    "stock": 1253,
+    "sales": 53
   },
   {
     "outlet": "Warehouse",
@@ -2566,8 +2596,8 @@ const data = [
     "alias": "710724",
     "name": "EUR TOWEL AIR-RICH NAVY",
     "price": 25.0,
-    "stock": 2485,
-    "sales": 82
+    "stock": 1175,
+    "sales": 88
   },
   {
     "outlet": "Warehouse",
@@ -2576,8 +2606,8 @@ const data = [
     "alias": "714424",
     "name": "AIR-RICH NAVY 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 752,
-    "sales": 107
+    "stock": 703,
+    "sales": 127
   },
   {
     "outlet": "Warehouse",
@@ -2586,8 +2616,8 @@ const data = [
     "alias": "710624",
     "name": "BATH SHEET AIR-RICH NAVY",
     "price": 69.0,
-    "stock": 1356,
-    "sales": 80
+    "stock": 420,
+    "sales": 85
   },
   {
     "outlet": "Warehouse",
@@ -2606,8 +2636,8 @@ const data = [
     "alias": "710028",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS  E",
     "price": 99.0,
-    "stock": 68,
-    "sales": 1
+    "stock": 61,
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -2616,8 +2646,8 @@ const data = [
     "alias": "926507",
     "name": "JASMIN WOOD FRESHENER COCODOR 500 ML ROOM SPRAY",
     "price": 39.0,
-    "stock": 5252,
-    "sales": 292
+    "stock": 5045,
+    "sales": 311
   },
   {
     "outlet": "Warehouse",
@@ -2627,7 +2657,7 @@ const data = [
     "name": "(SPECIAL OFFER) OSMANTHUS FRESHENER COCODOR 500 ML ROOM SPRAY",
     "price": 19.0,
     "stock": 710,
-    "sales": 19
+    "sales": 17
   },
   {
     "outlet": "Warehouse",
@@ -2647,7 +2677,7 @@ const data = [
     "name": "OBB DS 36 VENT DINNER SET 28 PCS",
     "price": 199.0,
     "stock": 10,
-    "sales": 4
+    "sales": 10
   },
   {
     "outlet": "Warehouse",
@@ -2676,8 +2706,8 @@ const data = [
     "alias": "958501",
     "name": "BATH ROBE HOOD X/S IVORY",
     "price": 99.0,
-    "stock": 122,
-    "sales": 7
+    "stock": 116,
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -2697,7 +2727,7 @@ const data = [
     "name": "BATH ROBE HOOD X/S BLUE HAZE",
     "price": 99.0,
     "stock": 15,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -2716,7 +2746,7 @@ const data = [
     "alias": "958510",
     "name": "BATH ROBE HOOD X/S NAVY",
     "price": 99.0,
-    "stock": 13,
+    "stock": 12,
     "sales": 0
   },
   {
@@ -2757,7 +2787,7 @@ const data = [
     "name": "COFFEE SET 6 PCS 90 ML CS 04",
     "price": 94.0,
     "stock": 42,
-    "sales": 4
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -2767,7 +2797,7 @@ const data = [
     "name": "COFFEE SET 6 PCS 90 ML CS 05",
     "price": 94.0,
     "stock": 9,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -2827,7 +2857,7 @@ const data = [
     "name": "SPOONS BAG 18 PCS DC-003",
     "price": 99.0,
     "stock": 7,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -2837,7 +2867,7 @@ const data = [
     "name": "SPOONS BAG 30 PCS DC-004",
     "price": 99.0,
     "stock": 4,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -2887,7 +2917,7 @@ const data = [
     "name": "SPOONS BAG 18 PCS GOLD DC-011",
     "price": 149.0,
     "stock": 12,
-    "sales": 3
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -2897,7 +2927,7 @@ const data = [
     "name": "SPOONS BAG 30 PCS GOLD DC-012",
     "price": 199.0,
     "stock": 2,
-    "sales": 1
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -2916,8 +2946,8 @@ const data = [
     "alias": "440429",
     "name": "*ESTELLE KING COMFORTER 8 PCS. KIT",
     "price": 795.0,
-    "stock": 74,
-    "sales": 40
+    "stock": 58,
+    "sales": 46
   },
   {
     "outlet": "Warehouse",
@@ -2957,7 +2987,7 @@ const data = [
     "name": "EMBROIDERED GREY TOWEL SET WAVES 3 PCS K",
     "price": 99.0,
     "stock": 4,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -2987,7 +3017,7 @@ const data = [
     "name": "EMBROIDERED GREY TOWEL SET WAVES 3 PCS E",
     "price": 99.0,
     "stock": 18,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -2996,7 +3026,7 @@ const data = [
     "alias": "620401",
     "name": "SHEET KING STRIPE DAMASK KING WHITE 4 PCS 500 TC",
     "price": 395.0,
-    "stock": 1101,
+    "stock": 1092,
     "sales": 1
   },
   {
@@ -3007,7 +3037,7 @@ const data = [
     "name": "SHEET KING STRIPE DAMASK KING IVORY 4 PCS 500 TC",
     "price": 395.0,
     "stock": 12,
-    "sales": 5
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -3017,7 +3047,7 @@ const data = [
     "name": "SHEET KING STRIPE DAMASK KING GREY 4 PCS 500 TC",
     "price": 395.0,
     "stock": 24,
-    "sales": 0
+    "sales": -1
   },
   {
     "outlet": "Warehouse",
@@ -3037,7 +3067,7 @@ const data = [
     "name": "SHEET KING SOLID DAMASK KING IVORY 4 PCS 500 TC",
     "price": 395.0,
     "stock": 1,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -3046,7 +3076,7 @@ const data = [
     "alias": "958906",
     "name": "XS TITANIUM SHAWL JACQUARD BATH ROBE",
     "price": 99.0,
-    "stock": 30,
+    "stock": 29,
     "sales": 4
   },
   {
@@ -3057,7 +3087,7 @@ const data = [
     "name": "XS P.BLUE SHAWL JACQUARD BATH ROBE",
     "price": 99.0,
     "stock": 16,
-    "sales": 3
+    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -3066,8 +3096,8 @@ const data = [
     "alias": "958912",
     "name": "XS NAVY SHAWL JACQUARD BATH ROBE",
     "price": 99.0,
-    "stock": 95,
-    "sales": 6
+    "stock": 12,
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -3077,7 +3107,7 @@ const data = [
     "name": "XS LINEN SHAWL JACQUARD BATH ROBE",
     "price": 99.0,
     "stock": 5,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -3117,7 +3147,7 @@ const data = [
     "name": "STRIPE BLUE KING COMFORTER 3 PCS",
     "price": 99.0,
     "stock": 3,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -3136,8 +3166,8 @@ const data = [
     "alias": "5014",
     "name": "NAKIA ORANGE COTON QUILT KING 3 PCS",
     "price": 349.0,
-    "stock": 17,
-    "sales": 0
+    "stock": 6,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -3147,7 +3177,7 @@ const data = [
     "name": "NAKIA YELLOW COTON QUILT KING 3 PCS",
     "price": 349.0,
     "stock": 9,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -3197,7 +3227,7 @@ const data = [
     "name": "SHEET KING SATEEN SOLID 300 STITSH 4 PCS WHITE STYLE6",
     "price": 245.0,
     "stock": 860,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -3207,7 +3237,7 @@ const data = [
     "name": "SHEET KING SATEEN STRIPE 300 STITSH 4 PCS WHITE STYLE9",
     "price": 245.0,
     "stock": 152,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -3217,7 +3247,7 @@ const data = [
     "name": "SHEET KING SATEEN STRIPE 300 STITSH 4 PCS WHITE STYLE10",
     "price": 245.0,
     "stock": 40,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -3227,7 +3257,7 @@ const data = [
     "name": "SHEET KING SATEEN STRIPE 300 STITSH 4 PCS WHITE STYLE12",
     "price": 245.0,
     "stock": 372,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -3235,9 +3265,9 @@ const data = [
     "code": "20746",
     "alias": "9417",
     "name": "MATRESPAD DREAM GUARD WATERPROOF QUEEN SIZE",
-    "price": 49.09196645929132,
-    "stock": 3697,
-    "sales": 108
+    "price": 49.092693565976006,
+    "stock": 3668,
+    "sales": 84
   },
   {
     "outlet": "Warehouse",
@@ -3256,8 +3286,8 @@ const data = [
     "alias": "710824",
     "name": "SQUARE TOWELS AIR-RICH NAVY",
     "price": 5.0,
-    "stock": 2880,
-    "sales": 78
+    "stock": 852,
+    "sales": 95
   },
   {
     "outlet": "Warehouse",
@@ -3267,7 +3297,7 @@ const data = [
     "name": "QUILT FLORAL SCROLL KING 3 PCS",
     "price": 299.0,
     "stock": 1,
-    "sales": 2
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -3276,8 +3306,8 @@ const data = [
     "alias": "5473",
     "name": "ALICE MEMORY KING QUILT 3 PCS",
     "price": 299.0,
-    "stock": 315,
-    "sales": 31
+    "stock": 307,
+    "sales": 30
   },
   {
     "outlet": "Warehouse",
@@ -3317,7 +3347,7 @@ const data = [
     "name": "SHEET KING 400 TC ILLUSION BLUE COOL 4 PCS",
     "price": 349.0,
     "stock": 20,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -3347,7 +3377,7 @@ const data = [
     "name": "EMBROIDERED TOWEL SET 3 PCS D #5",
     "price": 99.0,
     "stock": 19,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -3357,7 +3387,7 @@ const data = [
     "name": "EMBROIDERED TOWEL SET 3 PCS D #6",
     "price": 99.0,
     "stock": 15,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -3377,7 +3407,7 @@ const data = [
     "name": "EMBROIDERED TOWEL SET 3 PCS D #9",
     "price": 99.0,
     "stock": 9,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -3397,7 +3427,7 @@ const data = [
     "name": "EMBROIDERED TOWEL SET 3 PCS D #11",
     "price": 99.0,
     "stock": 8,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -3407,7 +3437,7 @@ const data = [
     "name": "(SPECIAL OFFER) MATRESPAD FIBER BED TANCEL 500 STITCH KING",
     "price": 199.0,
     "stock": 181,
-    "sales": 5
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -3417,7 +3447,7 @@ const data = [
     "name": "PINK SAND FRESHENER WHITE 200 ML",
     "price": 39.0,
     "stock": 508,
-    "sales": 63
+    "sales": 71
   },
   {
     "outlet": "Warehouse",
@@ -3456,8 +3486,8 @@ const data = [
     "alias": "538760",
     "name": "BIG ONE GEMMA QUILT KING 3 PCS",
     "price": 149.0,
-    "stock": 15,
-    "sales": 6
+    "stock": 14,
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -3477,7 +3507,7 @@ const data = [
     "name": "ENVOGUE HERS KITCHEN TOWEL 5 PCS",
     "price": 49.0,
     "stock": 7,
-    "sales": 3
+    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -3486,7 +3516,7 @@ const data = [
     "alias": "624202",
     "name": "SHEET COTON FULL WFORD 220 STITSH 4 PCS",
     "price": 49.0,
-    "stock": 436,
+    "stock": 424,
     "sales": 97
   },
   {
@@ -3497,7 +3527,7 @@ const data = [
     "name": "BIG ONE JORDYN KING QUILT 3 PCS",
     "price": 149.0,
     "stock": 9,
-    "sales": 1
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -3506,8 +3536,8 @@ const data = [
     "alias": "538771",
     "name": "BIG ONE LATTICE KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 5,
-    "sales": 6
+    "stock": 4,
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -3526,8 +3556,8 @@ const data = [
     "alias": "710030",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS Y",
     "price": 99.0,
-    "stock": 54,
-    "sales": 1
+    "stock": 48,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -3536,8 +3566,8 @@ const data = [
     "alias": "710029",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS Z",
     "price": 99.0,
-    "stock": 84,
-    "sales": 1
+    "stock": 42,
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -3566,8 +3596,8 @@ const data = [
     "alias": "959801",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER BLACK CHERRY",
     "price": 39.0,
-    "stock": 1570,
-    "sales": 98
+    "stock": 1495,
+    "sales": 104
   },
   {
     "outlet": "Warehouse",
@@ -3576,8 +3606,8 @@ const data = [
     "alias": "959802",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER GARDEN LAVENDER",
     "price": 39.0,
-    "stock": 1210,
-    "sales": 61
+    "stock": 1163,
+    "sales": 65
   },
   {
     "outlet": "Warehouse",
@@ -3586,8 +3616,8 @@ const data = [
     "alias": "959803",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER VANILLA AND SANDALWOOD",
     "price": 39.0,
-    "stock": 120,
-    "sales": 60
+    "stock": 1,
+    "sales": 51
   },
   {
     "outlet": "Warehouse",
@@ -3596,8 +3626,8 @@ const data = [
     "alias": "959805",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER WHITE MUSK",
     "price": 39.0,
-    "stock": 1105,
-    "sales": 91
+    "stock": 1091,
+    "sales": 83
   },
   {
     "outlet": "Warehouse",
@@ -3626,8 +3656,8 @@ const data = [
     "alias": "7148",
     "name": "ENVOGUE PRINTED KITCHEN TOWEL 15X25 INCH",
     "price": 14.0,
-    "stock": 9294,
-    "sales": 397
+    "stock": 9204,
+    "sales": 425
   },
   {
     "outlet": "Warehouse",
@@ -3726,7 +3756,7 @@ const data = [
     "alias": "26820500",
     "name": "*NAVY FULL WAMSUTTA COMFORTER 6 PCS",
     "price": 599.0,
-    "stock": 148,
+    "stock": 128,
     "sales": 0
   },
   {
@@ -3757,17 +3787,7 @@ const data = [
     "name": "*WHITE KING WAMSUTTA COMFORTER 9 PCS KIT",
     "price": 794.0,
     "stock": 4,
-    "sales": 40
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "لحافات كينغ",
-    "code": "21342",
-    "alias": "44050102",
-    "name": "*SILVER KING WAMSUTTA COMFORTER 9 PCS KIT",
-    "price": 794.0,
-    "stock": 3,
-    "sales": 50
+    "sales": 43
   },
   {
     "outlet": "Warehouse",
@@ -3776,8 +3796,8 @@ const data = [
     "alias": "44050103",
     "name": "*HONEY KING WAMSUTTA COMFORTER 9 PCS KIT",
     "price": 794.0,
-    "stock": 71,
-    "sales": 36
+    "stock": 26,
+    "sales": 30
   },
   {
     "outlet": "Warehouse",
@@ -3786,7 +3806,7 @@ const data = [
     "alias": "44050105",
     "name": "*NAVY KING WAMSUTTA COMFORTER 9 PCS KIT",
     "price": 794.0,
-    "stock": 95,
+    "stock": 85,
     "sales": 4
   },
   {
@@ -3796,7 +3816,7 @@ const data = [
     "alias": "2268203",
     "name": "*HONEY FULL WAMSUTTA COMFORTER 9 PCS KIT",
     "price": 599.0,
-    "stock": 49,
+    "stock": 1,
     "sales": 14
   },
   {
@@ -3806,8 +3826,8 @@ const data = [
     "alias": "2268205",
     "name": "*NAVY FULL WAMSUTTA COMFORTER 9 PCS KIT",
     "price": 599.0,
-    "stock": 35,
-    "sales": 11
+    "stock": 4,
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -3837,7 +3857,7 @@ const data = [
     "name": "MARBLE AND WOOD DESSERT STAND LARGE",
     "price": 10.0,
     "stock": 100,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -3867,7 +3887,7 @@ const data = [
     "name": "(SPECIAL OFFER) GLASS FRUIT BOWL",
     "price": 10.0,
     "stock": 1911,
-    "sales": 2
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -3886,7 +3906,7 @@ const data = [
     "alias": "440517",
     "name": "*ARIELLE KING COMFORTER 6 PCS KIT",
     "price": 429.0,
-    "stock": 21,
+    "stock": 17,
     "sales": 0
   },
   {
@@ -3917,7 +3937,7 @@ const data = [
     "name": "DOG COMMANDS KITCHEN SET TOWLS 4 PCS",
     "price": 52.75,
     "stock": 8,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -3927,7 +3947,7 @@ const data = [
     "name": "ILHARA KITCHEN SET TOWLS 4 PCS",
     "price": 49.0,
     "stock": 9,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -3966,8 +3986,8 @@ const data = [
     "alias": "959407",
     "name": "COOLING MEMORY FIBER KING PILLOW",
     "price": 94.0,
-    "stock": 3957,
-    "sales": 204
+    "stock": 3923,
+    "sales": 225
   },
   {
     "outlet": "Warehouse",
@@ -4006,7 +4026,7 @@ const data = [
     "alias": "547407",
     "name": "(SPECIAL OFFER) HG ORRIS GREY YELLOW COTTON QUILT 3 PCS",
     "price": 194.0,
-    "stock": 31,
+    "stock": 11,
     "sales": 0
   },
   {
@@ -4017,7 +4037,7 @@ const data = [
     "name": "(SPECIAL OFFER) HG ORRIS BEIGE RED COTTON QUILT 3 PCS",
     "price": 299.0,
     "stock": 3,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -4146,8 +4166,8 @@ const data = [
     "alias": "001002",
     "name": "TUAL BATH ROBE BRIDE GRAY-POWDER 7 PCS",
     "price": 299.0,
-    "stock": 6,
-    "sales": 7
+    "stock": 4,
+    "sales": 9
   },
   {
     "outlet": "Warehouse",
@@ -4166,8 +4186,8 @@ const data = [
     "alias": "001005",
     "name": "PARIS BATH ROBE BRIDE BAIGE-CREAM 7 PCS",
     "price": 299.0,
-    "stock": 7,
-    "sales": 0
+    "stock": 5,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -4177,7 +4197,7 @@ const data = [
     "name": "ELENOR BATH ROBE BRIDE CREAM-CREAM 7 PCS",
     "price": 299.0,
     "stock": 1,
-    "sales": 0
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -4186,7 +4206,7 @@ const data = [
     "alias": "001008",
     "name": "ELEGANT BATH ROBE BRIDE CREAM-CREAM 7 PCS",
     "price": 299.0,
-    "stock": 17,
+    "stock": 16,
     "sales": 1
   },
   {
@@ -4196,8 +4216,8 @@ const data = [
     "alias": "001009",
     "name": "ELEGANT BATH ROBE BRIDE BAIGE-CREAM 7 PCS",
     "price": 299.0,
-    "stock": 9,
-    "sales": 0
+    "stock": 7,
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -4206,8 +4226,8 @@ const data = [
     "alias": "001010",
     "name": "SOFIA BATH ROBE BRIDE GRAY-POWDER 7 PCS",
     "price": 299.0,
-    "stock": 14,
-    "sales": 5
+    "stock": 12,
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -4216,8 +4236,8 @@ const data = [
     "alias": "624802",
     "name": "KIDS HEARTS TWIN SHEET 3 PCS",
     "price": 49.0,
-    "stock": 661,
-    "sales": 16
+    "stock": 649,
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -4226,8 +4246,8 @@ const data = [
     "alias": "624803",
     "name": "KIDS RAINBOWS TWIN SHEET 3 PCS",
     "price": 49.0,
-    "stock": 143,
-    "sales": 21
+    "stock": 120,
+    "sales": 41
   },
   {
     "outlet": "Warehouse",
@@ -4257,7 +4277,7 @@ const data = [
     "name": "LUMIRE TURKISH COFFEE SET 6 PCS 90 ML CS-013",
     "price": 79.0,
     "stock": 9,
-    "sales": 1
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -4277,7 +4297,7 @@ const data = [
     "name": "ADLER TURKISH COFFEE SET 6 PCS 90 ML CS-017",
     "price": 79.0,
     "stock": 14,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -4307,7 +4327,7 @@ const data = [
     "name": "BLACK BLOSSOM TURKISH COFFEE SET 6 PCS 90 ML CS-024",
     "price": 79.0,
     "stock": 8,
-    "sales": 5
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -4327,7 +4347,7 @@ const data = [
     "name": "VIKI TURKISH COFFEE SET 6 PCS 90 ML CS-014",
     "price": 79.0,
     "stock": 68,
-    "sales": 5
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -4337,7 +4357,7 @@ const data = [
     "name": "PALU TURKISH COFFEE SET 6 PCS 90 ML CS-015",
     "price": 79.0,
     "stock": 13,
-    "sales": 5
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -4357,7 +4377,7 @@ const data = [
     "name": "CHEVAL TURKISH COFFEE SET 6 PCS 90 ML CS-021",
     "price": 79.0,
     "stock": 138,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -4367,7 +4387,7 @@ const data = [
     "name": "MARRAKESH TURKISH COFFEE SET 6 PCS 90 ML CS-022",
     "price": 79.0,
     "stock": 117,
-    "sales": 3
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -4377,7 +4397,7 @@ const data = [
     "name": "SOPHIA TURKISH COFFEE SET 6 PCS 90 ML CS-023",
     "price": 79.0,
     "stock": 194,
-    "sales": 3
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -4386,8 +4406,8 @@ const data = [
     "alias": "22693",
     "name": "*KAIA FULL COMFORTER 8 PCS KIT",
     "price": 249.0,
-    "stock": 7,
-    "sales": 3
+    "stock": 5,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -4416,8 +4436,8 @@ const data = [
     "alias": "958225",
     "name": "BATH ROBE INFINITY XS/S",
     "price": 99.0,
-    "stock": 4,
-    "sales": 0
+    "stock": 3,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -4426,8 +4446,8 @@ const data = [
     "alias": "958226",
     "name": "BATH ROBE L.WREATH XS/S",
     "price": 99.0,
-    "stock": 252,
-    "sales": 12
+    "stock": 11,
+    "sales": 21
   },
   {
     "outlet": "Warehouse",
@@ -4436,8 +4456,8 @@ const data = [
     "alias": "958227",
     "name": "BATH ROBE P.R.YELLOW XS/S",
     "price": 99.0,
-    "stock": 544,
-    "sales": 9
+    "stock": 9,
+    "sales": 11
   },
   {
     "outlet": "Warehouse",
@@ -4457,7 +4477,7 @@ const data = [
     "name": "BATH ROBE INFINITY S/M",
     "price": 99.0,
     "stock": 1,
-    "sales": 5
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -4467,7 +4487,7 @@ const data = [
     "name": "BATH ROBE L.WREATH S/M",
     "price": 139.0,
     "stock": 1,
-    "sales": 3
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -4476,8 +4496,8 @@ const data = [
     "alias": "916827",
     "name": "BATH ROBE P.R.YELLOW S/M",
     "price": 99.0,
-    "stock": 366,
-    "sales": 72
+    "stock": 9,
+    "sales": 79
   },
   {
     "outlet": "Warehouse",
@@ -4496,8 +4516,8 @@ const data = [
     "alias": "916927",
     "name": "BATH ROBE P.R.YELLOW L/XL",
     "price": 99.0,
-    "stock": 746,
-    "sales": 39
+    "stock": 28,
+    "sales": 52
   },
   {
     "outlet": "Warehouse",
@@ -4516,8 +4536,8 @@ const data = [
     "alias": "970202",
     "name": "KITCHEN SET DOUBLE DOTS 3 PCS",
     "price": 49.0,
-    "stock": 88,
-    "sales": 0
+    "stock": 78,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -4526,8 +4546,8 @@ const data = [
     "alias": "970203",
     "name": "KITCHEN SET MANI OCHRE 3 PCS",
     "price": 49.0,
-    "stock": 198,
-    "sales": 2
+    "stock": 197,
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -4536,7 +4556,7 @@ const data = [
     "alias": "970204",
     "name": "KITCHEN SET MATRY BLUE 3 PCS",
     "price": 49.0,
-    "stock": 88,
+    "stock": 78,
     "sales": 0
   },
   {
@@ -4547,7 +4567,7 @@ const data = [
     "name": "KITCHEN SET LUNA NATURAL 3 PCS",
     "price": 49.0,
     "stock": 45,
-    "sales": 2
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -4556,8 +4576,8 @@ const data = [
     "alias": "970300",
     "name": "FABRIC TOTE BAGS",
     "price": 19.0,
-    "stock": 4473,
-    "sales": 90
+    "stock": 4333,
+    "sales": 96
   },
   {
     "outlet": "Warehouse",
@@ -4607,7 +4627,7 @@ const data = [
     "name": "RUG 60*180 CM 05",
     "price": 39.0,
     "stock": 4,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -4617,7 +4637,7 @@ const data = [
     "name": "RUG 90*150 CM 01",
     "price": 69.0,
     "stock": 8,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -4776,8 +4796,8 @@ const data = [
     "alias": "710627",
     "name": "BATH SHEET AIR-RICH 86X172 CM LAUREL WREATH",
     "price": 69.0,
-    "stock": 112,
-    "sales": 83
+    "stock": 61,
+    "sales": 100
   },
   {
     "outlet": "Warehouse",
@@ -4787,7 +4807,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
     "price": 69.0,
     "stock": 165,
-    "sales": 32
+    "sales": 36
   },
   {
     "outlet": "Warehouse",
@@ -4806,8 +4826,8 @@ const data = [
     "alias": "710727",
     "name": "EUR TOWEL AIR-RICH 50X100 CM LAUREL WREATH",
     "price": 25.0,
-    "stock": 739,
-    "sales": 75
+    "stock": 708,
+    "sales": 97
   },
   {
     "outlet": "Warehouse",
@@ -4817,7 +4837,7 @@ const data = [
     "name": "EUR TOWEL AIR-RICH 50X100 CM PRIM ROSE",
     "price": 25.0,
     "stock": 790,
-    "sales": 64
+    "sales": 80
   },
   {
     "outlet": "Warehouse",
@@ -4826,8 +4846,8 @@ const data = [
     "alias": "714427",
     "name": "BATH TOWEL AIR-RICH  70X140 CM LAUREL WREATH",
     "price": 49.0,
-    "stock": 550,
-    "sales": 93
+    "stock": 512,
+    "sales": 114
   },
   {
     "outlet": "Warehouse",
@@ -4837,7 +4857,7 @@ const data = [
     "name": "BATH TOWEL AIR-RICH  70X140 CM PRIM ROSE",
     "price": 49.0,
     "stock": 597,
-    "sales": 45
+    "sales": 49
   },
   {
     "outlet": "Warehouse",
@@ -4846,7 +4866,7 @@ const data = [
     "alias": "001015",
     "name": "LABELYA BATH ROBE BRIDE CREAM-LIGHT POWDER 6 PCS",
     "price": 299.0,
-    "stock": 12,
+    "stock": 10,
     "sales": 0
   },
   {
@@ -4856,8 +4876,8 @@ const data = [
     "alias": "001019",
     "name": "OZGE BATH ROBE BRIDE CREAM-CREAM 6 PCS",
     "price": 299.0,
-    "stock": 7,
-    "sales": 2
+    "stock": 6,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -4887,7 +4907,7 @@ const data = [
     "name": "WHITE BLEACHED KING SHEET SET 4 PCS",
     "price": 199.0,
     "stock": 1850,
-    "sales": 6
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -4897,7 +4917,7 @@ const data = [
     "name": "*ALLIE MULTI DARK FULL COMFORTER 8 PCS KIT",
     "price": 299.0,
     "stock": 1,
-    "sales": 3
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -4906,8 +4926,8 @@ const data = [
     "alias": "9183",
     "name": "KING (SMALL) SHARPER IMAGE MATRESS PAD",
     "price": 249.0,
-    "stock": 288,
-    "sales": 28
+    "stock": 268,
+    "sales": 34
   },
   {
     "outlet": "Warehouse",
@@ -4927,7 +4947,7 @@ const data = [
     "name": "*HEATH FULL COMFORTER 8 PCS KIT",
     "price": 299.0,
     "stock": 3,
-    "sales": 4
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -4937,7 +4957,7 @@ const data = [
     "name": "*LIZZIE FULL COMFORTER 8 PCS KIT",
     "price": 299.0,
     "stock": 4,
-    "sales": 4
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -5057,7 +5077,7 @@ const data = [
     "name": "EMBROIDERED TOWEL SET 3 PCS EMB D #1",
     "price": 99.0,
     "stock": 72,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -5067,7 +5087,7 @@ const data = [
     "name": "EMBROIDERED TOWEL SET 3 PCS EMB D #2",
     "price": 99.0,
     "stock": 228,
-    "sales": 8
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -5076,8 +5096,8 @@ const data = [
     "alias": "710079",
     "name": "EMBROIDERED TOWEL SET 3 PCS EMB D #3",
     "price": 99.0,
-    "stock": 248,
-    "sales": 4
+    "stock": 242,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -5086,7 +5106,7 @@ const data = [
     "alias": "710082",
     "name": "EMBROIDERED TOWEL SET 3 PCS EMB D #6",
     "price": 99.0,
-    "stock": 168,
+    "stock": 162,
     "sales": 1
   },
   {
@@ -5106,8 +5126,8 @@ const data = [
     "alias": "624805",
     "name": "KIDS UNICORN BUSTS TWIN SHEET 3 PCS",
     "price": 49.0,
-    "stock": 530,
-    "sales": 12
+    "stock": 529,
+    "sales": 13
   },
   {
     "outlet": "Warehouse",
@@ -5117,7 +5137,7 @@ const data = [
     "name": "*TYNAN OCEAN KING COMFORTER 8 PCS KIT",
     "price": 495.0,
     "stock": 2,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -5146,7 +5166,7 @@ const data = [
     "alias": "542691",
     "name": "BIG ONE PARTY ANIMALS FULL QUILT 2 PCS N10",
     "price": 99.0,
-    "stock": 3,
+    "stock": 2,
     "sales": 0
   },
   {
@@ -5157,7 +5177,7 @@ const data = [
     "name": "MAKEUP WIPERS SET",
     "price": 49.0,
     "stock": 11,
-    "sales": 4
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -5206,8 +5226,8 @@ const data = [
     "alias": "5478",
     "name": "HONEY BEE QUILT KING 3 PCS",
     "price": 299.0,
-    "stock": 533,
-    "sales": 18
+    "stock": 530,
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -5226,8 +5246,8 @@ const data = [
     "alias": "9192",
     "name": "SUB-0 TRIPLE COOLING KING PILLOW",
     "price": 159.0,
-    "stock": 3531,
-    "sales": 286
+    "stock": 3442,
+    "sales": 290
   },
   {
     "outlet": "Warehouse",
@@ -5257,7 +5277,7 @@ const data = [
     "name": "BLUE ANCHOR TOTE BAG BEACH",
     "price": 99.0,
     "stock": 5,
-    "sales": 2
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -5277,7 +5297,7 @@ const data = [
     "name": "PALM TREE SOLO TOTE BAG BEACH",
     "price": 99.0,
     "stock": 9,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -5287,7 +5307,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER YELLOW 36/37",
     "price": 29.0,
     "stock": 3,
-    "sales": 6
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -5297,7 +5317,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER YELLOW 38/39",
     "price": 29.0,
     "stock": 2,
-    "sales": 8
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -5307,7 +5327,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER YELLOW 40/41",
     "price": 29.0,
     "stock": 3,
-    "sales": 7
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -5316,8 +5336,8 @@ const data = [
     "alias": "95625036",
     "name": "BE-78 WOMEN SLIPPER PINK 36/37",
     "price": 29.0,
-    "stock": 1,
-    "sales": 5
+    "stock": 2,
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -5327,7 +5347,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER PINK 38/39",
     "price": 29.0,
     "stock": 10,
-    "sales": 31
+    "sales": 28
   },
   {
     "outlet": "Warehouse",
@@ -5337,7 +5357,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER PINK 40/41",
     "price": 29.0,
     "stock": 8,
-    "sales": 7
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -5347,7 +5367,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER BLUE 38/39",
     "price": 29.0,
     "stock": 6,
-    "sales": 15
+    "sales": 17
   },
   {
     "outlet": "Warehouse",
@@ -5357,7 +5377,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER WHITE 36/37",
     "price": 29.0,
     "stock": 1,
-    "sales": 8
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -5367,7 +5387,7 @@ const data = [
     "name": "BE-78 MAN SLIPPER WHITE 42/43",
     "price": 29.0,
     "stock": 28,
-    "sales": 10
+    "sales": 15
   },
   {
     "outlet": "Warehouse",
@@ -5377,7 +5397,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER GREY 36/37",
     "price": 29.0,
     "stock": 1,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -5387,7 +5407,7 @@ const data = [
     "name": "BE-78 MAN SLIPPER GREY 42/43",
     "price": 29.0,
     "stock": 3,
-    "sales": 21
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -5397,7 +5417,7 @@ const data = [
     "name": "BE-78 MAN SLIPPER GREY 44/45",
     "price": 29.0,
     "stock": 9,
-    "sales": 28
+    "sales": 25
   },
   {
     "outlet": "Warehouse",
@@ -5407,7 +5427,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER NAVY BLUE 36/37",
     "price": 29.0,
     "stock": 1,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -5417,7 +5437,7 @@ const data = [
     "name": "BE-78 MAN SLIPPER NAVY BLUE 42/43",
     "price": 29.0,
     "stock": 6,
-    "sales": 23
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -5427,7 +5447,7 @@ const data = [
     "name": "BE-78 MAN SLIPPER NAVY BLUE 44/45",
     "price": 29.0,
     "stock": 19,
-    "sales": 26
+    "sales": 32
   },
   {
     "outlet": "Warehouse",
@@ -5437,7 +5457,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER ORANGE 36/37",
     "price": 29.0,
     "stock": 1,
-    "sales": 2
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -5447,7 +5467,7 @@ const data = [
     "name": "BE-78 MAN SLIPPER ORANGE 40/41",
     "price": 29.0,
     "stock": 1,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -5457,7 +5477,7 @@ const data = [
     "name": "BE-83 MAN SLIPPER YELLOW 42/43",
     "price": 19.0,
     "stock": 12,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -5467,7 +5487,7 @@ const data = [
     "name": "BE-83 MAN SLIPPER YELLOW 44/45",
     "price": 19.0,
     "stock": 9,
-    "sales": 0
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -5487,7 +5507,7 @@ const data = [
     "name": "BE-83 MAN SLIPPER BRIGHT GREEN 40/41",
     "price": 19.0,
     "stock": 2,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -5497,7 +5517,7 @@ const data = [
     "name": "BE-83 MAN SLIPPER BRIGHT GREEN 42/43",
     "price": 19.0,
     "stock": 13,
-    "sales": 3
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -5507,7 +5527,7 @@ const data = [
     "name": "BE-83 MAN SLIPPER BRIGHT GREEN 44/45",
     "price": 19.0,
     "stock": 9,
-    "sales": 6
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -5537,7 +5557,7 @@ const data = [
     "name": "BE-83 WOMEN SLIPPER ORANGE 40/41",
     "price": 19.0,
     "stock": 13,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -5547,7 +5567,7 @@ const data = [
     "name": "BE-83 WOMEN SLIPPER BLUE 40/41",
     "price": 19.0,
     "stock": 4,
-    "sales": 2
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -5557,7 +5577,7 @@ const data = [
     "name": "BE-83 MAN SLIPPER BLUE 40/41",
     "price": 19.0,
     "stock": 1,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -5567,7 +5587,7 @@ const data = [
     "name": "BE-83 MAN SLIPPER BLUE 44/45",
     "price": 19.0,
     "stock": 3,
-    "sales": 2
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -5597,7 +5617,7 @@ const data = [
     "name": "BE-83 MAN SLIPPER NAVY 42/43",
     "price": 19.0,
     "stock": 2,
-    "sales": 2
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -5607,7 +5627,7 @@ const data = [
     "name": "BE-83 MAN SLIPPER NAVY 44/45",
     "price": 19.0,
     "stock": 1,
-    "sales": 8
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -5616,8 +5636,8 @@ const data = [
     "alias": "95627536",
     "name": "BE-84 WOMEN SLIPPER PINK 36/37",
     "price": 29.0,
-    "stock": 278,
-    "sales": 9
+    "stock": 258,
+    "sales": 17
   },
   {
     "outlet": "Warehouse",
@@ -5626,8 +5646,8 @@ const data = [
     "alias": "95627538",
     "name": "BE-84 WOMEN SLIPPER PINK 38/39",
     "price": 29.0,
-    "stock": 272,
-    "sales": 16
+    "stock": 252,
+    "sales": 20
   },
   {
     "outlet": "Warehouse",
@@ -5636,8 +5656,8 @@ const data = [
     "alias": "95627540",
     "name": "BE-84 WOMEN SLIPPER PINK 40/41",
     "price": 29.0,
-    "stock": 191,
-    "sales": 6
+    "stock": 177,
+    "sales": 9
   },
   {
     "outlet": "Warehouse",
@@ -5646,8 +5666,8 @@ const data = [
     "alias": "95627640",
     "name": "BE-84 MAN SLIPPER NAVY 40/41",
     "price": 29.0,
-    "stock": 302,
-    "sales": 8
+    "stock": 286,
+    "sales": 10
   },
   {
     "outlet": "Warehouse",
@@ -5656,8 +5676,8 @@ const data = [
     "alias": "95627642",
     "name": "BE-84 MAN SLIPPER NAVY 42/43",
     "price": 29.0,
-    "stock": 302,
-    "sales": 10
+    "stock": 286,
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -5666,8 +5686,8 @@ const data = [
     "alias": "95627644",
     "name": "BE-84 MAN SLIPPER NAVY 44/45",
     "price": 29.0,
-    "stock": 302,
-    "sales": 7
+    "stock": 286,
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -5676,8 +5696,8 @@ const data = [
     "alias": "95627740",
     "name": "BE-84 MAN SLIPPER IVORY 40/41",
     "price": 29.0,
-    "stock": 301,
-    "sales": 3
+    "stock": 285,
+    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -5686,8 +5706,8 @@ const data = [
     "alias": "95627742",
     "name": "BE-84 MAN SLIPPER IVORY 42/43",
     "price": 29.0,
-    "stock": 300,
-    "sales": 3
+    "stock": 284,
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -5696,8 +5716,8 @@ const data = [
     "alias": "95627744",
     "name": "BE-84 MAN SLIPPER IVORY 44/45",
     "price": 29.0,
-    "stock": 302,
-    "sales": 3
+    "stock": 286,
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -5717,7 +5737,7 @@ const data = [
     "name": "BE-85 MAN SLIPPER WHIE&BLUE 42/43",
     "price": 59.0,
     "stock": 6,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -5737,7 +5757,7 @@ const data = [
     "name": "BE-85 MAN SLIPPER ORANGE&WHITE 40/41",
     "price": 59.0,
     "stock": 14,
-    "sales": 2
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -5747,7 +5767,7 @@ const data = [
     "name": "BE-85 MAN SLIPPER ORANGE&WHITE 42/43",
     "price": 59.0,
     "stock": 20,
-    "sales": 2
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -5757,7 +5777,7 @@ const data = [
     "name": "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
     "price": 59.0,
     "stock": 12,
-    "sales": 7
+    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -5767,7 +5787,7 @@ const data = [
     "name": "BE-85 MAN SLIPPER WHITE&YELLOW 40/41",
     "price": 59.0,
     "stock": 13,
-    "sales": 0
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -5777,7 +5797,7 @@ const data = [
     "name": "BE-85 MAN SLIPPER WHITE&YELLOW 42/43",
     "price": 59.0,
     "stock": 12,
-    "sales": 4
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -5787,7 +5807,7 @@ const data = [
     "name": "BE-85 MAN SLIPPER WHITE&YELLOW 44/45",
     "price": 59.0,
     "stock": 18,
-    "sales": 3
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -5797,7 +5817,7 @@ const data = [
     "name": "BE-86 WOMEN SLIPPER BLACK 36/37",
     "price": 59.0,
     "stock": 4,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -5807,7 +5827,7 @@ const data = [
     "name": "BE-86 WOMEN SLIPPER BLACK 38/39",
     "price": 59.0,
     "stock": 2,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -5817,7 +5837,7 @@ const data = [
     "name": "BE-86 WOMEN SLIPPER BLACK 40/41",
     "price": 59.0,
     "stock": 1,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -5857,7 +5877,7 @@ const data = [
     "name": "BE-86 WOMEN SLIPPER NAVY 36/37",
     "price": 59.0,
     "stock": 9,
-    "sales": 4
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -5887,7 +5907,7 @@ const data = [
     "name": "BE-86 WOMEN SLIPPER BIEGE 38/39",
     "price": 59.0,
     "stock": 1,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -5926,8 +5946,8 @@ const data = [
     "alias": "816512",
     "name": "BATH MAT 24X60IN NAVY",
     "price": 129.0,
-    "stock": 63,
-    "sales": 0
+    "stock": 56,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -5936,8 +5956,8 @@ const data = [
     "alias": "9308",
     "name": "JUST RELAX 274*228 CM KING DUVET",
     "price": 299.0,
-    "stock": 360,
-    "sales": 30
+    "stock": 27,
+    "sales": 28
   },
   {
     "outlet": "Warehouse",
@@ -5947,7 +5967,7 @@ const data = [
     "name": "CALLIE GREEN 3 PCS BATH ACCESS",
     "price": 59.0,
     "stock": 6,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -5957,7 +5977,7 @@ const data = [
     "name": "NOUR METALLIC 3 PCS BATH ACCESS",
     "price": 59.0,
     "stock": 6,
-    "sales": 3
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -5967,7 +5987,7 @@ const data = [
     "name": "CYPRESS COPPER 3 PCS BATH ACCESS",
     "price": 59.0,
     "stock": 1,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -5977,7 +5997,7 @@ const data = [
     "name": "COLIN MARBLE 3 PCS BATH ACCESS",
     "price": 59.0,
     "stock": 6,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -5997,7 +6017,7 @@ const data = [
     "name": "BE-79 WOMAN SLIPPER GREY 36/37",
     "price": 19.0,
     "stock": 18,
-    "sales": 10
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -6007,7 +6027,7 @@ const data = [
     "name": "BE-79 WOMAN SLIPPER GREY 38/39",
     "price": 19.0,
     "stock": 5,
-    "sales": 2
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -6017,7 +6037,7 @@ const data = [
     "name": "BE-79 WOMAN SLIPPER GREY 40/41",
     "price": 19.0,
     "stock": 23,
-    "sales": 2
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -6027,7 +6047,7 @@ const data = [
     "name": "BE-79 WOMAN SLIPPER LIGHT BROWN 36/37",
     "price": 19.0,
     "stock": 12,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -6037,7 +6057,7 @@ const data = [
     "name": "BE-79 WOMAN SLIPPER LIGHT BROWN 38/39",
     "price": 19.0,
     "stock": 9,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -6057,7 +6077,7 @@ const data = [
     "name": "BE-79 MAN SLIPPER GREY 40/41",
     "price": 29.0,
     "stock": 1,
-    "sales": 7
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -6067,7 +6087,7 @@ const data = [
     "name": "BE-79 MAN SLIPPER GREY 42/43",
     "price": 19.0,
     "stock": 4,
-    "sales": 6
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -6077,7 +6097,7 @@ const data = [
     "name": "BE-79 MAN SLIPPER GREY 44/45",
     "price": 19.0,
     "stock": 4,
-    "sales": 4
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -6087,7 +6107,7 @@ const data = [
     "name": "BE-79 MAN SLIPPER LIGHT BROWN 40/41",
     "price": 19.0,
     "stock": 4,
-    "sales": 3
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -6097,7 +6117,7 @@ const data = [
     "name": "BE-79 MAN SLIPPER LIGHT BROWN 42/43",
     "price": 19.0,
     "stock": 4,
-    "sales": 4
+    "sales": 10
   },
   {
     "outlet": "Warehouse",
@@ -6107,7 +6127,7 @@ const data = [
     "name": "BE-79 MAN SLIPPER LIGHT BROWN 44/45",
     "price": 19.0,
     "stock": 7,
-    "sales": 4
+    "sales": 13
   },
   {
     "outlet": "Warehouse",
@@ -6127,7 +6147,7 @@ const data = [
     "name": "BE-81 MAN SLIPPER ORANGE 44/45",
     "price": 59.0,
     "stock": 1,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -6176,7 +6196,7 @@ const data = [
     "alias": "95628436",
     "name": "BE-86 WOMEN SLIPPER LIGHT ORANGE 36/37",
     "price": 59.0,
-    "stock": 97,
+    "stock": 69,
     "sales": 2
   },
   {
@@ -6186,8 +6206,8 @@ const data = [
     "alias": "95628438",
     "name": "BE-86 WOMEN SLIPPER LIGHT ORANGE 38/39",
     "price": 59.0,
-    "stock": 97,
-    "sales": 5
+    "stock": 68,
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -6196,8 +6216,8 @@ const data = [
     "alias": "95628440",
     "name": "BE-86 WOMEN SLIPPER LIGHT ORANGE 40/41",
     "price": 59.0,
-    "stock": 56,
-    "sales": 4
+    "stock": 40,
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -6206,8 +6226,8 @@ const data = [
     "alias": "95628536",
     "name": "BE-86 WOMEN NEON GREEN ORANGE 36/37",
     "price": 59.0,
-    "stock": 70,
-    "sales": 7
+    "stock": 42,
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -6216,8 +6236,8 @@ const data = [
     "alias": "95628538",
     "name": "BE-86 WOMEN NEON GREEN ORANGE 38/39",
     "price": 59.0,
-    "stock": 69,
-    "sales": 7
+    "stock": 41,
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -6226,8 +6246,8 @@ const data = [
     "alias": "95628540",
     "name": "BE-86 WOMEN NEON GREEN ORANGE 40/41",
     "price": 59.0,
-    "stock": 40,
-    "sales": 1
+    "stock": 24,
+    "sales": 10
   },
   {
     "outlet": "Warehouse",
@@ -6236,8 +6256,8 @@ const data = [
     "alias": "95630740",
     "name": "BE-86 MAN SLIPPER LIGHT ORANGE 40/41",
     "price": 59.0,
-    "stock": 72,
-    "sales": 1
+    "stock": 64,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -6246,8 +6266,8 @@ const data = [
     "alias": "95630742",
     "name": "BE-86 MAN SLIPPER LIGHT ORANGE 42/43",
     "price": 59.0,
-    "stock": 144,
-    "sales": 8
+    "stock": 128,
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -6256,8 +6276,8 @@ const data = [
     "alias": "95630744",
     "name": "BE-86 MAN SLIPPER LIGHT ORANGE 44/45",
     "price": 59.0,
-    "stock": 144,
-    "sales": 4
+    "stock": 128,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -6266,7 +6286,7 @@ const data = [
     "alias": "95630840",
     "name": "BE-86 MAN SLIPPER NEON GREEN 40/41",
     "price": 59.0,
-    "stock": 112,
+    "stock": 104,
     "sales": 0
   },
   {
@@ -6276,8 +6296,8 @@ const data = [
     "alias": "95630842",
     "name": "BE-86 MAN SLIPPER NEON GREEN 42/43",
     "price": 59.0,
-    "stock": 224,
-    "sales": 3
+    "stock": 208,
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -6286,8 +6306,8 @@ const data = [
     "alias": "95630844",
     "name": "BE-86 MAN SLIPPER NEON GREEN 44/45",
     "price": 59.0,
-    "stock": 224,
-    "sales": 4
+    "stock": 208,
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -6296,8 +6316,8 @@ const data = [
     "alias": "710829",
     "name": "SQUARE TOWELS AIR-RICH LAUREL WREATH",
     "price": 5.0,
-    "stock": 21,
-    "sales": 160
+    "stock": 17,
+    "sales": 161
   },
   {
     "outlet": "Warehouse",
@@ -6316,8 +6336,8 @@ const data = [
     "alias": "502601",
     "name": "MARSHMALLOW COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 630,
-    "sales": 71
+    "stock": 606,
+    "sales": 99
   },
   {
     "outlet": "Warehouse",
@@ -6326,8 +6346,8 @@ const data = [
     "alias": "502602",
     "name": "GREY COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 174,
-    "sales": 81
+    "stock": 133,
+    "sales": 99
   },
   {
     "outlet": "Warehouse",
@@ -6336,8 +6356,8 @@ const data = [
     "alias": "502603",
     "name": "DOE SKIN COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 111,
-    "sales": 136
+    "stock": 63,
+    "sales": 171
   },
   {
     "outlet": "Warehouse",
@@ -6346,8 +6366,8 @@ const data = [
     "alias": "502604",
     "name": "ROSE PINK COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 449,
-    "sales": 43
+    "stock": 434,
+    "sales": 34
   },
   {
     "outlet": "Warehouse",
@@ -6356,8 +6376,8 @@ const data = [
     "alias": "502605",
     "name": "CRIMSON COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 698,
-    "sales": 18
+    "stock": 690,
+    "sales": 38
   },
   {
     "outlet": "Warehouse",
@@ -6366,8 +6386,8 @@ const data = [
     "alias": "502606",
     "name": "NAVY COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 299,
-    "sales": 66
+    "stock": 263,
+    "sales": 83
   },
   {
     "outlet": "Warehouse",
@@ -6376,8 +6396,8 @@ const data = [
     "alias": "502607",
     "name": "PLUM COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 297,
-    "sales": 57
+    "stock": 278,
+    "sales": 69
   },
   {
     "outlet": "Warehouse",
@@ -6386,8 +6406,8 @@ const data = [
     "alias": "502701",
     "name": "MARSHMALLOW COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 1211,
-    "sales": 41
+    "stock": 23,
+    "sales": 62
   },
   {
     "outlet": "Warehouse",
@@ -6396,8 +6416,8 @@ const data = [
     "alias": "502702",
     "name": "GREY COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 1101,
-    "sales": 44
+    "stock": 208,
+    "sales": 53
   },
   {
     "outlet": "Warehouse",
@@ -6406,8 +6426,8 @@ const data = [
     "alias": "502703",
     "name": "DOE SKIN COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 85,
-    "sales": 70
+    "stock": 59,
+    "sales": 95
   },
   {
     "outlet": "Warehouse",
@@ -6416,8 +6436,8 @@ const data = [
     "alias": "502704",
     "name": "ROSE PINK COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 1371,
-    "sales": 20
+    "stock": 546,
+    "sales": 27
   },
   {
     "outlet": "Warehouse",
@@ -6426,8 +6446,8 @@ const data = [
     "alias": "502705",
     "name": "CRIMSON COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 1405,
-    "sales": 14
+    "stock": 781,
+    "sales": 28
   },
   {
     "outlet": "Warehouse",
@@ -6436,8 +6456,8 @@ const data = [
     "alias": "502706",
     "name": "NAVY COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 639,
-    "sales": 36
+    "stock": 22,
+    "sales": 39
   },
   {
     "outlet": "Warehouse",
@@ -6446,8 +6466,8 @@ const data = [
     "alias": "502707",
     "name": "PLUM COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 212,
-    "sales": 27
+    "stock": 192,
+    "sales": 31
   },
   {
     "outlet": "Warehouse",
@@ -6517,7 +6537,7 @@ const data = [
     "name": "BEACH TOWEL ALSACE STRIPE 101X183 CM",
     "price": 59.0,
     "stock": 8,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -6526,8 +6546,8 @@ const data = [
     "alias": "714812",
     "name": "BEACH TOWEL RED BLUE CABANA 101.6X182 CM",
     "price": 59.0,
-    "stock": 7212,
-    "sales": 151
+    "stock": 7152,
+    "sales": 200
   },
   {
     "outlet": "Warehouse",
@@ -6546,8 +6566,8 @@ const data = [
     "alias": "714808",
     "name": "BEACH TOWEL MAUI FLORAL PURP 101X183 CM",
     "price": 59.0,
-    "stock": 31,
-    "sales": 34
+    "stock": 17,
+    "sales": 30
   },
   {
     "outlet": "Warehouse",
@@ -6556,8 +6576,8 @@ const data = [
     "alias": "714806",
     "name": "BEACH TOWEL HENNA MANDALA 101X183 CM",
     "price": 59.0,
-    "stock": 105,
-    "sales": 141
+    "stock": 43,
+    "sales": 174
   },
   {
     "outlet": "Warehouse",
@@ -6566,8 +6586,8 @@ const data = [
     "alias": "714807",
     "name": "BEACH TOWEL BATIK PINEAPPLE 101X183 CM",
     "price": 59.0,
-    "stock": 3031,
-    "sales": 120
+    "stock": 3003,
+    "sales": 168
   },
   {
     "outlet": "Warehouse",
@@ -6577,7 +6597,7 @@ const data = [
     "name": "BEACH TOWEL HEXAGON GEO BLUE 101X183 CM",
     "price": 59.0,
     "stock": 5,
-    "sales": 71
+    "sales": 57
   },
   {
     "outlet": "Warehouse",
@@ -6586,8 +6606,8 @@ const data = [
     "alias": "714813",
     "name": "BEACH TOWEL BLACK GREY CABANA 101.6X182 CM",
     "price": 59.0,
-    "stock": 1449,
-    "sales": 81
+    "stock": 1425,
+    "sales": 80
   },
   {
     "outlet": "Warehouse",
@@ -6597,7 +6617,7 @@ const data = [
     "name": "BEACH TOWEL FLAMINGO FLORALP  101X183 CM",
     "price": 59.0,
     "stock": 12,
-    "sales": 48
+    "sales": 54
   },
   {
     "outlet": "Warehouse",
@@ -6606,8 +6626,8 @@ const data = [
     "alias": "714811",
     "name": "BEACH TOWEL MYKONOS  101X183 CM",
     "price": 59.0,
-    "stock": 702,
-    "sales": 167
+    "stock": 651,
+    "sales": 222
   },
   {
     "outlet": "Warehouse",
@@ -6616,8 +6636,8 @@ const data = [
     "alias": "711304",
     "name": "90*50 KITCH TOWEL BTP-248",
     "price": 9.0,
-    "stock": 144,
-    "sales": 552
+    "stock": 96,
+    "sales": 182
   },
   {
     "outlet": "Warehouse",
@@ -6626,8 +6646,8 @@ const data = [
     "alias": "958228",
     "name": "BATH ROBE TERRA COTTA XS/S",
     "price": 99.0,
-    "stock": 258,
-    "sales": 10
+    "stock": 252,
+    "sales": 18
   },
   {
     "outlet": "Warehouse",
@@ -6636,8 +6656,8 @@ const data = [
     "alias": "607623",
     "name": "SHEET 4 PCS 300 STITSH KING PRISTINE OFF WHITE",
     "price": 219.0,
-    "stock": 1833,
-    "sales": 40
+    "stock": 1825,
+    "sales": 44
   },
   {
     "outlet": "Warehouse",
@@ -6646,8 +6666,8 @@ const data = [
     "alias": "607624",
     "name": "SHEET 4 PCS 300 STITSH KING SPEED PEARL LINEN",
     "price": 219.0,
-    "stock": 500,
-    "sales": 23
+    "stock": 496,
+    "sales": 25
   },
   {
     "outlet": "Warehouse",
@@ -6656,8 +6676,8 @@ const data = [
     "alias": "619415",
     "name": "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH QUEEN",
     "price": 89.0,
-    "stock": 2897,
-    "sales": 19
+    "stock": 2885,
+    "sales": 24
   },
   {
     "outlet": "Warehouse",
@@ -6667,7 +6687,7 @@ const data = [
     "name": "SPEED PEARL LINEN SHEET 3 PCS 300 STITSH QUEEN",
     "price": 89.0,
     "stock": 474,
-    "sales": 18
+    "sales": 20
   },
   {
     "outlet": "Warehouse",
@@ -6717,7 +6737,7 @@ const data = [
     "name": "BLANKET BLACK KING WAVE",
     "price": 194.0,
     "stock": 4,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -6727,7 +6747,7 @@ const data = [
     "name": "COW KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
     "stock": 1272,
-    "sales": 4
+    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -6736,8 +6756,8 @@ const data = [
     "alias": "22720",
     "name": "*AURA PURPLE FULL COMFORTER 5 PCS KIT",
     "price": 249.0,
-    "stock": 28,
-    "sales": 1
+    "stock": 18,
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -6777,7 +6797,7 @@ const data = [
     "name": "*(SPECIAL OFFER) AVON WHITE KING COMFORTER 8 PCS KIT",
     "price": 499.0,
     "stock": 7,
-    "sales": 8
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -6787,7 +6807,7 @@ const data = [
     "name": "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
     "stock": 2,
-    "sales": 27
+    "sales": 25
   },
   {
     "outlet": "Warehouse",
@@ -6796,8 +6816,8 @@ const data = [
     "alias": "607740",
     "name": "SPEED PEARL LINEN KING 3 PCS 300 STITSH",
     "price": 129.0,
-    "stock": 1910,
-    "sales": 14
+    "stock": 1870,
+    "sales": 10
   },
   {
     "outlet": "Warehouse",
@@ -6936,8 +6956,8 @@ const data = [
     "alias": "970300-31",
     "name": "FABRIC TOTE BAGS - 31",
     "price": 19.0,
-    "stock": 20,
-    "sales": 0
+    "stock": 19,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -6956,7 +6976,7 @@ const data = [
     "alias": "970300-33",
     "name": "FABRIC TOTE BAGS - 33",
     "price": 19.0,
-    "stock": 52,
+    "stock": 28,
     "sales": 0
   },
   {
@@ -6966,8 +6986,8 @@ const data = [
     "alias": "970300-34",
     "name": "FABRIC TOTE BAGS - 34",
     "price": 19.0,
-    "stock": 54,
-    "sales": 0
+    "stock": 30,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -6986,8 +7006,8 @@ const data = [
     "alias": "608914",
     "name": "P.BLUE SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 130,
-    "sales": 54
+    "stock": 111,
+    "sales": 79
   },
   {
     "outlet": "Warehouse",
@@ -6997,7 +7017,7 @@ const data = [
     "name": "LILAC MARBLE SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
     "stock": 2,
-    "sales": 43
+    "sales": 55
   },
   {
     "outlet": "Warehouse",
@@ -7007,7 +7027,7 @@ const data = [
     "name": "KOALA LILAC FULL COMFORTER 7 PCS WM YZ BIAB",
     "price": 169.0,
     "stock": 3,
-    "sales": 7
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -7026,8 +7046,8 @@ const data = [
     "alias": "608402",
     "name": "SANNA PRINTED DUVET COVER FULL 3 PCS",
     "price": 194.0,
-    "stock": 19,
-    "sales": 10
+    "stock": 1,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -7036,7 +7056,7 @@ const data = [
     "alias": "608404",
     "name": "TETBURY PRINTED DUVET COVER FULL 3 PCS",
     "price": 194.0,
-    "stock": 18,
+    "stock": 17,
     "sales": 1
   },
   {
@@ -7046,7 +7066,7 @@ const data = [
     "alias": "608405",
     "name": "LOCHABER PRINTED DUVET COVER FULL 3 PCS",
     "price": 194.0,
-    "stock": 15,
+    "stock": 5,
     "sales": 2
   },
   {
@@ -7056,8 +7076,8 @@ const data = [
     "alias": "608713",
     "name": "FOX GLOVE PRINTED DUVET COVER KING 3 PCS",
     "price": 294.0,
-    "stock": 15,
-    "sales": 0
+    "stock": 14,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -7066,8 +7086,8 @@ const data = [
     "alias": "608715",
     "name": "LOCHABER PRINTED DUVET COVER KING 3 PCS",
     "price": 294.0,
-    "stock": 65,
-    "sales": 2
+    "stock": 9,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -7136,8 +7156,8 @@ const data = [
     "alias": "960106",
     "name": "HEAD ACCESSORIES SLUMBER BURGUNDY 4 PCS",
     "price": 39.0,
-    "stock": 95,
-    "sales": 61
+    "stock": 34,
+    "sales": 84
   },
   {
     "outlet": "Warehouse",
@@ -7146,8 +7166,8 @@ const data = [
     "alias": "960107",
     "name": "HEAD ACCESSORIES SLUMBER DARK GREEN 4 PCS",
     "price": 39.0,
-    "stock": 547,
-    "sales": 76
+    "stock": 27,
+    "sales": 73
   },
   {
     "outlet": "Warehouse",
@@ -7157,7 +7177,7 @@ const data = [
     "name": "BE88- MAN SLIPPER NAVY 40/41",
     "price": 19.0,
     "stock": 8,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -7187,7 +7207,7 @@ const data = [
     "name": "BE89- MAN SLIPPER NAVY 42/43",
     "price": 19.0,
     "stock": 16,
-    "sales": 3
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -7257,7 +7277,7 @@ const data = [
     "name": "BE-89 MAN SLIPPER CAMEL 42/43",
     "price": 19.0,
     "stock": 29,
-    "sales": 16
+    "sales": 17
   },
   {
     "outlet": "Warehouse",
@@ -7267,7 +7287,7 @@ const data = [
     "name": "BE-89 MAN SLIPPER CAMEL 44/45",
     "price": 19.0,
     "stock": 5,
-    "sales": 12
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -7277,7 +7297,7 @@ const data = [
     "name": "BE-89 MAN SLIPPER DARK GREY 42/43",
     "price": 19.0,
     "stock": 9,
-    "sales": 5
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -7297,7 +7317,7 @@ const data = [
     "name": "BE-96 WOMAN SLIPPER PURPLE 36/37",
     "price": 19.0,
     "stock": 4,
-    "sales": 0
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -7307,7 +7327,7 @@ const data = [
     "name": "BE-91 WOMAN SLIPPER PURPLE 36/37",
     "price": 19.0,
     "stock": 9,
-    "sales": 6
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -7317,7 +7337,7 @@ const data = [
     "name": "BE-91 WOMAN SLIPPER PURPLE 38/39",
     "price": 19.0,
     "stock": 1,
-    "sales": 1
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -7337,7 +7357,7 @@ const data = [
     "name": "BE-91 WOMAN SLIPPER PINK 36/37",
     "price": 19.0,
     "stock": 8,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -7457,7 +7477,7 @@ const data = [
     "name": "BE-98 WOMAN SLIPPER HOT PINK 36/37",
     "price": 19.0,
     "stock": 1,
-    "sales": 0
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -7507,7 +7527,7 @@ const data = [
     "name": "BE-98 WOMAN SLIPPER WHITE 38/39",
     "price": 29.0,
     "stock": 1,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -7537,7 +7557,7 @@ const data = [
     "name": "BE-94 WOMAN SLIPPER GREEN 36/37",
     "price": 19.0,
     "stock": 9,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -7677,7 +7697,7 @@ const data = [
     "name": "BE-97 WOMAN SLIPPER BROWN 38/39",
     "price": 19.0,
     "stock": 2,
-    "sales": 2
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -7687,7 +7707,7 @@ const data = [
     "name": "BE-99 WOMAN SLIPPER BROWN 36/37",
     "price": 19.0,
     "stock": 14,
-    "sales": 2
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -7697,7 +7717,7 @@ const data = [
     "name": "BE-99 WOMAN SLIPPER BROWN 38/39",
     "price": 19.0,
     "stock": 4,
-    "sales": 2
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -7727,7 +7747,7 @@ const data = [
     "name": "BE-99 WOMAN SLIPPER IVORY 40/41",
     "price": 19.0,
     "stock": 4,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -7736,8 +7756,8 @@ const data = [
     "alias": "958305",
     "name": "FRESHENER WHITE JASMINE BLACK 500 ML",
     "price": 79.0,
-    "stock": 522,
-    "sales": 57
+    "stock": 499,
+    "sales": 61
   },
   {
     "outlet": "Warehouse",
@@ -7746,8 +7766,8 @@ const data = [
     "alias": "958306",
     "name": "FRESHENER DARK VANILLA & SANDALWOOD BLACK 500 ML",
     "price": 79.0,
-    "stock": 1401,
-    "sales": 62
+    "stock": 1384,
+    "sales": 67
   },
   {
     "outlet": "Warehouse",
@@ -7756,8 +7776,8 @@ const data = [
     "alias": "958307",
     "name": "FRESHENER WHITE MUSK BLACK 500 ML",
     "price": 79.0,
-    "stock": 613,
-    "sales": 53
+    "stock": 556,
+    "sales": 44
   },
   {
     "outlet": "Warehouse",
@@ -7766,8 +7786,8 @@ const data = [
     "alias": "455003",
     "name": "SO SOFT OMBRE FROM WHITE TO YELLOW KING COMFORTER 3 PCS",
     "price": 299.0,
-    "stock": 82,
-    "sales": 14
+    "stock": 78,
+    "sales": 15
   },
   {
     "outlet": "Warehouse",
@@ -7807,7 +7827,7 @@ const data = [
     "name": "BE-95 WOMEN SLIPPER BROWN 38/39",
     "price": 19.0,
     "stock": 1,
-    "sales": 0
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -7817,7 +7837,7 @@ const data = [
     "name": "BE-95 WOMEN SLIPPER BEIGE 36/37",
     "price": 19.0,
     "stock": 8,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -7866,8 +7886,8 @@ const data = [
     "alias": "95632636",
     "name": "BE-92 WOMEN SLIPPER PINK 36/37",
     "price": 19.0,
-    "stock": 488,
-    "sales": 0
+    "stock": 480,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -7876,8 +7896,8 @@ const data = [
     "alias": "95632638",
     "name": "BE-92 WOMEN SLIPPER PINK 38/39",
     "price": 19.0,
-    "stock": 488,
-    "sales": 0
+    "stock": 480,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -7886,8 +7906,8 @@ const data = [
     "alias": "95632640",
     "name": "BE-92 WOMEN SLIPPER PINK 40/41",
     "price": 19.0,
-    "stock": 244,
-    "sales": 0
+    "stock": 240,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -7907,7 +7927,7 @@ const data = [
     "name": "BE-93 WOMEN SLIPPER WHITE-CAMEL 38/39",
     "price": 19.0,
     "stock": 5,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -7957,7 +7977,7 @@ const data = [
     "name": "BE-93 WOMEN SLIPPER WHITE-GREY 38/39",
     "price": 19.0,
     "stock": 8,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -8007,7 +8027,7 @@ const data = [
     "name": "BE-95 WOMEN SLIPPER GREY 36/37",
     "price": 19.0,
     "stock": 9,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -8072,22 +8092,12 @@ const data = [
   {
     "outlet": "Warehouse",
     "category": "كويلتات",
-    "code": "22849",
-    "alias": "538791",
-    "name": "BIG ONE LAM STRIPE NAVY KING QUILT 3 PCS",
-    "price": 149.0,
-    "stock": 1,
-    "sales": 14
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "كويلتات",
     "code": "22851",
     "alias": "538793",
     "name": "BIG ONE SUNNY TANGERINE KING QUILT 3 PCS",
     "price": 149.0,
     "stock": 2,
-    "sales": 4
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -8117,7 +8127,7 @@ const data = [
     "name": "BIG ONE BOLD STRIPE KING QUILT 3 PCS",
     "price": 149.0,
     "stock": 19,
-    "sales": 6
+    "sales": 11
   },
   {
     "outlet": "Warehouse",
@@ -8127,7 +8137,7 @@ const data = [
     "name": "BIG ONE DESHAWN KING QUILT 3 PCS",
     "price": 149.0,
     "stock": 12,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -8157,7 +8167,7 @@ const data = [
     "name": "BATH ROBE HOOD X/S ROSE TAN",
     "price": 99.0,
     "stock": 9,
-    "sales": 6
+    "sales": 9
   },
   {
     "outlet": "Warehouse",
@@ -8167,7 +8177,7 @@ const data = [
     "name": "BATH ROBE HOOD X/S PLATINUM",
     "price": 99.0,
     "stock": 2,
-    "sales": 1
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -8176,8 +8186,8 @@ const data = [
     "alias": "958513",
     "name": "BATH ROBE HOOD X/S LINEN",
     "price": 99.0,
-    "stock": 152,
-    "sales": 9
+    "stock": 150,
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -8187,7 +8197,7 @@ const data = [
     "name": "BATH ROBE HOOD S/M LINEN",
     "price": 99.0,
     "stock": 8,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -8216,7 +8226,7 @@ const data = [
     "alias": "9701",
     "name": "SMOOSHIE TOY",
     "price": 59.0,
-    "stock": 2171,
+    "stock": 2163,
     "sales": 13
   },
   {
@@ -8226,8 +8236,8 @@ const data = [
     "alias": "455001",
     "name": "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
     "price": 299.0,
-    "stock": 36,
-    "sales": 9
+    "stock": 35,
+    "sales": 11
   },
   {
     "outlet": "Warehouse",
@@ -8237,7 +8247,7 @@ const data = [
     "name": "COSTCO MOEMI AQUA KING COMFORTER 6 PCS",
     "price": 399.0,
     "stock": 9,
-    "sales": 4
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -8266,7 +8276,7 @@ const data = [
     "alias": "970115",
     "name": "SMOOSHIE TOY - PRAWN ROLLS WEBSITE",
     "price": 59.0,
-    "stock": 4,
+    "stock": 3,
     "sales": 0
   },
   {
@@ -8276,7 +8286,7 @@ const data = [
     "alias": "970116",
     "name": "SMOOSHIE TOY - UNICORN WEBSITE",
     "price": 69.0,
-    "stock": 15,
+    "stock": 14,
     "sales": 0
   },
   {
@@ -8286,7 +8296,7 @@ const data = [
     "alias": "970117",
     "name": "SMOOSHIE TOY - DOG WEBSITE",
     "price": 69.0,
-    "stock": 8,
+    "stock": 7,
     "sales": 0
   },
   {
@@ -8306,7 +8316,7 @@ const data = [
     "alias": "970120",
     "name": "SMOOSHIE TOY - CAT WEBSITE",
     "price": 79.0,
-    "stock": 4,
+    "stock": 2,
     "sales": 0
   },
   {
@@ -8316,7 +8326,7 @@ const data = [
     "alias": "970121",
     "name": "SMOOSHIE TOY - BEE WEBSITE",
     "price": 79.0,
-    "stock": 5,
+    "stock": 2,
     "sales": 0
   },
   {
@@ -8336,8 +8346,8 @@ const data = [
     "alias": "970123",
     "name": "SMOOSHIE TOY - COW WEBSITE",
     "price": 69.0,
-    "stock": 23,
-    "sales": 0
+    "stock": 22,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -8356,7 +8366,7 @@ const data = [
     "alias": "970126",
     "name": "SMOOSHIE TOY - OWL WEBSITE",
     "price": 69.0,
-    "stock": 2,
+    "stock": 1,
     "sales": 0
   },
   {
@@ -8366,7 +8376,7 @@ const data = [
     "alias": "970127",
     "name": "SMOOSHIE TOY - PANDA WEBSITE",
     "price": 69.0,
-    "stock": 9,
+    "stock": 8,
     "sales": 0
   },
   {
@@ -8376,7 +8386,7 @@ const data = [
     "alias": "970128",
     "name": "SMOOSHIE TOY - BEAR WEBSITE",
     "price": 69.0,
-    "stock": 23,
+    "stock": 22,
     "sales": 0
   },
   {
@@ -8386,7 +8396,7 @@ const data = [
     "alias": "970130",
     "name": "SMOOSHIE TOY - UNICORN3 WEBSITE",
     "price": 69.0,
-    "stock": 17,
+    "stock": 16,
     "sales": 0
   },
   {
@@ -8397,7 +8407,7 @@ const data = [
     "name": "SOLID ORANGE WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 35.0,
     "stock": 3,
-    "sales": 6
+    "sales": 11
   },
   {
     "outlet": "Warehouse",
@@ -8407,7 +8417,7 @@ const data = [
     "name": "SOLID WHITE WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29.0,
     "stock": 2,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -8427,7 +8437,7 @@ const data = [
     "name": "ORANGE OMBRE WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29.0,
     "stock": 1,
-    "sales": 17
+    "sales": 15
   },
   {
     "outlet": "Warehouse",
@@ -8447,7 +8457,7 @@ const data = [
     "name": "SOLID ORANGE WM TUMBER WITH STRAW 24 OZ",
     "price": 29.0,
     "stock": 8,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -8457,7 +8467,7 @@ const data = [
     "name": "ORANGE OMBRE WM TUMBER WITH STRAW 24 OZ",
     "price": 29.0,
     "stock": 6,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -8487,7 +8497,7 @@ const data = [
     "name": "NASSAU EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
     "stock": 5,
-    "sales": 9
+    "sales": 10
   },
   {
     "outlet": "Warehouse",
@@ -8497,7 +8507,7 @@ const data = [
     "name": "OMBRE LEAVES EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
     "stock": 1,
-    "sales": 8
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -8507,7 +8517,7 @@ const data = [
     "name": "PARIS BOTANIQUE EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
     "stock": 3,
-    "sales": 10
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -8517,7 +8527,7 @@ const data = [
     "name": "ROSE EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
     "stock": 4,
-    "sales": 0
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -8537,7 +8547,7 @@ const data = [
     "name": "BIRDS EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
     "stock": 2,
-    "sales": 2
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -8547,7 +8557,7 @@ const data = [
     "name": "PLANTS EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
     "stock": 1,
-    "sales": 4
+    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -8567,7 +8577,7 @@ const data = [
     "name": "BRANCH EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
     "stock": 5,
-    "sales": 0
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -8577,7 +8587,7 @@ const data = [
     "name": "WHITE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     "price": 295.0,
     "stock": 361,
-    "sales": 10
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -8586,8 +8596,8 @@ const data = [
     "alias": "614710",
     "name": "SILVER DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     "price": 295.0,
-    "stock": 364,
-    "sales": 6
+    "stock": 349,
+    "sales": 15
   },
   {
     "outlet": "Warehouse",
@@ -8597,7 +8607,7 @@ const data = [
     "name": "IVORY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     "price": 295.0,
     "stock": 321,
-    "sales": 3
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -8606,8 +8616,8 @@ const data = [
     "alias": "614712",
     "name": "H-VOILD DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     "price": 295.0,
-    "stock": 179,
-    "sales": 6
+    "stock": 164,
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -8616,8 +8626,8 @@ const data = [
     "alias": "614713",
     "name": "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     "price": 295.0,
-    "stock": 169,
-    "sales": 9
+    "stock": 164,
+    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -8627,7 +8637,7 @@ const data = [
     "name": "BIG HEXAGON GEO FULL COMFORTER 9 PCS",
     "price": 249.0,
     "stock": 1,
-    "sales": 2
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -8837,7 +8847,7 @@ const data = [
     "name": "HEAD ACCESSORIES SLUMBER BLACK 4 PCS",
     "price": 39.0,
     "stock": 116,
-    "sales": 58
+    "sales": 57
   },
   {
     "outlet": "Warehouse",
@@ -8846,8 +8856,8 @@ const data = [
     "alias": "4001779",
     "name": "BIG HEXAGON GEO KING COMFORTER 9 PCS",
     "price": 249.0,
-    "stock": 88,
-    "sales": 1
+    "stock": 82,
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -8867,7 +8877,7 @@ const data = [
     "name": "COSTCO CAMILE TEAL KING COMFORTER 6 PCS",
     "price": 399.0,
     "stock": 5,
-    "sales": 9
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -8887,7 +8897,7 @@ const data = [
     "name": "COSTCO TUMBLERS 14OZ ROYAL ANIMAL",
     "price": 29.0,
     "stock": 1,
-    "sales": 5
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -8896,8 +8906,8 @@ const data = [
     "alias": "900409",
     "name": "COSTCO TUMBLERS 40OZ WHITE",
     "price": 49.0,
-    "stock": 3367,
-    "sales": 44
+    "stock": 3351,
+    "sales": 59
   },
   {
     "outlet": "Warehouse",
@@ -8906,8 +8916,8 @@ const data = [
     "alias": "900410",
     "name": "COSTCO TUMBLERS 40OZ BLACK",
     "price": 49.0,
-    "stock": 2748,
-    "sales": 99
+    "stock": 2731,
+    "sales": 112
   },
   {
     "outlet": "Warehouse",
@@ -8916,8 +8926,8 @@ const data = [
     "alias": "0100019",
     "name": "PLAIN CHINESE PRAYER RUG",
     "price": 10.0,
-    "stock": 5755,
-    "sales": 311
+    "stock": 2255,
+    "sales": 131
   },
   {
     "outlet": "Warehouse",
@@ -8927,7 +8937,7 @@ const data = [
     "name": "PRAYER SET WITH QURAN BOX",
     "price": 99.0,
     "stock": 533,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -8937,7 +8947,7 @@ const data = [
     "name": "PLAIN PRAYER SHEETS.",
     "price": 59.0,
     "stock": 800,
-    "sales": 14
+    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -8946,8 +8956,8 @@ const data = [
     "alias": "0100022",
     "name": "EMBROIDERED PRAYER SHEETS",
     "price": 59.0,
-    "stock": 2000,
-    "sales": 16
+    "stock": 500,
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -8957,7 +8967,7 @@ const data = [
     "name": "*ISABELLA BAIGE KING COMFORTER 11 PCS KIT.",
     "price": 1199.0,
     "stock": 1,
-    "sales": 17
+    "sales": 13
   },
   {
     "outlet": "Warehouse",
@@ -8966,8 +8976,8 @@ const data = [
     "alias": "620601",
     "name": "SHEET KING WHITE 800 TC 4 PCS",
     "price": 495.0,
-    "stock": 806,
-    "sales": 18
+    "stock": 798,
+    "sales": 23
   },
   {
     "outlet": "Warehouse",
@@ -8977,7 +8987,7 @@ const data = [
     "name": "SHEET KING MARSHMALLOW 800 TC 4 PCS",
     "price": 495.0,
     "stock": 459,
-    "sales": 10
+    "sales": 16
   },
   {
     "outlet": "Warehouse",
@@ -8997,7 +9007,7 @@ const data = [
     "name": "GIZEM BATH ROBE BRID CREAM - CREAM 6 PCS",
     "price": 299.0,
     "stock": 13,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -9017,17 +9027,7 @@ const data = [
     "name": "NERVE BATH ROBE LIGHT BROWN - CREAM 6 PCS",
     "price": 299.0,
     "stock": 2,
-    "sales": 7
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "أرواب حمام عرائسي",
-    "code": "23180",
-    "alias": "001030",
-    "name": "AYSEL BATH ROBE BRID BEIGE - CREAM 6 PCS",
-    "price": 299.0,
-    "stock": 2,
-    "sales": 11
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -9036,8 +9036,8 @@ const data = [
     "alias": "001031",
     "name": "ASSORTED BATH ROBE BRID 6 PCS",
     "price": 299.0,
-    "stock": 2,
-    "sales": 5
+    "stock": 1,
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -9046,8 +9046,8 @@ const data = [
     "alias": "4052121",
     "name": "COSTCO RILEY SILVER KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 389,
-    "sales": 17
+    "stock": 387,
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -9057,7 +9057,7 @@ const data = [
     "name": "COSTCO OLIVER NEUTRAL KING COMFORTER 6 PCS",
     "price": 399.0,
     "stock": 5,
-    "sales": 8
+    "sales": 9
   },
   {
     "outlet": "Warehouse",
@@ -9067,7 +9067,7 @@ const data = [
     "name": "COSTCO GRAPHIC GEO GREY KING COMFORTER 6 PCS",
     "price": 399.0,
     "stock": 612,
-    "sales": 5
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -9076,7 +9076,7 @@ const data = [
     "alias": "440620",
     "name": "*ELLE MULTI KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 43,
+    "stock": 39,
     "sales": 10
   },
   {
@@ -9086,8 +9086,8 @@ const data = [
     "alias": "9244",
     "name": "FEATHER PILLOW WHITE DOWN KING",
     "price": 395.0,
-    "stock": 2120,
-    "sales": 57
+    "stock": 69,
+    "sales": 69
   },
   {
     "outlet": "Warehouse",
@@ -9097,7 +9097,7 @@ const data = [
     "name": "(SPECIAL OFFER) VALENTINA WHITE KING COMFORTER 9 PCS.",
     "price": 399.0,
     "stock": 11,
-    "sales": 9
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -9106,8 +9106,8 @@ const data = [
     "alias": "40624",
     "name": "(SPECIAL OFFER) MEREDITH KING COMFORTER 9 PCS.",
     "price": 399.0,
-    "stock": 6,
-    "sales": 19
+    "stock": 5,
+    "sales": 23
   },
   {
     "outlet": "Warehouse",
@@ -9117,7 +9117,7 @@ const data = [
     "name": "EMBROIDERED PRAYER SHEET 402331",
     "price": 99.0,
     "stock": 980,
-    "sales": 6
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -9126,8 +9126,8 @@ const data = [
     "alias": "960205",
     "name": "COCODOR 500 ML ROOM SPRAY CHERRY BLOSSOM",
     "price": 39.0,
-    "stock": 3813,
-    "sales": 443
+    "stock": 3662,
+    "sales": 525
   },
   {
     "outlet": "Warehouse",
@@ -9136,8 +9136,8 @@ const data = [
     "alias": "960203",
     "name": "COCODOR 500 ML ROOM SPRAY CLEAN COTTON",
     "price": 39.0,
-    "stock": 1387,
-    "sales": 792
+    "stock": 1,
+    "sales": 861
   },
   {
     "outlet": "Warehouse",
@@ -9146,8 +9146,18 @@ const data = [
     "alias": "960201",
     "name": "COCODOR 500 ML ROOM SPRAY EARL GREY TEA",
     "price": 39.0,
-    "stock": 392,
-    "sales": 95
+    "stock": 386,
+    "sales": 125
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "فواحات",
+    "code": "23222",
+    "alias": "960202",
+    "name": "COCODOR 500 ML ROOM SPRAY FOREST DAWN",
+    "price": 39.0,
+    "stock": 1,
+    "sales": 586
   },
   {
     "outlet": "Warehouse",
@@ -9156,8 +9166,8 @@ const data = [
     "alias": "900414",
     "name": "COSTCO TUMBLERS 40OZ PINK",
     "price": 49.0,
-    "stock": 1803,
-    "sales": 66
+    "stock": 1785,
+    "sales": 63
   },
   {
     "outlet": "Warehouse",
@@ -9166,8 +9176,8 @@ const data = [
     "alias": "900415",
     "name": "COSTCO TUMBLERS 40OZ LIGHT BLUE",
     "price": 49.0,
-    "stock": 3573,
-    "sales": 70
+    "stock": 3555,
+    "sales": 96
   },
   {
     "outlet": "Warehouse",
@@ -9176,8 +9186,8 @@ const data = [
     "alias": "900416",
     "name": "COSTCO TUMBLERS 40OZ LAVENDER",
     "price": 49.0,
-    "stock": 1426,
-    "sales": 84
+    "stock": 1406,
+    "sales": 100
   },
   {
     "outlet": "Warehouse",
@@ -9186,8 +9196,8 @@ const data = [
     "alias": "900417",
     "name": "COSTCO TUMBLERS 40OZ CHRISTMAS RED",
     "price": 49.0,
-    "stock": 2043,
-    "sales": 35
+    "stock": 2024,
+    "sales": 44
   },
   {
     "outlet": "Warehouse",
@@ -9196,8 +9206,8 @@ const data = [
     "alias": "900418",
     "name": "COSTCO TUMBLERS 40OZ YELLOW",
     "price": 49.0,
-    "stock": 1371,
-    "sales": 58
+    "stock": 1352,
+    "sales": 87
   },
   {
     "outlet": "Warehouse",
@@ -9206,8 +9216,8 @@ const data = [
     "alias": "900419",
     "name": "COSTCO TUMBLERS 40OZ ORANGE",
     "price": 49.0,
-    "stock": 2101,
-    "sales": 39
+    "stock": 2098,
+    "sales": 46
   },
   {
     "outlet": "Warehouse",
@@ -9216,8 +9226,8 @@ const data = [
     "alias": "988901",
     "name": "HAMBURGER STATIONERY BOX SET",
     "price": 59.0,
-    "stock": 175,
-    "sales": 22
+    "stock": 165,
+    "sales": 25
   },
   {
     "outlet": "Warehouse",
@@ -9227,7 +9237,7 @@ const data = [
     "name": "PENGUIN STATIONERY BOX SET",
     "price": 59.0,
     "stock": 426,
-    "sales": 13
+    "sales": 18
   },
   {
     "outlet": "Warehouse",
@@ -9236,8 +9246,8 @@ const data = [
     "alias": "988903",
     "name": "OWL STATIONERY BOX SET",
     "price": 59.0,
-    "stock": 299,
-    "sales": 17
+    "stock": 289,
+    "sales": 21
   },
   {
     "outlet": "Warehouse",
@@ -9246,8 +9256,8 @@ const data = [
     "alias": "988904",
     "name": "DOG STATIONERY BOX SET",
     "price": 59.0,
-    "stock": 323,
-    "sales": 12
+    "stock": 313,
+    "sales": 18
   },
   {
     "outlet": "Warehouse",
@@ -9257,7 +9267,7 @@ const data = [
     "name": "SOLID PINK WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29.0,
     "stock": 9,
-    "sales": 2
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -9276,8 +9286,8 @@ const data = [
     "alias": "9006-11",
     "name": "SOLID GOLD WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29.0,
-    "stock": 694,
-    "sales": 54
+    "stock": 670,
+    "sales": 55
   },
   {
     "outlet": "Warehouse",
@@ -9287,7 +9297,7 @@ const data = [
     "name": "PRINT BLUE WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29.0,
     "stock": 4202,
-    "sales": 112
+    "sales": 126
   },
   {
     "outlet": "Warehouse",
@@ -9296,8 +9306,8 @@ const data = [
     "alias": "9006-13",
     "name": "PRINT RAINBOW WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29.0,
-    "stock": 5258,
-    "sales": 94
+    "stock": 5246,
+    "sales": 86
   },
   {
     "outlet": "Warehouse",
@@ -9316,8 +9326,8 @@ const data = [
     "alias": "9006-15",
     "name": "CHRISTMAS RED WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29.0,
-    "stock": 1040,
-    "sales": 71
+    "stock": 1016,
+    "sales": 69
   },
   {
     "outlet": "Warehouse",
@@ -9326,8 +9336,8 @@ const data = [
     "alias": "9005-12",
     "name": "PRINT BLUE WM TUMBER WITH STRAW 24 OZ",
     "price": 29.0,
-    "stock": 1335,
-    "sales": 51
+    "stock": 1334,
+    "sales": 55
   },
   {
     "outlet": "Warehouse",
@@ -9336,8 +9346,8 @@ const data = [
     "alias": "9005-13",
     "name": "PRINT RAINBOW WM TUMBER WITH STRAW 24 OZ",
     "price": 29.0,
-    "stock": 1495,
-    "sales": 42
+    "stock": 1494,
+    "sales": 43
   },
   {
     "outlet": "Warehouse",
@@ -9347,7 +9357,7 @@ const data = [
     "name": "PRINT RAINBOW AND WHITE WM TUMBER WITH STRAW 24 OZ",
     "price": 29.0,
     "stock": 1979,
-    "sales": 34
+    "sales": 44
   },
   {
     "outlet": "Warehouse",
@@ -9357,7 +9367,7 @@ const data = [
     "name": "CHRISTMAS RED WM TUMBER WITH STRAW 24 OZ",
     "price": 29.0,
     "stock": 1,
-    "sales": 19
+    "sales": 25
   },
   {
     "outlet": "Warehouse",
@@ -9366,8 +9376,8 @@ const data = [
     "alias": "960204",
     "name": "COCODOR 500 ML ROOM SPRAY BOMB SHELL",
     "price": 39.0,
-    "stock": 8145,
-    "sales": 933
+    "stock": 7797,
+    "sales": 1235
   },
   {
     "outlet": "Warehouse",
@@ -9377,7 +9387,7 @@ const data = [
     "name": "(SPECIAL OFFER) BLUE CHALK AMBER KING COMFORTER 8 PCS",
     "price": 299.0,
     "stock": 6,
-    "sales": 9
+    "sales": 13
   },
   {
     "outlet": "Warehouse",
@@ -9447,7 +9457,7 @@ const data = [
     "name": "COOLING MEMORY FOAM PILLOW STANDARD",
     "price": 129.0,
     "stock": 3,
-    "sales": 75
+    "sales": 62
   },
   {
     "outlet": "Warehouse",
@@ -9456,8 +9466,8 @@ const data = [
     "alias": "959410",
     "name": "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
     "price": 59.0,
-    "stock": 1528,
-    "sales": 81
+    "stock": 1487,
+    "sales": 120
   },
   {
     "outlet": "Warehouse",
@@ -9466,8 +9476,8 @@ const data = [
     "alias": "9605",
     "name": "GEL FOAM MATTRESS PAD KING 4 INCH",
     "price": 599.0,
-    "stock": 600,
-    "sales": 22
+    "stock": 592,
+    "sales": 24
   },
   {
     "outlet": "Warehouse",
@@ -9477,7 +9487,7 @@ const data = [
     "name": "BIG EMILIY KING COMFORTER 9 PCS",
     "price": 249.0,
     "stock": 3,
-    "sales": 6
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -9486,8 +9496,8 @@ const data = [
     "alias": "4001787",
     "name": "BIG EMMA KING COMFORTER 9 PCS",
     "price": 249.0,
-    "stock": 22,
-    "sales": 4
+    "stock": 20,
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -9497,7 +9507,7 @@ const data = [
     "name": "BIG MARBLE INK KING COMFORTER 9 PCS",
     "price": 249.0,
     "stock": 2,
-    "sales": 8
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -9506,7 +9516,7 @@ const data = [
     "alias": "4001789",
     "name": "BIG VINE SPRING KING COMFORTER 9 PCS",
     "price": 249.0,
-    "stock": 4,
+    "stock": 3,
     "sales": 14
   },
   {
@@ -9517,7 +9527,7 @@ const data = [
     "name": "BIG JASON KING COMFORTER 9 PCS",
     "price": 249.0,
     "stock": 1,
-    "sales": 7
+    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -9537,7 +9547,7 @@ const data = [
     "name": "BIG EMILIY FULL COMFORTER 9 PCS",
     "price": 249.0,
     "stock": 2,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -9547,7 +9557,7 @@ const data = [
     "name": "BIG EMMA FULL COMFORTER 9 PCS",
     "price": 249.0,
     "stock": 26,
-    "sales": 7
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -9557,7 +9567,7 @@ const data = [
     "name": "BIG TRIBAL ICON FULL COMFORTER 9 PCS",
     "price": 249.0,
     "stock": 2,
-    "sales": 1
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -9586,8 +9596,8 @@ const data = [
     "alias": "100411",
     "name": "FLOWER LACE HG JUVI TWIN COMFORTER 6 PCS",
     "price": 249.0,
-    "stock": 575,
-    "sales": 1
+    "stock": 573,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -9596,8 +9606,8 @@ const data = [
     "alias": "100412",
     "name": "HAILEY HG JUVI TWIN COMFORTER 6 PCS",
     "price": 249.0,
-    "stock": 221,
-    "sales": 11
+    "stock": 215,
+    "sales": 9
   },
   {
     "outlet": "Warehouse",
@@ -9606,8 +9616,8 @@ const data = [
     "alias": "100413",
     "name": "HEART CHEVRON HG JUVI TWIN COMFORTER 6 PCS",
     "price": 249.0,
-    "stock": 269,
-    "sales": 16
+    "stock": 267,
+    "sales": 13
   },
   {
     "outlet": "Warehouse",
@@ -9616,7 +9626,7 @@ const data = [
     "alias": "100414",
     "name": "EXCAVATOR HG JUVI TWIN COMFORTER 6 PCS",
     "price": 249.0,
-    "stock": 459,
+    "stock": 460,
     "sales": 9
   },
   {
@@ -9626,8 +9636,8 @@ const data = [
     "alias": "100415",
     "name": "FLYING MODEL HG JUVI TWIN COMFORTER 6 PCS",
     "price": 249.0,
-    "stock": 376,
-    "sales": 8
+    "stock": 374,
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -9637,7 +9647,7 @@ const data = [
     "name": "ROBERT HG JUVI TWIN COMFORTER 6 PCS",
     "price": 250.27041742286752,
     "stock": 551,
-    "sales": 5
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -9647,7 +9657,7 @@ const data = [
     "name": "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
     "price": 299.0,
     "stock": 20,
-    "sales": 10
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -9657,7 +9667,7 @@ const data = [
     "name": "HAILEY HG JUVI FULL COMFORTER 8 PCS",
     "price": 299.0,
     "stock": 2,
-    "sales": 6
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -9667,7 +9677,7 @@ const data = [
     "name": "HEART FLOWER CHEVRON HG JUVI FULL COMFORTER 8 PCS",
     "price": 299.0,
     "stock": 2,
-    "sales": 5
+    "sales": 10
   },
   {
     "outlet": "Warehouse",
@@ -9677,7 +9687,7 @@ const data = [
     "name": "EXCAVATOR HG JUVI FULL COMFORTER 8 PCS",
     "price": 349.0,
     "stock": 13,
-    "sales": 4
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -9686,8 +9696,8 @@ const data = [
     "alias": "269214",
     "name": "ROBERT HG JUVI FULL COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 40,
-    "sales": 4
+    "stock": 38,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -9696,7 +9706,7 @@ const data = [
     "alias": "5481",
     "name": "QUILT PURPLE TRUMPET FLOWER KING 3 PCS",
     "price": 299.0,
-    "stock": 399,
+    "stock": 387,
     "sales": 11
   },
   {
@@ -9706,8 +9716,8 @@ const data = [
     "alias": "5482",
     "name": "QUILT RED ROSE KING 3 PCS",
     "price": 299.0,
-    "stock": 393,
-    "sales": 17
+    "stock": 385,
+    "sales": 30
   },
   {
     "outlet": "Warehouse",
@@ -9716,8 +9726,8 @@ const data = [
     "alias": "970133",
     "name": "O422 SOMOOSHIE TOY - FROG GREEN",
     "price": 69.0,
-    "stock": 855,
-    "sales": 13
+    "stock": 853,
+    "sales": 19
   },
   {
     "outlet": "Warehouse",
@@ -9726,8 +9736,8 @@ const data = [
     "alias": "970136",
     "name": "T425 SOMOOSHIE TOY - CUTTLEFISH FUSHIA",
     "price": 69.0,
-    "stock": 560,
-    "sales": 30
+    "stock": 554,
+    "sales": 41
   },
   {
     "outlet": "Warehouse",
@@ -9736,8 +9746,8 @@ const data = [
     "alias": "970137",
     "name": "A426 SOMOOSHIE TOY - CRAB PINK",
     "price": 69.0,
-    "stock": 327,
-    "sales": 19
+    "stock": 307,
+    "sales": 29
   },
   {
     "outlet": "Warehouse",
@@ -9746,8 +9756,8 @@ const data = [
     "alias": "970138",
     "name": "N427 SOMOOSHIE TOY - DINO GRASS",
     "price": 69.0,
-    "stock": 1123,
-    "sales": 12
+    "stock": 1110,
+    "sales": 13
   },
   {
     "outlet": "Warehouse",
@@ -9756,7 +9766,7 @@ const data = [
     "alias": "970139",
     "name": "A428 SOMOOSHIE TOY - DEER WHITE/RED",
     "price": 69.0,
-    "stock": 848,
+    "stock": 838,
     "sales": 14
   },
   {
@@ -9766,8 +9776,8 @@ const data = [
     "alias": "970140",
     "name": "T429 SOMOOSHIE TOY - CUTTLEFISH RED",
     "price": 69.0,
-    "stock": 779,
-    "sales": 24
+    "stock": 769,
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -9776,8 +9786,8 @@ const data = [
     "alias": "970142",
     "name": "U431 SOMOOSHIE TOY - MOUSE LT.PINK",
     "price": 69.0,
-    "stock": 729,
-    "sales": 20
+    "stock": 111,
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -9786,7 +9796,7 @@ const data = [
     "alias": "970143",
     "name": "T432 SOMOOSHIE TOY - CAT LT.PINK/FUSHIA",
     "price": 69.0,
-    "stock": 515,
+    "stock": 510,
     "sales": 23
   },
   {
@@ -9796,8 +9806,8 @@ const data = [
     "alias": "970144",
     "name": "R433 SOMOOSHIE TOY - DEER PEACH",
     "price": 69.0,
-    "stock": 755,
-    "sales": 22
+    "stock": 750,
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -9806,8 +9816,8 @@ const data = [
     "alias": "970145",
     "name": "N434 SOMOOSHIE TOY - DINO LT.BLUE",
     "price": 69.0,
-    "stock": 1129,
-    "sales": 4
+    "stock": 1118,
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -9816,8 +9826,8 @@ const data = [
     "alias": "970147",
     "name": "U436 SOMOOSHIE TOY - CUUTOPIA GREEN",
     "price": 69.0,
-    "stock": 126,
-    "sales": 12
+    "stock": 98,
+    "sales": 15
   },
   {
     "outlet": "Warehouse",
@@ -9827,7 +9837,7 @@ const data = [
     "name": "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
     "price": 69.0,
     "stock": 1169,
-    "sales": 14
+    "sales": 9
   },
   {
     "outlet": "Warehouse",
@@ -9836,8 +9846,8 @@ const data = [
     "alias": "970155",
     "name": "A455 SOMOOSHIE TOY - CRAB LT.LAVENDER/PEACH",
     "price": 69.0,
-    "stock": 952,
-    "sales": 4
+    "stock": 948,
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -9846,8 +9856,8 @@ const data = [
     "alias": "960206",
     "name": "COCODOR 500 ML ROOM SPRAY RAIN ROSE",
     "price": 39.0,
-    "stock": 6330,
-    "sales": 548
+    "stock": 57,
+    "sales": 699
   },
   {
     "outlet": "Warehouse",
@@ -9856,8 +9866,8 @@ const data = [
     "alias": "96001",
     "name": "COCODOR 200 ML SIMPLE DIFFUSER BLACK CHERRY",
     "price": 39.0,
-    "stock": 3914,
-    "sales": 86
+    "stock": 3882,
+    "sales": 80
   },
   {
     "outlet": "Warehouse",
@@ -9867,7 +9877,7 @@ const data = [
     "name": "COCODOR 200 ML SIMPLE DIFFUSER GARDEN LAVENDER",
     "price": 39.0,
     "stock": 4494,
-    "sales": 19
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -9877,7 +9887,7 @@ const data = [
     "name": "COCODOR 200 ML SIMPLE DIFFUSER WHITE JASMINE",
     "price": 39.0,
     "stock": 4661,
-    "sales": 32
+    "sales": 34
   },
   {
     "outlet": "Warehouse",
@@ -9886,8 +9896,8 @@ const data = [
     "alias": "96004",
     "name": "COCODOR 200 ML SIMPLE DIFFUSER DARK VANILLA",
     "price": 39.0,
-    "stock": 2333,
-    "sales": 27
+    "stock": 2301,
+    "sales": 28
   },
   {
     "outlet": "Warehouse",
@@ -9896,8 +9906,8 @@ const data = [
     "alias": "96005",
     "name": "COCODOR 200 ML SIMPLE DIFFUSER FORREST DAWN",
     "price": 39.0,
-    "stock": 2098,
-    "sales": 30
+    "stock": 2081,
+    "sales": 56
   },
   {
     "outlet": "Warehouse",
@@ -9906,8 +9916,8 @@ const data = [
     "alias": "96006",
     "name": "COCODOR 200 ML SIMPLE DIFFUSER PINK SAND",
     "price": 39.0,
-    "stock": 2878,
-    "sales": 18
+    "stock": 2846,
+    "sales": 21
   },
   {
     "outlet": "Warehouse",
@@ -9937,7 +9947,7 @@ const data = [
     "name": "RABBIT CREAM KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
     "stock": 1442,
-    "sales": 21
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -9946,8 +9956,8 @@ const data = [
     "alias": "900763",
     "name": "BABY BEAR PINK KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1069,
-    "sales": 33
+    "stock": 1057,
+    "sales": 43
   },
   {
     "outlet": "Warehouse",
@@ -9956,8 +9966,8 @@ const data = [
     "alias": "900764",
     "name": "LION PEACH KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1673,
-    "sales": 12
+    "stock": 1661,
+    "sales": 21
   },
   {
     "outlet": "Warehouse",
@@ -9966,8 +9976,8 @@ const data = [
     "alias": "900765",
     "name": "PRINCESS PINK KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 936,
-    "sales": 52
+    "stock": 900,
+    "sales": 59
   },
   {
     "outlet": "Warehouse",
@@ -9976,8 +9986,8 @@ const data = [
     "alias": "900766",
     "name": "UNICORN LILAC KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1462,
-    "sales": 24
+    "stock": 1450,
+    "sales": 23
   },
   {
     "outlet": "Warehouse",
@@ -9987,7 +9997,7 @@ const data = [
     "name": "BUNNY LILAC KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
     "stock": 42,
-    "sales": 71
+    "sales": 93
   },
   {
     "outlet": "Warehouse",
@@ -9996,8 +10006,8 @@ const data = [
     "alias": "900768",
     "name": "SHARK SEA BLUE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 493,
-    "sales": 57
+    "stock": 445,
+    "sales": 65
   },
   {
     "outlet": "Warehouse",
@@ -10006,8 +10016,8 @@ const data = [
     "alias": "900769",
     "name": "RINO ORANGE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1142,
-    "sales": 29
+    "stock": 1130,
+    "sales": 37
   },
   {
     "outlet": "Warehouse",
@@ -10016,8 +10026,8 @@ const data = [
     "alias": "900770",
     "name": "DINO GREEN KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 915,
-    "sales": 46
+    "stock": 891,
+    "sales": 64
   },
   {
     "outlet": "Warehouse",
@@ -10026,8 +10036,8 @@ const data = [
     "alias": "900771",
     "name": "ELEPHANT BLUE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 961,
-    "sales": 45
+    "stock": 949,
+    "sales": 60
   },
   {
     "outlet": "Warehouse",
@@ -10037,7 +10047,7 @@ const data = [
     "name": "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
     "stock": 1651,
-    "sales": 10
+    "sales": 15
   },
   {
     "outlet": "Warehouse",
@@ -10046,8 +10056,8 @@ const data = [
     "alias": "900773",
     "name": "UNICORN WHITE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1061,
-    "sales": 39
+    "stock": 1037,
+    "sales": 54
   },
   {
     "outlet": "Warehouse",
@@ -10056,8 +10066,8 @@ const data = [
     "alias": "90301",
     "name": "(SPECIAL OFFER) DINO KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 818,
-    "sales": 19
+    "stock": 817,
+    "sales": 30
   },
   {
     "outlet": "Warehouse",
@@ -10066,8 +10076,8 @@ const data = [
     "alias": "90302",
     "name": "(SPECIAL OFFER) KOALA KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 613,
-    "sales": 26
+    "stock": 612,
+    "sales": 28
   },
   {
     "outlet": "Warehouse",
@@ -10076,8 +10086,8 @@ const data = [
     "alias": "90303",
     "name": "(SPECIAL OFFER) LION KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 460,
-    "sales": 22
+    "stock": 445,
+    "sales": 32
   },
   {
     "outlet": "Warehouse",
@@ -10087,7 +10097,7 @@ const data = [
     "name": "(SPECIAL OFFER) ALLIGATOR KIDS PONCHO BATH ROBE",
     "price": 49.0,
     "stock": 763,
-    "sales": 23
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -10096,8 +10106,8 @@ const data = [
     "alias": "90305",
     "name": "(SPECIAL OFFER) PINK DINO KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 367,
-    "sales": 30
+    "stock": 352,
+    "sales": 34
   },
   {
     "outlet": "Warehouse",
@@ -10106,8 +10116,8 @@ const data = [
     "alias": "90306",
     "name": "(SPECIAL OFFER) SHARK KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 375,
-    "sales": 24
+    "stock": 362,
+    "sales": 23
   },
   {
     "outlet": "Warehouse",
@@ -10116,7 +10126,7 @@ const data = [
     "alias": "90307",
     "name": "(SPECIAL OFFER) UNICORN KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 326,
+    "stock": 323,
     "sales": 37
   },
   {
@@ -10127,7 +10137,7 @@ const data = [
     "name": "(SPECIAL OFFER) DOG KIDS PONCHO BATH ROBE",
     "price": 49.0,
     "stock": 824,
-    "sales": 15
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -10136,8 +10146,8 @@ const data = [
     "alias": "90309",
     "name": "(SPECIAL OFFER) CHEETAH KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 689,
-    "sales": 19
+    "stock": 688,
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -10147,7 +10157,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH 86X172 CM PINK CARN",
     "price": 69.0,
     "stock": 23,
-    "sales": 1
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -10156,8 +10166,8 @@ const data = [
     "alias": "710631",
     "name": "BATH SHEET AIR-RICH 86X172 CM LAVENDER BLUE",
     "price": 69.0,
-    "stock": 585,
-    "sales": 35
+    "stock": 561,
+    "sales": 38
   },
   {
     "outlet": "Warehouse",
@@ -10166,8 +10176,8 @@ const data = [
     "alias": "714431",
     "name": "BATH TOWEL AIR-RICH 70X140 CM LAVENDER BLUE",
     "price": 49.0,
-    "stock": 612,
-    "sales": 73
+    "stock": 576,
+    "sales": 77
   },
   {
     "outlet": "Warehouse",
@@ -10186,7 +10196,7 @@ const data = [
     "alias": "710731",
     "name": "EUR TOWEL AIR-RICH 50X100 CM LAVENDER BLUE",
     "price": 25.0,
-    "stock": 876,
+    "stock": 840,
     "sales": 54
   },
   {
@@ -10197,7 +10207,7 @@ const data = [
     "name": "*MULTI TARINA KING COMFORTER 5 PCS",
     "price": 495.0,
     "stock": 50,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -10206,8 +10216,8 @@ const data = [
     "alias": "440622",
     "name": "*(SPECIAL OFFER) MULTI TARINA KING COMFORTER 5 PCS KIT",
     "price": 795.0,
-    "stock": 81,
-    "sales": 24
+    "stock": 21,
+    "sales": 17
   },
   {
     "outlet": "Warehouse",
@@ -10216,8 +10226,8 @@ const data = [
     "alias": "440621",
     "name": "*(SPECIAL OFFER) LAVENDAR EVELYN KING COMFORTER 6 PCS KIT",
     "price": 579.0,
-    "stock": 111,
-    "sales": 17
+    "stock": 1,
+    "sales": 15
   },
   {
     "outlet": "Warehouse",
@@ -10226,8 +10236,8 @@ const data = [
     "alias": "9315",
     "name": "THERMO PERFORMACE DUVET KING",
     "price": 799.0,
-    "stock": 120,
-    "sales": 8
+    "stock": 111,
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -10236,8 +10246,8 @@ const data = [
     "alias": "959413",
     "name": "THERMO PERFORMANCE (COOL-0) KING PILLOW",
     "price": 249.0,
-    "stock": 1261,
-    "sales": 134
+    "stock": 1196,
+    "sales": 159
   },
   {
     "outlet": "Warehouse",
@@ -10247,7 +10257,7 @@ const data = [
     "name": "SIDE SLEEPER PILLOW TPE COVER",
     "price": 199.0,
     "stock": 1,
-    "sales": 193
+    "sales": 206
   },
   {
     "outlet": "Warehouse",
@@ -10256,8 +10266,8 @@ const data = [
     "alias": "4052124",
     "name": "COSTCO EMILIA BLUE KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 323,
-    "sales": 15
+    "stock": 321,
+    "sales": 16
   },
   {
     "outlet": "Warehouse",
@@ -10266,8 +10276,8 @@ const data = [
     "alias": "4052125",
     "name": "COSTCO RACQUEL NEUTRAL KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 154,
-    "sales": 17
+    "stock": 152,
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -10287,7 +10297,7 @@ const data = [
     "name": "BIG ONE BALLOON FULL QUILT 2 PCS",
     "price": 129.0,
     "stock": 2,
-    "sales": 4
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -10296,8 +10306,8 @@ const data = [
     "alias": "542518",
     "name": "BIG ONE CATALINA FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 42,
-    "sales": 69
+    "stock": 14,
+    "sales": 96
   },
   {
     "outlet": "Warehouse",
@@ -10307,7 +10317,7 @@ const data = [
     "name": "BIG ONE FLORAL VINE FULL QUILT 2 PCS",
     "price": 99.0,
     "stock": 5,
-    "sales": 40
+    "sales": 46
   },
   {
     "outlet": "Warehouse",
@@ -10316,8 +10326,8 @@ const data = [
     "alias": "542520",
     "name": "BIG ONE IVORY BLUSH FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 53,
-    "sales": 68
+    "stock": 17,
+    "sales": 108
   },
   {
     "outlet": "Warehouse",
@@ -10325,9 +10335,9 @@ const data = [
     "code": "23394",
     "alias": "542522",
     "name": "BIG ONE SUMMER FLOWER FULL QUILT 2 PCS",
-    "price": 100.36363636363636,
-    "stock": 418,
-    "sales": 43
+    "price": 100.4074074074074,
+    "stock": 405,
+    "sales": 59
   },
   {
     "outlet": "Warehouse",
@@ -10336,8 +10346,8 @@ const data = [
     "alias": "542523",
     "name": "BIG ONE BLOSSOMS TANGERINE FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 180,
-    "sales": 58
+    "stock": 147,
+    "sales": 65
   },
   {
     "outlet": "Warehouse",
@@ -10346,8 +10356,8 @@ const data = [
     "alias": "542524",
     "name": "BIG ONE FLOWER GARDEN FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 55,
-    "sales": 18
+    "stock": 11,
+    "sales": 31
   },
   {
     "outlet": "Warehouse",
@@ -10356,8 +10366,8 @@ const data = [
     "alias": "542525",
     "name": "BIG ONE IVY GREEN FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 294,
-    "sales": 81
+    "stock": 266,
+    "sales": 103
   },
   {
     "outlet": "Warehouse",
@@ -10365,9 +10375,9 @@ const data = [
     "code": "23398",
     "alias": "542526",
     "name": "BIG ONE JAIDEN FOREST FULL QUILT 2 PCS",
-    "price": 99.3061224489796,
-    "stock": 98,
-    "sales": 57
+    "price": 99.0,
+    "stock": 60,
+    "sales": 69
   },
   {
     "outlet": "Warehouse",
@@ -10376,8 +10386,8 @@ const data = [
     "alias": "542527",
     "name": "BIG ONE KATHERINE FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 100,
-    "sales": 7
+    "stock": 80,
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -10386,8 +10396,8 @@ const data = [
     "alias": "542528",
     "name": "BIG ONE MALUS BLUE FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 279,
-    "sales": 64
+    "stock": 259,
+    "sales": 99
   },
   {
     "outlet": "Warehouse",
@@ -10397,7 +10407,7 @@ const data = [
     "name": "BIG ONE BOTANICAL SALLOP KING QUILT 3 PCS",
     "price": 149.0,
     "stock": 4,
-    "sales": 11
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -10406,8 +10416,8 @@ const data = [
     "alias": "538797",
     "name": "BIG ONE CATALINA KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 71,
-    "sales": 39
+    "stock": 53,
+    "sales": 59
   },
   {
     "outlet": "Warehouse",
@@ -10417,7 +10427,7 @@ const data = [
     "name": "BIG ONE FLORAL VINE KING QUILT 3 PCS",
     "price": 149.0,
     "stock": 2,
-    "sales": 18
+    "sales": 27
   },
   {
     "outlet": "Warehouse",
@@ -10427,7 +10437,7 @@ const data = [
     "name": "BIG ONE IVORY BLUSH KING QUILT 3 PCS",
     "price": 149.0,
     "stock": 1,
-    "sales": 19
+    "sales": 23
   },
   {
     "outlet": "Warehouse",
@@ -10437,7 +10447,7 @@ const data = [
     "name": "BIG ONE VINTAGE STRIPE KING QUILT 3 PCS",
     "price": 149.0,
     "stock": 10,
-    "sales": 20
+    "sales": 31
   },
   {
     "outlet": "Warehouse",
@@ -10446,8 +10456,8 @@ const data = [
     "alias": "538801",
     "name": "BIG ONE SUMMER FLOWER KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 211,
-    "sales": 20
+    "stock": 199,
+    "sales": 40
   },
   {
     "outlet": "Warehouse",
@@ -10457,7 +10467,7 @@ const data = [
     "name": "BIG ONE BLOSSOMS TANGERINE KING QUILT 3 PCS",
     "price": 149.0,
     "stock": 3,
-    "sales": 24
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -10466,8 +10476,8 @@ const data = [
     "alias": "538803",
     "name": "BIG ONE FLOWER GARDEN KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 31,
-    "sales": 27
+    "stock": 3,
+    "sales": 21
   },
   {
     "outlet": "Warehouse",
@@ -10477,7 +10487,7 @@ const data = [
     "name": "BIG ONE IVY GREEN KING QUILT 3 PCS",
     "price": 149.0,
     "stock": 2,
-    "sales": 26
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -10486,8 +10496,8 @@ const data = [
     "alias": "538805",
     "name": "BIG ONE JAIDEN FOREST KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 217,
-    "sales": 22
+    "stock": 213,
+    "sales": 32
   },
   {
     "outlet": "Warehouse",
@@ -10497,7 +10507,7 @@ const data = [
     "name": "BIG ONE KATHERINE KING QUILT 3 PCS",
     "price": 149.0,
     "stock": 6,
-    "sales": 31
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -10506,8 +10516,8 @@ const data = [
     "alias": "538807",
     "name": "BIG ONE MALUS BLUE KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 84,
-    "sales": 15
+    "stock": 74,
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -10516,8 +10526,8 @@ const data = [
     "alias": "970149",
     "name": "E438 SMOOSHIE TOY- BEE PURPLE",
     "price": 69.0,
-    "stock": 763,
-    "sales": 29
+    "stock": 739,
+    "sales": 41
   },
   {
     "outlet": "Warehouse",
@@ -10527,7 +10537,7 @@ const data = [
     "name": "NAVY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     "price": 295.0,
     "stock": 4,
-    "sales": 6
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -10537,7 +10547,7 @@ const data = [
     "name": "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495.0,
     "stock": 1,
-    "sales": 6
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -10547,7 +10557,7 @@ const data = [
     "name": "CABARNET TAORMINA KING COMFORTER 9 PCS",
     "price": 299.0,
     "stock": 40,
-    "sales": 7
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -10566,8 +10576,8 @@ const data = [
     "alias": "4406013",
     "name": "*COZY STRIPE GREY PRINTED KING COMFORTER 6 PCS KIT",
     "price": 399.0,
-    "stock": 76,
-    "sales": 8
+    "stock": 1,
+    "sales": 11
   },
   {
     "outlet": "Warehouse",
@@ -10587,7 +10597,7 @@ const data = [
     "name": "BATH ROBE PINK C XS/S",
     "price": 99.0,
     "stock": 84,
-    "sales": 13
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -10597,7 +10607,7 @@ const data = [
     "name": "BATH ROBE LAVENDER BLUE XS/S",
     "price": 99.0,
     "stock": 144,
-    "sales": 7
+    "sales": 13
   },
   {
     "outlet": "Warehouse",
@@ -10607,7 +10617,7 @@ const data = [
     "name": "BATH ROBE PINK C L/XL",
     "price": 99.0,
     "stock": 6,
-    "sales": 3
+    "sales": 4
   },
   {
     "outlet": "Warehouse",
@@ -10617,7 +10627,7 @@ const data = [
     "name": "BATH ROBE LAVENDER BLUE L/XL",
     "price": 99.0,
     "stock": 6,
-    "sales": 5
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -10626,8 +10636,8 @@ const data = [
     "alias": "4052127",
     "name": "COSTCO ANNALISE TAN KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 516,
-    "sales": 13
+    "stock": 512,
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -10636,8 +10646,8 @@ const data = [
     "alias": "4052128",
     "name": "COSTCO LEAFAGE TURQUOISE KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 552,
-    "sales": 13
+    "stock": 550,
+    "sales": 10
   },
   {
     "outlet": "Warehouse",
@@ -10646,8 +10656,8 @@ const data = [
     "alias": "4052129",
     "name": "COSTCO FLORE NAVY BLUE KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 569,
-    "sales": 9
+    "stock": 567,
+    "sales": 13
   },
   {
     "outlet": "Warehouse",
@@ -10656,8 +10666,8 @@ const data = [
     "alias": "4052130",
     "name": "COSTCO AMARA NEUTRAL KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 45,
-    "sales": 29
+    "stock": 37,
+    "sales": 27
   },
   {
     "outlet": "Warehouse",
@@ -10676,8 +10686,8 @@ const data = [
     "alias": "100607",
     "name": "ALPACA PLANET NAVY YELLOW TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 394,
-    "sales": 54
+    "stock": 386,
+    "sales": 68
   },
   {
     "outlet": "Warehouse",
@@ -10686,8 +10696,8 @@ const data = [
     "alias": "100608",
     "name": "DAISY SPRING TANGERING TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 723,
-    "sales": 45
+    "stock": 717,
+    "sales": 36
   },
   {
     "outlet": "Warehouse",
@@ -10696,8 +10706,8 @@ const data = [
     "alias": "100609",
     "name": "DINO RED BLUE TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 754,
-    "sales": 56
+    "stock": 730,
+    "sales": 65
   },
   {
     "outlet": "Warehouse",
@@ -10706,8 +10716,8 @@ const data = [
     "alias": "100611",
     "name": "LILI FLORAL PURPLE BLUE TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 199,
-    "sales": 63
+    "stock": 174,
+    "sales": 88
   },
   {
     "outlet": "Warehouse",
@@ -10716,8 +10726,8 @@ const data = [
     "alias": "100610",
     "name": "PONY SHINE LILAC TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 410,
-    "sales": 65
+    "stock": 386,
+    "sales": 98
   },
   {
     "outlet": "Warehouse",
@@ -10726,8 +10736,8 @@ const data = [
     "alias": "200606",
     "name": "BUTTERFLY YELLOW BLUE FULL COMFORTER 7 PCS WM YZ BIAB",
     "price": 169.0,
-    "stock": 23,
-    "sales": 44
+    "stock": 11,
+    "sales": 42
   },
   {
     "outlet": "Warehouse",
@@ -10737,7 +10747,7 @@ const data = [
     "name": "LILY AQUA PINK FULL COMFORTER 7 PCS WM YZ BIAB",
     "price": 169.0,
     "stock": 5,
-    "sales": 32
+    "sales": 36
   },
   {
     "outlet": "Warehouse",
@@ -10746,8 +10756,8 @@ const data = [
     "alias": "200608",
     "name": "SAIL ORANGE MINT FULL COMFORTER 7 PCS WM YZ BIAB",
     "price": 169.0,
-    "stock": 63,
-    "sales": 32
+    "stock": 54,
+    "sales": 35
   },
   {
     "outlet": "Warehouse",
@@ -10757,7 +10767,7 @@ const data = [
     "name": "SPORTS GREY GREEN FULL COMFORTER 7 PCS WM YZ BIAB",
     "price": 169.0,
     "stock": 2,
-    "sales": 24
+    "sales": 41
   },
   {
     "outlet": "Warehouse",
@@ -10766,8 +10776,8 @@ const data = [
     "alias": "970134",
     "name": "B423 SMOOSHIE TOY- RABBIT IVORY",
     "price": 69.0,
-    "stock": 922,
-    "sales": 10
+    "stock": 918,
+    "sales": 13
   },
   {
     "outlet": "Warehouse",
@@ -10776,8 +10786,8 @@ const data = [
     "alias": "970135",
     "name": "B424 SMOOSHIE TOY- RABBIT SKY BLUE",
     "price": 69.0,
-    "stock": 924,
-    "sales": 15
+    "stock": 914,
+    "sales": 10
   },
   {
     "outlet": "Warehouse",
@@ -10786,8 +10796,8 @@ const data = [
     "alias": "970141",
     "name": "I430 SMOOSHIE TOY- UNICORN COLORFUL",
     "price": 69.0,
-    "stock": 735,
-    "sales": 33
+    "stock": 716,
+    "sales": 27
   },
   {
     "outlet": "Warehouse",
@@ -10796,8 +10806,8 @@ const data = [
     "alias": "970146",
     "name": "U435 SMOOSHIE TOY- CUUTOPIA ORANGE GREEN",
     "price": 69.0,
-    "stock": 678,
-    "sales": 59
+    "stock": 665,
+    "sales": 62
   },
   {
     "outlet": "Warehouse",
@@ -10806,7 +10816,7 @@ const data = [
     "alias": "970148",
     "name": "K437 SMOOSHIE TOY- YAK LT.TURQ",
     "price": 69.0,
-    "stock": 1026,
+    "stock": 1022,
     "sales": 12
   },
   {
@@ -10816,8 +10826,8 @@ const data = [
     "alias": "970150",
     "name": "N439 SMOOSHIE TOY- PENGUIN LAVANDER MULTI",
     "price": 69.0,
-    "stock": 887,
-    "sales": 11
+    "stock": 881,
+    "sales": 18
   },
   {
     "outlet": "Warehouse",
@@ -10826,7 +10836,7 @@ const data = [
     "alias": "970151",
     "name": "A450 SMOOSHIE TOY- STRAWBERRY TEA PEACH PING",
     "price": 69.0,
-    "stock": 861,
+    "stock": 852,
     "sales": 19
   },
   {
@@ -10836,8 +10846,8 @@ const data = [
     "alias": "970152",
     "name": "A451 SMOOSHIE TOY- CREAM TEA LT.PINK",
     "price": 69.0,
-    "stock": 966,
-    "sales": 15
+    "stock": 947,
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -10847,7 +10857,7 @@ const data = [
     "name": "E452 SMOOSHIE TOY- SHEEP COLORFUL",
     "price": 69.0,
     "stock": 1016,
-    "sales": 7
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -10857,7 +10867,7 @@ const data = [
     "name": "BRUSHED HERRI PENCILE NAVY FULL COMFORTER 8 PCS",
     "price": 299.0,
     "stock": 2,
-    "sales": 5
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -10897,17 +10907,7 @@ const data = [
     "name": "BRUSHED HERRINGBONE NAVY FULL COMFORTER 8 PCS",
     "price": 299.0,
     "stock": 2,
-    "sales": 0
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "لحافات فل",
-    "code": "23509",
-    "alias": "200107",
-    "name": "BOW HOTEL LAVENDER FULL COMFORTER 8 PCS",
-    "price": 349.0,
-    "stock": 48,
-    "sales": 23
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -10917,7 +10917,7 @@ const data = [
     "name": "SAHIL BLOCK PRINTC SPA FULL COMFORTER 8 PCS",
     "price": 349.0,
     "stock": 4,
-    "sales": 3
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -10926,8 +10926,8 @@ const data = [
     "alias": "200110",
     "name": "JULIETTE SPARKLE WHITE FULL COMFORTER 8 PCS",
     "price": 349.0,
-    "stock": 82,
-    "sales": 31
+    "stock": 46,
+    "sales": 48
   },
   {
     "outlet": "Warehouse",
@@ -10937,7 +10937,7 @@ const data = [
     "name": "ADRIANNA IVORY FULL COMFORTER 8 PCS",
     "price": 349.0,
     "stock": 3,
-    "sales": 10
+    "sales": 11
   },
   {
     "outlet": "Warehouse",
@@ -10946,8 +10946,8 @@ const data = [
     "alias": "4401241",
     "name": "*ZAHA ECRU KING COMFORTER 8 PCS KIT",
     "price": 595.0,
-    "stock": 22,
-    "sales": 87
+    "stock": 1,
+    "sales": 92
   },
   {
     "outlet": "Warehouse",
@@ -10992,16 +10992,6 @@ const data = [
   {
     "outlet": "Warehouse",
     "category": "أرواب أطفال",
-    "code": "23525",
-    "alias": "900769-10",
-    "name": "RINO ORANGE KIDS HOODED TOWEL BATH ROBE -10",
-    "price": 69.0,
-    "stock": 1,
-    "sales": 0
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "أرواب أطفال",
     "code": "23526",
     "alias": "900769-6",
     "name": "RINO ORANGE KIDS HOODED TOWEL BATH ROBE -6",
@@ -11016,8 +11006,8 @@ const data = [
     "alias": "900770-14",
     "name": "DINO GREEN KIDS HOODED TOWEL BATH ROBE -14",
     "price": 69.0,
-    "stock": 18,
-    "sales": 1
+    "stock": 16,
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -11026,8 +11016,8 @@ const data = [
     "alias": "900770-10",
     "name": "DINO GREEN KIDS HOODED TOWEL BATH ROBE -10",
     "price": 69.0,
-    "stock": 8,
-    "sales": 0
+    "stock": 6,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -11066,7 +11056,7 @@ const data = [
     "alias": "900772-6",
     "name": "WHALE BLUE KIDS HOODED TOWEL BATH ROBE -6",
     "price": 69.0,
-    "stock": 36,
+    "stock": 35,
     "sales": -1
   },
   {
@@ -11097,7 +11087,7 @@ const data = [
     "name": "UNICORN WHITE KIDS HOODED TOWEL BATH ROBE -6",
     "price": 69.0,
     "stock": 24,
-    "sales": 2
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -11106,8 +11096,8 @@ const data = [
     "alias": "900764-14",
     "name": "LION PEACH KIDS HOODED TOWEL BATH ROBE-14",
     "price": 69.0,
-    "stock": 23,
-    "sales": 1
+    "stock": 22,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -11126,8 +11116,8 @@ const data = [
     "alias": "900764-6",
     "name": "LION PEACH KIDS HOODED TOWEL BATH ROBE-6",
     "price": 69.0,
-    "stock": 31,
-    "sales": -1
+    "stock": 30,
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -11136,8 +11126,8 @@ const data = [
     "alias": "900774",
     "name": "ELEOHANT L.BLUE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1784,
-    "sales": 26
+    "stock": 1772,
+    "sales": 40
   },
   {
     "outlet": "Warehouse",
@@ -11147,7 +11137,7 @@ const data = [
     "name": "PINEAPPLE YELLOW KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
     "stock": 1844,
-    "sales": 11
+    "sales": 20
   },
   {
     "outlet": "Warehouse",
@@ -11156,8 +11146,8 @@ const data = [
     "alias": "900776",
     "name": "FLOWER LEMON KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1916,
-    "sales": 22
+    "stock": 1904,
+    "sales": 23
   },
   {
     "outlet": "Warehouse",
@@ -11166,8 +11156,8 @@ const data = [
     "alias": "900777",
     "name": "BUNNY L.PINK KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1640,
-    "sales": 49
+    "stock": 1616,
+    "sales": 48
   },
   {
     "outlet": "Warehouse",
@@ -11186,8 +11176,8 @@ const data = [
     "alias": "900779",
     "name": "OWL2 BEIGE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1458,
-    "sales": 37
+    "stock": 1434,
+    "sales": 51
   },
   {
     "outlet": "Warehouse",
@@ -11197,7 +11187,7 @@ const data = [
     "name": "DINO2 L.GREEN KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
     "stock": 1892,
-    "sales": 16
+    "sales": 19
   },
   {
     "outlet": "Warehouse",
@@ -11207,7 +11197,7 @@ const data = [
     "name": "OWL1 D.GREEN KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
     "stock": 1784,
-    "sales": 32
+    "sales": 43
   },
   {
     "outlet": "Warehouse",
@@ -11216,8 +11206,8 @@ const data = [
     "alias": "900782",
     "name": "DINO1 GREEN KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1760,
-    "sales": 33
+    "stock": 1748,
+    "sales": 49
   },
   {
     "outlet": "Warehouse",
@@ -11227,7 +11217,7 @@ const data = [
     "name": "MONSTER D.BLUE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
     "stock": 1508,
-    "sales": 50
+    "sales": 62
   },
   {
     "outlet": "Warehouse",
@@ -11236,8 +11226,8 @@ const data = [
     "alias": "900784",
     "name": "SHARK GREY KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1388,
-    "sales": 72
+    "stock": 1352,
+    "sales": 75
   },
   {
     "outlet": "Warehouse",
@@ -11246,8 +11236,8 @@ const data = [
     "alias": "900785",
     "name": "BUTTERFLY L.BLUE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1748,
-    "sales": 27
+    "stock": 1736,
+    "sales": 41
   },
   {
     "outlet": "Warehouse",
@@ -11256,18 +11246,8 @@ const data = [
     "alias": "7154",
     "name": "TERRY HAND TOWEL 5 PCS",
     "price": 94.0,
-    "stock": 1548,
-    "sales": 63
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "لحافات كينغ",
-    "code": "23555",
-    "alias": "488802",
-    "name": "ANDARA GREY KING COMFORTER 10 PCS",
-    "price": 299.0,
-    "stock": 32,
-    "sales": 70
+    "stock": 1520,
+    "sales": 86
   },
   {
     "outlet": "Warehouse",
@@ -11276,8 +11256,8 @@ const data = [
     "alias": "488801",
     "name": "INO ADEL BLUE KING COMFORTER 10 PCS",
     "price": 299.0,
-    "stock": 397,
-    "sales": 31
+    "stock": 384,
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -11287,7 +11267,7 @@ const data = [
     "name": "JAQUARD BEACH TOWEL 86*160 CM",
     "price": 29.0,
     "stock": 36,
-    "sales": 254
+    "sales": 266
   },
   {
     "outlet": "Warehouse",
@@ -11296,8 +11276,8 @@ const data = [
     "alias": "714902",
     "name": "JAQUARD BEACH TOWEL 100*180 CM",
     "price": 39.0,
-    "stock": 1991,
-    "sales": 242
+    "stock": 1967,
+    "sales": 283
   },
   {
     "outlet": "Warehouse",
@@ -11306,8 +11286,8 @@ const data = [
     "alias": "488803",
     "name": "AMBER GREY KING COMFORTER 10 PCS",
     "price": 299.0,
-    "stock": 17,
-    "sales": 72
+    "stock": 11,
+    "sales": 67
   },
   {
     "outlet": "Warehouse",
@@ -11317,7 +11297,7 @@ const data = [
     "name": "FLORISTA IVORY KING COMFORTER 10 PCS",
     "price": 299.0,
     "stock": 3,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -11326,8 +11306,8 @@ const data = [
     "alias": "488806",
     "name": "WISLEY TAUPE KING COMFORTER 10 PCS",
     "price": 299.0,
-    "stock": 118,
-    "sales": 78
+    "stock": 78,
+    "sales": 77
   },
   {
     "outlet": "Warehouse",
@@ -11336,8 +11316,8 @@ const data = [
     "alias": "488807",
     "name": "KOTA GREY KING COMFORTER 10 PCS",
     "price": 299.0,
-    "stock": 83,
-    "sales": 9
+    "stock": 39,
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -11356,7 +11336,7 @@ const data = [
     "alias": "900774-6",
     "name": "ELEOHANT L.BLUE KIDS HOODED TOWEL BATH ROBE WEBSITE 6",
     "price": 69.0,
-    "stock": 33,
+    "stock": 32,
     "sales": 0
   },
   {
@@ -11426,8 +11406,8 @@ const data = [
     "alias": "900776-10",
     "name": "FLOWER LEMON KIDS HOODED TOWEL BATH ROBE WEBSITE 10",
     "price": 69.0,
-    "stock": 22,
-    "sales": 3
+    "stock": 20,
+    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -11436,8 +11416,8 @@ const data = [
     "alias": "900776-14",
     "name": "FLOWER LEMON KIDS HOODED TOWEL BATH ROBE WEBSITE 14",
     "price": 69.0,
-    "stock": 21,
-    "sales": 0
+    "stock": 20,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -11446,7 +11426,7 @@ const data = [
     "alias": "900777-6",
     "name": "BUNNY L.PINK KIDS HOODED TOWEL BATH ROBE WEBSITE 6",
     "price": 69.0,
-    "stock": 21,
+    "stock": 20,
     "sales": 0
   },
   {
@@ -11456,8 +11436,8 @@ const data = [
     "alias": "900777-10",
     "name": "BUNNY L.PINK KIDS HOODED TOWEL BATH ROBE WEBSITE 10",
     "price": 69.0,
-    "stock": 21,
-    "sales": 2
+    "stock": 19,
+    "sales": 3
   },
   {
     "outlet": "Warehouse",
@@ -11466,7 +11446,7 @@ const data = [
     "alias": "900777-14",
     "name": "BUNNY L.PINK KIDS HOODED TOWEL BATH ROBE WEBSITE 14",
     "price": 69.0,
-    "stock": 7,
+    "stock": 6,
     "sales": 1
   },
   {
@@ -11488,16 +11468,6 @@ const data = [
     "price": 69.0,
     "stock": 8,
     "sales": 2
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "أرواب أطفال",
-    "code": "23579",
-    "alias": "900778-14",
-    "name": "CUTE OWL D.PINK KIDS HOODED TOWEL BATH ROBE WEBSITE 14",
-    "price": 69.0,
-    "stock": 3,
-    "sales": 5
   },
   {
     "outlet": "Warehouse",
@@ -11567,7 +11537,7 @@ const data = [
     "name": "OWL1 D.GREEN KIDS HOODED TOWEL BATH ROBE WEBSITE 6",
     "price": 69.0,
     "stock": 25,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -11576,8 +11546,8 @@ const data = [
     "alias": "900781-10",
     "name": "OWL1 D.GREEN KIDS HOODED TOWEL BATH ROBE WEBSITE 10",
     "price": 69.0,
-    "stock": 20,
-    "sales": 0
+    "stock": 18,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -11596,8 +11566,8 @@ const data = [
     "alias": "900782-6",
     "name": "DINO1 GREEN KIDS HOODED TOWEL BATH ROBE WEBSITE 6",
     "price": 69.0,
-    "stock": 34,
-    "sales": 0
+    "stock": 33,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -11626,8 +11596,8 @@ const data = [
     "alias": "900783-6",
     "name": "MONSTER D.BLUE KIDS HOODED TOWEL BATH ROBE WEBSITE 6",
     "price": 69.0,
-    "stock": 28,
-    "sales": 1
+    "stock": 27,
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -11636,8 +11606,8 @@ const data = [
     "alias": "900783-10",
     "name": "MONSTER D.BLUE KIDS HOODED TOWEL BATH ROBE WEBSITE 10",
     "price": 69.0,
-    "stock": 17,
-    "sales": 0
+    "stock": 16,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -11656,8 +11626,8 @@ const data = [
     "alias": "900784-6",
     "name": "SHARK GREY KIDS HOODED TOWEL BATH ROBE WEBSITE 6",
     "price": 69.0,
-    "stock": 13,
-    "sales": 1
+    "stock": 12,
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -11667,7 +11637,7 @@ const data = [
     "name": "SHARK GREY KIDS HOODED TOWEL BATH ROBE WEBSITE 10",
     "price": 69.0,
     "stock": 4,
-    "sales": 4
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -11677,7 +11647,7 @@ const data = [
     "name": "SHARK GREY KIDS HOODED TOWEL BATH ROBE WEBSITE 14",
     "price": 69.0,
     "stock": 6,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -11686,7 +11656,7 @@ const data = [
     "alias": "900785-6",
     "name": "BUTTERFLY L.BLUE KIDS HOODED TOWEL BATH ROBE WEBSITE 6",
     "price": 69.0,
-    "stock": 25,
+    "stock": 24,
     "sales": 0
   },
   {
@@ -11706,8 +11676,8 @@ const data = [
     "alias": "900785-14",
     "name": "BUTTERFLY L.BLUE KIDS HOODED TOWEL BATH ROBE WEBSITE 14",
     "price": 69.0,
-    "stock": 21,
-    "sales": 0
+    "stock": 20,
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -11727,7 +11697,7 @@ const data = [
     "name": "JAQUARD BEACH TOWEL 100*180 CM WEBSITE 2",
     "price": 39.0,
     "stock": 2,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -11747,7 +11717,7 @@ const data = [
     "name": "JAQUARD BEACH TOWEL 100*180 CM WEBSITE 4",
     "price": 39.0,
     "stock": 3,
-    "sales": -1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -11757,7 +11727,7 @@ const data = [
     "name": "VERNAZZA YELLOW KING COMFORTER 8 PCS",
     "price": 299.0,
     "stock": 1,
-    "sales": 67
+    "sales": 54
   },
   {
     "outlet": "Warehouse",
@@ -11766,8 +11736,8 @@ const data = [
     "alias": "40630",
     "name": "ALMKAAR BEIGE BLUE KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 67,
-    "sales": 10
+    "stock": 48,
+    "sales": 19
   },
   {
     "outlet": "Warehouse",
@@ -11777,7 +11747,7 @@ const data = [
     "name": "KAROU BLUE KING COMFORTER 8 PCS",
     "price": 299.0,
     "stock": 2,
-    "sales": 34
+    "sales": 40
   },
   {
     "outlet": "Warehouse",
@@ -11786,8 +11756,8 @@ const data = [
     "alias": "40631",
     "name": "DOMBRG BLUE KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 15,
-    "sales": 20
+    "stock": 13,
+    "sales": 19
   },
   {
     "outlet": "Warehouse",
@@ -11796,8 +11766,8 @@ const data = [
     "alias": "960400",
     "name": "CUSHION SEAT PILLOW BLACK CM 35.5X48X48.5",
     "price": 49.0,
-    "stock": 4306,
-    "sales": 33
+    "stock": 4290,
+    "sales": 38
   },
   {
     "outlet": "Warehouse",
@@ -11806,8 +11776,8 @@ const data = [
     "alias": "960402",
     "name": "CUSHION SEAT PILLOW NAVY CM 41.5X50X50",
     "price": 49.0,
-    "stock": 2422,
-    "sales": 56
+    "stock": 2374,
+    "sales": 59
   },
   {
     "outlet": "Warehouse",
@@ -11817,7 +11787,7 @@ const data = [
     "name": "BLACK NECK PILLOW CM 33X49X49",
     "price": 29.0,
     "stock": 3954,
-    "sales": 70
+    "sales": 63
   },
   {
     "outlet": "Warehouse",
@@ -11827,7 +11797,7 @@ const data = [
     "name": "NAVY NECK PILLOW CM 33X49X49",
     "price": 29.0,
     "stock": 7196,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -11837,7 +11807,7 @@ const data = [
     "name": "GREY LIGHT NECK PILLOW CM 33X49X49",
     "price": 29.0,
     "stock": 7063,
-    "sales": 4
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -11847,7 +11817,7 @@ const data = [
     "name": "STANDARD FOAM MEMORY COOLLING PILLOW CM 44.5X40X40",
     "price": 94.0,
     "stock": 2,
-    "sales": 418
+    "sales": 449
   },
   {
     "outlet": "Warehouse",
@@ -11856,8 +11826,8 @@ const data = [
     "alias": "960401",
     "name": "CUSHION SEAT PILLOW GREY CM 41.5X50X50",
     "price": 49.0,
-    "stock": 1408,
-    "sales": 100
+    "stock": 1392,
+    "sales": 97
   },
   {
     "outlet": "Warehouse",
@@ -11866,8 +11836,8 @@ const data = [
     "alias": "2728",
     "name": "COMFORTER FULL BLUE ICE PROSELINE 12PCS",
     "price": 299.0,
-    "stock": 30,
-    "sales": 63
+    "stock": 6,
+    "sales": 101
   },
   {
     "outlet": "Warehouse",
@@ -11876,8 +11846,8 @@ const data = [
     "alias": "48803",
     "name": "COMFORTER KING BLUE ICE ROSELINE 12PCS",
     "price": 399.0,
-    "stock": 1579,
-    "sales": 283
+    "stock": 1504,
+    "sales": 296
   },
   {
     "outlet": "Warehouse",
@@ -11886,8 +11856,8 @@ const data = [
     "alias": "2726",
     "name": "LEILANI SILVER FULL COMFORTER 12 PCS",
     "price": 299.0,
-    "stock": 3,
-    "sales": 60
+    "stock": 4,
+    "sales": 54
   },
   {
     "outlet": "Warehouse",
@@ -11896,8 +11866,8 @@ const data = [
     "alias": "48801",
     "name": "LEILANI SILVER KING COMFORTER 12 PCS",
     "price": 399.0,
-    "stock": 2659,
-    "sales": 242
+    "stock": 2593,
+    "sales": 260
   },
   {
     "outlet": "Warehouse",
@@ -11906,8 +11876,8 @@ const data = [
     "alias": "2727",
     "name": "VERDEIRE SOFT BLUSH FULL COMFORTER 12 PCS",
     "price": 299.0,
-    "stock": 16,
-    "sales": 127
+    "stock": 10,
+    "sales": 125
   },
   {
     "outlet": "Warehouse",
@@ -11916,8 +11886,8 @@ const data = [
     "alias": "48802",
     "name": "VERDEIRE SOFT BLUSH KING COMFORTER 12 PCS",
     "price": 399.0,
-    "stock": 1928,
-    "sales": 340
+    "stock": 1829,
+    "sales": 373
   },
   {
     "outlet": "Warehouse",
@@ -11926,8 +11896,8 @@ const data = [
     "alias": "48804",
     "name": "CULLEN GREEN KING COMFORTER 12 PCS",
     "price": 399.0,
-    "stock": 303,
-    "sales": 334
+    "stock": 194,
+    "sales": 332
   },
   {
     "outlet": "Warehouse",
@@ -11937,7 +11907,7 @@ const data = [
     "name": "SUPER SOFT YELLOW CHECK THROW",
     "price": 39.0,
     "stock": 4,
-    "sales": 130
+    "sales": 151
   },
   {
     "outlet": "Warehouse",
@@ -11946,8 +11916,8 @@ const data = [
     "alias": "926227",
     "name": "SUPER SOFT BUTTERFLIES THROW",
     "price": 39.0,
-    "stock": 192,
-    "sales": 174
+    "stock": 162,
+    "sales": 203
   },
   {
     "outlet": "Warehouse",
@@ -11956,8 +11926,8 @@ const data = [
     "alias": "926228",
     "name": "SUPER SOFT OIL PAINTING FLORA THROW",
     "price": 39.0,
-    "stock": 886,
-    "sales": 145
+    "stock": 816,
+    "sales": 170
   },
   {
     "outlet": "Warehouse",
@@ -11966,8 +11936,8 @@ const data = [
     "alias": "926229",
     "name": "SUPER SOFT COLOERFUL BOWS THROW",
     "price": 39.0,
-    "stock": 1702,
-    "sales": 61
+    "stock": 1682,
+    "sales": 78
   },
   {
     "outlet": "Warehouse",
@@ -11976,8 +11946,8 @@ const data = [
     "alias": "926230",
     "name": "SUPER SOFT GAMING THROW",
     "price": 39.0,
-    "stock": 642,
-    "sales": 135
+    "stock": 591,
+    "sales": 158
   },
   {
     "outlet": "Warehouse",
@@ -11986,8 +11956,8 @@ const data = [
     "alias": "926231",
     "name": "SUPER SOFT RIPPLING THROW",
     "price": 39.0,
-    "stock": 476,
-    "sales": 125
+    "stock": 415,
+    "sales": 162
   },
   {
     "outlet": "Warehouse",
@@ -11996,8 +11966,8 @@ const data = [
     "alias": "926232",
     "name": "SUPER SOFT ROGER SQUARE THROW",
     "price": 39.0,
-    "stock": 414,
-    "sales": 127
+    "stock": 354,
+    "sales": 172
   },
   {
     "outlet": "Warehouse",
@@ -12006,8 +11976,8 @@ const data = [
     "alias": "926233",
     "name": "SUPER SOFT SUNFLOWER THROW",
     "price": 39.0,
-    "stock": 2071,
-    "sales": 54
+    "stock": 2050,
+    "sales": 72
   },
   {
     "outlet": "Warehouse",
@@ -12016,8 +11986,8 @@ const data = [
     "alias": "926234",
     "name": "SUPER SOFT MARBLING THROW",
     "price": 39.0,
-    "stock": 1284,
-    "sales": 96
+    "stock": 1224,
+    "sales": 109
   },
   {
     "outlet": "Warehouse",
@@ -12026,8 +11996,8 @@ const data = [
     "alias": "926235",
     "name": "SUPER SOFT STRAWBERRY THROW",
     "price": 39.0,
-    "stock": 1760,
-    "sales": 85
+    "stock": 1710,
+    "sales": 90
   },
   {
     "outlet": "Warehouse",
@@ -12036,8 +12006,8 @@ const data = [
     "alias": "926236",
     "name": "SUPER SOFT CHERRY THROW",
     "price": 39.0,
-    "stock": 1685,
-    "sales": 75
+    "stock": 1635,
+    "sales": 74
   },
   {
     "outlet": "Warehouse",
@@ -12046,8 +12016,8 @@ const data = [
     "alias": "926237",
     "name": "SUPER SOFT BOWS AND HEARTS THROW",
     "price": 39.0,
-    "stock": 1153,
-    "sales": 116
+    "stock": 1112,
+    "sales": 143
   },
   {
     "outlet": "Warehouse",
@@ -12056,8 +12026,8 @@ const data = [
     "alias": "926238",
     "name": "SUPER SOFT GUARD STRIPE THROW",
     "price": 39.0,
-    "stock": 1825,
-    "sales": 60
+    "stock": 1795,
+    "sales": 70
   },
   {
     "outlet": "Warehouse",
@@ -12076,8 +12046,8 @@ const data = [
     "alias": "440901",
     "name": "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT",
     "price": 595.0,
-    "stock": 86,
-    "sales": 13
+    "stock": 1,
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -12096,8 +12066,8 @@ const data = [
     "alias": "440902",
     "name": "*MARGOUT BLUE COMF K 8 PCS KIT",
     "price": 595.0,
-    "stock": 88,
-    "sales": 21
+    "stock": 1,
+    "sales": 39
   },
   {
     "outlet": "Warehouse",
@@ -12106,8 +12076,8 @@ const data = [
     "alias": "448904",
     "name": "*SHANGAI OLIVE TUSCAN COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 88,
-    "sales": 29
+    "stock": 27,
+    "sales": 26
   },
   {
     "outlet": "Warehouse",
@@ -12116,8 +12086,8 @@ const data = [
     "alias": "448901",
     "name": "*SHANGAI NATURAL COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 10,
-    "sales": 27
+    "stock": 3,
+    "sales": 36
   },
   {
     "outlet": "Warehouse",
@@ -12126,8 +12096,8 @@ const data = [
     "alias": "448902",
     "name": "*SHANGAI QULETUDE COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 129,
-    "sales": 22
+    "stock": 19,
+    "sales": 17
   },
   {
     "outlet": "Warehouse",
@@ -12146,8 +12116,8 @@ const data = [
     "alias": "4488903",
     "name": "*LEXY CREAM GREY COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 109,
-    "sales": 12
+    "stock": 13,
+    "sales": 17
   },
   {
     "outlet": "Warehouse",
@@ -12156,18 +12126,8 @@ const data = [
     "alias": "4488902",
     "name": "*LEXY FEROZI COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 61,
-    "sales": 5
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "لحافات كينغ",
-    "code": "23661",
-    "alias": "48890100",
-    "name": "*LEXY YELLOW CHARCOAL COMF K 5 PCS",
-    "price": 499.0,
-    "stock": 14,
-    "sales": 0
+    "stock": 9,
+    "sales": 7
   },
   {
     "outlet": "Warehouse",
@@ -12176,8 +12136,8 @@ const data = [
     "alias": "4488901",
     "name": "*LEXY YELLOW CHARCOAL COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 63,
-    "sales": 13
+    "stock": 21,
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -12197,7 +12157,7 @@ const data = [
     "name": "HANDY BAG PRAYER MAT",
     "price": 19.0,
     "stock": 1200,
-    "sales": 72
+    "sales": 28
   },
   {
     "outlet": "Warehouse",
@@ -12206,8 +12166,8 @@ const data = [
     "alias": "959807",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER WHITE JASMINE",
     "price": 39.0,
-    "stock": 416,
-    "sales": 37
+    "stock": 417,
+    "sales": 39
   },
   {
     "outlet": "Warehouse",
@@ -12216,7 +12176,7 @@ const data = [
     "alias": "4090300",
     "name": "*JEWEL SILVER COM K 8 PCS",
     "price": 399.0,
-    "stock": 241,
+    "stock": 191,
     "sales": 0
   },
   {
@@ -12226,8 +12186,8 @@ const data = [
     "alias": "440903",
     "name": "*JEWEL SILVER COM K 11 PCS KIT",
     "price": 399.0,
-    "stock": 62,
-    "sales": 62
+    "stock": 7,
+    "sales": 81
   },
   {
     "outlet": "Warehouse",
@@ -12246,8 +12206,8 @@ const data = [
     "alias": "440904",
     "name": "*JEWEL AQUA COM K 11 PCS KIT",
     "price": 399.0,
-    "stock": 79,
-    "sales": 10
+    "stock": 2,
+    "sales": 19
   },
   {
     "outlet": "Warehouse",
@@ -12266,8 +12226,8 @@ const data = [
     "alias": "440905",
     "name": "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
     "price": 399.0,
-    "stock": 75,
-    "sales": 13
+    "stock": 9,
+    "sales": 21
   },
   {
     "outlet": "Warehouse",
@@ -12276,8 +12236,8 @@ const data = [
     "alias": "960207",
     "name": "COCODOR 500 ML ROOM SPRAY ROSE BOUQUET",
     "price": 39.0,
-    "stock": 4248,
-    "sales": 55
+    "stock": 4140,
+    "sales": 73
   },
   {
     "outlet": "Warehouse",
@@ -12286,8 +12246,8 @@ const data = [
     "alias": "960208",
     "name": "COCODOR 500 ML ROOM SPRAY FIG TREE",
     "price": 39.0,
-    "stock": 4097,
-    "sales": 63
+    "stock": 4042,
+    "sales": 58
   },
   {
     "outlet": "Warehouse",
@@ -12296,8 +12256,8 @@ const data = [
     "alias": "960209",
     "name": "COCODOR 500 ML ROOM SPRAY FRENCH LAVENDER",
     "price": 39.0,
-    "stock": 3150,
-    "sales": 76
+    "stock": 3078,
+    "sales": 98
   },
   {
     "outlet": "Warehouse",
@@ -12307,7 +12267,7 @@ const data = [
     "name": "24033 TROLLEY BAG S SIZE",
     "price": 99.0,
     "stock": 38,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -12367,7 +12327,7 @@ const data = [
     "name": "24034 TROLLEY BAG L SIZE",
     "price": 189.0,
     "stock": 25,
-    "sales": 2
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -12387,7 +12347,7 @@ const data = [
     "name": "RAWDAH MADINA ASSORTED 8MM (70*110)",
     "price": 99.0,
     "stock": 1320,
-    "sales": 29
+    "sales": 15
   },
   {
     "outlet": "Warehouse",
@@ -12406,7 +12366,7 @@ const data = [
     "alias": "4090600",
     "name": "*GALILEO IVORY COM K 8 PCS",
     "price": 695.0,
-    "stock": 343,
+    "stock": 313,
     "sales": 0
   },
   {
@@ -12416,8 +12376,8 @@ const data = [
     "alias": "440906",
     "name": "*GALILEO IVORY COM K 11 PCS KIT",
     "price": 695.0,
-    "stock": 72,
-    "sales": 91
+    "stock": 14,
+    "sales": 94
   },
   {
     "outlet": "Warehouse",
@@ -12426,7 +12386,7 @@ const data = [
     "alias": "4090700",
     "name": "*GALILEO CREAM COM K 8 PCS",
     "price": 695.0,
-    "stock": 369,
+    "stock": 339,
     "sales": 0
   },
   {
@@ -12436,8 +12396,8 @@ const data = [
     "alias": "440907",
     "name": "*GALILEO CREAM COM K 11 PCS KIT",
     "price": 695.0,
-    "stock": 81,
-    "sales": 74
+    "stock": 4,
+    "sales": 111
   },
   {
     "outlet": "Warehouse",
@@ -12456,8 +12416,8 @@ const data = [
     "alias": "440908",
     "name": "*HOTEL ATHENA WILD DOVE COM K 11 PCS KIT",
     "price": 595.0,
-    "stock": 99,
-    "sales": 44
+    "stock": 26,
+    "sales": 47
   },
   {
     "outlet": "Warehouse",
@@ -12467,7 +12427,7 @@ const data = [
     "name": "*FLORAL PRINT MULTI COM K 11 PCS KIT",
     "price": 495.0,
     "stock": 1,
-    "sales": 85
+    "sales": 82
   },
   {
     "outlet": "Warehouse",
@@ -12487,7 +12447,7 @@ const data = [
     "name": "208063 IHRAM CLOTHES",
     "price": 59.0,
     "stock": 120,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -12497,7 +12457,7 @@ const data = [
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER BOUQUET ROSE",
     "price": 39.0,
     "stock": 2711,
-    "sales": 17
+    "sales": 11
   },
   {
     "outlet": "Warehouse",
@@ -12506,8 +12466,8 @@ const data = [
     "alias": "989001",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML BOUQUEST ROSE",
     "price": 39.0,
-    "stock": 1516,
-    "sales": 24
+    "stock": 1486,
+    "sales": 30
   },
   {
     "outlet": "Warehouse",
@@ -12517,7 +12477,7 @@ const data = [
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML MASK WHITE",
     "price": 39.0,
     "stock": 1432,
-    "sales": 41
+    "sales": 45
   },
   {
     "outlet": "Warehouse",
@@ -12526,8 +12486,8 @@ const data = [
     "alias": "989003",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML WOOD SANDAL AND VANILLA",
     "price": 39.0,
-    "stock": 326,
-    "sales": 59
+    "stock": 309,
+    "sales": 54
   },
   {
     "outlet": "Warehouse",
@@ -12536,8 +12496,8 @@ const data = [
     "alias": "989004",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML SAND PINK",
     "price": 39.0,
-    "stock": 252,
-    "sales": 66
+    "stock": 237,
+    "sales": 55
   },
   {
     "outlet": "Warehouse",
@@ -12547,7 +12507,7 @@ const data = [
     "name": "JUST RELAX 200*200+6+15 SUPER KING MATRESPAD",
     "price": 399.0,
     "stock": 69,
-    "sales": 240
+    "sales": 231
   },
   {
     "outlet": "Warehouse",
@@ -12556,8 +12516,8 @@ const data = [
     "alias": "449904",
     "name": "*BLUSH ROSALLE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 4,
-    "sales": 14
+    "stock": 1,
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -12567,7 +12527,7 @@ const data = [
     "name": "*EVELYN WHITE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
     "stock": 1,
-    "sales": 14
+    "sales": 11
   },
   {
     "outlet": "Warehouse",
@@ -12586,8 +12546,8 @@ const data = [
     "alias": "449905",
     "name": "*DAMASK PAINTED GREY KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 112,
-    "sales": 7
+    "stock": 17,
+    "sales": 9
   },
   {
     "outlet": "Warehouse",
@@ -12596,8 +12556,8 @@ const data = [
     "alias": "449903",
     "name": "*MANVE BLUE SKY WHISTLEY KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 37,
-    "sales": 34
+    "stock": 28,
+    "sales": 47
   },
   {
     "outlet": "Warehouse",
@@ -12616,8 +12576,8 @@ const data = [
     "alias": "449910",
     "name": "*TONAL SAGE VILETTE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 71,
-    "sales": 25
+    "stock": 15,
+    "sales": 19
   },
   {
     "outlet": "Warehouse",
@@ -12636,18 +12596,8 @@ const data = [
     "alias": "449909",
     "name": "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 82,
-    "sales": 15
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "لحافات كينغ",
-    "code": "23830",
-    "alias": "449908",
-    "name": "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
-    "price": 695.0,
-    "stock": 1,
-    "sales": 34
+    "stock": 73,
+    "sales": 26
   },
   {
     "outlet": "Warehouse",
@@ -12656,7 +12606,7 @@ const data = [
     "alias": "449907",
     "name": "*CASCADE BIRD WALLIS MULTI WHITE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 54,
+    "stock": 1,
     "sales": 29
   },
   {
@@ -12666,8 +12616,8 @@ const data = [
     "alias": "406301",
     "name": "COOLING WHITE KING COMFORTER 1 PCS",
     "price": 299.0,
-    "stock": 612,
-    "sales": 55
+    "stock": 590,
+    "sales": 61
   },
   {
     "outlet": "Warehouse",
@@ -12676,8 +12626,8 @@ const data = [
     "alias": "406303",
     "name": "COOLING NAVY KING COMFORTER 1 PCS",
     "price": 299.0,
-    "stock": 197,
-    "sales": 44
+    "stock": 179,
+    "sales": 48
   },
   {
     "outlet": "Warehouse",
@@ -12686,8 +12636,8 @@ const data = [
     "alias": "20021",
     "name": "COOLING WHITE FULL COMFORTER 1 PCS",
     "price": 229.0,
-    "stock": 436,
-    "sales": 29
+    "stock": 412,
+    "sales": 40
   },
   {
     "outlet": "Warehouse",
@@ -12696,8 +12646,8 @@ const data = [
     "alias": "20023",
     "name": "COOLING NAVY FULL COMFORTER 1 PCS",
     "price": 229.0,
-    "stock": 84,
-    "sales": 41
+    "stock": 55,
+    "sales": 39
   },
   {
     "outlet": "Warehouse",
@@ -12706,8 +12656,8 @@ const data = [
     "alias": "440910",
     "name": "*LINLITHGOW PALE LAVENDER KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 3,
-    "sales": 44
+    "stock": 1,
+    "sales": 55
   },
   {
     "outlet": "Warehouse",
@@ -12716,7 +12666,7 @@ const data = [
     "alias": "4091100",
     "name": "*ELEEN BLUSH KING COMFORTER 5 PCS",
     "price": 499.0,
-    "stock": 641,
+    "stock": 611,
     "sales": 0
   },
   {
@@ -12726,8 +12676,8 @@ const data = [
     "alias": "440911",
     "name": "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 68,
-    "sales": 16
+    "stock": 1,
+    "sales": 24
   },
   {
     "outlet": "Warehouse",
@@ -12747,7 +12697,7 @@ const data = [
     "name": "*LUXE GREY MITALLIC KING COMFORTER 8 PCS KIT",
     "price": 499.0,
     "stock": 1,
-    "sales": 79
+    "sales": 73
   },
   {
     "outlet": "Warehouse",
@@ -12756,7 +12706,7 @@ const data = [
     "alias": "4091300",
     "name": "*CYNTHIA FLORAL BIEGE KING COMFORTER 5 PCS",
     "price": 499.0,
-    "stock": 530,
+    "stock": 500,
     "sales": 0
   },
   {
@@ -12766,8 +12716,8 @@ const data = [
     "alias": "440913",
     "name": "*CYNTHIA FLORAL BIEGE KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 74,
-    "sales": 53
+    "stock": 16,
+    "sales": 55
   },
   {
     "outlet": "Warehouse",
@@ -12776,7 +12726,7 @@ const data = [
     "alias": "4091400",
     "name": "*BIRDS PARADISE MILTI KING COMFORTER 5 PCS",
     "price": 499.0,
-    "stock": 628,
+    "stock": 598,
     "sales": 0
   },
   {
@@ -12786,8 +12736,8 @@ const data = [
     "alias": "440914",
     "name": "*BIRDS PARADISE MILTI KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 69,
-    "sales": 17
+    "stock": 57,
+    "sales": 25
   },
   {
     "outlet": "Warehouse",
@@ -12797,7 +12747,7 @@ const data = [
     "name": "A WATANI PRAYER MAT MADE OF FELT 2644",
     "price": 39.0,
     "stock": 340,
-    "sales": 0
+    "sales": 2
   },
   {
     "outlet": "Warehouse",
@@ -12807,7 +12757,7 @@ const data = [
     "name": "VELVET PRAYER MAT WITH A QURAN CASE. 2967",
     "price": 59.0,
     "stock": 160,
-    "sales": 3
+    "sales": 1
   },
   {
     "outlet": "Warehouse",
@@ -12817,7 +12767,7 @@ const data = [
     "name": "PLAIN VELVET SYRIAN RUG 2975",
     "price": 29.0,
     "stock": 320,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "Warehouse",
@@ -12827,7 +12777,7 @@ const data = [
     "name": "PATTERNED SYRIAN RUG 1943",
     "price": 19.0,
     "stock": 160,
-    "sales": 24
+    "sales": 8
   },
   {
     "outlet": "Warehouse",
@@ -12837,7 +12787,7 @@ const data = [
     "name": "BELLFLOWER WHITE KING QUILT 3 PCS",
     "price": 299.0,
     "stock": 52,
-    "sales": 38
+    "sales": 47
   },
   {
     "outlet": "Warehouse",
@@ -12846,8 +12796,8 @@ const data = [
     "alias": "542544",
     "name": "BIG ONE ATHENA MEDALLION FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 1368,
-    "sales": 110
+    "stock": 797,
+    "sales": 155
   },
   {
     "outlet": "Warehouse",
@@ -12856,8 +12806,8 @@ const data = [
     "alias": "542538",
     "name": "BIG ONE COLORFUL FLOWERS FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 1257,
-    "sales": 41
+    "stock": 1177,
+    "sales": 64
   },
   {
     "outlet": "Warehouse",
@@ -12866,18 +12816,8 @@ const data = [
     "alias": "542531",
     "name": "BIG ONE ASTER YELLOW FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 885,
-    "sales": 143
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "لحافات كينغ",
-    "code": "23864",
-    "alias": "4091500",
-    "name": "*QUINCY BEIGE KING COMFORTER 5 PCS",
-    "price": 499.0,
-    "stock": 20,
-    "sales": 0
+    "stock": 854,
+    "sales": 147
   },
   {
     "outlet": "Warehouse",
@@ -12886,8 +12826,8 @@ const data = [
     "alias": "440915",
     "name": "*QUINCY BEIGE KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 63,
-    "sales": 90
+    "stock": 18,
+    "sales": 133
   },
   {
     "outlet": "Warehouse",
@@ -12896,7 +12836,7 @@ const data = [
     "alias": "4091600",
     "name": "*ROME MEDALLION KING COMFORTER 5 PCS",
     "price": 599.0,
-    "stock": 908,
+    "stock": 559,
     "sales": 0
   },
   {
@@ -12906,8 +12846,8 @@ const data = [
     "alias": "440916",
     "name": "*ROME MEDALLION KING COMFORTER 8 PCS KIT",
     "price": 599.0,
-    "stock": 197,
-    "sales": 19
+    "stock": 40,
+    "sales": 24
   },
   {
     "outlet": "Warehouse",
@@ -12926,8 +12866,8 @@ const data = [
     "alias": "440917",
     "name": "*SAKURA LILAC KING COMFORTER 7 PCS KIT",
     "price": 499.0,
-    "stock": 125,
-    "sales": 19
+    "stock": 120,
+    "sales": 14
   },
   {
     "outlet": "Warehouse",
@@ -12936,7 +12876,7 @@ const data = [
     "alias": "4091800",
     "name": "*SHANGHAI GREY KING COMFORTER 5 PCS",
     "price": 499.0,
-    "stock": 460,
+    "stock": 430,
     "sales": 0
   },
   {
@@ -12946,8 +12886,8 @@ const data = [
     "alias": "440918",
     "name": "*SHANGHAI GREY KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 72,
-    "sales": 40
+    "stock": 53,
+    "sales": 47
   },
   {
     "outlet": "Warehouse",
@@ -12957,7 +12897,7 @@ const data = [
     "name": "*TERINA BLUSH KING COMFORTER 8 PCS KIT",
     "price": 499.0,
     "stock": 1,
-    "sales": 39
+    "sales": 54
   },
   {
     "outlet": "Warehouse",
@@ -12966,8 +12906,8 @@ const data = [
     "alias": "538809",
     "name": "BIG ONE LAYIL MEDALLION KING 3 PCS",
     "price": 149.0,
-    "stock": 621,
-    "sales": 30
+    "stock": 609,
+    "sales": 35
   },
   {
     "outlet": "Warehouse",
@@ -12976,8 +12916,8 @@ const data = [
     "alias": "542539",
     "name": "BIG ONE SWAN PRINCESS FULL 2 PCS",
     "price": 99.0,
-    "stock": 557,
-    "sales": 81
+    "stock": 523,
+    "sales": 111
   },
   {
     "outlet": "Warehouse",
@@ -12986,8 +12926,8 @@ const data = [
     "alias": "542536",
     "name": "BIG ONE TRAINS FULL 2 PCS",
     "price": 99.0,
-    "stock": 698,
-    "sales": 13
+    "stock": 686,
+    "sales": 42
   },
   {
     "outlet": "Warehouse",
@@ -12996,8 +12936,8 @@ const data = [
     "alias": "542542",
     "name": "BIG ONE MULTI SUNFLOWERS FULL 2 PCS",
     "price": 99.0,
-    "stock": 1596,
-    "sales": 66
+    "stock": 827,
+    "sales": 86
   },
   {
     "outlet": "Warehouse",
@@ -13006,8 +12946,8 @@ const data = [
     "alias": "542534",
     "name": "BIG ONE BALLERINA GIRLS FULL 2 PCS",
     "price": 99.0,
-    "stock": 1056,
-    "sales": 53
+    "stock": 293,
+    "sales": 66
   },
   {
     "outlet": "Warehouse",
@@ -13016,8 +12956,8 @@ const data = [
     "alias": "989111",
     "name": "SOLID VELVETLOFT PUMICE STONE 60*70 THROW",
     "price": 39.0,
-    "stock": 3915,
-    "sales": 262
+    "stock": 3795,
+    "sales": 292
   },
   {
     "outlet": "Warehouse",
@@ -13026,8 +12966,8 @@ const data = [
     "alias": "989115",
     "name": "SOLID VELVETLOFT ORCHID BLOOM 60*70 THROW",
     "price": 39.0,
-    "stock": 4188,
-    "sales": 92
+    "stock": 4158,
+    "sales": 95
   },
   {
     "outlet": "Warehouse",
@@ -13036,8 +12976,8 @@ const data = [
     "alias": "989112",
     "name": "SOLID VELVETLOFT STARGAZER 60*70 THROW",
     "price": 39.0,
-    "stock": 4102,
-    "sales": 150
+    "stock": 4052,
+    "sales": 185
   },
   {
     "outlet": "Warehouse",
@@ -13046,8 +12986,8 @@ const data = [
     "alias": "989114",
     "name": "SOLID VELVETLOFT PINK LADY 60*70 THROW",
     "price": 39.0,
-    "stock": 4026,
-    "sales": 104
+    "stock": 3985,
+    "sales": 125
   },
   {
     "outlet": "Warehouse",
@@ -13056,8 +12996,8 @@ const data = [
     "alias": "989113",
     "name": "SOLID VELVETLOFT JADEITE 60*70 THROW",
     "price": 39.0,
-    "stock": 3575,
-    "sales": 129
+    "stock": 3535,
+    "sales": 161
   },
   {
     "outlet": "Warehouse",
@@ -13066,8 +13006,8 @@ const data = [
     "alias": "989116",
     "name": "SOLID VELVETLOFT BURGHADY 60*70 THROW",
     "price": 39.0,
-    "stock": 3137,
-    "sales": 79
+    "stock": 3117,
+    "sales": 98
   },
   {
     "outlet": "Warehouse",
@@ -13076,8 +13016,8 @@ const data = [
     "alias": "538811",
     "name": "BIG ONE ATHENA MEDALLION KING 3 PCS",
     "price": 149.0,
-    "stock": 569,
-    "sales": 52
+    "stock": 551,
+    "sales": 64
   },
   {
     "outlet": "Warehouse",
@@ -13086,8 +13026,8 @@ const data = [
     "alias": "538814",
     "name": "BIG ONE FLOWER PATCH KING 3 PCS",
     "price": 149.0,
-    "stock": 126,
-    "sales": 84
+    "stock": 107,
+    "sales": 113
   },
   {
     "outlet": "Warehouse",
@@ -13097,7 +13037,7 @@ const data = [
     "name": "PRINTED GREY PAVLA FULL COMFORTER 8 PCS",
     "price": 249.0,
     "stock": 1,
-    "sales": 54
+    "sales": 58
   },
   {
     "outlet": "Warehouse",
@@ -13106,7 +13046,7 @@ const data = [
     "alias": "49911",
     "name": "PRINTED WHITE/MULTI VINE FLORAL FRUIT KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 704,
+    "stock": 700,
     "sales": 16
   },
   {
@@ -13116,8 +13056,8 @@ const data = [
     "alias": "49912",
     "name": "PRINTED BLUSH DOMBURG KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1386,
-    "sales": 69
+    "stock": 1355,
+    "sales": 82
   },
   {
     "outlet": "Warehouse",
@@ -13126,8 +13066,8 @@ const data = [
     "alias": "91544",
     "name": "PILLOW EXTRA FIRM STANDARD",
     "price": 39.0,
-    "stock": 2355,
-    "sales": 613
+    "stock": 2301,
+    "sales": 609
   },
   {
     "outlet": "Warehouse",
@@ -13137,7 +13077,7 @@ const data = [
     "name": "PILLOW EXTRA FIRM KING",
     "price": 69.0,
     "stock": 8,
-    "sales": 119
+    "sales": 149
   },
   {
     "outlet": "Warehouse",
@@ -13146,8 +13086,8 @@ const data = [
     "alias": "95644",
     "name": "PILLOW COMFORT DREAM STANDARD",
     "price": 69.0,
-    "stock": 5023,
-    "sales": 11
+    "stock": 5014,
+    "sales": 13
   },
   {
     "outlet": "Warehouse",
@@ -13156,8 +13096,8 @@ const data = [
     "alias": "95633",
     "name": "PILLOW COMFORT DREAM KING",
     "price": 99.0,
-    "stock": 3344,
-    "sales": 29
+    "stock": 3326,
+    "sales": 27
   },
   {
     "outlet": "Warehouse",
@@ -13166,8 +13106,8 @@ const data = [
     "alias": "710095",
     "name": "LEAF EMBROIDERED TOWEL WAVE SET 3PCS",
     "price": 99.0,
-    "stock": 279,
-    "sales": 32
+    "stock": 242,
+    "sales": 40
   },
   {
     "outlet": "Warehouse",
@@ -13176,8 +13116,8 @@ const data = [
     "alias": "710096",
     "name": "LEAF 2 EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 278,
-    "sales": 41
+    "stock": 254,
+    "sales": 40
   },
   {
     "outlet": "Warehouse",
@@ -13186,7 +13126,7 @@ const data = [
     "alias": "710097",
     "name": "FLOWER EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 393,
+    "stock": 368,
     "sales": 28
   },
   {
@@ -13197,7 +13137,7 @@ const data = [
     "name": "CIRCLES MULTIPLE EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
     "stock": 460,
-    "sales": 54
+    "sales": 45
   },
   {
     "outlet": "Warehouse",
@@ -13206,8 +13146,8 @@ const data = [
     "alias": "710100",
     "name": "SHELL EMBROIDERED TOWEL WAVE SET 3PCS",
     "price": 99.0,
-    "stock": 332,
-    "sales": 56
+    "stock": 308,
+    "sales": 60
   },
   {
     "outlet": "Warehouse",
@@ -13216,8 +13156,8 @@ const data = [
     "alias": "710104",
     "name": "BIRDS GILDED EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 433,
-    "sales": 51
+    "stock": 408,
+    "sales": 44
   },
   {
     "outlet": "Warehouse",
@@ -13226,8 +13166,8 @@ const data = [
     "alias": "710105",
     "name": "ZAG ZIAG EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 519,
-    "sales": 24
+    "stock": 495,
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -13236,7 +13176,7 @@ const data = [
     "alias": "710106",
     "name": "FLOWER & LEAF EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 436,
+    "stock": 412,
     "sales": 50
   },
   {
@@ -13246,8 +13186,8 @@ const data = [
     "alias": "710108",
     "name": "LEAF3 EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 615,
-    "sales": 20
+    "stock": 602,
+    "sales": 25
   },
   {
     "outlet": "Warehouse",
@@ -13256,8 +13196,8 @@ const data = [
     "alias": "710109",
     "name": "PLAM TREE EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 424,
-    "sales": 14
+    "stock": 412,
+    "sales": 18
   },
   {
     "outlet": "Warehouse",
@@ -13266,8 +13206,8 @@ const data = [
     "alias": "710110",
     "name": "SHELL 2 EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 396,
-    "sales": 28
+    "stock": 382,
+    "sales": 37
   },
   {
     "outlet": "Warehouse",
@@ -13277,7 +13217,7 @@ const data = [
     "name": "PARIS BOTANIQUE IVORY EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
     "stock": 327,
-    "sales": 33
+    "sales": 36
   },
   {
     "outlet": "Warehouse",
@@ -13286,8 +13226,8 @@ const data = [
     "alias": "710099",
     "name": "ROSE1 EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 181,
-    "sales": 33
+    "stock": 168,
+    "sales": 38
   },
   {
     "outlet": "Warehouse",
@@ -13296,8 +13236,8 @@ const data = [
     "alias": "710107",
     "name": "BIRDS EMBROIDERED TOWEL WAVE SET 3PCS",
     "price": 99.0,
-    "stock": 532,
-    "sales": 18
+    "stock": 519,
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -13307,7 +13247,7 @@ const data = [
     "name": "PRINTED BLUSH PAVLA FULL COMFORTER 8 PCS",
     "price": 249.0,
     "stock": 2,
-    "sales": 50
+    "sales": 45
   },
   {
     "outlet": "Warehouse",
@@ -13316,18 +13256,8 @@ const data = [
     "alias": "2731",
     "name": "PRINTED WHITE/MULTI PAVLA FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 498,
-    "sales": 21
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "أطقم دعاسات",
-    "code": "23913",
-    "alias": "816213",
-    "name": "BATH MAT SET 2 PCS DARKER LILAC",
-    "price": 94.0,
-    "stock": 36,
-    "sales": 18
+    "stock": 490,
+    "sales": 24
   },
   {
     "outlet": "Warehouse",
@@ -13335,9 +13265,9 @@ const data = [
     "code": "23914",
     "alias": "816214",
     "name": "BATH MAT SET 2 PCS NAVY",
-    "price": 94.0,
-    "stock": 464,
-    "sales": 22
+    "price": 99.0,
+    "stock": 138,
+    "sales": 26
   },
   {
     "outlet": "Warehouse",
@@ -13346,8 +13276,8 @@ const data = [
     "alias": "816414",
     "name": "BATH MAT 21X34IN NAVY",
     "price": 59.0,
-    "stock": 61,
-    "sales": 23
+    "stock": 25,
+    "sales": 35
   },
   {
     "outlet": "Warehouse",
@@ -13356,8 +13286,8 @@ const data = [
     "alias": "816313",
     "name": "BATH MAT 17X24IN DARK LILAC",
     "price": 39.0,
-    "stock": 66,
-    "sales": 16
+    "stock": 42,
+    "sales": 17
   },
   {
     "outlet": "Warehouse",
@@ -13366,8 +13296,8 @@ const data = [
     "alias": "2738",
     "name": "CONTROLLER GAMING FAVORITE FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 528,
-    "sales": 67
+    "stock": 491,
+    "sales": 87
   },
   {
     "outlet": "Warehouse",
@@ -13376,8 +13306,8 @@ const data = [
     "alias": "2734",
     "name": "TOSS BOTANICAL SPRING PINK/MULTI FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 105,
-    "sales": 95
+    "stock": 58,
+    "sales": 125
   },
   {
     "outlet": "Warehouse",
@@ -13386,8 +13316,8 @@ const data = [
     "alias": "2737",
     "name": "ORVAL NAVY FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 236,
-    "sales": 76
+    "stock": 201,
+    "sales": 96
   },
   {
     "outlet": "Warehouse",
@@ -13396,8 +13326,8 @@ const data = [
     "alias": "2732",
     "name": "MEADOW FLORAL MULTI FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 360,
-    "sales": 38
+    "stock": 349,
+    "sales": 61
   },
   {
     "outlet": "Warehouse",
@@ -13407,7 +13337,7 @@ const data = [
     "name": "CLOVELLY BLUE FULL COMFORTER 8 PCS",
     "price": 249.0,
     "stock": 1,
-    "sales": 43
+    "sales": 61
   },
   {
     "outlet": "Warehouse",
@@ -13416,8 +13346,8 @@ const data = [
     "alias": "2733",
     "name": "DIST FLORAL MULTI FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 295,
-    "sales": 53
+    "stock": 267,
+    "sales": 73
   },
   {
     "outlet": "Warehouse",
@@ -13426,8 +13356,8 @@ const data = [
     "alias": "2735",
     "name": "CHERRIES KATIE BLUE FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 523,
-    "sales": 37
+    "stock": 510,
+    "sales": 40
   },
   {
     "outlet": "Warehouse",
@@ -13436,8 +13366,8 @@ const data = [
     "alias": "542540",
     "name": "BIG ONE COLORFUL CARS FULL 2 PCS",
     "price": 99.0,
-    "stock": 604,
-    "sales": 30
+    "stock": 579,
+    "sales": 64
   },
   {
     "outlet": "Warehouse",
@@ -13446,8 +13376,8 @@ const data = [
     "alias": "542541",
     "name": "BIG ONE MULTI BALLS FULL 2 PCS",
     "price": 99.0,
-    "stock": 580,
-    "sales": 31
+    "stock": 550,
+    "sales": 79
   },
   {
     "outlet": "Warehouse",
@@ -13456,8 +13386,8 @@ const data = [
     "alias": "542543",
     "name": "BIG ONE MULTI COLOR STRIPES FULL 2 PCS",
     "price": 99.0,
-    "stock": 610,
-    "sales": 25
+    "stock": 580,
+    "sales": 82
   },
   {
     "outlet": "Warehouse",
@@ -13466,8 +13396,8 @@ const data = [
     "alias": "542537",
     "name": "BIG ONE WHALE FULL 2 PCS",
     "price": 99.0,
-    "stock": 717,
-    "sales": 43
+    "stock": 687,
+    "sales": 96
   },
   {
     "outlet": "Warehouse",
@@ -13476,8 +13406,8 @@ const data = [
     "alias": "542533",
     "name": "BIG ONE MULTI DINOSAURS FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 1671,
-    "sales": 28
+    "stock": 909,
+    "sales": 45
   },
   {
     "outlet": "Warehouse",
@@ -13486,8 +13416,8 @@ const data = [
     "alias": "542535",
     "name": "BIG ONE BUTTERFLY MULTI FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 726,
-    "sales": 47
+    "stock": 713,
+    "sales": 92
   },
   {
     "outlet": "Warehouse",
@@ -13496,8 +13426,8 @@ const data = [
     "alias": "542532",
     "name": "BIG ONE MULTI VEHICLES FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 1664,
-    "sales": 30
+    "stock": 902,
+    "sales": 37
   },
   {
     "outlet": "Warehouse",
@@ -13506,8 +13436,8 @@ const data = [
     "alias": "538815",
     "name": "BIG ONE HIBISCUS KING 3 PCS",
     "price": 149.0,
-    "stock": 781,
-    "sales": 31
+    "stock": 761,
+    "sales": 20
   },
   {
     "outlet": "Warehouse",
@@ -13516,8 +13446,8 @@ const data = [
     "alias": "5486",
     "name": "ARABESQUE GREY KING QUILT 3 PCS",
     "price": 299.0,
-    "stock": 480,
-    "sales": 26
+    "stock": 468,
+    "sales": 41
   },
   {
     "outlet": "Warehouse",
@@ -13526,8 +13456,8 @@ const data = [
     "alias": "2739",
     "name": "CHEETAH SELVA FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 604,
-    "sales": 16
+    "stock": 597,
+    "sales": 29
   },
   {
     "outlet": "Warehouse",
@@ -13536,8 +13466,8 @@ const data = [
     "alias": "980101",
     "name": "BTY-1 TEDDY BEAR BEIGE CURLY SIZE 45 CM",
     "price": 69.0,
-    "stock": 377,
-    "sales": 35
+    "stock": 374,
+    "sales": 34
   },
   {
     "outlet": "Warehouse",
@@ -13546,8 +13476,8 @@ const data = [
     "alias": "980102",
     "name": "BTY-2 TEDDY BEAR BROWN STRAIGHT SIZE 45 CM",
     "price": 69.0,
-    "stock": 330,
-    "sales": 35
+    "stock": 314,
+    "sales": 44
   },
   {
     "outlet": "Warehouse",
@@ -13557,7 +13487,7 @@ const data = [
     "name": "BTY-3 TEDDY BEAR BROWN STRAIGHT SIZE 30 CM",
     "price": 39.0,
     "stock": 18,
-    "sales": 76
+    "sales": 86
   },
   {
     "outlet": "Warehouse",
@@ -13566,8 +13496,8 @@ const data = [
     "alias": "980104",
     "name": "BTY-4 TEDDY BEAR WHITE CURLY SIZE 30 CM",
     "price": 39.0,
-    "stock": 104,
-    "sales": 68
+    "stock": 102,
+    "sales": 54
   },
   {
     "outlet": "Warehouse",
@@ -13576,8 +13506,8 @@ const data = [
     "alias": "980105",
     "name": "BTY-4 TEDDY BEAR BEIGE CURLY SIZE 30 CM",
     "price": 39.0,
-    "stock": 59,
-    "sales": 55
+    "stock": 55,
+    "sales": 77
   },
   {
     "outlet": "Warehouse",
@@ -13586,8 +13516,8 @@ const data = [
     "alias": "980106",
     "name": "BTY-4 TEDDY BEAR PINK CURLY SIZE 30 CM",
     "price": 39.0,
-    "stock": 22,
-    "sales": 61
+    "stock": 20,
+    "sales": 81
   },
   {
     "outlet": "Warehouse",
@@ -13596,8 +13526,8 @@ const data = [
     "alias": "980107",
     "name": "BTY-5 TEDDY BEAR BEIGE STRAIGHT SIZE 30 CM",
     "price": 39.0,
-    "stock": 50,
-    "sales": 73
+    "stock": 24,
+    "sales": 69
   },
   {
     "outlet": "Warehouse",
@@ -13606,8 +13536,8 @@ const data = [
     "alias": "980108",
     "name": "BTY-5 TEDDY BEAR PINK STRAIGHT SIZE 30 CM",
     "price": 39.0,
-    "stock": 88,
-    "sales": 50
+    "stock": 84,
+    "sales": 76
   },
   {
     "outlet": "Warehouse",
@@ -13616,8 +13546,8 @@ const data = [
     "alias": "9892001",
     "name": "BATH ROBE ZERO TEIST WHITE S/M",
     "price": 129.0,
-    "stock": 833,
-    "sales": 20
+    "stock": 815,
+    "sales": 25
   },
   {
     "outlet": "Warehouse",
@@ -13626,8 +13556,8 @@ const data = [
     "alias": "9892002",
     "name": "BATH ROBE ZERO TEIST IVORY S/M",
     "price": 129.0,
-    "stock": 935,
-    "sales": 27
+    "stock": 917,
+    "sales": 34
   },
   {
     "outlet": "Warehouse",
@@ -13636,8 +13566,8 @@ const data = [
     "alias": "9892004",
     "name": "BATH ROBE ZERO TEIST OYSTER MUSHROOM S/M",
     "price": 129.0,
-    "stock": 473,
-    "sales": 36
+    "stock": 461,
+    "sales": 39
   },
   {
     "outlet": "Warehouse",
@@ -13646,8 +13576,8 @@ const data = [
     "alias": "9893001",
     "name": "BATH ROBE ZERO TEIST WHITE L/XL",
     "price": 129.0,
-    "stock": 409,
-    "sales": 22
+    "stock": 385,
+    "sales": 34
   },
   {
     "outlet": "Warehouse",
@@ -13656,8 +13586,8 @@ const data = [
     "alias": "9893002",
     "name": "BATH ROBE ZERO TEIST IVORY L/XL",
     "price": 129.0,
-    "stock": 354,
-    "sales": 22
+    "stock": 342,
+    "sales": 23
   },
   {
     "outlet": "Warehouse",
@@ -13666,8 +13596,8 @@ const data = [
     "alias": "9893003",
     "name": "BATH ROBE ZERO TEIST ROSE L/XL",
     "price": 129.0,
-    "stock": 258,
-    "sales": 45
+    "stock": 234,
+    "sales": 48
   },
   {
     "outlet": "Warehouse",
@@ -13676,8 +13606,8 @@ const data = [
     "alias": "9893004",
     "name": "BATH ROBE ZERO TEIST OYSTER MUSHROOM L/XL",
     "price": 129.0,
-    "stock": 834,
-    "sales": 56
+    "stock": 810,
+    "sales": 60
   },
   {
     "outlet": "Warehouse",
@@ -13686,8 +13616,8 @@ const data = [
     "alias": "9893005",
     "name": "BATH ROBE ZERO TEIST NAVY L/XL",
     "price": 129.0,
-    "stock": 227,
-    "sales": 69
+    "stock": 186,
+    "sales": 83
   },
   {
     "outlet": "Warehouse",
@@ -13706,8 +13636,8 @@ const data = [
     "alias": "440920",
     "name": "*PALLINGTON BLOOM / PLASTER PINK KING COMFORTER 8 PCS KIT",
     "price": 599.0,
-    "stock": 88,
-    "sales": 30
+    "stock": 1,
+    "sales": 45
   },
   {
     "outlet": "Warehouse",
@@ -13716,7 +13646,7 @@ const data = [
     "alias": "4092100",
     "name": "*PALLINGTON BLOOM / RUBY  KING COMFORTER 5 PCS",
     "price": 599.0,
-    "stock": 394,
+    "stock": 364,
     "sales": 0
   },
   {
@@ -13726,8 +13656,8 @@ const data = [
     "alias": "440921",
     "name": "*PALLINGTON BLOOM / RUBY  KING COMFORTER 8 PCS KIT",
     "price": 599.0,
-    "stock": 78,
-    "sales": 73
+    "stock": 14,
+    "sales": 81
   },
   {
     "outlet": "Warehouse",
@@ -13746,8 +13676,8 @@ const data = [
     "alias": "440922",
     "name": "*FLORAL PEACOCK / SEA FOAM KING COMFORTER  8 PCS KIT",
     "price": 599.0,
-    "stock": 72,
-    "sales": 10
+    "stock": 7,
+    "sales": 16
   },
   {
     "outlet": "Warehouse",
@@ -13756,8 +13686,8 @@ const data = [
     "alias": "71132801",
     "name": "BTP-857 KITCHEN TOWEL WHITE 50*90",
     "price": 9.0,
-    "stock": 913,
-    "sales": 356
+    "stock": 882,
+    "sales": 242
   },
   {
     "outlet": "Warehouse",
@@ -13766,8 +13696,8 @@ const data = [
     "alias": "71132802",
     "name": "BTP-857 KITCHEN TOWEL SILVER 50*90",
     "price": 9.0,
-    "stock": 910,
-    "sales": 286
+    "stock": 878,
+    "sales": 182
   },
   {
     "outlet": "Warehouse",
@@ -13776,8 +13706,8 @@ const data = [
     "alias": "71132803",
     "name": "BTP-857 KITCHEN TOWEL BEIGE 50*90",
     "price": 9.0,
-    "stock": 734,
-    "sales": 337
+    "stock": 706,
+    "sales": 191
   },
   {
     "outlet": "Warehouse",
@@ -13786,8 +13716,8 @@ const data = [
     "alias": "71132804",
     "name": "BTP-857 KITCHEN TOWEL DARK GREY 50*90",
     "price": 9.0,
-    "stock": 732,
-    "sales": 385
+    "stock": 703,
+    "sales": 186
   },
   {
     "outlet": "Warehouse",
@@ -13796,8 +13726,8 @@ const data = [
     "alias": "71132805",
     "name": "BTP-857 KITCHEN TOWEL ORANGE 50*90",
     "price": 9.0,
-    "stock": 551,
-    "sales": 233
+    "stock": 531,
+    "sales": 117
   },
   {
     "outlet": "Warehouse",
@@ -13806,8 +13736,8 @@ const data = [
     "alias": "71132806",
     "name": "BTP-857 KITCHEN TOWEL BLACK 50*90",
     "price": 9.0,
-    "stock": 552,
-    "sales": 229
+    "stock": 533,
+    "sales": 121
   },
   {
     "outlet": "Warehouse",
@@ -13816,8 +13746,8 @@ const data = [
     "alias": "71132901",
     "name": "BTP-862 KITCHEN TOWEL DUSTY PINK 50*90",
     "price": 9.0,
-    "stock": 918,
-    "sales": 384
+    "stock": 917,
+    "sales": 244
   },
   {
     "outlet": "Warehouse",
@@ -13826,8 +13756,8 @@ const data = [
     "alias": "71132902",
     "name": "BTP-862 KITCHEN TOWEL VOILET 50*90",
     "price": 9.0,
-    "stock": 735,
-    "sales": 331
+    "stock": 732,
+    "sales": 198
   },
   {
     "outlet": "Warehouse",
@@ -13836,8 +13766,8 @@ const data = [
     "alias": "71132903",
     "name": "BTP-862 KITCHEN TOWEL TAUPE 50*90",
     "price": 9.0,
-    "stock": 736,
-    "sales": 348
+    "stock": 735,
+    "sales": 185
   },
   {
     "outlet": "Warehouse",
@@ -13847,7 +13777,7 @@ const data = [
     "name": "BTP-862 KITCHEN TOWEL DUSTY ROSE 50*90",
     "price": 9.0,
     "stock": 920,
-    "sales": 278
+    "sales": 172
   },
   {
     "outlet": "Warehouse",
@@ -13856,8 +13786,8 @@ const data = [
     "alias": "71132905",
     "name": "BTP-862 KITCHEN TOWEL BLUE 50*90",
     "price": 9.0,
-    "stock": 509,
-    "sales": 239
+    "stock": 508,
+    "sales": 135
   },
   {
     "outlet": "Warehouse",
@@ -13866,8 +13796,8 @@ const data = [
     "alias": "71132906",
     "name": "BTP-862 KITCHEN TOWEL SLATE 50*90",
     "price": 9.0,
-    "stock": 552,
-    "sales": 287
+    "stock": 550,
+    "sales": 153
   },
   {
     "outlet": "Warehouse",
@@ -13876,8 +13806,8 @@ const data = [
     "alias": "71133001",
     "name": "BTP-870 KITCHEN TOWEL SAND 50*90",
     "price": 9.0,
-    "stock": 1471,
-    "sales": 430
+    "stock": 1421,
+    "sales": 243
   },
   {
     "outlet": "Warehouse",
@@ -13886,8 +13816,8 @@ const data = [
     "alias": "71133002",
     "name": "BTP-870 KITCHEN TOWEL RUST 50*90",
     "price": 9.0,
-    "stock": 552,
-    "sales": 237
+    "stock": 534,
+    "sales": 112
   },
   {
     "outlet": "Warehouse",
@@ -13896,8 +13826,8 @@ const data = [
     "alias": "71133003",
     "name": "BTP-870 KITCHEN TOWEL ROSE PINK 50*90",
     "price": 9.0,
-    "stock": 499,
-    "sales": 327
+    "stock": 481,
+    "sales": 165
   },
   {
     "outlet": "Warehouse",
@@ -13906,8 +13836,8 @@ const data = [
     "alias": "71133004",
     "name": "BTP-870 KITCHEN TOWEL DEEP PERIWINKLE 50*90",
     "price": 9.0,
-    "stock": 550,
-    "sales": 243
+    "stock": 531,
+    "sales": 123
   },
   {
     "outlet": "Warehouse",
@@ -13916,8 +13846,8 @@ const data = [
     "alias": "71133005",
     "name": "BTP-870 KITCHEN TOWEL SAGE 50*90",
     "price": 9.0,
-    "stock": 730,
-    "sales": 274
+    "stock": 704,
+    "sales": 167
   },
   {
     "outlet": "Warehouse",
@@ -13926,8 +13856,8 @@ const data = [
     "alias": "71133006",
     "name": "BTP-870 KITCHEN TOWEL ROYAL BLUE 50*90",
     "price": 9.0,
-    "stock": 531,
-    "sales": 231
+    "stock": 512,
+    "sales": 114
   },
   {
     "outlet": "Warehouse",
@@ -13937,7 +13867,7 @@ const data = [
     "name": "BTP-839 KITCHEN TOWEL WHITE 50*90",
     "price": 9.0,
     "stock": 1488,
-    "sales": 406
+    "sales": 217
   },
   {
     "outlet": "Warehouse",
@@ -13946,8 +13876,8 @@ const data = [
     "alias": "71133102",
     "name": "BTP-839 KITCHEN TOWEL IVORY 50*90",
     "price": 9.0,
-    "stock": 738,
-    "sales": 223
+    "stock": 732,
+    "sales": 142
   },
   {
     "outlet": "Warehouse",
@@ -13956,8 +13886,8 @@ const data = [
     "alias": "71133103",
     "name": "BTP-839 KITCHEN TOWEL NAVY 50*90",
     "price": 9.0,
-    "stock": 558,
-    "sales": 259
+    "stock": 557,
+    "sales": 90
   },
   {
     "outlet": "Warehouse",
@@ -13966,8 +13896,8 @@ const data = [
     "alias": "71133104",
     "name": "BTP-839 KITCHEN TOWEL AQUA 50*90",
     "price": 9.0,
-    "stock": 553,
-    "sales": 315
+    "stock": 550,
+    "sales": 154
   },
   {
     "outlet": "Warehouse",
@@ -13976,8 +13906,8 @@ const data = [
     "alias": "71133105",
     "name": "BTP-839 KITCHEN TOWEL LAVENDER BLUE 50*90",
     "price": 9.0,
-    "stock": 556,
-    "sales": 238
+    "stock": 555,
+    "sales": 120
   },
   {
     "outlet": "Warehouse",
@@ -13986,8 +13916,8 @@ const data = [
     "alias": "71133106",
     "name": "BTP-839 KITCHEN TOWEL POWDER PINK 50*90",
     "price": 9.0,
-    "stock": 551,
-    "sales": 315
+    "stock": 547,
+    "sales": 132
   },
   {
     "outlet": "Warehouse",
@@ -13996,8 +13926,8 @@ const data = [
     "alias": "71133201",
     "name": "BTP-840 KITCHEN TOWEL IVORY 50*90",
     "price": 9.0,
-    "stock": 910,
-    "sales": 312
+    "stock": 850,
+    "sales": 177
   },
   {
     "outlet": "Warehouse",
@@ -14006,8 +13936,8 @@ const data = [
     "alias": "71133202",
     "name": "BTP-840 KITCHEN TOWEL GRANET ROSE 50*90",
     "price": 9.0,
-    "stock": 546,
-    "sales": 271
+    "stock": 510,
+    "sales": 138
   },
   {
     "outlet": "Warehouse",
@@ -14016,8 +13946,8 @@ const data = [
     "alias": "71133203",
     "name": "BTP-840 KITCHEN TOWEL LT.BLUE 50*90",
     "price": 9.0,
-    "stock": 546,
-    "sales": 218
+    "stock": 510,
+    "sales": 114
   },
   {
     "outlet": "Warehouse",
@@ -14026,8 +13956,8 @@ const data = [
     "alias": "71133204",
     "name": "BTP-840 KITCHEN TOWEL BABY PINK 50*90",
     "price": 9.0,
-    "stock": 728,
-    "sales": 358
+    "stock": 680,
+    "sales": 157
   },
   {
     "outlet": "Warehouse",
@@ -14036,8 +13966,8 @@ const data = [
     "alias": "71133205",
     "name": "BTP-840 KITCHEN TOWEL DISCUT 50*90",
     "price": 9.0,
-    "stock": 910,
-    "sales": 320
+    "stock": 850,
+    "sales": 161
   },
   {
     "outlet": "Warehouse",
@@ -14046,8 +13976,8 @@ const data = [
     "alias": "71133206",
     "name": "BTP-840 KITCHEN TOWEL MOVE 50*90",
     "price": 9.0,
-    "stock": 728,
-    "sales": 333
+    "stock": 680,
+    "sales": 184
   },
   {
     "outlet": "Warehouse",
@@ -14066,8 +13996,8 @@ const data = [
     "alias": "4489100",
     "name": "*BLOOMING GRACE PINK COTTON KING COMFORTER  10 PCS KIT",
     "price": 695.0,
-    "stock": 84,
-    "sales": 30
+    "stock": 3,
+    "sales": 38
   },
   {
     "outlet": "Warehouse",
@@ -14086,8 +14016,8 @@ const data = [
     "alias": "4489101",
     "name": "*BLOOMING GRACE WHITE COTTON KING COMFORTER 10 PCS KIT",
     "price": 695.0,
-    "stock": 82,
-    "sales": 14
+    "stock": 1,
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -14096,8 +14026,8 @@ const data = [
     "alias": "49913",
     "name": "MULTI MEADOW FLORAL KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1469,
-    "sales": 57
+    "stock": 1441,
+    "sales": 87
   },
   {
     "outlet": "Warehouse",
@@ -14106,8 +14036,8 @@ const data = [
     "alias": "2740",
     "name": "GREEN CAMO JACK FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 716,
-    "sales": 7
+    "stock": 715,
+    "sales": 9
   },
   {
     "outlet": "Warehouse",
@@ -14126,8 +14056,8 @@ const data = [
     "alias": "440923",
     "name": "*MIRABELLE PALE SEASPRAY KING COMFORTER 8 PCS KIT",
     "price": 599.0,
-    "stock": 71,
-    "sales": 35
+    "stock": 19,
+    "sales": 37
   },
   {
     "outlet": "Warehouse",
@@ -14146,8 +14076,8 @@ const data = [
     "alias": "440924",
     "name": "*TONAL FLORAL TAUPE KING COMFORTER 8 PCS KIT",
     "price": 599.0,
-    "stock": 87,
-    "sales": 70
+    "stock": 14,
+    "sales": 64
   },
   {
     "outlet": "Warehouse",
@@ -14156,8 +14086,8 @@ const data = [
     "alias": "989005",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML CHERRY BLACK",
     "price": 39.0,
-    "stock": 3855,
-    "sales": 99
+    "stock": 3810,
+    "sales": 88
   },
   {
     "outlet": "Warehouse",
@@ -14176,8 +14106,8 @@ const data = [
     "alias": "989007",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML JASMINE WHITE",
     "price": 39.0,
-    "stock": 658,
-    "sales": 49
+    "stock": 641,
+    "sales": 51
   },
   {
     "outlet": "Warehouse",
@@ -14186,8 +14116,8 @@ const data = [
     "alias": "710633",
     "name": "BATH SHEET AIR-RICH 86X172 CM ROSE PINK",
     "price": 69.0,
-    "stock": 684,
-    "sales": 22
+    "stock": 648,
+    "sales": 28
   },
   {
     "outlet": "Warehouse",
@@ -14196,8 +14126,8 @@ const data = [
     "alias": "710634",
     "name": "BATH SHEET AIR-RICH 86X172 CM RICH BLACK",
     "price": 69.0,
-    "stock": 648,
-    "sales": 43
+    "stock": 624,
+    "sales": 50
   },
   {
     "outlet": "Warehouse",
@@ -14206,8 +14136,8 @@ const data = [
     "alias": "710635",
     "name": "BATH SHEET AIR-RICH 86X172 CM LIGHT BLUE",
     "price": 69.0,
-    "stock": 252,
-    "sales": 46
+    "stock": 216,
+    "sales": 50
   },
   {
     "outlet": "Warehouse",
@@ -14216,8 +14146,8 @@ const data = [
     "alias": "714433",
     "name": "BATH TOWEL AIR-RICH 70X140 CM ROSE PINK",
     "price": 49.0,
-    "stock": 636,
-    "sales": 70
+    "stock": 600,
+    "sales": 81
   },
   {
     "outlet": "Warehouse",
@@ -14226,8 +14156,8 @@ const data = [
     "alias": "714434",
     "name": "BATH TOWEL AIR-RICH 70X140 CM RICH BLACK",
     "price": 49.0,
-    "stock": 611,
-    "sales": 44
+    "stock": 575,
+    "sales": 55
   },
   {
     "outlet": "Warehouse",
@@ -14236,8 +14166,8 @@ const data = [
     "alias": "714435",
     "name": "BATH TOWEL AIR-RICH 70X140 CM LIGHT BLUE",
     "price": 49.0,
-    "stock": 552,
-    "sales": 70
+    "stock": 498,
+    "sales": 104
   },
   {
     "outlet": "Warehouse",
@@ -14246,8 +14176,8 @@ const data = [
     "alias": "710733",
     "name": "EUR TOWEL AIR-RICH 50X100 CM ROSE PINK",
     "price": 25.0,
-    "stock": 886,
-    "sales": 38
+    "stock": 858,
+    "sales": 64
   },
   {
     "outlet": "Warehouse",
@@ -14256,8 +14186,8 @@ const data = [
     "alias": "710734",
     "name": "EUR TOWEL AIR-RICH 50X100 CM RICH BLACK",
     "price": 25.0,
-    "stock": 888,
-    "sales": 40
+    "stock": 860,
+    "sales": 44
   },
   {
     "outlet": "Warehouse",
@@ -14266,8 +14196,8 @@ const data = [
     "alias": "710735",
     "name": "EUR TOWEL AIR-RICH 50X100 CM LIGHT BLUE",
     "price": 25.0,
-    "stock": 780,
-    "sales": 55
+    "stock": 742,
+    "sales": 71
   },
   {
     "outlet": "Warehouse",
@@ -14276,28 +14206,8 @@ const data = [
     "alias": "710833",
     "name": "SQUARE TOWELS 30X30 CM AIR-RICH ROSE PINK",
     "price": 5.0,
-    "stock": 48,
-    "sales": 85
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "مناشف",
-    "code": "24040",
-    "alias": "710834",
-    "name": "SQUARE TOWELS 30X30 CM AIR-RICH RICH BLACK",
-    "price": 5.0,
-    "stock": 24,
-    "sales": 121
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "مناشف",
-    "code": "24041",
-    "alias": "710835",
-    "name": "SQUARE TOWELS 30X30 CM AIR-RICH LIGHT BLUE",
-    "price": 5.0,
-    "stock": 24,
-    "sales": 107
+    "stock": 28,
+    "sales": 99
   },
   {
     "outlet": "Warehouse",
@@ -14306,8 +14216,8 @@ const data = [
     "alias": "816413",
     "name": "BATH MAT 21X34IN DARKER LILAC",
     "price": 59.0,
-    "stock": 66,
-    "sales": 19
+    "stock": 18,
+    "sales": 22
   },
   {
     "outlet": "Warehouse",
@@ -14316,8 +14226,8 @@ const data = [
     "alias": "816314",
     "name": "BATH MAT 17X24IN NAVY",
     "price": 39.0,
-    "stock": 144,
-    "sales": 13
+    "stock": 96,
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -14326,8 +14236,8 @@ const data = [
     "alias": "5485",
     "name": "QUILT BABY BREATH MULTI KING 3 PCS",
     "price": 299.0,
-    "stock": 376,
-    "sales": 28
+    "stock": 370,
+    "sales": 49
   },
   {
     "outlet": "Warehouse",
@@ -14336,8 +14246,8 @@ const data = [
     "alias": "5484",
     "name": "QUILT EMLLY KING 3 PCS",
     "price": 299.0,
-    "stock": 388,
-    "sales": 19
+    "stock": 383,
+    "sales": 33
   },
   {
     "outlet": "Warehouse",
@@ -14346,7 +14256,7 @@ const data = [
     "alias": "817204",
     "name": "BATH MAT 30X50IN 4525",
     "price": 129.0,
-    "stock": 72,
+    "stock": 48,
     "sales": 5
   },
   {
@@ -14366,7 +14276,7 @@ const data = [
     "alias": "816412",
     "name": "BATH MAT 21X34IN BLACK",
     "price": 59.0,
-    "stock": 54,
+    "stock": 18,
     "sales": 0
   },
   {
@@ -14376,8 +14286,8 @@ const data = [
     "alias": "49916",
     "name": "PAVLA GREY KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1696,
-    "sales": 0
+    "stock": 1627,
+    "sales": 12
   },
   {
     "outlet": "Warehouse",
@@ -14386,8 +14296,8 @@ const data = [
     "alias": "49917",
     "name": "PAVLA BLUSH KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1696,
-    "sales": 0
+    "stock": 1628,
+    "sales": 6
   },
   {
     "outlet": "Warehouse",
@@ -14396,8 +14306,8 @@ const data = [
     "alias": "49918",
     "name": "PRSSIA KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 836,
-    "sales": 0
+    "stock": 741,
+    "sales": 48
   },
   {
     "outlet": "Warehouse",
@@ -14406,8 +14316,148 @@ const data = [
     "alias": "49919",
     "name": "ARDICE GRAY ECRU KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1696,
+    "stock": 1606,
+    "sales": 48
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24057",
+    "alias": "4092500",
+    "name": "*ROYCE TAUPE KING COMFORTER 8 PCS",
+    "price": 599.0,
+    "stock": 1850,
     "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24058",
+    "alias": "440925",
+    "name": "*ROYCE TAUPE KING COMFORTER 11 PCS KIT",
+    "price": 599.0,
+    "stock": 59,
+    "sales": 2
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24059",
+    "alias": "4092600",
+    "name": "*ROYCE GRAY KING COMFORTER 8 PCS",
+    "price": 599.0,
+    "stock": 550,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24060",
+    "alias": "440926",
+    "name": "*ROYCE GRAY KING COMFORTER 11 PCS KIT",
+    "price": 599.0,
+    "stock": 59,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24061",
+    "alias": "4092700",
+    "name": "*ROYCE IVORY KING COMFORTER 8 PCS",
+    "price": 599.0,
+    "stock": 1850,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24062",
+    "alias": "440927",
+    "name": "*ROYCE IVORY KING COMFORTER 11 PCS KIT",
+    "price": 599.0,
+    "stock": 58,
+    "sales": 2
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24063",
+    "alias": "4092800",
+    "name": "*PATIA INDIGO KING COMFORTER 8 PCS",
+    "price": 399.0,
+    "stock": 550,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24064",
+    "alias": "440928",
+    "name": "*PATIA INDIGO KING COMFORTER 11 PCS KIT",
+    "price": 399.0,
+    "stock": 59,
+    "sales": 2
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24065",
+    "alias": "4092900",
+    "name": "*PATIA GRAY KING COMFORTER 8 PCS",
+    "price": 399.0,
+    "stock": 1850,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24066",
+    "alias": "440929",
+    "name": "*PATIA GRAY KING COMFORTER 11 PCS KIT",
+    "price": 399.0,
+    "stock": 59,
+    "sales": 1
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24067",
+    "alias": "49914",
+    "name": "BOW GIMINY BLUE KING COMFORTER 5 PCS",
+    "price": 349.0,
+    "stock": 805,
+    "sales": 1
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24068",
+    "alias": "49915",
+    "name": "BOW GIMINY LAVENDER KING COMFORTER 5 PCS",
+    "price": 349.0,
+    "stock": 825,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24069",
+    "alias": "2741",
+    "name": "BOW GIMINY BLUE FULL COMFORTER 5 PCS",
+    "price": 299.0,
+    "stock": 857,
+    "sales": 1
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "nan",
+    "code": "24071",
+    "alias": "2743",
+    "name": "BOW GIMINY LAVENDER FULL COMFORTER 5 PCS",
+    "price": 299.0,
+    "stock": 857,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -14456,8 +14506,8 @@ const data = [
     "alias": "607301",
     "name": "WHITE SHEET ( FULL ) SET 3PCS",
     "price": 79.0,
-    "stock": 13866,
-    "sales": 13
+    "stock": 36,
+    "sales": 21
   },
   {
     "outlet": "warehouse riyadh",
@@ -14476,8 +14526,8 @@ const data = [
     "alias": "9114",
     "name": "PILLOW DOWN ALT EXTRA FIRM KING",
     "price": 69.0,
-    "stock": 5082,
-    "sales": 1475
+    "stock": 1274,
+    "sales": 1709
   },
   {
     "outlet": "warehouse riyadh",
@@ -14486,8 +14536,8 @@ const data = [
     "alias": "607307",
     "name": "SILVER SHEET ( FULL )  SET 3PCS",
     "price": 79.0,
-    "stock": 744,
-    "sales": 4
+    "stock": 284,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -14496,8 +14546,8 @@ const data = [
     "alias": "607302",
     "name": "MARSHMALLOW SHEET ( FULL ) SET 3PCS",
     "price": 79.0,
-    "stock": 8166,
-    "sales": 0
+    "stock": 5511,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -14506,8 +14556,8 @@ const data = [
     "alias": "607601",
     "name": "SHEET 4 PCS 300 STITSH KING WHITE",
     "price": 219.0,
-    "stock": 4560,
-    "sales": 128
+    "stock": 3946,
+    "sales": 135
   },
   {
     "outlet": "warehouse riyadh",
@@ -14516,8 +14566,8 @@ const data = [
     "alias": "607609",
     "name": "SHEET 4 PCS 300 STITSH KING PINK",
     "price": 219.0,
-    "stock": 444,
-    "sales": 23
+    "stock": 428,
+    "sales": 19
   },
   {
     "outlet": "warehouse riyadh",
@@ -14526,8 +14576,8 @@ const data = [
     "alias": "607701",
     "name": "WHITE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 6684,
-    "sales": 164
+    "stock": 109,
+    "sales": 183
   },
   {
     "outlet": "warehouse riyadh",
@@ -14536,8 +14586,8 @@ const data = [
     "alias": "607709",
     "name": "PINK SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 910,
-    "sales": 97
+    "stock": 678,
+    "sales": 113
   },
   {
     "outlet": "warehouse riyadh",
@@ -14596,8 +14646,8 @@ const data = [
     "alias": "608503",
     "name": "SILVER DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495.0,
-    "stock": 795,
-    "sales": 8
+    "stock": 561,
+    "sales": 15
   },
   {
     "outlet": "warehouse riyadh",
@@ -14606,7 +14656,7 @@ const data = [
     "alias": "608504",
     "name": "LT.BLUE DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495.0,
-    "stock": 359,
+    "stock": 187,
     "sales": 5
   },
   {
@@ -14616,8 +14666,8 @@ const data = [
     "alias": "608507",
     "name": "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495.0,
-    "stock": 905,
-    "sales": 9
+    "stock": 657,
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -14626,8 +14676,8 @@ const data = [
     "alias": "608508",
     "name": "WHITE DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495.0,
-    "stock": 1195,
-    "sales": 26
+    "stock": 997,
+    "sales": 32
   },
   {
     "outlet": "warehouse riyadh",
@@ -14636,8 +14686,8 @@ const data = [
     "alias": "9154",
     "name": "(SPECIAL OFFER) DOWN ALT FIRM STANDARD PILLOW 233TC",
     "price": 39.0,
-    "stock": 12378,
-    "sales": 2044
+    "stock": 10126,
+    "sales": 2581
   },
   {
     "outlet": "warehouse riyadh",
@@ -14646,8 +14696,8 @@ const data = [
     "alias": "710801",
     "name": "SQUARE TOWELS AIR-RICH IVORY",
     "price": 5.0,
-    "stock": 7728,
-    "sales": 259
+    "stock": 3894,
+    "sales": 271
   },
   {
     "outlet": "warehouse riyadh",
@@ -14656,8 +14706,8 @@ const data = [
     "alias": "710802",
     "name": "SQUARE TOWELS AIR-RICH WHITE",
     "price": 5.0,
-    "stock": 6672,
-    "sales": 365
+    "stock": 1858,
+    "sales": 436
   },
   {
     "outlet": "warehouse riyadh",
@@ -14666,8 +14716,8 @@ const data = [
     "alias": "710803",
     "name": "SQUARE TOWELS AIR-RICH LINEN",
     "price": 5.0,
-    "stock": 6887,
-    "sales": 199
+    "stock": 2952,
+    "sales": 217
   },
   {
     "outlet": "warehouse riyadh",
@@ -14676,8 +14726,8 @@ const data = [
     "alias": "710809",
     "name": "SQUARE TOWELS AIR-RICH PINK",
     "price": 5.0,
-    "stock": 5472,
-    "sales": 181
+    "stock": 1295,
+    "sales": 196
   },
   {
     "outlet": "warehouse riyadh",
@@ -14686,8 +14736,8 @@ const data = [
     "alias": "710812",
     "name": "SQUARE TOWELS AIR-RICH TITANIUM",
     "price": 5.0,
-    "stock": 696,
-    "sales": 125
+    "stock": 233,
+    "sales": 132
   },
   {
     "outlet": "warehouse riyadh",
@@ -14697,7 +14747,7 @@ const data = [
     "name": "SQUARE TOWELS AIR-RICH ROSE",
     "price": 5.0,
     "stock": 1704,
-    "sales": 62
+    "sales": 46
   },
   {
     "outlet": "warehouse riyadh",
@@ -14706,8 +14756,8 @@ const data = [
     "alias": "710601",
     "name": "BATH SHEET AIR-RICH IVORY",
     "price": 69.0,
-    "stock": 5916,
-    "sales": 63
+    "stock": 25,
+    "sales": 52
   },
   {
     "outlet": "warehouse riyadh",
@@ -14716,8 +14766,8 @@ const data = [
     "alias": "710602",
     "name": "BATH SHEET AIR-RICH WHITE",
     "price": 69.0,
-    "stock": 6645,
-    "sales": 140
+    "stock": 4,
+    "sales": 131
   },
   {
     "outlet": "warehouse riyadh",
@@ -14726,8 +14776,8 @@ const data = [
     "alias": "710603",
     "name": "BATH SHEET AIR-RICH LINEN",
     "price": 69.0,
-    "stock": 4080,
-    "sales": 88
+    "stock": 2046,
+    "sales": 113
   },
   {
     "outlet": "warehouse riyadh",
@@ -14736,8 +14786,8 @@ const data = [
     "alias": "710609",
     "name": "BATH SHEET AIR-RICH PINK",
     "price": 69.0,
-    "stock": 5682,
-    "sales": 44
+    "stock": 128,
+    "sales": 65
   },
   {
     "outlet": "warehouse riyadh",
@@ -14746,8 +14796,8 @@ const data = [
     "alias": "710611",
     "name": "BATH SHEET AIR-RICH P.BLUE",
     "price": 69.0,
-    "stock": 15,
-    "sales": 16
+    "stock": 3,
+    "sales": 17
   },
   {
     "outlet": "warehouse riyadh",
@@ -14756,8 +14806,8 @@ const data = [
     "alias": "710612",
     "name": "BATH SHEET AIR-RICH TITANIUM",
     "price": 69.0,
-    "stock": 330,
-    "sales": 71
+    "stock": 471,
+    "sales": 77
   },
   {
     "outlet": "warehouse riyadh",
@@ -14766,8 +14816,8 @@ const data = [
     "alias": "710614",
     "name": "BATH SHEET AIR-RICH ROSE",
     "price": 69.0,
-    "stock": 528,
-    "sales": 41
+    "stock": 430,
+    "sales": 33
   },
   {
     "outlet": "warehouse riyadh",
@@ -14776,8 +14826,8 @@ const data = [
     "alias": "710701",
     "name": "EUR TOWEL AIR-RICH IVORY",
     "price": 25.0,
-    "stock": 4788,
-    "sales": 225
+    "stock": 1559,
+    "sales": 286
   },
   {
     "outlet": "warehouse riyadh",
@@ -14786,8 +14836,8 @@ const data = [
     "alias": "710702",
     "name": "EUR TOWEL AIR-RICH WHITE",
     "price": 25.0,
-    "stock": 4764,
-    "sales": 191
+    "stock": 1683,
+    "sales": 211
   },
   {
     "outlet": "warehouse riyadh",
@@ -14796,8 +14846,8 @@ const data = [
     "alias": "710703",
     "name": "EUR TOWEL AIR-RICH LINEN",
     "price": 25.0,
-    "stock": 5580,
-    "sales": 125
+    "stock": 3260,
+    "sales": 170
   },
   {
     "outlet": "warehouse riyadh",
@@ -14806,8 +14856,8 @@ const data = [
     "alias": "710709",
     "name": "EUR TOWEL AIR-RICH PINK",
     "price": 25.0,
-    "stock": 4248,
-    "sales": 155
+    "stock": 1485,
+    "sales": 198
   },
   {
     "outlet": "warehouse riyadh",
@@ -14816,8 +14866,8 @@ const data = [
     "alias": "710712",
     "name": "EUR TOWEL AIR-RICH TITANIUM",
     "price": 25.0,
-    "stock": 840,
-    "sales": 73
+    "stock": 1207,
+    "sales": 94
   },
   {
     "outlet": "warehouse riyadh",
@@ -14846,7 +14896,7 @@ const data = [
     "alias": "456008",
     "name": "IVORY SO-SOFT KING COMFORTER 3PCS",
     "price": 299.0,
-    "stock": 3,
+    "stock": 14,
     "sales": 5
   },
   {
@@ -14856,8 +14906,8 @@ const data = [
     "alias": "916801",
     "name": "ROBE IVORY S/M",
     "price": 99.0,
-    "stock": 738,
-    "sales": 155
+    "stock": 10,
+    "sales": 203
   },
   {
     "outlet": "warehouse riyadh",
@@ -14866,8 +14916,8 @@ const data = [
     "alias": "916802",
     "name": "ROBE WHITE S/M",
     "price": 99.0,
-    "stock": 720,
-    "sales": 118
+    "stock": 1582,
+    "sales": 140
   },
   {
     "outlet": "warehouse riyadh",
@@ -14876,8 +14926,8 @@ const data = [
     "alias": "916803",
     "name": "ROBE LINEN S/M.",
     "price": 99.0,
-    "stock": 1164,
-    "sales": 84
+    "stock": 10,
+    "sales": 105
   },
   {
     "outlet": "warehouse riyadh",
@@ -14886,8 +14936,8 @@ const data = [
     "alias": "916901",
     "name": "ROBE IVORY L/XL",
     "price": 99.0,
-    "stock": 1476,
-    "sales": 110
+    "stock": 24,
+    "sales": 126
   },
   {
     "outlet": "warehouse riyadh",
@@ -14896,8 +14946,8 @@ const data = [
     "alias": "916902",
     "name": "ROBE WHITE L/XL",
     "price": 99.0,
-    "stock": 1590,
-    "sales": 106
+    "stock": 41,
+    "sales": 115
   },
   {
     "outlet": "warehouse riyadh",
@@ -14906,8 +14956,8 @@ const data = [
     "alias": "916903",
     "name": "ROBE LINEN L/XL",
     "price": 99.0,
-    "stock": 551,
-    "sales": 166
+    "stock": 7,
+    "sales": 188
   },
   {
     "outlet": "warehouse riyadh",
@@ -14916,8 +14966,8 @@ const data = [
     "alias": "916908",
     "name": "ROBE PINK L/XL",
     "price": 99.0,
-    "stock": 330,
-    "sales": 136
+    "stock": 10,
+    "sales": 158
   },
   {
     "outlet": "warehouse riyadh",
@@ -14926,8 +14976,8 @@ const data = [
     "alias": "607723",
     "name": "STERLNG BLUE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 2170,
-    "sales": 44
+    "stock": 1,
+    "sales": 51
   },
   {
     "outlet": "warehouse riyadh",
@@ -14936,7 +14986,7 @@ const data = [
     "alias": "607724",
     "name": "MARCHMALOW SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 2,
+    "stock": 11,
     "sales": 0
   },
   {
@@ -14946,8 +14996,8 @@ const data = [
     "alias": "607727",
     "name": "SHEET 3 PCS 300 STITSH KING BURGUNDY",
     "price": 129.0,
-    "stock": 201,
-    "sales": 51
+    "stock": 2,
+    "sales": 58
   },
   {
     "outlet": "warehouse riyadh",
@@ -14956,8 +15006,8 @@ const data = [
     "alias": "607729",
     "name": "GREY SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 3770,
-    "sales": 78
+    "stock": 773,
+    "sales": 103
   },
   {
     "outlet": "warehouse riyadh",
@@ -14966,8 +15016,8 @@ const data = [
     "alias": "607725",
     "name": "L. MARBLE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 1980,
-    "sales": 62
+    "stock": 1920,
+    "sales": 61
   },
   {
     "outlet": "warehouse riyadh",
@@ -14976,8 +15026,8 @@ const data = [
     "alias": "607730",
     "name": "PLATINUM GREY SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 2120,
-    "sales": 181
+    "stock": 1062,
+    "sales": 202
   },
   {
     "outlet": "warehouse riyadh",
@@ -14986,8 +15036,8 @@ const data = [
     "alias": "607732",
     "name": "OFF WHITE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 13953,
-    "sales": 109
+    "stock": 45,
+    "sales": 155
   },
   {
     "outlet": "warehouse riyadh",
@@ -15026,8 +15076,18 @@ const data = [
     "alias": "607733",
     "name": "HEATHER KING 3 PCS 300 STITSH",
     "price": 129.0,
-    "stock": 1620,
-    "sales": 27
+    "stock": 1590,
+    "sales": 34
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "13492",
+    "alias": "408501",
+    "name": "WHITE DAMASK KING COMFORTER 500 TC 6 PCS",
+    "price": 699.0,
+    "stock": 943,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -15035,9 +15095,9 @@ const data = [
     "code": "13493",
     "alias": "408502",
     "name": "COUBLESTONE DAMASK KING  COMFORTER 500 TC 6 PCS",
-    "price": 695.0,
-    "stock": 1,
-    "sales": 3
+    "price": 699.0,
+    "stock": 455,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -15045,9 +15105,9 @@ const data = [
     "code": "13498",
     "alias": "408507",
     "name": "SILVER DAMASK KING COMFORTER 500 TC 6 PCS",
-    "price": 695.0,
-    "stock": 1,
-    "sales": 2
+    "price": 699.0,
+    "stock": 705,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -15055,9 +15115,9 @@ const data = [
     "code": "13503",
     "alias": "408509",
     "name": "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
-    "price": 695.0,
-    "stock": 451,
-    "sales": 12
+    "price": 699.0,
+    "stock": 90,
+    "sales": 17
   },
   {
     "outlet": "warehouse riyadh",
@@ -15065,9 +15125,9 @@ const data = [
     "code": "13533",
     "alias": "408511",
     "name": "LT.BLUE DAMASK KING COMFORTER 500 TC 6 PCS",
-    "price": 695.0,
-    "stock": 336,
-    "sales": 16
+    "price": 699.0,
+    "stock": 13,
+    "sales": 19
   },
   {
     "outlet": "warehouse riyadh",
@@ -15075,9 +15135,29 @@ const data = [
     "code": "13536",
     "alias": "408514",
     "name": "IVORY DAMASK KING COMFORTER 500 TC 6 PCS",
-    "price": 695.0,
-    "stock": 459,
-    "sales": 30
+    "price": 699.0,
+    "stock": 24,
+    "sales": 33
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات فل",
+    "code": "13608",
+    "alias": "239904",
+    "name": "HUSH VIOLT DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
+    "price": 499.0,
+    "stock": 355,
+    "sales": 6
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات فل",
+    "code": "13610",
+    "alias": "239906",
+    "name": "SILVER DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
+    "price": 499.0,
+    "stock": 343,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -15085,9 +15165,9 @@ const data = [
     "code": "13613",
     "alias": "239913",
     "name": "IVORY DAMASK  FULL COMFORTER 4 PCS 500 STITSH",
-    "price": 595.0,
-    "stock": 86,
-    "sales": 10
+    "price": 499.0,
+    "stock": 209,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
@@ -15095,9 +15175,29 @@ const data = [
     "code": "13615",
     "alias": "239901",
     "name": "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    "price": 595.0,
-    "stock": 1,
-    "sales": 3
+    "price": 499.0,
+    "stock": 456,
+    "sales": 1
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات فل",
+    "code": "13616",
+    "alias": "239902",
+    "name": "COUBLE STONE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
+    "price": 499.0,
+    "stock": 348,
+    "sales": 8
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات فل",
+    "code": "13629",
+    "alias": "239908",
+    "name": "LT BLUE DAMASK FULL COMFORTER 4 PCS 500 STITSH - 13618",
+    "price": 499.0,
+    "stock": 255,
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -15116,8 +15216,8 @@ const data = [
     "alias": "456016",
     "name": "CHERRY BLOOSOM SO-SOFT KING COMFORTER 3PCS",
     "price": 299.0,
-    "stock": 136,
-    "sales": 2
+    "stock": 134,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -15126,7 +15226,7 @@ const data = [
     "alias": "456021",
     "name": "CRIMSOM SO-SOFT KING COMFORTER 3PCS",
     "price": 299.0,
-    "stock": 12,
+    "stock": 1,
     "sales": 0
   },
   {
@@ -15136,7 +15236,7 @@ const data = [
     "alias": "04013",
     "name": "@TRACEY BED COVER SET SALMON",
     "price": 797.0,
-    "stock": 2,
+    "stock": 1,
     "sales": 0
   },
   {
@@ -15166,8 +15266,8 @@ const data = [
     "alias": "538716",
     "name": "BIG ONE MALLORY KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 60,
-    "sales": 28
+    "stock": 2,
+    "sales": 41
   },
   {
     "outlet": "warehouse riyadh",
@@ -15186,8 +15286,8 @@ const data = [
     "alias": "607736",
     "name": "SLIT KING 3 PCS 300 STITSH",
     "price": 129.0,
-    "stock": 2076,
-    "sales": 27
+    "stock": 2,
+    "sales": 30
   },
   {
     "outlet": "warehouse riyadh",
@@ -15196,7 +15296,7 @@ const data = [
     "alias": "419300",
     "name": "*MHEA KING COMFORTER 8 PCS.",
     "price": 895.0,
-    "stock": 871,
+    "stock": 50,
     "sales": 0
   },
   {
@@ -15206,7 +15306,7 @@ const data = [
     "alias": "407600",
     "name": "*KAYA GOLD KING COMFORTER 8 PCS",
     "price": 995.0,
-    "stock": 306,
+    "stock": 66,
     "sales": 0
   },
   {
@@ -15216,8 +15316,8 @@ const data = [
     "alias": "44076",
     "name": "*(SPECIAL OFFER) KAYA GOLD KING COMFORTER 11 PCS_KIT",
     "price": 796.0,
-    "stock": 141,
-    "sales": 6
+    "stock": 131,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -15236,8 +15336,8 @@ const data = [
     "alias": "210927",
     "name": "CRIMSON SO-SOFT F/Q COMFORTER 2 PCS",
     "price": 199.0,
-    "stock": 164,
-    "sales": 1
+    "stock": 5,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -15256,8 +15356,8 @@ const data = [
     "alias": "44746",
     "name": "*ROPE EMBRODERY KING COMFORTER 11 PCS KIT",
     "price": 1299.0,
-    "stock": 106,
-    "sales": 24
+    "stock": 7,
+    "sales": 39
   },
   {
     "outlet": "warehouse riyadh",
@@ -15266,8 +15366,8 @@ const data = [
     "alias": "538733",
     "name": "BIG ONE ASTER KING 3 PCS",
     "price": 149.0,
-    "stock": 462,
-    "sales": 56
+    "stock": 97,
+    "sales": 59
   },
   {
     "outlet": "warehouse riyadh",
@@ -15276,8 +15376,8 @@ const data = [
     "alias": "538735",
     "name": "BIG ONE CASELLI KING 3 PCS",
     "price": 149.0,
-    "stock": 402,
-    "sales": 48
+    "stock": 2,
+    "sales": 55
   },
   {
     "outlet": "warehouse riyadh",
@@ -15296,8 +15396,8 @@ const data = [
     "alias": "44193",
     "name": "*MHEA KING COMFORTER 11 PCS KIT",
     "price": 895.0,
-    "stock": 117,
-    "sales": 124
+    "stock": 32,
+    "sales": 134
   },
   {
     "outlet": "warehouse riyadh",
@@ -15306,8 +15406,8 @@ const data = [
     "alias": "9300",
     "name": "JUST RELAX 200*200 CM KING MATRESPAD",
     "price": 199.0,
-    "stock": 15412,
-    "sales": 386
+    "stock": 1,
+    "sales": 419
   },
   {
     "outlet": "warehouse riyadh",
@@ -15316,8 +15416,8 @@ const data = [
     "alias": "9301",
     "name": "JUST RELAX 203*218 CM FULL DUVET",
     "price": 194.0,
-    "stock": 1168,
-    "sales": 53
+    "stock": 716,
+    "sales": 50
   },
   {
     "outlet": "warehouse riyadh",
@@ -15327,7 +15427,7 @@ const data = [
     "name": "*(SPECIAL OFFER) BETSY KING COMFORTER 11 PCS KIT",
     "price": 796.0,
     "stock": 1,
-    "sales": 17
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
@@ -15386,8 +15486,8 @@ const data = [
     "alias": "710721",
     "name": "EUR TOWEL AIR-RICH OYSTER MUSHROOM",
     "price": 25.0,
-    "stock": 5580,
-    "sales": 177
+    "stock": 3185,
+    "sales": 200
   },
   {
     "outlet": "warehouse riyadh",
@@ -15396,8 +15496,8 @@ const data = [
     "alias": "710821",
     "name": "SQUARE TOWELS AIR-RICH OYSTER MUSHROOM",
     "price": 5.0,
-    "stock": 7008,
-    "sales": 143
+    "stock": 2901,
+    "sales": 159
   },
   {
     "outlet": "warehouse riyadh",
@@ -15406,8 +15506,8 @@ const data = [
     "alias": "710621",
     "name": "BATH SHEET AIR-RICH OYSTER MUSHROOM",
     "price": 69.0,
-    "stock": 2220,
-    "sales": 92
+    "stock": 78,
+    "sales": 89
   },
   {
     "outlet": "warehouse riyadh",
@@ -15446,8 +15546,8 @@ const data = [
     "alias": "9263",
     "name": "JUST RELAX FULL MATTRES PAD 122X191 CM",
     "price": 189.0,
-    "stock": 1230,
-    "sales": 179
+    "stock": 124,
+    "sales": 189
   },
   {
     "outlet": "warehouse riyadh",
@@ -15456,8 +15556,8 @@ const data = [
     "alias": "608517",
     "name": "HUSHED V. DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495.0,
-    "stock": 360,
-    "sales": 6
+    "stock": 173,
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -15476,8 +15576,8 @@ const data = [
     "alias": "9306",
     "name": "JUST RELAX 163*203CM QUEEN MATRESPAD",
     "price": 199.0,
-    "stock": 197,
-    "sales": 101
+    "stock": 118,
+    "sales": 119
   },
   {
     "outlet": "warehouse riyadh",
@@ -15496,8 +15596,8 @@ const data = [
     "alias": "9563",
     "name": "300TC DREAM COMFORT KING PILLOW",
     "price": 99.0,
-    "stock": 6744,
-    "sales": 488
+    "stock": 2,
+    "sales": 562
   },
   {
     "outlet": "warehouse riyadh",
@@ -15507,17 +15607,7 @@ const data = [
     "name": "BATH ROBE CHINO GREEN S/M",
     "price": 99.0,
     "stock": 24,
-    "sales": 7
-  },
-  {
-    "outlet": "warehouse riyadh",
-    "category": "أرواب حمام",
-    "code": "16839",
-    "alias": "916821",
-    "name": "BATH ROBE OYSTER MUSHROOM S/M",
-    "price": 136.5,
-    "stock": 54,
-    "sales": 140
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -15526,8 +15616,8 @@ const data = [
     "alias": "9564",
     "name": "STANDARD PILLOW DREAM COMFORT 300TC",
     "price": 69.0,
-    "stock": 4257,
-    "sales": 516
+    "stock": 137,
+    "sales": 618
   },
   {
     "outlet": "warehouse riyadh",
@@ -15536,7 +15626,7 @@ const data = [
     "alias": "4011400",
     "name": "*LEXY BLUSH KING COMFORTER 5 PCS",
     "price": 495.0,
-    "stock": 894,
+    "stock": 296,
     "sales": 0
   },
   {
@@ -15546,8 +15636,8 @@ const data = [
     "alias": "440114",
     "name": "*LEXY BLUSH KING COMFORTER 8 PCS KIT",
     "price": 495.0,
-    "stock": 392,
-    "sales": 36
+    "stock": 5,
+    "sales": 44
   },
   {
     "outlet": "warehouse riyadh",
@@ -15556,8 +15646,8 @@ const data = [
     "alias": "607315",
     "name": "TAUPE SHEET ( FULL )SET 3PCS",
     "price": 79.0,
-    "stock": 234,
-    "sales": -2
+    "stock": 15,
+    "sales": -1
   },
   {
     "outlet": "warehouse riyadh",
@@ -15566,7 +15656,7 @@ const data = [
     "alias": "607316",
     "name": "PLATINUM GREY SHEET  ( FULL )SET 3PCS",
     "price": 79.0,
-    "stock": 3654,
+    "stock": 3235,
     "sales": 2
   },
   {
@@ -15576,8 +15666,8 @@ const data = [
     "alias": "607318",
     "name": "PINK SHEET( FULL ) SET 3PCS",
     "price": 79.0,
-    "stock": 1422,
-    "sales": 1
+    "stock": 1242,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -15586,8 +15676,8 @@ const data = [
     "alias": "9565",
     "name": "EURO SHAM DOWN ALT FIRM PILLOW ( PAIRE )",
     "price": 99.0,
-    "stock": 1,
-    "sales": 21
+    "stock": 2,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -15596,7 +15686,7 @@ const data = [
     "alias": "4012300",
     "name": "*ZAHA RAIN BLUE KING COMFORTER 5 PCS",
     "price": 595.0,
-    "stock": 330,
+    "stock": 186,
     "sales": 0
   },
   {
@@ -15606,8 +15696,8 @@ const data = [
     "alias": "440123",
     "name": "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
     "price": 595.0,
-    "stock": 96,
-    "sales": 23
+    "stock": 10,
+    "sales": 28
   },
   {
     "outlet": "warehouse riyadh",
@@ -15626,8 +15716,8 @@ const data = [
     "alias": "440124",
     "name": "*ZAHA WHITE KING COMFORTER 8 PCS KIT",
     "price": 595.0,
-    "stock": 109,
-    "sales": 37
+    "stock": 99,
+    "sales": 54
   },
   {
     "outlet": "warehouse riyadh",
@@ -15636,8 +15726,8 @@ const data = [
     "alias": "709933",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS B",
     "price": 99.0,
-    "stock": 30,
-    "sales": 4
+    "stock": 36,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -15646,7 +15736,7 @@ const data = [
     "alias": "709937",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS G",
     "price": 99.0,
-    "stock": 138,
+    "stock": 102,
     "sales": 1
   },
   {
@@ -15657,7 +15747,7 @@ const data = [
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS J",
     "price": 99.0,
     "stock": 24,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -15666,8 +15756,8 @@ const data = [
     "alias": "709943",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS K",
     "price": 99.0,
-    "stock": 30,
-    "sales": 4
+    "stock": 31,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -15676,8 +15766,8 @@ const data = [
     "alias": "709945",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS L",
     "price": 99.0,
-    "stock": 42,
-    "sales": 6
+    "stock": 32,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -15686,7 +15776,7 @@ const data = [
     "alias": "709953",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS T",
     "price": 99.0,
-    "stock": 90,
+    "stock": 94,
     "sales": 0
   },
   {
@@ -15696,8 +15786,8 @@ const data = [
     "alias": "709955",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS W",
     "price": 99.0,
-    "stock": 42,
-    "sales": 3
+    "stock": 57,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -15716,7 +15806,7 @@ const data = [
     "alias": "404900",
     "name": "*SHANGIA SAFRON KING COMFORTER 5 PCS",
     "price": 495.0,
-    "stock": 1183,
+    "stock": 357,
     "sales": 0
   },
   {
@@ -15726,8 +15816,8 @@ const data = [
     "alias": "44049",
     "name": "*SHANGIA SAFRON KING COMFORTER 8 PCS KIT",
     "price": 495.0,
-    "stock": 65,
-    "sales": 36
+    "stock": 91,
+    "sales": 35
   },
   {
     "outlet": "warehouse riyadh",
@@ -15746,8 +15836,8 @@ const data = [
     "alias": "800802",
     "name": "HEATHER FAUX RABBIT FUR 50*85 CM MAT",
     "price": 59.0,
-    "stock": 72,
-    "sales": 10
+    "stock": 154,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -15756,8 +15846,8 @@ const data = [
     "alias": "800805",
     "name": "CHARCOAL FAUX RABBIT FUR 50*85 CM MAT",
     "price": 59.0,
-    "stock": 156,
-    "sales": 11
+    "stock": 231,
+    "sales": 9
   },
   {
     "outlet": "warehouse riyadh",
@@ -15806,8 +15896,8 @@ const data = [
     "alias": "440220",
     "name": "*(SPECIAL OFFER) OINOS KING COMFORTER 11 PCS KIT",
     "price": 795.0,
-    "stock": 64,
-    "sales": 43
+    "stock": 40,
+    "sales": 45
   },
   {
     "outlet": "warehouse riyadh",
@@ -15816,7 +15906,7 @@ const data = [
     "alias": "002520",
     "name": "OBB DS 20 ROUND DINNER SET 28 PCS",
     "price": 199.0,
-    "stock": 14,
+    "stock": 5,
     "sales": 1
   },
   {
@@ -15826,7 +15916,7 @@ const data = [
     "alias": "002521",
     "name": "OBB DS 21 ROUND DINNER SET 28 PCS",
     "price": 199.0,
-    "stock": 2,
+    "stock": 5,
     "sales": 0
   },
   {
@@ -15846,8 +15936,8 @@ const data = [
     "alias": "9312",
     "name": "ADJUSTABLE KING PILLOW",
     "price": 189.0,
-    "stock": 2959,
-    "sales": 188
+    "stock": 10403,
+    "sales": 204
   },
   {
     "outlet": "warehouse riyadh",
@@ -15856,7 +15946,7 @@ const data = [
     "alias": "816104",
     "name": "DOORMAT #4 SIZE 60X90 CM",
     "price": 59.0,
-    "stock": 6,
+    "stock": 3,
     "sales": 0
   },
   {
@@ -15866,8 +15956,8 @@ const data = [
     "alias": "618305",
     "name": "WINTER SHEET HAS SKY KING 3 PCS",
     "price": 99.0,
-    "stock": 260,
-    "sales": 16
+    "stock": 242,
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -15886,8 +15976,8 @@ const data = [
     "alias": "709979",
     "name": "EMBROIDERED TOWEL SET 3 PCS EMB D #7",
     "price": 99.0,
-    "stock": 54,
-    "sales": 4
+    "stock": 48,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -15916,8 +16006,8 @@ const data = [
     "alias": "714401",
     "name": "AIR-RICH IVORY 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 6132,
-    "sales": 154
+    "stock": 2650,
+    "sales": 175
   },
   {
     "outlet": "warehouse riyadh",
@@ -15926,8 +16016,8 @@ const data = [
     "alias": "714403",
     "name": "AIR-RICH LINEN 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 4176,
-    "sales": 110
+    "stock": 1489,
+    "sales": 122
   },
   {
     "outlet": "warehouse riyadh",
@@ -15936,8 +16026,8 @@ const data = [
     "alias": "714412",
     "name": "AIR-RICH TITANIUM 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 3078,
-    "sales": 51
+    "stock": 3054,
+    "sales": 52
   },
   {
     "outlet": "warehouse riyadh",
@@ -15946,8 +16036,8 @@ const data = [
     "alias": "714414",
     "name": "AIR-RICH ROSE 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 1152,
-    "sales": 57
+    "stock": 1080,
+    "sales": 50
   },
   {
     "outlet": "warehouse riyadh",
@@ -15956,8 +16046,8 @@ const data = [
     "alias": "714421",
     "name": "AIR-RICH OYSTER MUSHROOM 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 5880,
-    "sales": 157
+    "stock": 896,
+    "sales": 153
   },
   {
     "outlet": "warehouse riyadh",
@@ -15966,8 +16056,8 @@ const data = [
     "alias": "714409",
     "name": "AIR-RICH PINK 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 2261,
-    "sales": 124
+    "stock": 2375,
+    "sales": 158
   },
   {
     "outlet": "warehouse riyadh",
@@ -15976,18 +16066,28 @@ const data = [
     "alias": "714402",
     "name": "AIR-RICH WHITE 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 4191,
-    "sales": 150
+    "stock": 1079,
+    "sales": 145
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "أطقم دعاسات",
+    "code": "19362",
+    "alias": "816201",
+    "name": "BATH MAT SET 2 PCS IVORY",
+    "price": 99.0,
+    "stock": 734,
+    "sales": 49
   },
   {
     "outlet": "warehouse riyadh",
     "category": "أطقم دعاسات",
     "code": "19363",
     "alias": "816202",
-    "name": "BATH MAT SET 2 PCS TAN",
-    "price": 94.0,
-    "stock": 672,
-    "sales": 36
+    "name": "BATH MAT SET 2 PCS CHINO GREEN",
+    "price": 99.0,
+    "stock": 246,
+    "sales": 42
   },
   {
     "outlet": "warehouse riyadh",
@@ -15995,29 +16095,29 @@ const data = [
     "code": "19366",
     "alias": "816205",
     "name": "BATH MAT SET 2 PCS WHITE",
-    "price": 94.0,
-    "stock": 486,
-    "sales": 14
+    "price": 99.0,
+    "stock": 474,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
     "category": "أطقم دعاسات",
     "code": "19368",
     "alias": "816207",
-    "name": "BATH MAT SET 2 PCS DARKER LIGHT GREY",
-    "price": 94.0,
-    "stock": 96,
-    "sales": 22
+    "name": "BATH MAT SET 2 PCS OYESTER MUSHROOM",
+    "price": 99.0,
+    "stock": 428,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
     "category": "أطقم دعاسات",
     "code": "19370",
     "alias": "816209",
-    "name": "BATH MAT SET 2 PCS LIGHT ROSE",
-    "price": 94.0,
-    "stock": 6,
-    "sales": 12
+    "name": "BATH MAT SET 2 PCS PINK",
+    "price": 99.0,
+    "stock": 273,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -16025,9 +16125,19 @@ const data = [
     "code": "19371",
     "alias": "816210",
     "name": "BATH MAT SET 2 PCS ROSE",
-    "price": 94.0,
-    "stock": 330,
-    "sales": 3
+    "price": 99.0,
+    "stock": 2,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "دعاسات",
+    "code": "19387",
+    "alias": "816401",
+    "name": "BATH MAT 21X34IN LIGHT YELLOW",
+    "price": 59.0,
+    "stock": 103,
+    "sales": 34
   },
   {
     "outlet": "warehouse riyadh",
@@ -16036,8 +16146,8 @@ const data = [
     "alias": "816402",
     "name": "BATH MAT 21X34IN CHINO GREEN",
     "price": 59.0,
-    "stock": 390,
-    "sales": 20
+    "stock": 630,
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -16046,7 +16156,7 @@ const data = [
     "alias": "816404",
     "name": "BATH MAT 21X34IN BURGUNDY",
     "price": 59.0,
-    "stock": 284,
+    "stock": 12,
     "sales": 4
   },
   {
@@ -16056,8 +16166,8 @@ const data = [
     "alias": "816405",
     "name": "BATH MAT 21X34IN WHITE",
     "price": 59.0,
-    "stock": 180,
-    "sales": 21
+    "stock": 4,
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -16066,7 +16176,7 @@ const data = [
     "alias": "816407",
     "name": "BATH MAT 21X34IN DARKER LIGHT GREY",
     "price": 59.0,
-    "stock": 378,
+    "stock": 24,
     "sales": 31
   },
   {
@@ -16076,8 +16186,8 @@ const data = [
     "alias": "816409",
     "name": "BATH MAT 21X34IN LIGHT ROSE",
     "price": 59.0,
-    "stock": 503,
-    "sales": 13
+    "stock": 32,
+    "sales": 16
   },
   {
     "outlet": "warehouse riyadh",
@@ -16086,8 +16196,8 @@ const data = [
     "alias": "816410",
     "name": "BATH MAT 21X34IN ROSE",
     "price": 59.0,
-    "stock": 824,
-    "sales": 5
+    "stock": 16,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -16096,8 +16206,8 @@ const data = [
     "alias": "816301",
     "name": "BATH MAT 17X24IN LIGHT YELLOW",
     "price": 39.0,
-    "stock": 408,
-    "sales": 24
+    "stock": 314,
+    "sales": 20
   },
   {
     "outlet": "warehouse riyadh",
@@ -16106,8 +16216,8 @@ const data = [
     "alias": "816302",
     "name": "BATH MAT 17X24IN CHINO GREEN",
     "price": 39.0,
-    "stock": 594,
-    "sales": 14
+    "stock": 153,
+    "sales": 19
   },
   {
     "outlet": "warehouse riyadh",
@@ -16116,8 +16226,8 @@ const data = [
     "alias": "816304",
     "name": "BATH MAT 17X24IN BURGUNDY",
     "price": 39.0,
-    "stock": 420,
-    "sales": 9
+    "stock": 111,
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -16126,8 +16236,8 @@ const data = [
     "alias": "816305",
     "name": "BATH MAT 17X24IN WHITE",
     "price": 39.0,
-    "stock": 408,
-    "sales": 13
+    "stock": 7,
+    "sales": 11
   },
   {
     "outlet": "warehouse riyadh",
@@ -16136,8 +16246,8 @@ const data = [
     "alias": "816308",
     "name": "BATH MAT 17X24IN P.BLUE",
     "price": 39.0,
-    "stock": 240,
-    "sales": 2
+    "stock": 236,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -16146,8 +16256,8 @@ const data = [
     "alias": "816309",
     "name": "BATH MAT 17X24IN PINK",
     "price": 39.0,
-    "stock": 205,
-    "sales": 2
+    "stock": 383,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -16156,8 +16266,8 @@ const data = [
     "alias": "816310",
     "name": "BATH MAT 17X24IN ROSE",
     "price": 39.0,
-    "stock": 2008,
-    "sales": 5
+    "stock": 1575,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -16176,8 +16286,8 @@ const data = [
     "alias": "709994",
     "name": "N EMBROIDERED IVORY TOWEL SET WAVES 3 PCS",
     "price": 99.0,
-    "stock": 48,
-    "sales": 2
+    "stock": 16,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -16186,7 +16296,7 @@ const data = [
     "alias": "709995",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS O",
     "price": 99.0,
-    "stock": 96,
+    "stock": 72,
     "sales": 2
   },
   {
@@ -16196,8 +16306,8 @@ const data = [
     "alias": "709996",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS D",
     "price": 99.0,
-    "stock": 114,
-    "sales": 4
+    "stock": 102,
+    "sales": 5
   },
   {
     "outlet": "warehouse riyadh",
@@ -16206,7 +16316,7 @@ const data = [
     "alias": "913331",
     "name": "SCALIA 5 PCS ACCESS",
     "price": 294.0,
-    "stock": 43,
+    "stock": 3,
     "sales": 0
   },
   {
@@ -16216,8 +16326,8 @@ const data = [
     "alias": "913333",
     "name": "BOWEN 5 PCS ACCESS",
     "price": 294.0,
-    "stock": 10,
-    "sales": 0
+    "stock": 1,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -16227,7 +16337,7 @@ const data = [
     "name": "*(SPECIAL OFFER) JOLENE SILVER KING COMFORTER 11 PCS KIT",
     "price": 895.0,
     "stock": 16,
-    "sales": 3
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -16236,8 +16346,8 @@ const data = [
     "alias": "607611",
     "name": "SHEET 4 PCS 300 STITSH KING HEATHER",
     "price": 219.0,
-    "stock": 296,
-    "sales": 14
+    "stock": 292,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
@@ -16246,8 +16356,8 @@ const data = [
     "alias": "607613",
     "name": "SHEET 4 PCS 300 STITSH KING PLATINUM",
     "price": 219.0,
-    "stock": 1120,
-    "sales": 68
+    "stock": 483,
+    "sales": 62
   },
   {
     "outlet": "warehouse riyadh",
@@ -16256,8 +16366,8 @@ const data = [
     "alias": "607614",
     "name": "SHEET 4 PCS 300 STITSH KING GREY",
     "price": 219.0,
-    "stock": 1748,
-    "sales": 11
+    "stock": 1534,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
@@ -16266,8 +16376,8 @@ const data = [
     "alias": "607616",
     "name": "SHEET 4 PCS 300 STITSH KING BURGANDY",
     "price": 219.0,
-    "stock": 412,
-    "sales": 8
+    "stock": 220,
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -16276,8 +16386,8 @@ const data = [
     "alias": "607619",
     "name": "SHEET 4 PCS 300 STITSH KING SLIT",
     "price": 219.0,
-    "stock": 488,
-    "sales": 18
+    "stock": 73,
+    "sales": 31
   },
   {
     "outlet": "warehouse riyadh",
@@ -16286,8 +16396,8 @@ const data = [
     "alias": "607620",
     "name": "SHEET 4 PCS 300 STITSH KING STERLING BLUE",
     "price": 219.0,
-    "stock": 252,
-    "sales": 16
+    "stock": 244,
+    "sales": 19
   },
   {
     "outlet": "warehouse riyadh",
@@ -16296,8 +16406,8 @@ const data = [
     "alias": "607621",
     "name": "SHEET 4 PCS 300 STITSH KINGLILAC MARBLE",
     "price": 219.0,
-    "stock": 348,
-    "sales": 13
+    "stock": 328,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
@@ -16306,8 +16416,8 @@ const data = [
     "alias": "607622",
     "name": "SHEET 4 PCS 300 STITSH KING MARSHMALLOW",
     "price": 219.0,
-    "stock": 1600,
-    "sales": 45
+    "stock": 1278,
+    "sales": 60
   },
   {
     "outlet": "warehouse riyadh",
@@ -16356,7 +16466,7 @@ const data = [
     "alias": "913339",
     "name": "HELENA BATH ACCESS SET 5 PCS",
     "price": 294.0,
-    "stock": 44,
+    "stock": 2,
     "sales": 0
   },
   {
@@ -16367,7 +16477,7 @@ const data = [
     "name": "DIATO BATH ACCESS SET 5 PCS",
     "price": 294.0,
     "stock": 29,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -16376,8 +16486,8 @@ const data = [
     "alias": "958201",
     "name": "BATH ROBE IVORY XS/S",
     "price": 99.0,
-    "stock": 678,
-    "sales": 17
+    "stock": 9,
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -16386,8 +16496,8 @@ const data = [
     "alias": "958202",
     "name": "BATH ROBE WHITE XS/S",
     "price": 99.0,
-    "stock": 498,
-    "sales": 23
+    "stock": 2,
+    "sales": 30
   },
   {
     "outlet": "warehouse riyadh",
@@ -16396,18 +16506,8 @@ const data = [
     "alias": "958203",
     "name": "BATH ROBE LINEN XS/S",
     "price": 99.0,
-    "stock": 1050,
-    "sales": 9
-  },
-  {
-    "outlet": "warehouse riyadh",
-    "category": "أرواب حمام",
-    "code": "19932",
-    "alias": "958208",
-    "name": "BATH ROBE PINK XS/S",
-    "price": 99.0,
-    "stock": 24,
-    "sales": 48
+    "stock": 9,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -16416,8 +16516,8 @@ const data = [
     "alias": "958210",
     "name": "BATH ROBE P.BLUE XS/S",
     "price": 99.0,
-    "stock": 558,
-    "sales": 18
+    "stock": 50,
+    "sales": 17
   },
   {
     "outlet": "warehouse riyadh",
@@ -16426,8 +16526,8 @@ const data = [
     "alias": "958211",
     "name": "BATH ROBE TITANIUM XS/S",
     "price": 99.0,
-    "stock": 78,
-    "sales": 14
+    "stock": 125,
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -16436,18 +16536,8 @@ const data = [
     "alias": "958221",
     "name": "BATH ROBE OYSTER MUSHROOM XS/S",
     "price": 99.0,
-    "stock": 606,
-    "sales": 24
-  },
-  {
-    "outlet": "warehouse riyadh",
-    "category": "أرواب حمام",
-    "code": "19943",
-    "alias": "958223",
-    "name": "BATH ROBE NAVY XS/S",
-    "price": 99.0,
-    "stock": 6,
-    "sales": 11
+    "stock": 8,
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -16456,7 +16546,7 @@ const data = [
     "alias": "801404",
     "name": "MEMORY RUG 50*90CM WHITE",
     "price": 69.0,
-    "stock": 130,
+    "stock": 125,
     "sales": 1
   },
   {
@@ -16466,8 +16556,8 @@ const data = [
     "alias": "927001",
     "name": "WHITE PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 528,
-    "sales": 85
+    "stock": 1128,
+    "sales": 93
   },
   {
     "outlet": "warehouse riyadh",
@@ -16476,8 +16566,8 @@ const data = [
     "alias": "927002",
     "name": "OFF WHITE PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 384,
-    "sales": 87
+    "stock": 401,
+    "sales": 96
   },
   {
     "outlet": "warehouse riyadh",
@@ -16486,8 +16576,8 @@ const data = [
     "alias": "927003",
     "name": "LINEN PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 696,
-    "sales": 29
+    "stock": 5,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
@@ -16496,8 +16586,8 @@ const data = [
     "alias": "927013",
     "name": "LILAC MARBLE PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 252,
-    "sales": 18
+    "stock": 4,
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -16506,8 +16596,8 @@ const data = [
     "alias": "927008",
     "name": "HEATHER PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 216,
-    "sales": 16
+    "stock": 6,
+    "sales": 20
   },
   {
     "outlet": "warehouse riyadh",
@@ -16517,7 +16607,7 @@ const data = [
     "name": "GREY PILLOW CASES KING 2 PCS",
     "price": 35.0,
     "stock": 660,
-    "sales": 28
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -16526,8 +16616,8 @@ const data = [
     "alias": "927007",
     "name": "SLIT PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 348,
-    "sales": 7
+    "stock": 6,
+    "sales": 9
   },
   {
     "outlet": "warehouse riyadh",
@@ -16536,8 +16626,8 @@ const data = [
     "alias": "619405",
     "name": "PLATINUM GREY SHEET 3 PCS 300 STITSH QUEEN",
     "price": 89.0,
-    "stock": 66,
-    "sales": 51
+    "stock": 2,
+    "sales": 57
   },
   {
     "outlet": "warehouse riyadh",
@@ -16546,8 +16636,8 @@ const data = [
     "alias": "619404",
     "name": "MARSHMELLOW SHEET 3 PCS 300 STITSH QUEEN",
     "price": 89.0,
-    "stock": 1566,
-    "sales": 19
+    "stock": 1183,
+    "sales": 41
   },
   {
     "outlet": "warehouse riyadh",
@@ -16556,8 +16646,8 @@ const data = [
     "alias": "619401",
     "name": "WHITE SHEET 3 PCS 300 STITSH QUEEN",
     "price": 89.0,
-    "stock": 354,
-    "sales": 94
+    "stock": 345,
+    "sales": 114
   },
   {
     "outlet": "warehouse riyadh",
@@ -16566,8 +16656,8 @@ const data = [
     "alias": "619409",
     "name": "PINK SHEET 3 PCS 300 STITSH QUEEN",
     "price": 89.0,
-    "stock": 246,
-    "sales": 31
+    "stock": 1,
+    "sales": 34
   },
   {
     "outlet": "warehouse riyadh",
@@ -16576,8 +16666,8 @@ const data = [
     "alias": "608909",
     "name": "PINK SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 1067,
-    "sales": 65
+    "stock": 265,
+    "sales": 75
   },
   {
     "outlet": "warehouse riyadh",
@@ -16586,8 +16676,8 @@ const data = [
     "alias": "608912",
     "name": "STERLING BLUE SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 972,
-    "sales": 51
+    "stock": 2,
+    "sales": 66
   },
   {
     "outlet": "warehouse riyadh",
@@ -16596,8 +16686,8 @@ const data = [
     "alias": "608901",
     "name": "WHITE SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 4018,
-    "sales": 56
+    "stock": 1752,
+    "sales": 70
   },
   {
     "outlet": "warehouse riyadh",
@@ -16606,8 +16696,8 @@ const data = [
     "alias": "608902",
     "name": "OFF WHITE SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 2934,
-    "sales": 76
+    "stock": 2445,
+    "sales": 112
   },
   {
     "outlet": "warehouse riyadh",
@@ -16616,8 +16706,8 @@ const data = [
     "alias": "608905",
     "name": "PLATINUM GREY SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 126,
-    "sales": 43
+    "stock": 60,
+    "sales": 57
   },
   {
     "outlet": "warehouse riyadh",
@@ -16626,8 +16716,8 @@ const data = [
     "alias": "927104",
     "name": "OFF WHITE STANDARD PILLOW CASES",
     "price": 35.0,
-    "stock": 1236,
-    "sales": 35
+    "stock": 1212,
+    "sales": 28
   },
   {
     "outlet": "warehouse riyadh",
@@ -16637,7 +16727,7 @@ const data = [
     "name": "P.BLUE STANDARD PILLOW CASES",
     "price": 35.0,
     "stock": 12,
-    "sales": 16
+    "sales": 13
   },
   {
     "outlet": "warehouse riyadh",
@@ -16646,8 +16736,8 @@ const data = [
     "alias": "927109",
     "name": "PINK STANDARD PILLOW CASES",
     "price": 35.0,
-    "stock": 168,
-    "sales": 17
+    "stock": 7,
+    "sales": 26
   },
   {
     "outlet": "warehouse riyadh",
@@ -16657,7 +16747,7 @@ const data = [
     "name": "STRING BLUE STANDARD PILLOW CASES",
     "price": 35.0,
     "stock": 96,
-    "sales": 32
+    "sales": 47
   },
   {
     "outlet": "warehouse riyadh",
@@ -16666,8 +16756,8 @@ const data = [
     "alias": "927103",
     "name": "WHITE STANDARD PILLOW CASES",
     "price": 35.0,
-    "stock": 372,
-    "sales": 98
+    "stock": 797,
+    "sales": 117
   },
   {
     "outlet": "warehouse riyadh",
@@ -16686,8 +16776,8 @@ const data = [
     "alias": "958301",
     "name": "FRESHENER BLACK CHERRY BLACK 500 ML",
     "price": 79.0,
-    "stock": 799,
-    "sales": 101
+    "stock": 1940,
+    "sales": 95
   },
   {
     "outlet": "warehouse riyadh",
@@ -16696,8 +16786,8 @@ const data = [
     "alias": "958302",
     "name": "FRESHENER APRIL BREEZE BLACK 500 ML",
     "price": 79.0,
-    "stock": 616,
-    "sales": 50
+    "stock": 104,
+    "sales": 55
   },
   {
     "outlet": "warehouse riyadh",
@@ -16706,8 +16796,8 @@ const data = [
     "alias": "958303",
     "name": "FRESHENER GARDEN LAVENDER BLACK 500 ML",
     "price": 79.0,
-    "stock": 584,
-    "sales": 52
+    "stock": 1253,
+    "sales": 53
   },
   {
     "outlet": "warehouse riyadh",
@@ -16716,8 +16806,8 @@ const data = [
     "alias": "710724",
     "name": "EUR TOWEL AIR-RICH NAVY",
     "price": 25.0,
-    "stock": 2184,
-    "sales": 82
+    "stock": 1175,
+    "sales": 88
   },
   {
     "outlet": "warehouse riyadh",
@@ -16726,8 +16816,8 @@ const data = [
     "alias": "714424",
     "name": "AIR-RICH NAVY 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 2004,
-    "sales": 107
+    "stock": 703,
+    "sales": 127
   },
   {
     "outlet": "warehouse riyadh",
@@ -16736,8 +16826,8 @@ const data = [
     "alias": "710624",
     "name": "BATH SHEET AIR-RICH NAVY",
     "price": 69.0,
-    "stock": 1320,
-    "sales": 80
+    "stock": 420,
+    "sales": 85
   },
   {
     "outlet": "warehouse riyadh",
@@ -16766,8 +16856,8 @@ const data = [
     "alias": "710028",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS  E",
     "price": 99.0,
-    "stock": 66,
-    "sales": 1
+    "stock": 61,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -16776,8 +16866,8 @@ const data = [
     "alias": "926509",
     "name": "(SPECIAL OFFER) OSMANTHUS FRESHENER COCODOR 500 ML ROOM SPRAY",
     "price": 19.0,
-    "stock": 860,
-    "sales": 19
+    "stock": 710,
+    "sales": 17
   },
   {
     "outlet": "warehouse riyadh",
@@ -16796,8 +16886,8 @@ const data = [
     "alias": "009503",
     "name": "OBB DS 36 VENT DINNER SET 28 PCS",
     "price": 199.0,
-    "stock": 12,
-    "sales": 4
+    "stock": 10,
+    "sales": 10
   },
   {
     "outlet": "warehouse riyadh",
@@ -16806,7 +16896,7 @@ const data = [
     "alias": "009602",
     "name": "COFFEE SET 6 PCS 90 ML CS 02",
     "price": 94.0,
-    "stock": 60,
+    "stock": 7,
     "sales": 0
   },
   {
@@ -16816,8 +16906,8 @@ const data = [
     "alias": "009604",
     "name": "COFFEE SET 6 PCS 90 ML CS 04",
     "price": 94.0,
-    "stock": 222,
-    "sales": 4
+    "stock": 42,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -16826,7 +16916,7 @@ const data = [
     "alias": "009606",
     "name": "COFFEE SET 6 PCS 90 ML CS 06",
     "price": 94.0,
-    "stock": 66,
+    "stock": 21,
     "sales": 1
   },
   {
@@ -16836,7 +16926,7 @@ const data = [
     "alias": "009506",
     "name": "OBB DS 34 DAMIER DINNER SET 28 PCS",
     "price": 199.0,
-    "stock": 255,
+    "stock": 19,
     "sales": 8
   },
   {
@@ -16846,7 +16936,7 @@ const data = [
     "alias": "009513",
     "name": "OBB DS 32 MAYA DINNER SET 28 PCS",
     "price": 199.0,
-    "stock": 12,
+    "stock": 2,
     "sales": 0
   },
   {
@@ -16856,7 +16946,7 @@ const data = [
     "alias": "4042900",
     "name": "*ESTELLE KING COMFORTER 5 PCS.",
     "price": 795.0,
-    "stock": 1130,
+    "stock": 615,
     "sales": 0
   },
   {
@@ -16866,8 +16956,8 @@ const data = [
     "alias": "440429",
     "name": "*ESTELLE KING COMFORTER 8 PCS. KIT",
     "price": 795.0,
-    "stock": 207,
-    "sales": 40
+    "stock": 58,
+    "sales": 46
   },
   {
     "outlet": "warehouse riyadh",
@@ -16876,7 +16966,7 @@ const data = [
     "alias": "710040",
     "name": "EMBROIDERED GREY TOWEL SET WAVES 3 PCS G",
     "price": 99.0,
-    "stock": 78,
+    "stock": 66,
     "sales": 1
   },
   {
@@ -16886,7 +16976,7 @@ const data = [
     "alias": "710049",
     "name": "EMBROIDERED GREY TOWEL SET WAVES 3 PCS O",
     "price": 99.0,
-    "stock": 18,
+    "stock": 10,
     "sales": 0
   },
   {
@@ -16896,7 +16986,7 @@ const data = [
     "alias": "620401",
     "name": "SHEET KING STRIPE DAMASK KING WHITE 4 PCS 500 TC",
     "price": 395.0,
-    "stock": 1439,
+    "stock": 1092,
     "sales": 1
   },
   {
@@ -16906,8 +16996,8 @@ const data = [
     "alias": "620402",
     "name": "SHEET KING STRIPE DAMASK KING IVORY 4 PCS 500 TC",
     "price": 395.0,
-    "stock": 276,
-    "sales": 5
+    "stock": 12,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -16916,8 +17006,8 @@ const data = [
     "alias": "620403",
     "name": "SHEET KING STRIPE DAMASK KING SILVER 4 PCS 500 TC",
     "price": 395.0,
-    "stock": 12,
-    "sales": 2
+    "stock": 8,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -16926,8 +17016,8 @@ const data = [
     "alias": "620405",
     "name": "SHEET KING STRIPE DAMASK KING GREY 4 PCS 500 TC",
     "price": 395.0,
-    "stock": 4,
-    "sales": 0
+    "stock": 24,
+    "sales": -1
   },
   {
     "outlet": "warehouse riyadh",
@@ -16937,7 +17027,7 @@ const data = [
     "name": "SHEET KING STRIPE DAMASK KING AQUA 4 PCS 500 TC",
     "price": 395.0,
     "stock": 40,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -16946,7 +17036,7 @@ const data = [
     "alias": "620409",
     "name": "SHEET KING STRIPE DAMASK KING C.STONE 4 PCS 500 TC",
     "price": 395.0,
-    "stock": 4,
+    "stock": 3,
     "sales": 0
   },
   {
@@ -16956,8 +17046,8 @@ const data = [
     "alias": "620502",
     "name": "SHEET KING SOLID DAMASK KING IVORY 4 PCS 500 TC",
     "price": 395.0,
-    "stock": 20,
-    "sales": 1
+    "stock": 1,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -16966,8 +17056,8 @@ const data = [
     "alias": "958912",
     "name": "XS NAVY SHAWL JACQUARD BATH ROBE",
     "price": 99.0,
-    "stock": 78,
-    "sales": 6
+    "stock": 12,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -17007,7 +17097,7 @@ const data = [
     "name": "SHEET BARD DAMASK ROSE 4 PCS 400 STITSH KING",
     "price": 249.0,
     "stock": 9,
-    "sales": 0
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -17016,7 +17106,7 @@ const data = [
     "alias": "622701",
     "name": "SHEET KING JACQUARD 300 STITSH 4 PCS WHITE STYLE1",
     "price": 245.0,
-    "stock": 92,
+    "stock": 88,
     "sales": 0
   },
   {
@@ -17026,7 +17116,7 @@ const data = [
     "alias": "622705",
     "name": "SHEET KING JACQUARD 300 STITSH 4 PCS WHITE STYLE5",
     "price": 245.0,
-    "stock": 124,
+    "stock": 120,
     "sales": 0
   },
   {
@@ -17036,8 +17126,8 @@ const data = [
     "alias": "622801",
     "name": "SHEET KING SATEEN SOLID 300 STITSH 4 PCS WHITE STYLE6",
     "price": 245.0,
-    "stock": 828,
-    "sales": 0
+    "stock": 860,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -17046,8 +17136,8 @@ const data = [
     "alias": "622602",
     "name": "SHEET KING SATEEN STRIPE 300 STITSH 4 PCS WHITE STYLE9",
     "price": 245.0,
-    "stock": 132,
-    "sales": 1
+    "stock": 152,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -17056,8 +17146,8 @@ const data = [
     "alias": "622604",
     "name": "SHEET KING SATEEN STRIPE 300 STITSH 4 PCS WHITE STYLE12",
     "price": 245.0,
-    "stock": 400,
-    "sales": 0
+    "stock": 372,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -17065,9 +17155,9 @@ const data = [
     "code": "20746",
     "alias": "9417",
     "name": "MATRESPAD DREAM GUARD WATERPROOF QUEEN SIZE",
-    "price": 49.09196645929132,
-    "stock": 720,
-    "sales": 108
+    "price": 49.092693565976006,
+    "stock": 3668,
+    "sales": 84
   },
   {
     "outlet": "warehouse riyadh",
@@ -17076,8 +17166,8 @@ const data = [
     "alias": "9408",
     "name": "(SPECIAL OFFER)(146) MATRESPAD NAUTICA ANCHOR COTON 200 STITCH QUEEN",
     "price": 69.0,
-    "stock": 212,
-    "sales": 0
+    "stock": 208,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -17096,7 +17186,7 @@ const data = [
     "alias": "9405",
     "name": "(SPECIAL OFFER)(141) MATRESPAD NAUTICA WICKING QUEEN",
     "price": 69.0,
-    "stock": 398,
+    "stock": 396,
     "sales": 5
   },
   {
@@ -17106,8 +17196,8 @@ const data = [
     "alias": "9403",
     "name": "(SPECIAL OFFER)(105) MATRESPAD NAUTICA LUXURY COTON 400 STITCH QUEEN",
     "price": 69.0,
-    "stock": 499,
-    "sales": 8
+    "stock": 497,
+    "sales": 5
   },
   {
     "outlet": "warehouse riyadh",
@@ -17116,8 +17206,8 @@ const data = [
     "alias": "710824",
     "name": "SQUARE TOWELS AIR-RICH NAVY",
     "price": 5.0,
-    "stock": 2856,
-    "sales": 78
+    "stock": 852,
+    "sales": 95
   },
   {
     "outlet": "warehouse riyadh",
@@ -17137,7 +17227,7 @@ const data = [
     "name": "(SPECIAL OFFER) PATCHWORK TIEDYE T/TXL TWIN COMFORTER 6 PCS",
     "price": 129.0,
     "stock": 9,
-    "sales": 0
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -17146,8 +17236,8 @@ const data = [
     "alias": "623502",
     "name": "SHEET KING GREY RING 400 STITCH 4 PCS",
     "price": 249.0,
-    "stock": 87,
-    "sales": 5
+    "stock": 84,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -17156,7 +17246,7 @@ const data = [
     "alias": "623401",
     "name": "SHEET KING JERSEY HEATHER GREY 4 PCS",
     "price": 99.0,
-    "stock": 414,
+    "stock": 4,
     "sales": 1
   },
   {
@@ -17166,7 +17256,7 @@ const data = [
     "alias": "620203",
     "name": "SHEET KING 400 TC LUNAR ROCK  COOL 4 PCS",
     "price": 349.0,
-    "stock": 4,
+    "stock": 32,
     "sales": 1
   },
   {
@@ -17177,7 +17267,7 @@ const data = [
     "name": "SHEET KING 400 TC ILLUSION BLUE COOL 4 PCS",
     "price": 349.0,
     "stock": 20,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -17186,7 +17276,7 @@ const data = [
     "alias": "710065",
     "name": "EMBROIDERED TOWEL SET 3 PCS D #3",
     "price": 99.0,
-    "stock": 54,
+    "stock": 19,
     "sales": 0
   },
   {
@@ -17196,7 +17286,7 @@ const data = [
     "alias": "710075",
     "name": "EMBROIDERED TOWEL SET 3 PCS D #8",
     "price": 99.0,
-    "stock": 174,
+    "stock": 4,
     "sales": 1
   },
   {
@@ -17206,8 +17296,8 @@ const data = [
     "alias": "710076",
     "name": "EMBROIDERED TOWEL SET 3 PCS D #9",
     "price": 99.0,
-    "stock": 156,
-    "sales": 0
+    "stock": 9,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -17216,7 +17306,7 @@ const data = [
     "alias": "710066",
     "name": "EMBROIDERED TOWEL SET 3 PCS D #10",
     "price": 99.0,
-    "stock": 78,
+    "stock": 1,
     "sales": 1
   },
   {
@@ -17226,8 +17316,8 @@ const data = [
     "alias": "710067",
     "name": "EMBROIDERED TOWEL SET 3 PCS D #11",
     "price": 99.0,
-    "stock": 216,
-    "sales": 2
+    "stock": 8,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -17236,8 +17326,8 @@ const data = [
     "alias": "9421",
     "name": "(SPECIAL OFFER) MATRESPAD FIBER BED TANCEL 500 STITCH KING",
     "price": 199.0,
-    "stock": 614,
-    "sales": 5
+    "stock": 181,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -17246,8 +17336,8 @@ const data = [
     "alias": "959301",
     "name": "PINK SAND FRESHENER WHITE 200 ML",
     "price": 39.0,
-    "stock": 705,
-    "sales": 63
+    "stock": 508,
+    "sales": 71
   },
   {
     "outlet": "warehouse riyadh",
@@ -17276,8 +17366,8 @@ const data = [
     "alias": "538760",
     "name": "BIG ONE GEMMA QUILT KING 3 PCS",
     "price": 149.0,
-    "stock": 188,
-    "sales": 6
+    "stock": 14,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -17286,8 +17376,8 @@ const data = [
     "alias": "623503",
     "name": "SHEET KING DITSY FLORAL GREEN ALLOVER 400 STITCH 4 PCS",
     "price": 249.0,
-    "stock": 219,
-    "sales": 8
+    "stock": 216,
+    "sales": 9
   },
   {
     "outlet": "warehouse riyadh",
@@ -17296,7 +17386,7 @@ const data = [
     "alias": "942402",
     "name": "THROW CHENILLE CHUNKY GREY",
     "price": 294.0,
-    "stock": 141,
+    "stock": 117,
     "sales": 2
   },
   {
@@ -17306,7 +17396,7 @@ const data = [
     "alias": "942403",
     "name": "THROW CHENILLE CHUNKY BLUSH",
     "price": 294.0,
-    "stock": 225,
+    "stock": 14,
     "sales": 4
   },
   {
@@ -17316,7 +17406,7 @@ const data = [
     "alias": "624202",
     "name": "SHEET COTON FULL WFORD 220 STITSH 4 PCS",
     "price": 49.0,
-    "stock": 951,
+    "stock": 424,
     "sales": 97
   },
   {
@@ -17326,8 +17416,8 @@ const data = [
     "alias": "538770",
     "name": "BIG ONE JORDYN KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 120,
-    "sales": 1
+    "stock": 9,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -17336,8 +17426,8 @@ const data = [
     "alias": "538771",
     "name": "BIG ONE LATTICE KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 220,
-    "sales": 6
+    "stock": 4,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -17416,8 +17506,8 @@ const data = [
     "alias": "710030",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS Y",
     "price": 99.0,
-    "stock": 54,
-    "sales": 1
+    "stock": 48,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -17426,8 +17516,8 @@ const data = [
     "alias": "710029",
     "name": "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS Z",
     "price": 99.0,
-    "stock": 48,
-    "sales": 1
+    "stock": 42,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -17436,8 +17526,8 @@ const data = [
     "alias": "959801",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER BLACK CHERRY",
     "price": 39.0,
-    "stock": 2955,
-    "sales": 98
+    "stock": 1495,
+    "sales": 104
   },
   {
     "outlet": "warehouse riyadh",
@@ -17446,8 +17536,8 @@ const data = [
     "alias": "959802",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER GARDEN LAVENDER",
     "price": 39.0,
-    "stock": 1920,
-    "sales": 61
+    "stock": 1163,
+    "sales": 65
   },
   {
     "outlet": "warehouse riyadh",
@@ -17456,8 +17546,8 @@ const data = [
     "alias": "959803",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER VANILLA AND SANDALWOOD",
     "price": 39.0,
-    "stock": 1110,
-    "sales": 60
+    "stock": 1,
+    "sales": 51
   },
   {
     "outlet": "warehouse riyadh",
@@ -17466,8 +17556,8 @@ const data = [
     "alias": "959805",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER WHITE MUSK",
     "price": 39.0,
-    "stock": 1725,
-    "sales": 91
+    "stock": 1091,
+    "sales": 83
   },
   {
     "outlet": "warehouse riyadh",
@@ -17477,16 +17567,6 @@ const data = [
     "name": "(SPECIAL OFFER) MAEVE FLORAL PINK TWIN COMFORTER 2 PCS",
     "price": 129.0,
     "stock": 1,
-    "sales": 0
-  },
-  {
-    "outlet": "warehouse riyadh",
-    "category": "لحافات فل",
-    "code": "21256",
-    "alias": "22674",
-    "name": "*HALDEN FULL COMFORTER 8 PCS KIT",
-    "price": 299.0,
-    "stock": 2,
     "sales": 0
   },
   {
@@ -17536,8 +17616,8 @@ const data = [
     "alias": "7148",
     "name": "ENVOGUE PRINTED KITCHEN TOWEL 15X25 INCH",
     "price": 14.0,
-    "stock": 2880,
-    "sales": 397
+    "stock": 9204,
+    "sales": 425
   },
   {
     "outlet": "warehouse riyadh",
@@ -17576,8 +17656,8 @@ const data = [
     "alias": "44050101",
     "name": "*WHITE KING WAMSUTTA COMFORTER 9 PCS KIT",
     "price": 794.0,
-    "stock": 54,
-    "sales": 40
+    "stock": 4,
+    "sales": 43
   },
   {
     "outlet": "warehouse riyadh",
@@ -17586,8 +17666,8 @@ const data = [
     "alias": "44050102",
     "name": "*SILVER KING WAMSUTTA COMFORTER 9 PCS KIT",
     "price": 794.0,
-    "stock": 56,
-    "sales": 50
+    "stock": 30,
+    "sales": 59
   },
   {
     "outlet": "warehouse riyadh",
@@ -17596,8 +17676,8 @@ const data = [
     "alias": "2268201",
     "name": "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
     "price": 599.0,
-    "stock": 30,
-    "sales": 17
+    "stock": 6,
+    "sales": 16
   },
   {
     "outlet": "warehouse riyadh",
@@ -17606,8 +17686,8 @@ const data = [
     "alias": "2268202",
     "name": "*SILVER FULL WAMSUTTA COMFORTER 9 PCS KIT",
     "price": 599.0,
-    "stock": 24,
-    "sales": 19
+    "stock": 4,
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -17616,7 +17696,7 @@ const data = [
     "alias": "009808",
     "name": "MARBLE AND WOOD DESSERT STAND SMALL",
     "price": 10.0,
-    "stock": 84,
+    "stock": 98,
     "sales": 0
   },
   {
@@ -17626,8 +17706,8 @@ const data = [
     "alias": "009809",
     "name": "MARBLE AND WOOD DESSERT STAND LARGE",
     "price": 10.0,
-    "stock": 53,
-    "sales": 0
+    "stock": 100,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -17636,7 +17716,7 @@ const data = [
     "alias": "009810",
     "name": "MARBLE AND WOOD DESSERT STAND MEDIUM",
     "price": 10.0,
-    "stock": 84,
+    "stock": 77,
     "sales": 0
   },
   {
@@ -17646,7 +17726,7 @@ const data = [
     "alias": "009811",
     "name": "MARBLE AND WOOD DESSERT STAND CIRCULAR",
     "price": 10.0,
-    "stock": 84,
+    "stock": 71,
     "sales": 0
   },
   {
@@ -17656,8 +17736,8 @@ const data = [
     "alias": "009812",
     "name": "(SPECIAL OFFER) GLASS FRUIT BOWL",
     "price": 10.0,
-    "stock": 584,
-    "sales": 2
+    "stock": 1911,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -17686,8 +17766,8 @@ const data = [
     "alias": "959407",
     "name": "COOLING MEMORY FIBER KING PILLOW",
     "price": 94.0,
-    "stock": 3912,
-    "sales": 204
+    "stock": 3923,
+    "sales": 225
   },
   {
     "outlet": "warehouse riyadh",
@@ -17696,7 +17776,7 @@ const data = [
     "alias": "714127",
     "name": "PINEAPPLE 90*170 CM BEACH TOWEL",
     "price": 49.0,
-    "stock": 432,
+    "stock": 456,
     "sales": 2
   },
   {
@@ -17717,7 +17797,7 @@ const data = [
     "name": "HG JUVI BENJAMIN DINO TWIN COMFORTER 6 PCS",
     "price": 199.0,
     "stock": 2,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -17736,7 +17816,7 @@ const data = [
     "alias": "009901",
     "name": "TURKISH COFFE 4 PCS",
     "price": 10.0,
-    "stock": 456,
+    "stock": 2065,
     "sales": 0
   },
   {
@@ -17746,7 +17826,7 @@ const data = [
     "alias": "009902",
     "name": "ARABIC COFFE 6 PCS.",
     "price": 10.0,
-    "stock": 240,
+    "stock": 21,
     "sales": 0
   },
   {
@@ -17757,7 +17837,7 @@ const data = [
     "name": "DIM BERRY QUEEN SHEET 6 PCS",
     "price": 129.0,
     "stock": 39,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -17767,7 +17847,7 @@ const data = [
     "name": "KIDS HEARTS DIM FULL SHEET 4 PCS",
     "price": 59.0,
     "stock": 3,
-    "sales": 9
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -17776,8 +17856,8 @@ const data = [
     "alias": "624802",
     "name": "KIDS HEARTS TWIN SHEET 3 PCS",
     "price": 49.0,
-    "stock": 578,
-    "sales": 16
+    "stock": 649,
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -17786,8 +17866,8 @@ const data = [
     "alias": "624803",
     "name": "KIDS RAINBOWS TWIN SHEET 3 PCS",
     "price": 49.0,
-    "stock": 428,
-    "sales": 21
+    "stock": 120,
+    "sales": 41
   },
   {
     "outlet": "warehouse riyadh",
@@ -17796,7 +17876,7 @@ const data = [
     "alias": "09001",
     "name": "BLOOM TURKISH COFFEE SET 6 PCS 90 ML CS-011",
     "price": 79.0,
-    "stock": 12,
+    "stock": 11,
     "sales": 0
   },
   {
@@ -17806,7 +17886,7 @@ const data = [
     "alias": "09002",
     "name": "LORA TURKISH COFFEE SET 6 PCS 90 ML CS-012",
     "price": 79.0,
-    "stock": 11,
+    "stock": 14,
     "sales": 0
   },
   {
@@ -17816,8 +17896,8 @@ const data = [
     "alias": "09003",
     "name": "LUMIRE TURKISH COFFEE SET 6 PCS 90 ML CS-013",
     "price": 79.0,
-    "stock": 52,
-    "sales": 1
+    "stock": 9,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -17826,7 +17906,7 @@ const data = [
     "alias": "09004",
     "name": "DIANA TURKISH COFFEE SET 6 PCS 90 ML CS-016",
     "price": 79.0,
-    "stock": 16,
+    "stock": 13,
     "sales": 0
   },
   {
@@ -17836,8 +17916,8 @@ const data = [
     "alias": "09005",
     "name": "ADLER TURKISH COFFEE SET 6 PCS 90 ML CS-017",
     "price": 79.0,
-    "stock": 74,
-    "sales": 3
+    "stock": 14,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -17846,7 +17926,7 @@ const data = [
     "alias": "09007",
     "name": "VICTORIA TURKISH COFFEE SET 6 PCS 90 ML CS-020",
     "price": 79.0,
-    "stock": 12,
+    "stock": 13,
     "sales": 0
   },
   {
@@ -17857,7 +17937,7 @@ const data = [
     "name": "BLACK BLOSSOM TURKISH COFFEE SET 6 PCS 90 ML CS-024",
     "price": 79.0,
     "stock": 8,
-    "sales": 5
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -17866,7 +17946,7 @@ const data = [
     "alias": "09009",
     "name": "MARIAN TURKISH COFFEE SET 6 PCS 90 ML CS-025",
     "price": 79.0,
-    "stock": 192,
+    "stock": 33,
     "sales": 5
   },
   {
@@ -17876,8 +17956,8 @@ const data = [
     "alias": "09010",
     "name": "VIKI TURKISH COFFEE SET 6 PCS 90 ML CS-014",
     "price": 79.0,
-    "stock": 184,
-    "sales": 5
+    "stock": 68,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -17886,8 +17966,8 @@ const data = [
     "alias": "09011",
     "name": "PALU TURKISH COFFEE SET 6 PCS 90 ML CS-015",
     "price": 79.0,
-    "stock": 50,
-    "sales": 5
+    "stock": 13,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -17896,7 +17976,7 @@ const data = [
     "alias": "09012",
     "name": "MIGAN TURKISH COFFEE SET 6 PCS 90 ML CS-019",
     "price": 79.0,
-    "stock": 152,
+    "stock": 73,
     "sales": 1
   },
   {
@@ -17906,8 +17986,8 @@ const data = [
     "alias": "09013",
     "name": "CHEVAL TURKISH COFFEE SET 6 PCS 90 ML CS-021",
     "price": 79.0,
-    "stock": 132,
-    "sales": 3
+    "stock": 138,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -17916,8 +17996,8 @@ const data = [
     "alias": "09014",
     "name": "MARRAKESH TURKISH COFFEE SET 6 PCS 90 ML CS-022",
     "price": 79.0,
-    "stock": 242,
-    "sales": 3
+    "stock": 117,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -17926,8 +18006,8 @@ const data = [
     "alias": "09015",
     "name": "SOPHIA TURKISH COFFEE SET 6 PCS 90 ML CS-023",
     "price": 79.0,
-    "stock": 285,
-    "sales": 3
+    "stock": 194,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -17947,7 +18027,7 @@ const data = [
     "name": "ARABIC COFFEE SET 6 PCS 90 ML CS-030",
     "price": 49.0,
     "stock": 18,
-    "sales": 5
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -17966,8 +18046,8 @@ const data = [
     "alias": "22693",
     "name": "*KAIA FULL COMFORTER 8 PCS KIT",
     "price": 249.0,
-    "stock": 11,
-    "sales": 3
+    "stock": 5,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -17977,7 +18057,7 @@ const data = [
     "name": "*MAUDE SAGE FULL COMFORTER 8 PCS KIT",
     "price": 249.0,
     "stock": 4,
-    "sales": 3
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -17986,8 +18066,8 @@ const data = [
     "alias": "958227",
     "name": "BATH ROBE P.R.YELLOW XS/S",
     "price": 99.0,
-    "stock": 216,
-    "sales": 9
+    "stock": 9,
+    "sales": 11
   },
   {
     "outlet": "warehouse riyadh",
@@ -17996,8 +18076,8 @@ const data = [
     "alias": "916827",
     "name": "BATH ROBE P.R.YELLOW S/M",
     "price": 99.0,
-    "stock": 174,
-    "sales": 72
+    "stock": 9,
+    "sales": 79
   },
   {
     "outlet": "warehouse riyadh",
@@ -18006,8 +18086,8 @@ const data = [
     "alias": "916927",
     "name": "BATH ROBE P.R.YELLOW L/XL",
     "price": 99.0,
-    "stock": 294,
-    "sales": 39
+    "stock": 28,
+    "sales": 52
   },
   {
     "outlet": "warehouse riyadh",
@@ -18016,8 +18096,8 @@ const data = [
     "alias": "970300",
     "name": "FABRIC TOTE BAGS",
     "price": 19.0,
-    "stock": 2700,
-    "sales": 90
+    "stock": 4333,
+    "sales": 96
   },
   {
     "outlet": "warehouse riyadh",
@@ -18026,8 +18106,8 @@ const data = [
     "alias": "710627",
     "name": "BATH SHEET AIR-RICH 86X172 CM LAUREL WREATH",
     "price": 69.0,
-    "stock": 204,
-    "sales": 83
+    "stock": 61,
+    "sales": 100
   },
   {
     "outlet": "warehouse riyadh",
@@ -18036,8 +18116,8 @@ const data = [
     "alias": "710628",
     "name": "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
     "price": 69.0,
-    "stock": 852,
-    "sales": 32
+    "stock": 165,
+    "sales": 36
   },
   {
     "outlet": "warehouse riyadh",
@@ -18046,8 +18126,8 @@ const data = [
     "alias": "710727",
     "name": "EUR TOWEL AIR-RICH 50X100 CM LAUREL WREATH",
     "price": 25.0,
-    "stock": 864,
-    "sales": 75
+    "stock": 708,
+    "sales": 97
   },
   {
     "outlet": "warehouse riyadh",
@@ -18056,8 +18136,8 @@ const data = [
     "alias": "710728",
     "name": "EUR TOWEL AIR-RICH 50X100 CM PRIM ROSE",
     "price": 25.0,
-    "stock": 948,
-    "sales": 64
+    "stock": 790,
+    "sales": 80
   },
   {
     "outlet": "warehouse riyadh",
@@ -18066,8 +18146,8 @@ const data = [
     "alias": "714427",
     "name": "BATH TOWEL AIR-RICH  70X140 CM LAUREL WREATH",
     "price": 49.0,
-    "stock": 648,
-    "sales": 93
+    "stock": 512,
+    "sales": 114
   },
   {
     "outlet": "warehouse riyadh",
@@ -18076,8 +18156,8 @@ const data = [
     "alias": "714428",
     "name": "BATH TOWEL AIR-RICH  70X140 CM PRIM ROSE",
     "price": 49.0,
-    "stock": 744,
-    "sales": 45
+    "stock": 597,
+    "sales": 49
   },
   {
     "outlet": "warehouse riyadh",
@@ -18096,8 +18176,8 @@ const data = [
     "alias": "608106",
     "name": "WHITE BLEACHED KING SHEET SET 4 PCS",
     "price": 199.0,
-    "stock": 1505,
-    "sales": 6
+    "stock": 1850,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -18106,8 +18186,8 @@ const data = [
     "alias": "22696",
     "name": "*ALLIE MULTI DARK FULL COMFORTER 8 PCS KIT",
     "price": 299.0,
-    "stock": 6,
-    "sales": 3
+    "stock": 1,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -18116,8 +18196,8 @@ const data = [
     "alias": "9183",
     "name": "KING (SMALL) SHARPER IMAGE MATRESS PAD",
     "price": 249.0,
-    "stock": 984,
-    "sales": 28
+    "stock": 268,
+    "sales": 34
   },
   {
     "outlet": "warehouse riyadh",
@@ -18126,7 +18206,7 @@ const data = [
     "alias": "270400",
     "name": "*HEATH FULL COMFORTER 5 PCS",
     "price": 299.0,
-    "stock": 88,
+    "stock": 1,
     "sales": 0
   },
   {
@@ -18136,8 +18216,8 @@ const data = [
     "alias": "22704",
     "name": "*HEATH FULL COMFORTER 8 PCS KIT",
     "price": 299.0,
-    "stock": 6,
-    "sales": 4
+    "stock": 3,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -18166,8 +18246,8 @@ const data = [
     "alias": "22701",
     "name": "*LIZZIE FULL COMFORTER 8 PCS KIT",
     "price": 299.0,
-    "stock": 30,
-    "sales": 4
+    "stock": 4,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -18176,8 +18256,8 @@ const data = [
     "alias": "710077",
     "name": "EMBROIDERED TOWEL SET 3 PCS EMB D #1",
     "price": 99.0,
-    "stock": 18,
-    "sales": 2
+    "stock": 72,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -18186,8 +18266,8 @@ const data = [
     "alias": "710078",
     "name": "EMBROIDERED TOWEL SET 3 PCS EMB D #2",
     "price": 99.0,
-    "stock": 342,
-    "sales": 8
+    "stock": 228,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -18196,8 +18276,8 @@ const data = [
     "alias": "710079",
     "name": "EMBROIDERED TOWEL SET 3 PCS EMB D #3",
     "price": 99.0,
-    "stock": 222,
-    "sales": 4
+    "stock": 242,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -18226,7 +18306,7 @@ const data = [
     "alias": "710082",
     "name": "EMBROIDERED TOWEL SET 3 PCS EMB D #6",
     "price": 99.0,
-    "stock": 360,
+    "stock": 162,
     "sales": 1
   },
   {
@@ -18237,7 +18317,7 @@ const data = [
     "name": "KIDS DINO TRUCKS TWIN SHEET 3 PCS",
     "price": 49.0,
     "stock": 4,
-    "sales": 2
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -18246,8 +18326,8 @@ const data = [
     "alias": "624805",
     "name": "KIDS UNICORN BUSTS TWIN SHEET 3 PCS",
     "price": 49.0,
-    "stock": 664,
-    "sales": 12
+    "stock": 529,
+    "sales": 13
   },
   {
     "outlet": "warehouse riyadh",
@@ -18266,8 +18346,8 @@ const data = [
     "alias": "960200",
     "name": "MAKEUP WIPERS SET",
     "price": 49.0,
-    "stock": 370,
-    "sales": 4
+    "stock": 11,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -18276,8 +18356,8 @@ const data = [
     "alias": "9192",
     "name": "SUB-0 TRIPLE COOLING KING PILLOW",
     "price": 159.0,
-    "stock": 5376,
-    "sales": 286
+    "stock": 3442,
+    "sales": 290
   },
   {
     "outlet": "warehouse riyadh",
@@ -18287,7 +18367,7 @@ const data = [
     "name": "DOORMAT #11 SIZE 60X90 CM",
     "price": 59.0,
     "stock": 96,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -18296,8 +18376,8 @@ const data = [
     "alias": "816113",
     "name": "DOORMAT #13 SIZE 60X90 CM",
     "price": 59.0,
-    "stock": 54,
-    "sales": 0
+    "stock": 51,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -18306,8 +18386,8 @@ const data = [
     "alias": "95624936",
     "name": "BE-78 WOMEN SLIPPER YELLOW 36/37",
     "price": 29.0,
-    "stock": 264,
-    "sales": 6
+    "stock": 3,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -18316,8 +18396,8 @@ const data = [
     "alias": "95624938",
     "name": "BE-78 WOMEN SLIPPER YELLOW 38/39",
     "price": 29.0,
-    "stock": 396,
-    "sales": 8
+    "stock": 2,
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -18326,8 +18406,8 @@ const data = [
     "alias": "95624940",
     "name": "BE-78 WOMEN SLIPPER YELLOW 40/41",
     "price": 29.0,
-    "stock": 264,
-    "sales": 7
+    "stock": 3,
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -18336,8 +18416,8 @@ const data = [
     "alias": "95625036",
     "name": "BE-78 WOMEN SLIPPER PINK 36/37",
     "price": 29.0,
-    "stock": 200,
-    "sales": 5
+    "stock": 2,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -18346,8 +18426,8 @@ const data = [
     "alias": "95625038",
     "name": "BE-78 WOMEN SLIPPER PINK 38/39",
     "price": 29.0,
-    "stock": 400,
-    "sales": 31
+    "stock": 10,
+    "sales": 28
   },
   {
     "outlet": "warehouse riyadh",
@@ -18356,8 +18436,8 @@ const data = [
     "alias": "95625040",
     "name": "BE-78 WOMEN SLIPPER PINK 40/41",
     "price": 29.0,
-    "stock": 200,
-    "sales": 7
+    "stock": 8,
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -18366,8 +18446,8 @@ const data = [
     "alias": "95625136",
     "name": "BE-78 WOMEN SLIPPER BLUE 36/37",
     "price": 29.0,
-    "stock": 176,
-    "sales": 10
+    "stock": 168,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -18376,8 +18456,8 @@ const data = [
     "alias": "95625138",
     "name": "BE-78 WOMEN SLIPPER BLUE 38/39",
     "price": 29.0,
-    "stock": 352,
-    "sales": 15
+    "stock": 6,
+    "sales": 17
   },
   {
     "outlet": "warehouse riyadh",
@@ -18386,8 +18466,8 @@ const data = [
     "alias": "95625140",
     "name": "BE-78 WOMEN SLIPPER BLUE 40/41",
     "price": 29.0,
-    "stock": 88,
-    "sales": 7
+    "stock": 84,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -18407,7 +18487,7 @@ const data = [
     "name": "BE-78 MAN SLIPPER BLUE 42/43",
     "price": 29.0,
     "stock": 10,
-    "sales": 4
+    "sales": 5
   },
   {
     "outlet": "warehouse riyadh",
@@ -18416,8 +18496,8 @@ const data = [
     "alias": "95625236",
     "name": "BE-78 WOMEN SLIPPER WHITE 36/37",
     "price": 29.0,
-    "stock": 180,
-    "sales": 8
+    "stock": 1,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -18426,8 +18506,8 @@ const data = [
     "alias": "95625238",
     "name": "BE-78 WOMEN SLIPPER WHITE 38/39",
     "price": 29.0,
-    "stock": 180,
-    "sales": 6
+    "stock": 168,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -18436,8 +18516,8 @@ const data = [
     "alias": "95625240",
     "name": "BE-78 WOMEN SLIPPER WHITE 40/41",
     "price": 29.0,
-    "stock": 90,
-    "sales": 0
+    "stock": 84,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -18447,7 +18527,7 @@ const data = [
     "name": "BE-78 MAN SLIPPER WHITE 40/41",
     "price": 29.0,
     "stock": 84,
-    "sales": 8
+    "sales": 9
   },
   {
     "outlet": "warehouse riyadh",
@@ -18456,8 +18536,8 @@ const data = [
     "alias": "95628742",
     "name": "BE-78 MAN SLIPPER WHITE 42/43",
     "price": 29.0,
-    "stock": 168,
-    "sales": 10
+    "stock": 28,
+    "sales": 15
   },
   {
     "outlet": "warehouse riyadh",
@@ -18467,7 +18547,7 @@ const data = [
     "name": "BE-78 MAN SLIPPER WHITE 44/45",
     "price": 29.0,
     "stock": 168,
-    "sales": 12
+    "sales": 9
   },
   {
     "outlet": "warehouse riyadh",
@@ -18476,8 +18556,8 @@ const data = [
     "alias": "95625336",
     "name": "BE-78 WOMEN SLIPPER GREY 36/37",
     "price": 29.0,
-    "stock": 20,
-    "sales": 0
+    "stock": 1,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -18487,7 +18567,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER GREY 38/39",
     "price": 29.0,
     "stock": 20,
-    "sales": 1
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -18497,7 +18577,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER GREY 40/41",
     "price": 29.0,
     "stock": 20,
-    "sales": 2
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -18506,8 +18586,8 @@ const data = [
     "alias": "95628842",
     "name": "BE-78 MAN SLIPPER GREY 42/43",
     "price": 29.0,
-    "stock": 266,
-    "sales": 21
+    "stock": 3,
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -18516,8 +18596,8 @@ const data = [
     "alias": "95628844",
     "name": "BE-78 MAN SLIPPER GREY 44/45",
     "price": 29.0,
-    "stock": 266,
-    "sales": 28
+    "stock": 9,
+    "sales": 25
   },
   {
     "outlet": "warehouse riyadh",
@@ -18526,8 +18606,8 @@ const data = [
     "alias": "95625436",
     "name": "BE-78 WOMEN SLIPPER NAVY BLUE 36/37",
     "price": 29.0,
-    "stock": 20,
-    "sales": 1
+    "stock": 1,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -18537,7 +18617,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER NAVY BLUE 38/39",
     "price": 29.0,
     "stock": 20,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -18547,7 +18627,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER NAVY BLUE 40/41",
     "price": 29.0,
     "stock": 20,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -18556,8 +18636,8 @@ const data = [
     "alias": "95628942",
     "name": "BE-78 MAN SLIPPER NAVY BLUE 42/43",
     "price": 29.0,
-    "stock": 420,
-    "sales": 23
+    "stock": 6,
+    "sales": 33
   },
   {
     "outlet": "warehouse riyadh",
@@ -18566,8 +18646,8 @@ const data = [
     "alias": "95628944",
     "name": "BE-78 MAN SLIPPER NAVY BLUE 44/45",
     "price": 29.0,
-    "stock": 420,
-    "sales": 26
+    "stock": 19,
+    "sales": 32
   },
   {
     "outlet": "warehouse riyadh",
@@ -18576,8 +18656,8 @@ const data = [
     "alias": "95625536",
     "name": "BE-78 WOMEN SLIPPER ORANGE 36/37",
     "price": 29.0,
-    "stock": 28,
-    "sales": 2
+    "stock": 1,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -18587,7 +18667,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER ORANGE 38/39",
     "price": 29.0,
     "stock": 25,
-    "sales": 2
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -18597,7 +18677,7 @@ const data = [
     "name": "BE-78 WOMEN SLIPPER ORANGE 40/41",
     "price": 29.0,
     "stock": 11,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -18606,8 +18686,8 @@ const data = [
     "alias": "95629040",
     "name": "BE-78 MAN SLIPPER ORANGE 40/41",
     "price": 29.0,
-    "stock": 6,
-    "sales": 1
+    "stock": 1,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -18617,7 +18697,7 @@ const data = [
     "name": "BE-78 MAN SLIPPER ORANGE 42/43",
     "price": 29.0,
     "stock": 14,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -18627,7 +18707,7 @@ const data = [
     "name": "BE-78 MAN SLIPPER ORANGE 44/45",
     "price": 29.0,
     "stock": 13,
-    "sales": 2
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -18647,7 +18727,7 @@ const data = [
     "name": "BE-83 WOMEN SLIPPER YELLOW 38/39",
     "price": 19.0,
     "stock": 49,
-    "sales": 2
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -18676,8 +18756,8 @@ const data = [
     "alias": "95629142",
     "name": "BE-83 MAN SLIPPER YELLOW 42/43",
     "price": 19.0,
-    "stock": 240,
-    "sales": 1
+    "stock": 12,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -18686,8 +18766,8 @@ const data = [
     "alias": "95629144",
     "name": "BE-83 MAN SLIPPER YELLOW 44/45",
     "price": 19.0,
-    "stock": 240,
-    "sales": 0
+    "stock": 9,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -18696,8 +18776,8 @@ const data = [
     "alias": "95627136",
     "name": "BE-83 WOMEN SLIPPER BRIGHT GREEN 36/37",
     "price": 19.0,
-    "stock": 147,
-    "sales": 1
+    "stock": 133,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -18706,7 +18786,7 @@ const data = [
     "alias": "95627138",
     "name": "BE-83 WOMEN SLIPPER BRIGHT GREEN 38/39",
     "price": 19.0,
-    "stock": 147,
+    "stock": 133,
     "sales": 0
   },
   {
@@ -18716,7 +18796,7 @@ const data = [
     "alias": "95627140",
     "name": "BE-83 WOMEN SLIPPER BRIGHT GREEN 40/41",
     "price": 19.0,
-    "stock": 126,
+    "stock": 2,
     "sales": 0
   },
   {
@@ -18726,8 +18806,8 @@ const data = [
     "alias": "95629240",
     "name": "BE-83 MAN SLIPPER BRIGHT GREEN 40/41",
     "price": 19.0,
-    "stock": 72,
-    "sales": 1
+    "stock": 2,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -18736,8 +18816,8 @@ const data = [
     "alias": "95629242",
     "name": "BE-83 MAN SLIPPER BRIGHT GREEN 42/43",
     "price": 19.0,
-    "stock": 288,
-    "sales": 3
+    "stock": 13,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -18746,8 +18826,8 @@ const data = [
     "alias": "95629244",
     "name": "BE-83 MAN SLIPPER BRIGHT GREEN 44/45",
     "price": 19.0,
-    "stock": 288,
-    "sales": 6
+    "stock": 9,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -18756,7 +18836,7 @@ const data = [
     "alias": "95627236",
     "name": "BE-83 WOMEN SLIPPER ORANGE 36/37",
     "price": 19.0,
-    "stock": 147,
+    "stock": 10,
     "sales": 3
   },
   {
@@ -18766,7 +18846,7 @@ const data = [
     "alias": "95627238",
     "name": "BE-83 WOMEN SLIPPER ORANGE 38/39",
     "price": 19.0,
-    "stock": 147,
+    "stock": 7,
     "sales": 5
   },
   {
@@ -18776,8 +18856,8 @@ const data = [
     "alias": "95627240",
     "name": "BE-83 WOMEN SLIPPER ORANGE 40/41",
     "price": 19.0,
-    "stock": 126,
-    "sales": 1
+    "stock": 13,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -18786,8 +18866,8 @@ const data = [
     "alias": "95629340",
     "name": "BE-83 MAN SLIPPER ORANGE 40/41",
     "price": 19.0,
-    "stock": 56,
-    "sales": 1
+    "stock": 54,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -18796,8 +18876,8 @@ const data = [
     "alias": "95629342",
     "name": "BE-83 MAN SLIPPER ORANGE 42/43",
     "price": 19.0,
-    "stock": 224,
-    "sales": 4
+    "stock": 216,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -18806,8 +18886,8 @@ const data = [
     "alias": "95629344",
     "name": "BE-83 MAN SLIPPER ORANGE 44/45",
     "price": 19.0,
-    "stock": 224,
-    "sales": 8
+    "stock": 216,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -18817,7 +18897,7 @@ const data = [
     "name": "BE-83 WOMEN SLIPPER BLUE 36/37",
     "price": 19.0,
     "stock": 14,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -18836,8 +18916,8 @@ const data = [
     "alias": "95627340",
     "name": "BE-83 WOMEN SLIPPER BLUE 40/41",
     "price": 19.0,
-    "stock": 12,
-    "sales": 2
+    "stock": 4,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -18846,8 +18926,8 @@ const data = [
     "alias": "95629440",
     "name": "BE-83 MAN SLIPPER BLUE 40/41",
     "price": 19.0,
-    "stock": 34,
-    "sales": 1
+    "stock": 1,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -18856,8 +18936,8 @@ const data = [
     "alias": "95629442",
     "name": "BE-83 MAN SLIPPER BLUE 42/43",
     "price": 19.0,
-    "stock": 136,
-    "sales": 1
+    "stock": 112,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -18866,8 +18946,8 @@ const data = [
     "alias": "95629444",
     "name": "BE-83 MAN SLIPPER BLUE 44/45",
     "price": 19.0,
-    "stock": 136,
-    "sales": 2
+    "stock": 3,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -18886,8 +18966,8 @@ const data = [
     "alias": "95629542",
     "name": "BE-83 MAN SLIPPER NAVY 42/43",
     "price": 19.0,
-    "stock": 16,
-    "sales": 2
+    "stock": 2,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -18896,8 +18976,8 @@ const data = [
     "alias": "95629544",
     "name": "BE-83 MAN SLIPPER NAVY 44/45",
     "price": 19.0,
-    "stock": 16,
-    "sales": 8
+    "stock": 1,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -18906,8 +18986,8 @@ const data = [
     "alias": "95627536",
     "name": "BE-84 WOMEN SLIPPER PINK 36/37",
     "price": 29.0,
-    "stock": 360,
-    "sales": 9
+    "stock": 258,
+    "sales": 17
   },
   {
     "outlet": "warehouse riyadh",
@@ -18916,8 +18996,8 @@ const data = [
     "alias": "95627538",
     "name": "BE-84 WOMEN SLIPPER PINK 38/39",
     "price": 29.0,
-    "stock": 360,
-    "sales": 16
+    "stock": 252,
+    "sales": 20
   },
   {
     "outlet": "warehouse riyadh",
@@ -18926,8 +19006,8 @@ const data = [
     "alias": "95627540",
     "name": "BE-84 WOMEN SLIPPER PINK 40/41",
     "price": 29.0,
-    "stock": 252,
-    "sales": 6
+    "stock": 177,
+    "sales": 9
   },
   {
     "outlet": "warehouse riyadh",
@@ -18936,8 +19016,8 @@ const data = [
     "alias": "95627640",
     "name": "BE-84 MAN SLIPPER NAVY 40/41",
     "price": 29.0,
-    "stock": 407,
-    "sales": 8
+    "stock": 286,
+    "sales": 10
   },
   {
     "outlet": "warehouse riyadh",
@@ -18946,8 +19026,8 @@ const data = [
     "alias": "95627642",
     "name": "BE-84 MAN SLIPPER NAVY 42/43",
     "price": 29.0,
-    "stock": 408,
-    "sales": 10
+    "stock": 286,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -18956,8 +19036,8 @@ const data = [
     "alias": "95627644",
     "name": "BE-84 MAN SLIPPER NAVY 44/45",
     "price": 29.0,
-    "stock": 409,
-    "sales": 7
+    "stock": 286,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -18966,8 +19046,8 @@ const data = [
     "alias": "95627740",
     "name": "BE-84 MAN SLIPPER IVORY 40/41",
     "price": 29.0,
-    "stock": 407,
-    "sales": 3
+    "stock": 285,
+    "sales": 5
   },
   {
     "outlet": "warehouse riyadh",
@@ -18976,8 +19056,8 @@ const data = [
     "alias": "95627742",
     "name": "BE-84 MAN SLIPPER IVORY 42/43",
     "price": 29.0,
-    "stock": 408,
-    "sales": 3
+    "stock": 284,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -18986,8 +19066,8 @@ const data = [
     "alias": "95627744",
     "name": "BE-84 MAN SLIPPER IVORY 44/45",
     "price": 29.0,
-    "stock": 407,
-    "sales": 3
+    "stock": 286,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -18996,7 +19076,7 @@ const data = [
     "alias": "95627840",
     "name": "BE-85 MAN SLIPPER WHIE&BLUE 40/41",
     "price": 59.0,
-    "stock": 185,
+    "stock": 6,
     "sales": 0
   },
   {
@@ -19006,8 +19086,8 @@ const data = [
     "alias": "95627842",
     "name": "BE-85 MAN SLIPPER WHIE&BLUE 42/43",
     "price": 59.0,
-    "stock": 184,
-    "sales": 1
+    "stock": 6,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -19016,7 +19096,7 @@ const data = [
     "alias": "95627844",
     "name": "BE-85 MAN SLIPPER WHIE&BLUE 44/45",
     "price": 59.0,
-    "stock": 185,
+    "stock": 3,
     "sales": 2
   },
   {
@@ -19026,8 +19106,8 @@ const data = [
     "alias": "95627940",
     "name": "BE-85 MAN SLIPPER ORANGE&WHITE 40/41",
     "price": 59.0,
-    "stock": 196,
-    "sales": 2
+    "stock": 14,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -19036,8 +19116,8 @@ const data = [
     "alias": "95627942",
     "name": "BE-85 MAN SLIPPER ORANGE&WHITE 42/43",
     "price": 59.0,
-    "stock": 194,
-    "sales": 2
+    "stock": 20,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -19046,8 +19126,8 @@ const data = [
     "alias": "95627944",
     "name": "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
     "price": 59.0,
-    "stock": 194,
-    "sales": 7
+    "stock": 12,
+    "sales": 5
   },
   {
     "outlet": "warehouse riyadh",
@@ -19056,8 +19136,8 @@ const data = [
     "alias": "95628040",
     "name": "BE-85 MAN SLIPPER WHITE&YELLOW 40/41",
     "price": 59.0,
-    "stock": 192,
-    "sales": 0
+    "stock": 13,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -19066,8 +19146,8 @@ const data = [
     "alias": "95628042",
     "name": "BE-85 MAN SLIPPER WHITE&YELLOW 42/43",
     "price": 59.0,
-    "stock": 194,
-    "sales": 4
+    "stock": 12,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -19076,8 +19156,8 @@ const data = [
     "alias": "95628044",
     "name": "BE-85 MAN SLIPPER WHITE&YELLOW 44/45",
     "price": 59.0,
-    "stock": 196,
-    "sales": 3
+    "stock": 18,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -19086,8 +19166,8 @@ const data = [
     "alias": "95628136",
     "name": "BE-86 WOMEN SLIPPER BLACK 36/37",
     "price": 59.0,
-    "stock": 14,
-    "sales": 2
+    "stock": 4,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -19096,8 +19176,8 @@ const data = [
     "alias": "95628138",
     "name": "BE-86 WOMEN SLIPPER BLACK 38/39",
     "price": 59.0,
-    "stock": 14,
-    "sales": 0
+    "stock": 2,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -19106,8 +19186,8 @@ const data = [
     "alias": "95628140",
     "name": "BE-86 WOMEN SLIPPER BLACK 40/41",
     "price": 59.0,
-    "stock": 8,
-    "sales": 1
+    "stock": 1,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -19116,8 +19196,8 @@ const data = [
     "alias": "95628236",
     "name": "BE-86 WOMEN SLIPPER NAVY 36/37",
     "price": 59.0,
-    "stock": 22,
-    "sales": 4
+    "stock": 9,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -19126,7 +19206,7 @@ const data = [
     "alias": "95628238",
     "name": "BE-86 WOMEN SLIPPER NAVY 38/39",
     "price": 59.0,
-    "stock": 17,
+    "stock": 2,
     "sales": 1
   },
   {
@@ -19136,7 +19216,7 @@ const data = [
     "alias": "95628240",
     "name": "BE-86 WOMEN SLIPPER NAVY 40/41",
     "price": 59.0,
-    "stock": 8,
+    "stock": 10,
     "sales": 0
   },
   {
@@ -19186,8 +19266,8 @@ const data = [
     "alias": "95628338",
     "name": "BE-86 WOMEN SLIPPER BIEGE 38/39",
     "price": 59.0,
-    "stock": 14,
-    "sales": 3
+    "stock": 1,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -19207,7 +19287,7 @@ const data = [
     "name": "BE-86 MAN SLIPPER BIEGE 40/41",
     "price": 59.0,
     "stock": 5,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -19217,7 +19297,7 @@ const data = [
     "name": "BE-86 MAN SLIPPER BIEGE 42/43",
     "price": 59.0,
     "stock": 4,
-    "sales": 7
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -19227,7 +19307,7 @@ const data = [
     "name": "BE-86 MAN SLIPPER BIEGE 44/45",
     "price": 59.0,
     "stock": 11,
-    "sales": 0
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -19236,7 +19316,7 @@ const data = [
     "alias": "456032",
     "name": "RHAPSODY SO-SOFT KING COMFORTER 3 PCS",
     "price": 299.0,
-    "stock": 190,
+    "stock": 2,
     "sales": 2
   },
   {
@@ -19247,7 +19327,7 @@ const data = [
     "name": "MAUVE LOUSE SO-SOFT KING COMFORTER 3 PCS",
     "price": 299.0,
     "stock": 767,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -19256,8 +19336,8 @@ const data = [
     "alias": "9308",
     "name": "JUST RELAX 274*228 CM KING DUVET",
     "price": 299.0,
-    "stock": 924,
-    "sales": 30
+    "stock": 27,
+    "sales": 28
   },
   {
     "outlet": "warehouse riyadh",
@@ -19267,7 +19347,7 @@ const data = [
     "name": "ASHLEY SHINE 3 PCS BATH ACCESS",
     "price": 59.0,
     "stock": 4,
-    "sales": 4
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -19276,8 +19356,8 @@ const data = [
     "alias": "913344",
     "name": "CALLIE GREEN 3 PCS BATH ACCESS",
     "price": 59.0,
-    "stock": 8,
-    "sales": 0
+    "stock": 6,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -19286,8 +19366,8 @@ const data = [
     "alias": "913347",
     "name": "CYPRESS COPPER 3 PCS BATH ACCESS",
     "price": 59.0,
-    "stock": 4,
-    "sales": 2
+    "stock": 1,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -19297,7 +19377,7 @@ const data = [
     "name": "GILDER GOLD 3 PCS BATH ACCESS",
     "price": 59.0,
     "stock": 33,
-    "sales": 1
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -19306,8 +19386,8 @@ const data = [
     "alias": "95629940",
     "name": "BE-79 MAN SLIPPER GREY 40/41",
     "price": 29.0,
-    "stock": 8,
-    "sales": 7
+    "stock": 1,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -19316,8 +19396,8 @@ const data = [
     "alias": "95629942",
     "name": "BE-79 MAN SLIPPER GREY 42/43",
     "price": 19.0,
-    "stock": 16,
-    "sales": 6
+    "stock": 4,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -19326,8 +19406,8 @@ const data = [
     "alias": "95629944",
     "name": "BE-79 MAN SLIPPER GREY 44/45",
     "price": 19.0,
-    "stock": 16,
-    "sales": 4
+    "stock": 4,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -19336,8 +19416,8 @@ const data = [
     "alias": "95630040",
     "name": "BE-79 MAN SLIPPER LIGHT BROWN 40/41",
     "price": 19.0,
-    "stock": 28,
-    "sales": 3
+    "stock": 4,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -19346,8 +19426,8 @@ const data = [
     "alias": "95630042",
     "name": "BE-79 MAN SLIPPER LIGHT BROWN 42/43",
     "price": 19.0,
-    "stock": 56,
-    "sales": 4
+    "stock": 4,
+    "sales": 10
   },
   {
     "outlet": "warehouse riyadh",
@@ -19356,8 +19436,8 @@ const data = [
     "alias": "95630044",
     "name": "BE-79 MAN SLIPPER LIGHT BROWN 44/45",
     "price": 19.0,
-    "stock": 56,
-    "sales": 4
+    "stock": 7,
+    "sales": 13
   },
   {
     "outlet": "warehouse riyadh",
@@ -19367,7 +19447,7 @@ const data = [
     "name": "BE-80 WOMEN SLIPPER BLACK 36/37",
     "price": 29.0,
     "stock": 42,
-    "sales": 5
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -19377,7 +19457,7 @@ const data = [
     "name": "BE-80 WOMEN SLIPPER BLACK 38/39",
     "price": 29.0,
     "stock": 39,
-    "sales": 16
+    "sales": 19
   },
   {
     "outlet": "warehouse riyadh",
@@ -19387,7 +19467,7 @@ const data = [
     "name": "BE-80 WOMEN SLIPPER BLACK 40/41",
     "price": 29.0,
     "stock": 40,
-    "sales": 2
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -19397,7 +19477,7 @@ const data = [
     "name": "BE-80 WOMEN SLIPPER IVORY 36/37",
     "price": 29.0,
     "stock": 25,
-    "sales": 11
+    "sales": 13
   },
   {
     "outlet": "warehouse riyadh",
@@ -19407,7 +19487,7 @@ const data = [
     "name": "BE-80 WOMEN SLIPPER IVORY 38/39",
     "price": 29.0,
     "stock": 27,
-    "sales": 9
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -19417,7 +19497,7 @@ const data = [
     "name": "BE-80 WOMEN SLIPPER IVORY 40/41",
     "price": 29.0,
     "stock": 25,
-    "sales": 8
+    "sales": 9
   },
   {
     "outlet": "warehouse riyadh",
@@ -19427,7 +19507,7 @@ const data = [
     "name": "BE-80 WOMEN SLIPPER LIGHT PINK 36/37",
     "price": 29.0,
     "stock": 41,
-    "sales": 12
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -19437,7 +19517,7 @@ const data = [
     "name": "BE-80 WOMEN SLIPPER LIGHT PINK 38/39",
     "price": 29.0,
     "stock": 38,
-    "sales": 2
+    "sales": 5
   },
   {
     "outlet": "warehouse riyadh",
@@ -19457,7 +19537,7 @@ const data = [
     "name": "BE-80 WOMEN SLIPPER NAVY 36/37",
     "price": 29.0,
     "stock": 42,
-    "sales": 7
+    "sales": 15
   },
   {
     "outlet": "warehouse riyadh",
@@ -19477,7 +19557,7 @@ const data = [
     "name": "BE-80 WOMEN SLIPPER NAVY 40/41",
     "price": 29.0,
     "stock": 42,
-    "sales": 3
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -19487,7 +19567,7 @@ const data = [
     "name": "BE-81 WOMEN SLIPPER ORANGE 36/37",
     "price": 59.0,
     "stock": 35,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -19497,7 +19577,7 @@ const data = [
     "name": "BE-81 WOMEN SLIPPER ORANGE 38/39",
     "price": 59.0,
     "stock": 35,
-    "sales": 3
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -19507,7 +19587,7 @@ const data = [
     "name": "BE-81 WOMEN SLIPPER ORANGE 40/41",
     "price": 59.0,
     "stock": 30,
-    "sales": 5
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -19557,7 +19637,7 @@ const data = [
     "name": "BE-81 MAN SLIPPER ORANGE 42/43",
     "price": 59.0,
     "stock": 280,
-    "sales": 1
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -19566,8 +19646,8 @@ const data = [
     "alias": "95630544",
     "name": "BE-81 MAN SLIPPER ORANGE 44/45",
     "price": 59.0,
-    "stock": 245,
-    "sales": 2
+    "stock": 1,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -19616,8 +19696,8 @@ const data = [
     "alias": "95630140",
     "name": "BE-81 MAN SLIPPER DESERT SAND 40/41",
     "price": 59.0,
-    "stock": 45,
-    "sales": 3
+    "stock": 39,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -19626,8 +19706,8 @@ const data = [
     "alias": "95630142",
     "name": "BE-81 MAN SLIPPER DESERT SAND 42/43",
     "price": 59.0,
-    "stock": 120,
-    "sales": 10
+    "stock": 104,
+    "sales": 5
   },
   {
     "outlet": "warehouse riyadh",
@@ -19636,8 +19716,8 @@ const data = [
     "alias": "95630144",
     "name": "BE-81 MAN SLIPPER DESERT SAND 44/45",
     "price": 59.0,
-    "stock": 105,
-    "sales": 4
+    "stock": 91,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -19646,7 +19726,7 @@ const data = [
     "alias": "95630240",
     "name": "BE-81 MAN SLIPPER BONE 40/41",
     "price": 59.0,
-    "stock": 12,
+    "stock": 9,
     "sales": 0
   },
   {
@@ -19656,7 +19736,7 @@ const data = [
     "alias": "95630242",
     "name": "BE-81 MAN SLIPPER BONE 42/43",
     "price": 59.0,
-    "stock": 32,
+    "stock": 24,
     "sales": 0
   },
   {
@@ -19666,7 +19746,7 @@ const data = [
     "alias": "95630244",
     "name": "BE-81 MAN SLIPPER BONE 44/45",
     "price": 59.0,
-    "stock": 28,
+    "stock": 21,
     "sales": 0
   },
   {
@@ -19676,7 +19756,7 @@ const data = [
     "alias": "95628436",
     "name": "BE-86 WOMEN SLIPPER LIGHT ORANGE 36/37",
     "price": 59.0,
-    "stock": 46,
+    "stock": 69,
     "sales": 2
   },
   {
@@ -19686,8 +19766,8 @@ const data = [
     "alias": "95628438",
     "name": "BE-86 WOMEN SLIPPER LIGHT ORANGE 38/39",
     "price": 59.0,
-    "stock": 45,
-    "sales": 5
+    "stock": 68,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -19696,8 +19776,8 @@ const data = [
     "alias": "95628440",
     "name": "BE-86 WOMEN SLIPPER LIGHT ORANGE 40/41",
     "price": 59.0,
-    "stock": 26,
-    "sales": 4
+    "stock": 40,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -19706,8 +19786,8 @@ const data = [
     "alias": "95628536",
     "name": "BE-86 WOMEN NEON GREEN ORANGE 36/37",
     "price": 59.0,
-    "stock": 50,
-    "sales": 7
+    "stock": 42,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -19716,8 +19796,8 @@ const data = [
     "alias": "95628538",
     "name": "BE-86 WOMEN NEON GREEN ORANGE 38/39",
     "price": 59.0,
-    "stock": 50,
-    "sales": 7
+    "stock": 41,
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -19726,8 +19806,8 @@ const data = [
     "alias": "95628540",
     "name": "BE-86 WOMEN NEON GREEN ORANGE 40/41",
     "price": 59.0,
-    "stock": 28,
-    "sales": 1
+    "stock": 24,
+    "sales": 10
   },
   {
     "outlet": "warehouse riyadh",
@@ -19736,8 +19816,8 @@ const data = [
     "alias": "95630740",
     "name": "BE-86 MAN SLIPPER LIGHT ORANGE 40/41",
     "price": 59.0,
-    "stock": 21,
-    "sales": 1
+    "stock": 64,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -19746,8 +19826,8 @@ const data = [
     "alias": "95630742",
     "name": "BE-86 MAN SLIPPER LIGHT ORANGE 42/43",
     "price": 59.0,
-    "stock": 43,
-    "sales": 8
+    "stock": 128,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -19756,8 +19836,8 @@ const data = [
     "alias": "95630744",
     "name": "BE-86 MAN SLIPPER LIGHT ORANGE 44/45",
     "price": 59.0,
-    "stock": 47,
-    "sales": 4
+    "stock": 128,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -19766,7 +19846,7 @@ const data = [
     "alias": "95630840",
     "name": "BE-86 MAN SLIPPER NEON GREEN 40/41",
     "price": 59.0,
-    "stock": 23,
+    "stock": 104,
     "sales": 0
   },
   {
@@ -19776,8 +19856,8 @@ const data = [
     "alias": "95630842",
     "name": "BE-86 MAN SLIPPER NEON GREEN 42/43",
     "price": 59.0,
-    "stock": 40,
-    "sales": 3
+    "stock": 208,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -19786,8 +19866,8 @@ const data = [
     "alias": "95630844",
     "name": "BE-86 MAN SLIPPER NEON GREEN 44/45",
     "price": 59.0,
-    "stock": 42,
-    "sales": 4
+    "stock": 208,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -19796,8 +19876,8 @@ const data = [
     "alias": "710829",
     "name": "SQUARE TOWELS AIR-RICH LAUREL WREATH",
     "price": 5.0,
-    "stock": 96,
-    "sales": 160
+    "stock": 17,
+    "sales": 161
   },
   {
     "outlet": "warehouse riyadh",
@@ -19807,7 +19887,7 @@ const data = [
     "name": "EUR TOWEL AIR-RICH 50X100 CM TERRA COTTA",
     "price": 25.0,
     "stock": 1776,
-    "sales": 23
+    "sales": 28
   },
   {
     "outlet": "warehouse riyadh",
@@ -19816,8 +19896,8 @@ const data = [
     "alias": "714429",
     "name": "AIR-RICH TERRA COTTA 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 1476,
-    "sales": 13
+    "stock": 1464,
+    "sales": 24
   },
   {
     "outlet": "warehouse riyadh",
@@ -19827,7 +19907,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH 86X172 CM TERRA COTTA",
     "price": 69.0,
     "stock": 1188,
-    "sales": 7
+    "sales": 15
   },
   {
     "outlet": "warehouse riyadh",
@@ -19837,7 +19917,7 @@ const data = [
     "name": "SQUARE TOWELS AIR-RICH PRIMROSE YELLOW",
     "price": 5.0,
     "stock": 192,
-    "sales": 85
+    "sales": 120
   },
   {
     "outlet": "warehouse riyadh",
@@ -19847,7 +19927,7 @@ const data = [
     "name": "SQUARE TOWELS AIR-RICH TERRACOTTA",
     "price": 5.0,
     "stock": 1320,
-    "sales": 26
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -19856,7 +19936,7 @@ const data = [
     "alias": "9006",
     "name": "001 VM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29.0,
-    "stock": 41,
+    "stock": 163,
     "sales": 0
   },
   {
@@ -19866,8 +19946,8 @@ const data = [
     "alias": "502601",
     "name": "MARSHMALLOW COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 732,
-    "sales": 71
+    "stock": 606,
+    "sales": 99
   },
   {
     "outlet": "warehouse riyadh",
@@ -19876,8 +19956,8 @@ const data = [
     "alias": "502602",
     "name": "GREY COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 684,
-    "sales": 81
+    "stock": 133,
+    "sales": 99
   },
   {
     "outlet": "warehouse riyadh",
@@ -19886,8 +19966,8 @@ const data = [
     "alias": "502603",
     "name": "DOE SKIN COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 680,
-    "sales": 136
+    "stock": 63,
+    "sales": 171
   },
   {
     "outlet": "warehouse riyadh",
@@ -19896,8 +19976,8 @@ const data = [
     "alias": "502604",
     "name": "ROSE PINK COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 852,
-    "sales": 43
+    "stock": 434,
+    "sales": 34
   },
   {
     "outlet": "warehouse riyadh",
@@ -19906,8 +19986,8 @@ const data = [
     "alias": "502605",
     "name": "CRIMSON COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 800,
-    "sales": 18
+    "stock": 690,
+    "sales": 38
   },
   {
     "outlet": "warehouse riyadh",
@@ -19916,8 +19996,8 @@ const data = [
     "alias": "502606",
     "name": "NAVY COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 732,
-    "sales": 66
+    "stock": 263,
+    "sales": 83
   },
   {
     "outlet": "warehouse riyadh",
@@ -19926,8 +20006,8 @@ const data = [
     "alias": "502607",
     "name": "PLUM COMFY 66*90 BLANKET FULL",
     "price": 94.0,
-    "stock": 656,
-    "sales": 57
+    "stock": 278,
+    "sales": 69
   },
   {
     "outlet": "warehouse riyadh",
@@ -19936,8 +20016,8 @@ const data = [
     "alias": "502701",
     "name": "MARSHMALLOW COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 396,
-    "sales": 41
+    "stock": 23,
+    "sales": 62
   },
   {
     "outlet": "warehouse riyadh",
@@ -19946,8 +20026,8 @@ const data = [
     "alias": "502702",
     "name": "GREY COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 988,
-    "sales": 44
+    "stock": 208,
+    "sales": 53
   },
   {
     "outlet": "warehouse riyadh",
@@ -19956,8 +20036,8 @@ const data = [
     "alias": "502703",
     "name": "DOE SKIN COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 200,
-    "sales": 70
+    "stock": 59,
+    "sales": 95
   },
   {
     "outlet": "warehouse riyadh",
@@ -19966,8 +20046,8 @@ const data = [
     "alias": "502704",
     "name": "ROSE PINK COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 1268,
-    "sales": 20
+    "stock": 546,
+    "sales": 27
   },
   {
     "outlet": "warehouse riyadh",
@@ -19976,8 +20056,8 @@ const data = [
     "alias": "502705",
     "name": "CRIMSON COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 1484,
-    "sales": 14
+    "stock": 781,
+    "sales": 28
   },
   {
     "outlet": "warehouse riyadh",
@@ -19986,8 +20066,8 @@ const data = [
     "alias": "502706",
     "name": "NAVY COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 604,
-    "sales": 36
+    "stock": 22,
+    "sales": 39
   },
   {
     "outlet": "warehouse riyadh",
@@ -19996,8 +20076,8 @@ const data = [
     "alias": "502707",
     "name": "PLUM COMFY 104*90 BLANKET KING",
     "price": 149.0,
-    "stock": 228,
-    "sales": 27
+    "stock": 192,
+    "sales": 31
   },
   {
     "outlet": "warehouse riyadh",
@@ -20016,8 +20096,8 @@ const data = [
     "alias": "714812",
     "name": "BEACH TOWEL RED BLUE CABANA 101.6X182 CM",
     "price": 59.0,
-    "stock": 2772,
-    "sales": 151
+    "stock": 7152,
+    "sales": 200
   },
   {
     "outlet": "warehouse riyadh",
@@ -20026,8 +20106,8 @@ const data = [
     "alias": "714806",
     "name": "BEACH TOWEL HENNA MANDALA 101X183 CM",
     "price": 59.0,
-    "stock": 144,
-    "sales": 141
+    "stock": 43,
+    "sales": 174
   },
   {
     "outlet": "warehouse riyadh",
@@ -20036,8 +20116,8 @@ const data = [
     "alias": "714807",
     "name": "BEACH TOWEL BATIK PINEAPPLE 101X183 CM",
     "price": 59.0,
-    "stock": 2808,
-    "sales": 120
+    "stock": 3003,
+    "sales": 168
   },
   {
     "outlet": "warehouse riyadh",
@@ -20046,8 +20126,8 @@ const data = [
     "alias": "714810",
     "name": "BEACH TOWEL FLAMINGO FLORALP  101X183 CM",
     "price": 59.0,
-    "stock": 60,
-    "sales": 48
+    "stock": 12,
+    "sales": 54
   },
   {
     "outlet": "warehouse riyadh",
@@ -20056,8 +20136,8 @@ const data = [
     "alias": "714811",
     "name": "BEACH TOWEL MYKONOS  101X183 CM",
     "price": 59.0,
-    "stock": 1020,
-    "sales": 167
+    "stock": 651,
+    "sales": 222
   },
   {
     "outlet": "warehouse riyadh",
@@ -20066,8 +20146,8 @@ const data = [
     "alias": "100606",
     "name": "ANIMAL SPORTS TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 92,
-    "sales": 12
+    "stock": 80,
+    "sales": 15
   },
   {
     "outlet": "warehouse riyadh",
@@ -20076,8 +20156,8 @@ const data = [
     "alias": "711304",
     "name": "90*50 KITCH TOWEL BTP-248",
     "price": 9.0,
-    "stock": 8640,
-    "sales": 552
+    "stock": 96,
+    "sales": 182
   },
   {
     "outlet": "warehouse riyadh",
@@ -20086,8 +20166,8 @@ const data = [
     "alias": "607623",
     "name": "SHEET 4 PCS 300 STITSH KING PRISTINE OFF WHITE",
     "price": 219.0,
-    "stock": 1952,
-    "sales": 40
+    "stock": 1825,
+    "sales": 44
   },
   {
     "outlet": "warehouse riyadh",
@@ -20096,8 +20176,8 @@ const data = [
     "alias": "607624",
     "name": "SHEET 4 PCS 300 STITSH KING SPEED PEARL LINEN",
     "price": 219.0,
-    "stock": 692,
-    "sales": 23
+    "stock": 496,
+    "sales": 25
   },
   {
     "outlet": "warehouse riyadh",
@@ -20106,8 +20186,8 @@ const data = [
     "alias": "619415",
     "name": "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH QUEEN",
     "price": 89.0,
-    "stock": 2994,
-    "sales": 19
+    "stock": 2885,
+    "sales": 24
   },
   {
     "outlet": "warehouse riyadh",
@@ -20116,8 +20196,8 @@ const data = [
     "alias": "619416",
     "name": "SPEED PEARL LINEN SHEET 3 PCS 300 STITSH QUEEN",
     "price": 89.0,
-    "stock": 564,
-    "sales": 18
+    "stock": 474,
+    "sales": 20
   },
   {
     "outlet": "warehouse riyadh",
@@ -20127,7 +20207,7 @@ const data = [
     "name": "STRAW DOORMAT STARS 45*75 CM",
     "price": 19.0,
     "stock": 6,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -20137,7 +20217,7 @@ const data = [
     "name": "STRAW BERRIES DOORMAT WELCOME 45*75 CM",
     "price": 19.0,
     "stock": 996,
-    "sales": 11
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -20146,8 +20226,8 @@ const data = [
     "alias": "900752",
     "name": "HIPPO4 KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 384,
-    "sales": 7
+    "stock": 372,
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -20157,7 +20237,7 @@ const data = [
     "name": "*AURA PURPLE FULL COMFORTER 5 PCS",
     "price": 249.0,
     "stock": 268,
-    "sales": 2
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -20166,8 +20246,8 @@ const data = [
     "alias": "22720",
     "name": "*AURA PURPLE FULL COMFORTER 5 PCS KIT",
     "price": 249.0,
-    "stock": 44,
-    "sales": 1
+    "stock": 18,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -20176,7 +20256,7 @@ const data = [
     "alias": "440600",
     "name": "*(SPECIAL OFFER) STAFFORD WHITE KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 56,
+    "stock": 50,
     "sales": 7
   },
   {
@@ -20186,8 +20266,8 @@ const data = [
     "alias": "440599",
     "name": "*(SPECIAL OFFER) AVON WHITE KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 5,
-    "sales": 8
+    "stock": 7,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -20196,8 +20276,8 @@ const data = [
     "alias": "607739",
     "name": "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 500,
-    "sales": 27
+    "stock": 2,
+    "sales": 25
   },
   {
     "outlet": "warehouse riyadh",
@@ -20206,8 +20286,8 @@ const data = [
     "alias": "607740",
     "name": "SPEED PEARL LINEN KING 3 PCS 300 STITSH",
     "price": 129.0,
-    "stock": 1920,
-    "sales": 14
+    "stock": 1870,
+    "sales": 10
   },
   {
     "outlet": "warehouse riyadh",
@@ -20216,8 +20296,8 @@ const data = [
     "alias": "608913",
     "name": "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 348,
-    "sales": 27
+    "stock": 324,
+    "sales": 40
   },
   {
     "outlet": "warehouse riyadh",
@@ -20226,8 +20306,8 @@ const data = [
     "alias": "608914",
     "name": "P.BLUE SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 942,
-    "sales": 54
+    "stock": 111,
+    "sales": 79
   },
   {
     "outlet": "warehouse riyadh",
@@ -20236,8 +20316,8 @@ const data = [
     "alias": "608915",
     "name": "LILAC MARBLE SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 498,
-    "sales": 43
+    "stock": 2,
+    "sales": 55
   },
   {
     "outlet": "warehouse riyadh",
@@ -20246,7 +20326,7 @@ const data = [
     "alias": "926705",
     "name": "COZY SLEEP LOUNGER S/M MARSHMALLOW",
     "price": 39.0,
-    "stock": 28,
+    "stock": 2,
     "sales": -1
   },
   {
@@ -20257,7 +20337,7 @@ const data = [
     "name": "COZY SLEEP LOUNGER S/M LOYAL BLUE",
     "price": 39.0,
     "stock": 5,
-    "sales": 0
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -20277,7 +20357,7 @@ const data = [
     "name": "COZY SLEEP LOUNGER S/M CASTLE ROCK",
     "price": 39.0,
     "stock": 4,
-    "sales": 2
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -20296,8 +20376,8 @@ const data = [
     "alias": "960106",
     "name": "HEAD ACCESSORIES SLUMBER BURGUNDY 4 PCS",
     "price": 39.0,
-    "stock": 385,
-    "sales": 61
+    "stock": 34,
+    "sales": 84
   },
   {
     "outlet": "warehouse riyadh",
@@ -20306,8 +20386,8 @@ const data = [
     "alias": "960107",
     "name": "HEAD ACCESSORIES SLUMBER DARK GREEN 4 PCS",
     "price": 39.0,
-    "stock": 550,
-    "sales": 76
+    "stock": 27,
+    "sales": 73
   },
   {
     "outlet": "warehouse riyadh",
@@ -20316,8 +20396,8 @@ const data = [
     "alias": "95631140",
     "name": "BE87- MAN SLIPPER GREY 40/41",
     "price": 19.0,
-    "stock": 48,
-    "sales": 13
+    "stock": 40,
+    "sales": 11
   },
   {
     "outlet": "warehouse riyadh",
@@ -20326,8 +20406,8 @@ const data = [
     "alias": "95631142",
     "name": "BE87- MAN SLIPPER GREY 42/43",
     "price": 19.0,
-    "stock": 96,
-    "sales": 16
+    "stock": 80,
+    "sales": 17
   },
   {
     "outlet": "warehouse riyadh",
@@ -20336,8 +20416,8 @@ const data = [
     "alias": "95631144",
     "name": "BE87- MAN SLIPPER GREY 44/45",
     "price": 19.0,
-    "stock": 72,
-    "sales": 24
+    "stock": 60,
+    "sales": 33
   },
   {
     "outlet": "warehouse riyadh",
@@ -20346,7 +20426,7 @@ const data = [
     "alias": "95631242",
     "name": "BE-87 MAN SLIPPER CAMEL 42/43",
     "price": 19.0,
-    "stock": 1,
+    "stock": 9,
     "sales": 0
   },
   {
@@ -20367,7 +20447,7 @@ const data = [
     "name": "BE-91 WOMAN SLIPPER PURPLE 38/39",
     "price": 19.0,
     "stock": 1,
-    "sales": 1
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -20376,8 +20456,8 @@ const data = [
     "alias": "95632336",
     "name": "BE-91 WOMAN SLIPPER PINK 36/37",
     "price": 19.0,
-    "stock": 1,
-    "sales": 3
+    "stock": 8,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -20387,7 +20467,7 @@ const data = [
     "name": "BE-91 WOMAN SLIPPER PINK 38/39",
     "price": 19.0,
     "stock": 3,
-    "sales": 3
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -20406,8 +20486,8 @@ const data = [
     "alias": "958305",
     "name": "FRESHENER WHITE JASMINE BLACK 500 ML",
     "price": 79.0,
-    "stock": 1208,
-    "sales": 57
+    "stock": 499,
+    "sales": 61
   },
   {
     "outlet": "warehouse riyadh",
@@ -20416,8 +20496,8 @@ const data = [
     "alias": "958306",
     "name": "FRESHENER DARK VANILLA & SANDALWOOD BLACK 500 ML",
     "price": 79.0,
-    "stock": 400,
-    "sales": 62
+    "stock": 1384,
+    "sales": 67
   },
   {
     "outlet": "warehouse riyadh",
@@ -20426,8 +20506,8 @@ const data = [
     "alias": "958307",
     "name": "FRESHENER WHITE MUSK BLACK 500 ML",
     "price": 79.0,
-    "stock": 1216,
-    "sales": 53
+    "stock": 556,
+    "sales": 44
   },
   {
     "outlet": "warehouse riyadh",
@@ -20446,8 +20526,8 @@ const data = [
     "alias": "95632636",
     "name": "BE-92 WOMEN SLIPPER PINK 36/37",
     "price": 19.0,
-    "stock": 368,
-    "sales": 0
+    "stock": 480,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -20456,8 +20536,8 @@ const data = [
     "alias": "95632638",
     "name": "BE-92 WOMEN SLIPPER PINK 38/39",
     "price": 19.0,
-    "stock": 368,
-    "sales": 0
+    "stock": 480,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -20466,8 +20546,8 @@ const data = [
     "alias": "95632640",
     "name": "BE-92 WOMEN SLIPPER PINK 40/41",
     "price": 19.0,
-    "stock": 184,
-    "sales": 0
+    "stock": 240,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -20476,8 +20556,8 @@ const data = [
     "alias": "95632738",
     "name": "BE-93 WOMEN SLIPPER WHITE-CAMEL 38/39",
     "price": 19.0,
-    "stock": 1,
-    "sales": 0
+    "stock": 5,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -20486,7 +20566,7 @@ const data = [
     "alias": "95632740",
     "name": "BE-93 WOMEN SLIPPER WHITE-CAMEL 40/41",
     "price": 19.0,
-    "stock": 1,
+    "stock": 2,
     "sales": 0
   },
   {
@@ -20496,8 +20576,8 @@ const data = [
     "alias": "538784",
     "name": "BIG ONE BOLD STRIPE KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 92,
-    "sales": 6
+    "stock": 19,
+    "sales": 11
   },
   {
     "outlet": "warehouse riyadh",
@@ -20506,8 +20586,8 @@ const data = [
     "alias": "958513",
     "name": "BATH ROBE HOOD X/S LINEN",
     "price": 99.0,
-    "stock": 114,
-    "sales": 9
+    "stock": 150,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -20546,7 +20626,7 @@ const data = [
     "alias": "9701",
     "name": "SMOOSHIE TOY",
     "price": 59.0,
-    "stock": 555,
+    "stock": 2163,
     "sales": 13
   },
   {
@@ -20556,8 +20636,8 @@ const data = [
     "alias": "455001",
     "name": "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
     "price": 299.0,
-    "stock": 264,
-    "sales": 9
+    "stock": 35,
+    "sales": 11
   },
   {
     "outlet": "warehouse riyadh",
@@ -20566,8 +20646,8 @@ const data = [
     "alias": "455002",
     "name": "SO SOFT OMBRE FROM LIGHT BLUE TO BLUE KING COMFORTER 3 PCS",
     "price": 299.0,
-    "stock": 76,
-    "sales": 3
+    "stock": 74,
+    "sales": 1
   },
   {
     "outlet": "warehouse riyadh",
@@ -20576,8 +20656,8 @@ const data = [
     "alias": "4052116",
     "name": "COSTCO MOEMI AQUA KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 130,
-    "sales": 4
+    "stock": 9,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -20587,7 +20667,7 @@ const data = [
     "name": "DUCK 2 KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
     "stock": 240,
-    "sales": 1
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -20597,7 +20677,7 @@ const data = [
     "name": "DUCK 1 KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
     "stock": 144,
-    "sales": 3
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -20606,7 +20686,7 @@ const data = [
     "alias": "40601300",
     "name": "*COZY STRIPE GREY PRINTED KING COMFORTER 3 PCS",
     "price": 394.0,
-    "stock": 985,
+    "stock": 584,
     "sales": 0
   },
   {
@@ -20616,8 +20696,8 @@ const data = [
     "alias": "710087",
     "name": "PARIS BOTANIQUE EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 12,
-    "sales": 10
+    "stock": 3,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -20627,7 +20707,7 @@ const data = [
     "name": "SHELL EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
     "stock": 84,
-    "sales": 9
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -20636,8 +20716,8 @@ const data = [
     "alias": "710092",
     "name": "PLANTS EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 192,
-    "sales": 4
+    "stock": 1,
+    "sales": 5
   },
   {
     "outlet": "warehouse riyadh",
@@ -20646,7 +20726,7 @@ const data = [
     "alias": "710093",
     "name": "MULTIPLE CIRCLES EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 144,
+    "stock": 1,
     "sales": 9
   },
   {
@@ -20656,8 +20736,8 @@ const data = [
     "alias": "614709",
     "name": "WHITE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     "price": 295.0,
-    "stock": 565,
-    "sales": 10
+    "stock": 361,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -20666,8 +20746,8 @@ const data = [
     "alias": "614710",
     "name": "SILVER DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     "price": 295.0,
-    "stock": 570,
-    "sales": 6
+    "stock": 349,
+    "sales": 15
   },
   {
     "outlet": "warehouse riyadh",
@@ -20676,8 +20756,8 @@ const data = [
     "alias": "614711",
     "name": "IVORY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     "price": 295.0,
-    "stock": 500,
-    "sales": 3
+    "stock": 321,
+    "sales": 4
   },
   {
     "outlet": "warehouse riyadh",
@@ -20686,8 +20766,8 @@ const data = [
     "alias": "614712",
     "name": "H-VOILD DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     "price": 295.0,
-    "stock": 325,
-    "sales": 6
+    "stock": 164,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -20696,8 +20776,8 @@ const data = [
     "alias": "614713",
     "name": "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     "price": 295.0,
-    "stock": 400,
-    "sales": 9
+    "stock": 164,
+    "sales": 5
   },
   {
     "outlet": "warehouse riyadh",
@@ -20727,7 +20807,7 @@ const data = [
     "name": "VIOLANTE MULTI KING COMFORTER 8 PCS",
     "price": 299.0,
     "stock": 1,
-    "sales": 1
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -20736,8 +20816,8 @@ const data = [
     "alias": "960108",
     "name": "HEAD ACCESSORIES SLUMBER BLACK 4 PCS",
     "price": 39.0,
-    "stock": 190,
-    "sales": 58
+    "stock": 116,
+    "sales": 57
   },
   {
     "outlet": "warehouse riyadh",
@@ -20746,8 +20826,8 @@ const data = [
     "alias": "4001779",
     "name": "BIG HEXAGON GEO KING COMFORTER 9 PCS",
     "price": 249.0,
-    "stock": 160,
-    "sales": 1
+    "stock": 82,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -20756,8 +20836,8 @@ const data = [
     "alias": "4052120",
     "name": "COSTCO CAMILE TEAL KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 38,
-    "sales": 9
+    "stock": 5,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -20766,8 +20846,8 @@ const data = [
     "alias": "900409",
     "name": "COSTCO TUMBLERS 40OZ WHITE",
     "price": 49.0,
-    "stock": 1696,
-    "sales": 44
+    "stock": 3351,
+    "sales": 59
   },
   {
     "outlet": "warehouse riyadh",
@@ -20776,8 +20856,8 @@ const data = [
     "alias": "900410",
     "name": "COSTCO TUMBLERS 40OZ BLACK",
     "price": 49.0,
-    "stock": 368,
-    "sales": 99
+    "stock": 2731,
+    "sales": 112
   },
   {
     "outlet": "warehouse riyadh",
@@ -20796,8 +20876,8 @@ const data = [
     "alias": "44372",
     "name": "*ISABELLA BAIGE KING COMFORTER 11 PCS KIT.",
     "price": 1199.0,
-    "stock": 37,
-    "sales": 17
+    "stock": 1,
+    "sales": 13
   },
   {
     "outlet": "warehouse riyadh",
@@ -20807,7 +20887,7 @@ const data = [
     "name": "90*50 KITCH TOWEL LUSTROUS WHITE BTP-802",
     "price": 9.0,
     "stock": 232,
-    "sales": 79
+    "sales": 21
   },
   {
     "outlet": "warehouse riyadh",
@@ -20817,7 +20897,7 @@ const data = [
     "name": "90*50 KITCH TOWEL LUSTROUS BLUE BTP-802",
     "price": 9.0,
     "stock": 232,
-    "sales": 87
+    "sales": 27
   },
   {
     "outlet": "warehouse riyadh",
@@ -20827,7 +20907,7 @@ const data = [
     "name": "90*50 KITCH TOWEL LUSTROUS GREY BTP-802",
     "price": 9.0,
     "stock": 232,
-    "sales": 67
+    "sales": 25
   },
   {
     "outlet": "warehouse riyadh",
@@ -20837,7 +20917,7 @@ const data = [
     "name": "90*50 KITCH TOWEL LUSTROUS LAVENDER BTP-802",
     "price": 9.0,
     "stock": 232,
-    "sales": 80
+    "sales": 28
   },
   {
     "outlet": "warehouse riyadh",
@@ -20847,7 +20927,7 @@ const data = [
     "name": "90*50 KITCH TOWEL LUSTROUS IVORY BTP-802",
     "price": 9.0,
     "stock": 232,
-    "sales": 57
+    "sales": 28
   },
   {
     "outlet": "warehouse riyadh",
@@ -20857,7 +20937,7 @@ const data = [
     "name": "90*50 KITCH TOWEL LUSTROUS PINK BTP-802",
     "price": 9.0,
     "stock": 232,
-    "sales": 79
+    "sales": 28
   },
   {
     "outlet": "warehouse riyadh",
@@ -20867,7 +20947,7 @@ const data = [
     "name": "90*50 KITCH TOWEL CHAMBRAY GREY BTP-781",
     "price": 9.0,
     "stock": 208,
-    "sales": 119
+    "sales": 41
   },
   {
     "outlet": "warehouse riyadh",
@@ -20877,7 +20957,7 @@ const data = [
     "name": "90*50 KITCH TOWEL CHAMBRAY RED BTP-781",
     "price": 9.0,
     "stock": 208,
-    "sales": 160
+    "sales": 41
   },
   {
     "outlet": "warehouse riyadh",
@@ -20887,7 +20967,7 @@ const data = [
     "name": "90*50 KITCH TOWEL CHAMBRAY NAVY BTP-781",
     "price": 9.0,
     "stock": 208,
-    "sales": 108
+    "sales": 29
   },
   {
     "outlet": "warehouse riyadh",
@@ -20897,7 +20977,7 @@ const data = [
     "name": "90*50 KITCH TOWEL CHAMBRAY BROWN BTP-781",
     "price": 9.0,
     "stock": 208,
-    "sales": 128
+    "sales": 60
   },
   {
     "outlet": "warehouse riyadh",
@@ -20907,7 +20987,7 @@ const data = [
     "name": "90*50 KITCH TOWEL CHAMBRAY BLUE BTP-781",
     "price": 9.0,
     "stock": 208,
-    "sales": 91
+    "sales": 20
   },
   {
     "outlet": "warehouse riyadh",
@@ -20917,7 +20997,7 @@ const data = [
     "name": "90*50 KITCH TOWEL CHAMBRAY IVORY BTP-781",
     "price": 9.0,
     "stock": 208,
-    "sales": 48
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -20936,8 +21016,8 @@ const data = [
     "alias": "620601",
     "name": "SHEET KING WHITE 800 TC 4 PCS",
     "price": 495.0,
-    "stock": 304,
-    "sales": 18
+    "stock": 798,
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -20946,8 +21026,8 @@ const data = [
     "alias": "620602",
     "name": "SHEET KING MARSHMALLOW 800 TC 4 PCS",
     "price": 495.0,
-    "stock": 220,
-    "sales": 10
+    "stock": 459,
+    "sales": 16
   },
   {
     "outlet": "warehouse riyadh",
@@ -20956,7 +21036,7 @@ const data = [
     "alias": "620603",
     "name": "SHEET KING PLATINUM GREY 800 TC 4 PCS",
     "price": 495.0,
-    "stock": 328,
+    "stock": 512,
     "sales": 7
   },
   {
@@ -20966,8 +21046,8 @@ const data = [
     "alias": "4052121",
     "name": "COSTCO RILEY SILVER KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 184,
-    "sales": 17
+    "stock": 387,
+    "sales": 33
   },
   {
     "outlet": "warehouse riyadh",
@@ -20976,8 +21056,8 @@ const data = [
     "alias": "4052122",
     "name": "COSTCO OLIVER NEUTRAL KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 114,
-    "sales": 8
+    "stock": 5,
+    "sales": 9
   },
   {
     "outlet": "warehouse riyadh",
@@ -20986,8 +21066,8 @@ const data = [
     "alias": "4052123",
     "name": "COSTCO GRAPHIC GEO GREY KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 662,
-    "sales": 5
+    "stock": 612,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -20996,7 +21076,7 @@ const data = [
     "alias": "440620",
     "name": "*ELLE MULTI KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 48,
+    "stock": 39,
     "sales": 10
   },
   {
@@ -21006,8 +21086,8 @@ const data = [
     "alias": "9244",
     "name": "FEATHER PILLOW WHITE DOWN KING",
     "price": 395.0,
-    "stock": 2996,
-    "sales": 57
+    "stock": 69,
+    "sales": 69
   },
   {
     "outlet": "warehouse riyadh",
@@ -21016,8 +21096,8 @@ const data = [
     "alias": "40623",
     "name": "(SPECIAL OFFER) VALENTINA WHITE KING COMFORTER 9 PCS.",
     "price": 399.0,
-    "stock": 550,
-    "sales": 9
+    "stock": 11,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -21026,8 +21106,8 @@ const data = [
     "alias": "40624",
     "name": "(SPECIAL OFFER) MEREDITH KING COMFORTER 9 PCS.",
     "price": 399.0,
-    "stock": 138,
-    "sales": 19
+    "stock": 5,
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -21036,8 +21116,8 @@ const data = [
     "alias": "960205",
     "name": "COCODOR 500 ML ROOM SPRAY CHERRY BLOSSOM",
     "price": 39.0,
-    "stock": 5400,
-    "sales": 443
+    "stock": 3662,
+    "sales": 525
   },
   {
     "outlet": "warehouse riyadh",
@@ -21046,8 +21126,8 @@ const data = [
     "alias": "960201",
     "name": "COCODOR 500 ML ROOM SPRAY EARL GREY TEA",
     "price": 39.0,
-    "stock": 72,
-    "sales": 95
+    "stock": 386,
+    "sales": 125
   },
   {
     "outlet": "warehouse riyadh",
@@ -21056,8 +21136,8 @@ const data = [
     "alias": "960202",
     "name": "COCODOR 500 ML ROOM SPRAY FOREST DAWN",
     "price": 39.0,
-    "stock": 792,
-    "sales": 544
+    "stock": 1,
+    "sales": 586
   },
   {
     "outlet": "warehouse riyadh",
@@ -21066,8 +21146,8 @@ const data = [
     "alias": "900414",
     "name": "COSTCO TUMBLERS 40OZ PINK",
     "price": 49.0,
-    "stock": 768,
-    "sales": 66
+    "stock": 1785,
+    "sales": 63
   },
   {
     "outlet": "warehouse riyadh",
@@ -21076,8 +21156,8 @@ const data = [
     "alias": "900415",
     "name": "COSTCO TUMBLERS 40OZ LIGHT BLUE",
     "price": 49.0,
-    "stock": 1616,
-    "sales": 70
+    "stock": 3555,
+    "sales": 96
   },
   {
     "outlet": "warehouse riyadh",
@@ -21086,8 +21166,8 @@ const data = [
     "alias": "900417",
     "name": "COSTCO TUMBLERS 40OZ CHRISTMAS RED",
     "price": 49.0,
-    "stock": 880,
-    "sales": 35
+    "stock": 2024,
+    "sales": 44
   },
   {
     "outlet": "warehouse riyadh",
@@ -21096,8 +21176,8 @@ const data = [
     "alias": "900418",
     "name": "COSTCO TUMBLERS 40OZ YELLOW",
     "price": 49.0,
-    "stock": 624,
-    "sales": 58
+    "stock": 1352,
+    "sales": 87
   },
   {
     "outlet": "warehouse riyadh",
@@ -21106,8 +21186,8 @@ const data = [
     "alias": "900419",
     "name": "COSTCO TUMBLERS 40OZ ORANGE",
     "price": 49.0,
-    "stock": 864,
-    "sales": 39
+    "stock": 2098,
+    "sales": 46
   },
   {
     "outlet": "warehouse riyadh",
@@ -21116,8 +21196,8 @@ const data = [
     "alias": "988901",
     "name": "HAMBURGER STATIONERY BOX SET",
     "price": 59.0,
-    "stock": 120,
-    "sales": 22
+    "stock": 165,
+    "sales": 25
   },
   {
     "outlet": "warehouse riyadh",
@@ -21126,8 +21206,8 @@ const data = [
     "alias": "988902",
     "name": "PENGUIN STATIONERY BOX SET",
     "price": 59.0,
-    "stock": 240,
-    "sales": 13
+    "stock": 426,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
@@ -21136,8 +21216,8 @@ const data = [
     "alias": "988903",
     "name": "OWL STATIONERY BOX SET",
     "price": 59.0,
-    "stock": 140,
-    "sales": 17
+    "stock": 289,
+    "sales": 21
   },
   {
     "outlet": "warehouse riyadh",
@@ -21146,8 +21226,8 @@ const data = [
     "alias": "988904",
     "name": "DOG STATIONERY BOX SET",
     "price": 59.0,
-    "stock": 240,
-    "sales": 12
+    "stock": 313,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
@@ -21157,7 +21237,7 @@ const data = [
     "name": "PANDA STATIONERY BOX SET",
     "price": 59.0,
     "stock": 40,
-    "sales": 13
+    "sales": 16
   },
   {
     "outlet": "warehouse riyadh",
@@ -21167,7 +21247,7 @@ const data = [
     "name": "ALPACA STATIONERY BOX SET",
     "price": 59.0,
     "stock": 170,
-    "sales": 4
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -21176,8 +21256,8 @@ const data = [
     "alias": "9006-12",
     "name": "PRINT BLUE WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29.0,
-    "stock": 1308,
-    "sales": 112
+    "stock": 4202,
+    "sales": 126
   },
   {
     "outlet": "warehouse riyadh",
@@ -21186,8 +21266,8 @@ const data = [
     "alias": "9006-13",
     "name": "PRINT RAINBOW WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29.0,
-    "stock": 2160,
-    "sales": 94
+    "stock": 5246,
+    "sales": 86
   },
   {
     "outlet": "warehouse riyadh",
@@ -21196,7 +21276,7 @@ const data = [
     "alias": "9006-14",
     "name": "PRINT RAINBOW AND WHITE WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29.0,
-    "stock": 2508,
+    "stock": 5787,
     "sales": 64
   },
   {
@@ -21206,8 +21286,8 @@ const data = [
     "alias": "9006-15",
     "name": "CHRISTMAS RED WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29.0,
-    "stock": 228,
-    "sales": 71
+    "stock": 1016,
+    "sales": 69
   },
   {
     "outlet": "warehouse riyadh",
@@ -21216,8 +21296,8 @@ const data = [
     "alias": "9005-12",
     "name": "PRINT BLUE WM TUMBER WITH STRAW 24 OZ",
     "price": 29.0,
-    "stock": 552,
-    "sales": 51
+    "stock": 1334,
+    "sales": 55
   },
   {
     "outlet": "warehouse riyadh",
@@ -21226,8 +21306,8 @@ const data = [
     "alias": "9005-13",
     "name": "PRINT RAINBOW WM TUMBER WITH STRAW 24 OZ",
     "price": 29.0,
-    "stock": 768,
-    "sales": 42
+    "stock": 1494,
+    "sales": 43
   },
   {
     "outlet": "warehouse riyadh",
@@ -21236,8 +21316,8 @@ const data = [
     "alias": "9005-14",
     "name": "PRINT RAINBOW AND WHITE WM TUMBER WITH STRAW 24 OZ",
     "price": 29.0,
-    "stock": 972,
-    "sales": 34
+    "stock": 1979,
+    "sales": 44
   },
   {
     "outlet": "warehouse riyadh",
@@ -21247,7 +21327,7 @@ const data = [
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
     "price": 39.0,
     "stock": 255,
-    "sales": 14
+    "sales": 9
   },
   {
     "outlet": "warehouse riyadh",
@@ -21256,8 +21336,8 @@ const data = [
     "alias": "960204",
     "name": "COCODOR 500 ML ROOM SPRAY BOMB SHELL",
     "price": 39.0,
-    "stock": 3870,
-    "sales": 933
+    "stock": 7797,
+    "sales": 1235
   },
   {
     "outlet": "warehouse riyadh",
@@ -21266,8 +21346,8 @@ const data = [
     "alias": "959906",
     "name": "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
     "price": 39.0,
-    "stock": 120,
-    "sales": 29
+    "stock": 105,
+    "sales": 38
   },
   {
     "outlet": "warehouse riyadh",
@@ -21276,8 +21356,8 @@ const data = [
     "alias": "959410",
     "name": "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
     "price": 59.0,
-    "stock": 5312,
-    "sales": 81
+    "stock": 1487,
+    "sales": 120
   },
   {
     "outlet": "warehouse riyadh",
@@ -21286,8 +21366,8 @@ const data = [
     "alias": "9605",
     "name": "GEL FOAM MATTRESS PAD KING 4 INCH",
     "price": 599.0,
-    "stock": 1310,
-    "sales": 22
+    "stock": 592,
+    "sales": 24
   },
   {
     "outlet": "warehouse riyadh",
@@ -21296,8 +21376,8 @@ const data = [
     "alias": "4001784",
     "name": "(SPECIAL OFFER) BIG ARAN KING COMFORTER 9 PCS",
     "price": 249.0,
-    "stock": 264,
-    "sales": 8
+    "stock": 262,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -21306,8 +21386,8 @@ const data = [
     "alias": "4001786",
     "name": "BIG EMILIY KING COMFORTER 9 PCS",
     "price": 249.0,
-    "stock": 152,
-    "sales": 6
+    "stock": 3,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -21316,8 +21396,8 @@ const data = [
     "alias": "4001787",
     "name": "BIG EMMA KING COMFORTER 9 PCS",
     "price": 249.0,
-    "stock": 350,
-    "sales": 4
+    "stock": 20,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -21326,7 +21406,7 @@ const data = [
     "alias": "4001789",
     "name": "BIG VINE SPRING KING COMFORTER 9 PCS",
     "price": 249.0,
-    "stock": 62,
+    "stock": 3,
     "sales": 14
   },
   {
@@ -21336,8 +21416,8 @@ const data = [
     "alias": "4001790",
     "name": "BIG JASON KING COMFORTER 9 PCS",
     "price": 249.0,
-    "stock": 112,
-    "sales": 7
+    "stock": 1,
+    "sales": 5
   },
   {
     "outlet": "warehouse riyadh",
@@ -21356,8 +21436,8 @@ const data = [
     "alias": "233998",
     "name": "BIG EMMA FULL COMFORTER 9 PCS",
     "price": 249.0,
-    "stock": 28,
-    "sales": 7
+    "stock": 26,
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -21366,8 +21446,8 @@ const data = [
     "alias": "100411",
     "name": "FLOWER LACE HG JUVI TWIN COMFORTER 6 PCS",
     "price": 249.0,
-    "stock": 698,
-    "sales": 1
+    "stock": 573,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -21376,8 +21456,8 @@ const data = [
     "alias": "100412",
     "name": "HAILEY HG JUVI TWIN COMFORTER 6 PCS",
     "price": 249.0,
-    "stock": 532,
-    "sales": 11
+    "stock": 215,
+    "sales": 9
   },
   {
     "outlet": "warehouse riyadh",
@@ -21386,8 +21466,8 @@ const data = [
     "alias": "100413",
     "name": "HEART CHEVRON HG JUVI TWIN COMFORTER 6 PCS",
     "price": 249.0,
-    "stock": 623,
-    "sales": 16
+    "stock": 267,
+    "sales": 13
   },
   {
     "outlet": "warehouse riyadh",
@@ -21396,7 +21476,7 @@ const data = [
     "alias": "100414",
     "name": "EXCAVATOR HG JUVI TWIN COMFORTER 6 PCS",
     "price": 249.0,
-    "stock": 608,
+    "stock": 460,
     "sales": 9
   },
   {
@@ -21406,8 +21486,8 @@ const data = [
     "alias": "100415",
     "name": "FLYING MODEL HG JUVI TWIN COMFORTER 6 PCS",
     "price": 249.0,
-    "stock": 626,
-    "sales": 8
+    "stock": 374,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -21416,8 +21496,8 @@ const data = [
     "alias": "100416",
     "name": "ROBERT HG JUVI TWIN COMFORTER 6 PCS",
     "price": 250.27041742286752,
-    "stock": 706,
-    "sales": 5
+    "stock": 551,
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -21426,8 +21506,8 @@ const data = [
     "alias": "269209",
     "name": "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 268,
-    "sales": 10
+    "stock": 20,
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -21436,8 +21516,8 @@ const data = [
     "alias": "269210",
     "name": "HAILEY HG JUVI FULL COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 68,
-    "sales": 6
+    "stock": 2,
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -21446,8 +21526,8 @@ const data = [
     "alias": "269211",
     "name": "HEART FLOWER CHEVRON HG JUVI FULL COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 170,
-    "sales": 5
+    "stock": 2,
+    "sales": 10
   },
   {
     "outlet": "warehouse riyadh",
@@ -21456,8 +21536,8 @@ const data = [
     "alias": "269212",
     "name": "EXCAVATOR HG JUVI FULL COMFORTER 8 PCS",
     "price": 349.0,
-    "stock": 222,
-    "sales": 4
+    "stock": 13,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -21467,7 +21547,7 @@ const data = [
     "name": "FLYING MODEL HG JUVI FULL COMFORTER 8 PCS",
     "price": 299.0,
     "stock": 170,
-    "sales": 11
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -21476,8 +21556,8 @@ const data = [
     "alias": "269214",
     "name": "ROBERT HG JUVI FULL COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 224,
-    "sales": 4
+    "stock": 38,
+    "sales": 2
   },
   {
     "outlet": "warehouse riyadh",
@@ -21486,7 +21566,7 @@ const data = [
     "alias": "5481",
     "name": "QUILT PURPLE TRUMPET FLOWER KING 3 PCS",
     "price": 299.0,
-    "stock": 260,
+    "stock": 387,
     "sales": 11
   },
   {
@@ -21496,8 +21576,8 @@ const data = [
     "alias": "5482",
     "name": "QUILT RED ROSE KING 3 PCS",
     "price": 299.0,
-    "stock": 220,
-    "sales": 17
+    "stock": 385,
+    "sales": 30
   },
   {
     "outlet": "warehouse riyadh",
@@ -21516,8 +21596,8 @@ const data = [
     "alias": "970133",
     "name": "O422 SOMOOSHIE TOY - FROG GREEN",
     "price": 69.0,
-    "stock": 234,
-    "sales": 13
+    "stock": 853,
+    "sales": 19
   },
   {
     "outlet": "warehouse riyadh",
@@ -21526,8 +21606,8 @@ const data = [
     "alias": "970136",
     "name": "T425 SOMOOSHIE TOY - CUTTLEFISH FUSHIA",
     "price": 69.0,
-    "stock": 240,
-    "sales": 30
+    "stock": 554,
+    "sales": 41
   },
   {
     "outlet": "warehouse riyadh",
@@ -21536,8 +21616,8 @@ const data = [
     "alias": "970137",
     "name": "A426 SOMOOSHIE TOY - CRAB PINK",
     "price": 69.0,
-    "stock": 162,
-    "sales": 19
+    "stock": 307,
+    "sales": 29
   },
   {
     "outlet": "warehouse riyadh",
@@ -21546,8 +21626,8 @@ const data = [
     "alias": "970138",
     "name": "N427 SOMOOSHIE TOY - DINO GRASS",
     "price": 69.0,
-    "stock": 132,
-    "sales": 12
+    "stock": 1110,
+    "sales": 13
   },
   {
     "outlet": "warehouse riyadh",
@@ -21556,7 +21636,7 @@ const data = [
     "alias": "970139",
     "name": "A428 SOMOOSHIE TOY - DEER WHITE/RED",
     "price": 69.0,
-    "stock": 150,
+    "stock": 838,
     "sales": 14
   },
   {
@@ -21566,8 +21646,8 @@ const data = [
     "alias": "970140",
     "name": "T429 SOMOOSHIE TOY - CUTTLEFISH RED",
     "price": 69.0,
-    "stock": 180,
-    "sales": 24
+    "stock": 769,
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -21576,8 +21656,8 @@ const data = [
     "alias": "970142",
     "name": "U431 SOMOOSHIE TOY - MOUSE LT.PINK",
     "price": 69.0,
-    "stock": 426,
-    "sales": 20
+    "stock": 111,
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -21586,7 +21666,7 @@ const data = [
     "alias": "970143",
     "name": "T432 SOMOOSHIE TOY - CAT LT.PINK/FUSHIA",
     "price": 69.0,
-    "stock": 3,
+    "stock": 510,
     "sales": 23
   },
   {
@@ -21596,8 +21676,8 @@ const data = [
     "alias": "970144",
     "name": "R433 SOMOOSHIE TOY - DEER PEACH",
     "price": 69.0,
-    "stock": 81,
-    "sales": 22
+    "stock": 750,
+    "sales": 33
   },
   {
     "outlet": "warehouse riyadh",
@@ -21606,8 +21686,8 @@ const data = [
     "alias": "970154",
     "name": "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
     "price": 69.0,
-    "stock": 372,
-    "sales": 14
+    "stock": 1169,
+    "sales": 9
   },
   {
     "outlet": "warehouse riyadh",
@@ -21616,8 +21696,8 @@ const data = [
     "alias": "960206",
     "name": "COCODOR 500 ML ROOM SPRAY RAIN ROSE",
     "price": 39.0,
-    "stock": 3204,
-    "sales": 548
+    "stock": 57,
+    "sales": 699
   },
   {
     "outlet": "warehouse riyadh",
@@ -21626,8 +21706,8 @@ const data = [
     "alias": "96001",
     "name": "COCODOR 200 ML SIMPLE DIFFUSER BLACK CHERRY",
     "price": 39.0,
-    "stock": 904,
-    "sales": 86
+    "stock": 3882,
+    "sales": 80
   },
   {
     "outlet": "warehouse riyadh",
@@ -21636,8 +21716,8 @@ const data = [
     "alias": "900762",
     "name": "RABBIT CREAM KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1668,
-    "sales": 21
+    "stock": 1442,
+    "sales": 33
   },
   {
     "outlet": "warehouse riyadh",
@@ -21646,8 +21726,8 @@ const data = [
     "alias": "900763",
     "name": "BABY BEAR PINK KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1524,
-    "sales": 33
+    "stock": 1057,
+    "sales": 43
   },
   {
     "outlet": "warehouse riyadh",
@@ -21656,8 +21736,8 @@ const data = [
     "alias": "900764",
     "name": "LION PEACH KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1873,
-    "sales": 12
+    "stock": 1661,
+    "sales": 21
   },
   {
     "outlet": "warehouse riyadh",
@@ -21666,8 +21746,8 @@ const data = [
     "alias": "900765",
     "name": "PRINCESS PINK KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1284,
-    "sales": 52
+    "stock": 900,
+    "sales": 59
   },
   {
     "outlet": "warehouse riyadh",
@@ -21676,8 +21756,8 @@ const data = [
     "alias": "900766",
     "name": "UNICORN LILAC KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1788,
-    "sales": 24
+    "stock": 1450,
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -21686,8 +21766,8 @@ const data = [
     "alias": "900767",
     "name": "BUNNY LILAC KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 540,
-    "sales": 71
+    "stock": 42,
+    "sales": 93
   },
   {
     "outlet": "warehouse riyadh",
@@ -21696,8 +21776,8 @@ const data = [
     "alias": "900768",
     "name": "SHARK SEA BLUE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 732,
-    "sales": 57
+    "stock": 445,
+    "sales": 65
   },
   {
     "outlet": "warehouse riyadh",
@@ -21706,8 +21786,8 @@ const data = [
     "alias": "900769",
     "name": "RINO ORANGE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1272,
-    "sales": 29
+    "stock": 1130,
+    "sales": 37
   },
   {
     "outlet": "warehouse riyadh",
@@ -21716,8 +21796,8 @@ const data = [
     "alias": "900770",
     "name": "DINO GREEN KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1272,
-    "sales": 46
+    "stock": 891,
+    "sales": 64
   },
   {
     "outlet": "warehouse riyadh",
@@ -21726,8 +21806,8 @@ const data = [
     "alias": "900771",
     "name": "ELEPHANT BLUE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1224,
-    "sales": 45
+    "stock": 949,
+    "sales": 60
   },
   {
     "outlet": "warehouse riyadh",
@@ -21736,8 +21816,8 @@ const data = [
     "alias": "900772",
     "name": "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 2016,
-    "sales": 10
+    "stock": 1651,
+    "sales": 15
   },
   {
     "outlet": "warehouse riyadh",
@@ -21746,8 +21826,8 @@ const data = [
     "alias": "900773",
     "name": "UNICORN WHITE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1296,
-    "sales": 39
+    "stock": 1037,
+    "sales": 54
   },
   {
     "outlet": "warehouse riyadh",
@@ -21756,8 +21836,8 @@ const data = [
     "alias": "90301",
     "name": "(SPECIAL OFFER) DINO KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 1092,
-    "sales": 19
+    "stock": 817,
+    "sales": 30
   },
   {
     "outlet": "warehouse riyadh",
@@ -21766,8 +21846,8 @@ const data = [
     "alias": "90302",
     "name": "(SPECIAL OFFER) KOALA KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 900,
-    "sales": 26
+    "stock": 612,
+    "sales": 28
   },
   {
     "outlet": "warehouse riyadh",
@@ -21776,8 +21856,8 @@ const data = [
     "alias": "90303",
     "name": "(SPECIAL OFFER) LION KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 840,
-    "sales": 22
+    "stock": 445,
+    "sales": 32
   },
   {
     "outlet": "warehouse riyadh",
@@ -21786,8 +21866,8 @@ const data = [
     "alias": "90304",
     "name": "(SPECIAL OFFER) ALLIGATOR KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 1020,
-    "sales": 23
+    "stock": 763,
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -21796,8 +21876,8 @@ const data = [
     "alias": "90305",
     "name": "(SPECIAL OFFER) PINK DINO KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 660,
-    "sales": 30
+    "stock": 352,
+    "sales": 34
   },
   {
     "outlet": "warehouse riyadh",
@@ -21806,8 +21886,8 @@ const data = [
     "alias": "90306",
     "name": "(SPECIAL OFFER) SHARK KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 720,
-    "sales": 24
+    "stock": 362,
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -21816,7 +21896,7 @@ const data = [
     "alias": "90307",
     "name": "(SPECIAL OFFER) UNICORN KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 756,
+    "stock": 323,
     "sales": 37
   },
   {
@@ -21826,8 +21906,8 @@ const data = [
     "alias": "90308",
     "name": "(SPECIAL OFFER) DOG KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 1104,
-    "sales": 15
+    "stock": 824,
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -21836,8 +21916,8 @@ const data = [
     "alias": "90309",
     "name": "(SPECIAL OFFER) CHEETAH KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 972,
-    "sales": 19
+    "stock": 688,
+    "sales": 33
   },
   {
     "outlet": "warehouse riyadh",
@@ -21846,8 +21926,8 @@ const data = [
     "alias": "710631",
     "name": "BATH SHEET AIR-RICH 86X172 CM LAVENDER BLUE",
     "price": 69.0,
-    "stock": 2100,
-    "sales": 35
+    "stock": 561,
+    "sales": 38
   },
   {
     "outlet": "warehouse riyadh",
@@ -21856,8 +21936,8 @@ const data = [
     "alias": "714431",
     "name": "BATH TOWEL AIR-RICH 70X140 CM LAVENDER BLUE",
     "price": 49.0,
-    "stock": 2256,
-    "sales": 73
+    "stock": 576,
+    "sales": 77
   },
   {
     "outlet": "warehouse riyadh",
@@ -21866,7 +21946,7 @@ const data = [
     "alias": "710731",
     "name": "EUR TOWEL AIR-RICH 50X100 CM LAVENDER BLUE",
     "price": 25.0,
-    "stock": 2832,
+    "stock": 840,
     "sales": 54
   },
   {
@@ -21876,8 +21956,8 @@ const data = [
     "alias": "710831",
     "name": "SQUARE TOWELS 30X30 CM AIR-RICH LAVENDER BLUE",
     "price": 5.0,
-    "stock": 3816,
-    "sales": 111
+    "stock": 1824,
+    "sales": 93
   },
   {
     "outlet": "warehouse riyadh",
@@ -21886,8 +21966,8 @@ const data = [
     "alias": "440621",
     "name": "*(SPECIAL OFFER) LAVENDAR EVELYN KING COMFORTER 6 PCS KIT",
     "price": 579.0,
-    "stock": 212,
-    "sales": 17
+    "stock": 1,
+    "sales": 15
   },
   {
     "outlet": "warehouse riyadh",
@@ -21896,8 +21976,8 @@ const data = [
     "alias": "9315",
     "name": "THERMO PERFORMACE DUVET KING",
     "price": 799.0,
-    "stock": 270,
-    "sales": 8
+    "stock": 111,
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -21906,8 +21986,8 @@ const data = [
     "alias": "959413",
     "name": "THERMO PERFORMANCE (COOL-0) KING PILLOW",
     "price": 249.0,
-    "stock": 2850,
-    "sales": 134
+    "stock": 1196,
+    "sales": 159
   },
   {
     "outlet": "warehouse riyadh",
@@ -21916,8 +21996,8 @@ const data = [
     "alias": "959412",
     "name": "SIDE SLEEPER PILLOW TPE COVER",
     "price": 199.0,
-    "stock": 924,
-    "sales": 193
+    "stock": 1,
+    "sales": 206
   },
   {
     "outlet": "warehouse riyadh",
@@ -21926,8 +22006,8 @@ const data = [
     "alias": "4052124",
     "name": "COSTCO EMILIA BLUE KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 472,
-    "sales": 15
+    "stock": 321,
+    "sales": 16
   },
   {
     "outlet": "warehouse riyadh",
@@ -21936,8 +22016,8 @@ const data = [
     "alias": "4052125",
     "name": "COSTCO RACQUEL NEUTRAL KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 494,
-    "sales": 17
+    "stock": 152,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -21946,8 +22026,8 @@ const data = [
     "alias": "542518",
     "name": "BIG ONE CATALINA FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 508,
-    "sales": 69
+    "stock": 14,
+    "sales": 96
   },
   {
     "outlet": "warehouse riyadh",
@@ -21956,8 +22036,8 @@ const data = [
     "alias": "542519",
     "name": "BIG ONE FLORAL VINE FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 432,
-    "sales": 40
+    "stock": 5,
+    "sales": 46
   },
   {
     "outlet": "warehouse riyadh",
@@ -21966,8 +22046,8 @@ const data = [
     "alias": "542520",
     "name": "BIG ONE IVORY BLUSH FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 370,
-    "sales": 68
+    "stock": 17,
+    "sales": 108
   },
   {
     "outlet": "warehouse riyadh",
@@ -21975,9 +22055,9 @@ const data = [
     "code": "23394",
     "alias": "542522",
     "name": "BIG ONE SUMMER FLOWER FULL QUILT 2 PCS",
-    "price": 100.36363636363636,
-    "stock": 696,
-    "sales": 43
+    "price": 100.4074074074074,
+    "stock": 405,
+    "sales": 59
   },
   {
     "outlet": "warehouse riyadh",
@@ -21986,8 +22066,8 @@ const data = [
     "alias": "542523",
     "name": "BIG ONE BLOSSOMS TANGERINE FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 296,
-    "sales": 58
+    "stock": 147,
+    "sales": 65
   },
   {
     "outlet": "warehouse riyadh",
@@ -21996,8 +22076,8 @@ const data = [
     "alias": "542525",
     "name": "BIG ONE IVY GREEN FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 405,
-    "sales": 81
+    "stock": 266,
+    "sales": 103
   },
   {
     "outlet": "warehouse riyadh",
@@ -22005,9 +22085,9 @@ const data = [
     "code": "23398",
     "alias": "542526",
     "name": "BIG ONE JAIDEN FOREST FULL QUILT 2 PCS",
-    "price": 99.3061224489796,
-    "stock": 340,
-    "sales": 57
+    "price": 99.0,
+    "stock": 60,
+    "sales": 69
   },
   {
     "outlet": "warehouse riyadh",
@@ -22016,8 +22096,8 @@ const data = [
     "alias": "542529",
     "name": "BIG ONE MALLORY FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 138,
-    "sales": 59
+    "stock": 98,
+    "sales": 52
   },
   {
     "outlet": "warehouse riyadh",
@@ -22026,8 +22106,8 @@ const data = [
     "alias": "542528",
     "name": "BIG ONE MALUS BLUE FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 380,
-    "sales": 64
+    "stock": 259,
+    "sales": 99
   },
   {
     "outlet": "warehouse riyadh",
@@ -22036,8 +22116,8 @@ const data = [
     "alias": "538797",
     "name": "BIG ONE CATALINA KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 287,
-    "sales": 39
+    "stock": 53,
+    "sales": 59
   },
   {
     "outlet": "warehouse riyadh",
@@ -22046,8 +22126,8 @@ const data = [
     "alias": "538798",
     "name": "BIG ONE FLORAL VINE KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 269,
-    "sales": 18
+    "stock": 2,
+    "sales": 27
   },
   {
     "outlet": "warehouse riyadh",
@@ -22056,8 +22136,8 @@ const data = [
     "alias": "538799",
     "name": "BIG ONE IVORY BLUSH KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 200,
-    "sales": 19
+    "stock": 1,
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -22066,8 +22146,8 @@ const data = [
     "alias": "538800",
     "name": "BIG ONE VINTAGE STRIPE KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 192,
-    "sales": 20
+    "stock": 10,
+    "sales": 31
   },
   {
     "outlet": "warehouse riyadh",
@@ -22076,8 +22156,8 @@ const data = [
     "alias": "538801",
     "name": "BIG ONE SUMMER FLOWER KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 475,
-    "sales": 20
+    "stock": 199,
+    "sales": 40
   },
   {
     "outlet": "warehouse riyadh",
@@ -22086,8 +22166,8 @@ const data = [
     "alias": "538802",
     "name": "BIG ONE BLOSSOMS TANGERINE KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 96,
-    "sales": 24
+    "stock": 3,
+    "sales": 33
   },
   {
     "outlet": "warehouse riyadh",
@@ -22096,8 +22176,8 @@ const data = [
     "alias": "538804",
     "name": "BIG ONE IVY GREEN KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 114,
-    "sales": 26
+    "stock": 2,
+    "sales": 33
   },
   {
     "outlet": "warehouse riyadh",
@@ -22106,8 +22186,8 @@ const data = [
     "alias": "538805",
     "name": "BIG ONE JAIDEN FOREST KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 264,
-    "sales": 22
+    "stock": 213,
+    "sales": 32
   },
   {
     "outlet": "warehouse riyadh",
@@ -22116,8 +22196,8 @@ const data = [
     "alias": "538806",
     "name": "BIG ONE KATHERINE KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 42,
-    "sales": 31
+    "stock": 6,
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -22126,8 +22206,8 @@ const data = [
     "alias": "538807",
     "name": "BIG ONE MALUS BLUE KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 127,
-    "sales": 15
+    "stock": 74,
+    "sales": 33
   },
   {
     "outlet": "warehouse riyadh",
@@ -22136,8 +22216,8 @@ const data = [
     "alias": "538808",
     "name": "BIG ONE RAINY INK KING QUILT 3 PCS",
     "price": 149.0,
-    "stock": 136,
-    "sales": 28
+    "stock": 124,
+    "sales": 38
   },
   {
     "outlet": "warehouse riyadh",
@@ -22146,8 +22226,8 @@ const data = [
     "alias": "970149",
     "name": "E438 SMOOSHIE TOY- BEE PURPLE",
     "price": 69.0,
-    "stock": 288,
-    "sales": 29
+    "stock": 739,
+    "sales": 41
   },
   {
     "outlet": "warehouse riyadh",
@@ -22156,8 +22236,8 @@ const data = [
     "alias": "614714",
     "name": "NAVY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     "price": 295.0,
-    "stock": 65,
-    "sales": 6
+    "stock": 4,
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -22166,8 +22246,8 @@ const data = [
     "alias": "608518",
     "name": "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495.0,
-    "stock": 45,
-    "sales": 6
+    "stock": 1,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -22176,8 +22256,8 @@ const data = [
     "alias": "4406013",
     "name": "*COZY STRIPE GREY PRINTED KING COMFORTER 6 PCS KIT",
     "price": 399.0,
-    "stock": 107,
-    "sales": 8
+    "stock": 1,
+    "sales": 11
   },
   {
     "outlet": "warehouse riyadh",
@@ -22187,7 +22267,7 @@ const data = [
     "name": "*COZY STRIPE BLUE LOYAL KING COMFORTER 6 PCS KIT",
     "price": 399.0,
     "stock": 100,
-    "sales": 1
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -22196,8 +22276,8 @@ const data = [
     "alias": "4052127",
     "name": "COSTCO ANNALISE TAN KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 532,
-    "sales": 13
+    "stock": 512,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -22206,8 +22286,8 @@ const data = [
     "alias": "4052128",
     "name": "COSTCO LEAFAGE TURQUOISE KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 444,
-    "sales": 13
+    "stock": 550,
+    "sales": 10
   },
   {
     "outlet": "warehouse riyadh",
@@ -22216,8 +22296,8 @@ const data = [
     "alias": "4052129",
     "name": "COSTCO FLORE NAVY BLUE KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 374,
-    "sales": 9
+    "stock": 567,
+    "sales": 13
   },
   {
     "outlet": "warehouse riyadh",
@@ -22226,8 +22306,8 @@ const data = [
     "alias": "4052130",
     "name": "COSTCO AMARA NEUTRAL KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 184,
-    "sales": 29
+    "stock": 37,
+    "sales": 27
   },
   {
     "outlet": "warehouse riyadh",
@@ -22236,7 +22316,7 @@ const data = [
     "alias": "4052131",
     "name": "COSTCO THOMAS COOL KING COMFORTER 6 PCS",
     "price": 399.0,
-    "stock": 214,
+    "stock": 255,
     "sales": 10
   },
   {
@@ -22246,8 +22326,8 @@ const data = [
     "alias": "100607",
     "name": "ALPACA PLANET NAVY YELLOW TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 796,
-    "sales": 54
+    "stock": 386,
+    "sales": 68
   },
   {
     "outlet": "warehouse riyadh",
@@ -22256,8 +22336,8 @@ const data = [
     "alias": "100608",
     "name": "DAISY SPRING TANGERING TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 1160,
-    "sales": 45
+    "stock": 717,
+    "sales": 36
   },
   {
     "outlet": "warehouse riyadh",
@@ -22266,8 +22346,8 @@ const data = [
     "alias": "100609",
     "name": "DINO RED BLUE TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 920,
-    "sales": 56
+    "stock": 730,
+    "sales": 65
   },
   {
     "outlet": "warehouse riyadh",
@@ -22276,8 +22356,8 @@ const data = [
     "alias": "100611",
     "name": "LILI FLORAL PURPLE BLUE TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 826,
-    "sales": 63
+    "stock": 174,
+    "sales": 88
   },
   {
     "outlet": "warehouse riyadh",
@@ -22286,8 +22366,8 @@ const data = [
     "alias": "100610",
     "name": "PONY SHINE LILAC TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 636,
-    "sales": 65
+    "stock": 386,
+    "sales": 98
   },
   {
     "outlet": "warehouse riyadh",
@@ -22296,8 +22376,8 @@ const data = [
     "alias": "200606",
     "name": "BUTTERFLY YELLOW BLUE FULL COMFORTER 7 PCS WM YZ BIAB",
     "price": 169.0,
-    "stock": 279,
-    "sales": 44
+    "stock": 11,
+    "sales": 42
   },
   {
     "outlet": "warehouse riyadh",
@@ -22306,8 +22386,8 @@ const data = [
     "alias": "200607",
     "name": "LILY AQUA PINK FULL COMFORTER 7 PCS WM YZ BIAB",
     "price": 169.0,
-    "stock": 143,
-    "sales": 32
+    "stock": 5,
+    "sales": 36
   },
   {
     "outlet": "warehouse riyadh",
@@ -22316,8 +22396,8 @@ const data = [
     "alias": "200608",
     "name": "SAIL ORANGE MINT FULL COMFORTER 7 PCS WM YZ BIAB",
     "price": 169.0,
-    "stock": 349,
-    "sales": 32
+    "stock": 54,
+    "sales": 35
   },
   {
     "outlet": "warehouse riyadh",
@@ -22326,8 +22406,8 @@ const data = [
     "alias": "200609",
     "name": "SPORTS GREY GREEN FULL COMFORTER 7 PCS WM YZ BIAB",
     "price": 169.0,
-    "stock": 8,
-    "sales": 24
+    "stock": 2,
+    "sales": 41
   },
   {
     "outlet": "warehouse riyadh",
@@ -22336,8 +22416,8 @@ const data = [
     "alias": "970134",
     "name": "B423 SMOOSHIE TOY- RABBIT IVORY",
     "price": 69.0,
-    "stock": 606,
-    "sales": 10
+    "stock": 918,
+    "sales": 13
   },
   {
     "outlet": "warehouse riyadh",
@@ -22346,8 +22426,8 @@ const data = [
     "alias": "970135",
     "name": "B424 SMOOSHIE TOY- RABBIT SKY BLUE",
     "price": 69.0,
-    "stock": 575,
-    "sales": 15
+    "stock": 914,
+    "sales": 10
   },
   {
     "outlet": "warehouse riyadh",
@@ -22356,8 +22436,8 @@ const data = [
     "alias": "970141",
     "name": "I430 SMOOSHIE TOY- UNICORN COLORFUL",
     "price": 69.0,
-    "stock": 583,
-    "sales": 33
+    "stock": 716,
+    "sales": 27
   },
   {
     "outlet": "warehouse riyadh",
@@ -22366,8 +22446,8 @@ const data = [
     "alias": "970146",
     "name": "U435 SMOOSHIE TOY- CUUTOPIA ORANGE GREEN",
     "price": 69.0,
-    "stock": 498,
-    "sales": 59
+    "stock": 665,
+    "sales": 62
   },
   {
     "outlet": "warehouse riyadh",
@@ -22376,7 +22456,7 @@ const data = [
     "alias": "970148",
     "name": "K437 SMOOSHIE TOY- YAK LT.TURQ",
     "price": 69.0,
-    "stock": 714,
+    "stock": 1022,
     "sales": 12
   },
   {
@@ -22386,8 +22466,8 @@ const data = [
     "alias": "970150",
     "name": "N439 SMOOSHIE TOY- PENGUIN LAVANDER MULTI",
     "price": 69.0,
-    "stock": 660,
-    "sales": 11
+    "stock": 881,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
@@ -22396,7 +22476,7 @@ const data = [
     "alias": "970151",
     "name": "A450 SMOOSHIE TOY- STRAWBERRY TEA PEACH PING",
     "price": 69.0,
-    "stock": 666,
+    "stock": 852,
     "sales": 19
   },
   {
@@ -22406,8 +22486,8 @@ const data = [
     "alias": "970152",
     "name": "A451 SMOOSHIE TOY- CREAM TEA LT.PINK",
     "price": 69.0,
-    "stock": 684,
-    "sales": 15
+    "stock": 947,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -22416,8 +22496,8 @@ const data = [
     "alias": "970153",
     "name": "E452 SMOOSHIE TOY- SHEEP COLORFUL",
     "price": 69.0,
-    "stock": 732,
-    "sales": 7
+    "stock": 1016,
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -22426,8 +22506,8 @@ const data = [
     "alias": "200107",
     "name": "BOW HOTEL LAVENDER FULL COMFORTER 8 PCS",
     "price": 349.0,
-    "stock": 265,
-    "sales": 23
+    "stock": 261,
+    "sales": 26
   },
   {
     "outlet": "warehouse riyadh",
@@ -22436,7 +22516,7 @@ const data = [
     "alias": "200108",
     "name": "MADISON HOTEL BLUE SPARKLE FULL COMFORTER 8 PCS",
     "price": 349.0,
-    "stock": 220,
+    "stock": 214,
     "sales": 34
   },
   {
@@ -22446,8 +22526,8 @@ const data = [
     "alias": "200110",
     "name": "JULIETTE SPARKLE WHITE FULL COMFORTER 8 PCS",
     "price": 349.0,
-    "stock": 300,
-    "sales": 31
+    "stock": 46,
+    "sales": 48
   },
   {
     "outlet": "warehouse riyadh",
@@ -22456,8 +22536,8 @@ const data = [
     "alias": "200111",
     "name": "STRAWBERRY WHITE FULL COMFORTER 8 PCS",
     "price": 349.0,
-    "stock": 284,
-    "sales": 14
+    "stock": 276,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
@@ -22466,8 +22546,8 @@ const data = [
     "alias": "200112",
     "name": "ADRIANNA IVORY FULL COMFORTER 8 PCS",
     "price": 349.0,
-    "stock": 80,
-    "sales": 10
+    "stock": 3,
+    "sales": 11
   },
   {
     "outlet": "warehouse riyadh",
@@ -22486,8 +22566,8 @@ const data = [
     "alias": "4401241",
     "name": "*ZAHA ECRU KING COMFORTER 8 PCS KIT",
     "price": 595.0,
-    "stock": 60,
-    "sales": 87
+    "stock": 1,
+    "sales": 92
   },
   {
     "outlet": "warehouse riyadh",
@@ -22496,8 +22576,8 @@ const data = [
     "alias": "206003",
     "name": "COZY STRIPE GREY FULL COMFORTER 2 PCS",
     "price": 199.0,
-    "stock": 660,
-    "sales": 0
+    "stock": 658,
+    "sales": 5
   },
   {
     "outlet": "warehouse riyadh",
@@ -22507,7 +22587,7 @@ const data = [
     "name": "COZY STRIPE BLUE LOYAL FULL COMFORTER 2 PCS",
     "price": 199.0,
     "stock": 94,
-    "sales": 1
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -22516,8 +22596,8 @@ const data = [
     "alias": "206006",
     "name": "COZY STRIPE CHOCOLATE FULL COMFORTER 2 PCS",
     "price": 199.0,
-    "stock": 388,
-    "sales": 0
+    "stock": 386,
+    "sales": 3
   },
   {
     "outlet": "warehouse riyadh",
@@ -22526,8 +22606,8 @@ const data = [
     "alias": "900774",
     "name": "ELEOHANT L.BLUE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 2028,
-    "sales": 26
+    "stock": 1772,
+    "sales": 40
   },
   {
     "outlet": "warehouse riyadh",
@@ -22536,8 +22616,8 @@ const data = [
     "alias": "900775",
     "name": "PINEAPPLE YELLOW KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 2148,
-    "sales": 11
+    "stock": 1844,
+    "sales": 20
   },
   {
     "outlet": "warehouse riyadh",
@@ -22546,8 +22626,8 @@ const data = [
     "alias": "900776",
     "name": "FLOWER LEMON KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 2151,
-    "sales": 22
+    "stock": 1904,
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -22556,8 +22636,8 @@ const data = [
     "alias": "900777",
     "name": "BUNNY L.PINK KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1968,
-    "sales": 49
+    "stock": 1616,
+    "sales": 48
   },
   {
     "outlet": "warehouse riyadh",
@@ -22566,7 +22646,7 @@ const data = [
     "alias": "900778",
     "name": "CUTE OWL D.PINK KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1690,
+    "stock": 1367,
     "sales": 82
   },
   {
@@ -22576,8 +22656,8 @@ const data = [
     "alias": "900779",
     "name": "OWL2 BEIGE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1932,
-    "sales": 37
+    "stock": 1434,
+    "sales": 51
   },
   {
     "outlet": "warehouse riyadh",
@@ -22586,8 +22666,8 @@ const data = [
     "alias": "900780",
     "name": "DINO2 L.GREEN KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 2172,
-    "sales": 16
+    "stock": 1892,
+    "sales": 19
   },
   {
     "outlet": "warehouse riyadh",
@@ -22596,8 +22676,8 @@ const data = [
     "alias": "900781",
     "name": "OWL1 D.GREEN KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 2004,
-    "sales": 32
+    "stock": 1784,
+    "sales": 43
   },
   {
     "outlet": "warehouse riyadh",
@@ -22606,8 +22686,8 @@ const data = [
     "alias": "900782",
     "name": "DINO1 GREEN KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1993,
-    "sales": 33
+    "stock": 1748,
+    "sales": 49
   },
   {
     "outlet": "warehouse riyadh",
@@ -22616,8 +22696,8 @@ const data = [
     "alias": "900783",
     "name": "MONSTER D.BLUE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1849,
-    "sales": 50
+    "stock": 1508,
+    "sales": 62
   },
   {
     "outlet": "warehouse riyadh",
@@ -22626,8 +22706,8 @@ const data = [
     "alias": "900784",
     "name": "SHARK GREY KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 1754,
-    "sales": 72
+    "stock": 1352,
+    "sales": 75
   },
   {
     "outlet": "warehouse riyadh",
@@ -22636,8 +22716,8 @@ const data = [
     "alias": "900785",
     "name": "BUTTERFLY L.BLUE KIDS HOODED TOWEL BATH ROBE",
     "price": 69.0,
-    "stock": 2064,
-    "sales": 27
+    "stock": 1736,
+    "sales": 41
   },
   {
     "outlet": "warehouse riyadh",
@@ -22657,7 +22737,7 @@ const data = [
     "name": "TERRY BATH TOWEL 70*130 CM",
     "price": 29.0,
     "stock": 40,
-    "sales": 8
+    "sales": 15
   },
   {
     "outlet": "warehouse riyadh",
@@ -22667,7 +22747,7 @@ const data = [
     "name": "TERRY WASH TOWEL 30*50 CM",
     "price": 5.0,
     "stock": 60,
-    "sales": 8
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -22676,8 +22756,8 @@ const data = [
     "alias": "7154",
     "name": "TERRY HAND TOWEL 5 PCS",
     "price": 94.0,
-    "stock": 2512,
-    "sales": 63
+    "stock": 1520,
+    "sales": 86
   },
   {
     "outlet": "warehouse riyadh",
@@ -22686,8 +22766,8 @@ const data = [
     "alias": "488802",
     "name": "ANDARA GREY KING COMFORTER 10 PCS",
     "price": 299.0,
-    "stock": 126,
-    "sales": 70
+    "stock": 98,
+    "sales": 78
   },
   {
     "outlet": "warehouse riyadh",
@@ -22696,8 +22776,8 @@ const data = [
     "alias": "714901",
     "name": "JAQUARD BEACH TOWEL 86*160 CM",
     "price": 29.0,
-    "stock": 1549,
-    "sales": 254
+    "stock": 36,
+    "sales": 266
   },
   {
     "outlet": "warehouse riyadh",
@@ -22706,8 +22786,8 @@ const data = [
     "alias": "714902",
     "name": "JAQUARD BEACH TOWEL 100*180 CM",
     "price": 39.0,
-    "stock": 4392,
-    "sales": 242
+    "stock": 1967,
+    "sales": 283
   },
   {
     "outlet": "warehouse riyadh",
@@ -22716,8 +22796,8 @@ const data = [
     "alias": "488803",
     "name": "AMBER GREY KING COMFORTER 10 PCS",
     "price": 299.0,
-    "stock": 124,
-    "sales": 72
+    "stock": 11,
+    "sales": 67
   },
   {
     "outlet": "warehouse riyadh",
@@ -22726,8 +22806,8 @@ const data = [
     "alias": "488806",
     "name": "WISLEY TAUPE KING COMFORTER 10 PCS",
     "price": 299.0,
-    "stock": 600,
-    "sales": 78
+    "stock": 78,
+    "sales": 77
   },
   {
     "outlet": "warehouse riyadh",
@@ -22736,8 +22816,8 @@ const data = [
     "alias": "488807",
     "name": "KOTA GREY KING COMFORTER 10 PCS",
     "price": 299.0,
-    "stock": 1,
-    "sales": 9
+    "stock": 39,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -22746,8 +22826,8 @@ const data = [
     "alias": "40629",
     "name": "VERNAZZA YELLOW KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 164,
-    "sales": 67
+    "stock": 1,
+    "sales": 54
   },
   {
     "outlet": "warehouse riyadh",
@@ -22756,8 +22836,8 @@ const data = [
     "alias": "40632",
     "name": "KAROU BLUE KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 322,
-    "sales": 34
+    "stock": 2,
+    "sales": 40
   },
   {
     "outlet": "warehouse riyadh",
@@ -22766,8 +22846,8 @@ const data = [
     "alias": "40631",
     "name": "DOMBRG BLUE KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 71,
-    "sales": 20
+    "stock": 13,
+    "sales": 19
   },
   {
     "outlet": "warehouse riyadh",
@@ -22776,8 +22856,8 @@ const data = [
     "alias": "960402",
     "name": "CUSHION SEAT PILLOW NAVY CM 41.5X50X50",
     "price": 49.0,
-    "stock": 241,
-    "sales": 56
+    "stock": 2374,
+    "sales": 59
   },
   {
     "outlet": "warehouse riyadh",
@@ -22786,8 +22866,8 @@ const data = [
     "alias": "960404",
     "name": "BLACK NECK PILLOW CM 33X49X49",
     "price": 29.0,
-    "stock": 2337,
-    "sales": 70
+    "stock": 3954,
+    "sales": 63
   },
   {
     "outlet": "warehouse riyadh",
@@ -22796,8 +22876,8 @@ const data = [
     "alias": "960408",
     "name": "STANDARD FOAM MEMORY COOLLING PILLOW CM 44.5X40X40",
     "price": 94.0,
-    "stock": 1107,
-    "sales": 418
+    "stock": 2,
+    "sales": 449
   },
   {
     "outlet": "warehouse riyadh",
@@ -22806,8 +22886,8 @@ const data = [
     "alias": "960401",
     "name": "CUSHION SEAT PILLOW GREY CM 41.5X50X50",
     "price": 49.0,
-    "stock": 1297,
-    "sales": 100
+    "stock": 1392,
+    "sales": 97
   },
   {
     "outlet": "warehouse riyadh",
@@ -22816,8 +22896,8 @@ const data = [
     "alias": "960403",
     "name": "GREY DARK NECK PILLOW CM 33X49X49",
     "price": 19.0,
-    "stock": 6017,
-    "sales": 45
+    "stock": 5985,
+    "sales": 62
   },
   {
     "outlet": "warehouse riyadh",
@@ -22826,8 +22906,8 @@ const data = [
     "alias": "960407",
     "name": "CUSHION SEAT PILLOW BLACK CM 41.5X50X50",
     "price": 49.0,
-    "stock": 4689,
-    "sales": 32
+    "stock": 4673,
+    "sales": 33
   },
   {
     "outlet": "warehouse riyadh",
@@ -22836,8 +22916,8 @@ const data = [
     "alias": "2728",
     "name": "COMFORTER FULL BLUE ICE PROSELINE 12PCS",
     "price": 299.0,
-    "stock": 64,
-    "sales": 63
+    "stock": 6,
+    "sales": 101
   },
   {
     "outlet": "warehouse riyadh",
@@ -22846,8 +22926,8 @@ const data = [
     "alias": "48803",
     "name": "COMFORTER KING BLUE ICE ROSELINE 12PCS",
     "price": 399.0,
-    "stock": 1300,
-    "sales": 283
+    "stock": 1504,
+    "sales": 296
   },
   {
     "outlet": "warehouse riyadh",
@@ -22856,8 +22936,8 @@ const data = [
     "alias": "2726",
     "name": "LEILANI SILVER FULL COMFORTER 12 PCS",
     "price": 299.0,
-    "stock": 173,
-    "sales": 60
+    "stock": 4,
+    "sales": 54
   },
   {
     "outlet": "warehouse riyadh",
@@ -22866,8 +22946,8 @@ const data = [
     "alias": "48801",
     "name": "LEILANI SILVER KING COMFORTER 12 PCS",
     "price": 399.0,
-    "stock": 2027,
-    "sales": 242
+    "stock": 2593,
+    "sales": 260
   },
   {
     "outlet": "warehouse riyadh",
@@ -22876,8 +22956,8 @@ const data = [
     "alias": "2727",
     "name": "VERDEIRE SOFT BLUSH FULL COMFORTER 12 PCS",
     "price": 299.0,
-    "stock": 220,
-    "sales": 127
+    "stock": 10,
+    "sales": 125
   },
   {
     "outlet": "warehouse riyadh",
@@ -22886,8 +22966,8 @@ const data = [
     "alias": "48802",
     "name": "VERDEIRE SOFT BLUSH KING COMFORTER 12 PCS",
     "price": 399.0,
-    "stock": 2120,
-    "sales": 340
+    "stock": 1829,
+    "sales": 373
   },
   {
     "outlet": "warehouse riyadh",
@@ -22896,8 +22976,8 @@ const data = [
     "alias": "48804",
     "name": "CULLEN GREEN KING COMFORTER 12 PCS",
     "price": 399.0,
-    "stock": 486,
-    "sales": 334
+    "stock": 194,
+    "sales": 332
   },
   {
     "outlet": "warehouse riyadh",
@@ -22906,8 +22986,8 @@ const data = [
     "alias": "926225",
     "name": "SUPER SOFT YELLOW CHECK THROW",
     "price": 39.0,
-    "stock": 150,
-    "sales": 130
+    "stock": 4,
+    "sales": 151
   },
   {
     "outlet": "warehouse riyadh",
@@ -22916,8 +22996,8 @@ const data = [
     "alias": "926226",
     "name": "SUPER SOFT FLORA AND LEAVES THROW",
     "price": 39.0,
-    "stock": 280,
-    "sales": 157
+    "stock": 210,
+    "sales": 188
   },
   {
     "outlet": "warehouse riyadh",
@@ -22926,8 +23006,8 @@ const data = [
     "alias": "926227",
     "name": "SUPER SOFT BUTTERFLIES THROW",
     "price": 39.0,
-    "stock": 410,
-    "sales": 174
+    "stock": 162,
+    "sales": 203
   },
   {
     "outlet": "warehouse riyadh",
@@ -22936,8 +23016,8 @@ const data = [
     "alias": "926228",
     "name": "SUPER SOFT OIL PAINTING FLORA THROW",
     "price": 39.0,
-    "stock": 950,
-    "sales": 145
+    "stock": 816,
+    "sales": 170
   },
   {
     "outlet": "warehouse riyadh",
@@ -22946,8 +23026,8 @@ const data = [
     "alias": "926229",
     "name": "SUPER SOFT COLOERFUL BOWS THROW",
     "price": 39.0,
-    "stock": 1660,
-    "sales": 61
+    "stock": 1682,
+    "sales": 78
   },
   {
     "outlet": "warehouse riyadh",
@@ -22956,8 +23036,8 @@ const data = [
     "alias": "926230",
     "name": "SUPER SOFT GAMING THROW",
     "price": 39.0,
-    "stock": 630,
-    "sales": 135
+    "stock": 591,
+    "sales": 158
   },
   {
     "outlet": "warehouse riyadh",
@@ -22966,8 +23046,8 @@ const data = [
     "alias": "926231",
     "name": "SUPER SOFT RIPPLING THROW",
     "price": 39.0,
-    "stock": 640,
-    "sales": 125
+    "stock": 415,
+    "sales": 162
   },
   {
     "outlet": "warehouse riyadh",
@@ -22976,8 +23056,8 @@ const data = [
     "alias": "926232",
     "name": "SUPER SOFT ROGER SQUARE THROW",
     "price": 39.0,
-    "stock": 460,
-    "sales": 127
+    "stock": 354,
+    "sales": 172
   },
   {
     "outlet": "warehouse riyadh",
@@ -22986,8 +23066,8 @@ const data = [
     "alias": "926233",
     "name": "SUPER SOFT SUNFLOWER THROW",
     "price": 39.0,
-    "stock": 1670,
-    "sales": 54
+    "stock": 2050,
+    "sales": 72
   },
   {
     "outlet": "warehouse riyadh",
@@ -22996,8 +23076,8 @@ const data = [
     "alias": "926234",
     "name": "SUPER SOFT MARBLING THROW",
     "price": 39.0,
-    "stock": 1120,
-    "sales": 96
+    "stock": 1224,
+    "sales": 109
   },
   {
     "outlet": "warehouse riyadh",
@@ -23006,8 +23086,8 @@ const data = [
     "alias": "926235",
     "name": "SUPER SOFT STRAWBERRY THROW",
     "price": 39.0,
-    "stock": 1600,
-    "sales": 85
+    "stock": 1710,
+    "sales": 90
   },
   {
     "outlet": "warehouse riyadh",
@@ -23016,8 +23096,8 @@ const data = [
     "alias": "926236",
     "name": "SUPER SOFT CHERRY THROW",
     "price": 39.0,
-    "stock": 1680,
-    "sales": 75
+    "stock": 1635,
+    "sales": 74
   },
   {
     "outlet": "warehouse riyadh",
@@ -23026,8 +23106,8 @@ const data = [
     "alias": "926237",
     "name": "SUPER SOFT BOWS AND HEARTS THROW",
     "price": 39.0,
-    "stock": 1310,
-    "sales": 116
+    "stock": 1112,
+    "sales": 143
   },
   {
     "outlet": "warehouse riyadh",
@@ -23036,8 +23116,8 @@ const data = [
     "alias": "926238",
     "name": "SUPER SOFT GUARD STRIPE THROW",
     "price": 39.0,
-    "stock": 1670,
-    "sales": 60
+    "stock": 1795,
+    "sales": 70
   },
   {
     "outlet": "warehouse riyadh",
@@ -23046,7 +23126,7 @@ const data = [
     "alias": "4090100",
     "name": "*RAINY WITH SCALLOP EDGE/EITHER COMF K 5 PCS",
     "price": 595.0,
-    "stock": 508,
+    "stock": 158,
     "sales": 0
   },
   {
@@ -23056,8 +23136,8 @@ const data = [
     "alias": "440901",
     "name": "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT",
     "price": 595.0,
-    "stock": 187,
-    "sales": 13
+    "stock": 1,
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -23066,7 +23146,7 @@ const data = [
     "alias": "4090200",
     "name": "*MARGOUT BLUE COMF K 5 PCS",
     "price": 595.0,
-    "stock": 600,
+    "stock": 150,
     "sales": 0
   },
   {
@@ -23076,8 +23156,8 @@ const data = [
     "alias": "440902",
     "name": "*MARGOUT BLUE COMF K 8 PCS KIT",
     "price": 595.0,
-    "stock": 79,
-    "sales": 21
+    "stock": 1,
+    "sales": 39
   },
   {
     "outlet": "warehouse riyadh",
@@ -23086,8 +23166,8 @@ const data = [
     "alias": "448904",
     "name": "*SHANGAI OLIVE TUSCAN COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 218,
-    "sales": 29
+    "stock": 27,
+    "sales": 26
   },
   {
     "outlet": "warehouse riyadh",
@@ -23096,8 +23176,8 @@ const data = [
     "alias": "448901",
     "name": "*SHANGAI NATURAL COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 235,
-    "sales": 27
+    "stock": 3,
+    "sales": 36
   },
   {
     "outlet": "warehouse riyadh",
@@ -23106,8 +23186,8 @@ const data = [
     "alias": "448903",
     "name": "*SHANGAI GREEN SAGE COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 128,
-    "sales": 24
+    "stock": 124,
+    "sales": 25
   },
   {
     "outlet": "warehouse riyadh",
@@ -23116,8 +23196,8 @@ const data = [
     "alias": "448902",
     "name": "*SHANGAI QULETUDE COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 72,
-    "sales": 22
+    "stock": 19,
+    "sales": 17
   },
   {
     "outlet": "warehouse riyadh",
@@ -23126,8 +23206,8 @@ const data = [
     "alias": "4488903",
     "name": "*LEXY CREAM GREY COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 288,
-    "sales": 12
+    "stock": 13,
+    "sales": 17
   },
   {
     "outlet": "warehouse riyadh",
@@ -23136,8 +23216,8 @@ const data = [
     "alias": "4488902",
     "name": "*LEXY FEROZI COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 364,
-    "sales": 5
+    "stock": 9,
+    "sales": 7
   },
   {
     "outlet": "warehouse riyadh",
@@ -23146,8 +23226,8 @@ const data = [
     "alias": "4488901",
     "name": "*LEXY YELLOW CHARCOAL COMF K 8 PCS KIT",
     "price": 499.0,
-    "stock": 213,
-    "sales": 13
+    "stock": 21,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -23156,8 +23236,8 @@ const data = [
     "alias": "959807",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER WHITE JASMINE",
     "price": 39.0,
-    "stock": 540,
-    "sales": 37
+    "stock": 417,
+    "sales": 39
   },
   {
     "outlet": "warehouse riyadh",
@@ -23166,7 +23246,7 @@ const data = [
     "alias": "4090300",
     "name": "*JEWEL SILVER COM K 8 PCS",
     "price": 399.0,
-    "stock": 170,
+    "stock": 191,
     "sales": 0
   },
   {
@@ -23176,8 +23256,8 @@ const data = [
     "alias": "440903",
     "name": "*JEWEL SILVER COM K 11 PCS KIT",
     "price": 399.0,
-    "stock": 41,
-    "sales": 62
+    "stock": 7,
+    "sales": 81
   },
   {
     "outlet": "warehouse riyadh",
@@ -23186,7 +23266,7 @@ const data = [
     "alias": "4090400",
     "name": "*JEWEL AQUA COM K 8 PCS",
     "price": 399.0,
-    "stock": 250,
+    "stock": 763,
     "sales": 0
   },
   {
@@ -23196,8 +23276,8 @@ const data = [
     "alias": "440904",
     "name": "*JEWEL AQUA COM K 11 PCS KIT",
     "price": 399.0,
-    "stock": 167,
-    "sales": 10
+    "stock": 2,
+    "sales": 19
   },
   {
     "outlet": "warehouse riyadh",
@@ -23206,7 +23286,7 @@ const data = [
     "alias": "4090500",
     "name": "*JEWEL VATALIA PURPLE COMF K 8 PCS",
     "price": 399.0,
-    "stock": 1050,
+    "stock": 620,
     "sales": 0
   },
   {
@@ -23216,8 +23296,8 @@ const data = [
     "alias": "440905",
     "name": "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
     "price": 399.0,
-    "stock": 64,
-    "sales": 13
+    "stock": 9,
+    "sales": 21
   },
   {
     "outlet": "warehouse riyadh",
@@ -23226,8 +23306,8 @@ const data = [
     "alias": "960207",
     "name": "COCODOR 500 ML ROOM SPRAY ROSE BOUQUET",
     "price": 39.0,
-    "stock": 4122,
-    "sales": 55
+    "stock": 4140,
+    "sales": 73
   },
   {
     "outlet": "warehouse riyadh",
@@ -23236,8 +23316,8 @@ const data = [
     "alias": "960208",
     "name": "COCODOR 500 ML ROOM SPRAY FIG TREE",
     "price": 39.0,
-    "stock": 4176,
-    "sales": 63
+    "stock": 4042,
+    "sales": 58
   },
   {
     "outlet": "warehouse riyadh",
@@ -23246,8 +23326,8 @@ const data = [
     "alias": "960209",
     "name": "COCODOR 500 ML ROOM SPRAY FRENCH LAVENDER",
     "price": 39.0,
-    "stock": 3870,
-    "sales": 76
+    "stock": 3078,
+    "sales": 98
   },
   {
     "outlet": "warehouse riyadh",
@@ -23256,7 +23336,7 @@ const data = [
     "alias": "4090600",
     "name": "*GALILEO IVORY COM K 8 PCS",
     "price": 695.0,
-    "stock": 600,
+    "stock": 313,
     "sales": 0
   },
   {
@@ -23266,8 +23346,8 @@ const data = [
     "alias": "440906",
     "name": "*GALILEO IVORY COM K 11 PCS KIT",
     "price": 695.0,
-    "stock": 65,
-    "sales": 91
+    "stock": 14,
+    "sales": 94
   },
   {
     "outlet": "warehouse riyadh",
@@ -23276,7 +23356,7 @@ const data = [
     "alias": "4090700",
     "name": "*GALILEO CREAM COM K 8 PCS",
     "price": 695.0,
-    "stock": 700,
+    "stock": 339,
     "sales": 0
   },
   {
@@ -23286,8 +23366,8 @@ const data = [
     "alias": "440907",
     "name": "*GALILEO CREAM COM K 11 PCS KIT",
     "price": 695.0,
-    "stock": 53,
-    "sales": 74
+    "stock": 4,
+    "sales": 111
   },
   {
     "outlet": "warehouse riyadh",
@@ -23296,7 +23376,7 @@ const data = [
     "alias": "4090800",
     "name": "*HOTEL ATHENA WILD DOVE COM K 8 PCS",
     "price": 595.0,
-    "stock": 916,
+    "stock": 645,
     "sales": 0
   },
   {
@@ -23306,8 +23386,8 @@ const data = [
     "alias": "440908",
     "name": "*HOTEL ATHENA WILD DOVE COM K 11 PCS KIT",
     "price": 595.0,
-    "stock": 58,
-    "sales": 44
+    "stock": 26,
+    "sales": 47
   },
   {
     "outlet": "warehouse riyadh",
@@ -23326,8 +23406,8 @@ const data = [
     "alias": "440909",
     "name": "*FLORAL PRINT MULTI COM K 11 PCS KIT",
     "price": 495.0,
-    "stock": 76,
-    "sales": 85
+    "stock": 1,
+    "sales": 82
   },
   {
     "outlet": "warehouse riyadh",
@@ -23336,8 +23416,8 @@ const data = [
     "alias": "959808",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER BOUQUET ROSE",
     "price": 39.0,
-    "stock": 3139,
-    "sales": 17
+    "stock": 2711,
+    "sales": 11
   },
   {
     "outlet": "warehouse riyadh",
@@ -23346,8 +23426,8 @@ const data = [
     "alias": "989001",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML BOUQUEST ROSE",
     "price": 39.0,
-    "stock": 2775,
-    "sales": 24
+    "stock": 1486,
+    "sales": 30
   },
   {
     "outlet": "warehouse riyadh",
@@ -23356,8 +23436,8 @@ const data = [
     "alias": "989002",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML MASK WHITE",
     "price": 39.0,
-    "stock": 465,
-    "sales": 41
+    "stock": 1432,
+    "sales": 45
   },
   {
     "outlet": "warehouse riyadh",
@@ -23366,8 +23446,8 @@ const data = [
     "alias": "989003",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML WOOD SANDAL AND VANILLA",
     "price": 39.0,
-    "stock": 495,
-    "sales": 59
+    "stock": 309,
+    "sales": 54
   },
   {
     "outlet": "warehouse riyadh",
@@ -23376,8 +23456,8 @@ const data = [
     "alias": "989004",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML SAND PINK",
     "price": 39.0,
-    "stock": 570,
-    "sales": 66
+    "stock": 237,
+    "sales": 55
   },
   {
     "outlet": "warehouse riyadh",
@@ -23386,8 +23466,8 @@ const data = [
     "alias": "9606",
     "name": "JUST RELAX 200*200+6+15 SUPER KING MATRESPAD",
     "price": 399.0,
-    "stock": 256,
-    "sales": 240
+    "stock": 69,
+    "sales": 231
   },
   {
     "outlet": "warehouse riyadh",
@@ -23406,8 +23486,8 @@ const data = [
     "alias": "449904",
     "name": "*BLUSH ROSALLE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 82,
-    "sales": 14
+    "stock": 1,
+    "sales": 8
   },
   {
     "outlet": "warehouse riyadh",
@@ -23417,7 +23497,7 @@ const data = [
     "name": "*EVELYN WHITE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
     "stock": 1,
-    "sales": 14
+    "sales": 11
   },
   {
     "outlet": "warehouse riyadh",
@@ -23427,7 +23507,7 @@ const data = [
     "name": "*SOFT TOILE FLORAL AVOIN BLUE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
     "stock": 1,
-    "sales": 10
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -23446,8 +23526,8 @@ const data = [
     "alias": "449903",
     "name": "*MANVE BLUE SKY WHISTLEY KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 62,
-    "sales": 34
+    "stock": 28,
+    "sales": 47
   },
   {
     "outlet": "warehouse riyadh",
@@ -23456,7 +23536,7 @@ const data = [
     "alias": "4991000",
     "name": "*TONAL SAGE VILETTE KING COMFORTER 8 PCS",
     "price": 695.0,
-    "stock": 160,
+    "stock": 50,
     "sales": 0
   },
   {
@@ -23466,8 +23546,8 @@ const data = [
     "alias": "449910",
     "name": "*TONAL SAGE VILETTE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 126,
-    "sales": 25
+    "stock": 15,
+    "sales": 19
   },
   {
     "outlet": "warehouse riyadh",
@@ -23476,7 +23556,7 @@ const data = [
     "alias": "4990900",
     "name": "*VILETTE MULTI SAGE CASCADE KING COMFORTER 8 PCS",
     "price": 695.0,
-    "stock": 210,
+    "stock": 60,
     "sales": 0
   },
   {
@@ -23486,8 +23566,8 @@ const data = [
     "alias": "449909",
     "name": "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 106,
-    "sales": 15
+    "stock": 73,
+    "sales": 26
   },
   {
     "outlet": "warehouse riyadh",
@@ -23506,8 +23586,8 @@ const data = [
     "alias": "449908",
     "name": "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 168,
-    "sales": 34
+    "stock": 162,
+    "sales": 31
   },
   {
     "outlet": "warehouse riyadh",
@@ -23526,7 +23606,7 @@ const data = [
     "alias": "449907",
     "name": "*CASCADE BIRD WALLIS MULTI WHITE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 120,
+    "stock": 1,
     "sales": 29
   },
   {
@@ -23536,8 +23616,8 @@ const data = [
     "alias": "406301",
     "name": "COOLING WHITE KING COMFORTER 1 PCS",
     "price": 299.0,
-    "stock": 765,
-    "sales": 55
+    "stock": 590,
+    "sales": 61
   },
   {
     "outlet": "warehouse riyadh",
@@ -23546,8 +23626,8 @@ const data = [
     "alias": "406302",
     "name": "COOLING GRAY KING COMFORTER 1 PCS",
     "price": 299.0,
-    "stock": 204,
-    "sales": 82
+    "stock": 171,
+    "sales": 75
   },
   {
     "outlet": "warehouse riyadh",
@@ -23556,8 +23636,8 @@ const data = [
     "alias": "406303",
     "name": "COOLING NAVY KING COMFORTER 1 PCS",
     "price": 299.0,
-    "stock": 324,
-    "sales": 44
+    "stock": 179,
+    "sales": 48
   },
   {
     "outlet": "warehouse riyadh",
@@ -23566,8 +23646,8 @@ const data = [
     "alias": "20021",
     "name": "COOLING WHITE FULL COMFORTER 1 PCS",
     "price": 229.0,
-    "stock": 516,
-    "sales": 29
+    "stock": 412,
+    "sales": 40
   },
   {
     "outlet": "warehouse riyadh",
@@ -23576,8 +23656,8 @@ const data = [
     "alias": "20022",
     "name": "COOLING GRAY FULL COMFORTER 1 PCS",
     "price": 229.0,
-    "stock": 108,
-    "sales": 53
+    "stock": 60,
+    "sales": 62
   },
   {
     "outlet": "warehouse riyadh",
@@ -23586,8 +23666,8 @@ const data = [
     "alias": "20023",
     "name": "COOLING NAVY FULL COMFORTER 1 PCS",
     "price": 229.0,
-    "stock": 196,
-    "sales": 41
+    "stock": 55,
+    "sales": 39
   },
   {
     "outlet": "warehouse riyadh",
@@ -23606,8 +23686,8 @@ const data = [
     "alias": "440910",
     "name": "*LINLITHGOW PALE LAVENDER KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 70,
-    "sales": 44
+    "stock": 1,
+    "sales": 55
   },
   {
     "outlet": "warehouse riyadh",
@@ -23616,7 +23696,7 @@ const data = [
     "alias": "4091100",
     "name": "*ELEEN BLUSH KING COMFORTER 5 PCS",
     "price": 499.0,
-    "stock": 555,
+    "stock": 611,
     "sales": 0
   },
   {
@@ -23626,8 +23706,8 @@ const data = [
     "alias": "440911",
     "name": "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 120,
-    "sales": 16
+    "stock": 1,
+    "sales": 24
   },
   {
     "outlet": "warehouse riyadh",
@@ -23636,7 +23716,7 @@ const data = [
     "alias": "4091300",
     "name": "*CYNTHIA FLORAL BIEGE KING COMFORTER 5 PCS",
     "price": 499.0,
-    "stock": 604,
+    "stock": 500,
     "sales": 0
   },
   {
@@ -23646,8 +23726,8 @@ const data = [
     "alias": "440913",
     "name": "*CYNTHIA FLORAL BIEGE KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 63,
-    "sales": 53
+    "stock": 16,
+    "sales": 55
   },
   {
     "outlet": "warehouse riyadh",
@@ -23656,7 +23736,7 @@ const data = [
     "alias": "4091400",
     "name": "*BIRDS PARADISE MILTI KING COMFORTER 5 PCS",
     "price": 499.0,
-    "stock": 562,
+    "stock": 598,
     "sales": 0
   },
   {
@@ -23666,8 +23746,8 @@ const data = [
     "alias": "440914",
     "name": "*BIRDS PARADISE MILTI KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 101,
-    "sales": 17
+    "stock": 57,
+    "sales": 25
   },
   {
     "outlet": "warehouse riyadh",
@@ -23676,8 +23756,8 @@ const data = [
     "alias": "5487",
     "name": "BELLFLOWER WHITE KING QUILT 3 PCS",
     "price": 299.0,
-    "stock": 220,
-    "sales": 38
+    "stock": 52,
+    "sales": 47
   },
   {
     "outlet": "warehouse riyadh",
@@ -23686,8 +23766,8 @@ const data = [
     "alias": "542544",
     "name": "BIG ONE ATHENA MEDALLION FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 492,
-    "sales": 110
+    "stock": 797,
+    "sales": 155
   },
   {
     "outlet": "warehouse riyadh",
@@ -23696,8 +23776,8 @@ const data = [
     "alias": "542538",
     "name": "BIG ONE COLORFUL FLOWERS FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 792,
-    "sales": 41
+    "stock": 1177,
+    "sales": 64
   },
   {
     "outlet": "warehouse riyadh",
@@ -23706,8 +23786,8 @@ const data = [
     "alias": "542531",
     "name": "BIG ONE ASTER YELLOW FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 966,
-    "sales": 143
+    "stock": 854,
+    "sales": 147
   },
   {
     "outlet": "warehouse riyadh",
@@ -23726,8 +23806,8 @@ const data = [
     "alias": "440915",
     "name": "*QUINCY BEIGE KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 59,
-    "sales": 90
+    "stock": 18,
+    "sales": 133
   },
   {
     "outlet": "warehouse riyadh",
@@ -23736,7 +23816,7 @@ const data = [
     "alias": "4091600",
     "name": "*ROME MEDALLION KING COMFORTER 5 PCS",
     "price": 599.0,
-    "stock": 328,
+    "stock": 559,
     "sales": 0
   },
   {
@@ -23746,8 +23826,8 @@ const data = [
     "alias": "440916",
     "name": "*ROME MEDALLION KING COMFORTER 8 PCS KIT",
     "price": 599.0,
-    "stock": 100,
-    "sales": 19
+    "stock": 40,
+    "sales": 24
   },
   {
     "outlet": "warehouse riyadh",
@@ -23756,7 +23836,7 @@ const data = [
     "alias": "4091700",
     "name": "*SAKURA LILAC KING COMFORTER 4 PCS",
     "price": 499.0,
-    "stock": 576,
+    "stock": 666,
     "sales": 0
   },
   {
@@ -23766,8 +23846,8 @@ const data = [
     "alias": "440917",
     "name": "*SAKURA LILAC KING COMFORTER 7 PCS KIT",
     "price": 499.0,
-    "stock": 144,
-    "sales": 19
+    "stock": 120,
+    "sales": 14
   },
   {
     "outlet": "warehouse riyadh",
@@ -23776,7 +23856,7 @@ const data = [
     "alias": "4091800",
     "name": "*SHANGHAI GREY KING COMFORTER 5 PCS",
     "price": 499.0,
-    "stock": 510,
+    "stock": 430,
     "sales": 0
   },
   {
@@ -23786,8 +23866,8 @@ const data = [
     "alias": "440918",
     "name": "*SHANGHAI GREY KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 149,
-    "sales": 40
+    "stock": 53,
+    "sales": 47
   },
   {
     "outlet": "warehouse riyadh",
@@ -23806,8 +23886,8 @@ const data = [
     "alias": "440919",
     "name": "*TERINA BLUSH KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 153,
-    "sales": 39
+    "stock": 1,
+    "sales": 54
   },
   {
     "outlet": "warehouse riyadh",
@@ -23826,8 +23906,8 @@ const data = [
     "alias": "542539",
     "name": "BIG ONE SWAN PRINCESS FULL 2 PCS",
     "price": 99.0,
-    "stock": 1488,
-    "sales": 81
+    "stock": 523,
+    "sales": 111
   },
   {
     "outlet": "warehouse riyadh",
@@ -23836,8 +23916,8 @@ const data = [
     "alias": "542536",
     "name": "BIG ONE TRAINS FULL 2 PCS",
     "price": 99.0,
-    "stock": 1542,
-    "sales": 13
+    "stock": 686,
+    "sales": 42
   },
   {
     "outlet": "warehouse riyadh",
@@ -23846,8 +23926,8 @@ const data = [
     "alias": "542542",
     "name": "BIG ONE MULTI SUNFLOWERS FULL 2 PCS",
     "price": 99.0,
-    "stock": 1248,
-    "sales": 66
+    "stock": 827,
+    "sales": 86
   },
   {
     "outlet": "warehouse riyadh",
@@ -23856,8 +23936,8 @@ const data = [
     "alias": "542534",
     "name": "BIG ONE BALLERINA GIRLS FULL 2 PCS",
     "price": 99.0,
-    "stock": 852,
-    "sales": 53
+    "stock": 293,
+    "sales": 66
   },
   {
     "outlet": "warehouse riyadh",
@@ -23866,8 +23946,8 @@ const data = [
     "alias": "989111",
     "name": "SOLID VELVETLOFT PUMICE STONE 60*70 THROW",
     "price": 39.0,
-    "stock": 3040,
-    "sales": 262
+    "stock": 3795,
+    "sales": 292
   },
   {
     "outlet": "warehouse riyadh",
@@ -23876,8 +23956,8 @@ const data = [
     "alias": "989115",
     "name": "SOLID VELVETLOFT ORCHID BLOOM 60*70 THROW",
     "price": 39.0,
-    "stock": 3180,
-    "sales": 92
+    "stock": 4158,
+    "sales": 95
   },
   {
     "outlet": "warehouse riyadh",
@@ -23886,8 +23966,8 @@ const data = [
     "alias": "989112",
     "name": "SOLID VELVETLOFT STARGAZER 60*70 THROW",
     "price": 39.0,
-    "stock": 3190,
-    "sales": 150
+    "stock": 4052,
+    "sales": 185
   },
   {
     "outlet": "warehouse riyadh",
@@ -23896,8 +23976,8 @@ const data = [
     "alias": "989114",
     "name": "SOLID VELVETLOFT PINK LADY 60*70 THROW",
     "price": 39.0,
-    "stock": 3090,
-    "sales": 104
+    "stock": 3985,
+    "sales": 125
   },
   {
     "outlet": "warehouse riyadh",
@@ -23906,8 +23986,8 @@ const data = [
     "alias": "989113",
     "name": "SOLID VELVETLOFT JADEITE 60*70 THROW",
     "price": 39.0,
-    "stock": 2770,
-    "sales": 129
+    "stock": 3535,
+    "sales": 161
   },
   {
     "outlet": "warehouse riyadh",
@@ -23916,8 +23996,8 @@ const data = [
     "alias": "989116",
     "name": "SOLID VELVETLOFT BURGHADY 60*70 THROW",
     "price": 39.0,
-    "stock": 2410,
-    "sales": 79
+    "stock": 3117,
+    "sales": 98
   },
   {
     "outlet": "warehouse riyadh",
@@ -23928,16 +24008,6 @@ const data = [
     "price": 149.0,
     "stock": 1002,
     "sales": 0
-  },
-  {
-    "outlet": "warehouse riyadh",
-    "category": "كويلتات",
-    "code": "23887",
-    "alias": "538811",
-    "name": "BIG ONE ATHENA MEDALLION KING 3 PCS",
-    "price": 149.0,
-    "stock": 6,
-    "sales": 52
   },
   {
     "outlet": "warehouse riyadh",
@@ -23956,8 +24026,8 @@ const data = [
     "alias": "538814",
     "name": "BIG ONE FLOWER PATCH KING 3 PCS",
     "price": 149.0,
-    "stock": 366,
-    "sales": 84
+    "stock": 107,
+    "sales": 113
   },
   {
     "outlet": "warehouse riyadh",
@@ -23966,8 +24036,8 @@ const data = [
     "alias": "2729",
     "name": "PRINTED GREY PAVLA FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 534,
-    "sales": 54
+    "stock": 1,
+    "sales": 58
   },
   {
     "outlet": "warehouse riyadh",
@@ -23976,7 +24046,7 @@ const data = [
     "alias": "49911",
     "name": "PRINTED WHITE/MULTI VINE FLORAL FRUIT KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 752,
+    "stock": 700,
     "sales": 16
   },
   {
@@ -23986,8 +24056,8 @@ const data = [
     "alias": "49912",
     "name": "PRINTED BLUSH DOMBURG KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1474,
-    "sales": 69
+    "stock": 1355,
+    "sales": 82
   },
   {
     "outlet": "warehouse riyadh",
@@ -23996,8 +24066,8 @@ const data = [
     "alias": "91544",
     "name": "PILLOW EXTRA FIRM STANDARD",
     "price": 39.0,
-    "stock": 11472,
-    "sales": 613
+    "stock": 2301,
+    "sales": 609
   },
   {
     "outlet": "warehouse riyadh",
@@ -24006,8 +24076,8 @@ const data = [
     "alias": "91144",
     "name": "PILLOW EXTRA FIRM KING",
     "price": 69.0,
-    "stock": 5610,
-    "sales": 119
+    "stock": 8,
+    "sales": 149
   },
   {
     "outlet": "warehouse riyadh",
@@ -24016,8 +24086,8 @@ const data = [
     "alias": "95644",
     "name": "PILLOW COMFORT DREAM STANDARD",
     "price": 69.0,
-    "stock": 5094,
-    "sales": 11
+    "stock": 5014,
+    "sales": 13
   },
   {
     "outlet": "warehouse riyadh",
@@ -24026,8 +24096,8 @@ const data = [
     "alias": "95633",
     "name": "PILLOW COMFORT DREAM KING",
     "price": 99.0,
-    "stock": 3894,
-    "sales": 29
+    "stock": 3326,
+    "sales": 27
   },
   {
     "outlet": "warehouse riyadh",
@@ -24036,8 +24106,8 @@ const data = [
     "alias": "710095",
     "name": "LEAF EMBROIDERED TOWEL WAVE SET 3PCS",
     "price": 99.0,
-    "stock": 862,
-    "sales": 32
+    "stock": 242,
+    "sales": 40
   },
   {
     "outlet": "warehouse riyadh",
@@ -24046,8 +24116,8 @@ const data = [
     "alias": "710096",
     "name": "LEAF 2 EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 864,
-    "sales": 41
+    "stock": 254,
+    "sales": 40
   },
   {
     "outlet": "warehouse riyadh",
@@ -24056,7 +24126,7 @@ const data = [
     "alias": "710097",
     "name": "FLOWER EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 864,
+    "stock": 368,
     "sales": 28
   },
   {
@@ -24066,8 +24136,8 @@ const data = [
     "alias": "710098",
     "name": "CIRCLES MULTIPLE EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 744,
-    "sales": 54
+    "stock": 460,
+    "sales": 45
   },
   {
     "outlet": "warehouse riyadh",
@@ -24076,8 +24146,8 @@ const data = [
     "alias": "710100",
     "name": "SHELL EMBROIDERED TOWEL WAVE SET 3PCS",
     "price": 99.0,
-    "stock": 660,
-    "sales": 56
+    "stock": 308,
+    "sales": 60
   },
   {
     "outlet": "warehouse riyadh",
@@ -24086,8 +24156,8 @@ const data = [
     "alias": "710104",
     "name": "BIRDS GILDED EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 695,
-    "sales": 51
+    "stock": 408,
+    "sales": 44
   },
   {
     "outlet": "warehouse riyadh",
@@ -24096,8 +24166,8 @@ const data = [
     "alias": "710105",
     "name": "ZAG ZIAG EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 960,
-    "sales": 24
+    "stock": 495,
+    "sales": 33
   },
   {
     "outlet": "warehouse riyadh",
@@ -24106,7 +24176,7 @@ const data = [
     "alias": "710106",
     "name": "FLOWER & LEAF EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 624,
+    "stock": 412,
     "sales": 50
   },
   {
@@ -24116,8 +24186,8 @@ const data = [
     "alias": "710108",
     "name": "LEAF3 EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 732,
-    "sales": 20
+    "stock": 602,
+    "sales": 25
   },
   {
     "outlet": "warehouse riyadh",
@@ -24126,8 +24196,8 @@ const data = [
     "alias": "710109",
     "name": "PLAM TREE EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 552,
-    "sales": 14
+    "stock": 412,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
@@ -24136,8 +24206,8 @@ const data = [
     "alias": "710110",
     "name": "SHELL 2 EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 537,
-    "sales": 28
+    "stock": 382,
+    "sales": 37
   },
   {
     "outlet": "warehouse riyadh",
@@ -24146,8 +24216,8 @@ const data = [
     "alias": "710111",
     "name": "PARIS BOTANIQUE IVORY EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 552,
-    "sales": 33
+    "stock": 327,
+    "sales": 36
   },
   {
     "outlet": "warehouse riyadh",
@@ -24156,8 +24226,8 @@ const data = [
     "alias": "710099",
     "name": "ROSE1 EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99.0,
-    "stock": 756,
-    "sales": 33
+    "stock": 168,
+    "sales": 38
   },
   {
     "outlet": "warehouse riyadh",
@@ -24166,8 +24236,8 @@ const data = [
     "alias": "710107",
     "name": "BIRDS EMBROIDERED TOWEL WAVE SET 3PCS",
     "price": 99.0,
-    "stock": 936,
-    "sales": 18
+    "stock": 519,
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -24176,8 +24246,8 @@ const data = [
     "alias": "2730",
     "name": "PRINTED BLUSH PAVLA FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 520,
-    "sales": 50
+    "stock": 2,
+    "sales": 45
   },
   {
     "outlet": "warehouse riyadh",
@@ -24186,8 +24256,8 @@ const data = [
     "alias": "2731",
     "name": "PRINTED WHITE/MULTI PAVLA FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 714,
-    "sales": 21
+    "stock": 490,
+    "sales": 24
   },
   {
     "outlet": "warehouse riyadh",
@@ -24195,9 +24265,19 @@ const data = [
     "code": "23913",
     "alias": "816213",
     "name": "BATH MAT SET 2 PCS DARKER LILAC",
-    "price": 94.0,
+    "price": 99.0,
     "stock": 402,
-    "sales": 18
+    "sales": 24
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "أطقم دعاسات",
+    "code": "23914",
+    "alias": "816214",
+    "name": "BATH MAT SET 2 PCS NAVY",
+    "price": 99.0,
+    "stock": 138,
+    "sales": 26
   },
   {
     "outlet": "warehouse riyadh",
@@ -24206,8 +24286,8 @@ const data = [
     "alias": "816414",
     "name": "BATH MAT 21X34IN NAVY",
     "price": 59.0,
-    "stock": 90,
-    "sales": 23
+    "stock": 25,
+    "sales": 35
   },
   {
     "outlet": "warehouse riyadh",
@@ -24216,8 +24296,8 @@ const data = [
     "alias": "816313",
     "name": "BATH MAT 17X24IN DARK LILAC",
     "price": 39.0,
-    "stock": 396,
-    "sales": 16
+    "stock": 42,
+    "sales": 17
   },
   {
     "outlet": "warehouse riyadh",
@@ -24226,8 +24306,8 @@ const data = [
     "alias": "2738",
     "name": "CONTROLLER GAMING FAVORITE FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 598,
-    "sales": 67
+    "stock": 491,
+    "sales": 87
   },
   {
     "outlet": "warehouse riyadh",
@@ -24236,8 +24316,8 @@ const data = [
     "alias": "2734",
     "name": "TOSS BOTANICAL SPRING PINK/MULTI FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 610,
-    "sales": 95
+    "stock": 58,
+    "sales": 125
   },
   {
     "outlet": "warehouse riyadh",
@@ -24246,8 +24326,8 @@ const data = [
     "alias": "2737",
     "name": "ORVAL NAVY FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 608,
-    "sales": 76
+    "stock": 201,
+    "sales": 96
   },
   {
     "outlet": "warehouse riyadh",
@@ -24256,8 +24336,8 @@ const data = [
     "alias": "2732",
     "name": "MEADOW FLORAL MULTI FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 700,
-    "sales": 38
+    "stock": 349,
+    "sales": 61
   },
   {
     "outlet": "warehouse riyadh",
@@ -24266,8 +24346,8 @@ const data = [
     "alias": "2736",
     "name": "CLOVELLY BLUE FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 422,
-    "sales": 43
+    "stock": 1,
+    "sales": 61
   },
   {
     "outlet": "warehouse riyadh",
@@ -24276,8 +24356,8 @@ const data = [
     "alias": "2733",
     "name": "DIST FLORAL MULTI FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 628,
-    "sales": 53
+    "stock": 267,
+    "sales": 73
   },
   {
     "outlet": "warehouse riyadh",
@@ -24286,8 +24366,8 @@ const data = [
     "alias": "2735",
     "name": "CHERRIES KATIE BLUE FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 714,
-    "sales": 37
+    "stock": 510,
+    "sales": 40
   },
   {
     "outlet": "warehouse riyadh",
@@ -24296,8 +24376,8 @@ const data = [
     "alias": "542540",
     "name": "BIG ONE COLORFUL CARS FULL 2 PCS",
     "price": 99.0,
-    "stock": 1644,
-    "sales": 30
+    "stock": 579,
+    "sales": 64
   },
   {
     "outlet": "warehouse riyadh",
@@ -24306,8 +24386,8 @@ const data = [
     "alias": "542541",
     "name": "BIG ONE MULTI BALLS FULL 2 PCS",
     "price": 99.0,
-    "stock": 1662,
-    "sales": 31
+    "stock": 550,
+    "sales": 79
   },
   {
     "outlet": "warehouse riyadh",
@@ -24316,8 +24396,8 @@ const data = [
     "alias": "542543",
     "name": "BIG ONE MULTI COLOR STRIPES FULL 2 PCS",
     "price": 99.0,
-    "stock": 1608,
-    "sales": 25
+    "stock": 580,
+    "sales": 82
   },
   {
     "outlet": "warehouse riyadh",
@@ -24326,8 +24406,8 @@ const data = [
     "alias": "542537",
     "name": "BIG ONE WHALE FULL 2 PCS",
     "price": 99.0,
-    "stock": 1506,
-    "sales": 43
+    "stock": 687,
+    "sales": 96
   },
   {
     "outlet": "warehouse riyadh",
@@ -24336,8 +24416,8 @@ const data = [
     "alias": "542533",
     "name": "BIG ONE MULTI DINOSAURS FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 414,
-    "sales": 28
+    "stock": 909,
+    "sales": 45
   },
   {
     "outlet": "warehouse riyadh",
@@ -24346,8 +24426,8 @@ const data = [
     "alias": "542535",
     "name": "BIG ONE BUTTERFLY MULTI FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 390,
-    "sales": 47
+    "stock": 713,
+    "sales": 92
   },
   {
     "outlet": "warehouse riyadh",
@@ -24356,8 +24436,8 @@ const data = [
     "alias": "542532",
     "name": "BIG ONE MULTI VEHICLES FULL QUILT 2 PCS",
     "price": 99.0,
-    "stock": 414,
-    "sales": 30
+    "stock": 902,
+    "sales": 37
   },
   {
     "outlet": "warehouse riyadh",
@@ -24366,8 +24446,8 @@ const data = [
     "alias": "2739",
     "name": "CHEETAH SELVA FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 756,
-    "sales": 16
+    "stock": 597,
+    "sales": 29
   },
   {
     "outlet": "warehouse riyadh",
@@ -24376,8 +24456,8 @@ const data = [
     "alias": "980101",
     "name": "BTY-1 TEDDY BEAR BEIGE CURLY SIZE 45 CM",
     "price": 69.0,
-    "stock": 468,
-    "sales": 35
+    "stock": 374,
+    "sales": 34
   },
   {
     "outlet": "warehouse riyadh",
@@ -24386,8 +24466,8 @@ const data = [
     "alias": "980102",
     "name": "BTY-2 TEDDY BEAR BROWN STRAIGHT SIZE 45 CM",
     "price": 69.0,
-    "stock": 516,
-    "sales": 35
+    "stock": 314,
+    "sales": 44
   },
   {
     "outlet": "warehouse riyadh",
@@ -24396,8 +24476,8 @@ const data = [
     "alias": "980103",
     "name": "BTY-3 TEDDY BEAR BROWN STRAIGHT SIZE 30 CM",
     "price": 39.0,
-    "stock": 288,
-    "sales": 76
+    "stock": 18,
+    "sales": 86
   },
   {
     "outlet": "warehouse riyadh",
@@ -24406,8 +24486,8 @@ const data = [
     "alias": "980104",
     "name": "BTY-4 TEDDY BEAR WHITE CURLY SIZE 30 CM",
     "price": 39.0,
-    "stock": 336,
-    "sales": 68
+    "stock": 102,
+    "sales": 54
   },
   {
     "outlet": "warehouse riyadh",
@@ -24416,8 +24496,8 @@ const data = [
     "alias": "980105",
     "name": "BTY-4 TEDDY BEAR BEIGE CURLY SIZE 30 CM",
     "price": 39.0,
-    "stock": 288,
-    "sales": 55
+    "stock": 55,
+    "sales": 77
   },
   {
     "outlet": "warehouse riyadh",
@@ -24426,8 +24506,8 @@ const data = [
     "alias": "980106",
     "name": "BTY-4 TEDDY BEAR PINK CURLY SIZE 30 CM",
     "price": 39.0,
-    "stock": 360,
-    "sales": 61
+    "stock": 20,
+    "sales": 81
   },
   {
     "outlet": "warehouse riyadh",
@@ -24436,8 +24516,8 @@ const data = [
     "alias": "980107",
     "name": "BTY-5 TEDDY BEAR BEIGE STRAIGHT SIZE 30 CM",
     "price": 39.0,
-    "stock": 288,
-    "sales": 73
+    "stock": 24,
+    "sales": 69
   },
   {
     "outlet": "warehouse riyadh",
@@ -24446,18 +24526,8 @@ const data = [
     "alias": "980108",
     "name": "BTY-5 TEDDY BEAR PINK STRAIGHT SIZE 30 CM",
     "price": 39.0,
-    "stock": 312,
-    "sales": 50
-  },
-  {
-    "outlet": "warehouse riyadh",
-    "category": "ألعاب أطفال",
-    "code": "23968",
-    "alias": "980110",
-    "name": "BTY-7 TEDDY BEAR PINK STRAIGHT SIZE 25 CM",
-    "price": 29.0,
-    "stock": 36,
-    "sales": 102
+    "stock": 84,
+    "sales": 76
   },
   {
     "outlet": "warehouse riyadh",
@@ -24466,8 +24536,8 @@ const data = [
     "alias": "980111",
     "name": "BTY-8 TEDDY BEAR BROWN STRAIGHT SIZE 70 CM",
     "price": 199.0,
-    "stock": 182,
-    "sales": 11
+    "stock": 178,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -24476,8 +24546,8 @@ const data = [
     "alias": "9892001",
     "name": "BATH ROBE ZERO TEIST WHITE S/M",
     "price": 129.0,
-    "stock": 492,
-    "sales": 20
+    "stock": 815,
+    "sales": 25
   },
   {
     "outlet": "warehouse riyadh",
@@ -24486,8 +24556,8 @@ const data = [
     "alias": "9892002",
     "name": "BATH ROBE ZERO TEIST IVORY S/M",
     "price": 129.0,
-    "stock": 588,
-    "sales": 27
+    "stock": 917,
+    "sales": 34
   },
   {
     "outlet": "warehouse riyadh",
@@ -24496,8 +24566,8 @@ const data = [
     "alias": "9892003",
     "name": "BATH ROBE ZERO TEIST ROSE S/M",
     "price": 129.0,
-    "stock": 1782,
-    "sales": 49
+    "stock": 1752,
+    "sales": 40
   },
   {
     "outlet": "warehouse riyadh",
@@ -24506,8 +24576,8 @@ const data = [
     "alias": "9892004",
     "name": "BATH ROBE ZERO TEIST OYSTER MUSHROOM S/M",
     "price": 129.0,
-    "stock": 270,
-    "sales": 36
+    "stock": 461,
+    "sales": 39
   },
   {
     "outlet": "warehouse riyadh",
@@ -24516,7 +24586,7 @@ const data = [
     "alias": "9892005",
     "name": "BATH ROBE ZERO TEIST NAVY S/M",
     "price": 129.0,
-    "stock": 900,
+    "stock": 876,
     "sales": 30
   },
   {
@@ -24526,8 +24596,8 @@ const data = [
     "alias": "9893001",
     "name": "BATH ROBE ZERO TEIST WHITE L/XL",
     "price": 129.0,
-    "stock": 329,
-    "sales": 22
+    "stock": 385,
+    "sales": 34
   },
   {
     "outlet": "warehouse riyadh",
@@ -24536,8 +24606,8 @@ const data = [
     "alias": "9893002",
     "name": "BATH ROBE ZERO TEIST IVORY L/XL",
     "price": 129.0,
-    "stock": 174,
-    "sales": 22
+    "stock": 342,
+    "sales": 23
   },
   {
     "outlet": "warehouse riyadh",
@@ -24546,8 +24616,8 @@ const data = [
     "alias": "9893003",
     "name": "BATH ROBE ZERO TEIST ROSE L/XL",
     "price": 129.0,
-    "stock": 90,
-    "sales": 45
+    "stock": 234,
+    "sales": 48
   },
   {
     "outlet": "warehouse riyadh",
@@ -24556,8 +24626,8 @@ const data = [
     "alias": "9893004",
     "name": "BATH ROBE ZERO TEIST OYSTER MUSHROOM L/XL",
     "price": 129.0,
-    "stock": 432,
-    "sales": 56
+    "stock": 810,
+    "sales": 60
   },
   {
     "outlet": "warehouse riyadh",
@@ -24566,8 +24636,8 @@ const data = [
     "alias": "9893005",
     "name": "BATH ROBE ZERO TEIST NAVY L/XL",
     "price": 129.0,
-    "stock": 354,
-    "sales": 69
+    "stock": 186,
+    "sales": 83
   },
   {
     "outlet": "warehouse riyadh",
@@ -24576,7 +24646,7 @@ const data = [
     "alias": "4092000",
     "name": "*PALLINGTON BLOOM / PLASTER PINK KING COMFORTER 5 PCS",
     "price": 599.0,
-    "stock": 720,
+    "stock": 820,
     "sales": 0
   },
   {
@@ -24586,8 +24656,8 @@ const data = [
     "alias": "440920",
     "name": "*PALLINGTON BLOOM / PLASTER PINK KING COMFORTER 8 PCS KIT",
     "price": 599.0,
-    "stock": 69,
-    "sales": 30
+    "stock": 1,
+    "sales": 45
   },
   {
     "outlet": "warehouse riyadh",
@@ -24596,7 +24666,7 @@ const data = [
     "alias": "4092100",
     "name": "*PALLINGTON BLOOM / RUBY  KING COMFORTER 5 PCS",
     "price": 599.0,
-    "stock": 1030,
+    "stock": 364,
     "sales": 0
   },
   {
@@ -24606,8 +24676,8 @@ const data = [
     "alias": "440921",
     "name": "*PALLINGTON BLOOM / RUBY  KING COMFORTER 8 PCS KIT",
     "price": 599.0,
-    "stock": 84,
-    "sales": 73
+    "stock": 14,
+    "sales": 81
   },
   {
     "outlet": "warehouse riyadh",
@@ -24616,7 +24686,7 @@ const data = [
     "alias": "4092200",
     "name": "*FLORAL PEACOCK / SEA FOAM KING COMFORTER  5 PCS",
     "price": 599.0,
-    "stock": 928,
+    "stock": 636,
     "sales": 0
   },
   {
@@ -24626,8 +24696,8 @@ const data = [
     "alias": "440922",
     "name": "*FLORAL PEACOCK / SEA FOAM KING COMFORTER  8 PCS KIT",
     "price": 599.0,
-    "stock": 114,
-    "sales": 10
+    "stock": 7,
+    "sales": 16
   },
   {
     "outlet": "warehouse riyadh",
@@ -24636,8 +24706,8 @@ const data = [
     "alias": "71132801",
     "name": "BTP-857 KITCHEN TOWEL WHITE 50*90",
     "price": 9.0,
-    "stock": 1490,
-    "sales": 356
+    "stock": 882,
+    "sales": 242
   },
   {
     "outlet": "warehouse riyadh",
@@ -24646,8 +24716,8 @@ const data = [
     "alias": "71132802",
     "name": "BTP-857 KITCHEN TOWEL SILVER 50*90",
     "price": 9.0,
-    "stock": 1490,
-    "sales": 286
+    "stock": 878,
+    "sales": 182
   },
   {
     "outlet": "warehouse riyadh",
@@ -24656,8 +24726,8 @@ const data = [
     "alias": "71132803",
     "name": "BTP-857 KITCHEN TOWEL BEIGE 50*90",
     "price": 9.0,
-    "stock": 1192,
-    "sales": 337
+    "stock": 706,
+    "sales": 191
   },
   {
     "outlet": "warehouse riyadh",
@@ -24666,8 +24736,8 @@ const data = [
     "alias": "71132804",
     "name": "BTP-857 KITCHEN TOWEL DARK GREY 50*90",
     "price": 9.0,
-    "stock": 1192,
-    "sales": 385
+    "stock": 703,
+    "sales": 186
   },
   {
     "outlet": "warehouse riyadh",
@@ -24676,8 +24746,8 @@ const data = [
     "alias": "71132805",
     "name": "BTP-857 KITCHEN TOWEL ORANGE 50*90",
     "price": 9.0,
-    "stock": 894,
-    "sales": 233
+    "stock": 531,
+    "sales": 117
   },
   {
     "outlet": "warehouse riyadh",
@@ -24686,8 +24756,8 @@ const data = [
     "alias": "71132806",
     "name": "BTP-857 KITCHEN TOWEL BLACK 50*90",
     "price": 9.0,
-    "stock": 894,
-    "sales": 229
+    "stock": 533,
+    "sales": 121
   },
   {
     "outlet": "warehouse riyadh",
@@ -24696,8 +24766,8 @@ const data = [
     "alias": "71132901",
     "name": "BTP-862 KITCHEN TOWEL DUSTY PINK 50*90",
     "price": 9.0,
-    "stock": 1480,
-    "sales": 384
+    "stock": 917,
+    "sales": 244
   },
   {
     "outlet": "warehouse riyadh",
@@ -24706,8 +24776,8 @@ const data = [
     "alias": "71132902",
     "name": "BTP-862 KITCHEN TOWEL VOILET 50*90",
     "price": 9.0,
-    "stock": 1184,
-    "sales": 331
+    "stock": 732,
+    "sales": 198
   },
   {
     "outlet": "warehouse riyadh",
@@ -24716,8 +24786,8 @@ const data = [
     "alias": "71132903",
     "name": "BTP-862 KITCHEN TOWEL TAUPE 50*90",
     "price": 9.0,
-    "stock": 1184,
-    "sales": 348
+    "stock": 735,
+    "sales": 185
   },
   {
     "outlet": "warehouse riyadh",
@@ -24726,8 +24796,8 @@ const data = [
     "alias": "71132904",
     "name": "BTP-862 KITCHEN TOWEL DUSTY ROSE 50*90",
     "price": 9.0,
-    "stock": 1480,
-    "sales": 278
+    "stock": 920,
+    "sales": 172
   },
   {
     "outlet": "warehouse riyadh",
@@ -24736,8 +24806,8 @@ const data = [
     "alias": "71132905",
     "name": "BTP-862 KITCHEN TOWEL BLUE 50*90",
     "price": 9.0,
-    "stock": 888,
-    "sales": 239
+    "stock": 508,
+    "sales": 135
   },
   {
     "outlet": "warehouse riyadh",
@@ -24746,8 +24816,8 @@ const data = [
     "alias": "71132906",
     "name": "BTP-862 KITCHEN TOWEL SLATE 50*90",
     "price": 9.0,
-    "stock": 888,
-    "sales": 287
+    "stock": 550,
+    "sales": 153
   },
   {
     "outlet": "warehouse riyadh",
@@ -24756,8 +24826,8 @@ const data = [
     "alias": "71133001",
     "name": "BTP-870 KITCHEN TOWEL SAND 50*90",
     "price": 9.0,
-    "stock": 2400,
-    "sales": 430
+    "stock": 1421,
+    "sales": 243
   },
   {
     "outlet": "warehouse riyadh",
@@ -24766,8 +24836,8 @@ const data = [
     "alias": "71133002",
     "name": "BTP-870 KITCHEN TOWEL RUST 50*90",
     "price": 9.0,
-    "stock": 900,
-    "sales": 237
+    "stock": 534,
+    "sales": 112
   },
   {
     "outlet": "warehouse riyadh",
@@ -24776,8 +24846,8 @@ const data = [
     "alias": "71133003",
     "name": "BTP-870 KITCHEN TOWEL ROSE PINK 50*90",
     "price": 9.0,
-    "stock": 900,
-    "sales": 327
+    "stock": 481,
+    "sales": 165
   },
   {
     "outlet": "warehouse riyadh",
@@ -24786,8 +24856,8 @@ const data = [
     "alias": "71133004",
     "name": "BTP-870 KITCHEN TOWEL DEEP PERIWINKLE 50*90",
     "price": 9.0,
-    "stock": 900,
-    "sales": 243
+    "stock": 531,
+    "sales": 123
   },
   {
     "outlet": "warehouse riyadh",
@@ -24796,8 +24866,8 @@ const data = [
     "alias": "71133005",
     "name": "BTP-870 KITCHEN TOWEL SAGE 50*90",
     "price": 9.0,
-    "stock": 1200,
-    "sales": 274
+    "stock": 704,
+    "sales": 167
   },
   {
     "outlet": "warehouse riyadh",
@@ -24806,8 +24876,8 @@ const data = [
     "alias": "71133006",
     "name": "BTP-870 KITCHEN TOWEL ROYAL BLUE 50*90",
     "price": 9.0,
-    "stock": 900,
-    "sales": 231
+    "stock": 512,
+    "sales": 114
   },
   {
     "outlet": "warehouse riyadh",
@@ -24816,8 +24886,8 @@ const data = [
     "alias": "71133101",
     "name": "BTP-839 KITCHEN TOWEL WHITE 50*90",
     "price": 9.0,
-    "stock": 2384,
-    "sales": 406
+    "stock": 1488,
+    "sales": 217
   },
   {
     "outlet": "warehouse riyadh",
@@ -24826,8 +24896,8 @@ const data = [
     "alias": "71133102",
     "name": "BTP-839 KITCHEN TOWEL IVORY 50*90",
     "price": 9.0,
-    "stock": 1192,
-    "sales": 223
+    "stock": 732,
+    "sales": 142
   },
   {
     "outlet": "warehouse riyadh",
@@ -24836,8 +24906,8 @@ const data = [
     "alias": "71133103",
     "name": "BTP-839 KITCHEN TOWEL NAVY 50*90",
     "price": 9.0,
-    "stock": 894,
-    "sales": 259
+    "stock": 557,
+    "sales": 90
   },
   {
     "outlet": "warehouse riyadh",
@@ -24846,8 +24916,8 @@ const data = [
     "alias": "71133104",
     "name": "BTP-839 KITCHEN TOWEL AQUA 50*90",
     "price": 9.0,
-    "stock": 894,
-    "sales": 315
+    "stock": 550,
+    "sales": 154
   },
   {
     "outlet": "warehouse riyadh",
@@ -24856,8 +24926,8 @@ const data = [
     "alias": "71133105",
     "name": "BTP-839 KITCHEN TOWEL LAVENDER BLUE 50*90",
     "price": 9.0,
-    "stock": 894,
-    "sales": 238
+    "stock": 555,
+    "sales": 120
   },
   {
     "outlet": "warehouse riyadh",
@@ -24866,8 +24936,8 @@ const data = [
     "alias": "71133106",
     "name": "BTP-839 KITCHEN TOWEL POWDER PINK 50*90",
     "price": 9.0,
-    "stock": 894,
-    "sales": 315
+    "stock": 547,
+    "sales": 132
   },
   {
     "outlet": "warehouse riyadh",
@@ -24876,8 +24946,8 @@ const data = [
     "alias": "71133201",
     "name": "BTP-840 KITCHEN TOWEL IVORY 50*90",
     "price": 9.0,
-    "stock": 1490,
-    "sales": 312
+    "stock": 850,
+    "sales": 177
   },
   {
     "outlet": "warehouse riyadh",
@@ -24886,8 +24956,8 @@ const data = [
     "alias": "71133202",
     "name": "BTP-840 KITCHEN TOWEL GRANET ROSE 50*90",
     "price": 9.0,
-    "stock": 894,
-    "sales": 271
+    "stock": 510,
+    "sales": 138
   },
   {
     "outlet": "warehouse riyadh",
@@ -24896,8 +24966,8 @@ const data = [
     "alias": "71133203",
     "name": "BTP-840 KITCHEN TOWEL LT.BLUE 50*90",
     "price": 9.0,
-    "stock": 894,
-    "sales": 218
+    "stock": 510,
+    "sales": 114
   },
   {
     "outlet": "warehouse riyadh",
@@ -24906,8 +24976,8 @@ const data = [
     "alias": "71133204",
     "name": "BTP-840 KITCHEN TOWEL BABY PINK 50*90",
     "price": 9.0,
-    "stock": 1192,
-    "sales": 358
+    "stock": 680,
+    "sales": 157
   },
   {
     "outlet": "warehouse riyadh",
@@ -24916,8 +24986,8 @@ const data = [
     "alias": "71133205",
     "name": "BTP-840 KITCHEN TOWEL DISCUT 50*90",
     "price": 9.0,
-    "stock": 1490,
-    "sales": 320
+    "stock": 850,
+    "sales": 161
   },
   {
     "outlet": "warehouse riyadh",
@@ -24926,8 +24996,8 @@ const data = [
     "alias": "71133206",
     "name": "BTP-840 KITCHEN TOWEL MOVE 50*90",
     "price": 9.0,
-    "stock": 1192,
-    "sales": 333
+    "stock": 680,
+    "sales": 184
   },
   {
     "outlet": "warehouse riyadh",
@@ -24936,7 +25006,7 @@ const data = [
     "alias": "48910000",
     "name": "*BLOOMING GRACE PINK COTTON KING COMFORTER  7 PCS",
     "price": 695.0,
-    "stock": 620,
+    "stock": 860,
     "sales": 0
   },
   {
@@ -24946,8 +25016,8 @@ const data = [
     "alias": "4489100",
     "name": "*BLOOMING GRACE PINK COTTON KING COMFORTER  10 PCS KIT",
     "price": 695.0,
-    "stock": 197,
-    "sales": 30
+    "stock": 3,
+    "sales": 38
   },
   {
     "outlet": "warehouse riyadh",
@@ -24956,8 +25026,8 @@ const data = [
     "alias": "4489101",
     "name": "*BLOOMING GRACE WHITE COTTON KING COMFORTER 10 PCS KIT",
     "price": 695.0,
-    "stock": 203,
-    "sales": 14
+    "stock": 1,
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -24966,8 +25036,8 @@ const data = [
     "alias": "49913",
     "name": "MULTI MEADOW FLORAL KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1590,
-    "sales": 57
+    "stock": 1441,
+    "sales": 87
   },
   {
     "outlet": "warehouse riyadh",
@@ -24976,8 +25046,8 @@ const data = [
     "alias": "2740",
     "name": "GREEN CAMO JACK FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 820,
-    "sales": 7
+    "stock": 715,
+    "sales": 9
   },
   {
     "outlet": "warehouse riyadh",
@@ -24986,7 +25056,7 @@ const data = [
     "alias": "4092300",
     "name": "*MIRABELLE PALE SEASPRAY KING COMFORTER 5 PCS",
     "price": 599.0,
-    "stock": 827,
+    "stock": 755,
     "sales": 0
   },
   {
@@ -24996,8 +25066,8 @@ const data = [
     "alias": "440923",
     "name": "*MIRABELLE PALE SEASPRAY KING COMFORTER 8 PCS KIT",
     "price": 599.0,
-    "stock": 123,
-    "sales": 35
+    "stock": 19,
+    "sales": 37
   },
   {
     "outlet": "warehouse riyadh",
@@ -25006,7 +25076,7 @@ const data = [
     "alias": "4092400",
     "name": "*TONAL FLORAL TAUPE KING COMFORTER 5 PCS",
     "price": 599.0,
-    "stock": 680,
+    "stock": 768,
     "sales": 0
   },
   {
@@ -25016,8 +25086,8 @@ const data = [
     "alias": "440924",
     "name": "*TONAL FLORAL TAUPE KING COMFORTER 8 PCS KIT",
     "price": 599.0,
-    "stock": 74,
-    "sales": 70
+    "stock": 14,
+    "sales": 64
   },
   {
     "outlet": "warehouse riyadh",
@@ -25026,8 +25096,8 @@ const data = [
     "alias": "989005",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML CHERRY BLACK",
     "price": 39.0,
-    "stock": 660,
-    "sales": 99
+    "stock": 3810,
+    "sales": 88
   },
   {
     "outlet": "warehouse riyadh",
@@ -25036,7 +25106,7 @@ const data = [
     "alias": "989006",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML LAVENDER GARDEN",
     "price": 39.0,
-    "stock": 660,
+    "stock": 1734,
     "sales": 75
   },
   {
@@ -25046,8 +25116,8 @@ const data = [
     "alias": "989007",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML JASMINE WHITE",
     "price": 39.0,
-    "stock": 675,
-    "sales": 49
+    "stock": 641,
+    "sales": 51
   },
   {
     "outlet": "warehouse riyadh",
@@ -25056,8 +25126,8 @@ const data = [
     "alias": "710633",
     "name": "BATH SHEET AIR-RICH 86X172 CM ROSE PINK",
     "price": 69.0,
-    "stock": 732,
-    "sales": 22
+    "stock": 648,
+    "sales": 28
   },
   {
     "outlet": "warehouse riyadh",
@@ -25066,8 +25136,8 @@ const data = [
     "alias": "710634",
     "name": "BATH SHEET AIR-RICH 86X172 CM RICH BLACK",
     "price": 69.0,
-    "stock": 696,
-    "sales": 43
+    "stock": 624,
+    "sales": 50
   },
   {
     "outlet": "warehouse riyadh",
@@ -25076,8 +25146,8 @@ const data = [
     "alias": "710635",
     "name": "BATH SHEET AIR-RICH 86X172 CM LIGHT BLUE",
     "price": 69.0,
-    "stock": 300,
-    "sales": 46
+    "stock": 216,
+    "sales": 50
   },
   {
     "outlet": "warehouse riyadh",
@@ -25086,8 +25156,8 @@ const data = [
     "alias": "714433",
     "name": "BATH TOWEL AIR-RICH 70X140 CM ROSE PINK",
     "price": 49.0,
-    "stock": 732,
-    "sales": 70
+    "stock": 600,
+    "sales": 81
   },
   {
     "outlet": "warehouse riyadh",
@@ -25096,8 +25166,8 @@ const data = [
     "alias": "714434",
     "name": "BATH TOWEL AIR-RICH 70X140 CM RICH BLACK",
     "price": 49.0,
-    "stock": 720,
-    "sales": 44
+    "stock": 575,
+    "sales": 55
   },
   {
     "outlet": "warehouse riyadh",
@@ -25106,8 +25176,8 @@ const data = [
     "alias": "714435",
     "name": "BATH TOWEL AIR-RICH 70X140 CM LIGHT BLUE",
     "price": 49.0,
-    "stock": 708,
-    "sales": 70
+    "stock": 498,
+    "sales": 104
   },
   {
     "outlet": "warehouse riyadh",
@@ -25116,8 +25186,8 @@ const data = [
     "alias": "710733",
     "name": "EUR TOWEL AIR-RICH 50X100 CM ROSE PINK",
     "price": 25.0,
-    "stock": 960,
-    "sales": 38
+    "stock": 858,
+    "sales": 64
   },
   {
     "outlet": "warehouse riyadh",
@@ -25126,8 +25196,8 @@ const data = [
     "alias": "710734",
     "name": "EUR TOWEL AIR-RICH 50X100 CM RICH BLACK",
     "price": 25.0,
-    "stock": 960,
-    "sales": 40
+    "stock": 860,
+    "sales": 44
   },
   {
     "outlet": "warehouse riyadh",
@@ -25136,8 +25206,8 @@ const data = [
     "alias": "710735",
     "name": "EUR TOWEL AIR-RICH 50X100 CM LIGHT BLUE",
     "price": 25.0,
-    "stock": 888,
-    "sales": 55
+    "stock": 742,
+    "sales": 71
   },
   {
     "outlet": "warehouse riyadh",
@@ -25146,8 +25216,8 @@ const data = [
     "alias": "710833",
     "name": "SQUARE TOWELS 30X30 CM AIR-RICH ROSE PINK",
     "price": 5.0,
-    "stock": 600,
-    "sales": 85
+    "stock": 28,
+    "sales": 99
   },
   {
     "outlet": "warehouse riyadh",
@@ -25157,7 +25227,7 @@ const data = [
     "name": "SQUARE TOWELS 30X30 CM AIR-RICH RICH BLACK",
     "price": 5.0,
     "stock": 552,
-    "sales": 121
+    "sales": 126
   },
   {
     "outlet": "warehouse riyadh",
@@ -25176,8 +25246,8 @@ const data = [
     "alias": "816413",
     "name": "BATH MAT 21X34IN DARKER LILAC",
     "price": 59.0,
-    "stock": 390,
-    "sales": 19
+    "stock": 18,
+    "sales": 22
   },
   {
     "outlet": "warehouse riyadh",
@@ -25186,8 +25256,8 @@ const data = [
     "alias": "816314",
     "name": "BATH MAT 17X24IN NAVY",
     "price": 39.0,
-    "stock": 498,
-    "sales": 13
+    "stock": 96,
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -25196,8 +25266,8 @@ const data = [
     "alias": "5485",
     "name": "QUILT BABY BREATH MULTI KING 3 PCS",
     "price": 299.0,
-    "stock": 212,
-    "sales": 28
+    "stock": 370,
+    "sales": 49
   },
   {
     "outlet": "warehouse riyadh",
@@ -25206,8 +25276,68 @@ const data = [
     "alias": "5484",
     "name": "QUILT EMLLY KING 3 PCS",
     "price": 299.0,
-    "stock": 216,
-    "sales": 19
+    "stock": 383,
+    "sales": 33
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "دعاسات",
+    "code": "24046",
+    "alias": "817201",
+    "name": "BATH MAT 30X50IN WITHE",
+    "price": 129.0,
+    "stock": 54,
+    "sales": 6
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "دعاسات",
+    "code": "24047",
+    "alias": "817202",
+    "name": "BATH MAT 30X50IN IVORY",
+    "price": 129.0,
+    "stock": 30,
+    "sales": 6
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "دعاسات",
+    "code": "24049",
+    "alias": "817205",
+    "name": "BATH MAT 30X50IN DARKER LILAC",
+    "price": 129.0,
+    "stock": 24,
+    "sales": 2
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "دعاسات",
+    "code": "24050",
+    "alias": "817206",
+    "name": "BATH MAT 30X50IN PINK",
+    "price": 129.0,
+    "stock": 6,
+    "sales": 1
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "دعاسات",
+    "code": "24051",
+    "alias": "817208",
+    "name": "BATH MAT 30X50IN NAVY",
+    "price": 129.0,
+    "stock": 42,
+    "sales": 3
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "دعاسات",
+    "code": "24052",
+    "alias": "816412",
+    "name": "BATH MAT 21X34IN BLACK",
+    "price": 59.0,
+    "stock": 18,
+    "sales": 0
   },
   {
     "outlet": "warehouse riyadh",
@@ -25216,8 +25346,8 @@ const data = [
     "alias": "49916",
     "name": "PAVLA GREY KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1706,
-    "sales": 0
+    "stock": 1627,
+    "sales": 12
   },
   {
     "outlet": "warehouse riyadh",
@@ -25226,8 +25356,8 @@ const data = [
     "alias": "49917",
     "name": "PAVLA BLUSH KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1706,
-    "sales": 0
+    "stock": 1628,
+    "sales": 6
   },
   {
     "outlet": "warehouse riyadh",
@@ -25236,8 +25366,8 @@ const data = [
     "alias": "49918",
     "name": "PRSSIA KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 846,
-    "sales": 0
+    "stock": 741,
+    "sales": 48
   },
   {
     "outlet": "warehouse riyadh",
@@ -25246,7 +25376,197 @@ const data = [
     "alias": "49919",
     "name": "ARDICE GRAY ECRU KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1706,
+    "stock": 1606,
+    "sales": 48
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24057",
+    "alias": "4092500",
+    "name": "*ROYCE TAUPE KING COMFORTER 8 PCS",
+    "price": 599.0,
+    "stock": 1850,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24058",
+    "alias": "440925",
+    "name": "*ROYCE TAUPE KING COMFORTER 11 PCS KIT",
+    "price": 599.0,
+    "stock": 59,
+    "sales": 2
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24059",
+    "alias": "4092600",
+    "name": "*ROYCE GRAY KING COMFORTER 8 PCS",
+    "price": 599.0,
+    "stock": 550,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24060",
+    "alias": "440926",
+    "name": "*ROYCE GRAY KING COMFORTER 11 PCS KIT",
+    "price": 599.0,
+    "stock": 59,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24061",
+    "alias": "4092700",
+    "name": "*ROYCE IVORY KING COMFORTER 8 PCS",
+    "price": 599.0,
+    "stock": 1850,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24062",
+    "alias": "440927",
+    "name": "*ROYCE IVORY KING COMFORTER 11 PCS KIT",
+    "price": 599.0,
+    "stock": 58,
+    "sales": 2
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24063",
+    "alias": "4092800",
+    "name": "*PATIA INDIGO KING COMFORTER 8 PCS",
+    "price": 399.0,
+    "stock": 550,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24064",
+    "alias": "440928",
+    "name": "*PATIA INDIGO KING COMFORTER 11 PCS KIT",
+    "price": 399.0,
+    "stock": 59,
+    "sales": 2
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24065",
+    "alias": "4092900",
+    "name": "*PATIA GRAY KING COMFORTER 8 PCS",
+    "price": 399.0,
+    "stock": 1850,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24066",
+    "alias": "440929",
+    "name": "*PATIA GRAY KING COMFORTER 11 PCS KIT",
+    "price": 399.0,
+    "stock": 59,
+    "sales": 1
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24067",
+    "alias": "49914",
+    "name": "BOW GIMINY BLUE KING COMFORTER 5 PCS",
+    "price": 349.0,
+    "stock": 805,
+    "sales": 1
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24068",
+    "alias": "49915",
+    "name": "BOW GIMINY LAVENDER KING COMFORTER 5 PCS",
+    "price": 349.0,
+    "stock": 825,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات فل",
+    "code": "24069",
+    "alias": "2741",
+    "name": "BOW GIMINY BLUE FULL COMFORTER 5 PCS",
+    "price": 299.0,
+    "stock": 857,
+    "sales": 1
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات فل",
+    "code": "24070",
+    "alias": "2742",
+    "name": "BOW GIMINY BLUSH FULL COMFORTER 5 PCS",
+    "price": 299.0,
+    "stock": 264,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات فل",
+    "code": "24071",
+    "alias": "2743",
+    "name": "BOW GIMINY LAVENDER FULL COMFORTER 5 PCS",
+    "price": 299.0,
+    "stock": 857,
+    "sales": 1
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "دعاسات",
+    "code": "24072",
+    "alias": "816212",
+    "name": "BATH MAT SET 2 PCS BLACK",
+    "price": 99.0,
+    "stock": 852,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "دعاسات",
+    "code": "24073",
+    "alias": "816312",
+    "name": "BATH MAT 17X24IN BLACK",
+    "price": 39.0,
+    "stock": 516,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "دعاسات",
+    "code": "24074",
+    "alias": "817203",
+    "name": "BATH MAT 30X50IN DARKER LIGHT GRAY",
+    "price": 129.0,
+    "stock": 138,
+    "sales": 1
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "دعاسات",
+    "code": "24075",
+    "alias": "817207",
+    "name": "BATH MAT 30X50IN BLACK",
+    "price": 129.0,
+    "stock": 108,
     "sales": 0
   }
 ];

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة تحكم المنتجات</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .admin-panel {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .upload-area {
+            border: 2px dashed #dee2e6;
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            margin: 1rem 0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .upload-area:hover {
+            border-color: #0d6efd;
+            background-color: #f8f9fa;
+        }
+        .status-message {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 5px;
+            display: none;
+        }
+        .status-message.success {
+            background-color: #d4edda;
+            color: #155724;
+            display: block;
+        }
+        .status-message.error {
+            background-color: #f8d7da;
+            color: #721c24;
+            display: block;
+        }
+        .github-login {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .github-login button {
+            background-color: #24292e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        .github-login button i {
+            margin-left: 10px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="admin-panel">
+            <h1 class="text-center mb-4">لوحة تحكم المنتجات</h1>
+            
+            <div id="loginSection" class="github-login">
+                <button onclick="loginWithGitHub()">
+                    <i class="fab fa-github"></i>
+                    تسجيل الدخول باستخدام GitHub
+                </button>
+            </div>
+            
+            <div id="uploadSection" class="hidden">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">رفع ملف Excel</h5>
+                        <p class="card-text">قم برفع ملف Excel الجديد لتحديث المنتجات</p>
+                        
+                        <form id="uploadForm" class="mb-3">
+                            <div class="upload-area" id="dropZone">
+                                <input type="file" id="fileInput" class="d-none" accept=".xlsx">
+                                <div class="mb-3">
+                                    <i class="fas fa-cloud-upload-alt fa-3x mb-3"></i>
+                                    <p>اسحب الملف هنا أو انقر للاختيار</p>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">تحديث المنتجات</button>
+                        </form>
+                        
+                        <div id="statusMessage" class="status-message"></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">آخر تحديث</h5>
+                        <p class="card-text" id="lastUpdate">لم يتم تحديث المنتجات بعد</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const dropZone = document.getElementById('dropZone');
+        const fileInput = document.getElementById('fileInput');
+        const uploadForm = document.getElementById('uploadForm');
+        const statusMessage = document.getElementById('statusMessage');
+        const lastUpdate = document.getElementById('lastUpdate');
+        const loginSection = document.getElementById('loginSection');
+        const uploadSection = document.getElementById('uploadSection');
+
+        // تفعيل منطقة السحب والإفلات
+        dropZone.addEventListener('click', () => fileInput.click());
+        
+        dropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.style.borderColor = '#0d6efd';
+        });
+
+        dropZone.addEventListener('dragleave', () => {
+            dropZone.style.borderColor = '#dee2e6';
+        });
+
+        dropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.style.borderColor = '#dee2e6';
+            const files = e.dataTransfer.files;
+            if (files.length) {
+                fileInput.files = files;
+                updateFileName(files[0].name);
+            }
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length) {
+                updateFileName(e.target.files[0].name);
+            }
+        });
+
+        function updateFileName(name) {
+            dropZone.querySelector('p').textContent = `تم اختيار: ${name}`;
+        }
+
+        function loginWithGitHub() {
+            const clientId = 'YOUR_GITHUB_CLIENT_ID'; // يجب تغييره
+            const redirectUri = window.location.origin + window.location.pathname;
+            window.location.href = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=repo`;
+        }
+
+        // التحقق من وجود رمز الوصول في URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const code = urlParams.get('code');
+        
+        if (code) {
+            // إخفاء قسم تسجيل الدخول وإظهار قسم الرفع
+            loginSection.classList.add('hidden');
+            uploadSection.classList.remove('hidden');
+            
+            // حذف رمز الوصول من URL
+            window.history.replaceState({}, document.title, window.location.pathname);
+        }
+
+        uploadForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+
+            try {
+                statusMessage.className = 'status-message';
+                statusMessage.textContent = 'جاري تحديث المنتجات...';
+                statusMessage.style.display = 'block';
+
+                // رفع الملف إلى GitHub
+                const response = await fetch('https://api.github.com/repos/YOUR_USERNAME/YOUR_REPO/contents/cattemp.xlsx', {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${localStorage.getItem('github_token')}`,
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: 'تحديث ملف المنتجات',
+                        content: await fileToBase64(fileInput.files[0])
+                    })
+                });
+
+                if (response.ok) {
+                    statusMessage.className = 'status-message success';
+                    statusMessage.textContent = 'تم تحديث المنتجات بنجاح!';
+                    lastUpdate.textContent = `آخر تحديث: ${new Date().toLocaleString('ar-SA')}`;
+                } else {
+                    throw new Error('فشل في تحديث المنتجات');
+                }
+            } catch (error) {
+                statusMessage.className = 'status-message error';
+                statusMessage.textContent = `حدث خطأ: ${error.message}`;
+            }
+        });
+
+        async function fileToBase64(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.readAsDataURL(file);
+                reader.onload = () => resolve(reader.result.split(',')[1]);
+                reader.onerror = error => reject(error);
+            });
+        }
+    </script>
+</body>
+</html> 
