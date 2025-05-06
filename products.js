@@ -76,7 +76,7 @@ const data = [
     "alias": "607701",
     "name": "WHITE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 17407,
+    "stock": 21267,
     "sales": 191
   },
   {
@@ -86,7 +86,7 @@ const data = [
     "alias": "607709",
     "name": "PINK SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 648,
+    "stock": 708,
     "sales": 114
   },
   {
@@ -526,7 +526,7 @@ const data = [
     "alias": "607723",
     "name": "STERLNG BLUE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 1,
+    "stock": 31,
     "sales": 44
   },
   {
@@ -562,11 +562,21 @@ const data = [
   {
     "outlet": "Warehouse",
     "category": "شراشف",
+    "code": "13043",
+    "alias": "607725",
+    "name": "L. MARBLE SHEET 3 PCS 300 STITSH KING",
+    "price": 129.0,
+    "stock": 320,
+    "sales": 74
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "شراشف",
     "code": "13045",
     "alias": "607730",
     "name": "PLATINUM GREY SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 1061,
+    "stock": 1581,
     "sales": 231
   },
   {
@@ -588,6 +598,16 @@ const data = [
     "price": 895.0,
     "stock": 53,
     "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "شراشف",
+    "code": "13469",
+    "alias": "607733",
+    "name": "HEATHER KING 3 PCS 300 STITSH",
+    "price": 129.0,
+    "stock": 40,
+    "sales": 37
   },
   {
     "outlet": "Warehouse",
@@ -765,7 +785,7 @@ const data = [
     "code": "14147",
     "alias": "538716",
     "name": "BIG ONE MALLORY KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 2,
     "sales": 51
   },
@@ -786,7 +806,7 @@ const data = [
     "alias": "607735",
     "name": "LINEN KING 3 PCS 300 STITSH",
     "price": 129.0,
-    "stock": 2154,
+    "stock": 2354,
     "sales": 100
   },
   {
@@ -796,7 +816,7 @@ const data = [
     "alias": "607736",
     "name": "SLIT KING 3 PCS 300 STITSH",
     "price": 129.0,
-    "stock": 2,
+    "stock": 22,
     "sales": 28
   },
   {
@@ -955,7 +975,7 @@ const data = [
     "code": "15131",
     "alias": "538727",
     "name": "BIG ONE HARLEY KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 742,
     "sales": 24
   },
@@ -985,7 +1005,7 @@ const data = [
     "code": "15336",
     "alias": "538730",
     "name": "BIG ONE JUNE KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 553,
     "sales": 104
   },
@@ -995,7 +1015,7 @@ const data = [
     "code": "15338",
     "alias": "538733",
     "name": "BIG ONE ASTER KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 91,
     "sales": 65
   },
@@ -1005,7 +1025,7 @@ const data = [
     "code": "15340",
     "alias": "538735",
     "name": "BIG ONE CASELLI KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 2,
     "sales": 56
   },
@@ -2316,7 +2336,7 @@ const data = [
     "alias": "927005",
     "name": "PLATINUM GREY PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 299,
+    "stock": 1307,
     "sales": 61
   },
   {
@@ -2326,7 +2346,7 @@ const data = [
     "alias": "927001",
     "name": "WHITE PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 1126,
+    "stock": 4234,
     "sales": 102
   },
   {
@@ -2336,7 +2356,7 @@ const data = [
     "alias": "927002",
     "name": "OFF WHITE PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 400,
+    "stock": 2512,
     "sales": 108
   },
   {
@@ -2346,7 +2366,7 @@ const data = [
     "alias": "927012",
     "name": "STERLING BLUW PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 8,
+    "stock": 500,
     "sales": 35
   },
   {
@@ -2356,8 +2376,18 @@ const data = [
     "alias": "927003",
     "name": "LINEN PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 5,
+    "stock": 1013,
     "sales": 30
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "بيوت مخدة",
+    "code": "20032",
+    "alias": "927009",
+    "name": "PINK PILLOW CASES KING 2 PCS",
+    "price": 35.0,
+    "stock": 492,
+    "sales": 48
   },
   {
     "outlet": "Warehouse",
@@ -2366,7 +2396,7 @@ const data = [
     "alias": "927013",
     "name": "LILAC MARBLE PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 4,
+    "stock": 496,
     "sales": 25
   },
   {
@@ -2376,8 +2406,18 @@ const data = [
     "alias": "927008",
     "name": "HEATHER PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 6,
+    "stock": 450,
     "sales": 17
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "بيوت مخدة",
+    "code": "20035",
+    "alias": "927006",
+    "name": "GREY PILLOW CASES KING 2 PCS",
+    "price": 35.0,
+    "stock": 1056,
+    "sales": 20
   },
   {
     "outlet": "Warehouse",
@@ -2386,7 +2426,7 @@ const data = [
     "alias": "927011",
     "name": "NEW BURGANDY PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 37,
+    "stock": 85,
     "sales": 18
   },
   {
@@ -2396,7 +2436,7 @@ const data = [
     "alias": "927007",
     "name": "SLIT PILLOW CASES KING 2 PCS",
     "price": 35.0,
-    "stock": 6,
+    "stock": 474,
     "sales": 9
   },
   {
@@ -2506,8 +2546,18 @@ const data = [
     "alias": "927108",
     "name": "LILAC MARBLE STANDARD PILLOW CASES",
     "price": 35.0,
-    "stock": 3,
+    "stock": 783,
     "sales": 47
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "بيوت مخدة",
+    "code": "20084",
+    "alias": "927104",
+    "name": "OFF WHITE STANDARD PILLOW CASES",
+    "price": 35.0,
+    "stock": 1236,
+    "sales": 29
   },
   {
     "outlet": "Warehouse",
@@ -2516,7 +2566,7 @@ const data = [
     "alias": "927109",
     "name": "PINK STANDARD PILLOW CASES",
     "price": 35.0,
-    "stock": 7,
+    "stock": 715,
     "sales": 20
   },
   {
@@ -2526,8 +2576,18 @@ const data = [
     "alias": "927101",
     "name": "PLATINUM GREY STANDARD PILLOW CASES",
     "price": 35.0,
-    "stock": 5,
+    "stock": 1361,
     "sales": 50
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "بيوت مخدة",
+    "code": "20091",
+    "alias": "927106",
+    "name": "STRING BLUE STANDARD PILLOW CASES",
+    "price": 35.0,
+    "stock": 744,
+    "sales": 49
   },
   {
     "outlet": "Warehouse",
@@ -2536,7 +2596,7 @@ const data = [
     "alias": "927103",
     "name": "WHITE STANDARD PILLOW CASES",
     "price": 35.0,
-    "stock": 781,
+    "stock": 2161,
     "sales": 123
   },
   {
@@ -3475,7 +3535,7 @@ const data = [
     "code": "20885",
     "alias": "538760",
     "name": "BIG ONE GEMMA QUILT KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 15,
     "sales": 8
   },
@@ -3515,7 +3575,7 @@ const data = [
     "code": "21065",
     "alias": "538770",
     "name": "BIG ONE JORDYN KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 9,
     "sales": 5
   },
@@ -3525,7 +3585,7 @@ const data = [
     "code": "21066",
     "alias": "538771",
     "name": "BIG ONE LATTICE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 5,
     "sales": 8
   },
@@ -4286,7 +4346,7 @@ const data = [
     "alias": "09005",
     "name": "ADLER TURKISH COFFEE SET 6 PCS 90 ML CS-017",
     "price": 79.0,
-    "stock": 14,
+    "stock": 13,
     "sales": 2
   },
   {
@@ -5145,7 +5205,7 @@ const data = [
     "code": "22109",
     "alias": "542681",
     "name": "BIG ONE LIAM FULL QUILT 2 PCS A08",
-    "price": 129.0,
+    "price": 79.0,
     "stock": 2,
     "sales": 0
   },
@@ -5155,7 +5215,7 @@ const data = [
     "code": "22119",
     "alias": "542691",
     "name": "BIG ONE PARTY ANIMALS FULL QUILT 2 PCS N10",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 3,
     "sales": 0
   },
@@ -6986,7 +7046,7 @@ const data = [
     "alias": "608914",
     "name": "P.BLUE SHEET 3 PCS 300 STITSH FULL",
     "price": 89.0,
-    "stock": 99,
+    "stock": 98,
     "sales": 77
   },
   {
@@ -8045,7 +8105,7 @@ const data = [
     "code": "22843",
     "alias": "542510",
     "name": "BIG ONE LAM STRIPE NAVY FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1,
     "sales": 0
   },
@@ -8055,7 +8115,7 @@ const data = [
     "code": "22845",
     "alias": "542512",
     "name": "BIG ONE SUNNY TANGERINE FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1,
     "sales": 1
   },
@@ -8065,7 +8125,7 @@ const data = [
     "code": "22851",
     "alias": "538793",
     "name": "BIG ONE SUNNY TANGERINE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 2,
     "sales": 2
   },
@@ -8075,7 +8135,7 @@ const data = [
     "code": "22854",
     "alias": "542501",
     "name": "BIG ONE CONSTRUCTION FULL QUILT 2 PCS",
-    "price": 169.0,
+    "price": 79.0,
     "stock": 5,
     "sales": 0
   },
@@ -8085,7 +8145,7 @@ const data = [
     "code": "22860",
     "alias": "542507",
     "name": "BIG ONE ALTHAEA BLUE FULL QUILT 2 PCS",
-    "price": 169.0,
+    "price": 79.0,
     "stock": 3,
     "sales": -1
   },
@@ -8095,7 +8155,7 @@ const data = [
     "code": "22862",
     "alias": "538784",
     "name": "BIG ONE BOLD STRIPE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 19,
     "sales": 10
   },
@@ -8105,7 +8165,7 @@ const data = [
     "code": "22863",
     "alias": "538785",
     "name": "BIG ONE DESHAWN KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 12,
     "sales": 2
   },
@@ -8115,7 +8175,7 @@ const data = [
     "code": "22865",
     "alias": "538787",
     "name": "BIG ONE TILE PATCHWORK KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 9,
     "sales": 22
   },
@@ -8125,7 +8185,7 @@ const data = [
     "code": "22867",
     "alias": "538789",
     "name": "BIG ONE DANDELION LILAC KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 3,
     "sales": 1
   },
@@ -8215,7 +8275,7 @@ const data = [
     "code": "22887",
     "alias": "4052116",
     "name": "COSTCO MOEMI AQUA KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 9,
     "sales": 5
   },
@@ -8835,7 +8895,7 @@ const data = [
     "code": "23050",
     "alias": "4052119",
     "name": "COSTCO ADRIAN BLUE KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 15,
     "sales": 5
   },
@@ -8845,7 +8905,7 @@ const data = [
     "code": "23051",
     "alias": "4052120",
     "name": "COSTCO CAMILE TEAL KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 5,
     "sales": 4
   },
@@ -9015,7 +9075,7 @@ const data = [
     "code": "23182",
     "alias": "4052121",
     "name": "COSTCO RILEY SILVER KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 385,
     "sales": 30
   },
@@ -9025,7 +9085,7 @@ const data = [
     "code": "23183",
     "alias": "4052122",
     "name": "COSTCO OLIVER NEUTRAL KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 5,
     "sales": 9
   },
@@ -9035,7 +9095,7 @@ const data = [
     "code": "23184",
     "alias": "4052123",
     "name": "COSTCO GRAPHIC GEO GREY KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 612,
     "sales": 8
   },
@@ -9106,7 +9166,7 @@ const data = [
     "alias": "960203",
     "name": "COCODOR 500 ML ROOM SPRAY CLEAN COTTON",
     "price": 39.0,
-    "stock": 1152,
+    "stock": 1151,
     "sales": 810
   },
   {
@@ -9121,22 +9181,12 @@ const data = [
   },
   {
     "outlet": "Warehouse",
-    "category": "فواحات",
-    "code": "23222",
-    "alias": "960202",
-    "name": "COCODOR 500 ML ROOM SPRAY FOREST DAWN",
-    "price": 39.0,
-    "stock": 1,
-    "sales": 540
-  },
-  {
-    "outlet": "Warehouse",
     "category": "زمزميات",
     "code": "23223",
     "alias": "900414",
     "name": "COSTCO TUMBLERS 40OZ PINK",
     "price": 49.0,
-    "stock": 1784,
+    "stock": 1783,
     "sales": 58
   },
   {
@@ -9346,7 +9396,7 @@ const data = [
     "alias": "960204",
     "name": "COCODOR 500 ML ROOM SPRAY BOMB SHELL",
     "price": 39.0,
-    "stock": 7614,
+    "stock": 7613,
     "sales": 1315
   },
   {
@@ -10086,7 +10136,7 @@ const data = [
     "alias": "90306",
     "name": "(SPECIAL OFFER) SHARK KIDS PONCHO BATH ROBE",
     "price": 49.0,
-    "stock": 350,
+    "stock": 349,
     "sales": 32
   },
   {
@@ -10235,7 +10285,7 @@ const data = [
     "code": "23384",
     "alias": "4052124",
     "name": "COSTCO EMILIA BLUE KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 319,
     "sales": 12
   },
@@ -10245,7 +10295,7 @@ const data = [
     "code": "23385",
     "alias": "4052125",
     "name": "COSTCO RACQUEL NEUTRAL KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 150,
     "sales": 19
   },
@@ -10255,7 +10305,7 @@ const data = [
     "code": "23387",
     "alias": "542515",
     "name": "BIG ONE ALIPACA FULL QUILT 2 PCS",
-    "price": 129.0,
+    "price": 79.0,
     "stock": 4,
     "sales": 1
   },
@@ -10265,7 +10315,7 @@ const data = [
     "code": "23388",
     "alias": "542516",
     "name": "BIG ONE BALLOON FULL QUILT 2 PCS",
-    "price": 129.0,
+    "price": 79.0,
     "stock": 2,
     "sales": 6
   },
@@ -10275,7 +10325,7 @@ const data = [
     "code": "23389",
     "alias": "542517",
     "name": "BIG ONE BOTANICAL SALLOP FULL QUILT 2 PCS",
-    "price": 129.0,
+    "price": 79.0,
     "stock": 1,
     "sales": 10
   },
@@ -10285,7 +10335,7 @@ const data = [
     "code": "23390",
     "alias": "542518",
     "name": "BIG ONE CATALINA FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 6,
     "sales": 109
   },
@@ -10295,7 +10345,7 @@ const data = [
     "code": "23391",
     "alias": "542519",
     "name": "BIG ONE FLORAL VINE FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 5,
     "sales": 51
   },
@@ -10305,7 +10355,7 @@ const data = [
     "code": "23392",
     "alias": "542520",
     "name": "BIG ONE IVORY BLUSH FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 13,
     "sales": 107
   },
@@ -10315,7 +10365,7 @@ const data = [
     "code": "23394",
     "alias": "542522",
     "name": "BIG ONE SUMMER FLOWER FULL QUILT 2 PCS",
-    "price": 100.42857142857143,
+    "price": 79.0,
     "stock": 399,
     "sales": 70
   },
@@ -10325,7 +10375,7 @@ const data = [
     "code": "23395",
     "alias": "542523",
     "name": "BIG ONE BLOSSOMS TANGERINE FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 141,
     "sales": 78
   },
@@ -10335,7 +10385,7 @@ const data = [
     "code": "23396",
     "alias": "542524",
     "name": "BIG ONE FLOWER GARDEN FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 3,
     "sales": 41
   },
@@ -10345,7 +10395,7 @@ const data = [
     "code": "23397",
     "alias": "542525",
     "name": "BIG ONE IVY GREEN FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 258,
     "sales": 105
   },
@@ -10355,7 +10405,7 @@ const data = [
     "code": "23398",
     "alias": "542526",
     "name": "BIG ONE JAIDEN FOREST FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 43,
     "sales": 78
   },
@@ -10365,7 +10415,7 @@ const data = [
     "code": "23399",
     "alias": "542527",
     "name": "BIG ONE KATHERINE FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 48,
     "sales": 9
   },
@@ -10375,7 +10425,7 @@ const data = [
     "code": "23401",
     "alias": "542528",
     "name": "BIG ONE MALUS BLUE FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 250,
     "sales": 98
   },
@@ -10385,7 +10435,7 @@ const data = [
     "code": "23403",
     "alias": "538796",
     "name": "BIG ONE BOTANICAL SALLOP KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 4,
     "sales": 11
   },
@@ -10395,7 +10445,7 @@ const data = [
     "code": "23404",
     "alias": "538797",
     "name": "BIG ONE CATALINA KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 47,
     "sales": 68
   },
@@ -10405,7 +10455,7 @@ const data = [
     "code": "23405",
     "alias": "538798",
     "name": "BIG ONE FLORAL VINE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 2,
     "sales": 23
   },
@@ -10415,7 +10465,7 @@ const data = [
     "code": "23406",
     "alias": "538799",
     "name": "BIG ONE IVORY BLUSH KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 1,
     "sales": 22
   },
@@ -10425,8 +10475,8 @@ const data = [
     "code": "23407",
     "alias": "538800",
     "name": "BIG ONE VINTAGE STRIPE KING QUILT 3 PCS",
-    "price": 149.0,
-    "stock": 8,
+    "price": 99.0,
+    "stock": 7,
     "sales": 35
   },
   {
@@ -10435,7 +10485,7 @@ const data = [
     "code": "23408",
     "alias": "538801",
     "name": "BIG ONE SUMMER FLOWER KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 198,
     "sales": 48
   },
@@ -10445,7 +10495,7 @@ const data = [
     "code": "23409",
     "alias": "538802",
     "name": "BIG ONE BLOSSOMS TANGERINE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 3,
     "sales": 32
   },
@@ -10455,7 +10505,7 @@ const data = [
     "code": "23411",
     "alias": "538804",
     "name": "BIG ONE IVY GREEN KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 2,
     "sales": 33
   },
@@ -10465,7 +10515,7 @@ const data = [
     "code": "23412",
     "alias": "538805",
     "name": "BIG ONE JAIDEN FOREST KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 208,
     "sales": 37
   },
@@ -10475,7 +10525,7 @@ const data = [
     "code": "23413",
     "alias": "538806",
     "name": "BIG ONE KATHERINE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 6,
     "sales": 20
   },
@@ -10485,7 +10535,7 @@ const data = [
     "code": "23414",
     "alias": "538807",
     "name": "BIG ONE MALUS BLUE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 60,
     "sales": 48
   },
@@ -10605,7 +10655,7 @@ const data = [
     "code": "23439",
     "alias": "4052127",
     "name": "COSTCO ANNALISE TAN KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 510,
     "sales": 10
   },
@@ -10615,7 +10665,7 @@ const data = [
     "code": "23440",
     "alias": "4052128",
     "name": "COSTCO LEAFAGE TURQUOISE KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 548,
     "sales": 11
   },
@@ -10625,7 +10675,7 @@ const data = [
     "code": "23441",
     "alias": "4052129",
     "name": "COSTCO FLORE NAVY BLUE KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 567,
     "sales": 11
   },
@@ -10635,7 +10685,7 @@ const data = [
     "code": "23442",
     "alias": "4052130",
     "name": "COSTCO AMARA NEUTRAL KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 35,
     "sales": 25
   },
@@ -10645,7 +10695,7 @@ const data = [
     "code": "23443",
     "alias": "4052131",
     "name": "COSTCO THOMAS COOL KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 255,
     "sales": 16
   },
@@ -10696,7 +10746,7 @@ const data = [
     "alias": "100610",
     "name": "PONY SHINE LILAC TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 356,
+    "stock": 354,
     "sales": 101
   },
   {
@@ -10766,7 +10816,7 @@ const data = [
     "alias": "970141",
     "name": "I430 SMOOSHIE TOY- UNICORN COLORFUL",
     "price": 69.0,
-    "stock": 716,
+    "stock": 715,
     "sales": 29
   },
   {
@@ -12526,7 +12576,7 @@ const data = [
     "alias": "449903",
     "name": "*MANVE BLUE SKY WHISTLEY KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 28,
+    "stock": 27,
     "sales": 51
   },
   {
@@ -12765,7 +12815,7 @@ const data = [
     "code": "23861",
     "alias": "542544",
     "name": "BIG ONE ATHENA MEDALLION FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1324,
     "sales": 171
   },
@@ -12775,7 +12825,7 @@ const data = [
     "code": "23862",
     "alias": "542538",
     "name": "BIG ONE COLORFUL FLOWERS FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1238,
     "sales": 81
   },
@@ -12785,7 +12835,7 @@ const data = [
     "code": "23863",
     "alias": "542531",
     "name": "BIG ONE ASTER YELLOW FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 825,
     "sales": 156
   },
@@ -12856,7 +12906,7 @@ const data = [
     "alias": "440918",
     "name": "*SHANGHAI GREY KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 75,
+    "stock": 74,
     "sales": 39
   },
   {
@@ -12875,7 +12925,7 @@ const data = [
     "code": "23875",
     "alias": "538809",
     "name": "BIG ONE LAYIL MEDALLION KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 597,
     "sales": 47
   },
@@ -12885,7 +12935,7 @@ const data = [
     "code": "23876",
     "alias": "542539",
     "name": "BIG ONE SWAN PRINCESS FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 517,
     "sales": 136
   },
@@ -12895,7 +12945,7 @@ const data = [
     "code": "23877",
     "alias": "542536",
     "name": "BIG ONE TRAINS FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 670,
     "sales": 43
   },
@@ -12905,7 +12955,7 @@ const data = [
     "code": "23878",
     "alias": "542542",
     "name": "BIG ONE MULTI SUNFLOWERS FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1576,
     "sales": 92
   },
@@ -12915,7 +12965,7 @@ const data = [
     "code": "23879",
     "alias": "542534",
     "name": "BIG ONE BALLERINA GIRLS FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1038,
     "sales": 71
   },
@@ -12985,7 +13035,7 @@ const data = [
     "code": "23887",
     "alias": "538811",
     "name": "BIG ONE ATHENA MEDALLION KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 551,
     "sales": 73
   },
@@ -12995,7 +13045,7 @@ const data = [
     "code": "23889",
     "alias": "538814",
     "name": "BIG ONE FLOWER PATCH KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 95,
     "sales": 124
   },
@@ -13335,7 +13385,7 @@ const data = [
     "code": "23949",
     "alias": "542540",
     "name": "BIG ONE COLORFUL CARS FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 566,
     "sales": 71
   },
@@ -13345,7 +13395,7 @@ const data = [
     "code": "23950",
     "alias": "542541",
     "name": "BIG ONE MULTI BALLS FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 544,
     "sales": 99
   },
@@ -13355,7 +13405,7 @@ const data = [
     "code": "23951",
     "alias": "542543",
     "name": "BIG ONE MULTI COLOR STRIPES FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 556,
     "sales": 98
   },
@@ -13365,7 +13415,7 @@ const data = [
     "code": "23952",
     "alias": "542537",
     "name": "BIG ONE WHALE FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 663,
     "sales": 116
   },
@@ -13375,8 +13425,8 @@ const data = [
     "code": "23953",
     "alias": "542533",
     "name": "BIG ONE MULTI DINOSAURS FULL QUILT 2 PCS",
-    "price": 99.0,
-    "stock": 1656,
+    "price": 79.0,
+    "stock": 1654,
     "sales": 59
   },
   {
@@ -13385,7 +13435,7 @@ const data = [
     "code": "23954",
     "alias": "542535",
     "name": "BIG ONE BUTTERFLY MULTI FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 706,
     "sales": 117
   },
@@ -13395,7 +13445,7 @@ const data = [
     "code": "23955",
     "alias": "542532",
     "name": "BIG ONE MULTI VEHICLES FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1650,
     "sales": 46
   },
@@ -13405,7 +13455,7 @@ const data = [
     "code": "23956",
     "alias": "538815",
     "name": "BIG ONE HIBISCUS KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 760,
     "sales": 22
   },
@@ -13986,7 +14036,7 @@ const data = [
     "alias": "49913",
     "name": "MULTI MEADOW FLORAL KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1440,
+    "stock": 1439,
     "sales": 87
   },
   {
@@ -14266,7 +14316,7 @@ const data = [
     "alias": "49918",
     "name": "PRSSIA KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 715,
+    "stock": 714,
     "sales": 89
   },
   {
@@ -14420,6 +14470,306 @@ const data = [
     "sales": 6
   },
   {
+    "outlet": "Warehouse",
+    "category": "لحافات كينغ",
+    "code": "24077",
+    "alias": "49922",
+    "name": "ABELIA CORAL KING COMFORTER 8 PCS",
+    "price": 299.0,
+    "stock": 2580,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "لحافات كينغ",
+    "code": "24078",
+    "alias": "49923",
+    "name": "ROSEL VERNAZZA KING COMFORTER 8 PCS",
+    "price": 299.0,
+    "stock": 2580,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24079",
+    "alias": "71133301",
+    "name": "KITCHEN TOWEL 50*90 IVORY BTP-660",
+    "price": 9.0,
+    "stock": 1860,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24080",
+    "alias": "71133302",
+    "name": "KITCHEN TOWEL 50*90 SAGE BTP-660",
+    "price": 9.0,
+    "stock": 1860,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24081",
+    "alias": "71133303",
+    "name": "KITCHEN TOWEL 50*90 GREY BTP-660",
+    "price": 9.0,
+    "stock": 1860,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24082",
+    "alias": "71133304",
+    "name": "KITCHEN TOWEL 50*90 GREEN BTP-660",
+    "price": 9.0,
+    "stock": 1116,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24083",
+    "alias": "71133305",
+    "name": "KITCHEN TOWEL 50*90 MUSTARD BTP-660",
+    "price": 9.0,
+    "stock": 1116,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24084",
+    "alias": "71133306",
+    "name": "KITCHEN TOWEL 50*90 CHARCOAL BTP-660",
+    "price": 9.0,
+    "stock": 1116,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24085",
+    "alias": "71133401",
+    "name": "KITCHEN TOWEL 50*90 WHITE BTP-668",
+    "price": 9.0,
+    "stock": 1488,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24086",
+    "alias": "71133402",
+    "name": "KITCHEN TOWEL 50*90 SKY BTP-668",
+    "price": 9.0,
+    "stock": 1488,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24087",
+    "alias": "71133403",
+    "name": "KITCHEN TOWEL 50*90 BLUSH PINK BTP-668",
+    "price": 9.0,
+    "stock": 1860,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24088",
+    "alias": "71133404",
+    "name": "KITCHEN TOWEL 50*90 SHADOW GREY BTP-668",
+    "price": 9.0,
+    "stock": 1860,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24089",
+    "alias": "71133405",
+    "name": "KITCHEN TOWEL 50*90 TEAL BTP-668",
+    "price": 9.0,
+    "stock": 1116,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24090",
+    "alias": "71133406",
+    "name": "KITCHEN TOWEL 50*90 BLACK BTP-668",
+    "price": 9.0,
+    "stock": 1116,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24091",
+    "alias": "71133501",
+    "name": "KITCHEN TOWEL 50*90 PINK BTP-861",
+    "price": 9.0,
+    "stock": 1488,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24092",
+    "alias": "71133502",
+    "name": "KITCHEN TOWEL 50*90 AQUA BTP-861",
+    "price": 9.0,
+    "stock": 1488,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24093",
+    "alias": "71133503",
+    "name": "KITCHEN TOWEL 50*90 DK.PEACH BTP-861",
+    "price": 9.0,
+    "stock": 1488,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24094",
+    "alias": "71133504",
+    "name": "KITCHEN TOWEL 50*90 DENIM BTP-861",
+    "price": 9.0,
+    "stock": 1488,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24095",
+    "alias": "71133505",
+    "name": "KITCHEN TOWEL 50*90 LT.GREY BTP-861",
+    "price": 9.0,
+    "stock": 1860,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24096",
+    "alias": "71133506",
+    "name": "KITCHEN TOWEL 50*90 COBALT BTP-861",
+    "price": 9.0,
+    "stock": 1116,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24097",
+    "alias": "71133601",
+    "name": "KITCHEN TOWEL 50*90 GOLD BTP-867",
+    "price": 9.0,
+    "stock": 1488,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24098",
+    "alias": "71133602",
+    "name": "KITCHEN TOWEL 50*90 MAGENTA BTP-867",
+    "price": 9.0,
+    "stock": 1488,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24099",
+    "alias": "71133603",
+    "name": "KITCHEN TOWEL 50*90 BRIGHT PINK BTP-867",
+    "price": 9.0,
+    "stock": 1488,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24100",
+    "alias": "71133604",
+    "name": "KITCHEN TOWEL 50*90 DK.MAGENTA BTP-867",
+    "price": 9.0,
+    "stock": 1488,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24101",
+    "alias": "71133605",
+    "name": "KITCHEN TOWEL 50*90 BRIGHT AQUA BTP-867",
+    "price": 9.0,
+    "stock": 1488,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24102",
+    "alias": "71133606",
+    "name": "KITCHEN TOWEL 50*90 ROYAL BLUE BTP-867",
+    "price": 9.0,
+    "stock": 1488,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24103",
+    "alias": "71133701",
+    "name": "KITCHEN TOWEL 50*90 PINTEREST ROSE",
+    "price": 9.0,
+    "stock": 3348,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24104",
+    "alias": "71133702",
+    "name": "KITCHEN TOWEL 50*90 PINTEREST YELLOW",
+    "price": 9.0,
+    "stock": 1860,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24105",
+    "alias": "71133703",
+    "name": "KITCHEN TOWEL 50*90 PINTEREST LT.BLUE",
+    "price": 9.0,
+    "stock": 1860,
+    "sales": 0
+  },
+  {
+    "outlet": "Warehouse",
+    "category": "مناشف",
+    "code": "24106",
+    "alias": "71133704",
+    "name": "KITCHEN TOWEL 50*90 PINTEREST DUSTY AQUA",
+    "price": 9.0,
+    "stock": 1860,
+    "sales": 0
+  },
+  {
     "outlet": "warehouse riyadh",
     "category": "شراشف",
     "code": "10500",
@@ -14486,7 +14836,7 @@ const data = [
     "alias": "9114",
     "name": "PILLOW DOWN ALT EXTRA FIRM KING",
     "price": 69.0,
-    "stock": 4350,
+    "stock": 4332,
     "sales": 1675
   },
   {
@@ -14536,7 +14886,7 @@ const data = [
     "alias": "607701",
     "name": "WHITE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 6614,
+    "stock": 20914,
     "sales": 191
   },
   {
@@ -14546,7 +14896,7 @@ const data = [
     "alias": "607709",
     "name": "PINK SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 830,
+    "stock": 3130,
     "sales": 114
   },
   {
@@ -14646,7 +14996,7 @@ const data = [
     "alias": "9154",
     "name": "(SPECIAL OFFER) DOWN ALT FIRM STANDARD PILLOW 233TC",
     "price": 39.0,
-    "stock": 11268,
+    "stock": 11256,
     "sales": 2703
   },
   {
@@ -14786,7 +15136,7 @@ const data = [
     "alias": "710701",
     "name": "EUR TOWEL AIR-RICH IVORY",
     "price": 25.0,
-    "stock": 4656,
+    "stock": 4644,
     "sales": 294
   },
   {
@@ -14806,7 +15156,7 @@ const data = [
     "alias": "710703",
     "name": "EUR TOWEL AIR-RICH LINEN",
     "price": 25.0,
-    "stock": 5460,
+    "stock": 5448,
     "sales": 176
   },
   {
@@ -14876,7 +15226,7 @@ const data = [
     "alias": "916802",
     "name": "ROBE WHITE S/M",
     "price": 99.0,
-    "stock": 630,
+    "stock": 624,
     "sales": 132
   },
   {
@@ -14896,7 +15246,7 @@ const data = [
     "alias": "916901",
     "name": "ROBE IVORY L/XL",
     "price": 99.0,
-    "stock": 1410,
+    "stock": 1404,
     "sales": 132
   },
   {
@@ -14906,7 +15256,7 @@ const data = [
     "alias": "916902",
     "name": "ROBE WHITE L/XL",
     "price": 99.0,
-    "stock": 1542,
+    "stock": 1536,
     "sales": 116
   },
   {
@@ -14916,7 +15266,7 @@ const data = [
     "alias": "916903",
     "name": "ROBE LINEN L/XL",
     "price": 99.0,
-    "stock": 473,
+    "stock": 467,
     "sales": 182
   },
   {
@@ -14926,7 +15276,7 @@ const data = [
     "alias": "916908",
     "name": "ROBE PINK L/XL",
     "price": 99.0,
-    "stock": 270,
+    "stock": 264,
     "sales": 177
   },
   {
@@ -14936,7 +15286,7 @@ const data = [
     "alias": "607723",
     "name": "STERLNG BLUE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 2090,
+    "stock": 4230,
     "sales": 44
   },
   {
@@ -14966,7 +15316,7 @@ const data = [
     "alias": "607729",
     "name": "GREY SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 3680,
+    "stock": 6680,
     "sales": 103
   },
   {
@@ -14986,7 +15336,7 @@ const data = [
     "alias": "607730",
     "name": "PLATINUM GREY SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 1980,
+    "stock": 5790,
     "sales": 231
   },
   {
@@ -14996,7 +15346,7 @@ const data = [
     "alias": "607732",
     "name": "OFF WHITE SHEET 3 PCS 300 STITSH KING",
     "price": 129.0,
-    "stock": 13353,
+    "stock": 14053,
     "sales": 164
   },
   {
@@ -15036,7 +15386,7 @@ const data = [
     "alias": "607733",
     "name": "HEATHER KING 3 PCS 300 STITSH",
     "price": 129.0,
-    "stock": 1550,
+    "stock": 3200,
     "sales": 37
   },
   {
@@ -15046,7 +15396,7 @@ const data = [
     "alias": "408501",
     "name": "WHITE DAMASK KING COMFORTER 500 TC 6 PCS",
     "price": 699.0,
-    "stock": 946,
+    "stock": 945,
     "sales": 5
   },
   {
@@ -15056,7 +15406,7 @@ const data = [
     "alias": "408502",
     "name": "COUBLESTONE DAMASK KING  COMFORTER 500 TC 6 PCS",
     "price": 699.0,
-    "stock": 446,
+    "stock": 445,
     "sales": 11
   },
   {
@@ -15066,7 +15416,7 @@ const data = [
     "alias": "408507",
     "name": "SILVER DAMASK KING COMFORTER 500 TC 6 PCS",
     "price": 699.0,
-    "stock": 687,
+    "stock": 686,
     "sales": 10
   },
   {
@@ -15096,7 +15446,7 @@ const data = [
     "alias": "408514",
     "name": "IVORY DAMASK KING COMFORTER 500 TC 6 PCS",
     "price": 699.0,
-    "stock": 1173,
+    "stock": 1172,
     "sales": 31
   },
   {
@@ -15106,7 +15456,7 @@ const data = [
     "alias": "239904",
     "name": "HUSH VIOLT DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
     "price": 499.0,
-    "stock": 358,
+    "stock": 356,
     "sales": 5
   },
   {
@@ -15116,7 +15466,7 @@ const data = [
     "alias": "239906",
     "name": "SILVER DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
     "price": 499.0,
-    "stock": 346,
+    "stock": 344,
     "sales": 9
   },
   {
@@ -15126,7 +15476,7 @@ const data = [
     "alias": "239913",
     "name": "IVORY DAMASK  FULL COMFORTER 4 PCS 500 STITSH",
     "price": 499.0,
-    "stock": 306,
+    "stock": 304,
     "sales": 19
   },
   {
@@ -15136,7 +15486,7 @@ const data = [
     "alias": "239901",
     "name": "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
     "price": 499.0,
-    "stock": 441,
+    "stock": 439,
     "sales": 11
   },
   {
@@ -15146,7 +15496,7 @@ const data = [
     "alias": "239902",
     "name": "COUBLE STONE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
     "price": 499.0,
-    "stock": 350,
+    "stock": 348,
     "sales": 12
   },
   {
@@ -15156,7 +15506,7 @@ const data = [
     "alias": "239908",
     "name": "LT BLUE DAMASK FULL COMFORTER 4 PCS 500 STITSH - 13618",
     "price": 499.0,
-    "stock": 258,
+    "stock": 256,
     "sales": 6
   },
   {
@@ -15225,7 +15575,7 @@ const data = [
     "code": "14147",
     "alias": "538716",
     "name": "BIG ONE MALLORY KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 24,
     "sales": 51
   },
@@ -15242,11 +15592,21 @@ const data = [
   {
     "outlet": "warehouse riyadh",
     "category": "شراشف",
+    "code": "14227",
+    "alias": "607735",
+    "name": "LINEN KING 3 PCS 300 STITSH",
+    "price": 129.0,
+    "stock": 400,
+    "sales": 100
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "شراشف",
     "code": "14228",
     "alias": "607736",
     "name": "SLIT KING 3 PCS 300 STITSH",
     "price": 129.0,
-    "stock": 2036,
+    "stock": 3626,
     "sales": 28
   },
   {
@@ -15325,7 +15685,7 @@ const data = [
     "code": "15338",
     "alias": "538733",
     "name": "BIG ONE ASTER KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 420,
     "sales": 65
   },
@@ -15335,7 +15695,7 @@ const data = [
     "code": "15340",
     "alias": "538735",
     "name": "BIG ONE CASELLI KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 354,
     "sales": 56
   },
@@ -15345,7 +15705,7 @@ const data = [
     "code": "15341",
     "alias": "538736",
     "name": "BIG ONE GABRIELLA KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 1014,
     "sales": 0
   },
@@ -15366,7 +15726,7 @@ const data = [
     "alias": "9300",
     "name": "JUST RELAX 200*200 CM KING MATRESPAD",
     "price": 199.0,
-    "stock": 15288,
+    "stock": 15278,
     "sales": 414
   },
   {
@@ -15506,7 +15866,7 @@ const data = [
     "alias": "9263",
     "name": "JUST RELAX FULL MATTRES PAD 122X191 CM",
     "price": 189.0,
-    "stock": 1180,
+    "stock": 1170,
     "sales": 178
   },
   {
@@ -15536,7 +15896,7 @@ const data = [
     "alias": "9306",
     "name": "JUST RELAX 163*203CM QUEEN MATRESPAD",
     "price": 199.0,
-    "stock": 167,
+    "stock": 163,
     "sales": 106
   },
   {
@@ -15856,7 +16216,7 @@ const data = [
     "alias": "440220",
     "name": "*(SPECIAL OFFER) OINOS KING COMFORTER 11 PCS KIT",
     "price": 795.0,
-    "stock": 40,
+    "stock": 38,
     "sales": 51
   },
   {
@@ -15966,7 +16326,7 @@ const data = [
     "alias": "714401",
     "name": "AIR-RICH IVORY 70X140 BATH TOWEL",
     "price": 49.0,
-    "stock": 6012,
+    "stock": 6000,
     "sales": 176
   },
   {
@@ -16036,7 +16396,7 @@ const data = [
     "alias": "816201",
     "name": "BATH MAT SET 2 PCS IVORY",
     "price": 99.0,
-    "stock": 615,
+    "stock": 609,
     "sales": 40
   },
   {
@@ -16306,7 +16666,7 @@ const data = [
     "alias": "607611",
     "name": "SHEET 4 PCS 300 STITSH KING HEATHER",
     "price": 219.0,
-    "stock": 284,
+    "stock": 276,
     "sales": 19
   },
   {
@@ -16366,7 +16726,7 @@ const data = [
     "alias": "607621",
     "name": "SHEET 4 PCS 300 STITSH KINGLILAC MARBLE",
     "price": 219.0,
-    "stock": 328,
+    "stock": 324,
     "sales": 19
   },
   {
@@ -16395,7 +16755,7 @@ const data = [
     "code": "19879",
     "alias": "546504",
     "name": "(SPECIAL OFFER)BIG ONE MILITARY OLIVE TWIN QUILT 2 PCS",
-    "price": 69.0,
+    "price": 79.0,
     "stock": 2,
     "sales": 0
   },
@@ -16405,7 +16765,7 @@ const data = [
     "code": "19883",
     "alias": "538756",
     "name": "BIG ONE MILITARY OLIVE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 6,
     "sales": 0
   },
@@ -16568,6 +16928,16 @@ const data = [
     "price": 35.0,
     "stock": 660,
     "sales": 20
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "بيوت مخدة",
+    "code": "20037",
+    "alias": "927011",
+    "name": "NEW BURGANDY PILLOW CASES KING 2 PCS",
+    "price": 35.0,
+    "stock": 348,
+    "sales": 18
   },
   {
     "outlet": "warehouse riyadh",
@@ -17325,7 +17695,7 @@ const data = [
     "code": "20885",
     "alias": "538760",
     "name": "BIG ONE GEMMA QUILT KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 188,
     "sales": 8
   },
@@ -17375,7 +17745,7 @@ const data = [
     "code": "21065",
     "alias": "538770",
     "name": "BIG ONE JORDYN KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 116,
     "sales": 5
   },
@@ -17385,7 +17755,7 @@ const data = [
     "code": "21066",
     "alias": "538771",
     "name": "BIG ONE LATTICE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 212,
     "sales": 8
   },
@@ -18316,7 +18686,7 @@ const data = [
     "alias": "9192",
     "name": "SUB-0 TRIPLE COOLING KING PILLOW",
     "price": 159.0,
-    "stock": 5304,
+    "stock": 5296,
     "sales": 269
   },
   {
@@ -20446,7 +20816,7 @@ const data = [
     "alias": "958305",
     "name": "FRESHENER WHITE JASMINE BLACK 500 ML",
     "price": 79.0,
-    "stock": 1192,
+    "stock": 1184,
     "sales": 56
   },
   {
@@ -20456,7 +20826,7 @@ const data = [
     "alias": "958306",
     "name": "FRESHENER DARK VANILLA & SANDALWOOD BLACK 500 ML",
     "price": 79.0,
-    "stock": 392,
+    "stock": 384,
     "sales": 62
   },
   {
@@ -20535,7 +20905,7 @@ const data = [
     "code": "22862",
     "alias": "538784",
     "name": "BIG ONE BOLD STRIPE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 76,
     "sales": 10
   },
@@ -20615,7 +20985,7 @@ const data = [
     "code": "22887",
     "alias": "4052116",
     "name": "COSTCO MOEMI AQUA KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 128,
     "sales": 5
   },
@@ -20795,7 +21165,7 @@ const data = [
     "code": "23051",
     "alias": "4052120",
     "name": "COSTCO CAMILE TEAL KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 30,
     "sales": 4
   },
@@ -21005,7 +21375,7 @@ const data = [
     "code": "23182",
     "alias": "4052121",
     "name": "COSTCO RILEY SILVER KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 174,
     "sales": 30
   },
@@ -21015,7 +21385,7 @@ const data = [
     "code": "23183",
     "alias": "4052122",
     "name": "COSTCO OLIVER NEUTRAL KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 112,
     "sales": 9
   },
@@ -21025,7 +21395,7 @@ const data = [
     "code": "23184",
     "alias": "4052123",
     "name": "COSTCO GRAPHIC GEO GREY KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 660,
     "sales": 8
   },
@@ -21076,7 +21446,7 @@ const data = [
     "alias": "960205",
     "name": "COCODOR 500 ML ROOM SPRAY CHERRY BLOSSOM",
     "price": 39.0,
-    "stock": 5148,
+    "stock": 5130,
     "sales": 565
   },
   {
@@ -21086,7 +21456,7 @@ const data = [
     "alias": "960202",
     "name": "COCODOR 500 ML ROOM SPRAY FOREST DAWN",
     "price": 39.0,
-    "stock": 504,
+    "stock": 486,
     "sales": 540
   },
   {
@@ -21286,7 +21656,7 @@ const data = [
     "alias": "960204",
     "name": "COCODOR 500 ML ROOM SPRAY BOMB SHELL",
     "price": 39.0,
-    "stock": 3384,
+    "stock": 3366,
     "sales": 1315
   },
   {
@@ -21646,7 +22016,7 @@ const data = [
     "alias": "960206",
     "name": "COCODOR 500 ML ROOM SPRAY RAIN ROSE",
     "price": 39.0,
-    "stock": 2808,
+    "stock": 2790,
     "sales": 788
   },
   {
@@ -21946,7 +22316,7 @@ const data = [
     "alias": "959412",
     "name": "SIDE SLEEPER PILLOW TPE COVER",
     "price": 199.0,
-    "stock": 828,
+    "stock": 824,
     "sales": 198
   },
   {
@@ -21955,7 +22325,7 @@ const data = [
     "code": "23384",
     "alias": "4052124",
     "name": "COSTCO EMILIA BLUE KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 470,
     "sales": 12
   },
@@ -21965,7 +22335,7 @@ const data = [
     "code": "23385",
     "alias": "4052125",
     "name": "COSTCO RACQUEL NEUTRAL KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 488,
     "sales": 19
   },
@@ -21975,7 +22345,7 @@ const data = [
     "code": "23390",
     "alias": "542518",
     "name": "BIG ONE CATALINA FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 464,
     "sales": 109
   },
@@ -21985,7 +22355,7 @@ const data = [
     "code": "23391",
     "alias": "542519",
     "name": "BIG ONE FLORAL VINE FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 416,
     "sales": 51
   },
@@ -21995,7 +22365,7 @@ const data = [
     "code": "23392",
     "alias": "542520",
     "name": "BIG ONE IVORY BLUSH FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 322,
     "sales": 107
   },
@@ -22005,7 +22375,7 @@ const data = [
     "code": "23394",
     "alias": "542522",
     "name": "BIG ONE SUMMER FLOWER FULL QUILT 2 PCS",
-    "price": 100.42857142857143,
+    "price": 79.0,
     "stock": 656,
     "sales": 70
   },
@@ -22015,8 +22385,8 @@ const data = [
     "code": "23395",
     "alias": "542523",
     "name": "BIG ONE BLOSSOMS TANGERINE FULL QUILT 2 PCS",
-    "price": 99.0,
-    "stock": 264,
+    "price": 79.0,
+    "stock": 260,
     "sales": 78
   },
   {
@@ -22025,8 +22395,8 @@ const data = [
     "code": "23397",
     "alias": "542525",
     "name": "BIG ONE IVY GREEN FULL QUILT 2 PCS",
-    "price": 99.0,
-    "stock": 353,
+    "price": 79.0,
+    "stock": 349,
     "sales": 105
   },
   {
@@ -22035,7 +22405,7 @@ const data = [
     "code": "23398",
     "alias": "542526",
     "name": "BIG ONE JAIDEN FOREST FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 296,
     "sales": 78
   },
@@ -22045,7 +22415,7 @@ const data = [
     "code": "23400",
     "alias": "542529",
     "name": "BIG ONE MALLORY FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 70,
     "sales": 59
   },
@@ -22055,7 +22425,7 @@ const data = [
     "code": "23401",
     "alias": "542528",
     "name": "BIG ONE MALUS BLUE FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 340,
     "sales": 98
   },
@@ -22065,7 +22435,7 @@ const data = [
     "code": "23404",
     "alias": "538797",
     "name": "BIG ONE CATALINA KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 251,
     "sales": 68
   },
@@ -22075,7 +22445,7 @@ const data = [
     "code": "23405",
     "alias": "538798",
     "name": "BIG ONE FLORAL VINE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 257,
     "sales": 23
   },
@@ -22085,7 +22455,7 @@ const data = [
     "code": "23406",
     "alias": "538799",
     "name": "BIG ONE IVORY BLUSH KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 172,
     "sales": 22
   },
@@ -22095,7 +22465,7 @@ const data = [
     "code": "23407",
     "alias": "538800",
     "name": "BIG ONE VINTAGE STRIPE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 180,
     "sales": 35
   },
@@ -22105,7 +22475,7 @@ const data = [
     "code": "23408",
     "alias": "538801",
     "name": "BIG ONE SUMMER FLOWER KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 443,
     "sales": 48
   },
@@ -22115,7 +22485,7 @@ const data = [
     "code": "23409",
     "alias": "538802",
     "name": "BIG ONE BLOSSOMS TANGERINE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 80,
     "sales": 32
   },
@@ -22125,7 +22495,7 @@ const data = [
     "code": "23411",
     "alias": "538804",
     "name": "BIG ONE IVY GREEN KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 94,
     "sales": 33
   },
@@ -22135,8 +22505,8 @@ const data = [
     "code": "23412",
     "alias": "538805",
     "name": "BIG ONE JAIDEN FOREST KING QUILT 3 PCS",
-    "price": 149.0,
-    "stock": 240,
+    "price": 99.0,
+    "stock": 236,
     "sales": 37
   },
   {
@@ -22145,7 +22515,7 @@ const data = [
     "code": "23413",
     "alias": "538806",
     "name": "BIG ONE KATHERINE KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 42,
     "sales": 20
   },
@@ -22155,8 +22525,8 @@ const data = [
     "code": "23414",
     "alias": "538807",
     "name": "BIG ONE MALUS BLUE KING QUILT 3 PCS",
-    "price": 149.0,
-    "stock": 107,
+    "price": 99.0,
+    "stock": 103,
     "sales": 48
   },
   {
@@ -22165,7 +22535,7 @@ const data = [
     "code": "23415",
     "alias": "538808",
     "name": "BIG ONE RAINY INK KING QUILT 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 112,
     "sales": 35
   },
@@ -22225,7 +22595,7 @@ const data = [
     "code": "23439",
     "alias": "4052127",
     "name": "COSTCO ANNALISE TAN KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 530,
     "sales": 10
   },
@@ -22235,7 +22605,7 @@ const data = [
     "code": "23440",
     "alias": "4052128",
     "name": "COSTCO LEAFAGE TURQUOISE KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 436,
     "sales": 11
   },
@@ -22245,7 +22615,7 @@ const data = [
     "code": "23441",
     "alias": "4052129",
     "name": "COSTCO FLORE NAVY BLUE KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 372,
     "sales": 11
   },
@@ -22255,7 +22625,7 @@ const data = [
     "code": "23442",
     "alias": "4052130",
     "name": "COSTCO AMARA NEUTRAL KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 162,
     "sales": 25
   },
@@ -22265,7 +22635,7 @@ const data = [
     "code": "23443",
     "alias": "4052131",
     "name": "COSTCO THOMAS COOL KING COMFORTER 6 PCS",
-    "price": 399.0,
+    "price": 229.0,
     "stock": 212,
     "sales": 16
   },
@@ -22316,7 +22686,7 @@ const data = [
     "alias": "100610",
     "name": "PONY SHINE LILAC TWIN COMFORTER 5 PCS WM YZ BIAB",
     "price": 139.0,
-    "stock": 612,
+    "stock": 608,
     "sales": 101
   },
   {
@@ -22336,7 +22706,7 @@ const data = [
     "alias": "200607",
     "name": "LILY AQUA PINK FULL COMFORTER 7 PCS WM YZ BIAB",
     "price": 169.0,
-    "stock": 111,
+    "stock": 107,
     "sales": 34
   },
   {
@@ -22348,16 +22718,6 @@ const data = [
     "price": 169.0,
     "stock": 337,
     "sales": 34
-  },
-  {
-    "outlet": "warehouse riyadh",
-    "category": "لحافات فل",
-    "code": "23452",
-    "alias": "200609",
-    "name": "SPORTS GREY GREEN FULL COMFORTER 7 PCS WM YZ BIAB",
-    "price": 169.0,
-    "stock": 4,
-    "sales": 42
   },
   {
     "outlet": "warehouse riyadh",
@@ -22456,7 +22816,7 @@ const data = [
     "alias": "200107",
     "name": "BOW HOTEL LAVENDER FULL COMFORTER 8 PCS",
     "price": 349.0,
-    "stock": 259,
+    "stock": 257,
     "sales": 28
   },
   {
@@ -22466,7 +22826,7 @@ const data = [
     "alias": "200108",
     "name": "MADISON HOTEL BLUE SPARKLE FULL COMFORTER 8 PCS",
     "price": 349.0,
-    "stock": 208,
+    "stock": 206,
     "sales": 26
   },
   {
@@ -22496,7 +22856,7 @@ const data = [
     "alias": "200112",
     "name": "ADRIANNA IVORY FULL COMFORTER 8 PCS",
     "price": 349.0,
-    "stock": 78,
+    "stock": 76,
     "sales": 12
   },
   {
@@ -22516,7 +22876,7 @@ const data = [
     "alias": "4401241",
     "name": "*ZAHA ECRU KING COMFORTER 8 PCS KIT",
     "price": 595.0,
-    "stock": 10,
+    "stock": 6,
     "sales": 89
   },
   {
@@ -22716,7 +23076,7 @@ const data = [
     "alias": "488802",
     "name": "ANDARA GREY KING COMFORTER 10 PCS",
     "price": 299.0,
-    "stock": 80,
+    "stock": 76,
     "sales": 88
   },
   {
@@ -22756,7 +23116,7 @@ const data = [
     "alias": "488806",
     "name": "WISLEY TAUPE KING COMFORTER 10 PCS",
     "price": 299.0,
-    "stock": 566,
+    "stock": 564,
     "sales": 60
   },
   {
@@ -22866,7 +23226,7 @@ const data = [
     "alias": "2728",
     "name": "COMFORTER FULL BLUE ICE PROSELINE 12PCS",
     "price": 299.0,
-    "stock": 26,
+    "stock": 20,
     "sales": 104
   },
   {
@@ -22876,7 +23236,7 @@ const data = [
     "alias": "48803",
     "name": "COMFORTER KING BLUE ICE ROSELINE 12PCS",
     "price": 399.0,
-    "stock": 1176,
+    "stock": 1170,
     "sales": 295
   },
   {
@@ -22886,7 +23246,7 @@ const data = [
     "alias": "2726",
     "name": "LEILANI SILVER FULL COMFORTER 12 PCS",
     "price": 299.0,
-    "stock": 145,
+    "stock": 139,
     "sales": 51
   },
   {
@@ -22896,7 +23256,7 @@ const data = [
     "alias": "48801",
     "name": "LEILANI SILVER KING COMFORTER 12 PCS",
     "price": 399.0,
-    "stock": 1911,
+    "stock": 1903,
     "sales": 257
   },
   {
@@ -22906,7 +23266,7 @@ const data = [
     "alias": "2727",
     "name": "VERDEIRE SOFT BLUSH FULL COMFORTER 12 PCS",
     "price": 299.0,
-    "stock": 178,
+    "stock": 172,
     "sales": 120
   },
   {
@@ -22916,7 +23276,7 @@ const data = [
     "alias": "48802",
     "name": "VERDEIRE SOFT BLUSH KING COMFORTER 12 PCS",
     "price": 399.0,
-    "stock": 1964,
+    "stock": 1956,
     "sales": 359
   },
   {
@@ -22926,7 +23286,7 @@ const data = [
     "alias": "48804",
     "name": "CULLEN GREEN KING COMFORTER 12 PCS",
     "price": 399.0,
-    "stock": 384,
+    "stock": 380,
     "sales": 344
   },
   {
@@ -23206,7 +23566,7 @@ const data = [
     "alias": "440903",
     "name": "*JEWEL SILVER COM K 11 PCS KIT",
     "price": 399.0,
-    "stock": 27,
+    "stock": 25,
     "sales": 74
   },
   {
@@ -23266,7 +23626,7 @@ const data = [
     "alias": "960208",
     "name": "COCODOR 500 ML ROOM SPRAY FIG TREE",
     "price": 39.0,
-    "stock": 4104,
+    "stock": 4086,
     "sales": 67
   },
   {
@@ -23276,7 +23636,7 @@ const data = [
     "alias": "960209",
     "name": "COCODOR 500 ML ROOM SPRAY FRENCH LAVENDER",
     "price": 39.0,
-    "stock": 3780,
+    "stock": 3762,
     "sales": 106
   },
   {
@@ -23296,7 +23656,7 @@ const data = [
     "alias": "440906",
     "name": "*GALILEO IVORY COM K 11 PCS KIT",
     "price": 695.0,
-    "stock": 33,
+    "stock": 31,
     "sales": 94
   },
   {
@@ -23316,7 +23676,7 @@ const data = [
     "alias": "440907",
     "name": "*GALILEO CREAM COM K 11 PCS KIT",
     "price": 695.0,
-    "stock": 16,
+    "stock": 14,
     "sales": 115
   },
   {
@@ -23396,7 +23756,7 @@ const data = [
     "alias": "989003",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML WOOD SANDAL AND VANILLA",
     "price": 39.0,
-    "stock": 480,
+    "stock": 465,
     "sales": 48
   },
   {
@@ -23536,7 +23896,7 @@ const data = [
     "alias": "449908",
     "name": "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
     "price": 695.0,
-    "stock": 162,
+    "stock": 158,
     "sales": 22
   },
   {
@@ -23576,7 +23936,7 @@ const data = [
     "alias": "406302",
     "name": "COOLING GRAY KING COMFORTER 1 PCS",
     "price": 299.0,
-    "stock": 162,
+    "stock": 159,
     "sales": 63
   },
   {
@@ -23606,7 +23966,7 @@ const data = [
     "alias": "20022",
     "name": "COOLING GRAY FULL COMFORTER 1 PCS",
     "price": 229.0,
-    "stock": 52,
+    "stock": 48,
     "sales": 52
   },
   {
@@ -23616,7 +23976,7 @@ const data = [
     "alias": "20023",
     "name": "COOLING NAVY FULL COMFORTER 1 PCS",
     "price": 229.0,
-    "stock": 172,
+    "stock": 168,
     "sales": 44
   },
   {
@@ -23636,7 +23996,7 @@ const data = [
     "alias": "440910",
     "name": "*LINLITHGOW PALE LAVENDER KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 40,
+    "stock": 38,
     "sales": 61
   },
   {
@@ -23656,7 +24016,7 @@ const data = [
     "alias": "440911",
     "name": "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 112,
+    "stock": 110,
     "sales": 23
   },
   {
@@ -23715,7 +24075,7 @@ const data = [
     "code": "23861",
     "alias": "542544",
     "name": "BIG ONE ATHENA MEDALLION FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 426,
     "sales": 171
   },
@@ -23725,7 +24085,7 @@ const data = [
     "code": "23862",
     "alias": "542538",
     "name": "BIG ONE COLORFUL FLOWERS FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 756,
     "sales": 81
   },
@@ -23735,7 +24095,7 @@ const data = [
     "code": "23863",
     "alias": "542531",
     "name": "BIG ONE ASTER YELLOW FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 888,
     "sales": 156
   },
@@ -23836,7 +24196,7 @@ const data = [
     "alias": "440919",
     "name": "*TERINA BLUSH KING COMFORTER 8 PCS KIT",
     "price": 499.0,
-    "stock": 143,
+    "stock": 141,
     "sales": 62
   },
   {
@@ -23845,7 +24205,7 @@ const data = [
     "code": "23874",
     "alias": "538810",
     "name": "BIG ONE COLORFUL FLOWERS KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 1002,
     "sales": 0
   },
@@ -23855,7 +24215,7 @@ const data = [
     "code": "23876",
     "alias": "542539",
     "name": "BIG ONE SWAN PRINCESS FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1422,
     "sales": 136
   },
@@ -23865,7 +24225,7 @@ const data = [
     "code": "23877",
     "alias": "542536",
     "name": "BIG ONE TRAINS FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1488,
     "sales": 43
   },
@@ -23875,7 +24235,7 @@ const data = [
     "code": "23878",
     "alias": "542542",
     "name": "BIG ONE MULTI SUNFLOWERS FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1236,
     "sales": 92
   },
@@ -23885,7 +24245,7 @@ const data = [
     "code": "23879",
     "alias": "542534",
     "name": "BIG ONE BALLERINA GIRLS FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 792,
     "sales": 71
   },
@@ -23955,7 +24315,7 @@ const data = [
     "code": "23886",
     "alias": "538812",
     "name": "BIG ONE LAYIL MEDALLION2 KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 1002,
     "sales": 0
   },
@@ -23965,7 +24325,7 @@ const data = [
     "code": "23888",
     "alias": "538813",
     "name": "BIG ONE CHELEY MEDALLION KING 3 PCS",
-    "price": 149.0,
+    "price": 99.0,
     "stock": 1002,
     "sales": 0
   },
@@ -23975,8 +24335,8 @@ const data = [
     "code": "23889",
     "alias": "538814",
     "name": "BIG ONE FLOWER PATCH KING 3 PCS",
-    "price": 149.0,
-    "stock": 306,
+    "price": 99.0,
+    "stock": 300,
     "sales": 124
   },
   {
@@ -23986,7 +24346,7 @@ const data = [
     "alias": "2729",
     "name": "PRINTED GREY PAVLA FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 510,
+    "stock": 508,
     "sales": 47
   },
   {
@@ -24266,7 +24626,7 @@ const data = [
     "alias": "2734",
     "name": "TOSS BOTANICAL SPRING PINK/MULTI FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 584,
+    "stock": 582,
     "sales": 143
   },
   {
@@ -24286,7 +24646,7 @@ const data = [
     "alias": "2732",
     "name": "MEADOW FLORAL MULTI FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 688,
+    "stock": 686,
     "sales": 65
   },
   {
@@ -24296,7 +24656,7 @@ const data = [
     "alias": "2736",
     "name": "CLOVELLY BLUE FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 374,
+    "stock": 370,
     "sales": 69
   },
   {
@@ -24306,7 +24666,7 @@ const data = [
     "alias": "2733",
     "name": "DIST FLORAL MULTI FULL COMFORTER 8 PCS",
     "price": 249.0,
-    "stock": 610,
+    "stock": 604,
     "sales": 78
   },
   {
@@ -24325,7 +24685,7 @@ const data = [
     "code": "23949",
     "alias": "542540",
     "name": "BIG ONE COLORFUL CARS FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1572,
     "sales": 71
   },
@@ -24335,7 +24695,7 @@ const data = [
     "code": "23950",
     "alias": "542541",
     "name": "BIG ONE MULTI BALLS FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1608,
     "sales": 99
   },
@@ -24345,7 +24705,7 @@ const data = [
     "code": "23951",
     "alias": "542543",
     "name": "BIG ONE MULTI COLOR STRIPES FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1530,
     "sales": 98
   },
@@ -24355,7 +24715,7 @@ const data = [
     "code": "23952",
     "alias": "542537",
     "name": "BIG ONE WHALE FULL 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 1446,
     "sales": 116
   },
@@ -24365,7 +24725,7 @@ const data = [
     "code": "23953",
     "alias": "542533",
     "name": "BIG ONE MULTI DINOSAURS FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 390,
     "sales": 59
   },
@@ -24375,7 +24735,7 @@ const data = [
     "code": "23954",
     "alias": "542535",
     "name": "BIG ONE BUTTERFLY MULTI FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 330,
     "sales": 117
   },
@@ -24385,7 +24745,7 @@ const data = [
     "code": "23955",
     "alias": "542532",
     "name": "BIG ONE MULTI VEHICLES FULL QUILT 2 PCS",
-    "price": 99.0,
+    "price": 79.0,
     "stock": 378,
     "sales": 46
   },
@@ -24986,7 +25346,7 @@ const data = [
     "alias": "49913",
     "name": "MULTI MEADOW FLORAL KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1560,
+    "stock": 1558,
     "sales": 87
   },
   {
@@ -25046,7 +25406,7 @@ const data = [
     "alias": "989005",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML CHERRY BLACK",
     "price": 39.0,
-    "stock": 645,
+    "stock": 630,
     "sales": 93
   },
   {
@@ -25056,7 +25416,7 @@ const data = [
     "alias": "989006",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML LAVENDER GARDEN",
     "price": 39.0,
-    "stock": 660,
+    "stock": 645,
     "sales": 60
   },
   {
@@ -25066,7 +25426,7 @@ const data = [
     "alias": "989007",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML JASMINE WHITE",
     "price": 39.0,
-    "stock": 675,
+    "stock": 660,
     "sales": 51
   },
   {
@@ -25236,7 +25596,7 @@ const data = [
     "alias": "817201",
     "name": "BATH MAT 30X50IN WITHE",
     "price": 129.0,
-    "stock": 45,
+    "stock": 42,
     "sales": 12
   },
   {
@@ -25246,7 +25606,7 @@ const data = [
     "alias": "817202",
     "name": "BATH MAT 30X50IN IVORY",
     "price": 129.0,
-    "stock": 21,
+    "stock": 18,
     "sales": 10
   },
   {
@@ -25256,7 +25616,7 @@ const data = [
     "alias": "817205",
     "name": "BATH MAT 30X50IN DARKER LILAC",
     "price": 129.0,
-    "stock": 15,
+    "stock": 12,
     "sales": 5
   },
   {
@@ -25266,7 +25626,7 @@ const data = [
     "alias": "817208",
     "name": "BATH MAT 30X50IN NAVY",
     "price": 129.0,
-    "stock": 33,
+    "stock": 30,
     "sales": 5
   },
   {
@@ -25276,7 +25636,7 @@ const data = [
     "alias": "816412",
     "name": "BATH MAT 21X34IN BLACK",
     "price": 59.0,
-    "stock": 366,
+    "stock": 360,
     "sales": 2
   },
   {
@@ -25316,7 +25676,7 @@ const data = [
     "alias": "49919",
     "name": "ARDICE GRAY ECRU KING COMFORTER 8 PCS",
     "price": 299.0,
-    "stock": 1648,
+    "stock": 1646,
     "sales": 85
   },
   {
@@ -25336,7 +25696,7 @@ const data = [
     "alias": "440925",
     "name": "*ROYCE TAUPE KING COMFORTER 11 PCS KIT",
     "price": 599.0,
-    "stock": 74,
+    "stock": 73,
     "sales": 5
   },
   {
@@ -25356,7 +25716,7 @@ const data = [
     "alias": "440926",
     "name": "*ROYCE GRAY KING COMFORTER 11 PCS KIT",
     "price": 599.0,
-    "stock": 75,
+    "stock": 74,
     "sales": 1
   },
   {
@@ -25376,7 +25736,7 @@ const data = [
     "alias": "440927",
     "name": "*ROYCE IVORY KING COMFORTER 11 PCS KIT",
     "price": 599.0,
-    "stock": 73,
+    "stock": 72,
     "sales": 5
   },
   {
@@ -25396,7 +25756,7 @@ const data = [
     "alias": "440928",
     "name": "*PATIA INDIGO KING COMFORTER 11 PCS KIT",
     "price": 399.0,
-    "stock": 72,
+    "stock": 71,
     "sales": 5
   },
   {
@@ -25416,7 +25776,7 @@ const data = [
     "alias": "440929",
     "name": "*PATIA GRAY KING COMFORTER 11 PCS KIT",
     "price": 399.0,
-    "stock": 72,
+    "stock": 71,
     "sales": 8
   },
   {
@@ -25426,7 +25786,7 @@ const data = [
     "alias": "49914",
     "name": "BOW GIMINY BLUE KING COMFORTER 5 PCS",
     "price": 349.0,
-    "stock": 504,
+    "stock": 502,
     "sales": 4
   },
   {
@@ -25436,7 +25796,7 @@ const data = [
     "alias": "49915",
     "name": "BOW GIMINY LAVENDER KING COMFORTER 5 PCS",
     "price": 349.0,
-    "stock": 484,
+    "stock": 482,
     "sales": 4
   },
   {
@@ -25446,7 +25806,7 @@ const data = [
     "alias": "2741",
     "name": "BOW GIMINY BLUE FULL COMFORTER 5 PCS",
     "price": 299.0,
-    "stock": 558,
+    "stock": 556,
     "sales": 6
   },
   {
@@ -25456,7 +25816,7 @@ const data = [
     "alias": "2742",
     "name": "BOW GIMINY BLUSH FULL COMFORTER 5 PCS",
     "price": 299.0,
-    "stock": 258,
+    "stock": 256,
     "sales": 7
   },
   {
@@ -25466,7 +25826,7 @@ const data = [
     "alias": "2743",
     "name": "BOW GIMINY LAVENDER FULL COMFORTER 5 PCS",
     "price": 299.0,
-    "stock": 556,
+    "stock": 554,
     "sales": 6
   },
   {
@@ -25476,7 +25836,7 @@ const data = [
     "alias": "816212",
     "name": "BATH MAT SET 2 PCS BLACK",
     "price": 99.0,
-    "stock": 798,
+    "stock": 792,
     "sales": 0
   },
   {
@@ -25486,7 +25846,7 @@ const data = [
     "alias": "816312",
     "name": "BATH MAT 17X24IN BLACK",
     "price": 39.0,
-    "stock": 462,
+    "stock": 456,
     "sales": 0
   },
   {
@@ -25496,7 +25856,7 @@ const data = [
     "alias": "817203",
     "name": "BATH MAT 30X50IN DARKER LIGHT GRAY",
     "price": 129.0,
-    "stock": 129,
+    "stock": 126,
     "sales": 6
   },
   {
@@ -25506,7 +25866,37 @@ const data = [
     "alias": "817207",
     "name": "BATH MAT 30X50IN BLACK",
     "price": 129.0,
-    "stock": 99,
+    "stock": 96,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24076",
+    "alias": "49921",
+    "name": "GAVOTTE SAGE KING COMFORTER 8 PCS",
+    "price": 299.0,
+    "stock": 2580,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24077",
+    "alias": "49922",
+    "name": "ABELIA CORAL KING COMFORTER 8 PCS",
+    "price": 299.0,
+    "stock": 2580,
+    "sales": 0
+  },
+  {
+    "outlet": "warehouse riyadh",
+    "category": "لحافات كينغ",
+    "code": "24078",
+    "alias": "49923",
+    "name": "ROSEL VERNAZZA KING COMFORTER 8 PCS",
+    "price": 299.0,
+    "stock": 2572,
     "sales": 0
   }
 ];
