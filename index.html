@@ -241,7 +241,7 @@
     </label>
     <label>الترتيب:
       <select id="sortFilter" onchange="renderProducts()">
-        <option value="default">الترتيب الافتراضي</option>
+        <option value="sales-desc">الأكثر مبيعاً</option>
         <option value="price-asc">السعر: من الأقل للأعلى</option>
         <option value="price-desc">السعر: من الأعلى للأقل</option>
         <option value="sales-desc">الأكثر مبيعاً</option>
@@ -523,7 +523,9 @@
           <p><strong>الكود:</strong> ${d.code}</p>
           <p><strong>Alias:</strong> ${d.alias ?? '—'}</p>
           <p>الكمية المباعة: ${d.sales !== undefined ? d.sales : '—'}</p>
-          <p><strong>الكمية المتوفرة:</strong> ${d.stock ?? '—'}</p>
+         <p><strong>الكمية المتوفرة في المستودع:</strong> ${d.stock ?? '—'}</p>
+<p><strong>الكمية الموجودة في المعرض:</strong> ${d.branches?.[userMall] ?? 0}</p>
+
           <input type="number" min="1" placeholder="الكمية المطلوبة" value="${cart[d.code]?.qty ?? ''}" onchange="addToCart('${d.code}', '${d.name}', this.value)">
         </div>`).join('');
 
@@ -593,7 +595,9 @@
         <p><strong>الكود:</strong> ${product.code}</p>
         <p><strong>Alias:</strong> ${product.alias || '—'}</p>
         <p><strong>الكمية المباعة:</strong> ${product.sales !== undefined ? product.sales : '—'}</p>
-        <p><strong>الكمية المتوفرة:</strong> ${product.stock}</p>
+       <p><strong>الكمية في المستودع:</strong> ${product.stock}</p>
+<p><strong>الكمية في المعرض:</strong> ${product.branches?.[userMall] ?? 0}</p>
+
         <p><strong>التصنيف:</strong> ${product.category}</p>
         <div style="margin-top:15px;">
           <input id="modalQtyInput" type="number" min="1" placeholder="الكمية المطلوبة" style="width:120px; padding:6px; border-radius:5px; border:1px solid #ccc;">
