@@ -224,7 +224,8 @@
 </head>
 <body>
   <h1>جدول البضاعة</h1>
-  <p id="lastUpdated" style="text-align:center; color: #999;">آخر تحديث: 2025-05-06</p>
+    <p id="lastUpdated" style="text-align:center; color: #999;">آخر تحديث: 2025-05-08</p>
+
   <div id="userInfo" style="text-align:center; margin-bottom: 15px; font-size: 18px; color: #e67e22; font-weight: bold;"></div>
   <div class="filters">
     <label>اختر التصنيف:
@@ -545,9 +546,9 @@
       document.getElementById('productContainer').innerHTML = productsToShow.map(d => `
         <div class="product">
           <img loading="lazy" 
-               src="images/${d.code}.jpg" 
-               alt="${d.name}" 
-               onerror="this.onerror=null; this.src='images/noimage.png'; this.classList.add('error');"
+     src="images/${d.code}.jpg" 
+     alt="${d.name}" 
+     onerror="handleImageFallback(this, '${d.code}')"
                onload="this.classList.remove('loading')"
                class="loading"
                onclick="showProductDetails('${d.code}')"
@@ -618,11 +619,16 @@
       
       // تحسين معالجة الصور المفقودة
       modalImage.src = `images/${code}.jpg`;
-      modalImage.onerror = function() {
-        this.src = 'images/noimage.png';
-        this.classList.add('error');
-        this.title = 'الصورة غير متوفرة';
-      };
+modalImage.onerror = function () {
+  if (this.src.endsWith('.jpg')) {
+    this.src = `images/${code}.jpeg`;
+  } else {
+    this.src = 'images/noimage.png';
+    this.classList.add('error');
+    this.title = 'الصورة غير متوفرة';
+  }
+};
+
       
       modalDetails.innerHTML = `
         <p><strong>السعر:</strong> ${product.price} ريال</p>
@@ -769,6 +775,19 @@
 function closeCustomProductModal() {
   document.getElementById('customProductModal').style.display = 'none';
 }
+
+
+
+function handleImageFallback(img, code) {
+  if (img.src.endsWith('.jpg')) {
+    img.src = `images/${code}.jpeg`;
+  } else {
+    img.src = 'images/noimage.png';
+    img.classList.add('error');
+    img.title = 'الصورة غير متوفرة';
+  }
+}
+
 
 function submitCustomProduct() {
   const alias = document.getElementById('customAliasInput').value.trim();
