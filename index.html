@@ -813,6 +813,17 @@ function submitCustomProduct() {
   renderProducts();
 }
 
+fetch('https://api.github.com/repos/ALAAWF2/catalog/commits?per_page=1')
+  .then(response => response.json())
+  .then(data => {
+    const commitDate = new Date(data[0].commit.committer.date);
+    const formattedDate = commitDate.toLocaleDateString('ar-EG');
+    document.getElementById('lastUpdated').textContent = 'آخر تحديث: ' + formattedDate;
+  })
+  .catch(error => {
+    console.error('فشل جلب تاريخ التحديث من GitHub:', error);
+    document.getElementById('lastUpdated').textContent = 'آخر تحديث: غير متوفر';
+  });
 	
 	
 	
