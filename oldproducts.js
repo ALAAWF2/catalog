@@ -177,13 +177,6 @@ const oldData = [
   {
     code: "23192",
     name: "(SPECIAL OFFER) BECKHAM GELL KING PILLOW",
-    mall: "43-Mujan Park",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23192",
-    name: "(SPECIAL OFFER) BECKHAM GELL KING PILLOW",
     mall: "44-Al-Jouf Center",
     quantity: 1,
     lastSaleDate: "2025-04-27"
@@ -208,13 +201,6 @@ const oldData = [
     mall: "57-Sauq7",
     quantity: 3,
     lastSaleDate: "2025-02-18"
-  },
-  {
-    code: "23193",
-    name: "(SPECIAL OFFER) BECKHAM GELL STANDARD PILLOW",
-    mall: "07-Arab Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-18"
   },
   {
     code: "23193",
@@ -264,13 +250,6 @@ const oldData = [
     mall: "56- Aziz Mall 2",
     quantity: 3,
     lastSaleDate: "2024-09-22"
-  },
-  {
-    code: "23273",
-    name: "(SPECIAL OFFER) BIG ARAN KING COMFORTER 9 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-17"
   },
   {
     code: "23273",
@@ -401,13 +380,6 @@ const oldData = [
   {
     code: "23248",
     name: "(SPECIAL OFFER) BLUE CHALK AMBER KING COMFORTER 8 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23248",
-    name: "(SPECIAL OFFER) BLUE CHALK AMBER KING COMFORTER 8 PCS",
     mall: "16-Ehsa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2025-03-11"
@@ -497,13 +469,6 @@ const oldData = [
     lastSaleDate: "2025-04-02"
   },
   {
-    code: "23368",
-    name: "(SPECIAL OFFER) CHEETAH KIDS PONCHO BATH ROBE",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-26"
-  },
-  {
     code: "21558",
     name: "(SPECIAL OFFER) COSTCO FREEMONT BURGUNDY KING COMFORTER 6 PCS",
     mall: "40-Hayat Mall Riyad",
@@ -558,6 +523,13 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 2,
     lastSaleDate: "2024-11-12"
+  },
+  {
+    code: "14868",
+    name: "(SPECIAL OFFER) DARK RED SILKY MICRO CHANNEL 91*61 CM /",
+    mall: "21-Abha Al_Rashid Mall New",
+    quantity: 2,
+    lastSaleDate: "2024-11-30"
   },
   {
     code: "14868",
@@ -656,181 +628,6 @@ const oldData = [
     mall: "46-Khaleej Mall Riyadh",
     quantity: 14,
     lastSaleDate: "2022-12-24"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "04-Andalos Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-05"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "08-Makkah Mall",
-    quantity: 2,
-    lastSaleDate: "2024-12-31"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-09"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-06"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-01-10"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-02-04"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-28"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-04"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 2,
-    lastSaleDate: "2025-01-07"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "22-Tabuk Park",
-    quantity: 4,
-    lastSaleDate: "2025-02-01"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "23-Alia Mall Madinah",
-    quantity: 2,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 1,
-    lastSaleDate: "2025-01-08"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-01-01"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-02-09"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "38-Al_Riyadh Park",
-    quantity: 1,
-    lastSaleDate: "2025-02-06"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2025-02-06"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-02-23"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "43-Mujan Park",
-    quantity: 2,
-    lastSaleDate: "2025-02-12"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 1,
-    lastSaleDate: "2025-01-14"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "48 - Jeddah Park",
-    quantity: 1,
-    lastSaleDate: "2025-03-05"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-01-08"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-02-13"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "52-Al_Baha Mall",
-    quantity: 7,
-    lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-07"
-  },
-  {
-    code: "23271",
-    name: "(SPECIAL OFFER) FIBER PILLOW STANDARD (WITH EXTRA FILL)",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-03-24"
   },
   {
     code: "16342",
@@ -1213,13 +1010,6 @@ const oldData = [
   {
     code: "20876",
     name: "(SPECIAL OFFER) HG MARINA CIRCLES COTON QUILT 3 PCS",
-    mall: "19-Hail Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-02-02"
-  },
-  {
-    code: "20876",
-    name: "(SPECIAL OFFER) HG MARINA CIRCLES COTON QUILT 3 PCS",
     mall: "25-Rabwa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2024-08-07"
@@ -1556,13 +1346,6 @@ const oldData = [
   {
     code: "23249",
     name: "(SPECIAL OFFER) LAVENDER LAHUAL KING COMFORTER 8 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "23249",
-    name: "(SPECIAL OFFER) LAVENDER LAHUAL KING COMFORTER 8 PCS",
     mall: "17-Arar Othaim Mall",
     quantity: 1,
     lastSaleDate: "2025-03-11"
@@ -1857,6 +1640,13 @@ const oldData = [
   {
     code: "20839",
     name: "(SPECIAL OFFER) MATRESPAD FIBER BED TANCEL 500 STITCH KING",
+    mall: "05-Haifa Mall",
+    quantity: 2,
+    lastSaleDate: "2025-04-03"
+  },
+  {
+    code: "20839",
+    name: "(SPECIAL OFFER) MATRESPAD FIBER BED TANCEL 500 STITCH KING",
     mall: "11-Jouri Mall",
     quantity: 1,
     lastSaleDate: "2025-03-04"
@@ -2032,13 +1822,6 @@ const oldData = [
   {
     code: "23196",
     name: "(SPECIAL OFFER) MEREDITH KING COMFORTER 9 PCS.",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23196",
-    name: "(SPECIAL OFFER) MEREDITH KING COMFORTER 9 PCS.",
     mall: "24-Yanbu Dana Mall",
     quantity: 2,
     lastSaleDate: "2025-03-28"
@@ -2194,7 +1977,7 @@ const oldData = [
     code: "20285",
     name: "(SPECIAL OFFER) OSMANTHUS FRESHENER COCODOR 500 ML ROOM SPRAY",
     mall: "44-Al-Jouf Center",
-    quantity: 1,
+    quantity: 21,
     lastSaleDate: "2025-03-18"
   },
   {
@@ -2315,13 +2098,6 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 10,
     lastSaleDate: "2023-08-19"
-  },
-  {
-    code: "20899",
-    name: "(SPECIAL OFFER) PILLOW KING CLIMA TALAY LATEX",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 24,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "20899",
@@ -2746,13 +2522,6 @@ const oldData = [
   {
     code: "23194",
     name: "(SPECIAL OFFER) VALENTINA WHITE KING COMFORTER 9 PCS.",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23194",
-    name: "(SPECIAL OFFER) VALENTINA WHITE KING COMFORTER 9 PCS.",
     mall: "39-Salam Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-04-05"
@@ -2879,13 +2648,6 @@ const oldData = [
   {
     code: "20758",
     name: "(SPECIAL OFFER)(105) MATRESPAD NAUTICA LUXURY COTON 400 STITCH QUEEN",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "20758",
-    name: "(SPECIAL OFFER)(105) MATRESPAD NAUTICA LUXURY COTON 400 STITCH QUEEN",
     mall: "32-Atyaf Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2024-10-08"
@@ -2956,13 +2718,6 @@ const oldData = [
   {
     code: "20756",
     name: "(SPECIAL OFFER)(141) MATRESPAD NAUTICA WICKING QUEEN",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 2,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "20756",
-    name: "(SPECIAL OFFER)(141) MATRESPAD NAUTICA WICKING QUEEN",
     mall: "28-Al Nakheel Mall Dammam",
     quantity: 1,
     lastSaleDate: "2025-02-28"
@@ -2973,13 +2728,6 @@ const oldData = [
     mall: "46-Khaleej Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2024-02-25"
-  },
-  {
-    code: "20756",
-    name: "(SPECIAL OFFER)(141) MATRESPAD NAUTICA WICKING QUEEN",
-    mall: "48 - Jeddah Park",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "20756",
@@ -3054,16 +2802,16 @@ const oldData = [
   {
     code: "20751",
     name: "(SPECIAL OFFER)(146) MATRESPAD NAUTICA ANCHOR COTON 200 STITCH QUEEN",
-    mall: "27-Dhahran Mall khobar",
+    mall: "19-Hail Othaim Mall",
     quantity: 4,
-    lastSaleDate: "2025-02-12"
+    lastSaleDate: "2024-11-15"
   },
   {
     code: "20751",
     name: "(SPECIAL OFFER)(146) MATRESPAD NAUTICA ANCHOR COTON 200 STITCH QUEEN",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2025-04-16"
+    mall: "27-Dhahran Mall khobar",
+    quantity: 4,
+    lastSaleDate: "2025-02-12"
   },
   {
     code: "20751",
@@ -3299,30 +3047,9 @@ const oldData = [
   {
     code: "22592",
     name: "*(SPECIAL OFFER) AVON WHITE KING COMFORTER 8 PCS KIT",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2025-03-20"
-  },
-  {
-    code: "22592",
-    name: "*(SPECIAL OFFER) AVON WHITE KING COMFORTER 8 PCS KIT",
     mall: "51-Park Avenue Riyadh",
     quantity: 1,
     lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "22592",
-    name: "*(SPECIAL OFFER) AVON WHITE KING COMFORTER 8 PCS KIT",
-    mall: "49-AlAhsa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "15471",
-    name: "*(SPECIAL OFFER) BETSY KING COMFORTER 11 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-22"
   },
   {
     code: "15471",
@@ -3775,13 +3502,6 @@ const oldData = [
   {
     code: "14715",
     name: "*(SPECIAL OFFER) KAYA SILVER KING COMFORTER 11 PCS_KIT",
-    mall: "07-Arab Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "14715",
-    name: "*(SPECIAL OFFER) KAYA SILVER KING COMFORTER 11 PCS_KIT",
     mall: "23-Alia Mall Madinah",
     quantity: 1,
     lastSaleDate: "2025-03-26"
@@ -3796,13 +3516,6 @@ const oldData = [
   {
     code: "14715",
     name: "*(SPECIAL OFFER) KAYA SILVER KING COMFORTER 11 PCS_KIT",
-    mall: "07-Arab Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "14715",
-    name: "*(SPECIAL OFFER) KAYA SILVER KING COMFORTER 11 PCS_KIT",
     mall: "43-Mujan Park",
     quantity: 10,
     lastSaleDate: "2025-04-11"
@@ -3813,13 +3526,6 @@ const oldData = [
     mall: "09-Al-Salam Mall",
     quantity: 1,
     lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "14715",
-    name: "*(SPECIAL OFFER) KAYA SILVER KING COMFORTER 11 PCS_KIT",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-06"
   },
   {
     code: "14715",
@@ -3841,13 +3547,6 @@ const oldData = [
     mall: "38-Al_Riyadh Park",
     quantity: 4,
     lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "14715",
-    name: "*(SPECIAL OFFER) KAYA SILVER KING COMFORTER 11 PCS_KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "14715",
@@ -3883,13 +3582,6 @@ const oldData = [
     mall: "32-Atyaf Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "14715",
-    name: "*(SPECIAL OFFER) KAYA SILVER KING COMFORTER 11 PCS_KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "17209",
@@ -4055,13 +3747,6 @@ const oldData = [
   {
     code: "23380",
     name: "*(SPECIAL OFFER) LAVENDAR EVELYN KING COMFORTER 6 PCS KIT",
-    mall: "22-Tabuk Park",
-    quantity: 1,
-    lastSaleDate: "2025-03-07"
-  },
-  {
-    code: "23380",
-    name: "*(SPECIAL OFFER) LAVENDAR EVELYN KING COMFORTER 6 PCS KIT",
     mall: "05-Haifa Mall",
     quantity: 1,
     lastSaleDate: "2025-03-08"
@@ -4097,13 +3782,6 @@ const oldData = [
   {
     code: "23380",
     name: "*(SPECIAL OFFER) LAVENDAR EVELYN KING COMFORTER 6 PCS KIT",
-    mall: "22-Tabuk Park",
-    quantity: 4,
-    lastSaleDate: "2025-03-07"
-  },
-  {
-    code: "23380",
-    name: "*(SPECIAL OFFER) LAVENDAR EVELYN KING COMFORTER 6 PCS KIT",
     mall: "53-Al Basateen Mall",
     quantity: 1,
     lastSaleDate: "2025-03-25"
@@ -4118,13 +3796,6 @@ const oldData = [
   {
     code: "23380",
     name: "*(SPECIAL OFFER) LAVENDAR EVELYN KING COMFORTER 6 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "23380",
-    name: "*(SPECIAL OFFER) LAVENDAR EVELYN KING COMFORTER 6 PCS KIT",
     mall: "20-Sitten Street Makkah",
     quantity: 3,
     lastSaleDate: "2025-04-09"
@@ -4135,6 +3806,13 @@ const oldData = [
     mall: "24-Yanbu Dana Mall",
     quantity: 3,
     lastSaleDate: "2025-04-16"
+  },
+  {
+    code: "23380",
+    name: "*(SPECIAL OFFER) LAVENDAR EVELYN KING COMFORTER 6 PCS KIT",
+    mall: "13-Al-Yasmin Mall",
+    quantity: 2,
+    lastSaleDate: "2025-03-30"
   },
   {
     code: "23380",
@@ -4251,13 +3929,6 @@ const oldData = [
   {
     code: "23378",
     name: "*(SPECIAL OFFER) MULTI TARINA KING COMFORTER 5 PCS KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23378",
-    name: "*(SPECIAL OFFER) MULTI TARINA KING COMFORTER 5 PCS KIT",
     mall: "50-Meem Plaza Riyadh",
     quantity: 1,
     lastSaleDate: "2025-03-28"
@@ -4310,13 +3981,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 1,
     lastSaleDate: "2024-12-29"
-  },
-  {
-    code: "19509",
-    name: "*(SPECIAL OFFER) NICOLETTE BLUE KING COMFROTER 11 PCS KIT",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2024-06-06"
   },
   {
     code: "19509",
@@ -4426,13 +4090,6 @@ const oldData = [
   {
     code: "17895",
     name: "*(SPECIAL OFFER) OINOS KING COMFORTER 11 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "17895",
-    name: "*(SPECIAL OFFER) OINOS KING COMFORTER 11 PCS KIT",
     mall: "44-Al-Jouf Center",
     quantity: 3,
     lastSaleDate: "2025-03-29"
@@ -4440,13 +4097,6 @@ const oldData = [
   {
     code: "17895",
     name: "*(SPECIAL OFFER) OINOS KING COMFORTER 11 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "17895",
-    name: "*(SPECIAL OFFER) OINOS KING COMFORTER 11 PCS KIT",
     mall: "30-Tala Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2025-04-04"
@@ -4457,13 +4107,6 @@ const oldData = [
     mall: "30-Tala Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "17895",
-    name: "*(SPECIAL OFFER) OINOS KING COMFORTER 11 PCS KIT",
-    mall: "36-Al jubail Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "19966",
@@ -4587,13 +4230,6 @@ const oldData = [
   {
     code: "22590",
     name: "*(SPECIAL OFFER) STAFFORD WHITE KING COMFORTER 8 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22590",
-    name: "*(SPECIAL OFFER) STAFFORD WHITE KING COMFORTER 8 PCS KIT",
     mall: "16-Ehsa Othaim Mall",
     quantity: 2,
     lastSaleDate: "2025-03-29"
@@ -4625,6 +4261,13 @@ const oldData = [
     mall: "25-Rabwa Othaim Mall",
     quantity: 2,
     lastSaleDate: "2025-02-23"
+  },
+  {
+    code: "22590",
+    name: "*(SPECIAL OFFER) STAFFORD WHITE KING COMFORTER 8 PCS KIT",
+    mall: "30-Tala Mall Riyadh",
+    quantity: 2,
+    lastSaleDate: "2025-02-08"
   },
   {
     code: "22590",
@@ -4809,13 +4452,6 @@ const oldData = [
     lastSaleDate: "2025-01-06"
   },
   {
-    code: "21751",
-    name: "*ALBION GRAY KING COMFORTER 11 PCS KIT",
-    mall: "12-Al_Hamra Mall",
-    quantity: 2,
-    lastSaleDate: "2024-11-30"
-  },
-  {
     code: "21891",
     name: "*ALLIE MULTI DARK FULL COMFORTER 8 PCS KIT",
     mall: "36-Al jubail Mall",
@@ -4846,23 +4482,9 @@ const oldData = [
   {
     code: "21891",
     name: "*ALLIE MULTI DARK FULL COMFORTER 8 PCS KIT",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2024-07-02"
-  },
-  {
-    code: "21891",
-    name: "*ALLIE MULTI DARK FULL COMFORTER 8 PCS KIT",
     mall: "25-Rabwa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "21891",
-    name: "*ALLIE MULTI DARK FULL COMFORTER 8 PCS KIT",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "21891",
@@ -4884,13 +4506,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 4,
     lastSaleDate: "2024-12-05"
-  },
-  {
-    code: "21891",
-    name: "*ALLIE MULTI DARK FULL COMFORTER 8 PCS KIT",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "21891",
@@ -5434,20 +5049,6 @@ const oldData = [
   {
     code: "23848",
     name: "*BIRDS PARADISE MILTI KING COMFORTER 8 PCS KIT",
-    mall: "20-Sitten Street Makkah",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23848",
-    name: "*BIRDS PARADISE MILTI KING COMFORTER 8 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23848",
-    name: "*BIRDS PARADISE MILTI KING COMFORTER 8 PCS KIT",
     mall: "56- Aziz Mall 2",
     quantity: 3,
     lastSaleDate: "2025-04-02"
@@ -5476,13 +5077,6 @@ const oldData = [
   {
     code: "23848",
     name: "*BIRDS PARADISE MILTI KING COMFORTER 8 PCS KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23848",
-    name: "*BIRDS PARADISE MILTI KING COMFORTER 8 PCS KIT",
     mall: "50-Meem Plaza Riyadh",
     quantity: 1,
     lastSaleDate: "2025-04-15"
@@ -5493,13 +5087,6 @@ const oldData = [
     mall: "32-Atyaf Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23848",
-    name: "*BIRDS PARADISE MILTI KING COMFORTER 8 PCS KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "21975",
@@ -5532,30 +5119,9 @@ const oldData = [
   {
     code: "24018",
     name: "*BLOOMING GRACE PINK COTTON KING COMFORTER  10 PCS KIT",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "24018",
-    name: "*BLOOMING GRACE PINK COTTON KING COMFORTER  10 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "24018",
-    name: "*BLOOMING GRACE PINK COTTON KING COMFORTER  10 PCS KIT",
     mall: "52-Al_Baha Mall",
     quantity: 3,
     lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "24018",
-    name: "*BLOOMING GRACE PINK COTTON KING COMFORTER  10 PCS KIT",
-    mall: "19-Hail Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-05"
   },
   {
     code: "24018",
@@ -5584,13 +5150,6 @@ const oldData = [
     mall: "08-Makkah Mall",
     quantity: 2,
     lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "24018",
-    name: "*BLOOMING GRACE PINK COTTON KING COMFORTER  10 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "24020",
@@ -5640,20 +5199,6 @@ const oldData = [
     mall: "19-Hail Othaim Mall",
     quantity: 5,
     lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24020",
-    name: "*BLOOMING GRACE WHITE COTTON KING COMFORTER 10 PCS KIT",
-    mall: "36-Al jubail Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "24020",
-    name: "*BLOOMING GRACE WHITE COTTON KING COMFORTER 10 PCS KIT",
-    mall: "49-AlAhsa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "19928",
@@ -5721,30 +5266,9 @@ const oldData = [
   {
     code: "23816",
     name: "*BLUSH ROSALLE KING COMFORTER 11 PCS KIT",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23816",
-    name: "*BLUSH ROSALLE KING COMFORTER 11 PCS KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "23816",
-    name: "*BLUSH ROSALLE KING COMFORTER 11 PCS KIT",
     mall: "30-Tala Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23816",
-    name: "*BLUSH ROSALLE KING COMFORTER 11 PCS KIT",
-    mall: "36-Al jubail Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-18"
   },
   {
     code: "21260",
@@ -5922,20 +5446,6 @@ const oldData = [
     lastSaleDate: "2025-04-26"
   },
   {
-    code: "23832",
-    name: "*CASCADE BIRD WALLIS MULTI WHITE KING COMFORTER 11 PCS KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23832",
-    name: "*CASCADE BIRD WALLIS MULTI WHITE KING COMFORTER 11 PCS KIT",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-04-12"
-  },
-  {
     code: "22932",
     name: "*COZY STRIPE BISCUIT PRINTED KING COMFORTER 3 PCS",
     mall: "20-Sitten Street Makkah",
@@ -6004,13 +5514,6 @@ const oldData = [
     mall: "28-Al Nakheel Mall Dammam",
     quantity: 1,
     lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "23428",
-    name: "*COZY STRIPE BLUE LOYAL KING COMFORTER 6 PCS KIT",
-    mall: "36-Al jubail Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-07"
   },
   {
     code: "23428",
@@ -6148,13 +5651,6 @@ const oldData = [
   {
     code: "23424",
     name: "*COZY STRIPE GREY PRINTED KING COMFORTER 6 PCS KIT",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "23424",
-    name: "*COZY STRIPE GREY PRINTED KING COMFORTER 6 PCS KIT",
     mall: "12-Al_Hamra Mall",
     quantity: 7,
     lastSaleDate: "2025-02-20"
@@ -6207,6 +5703,13 @@ const oldData = [
     mall: "32-Atyaf Mall Riyadh",
     quantity: 4,
     lastSaleDate: "2024-12-01"
+  },
+  {
+    code: "23424",
+    name: "*COZY STRIPE GREY PRINTED KING COMFORTER 6 PCS KIT",
+    mall: "39-Salam Mall Riyadh",
+    quantity: 2,
+    lastSaleDate: "2025-04-10"
   },
   {
     code: "23424",
@@ -6288,9 +5791,23 @@ const oldData = [
   {
     code: "23822",
     name: "*DAMASK PAINTED GREY KING COMFORTER 11 PCS KIT",
+    mall: "24-Yanbu Dana Mall",
+    quantity: 4,
+    lastSaleDate: "2025-04-17"
+  },
+  {
+    code: "23822",
+    name: "*DAMASK PAINTED GREY KING COMFORTER 11 PCS KIT",
     mall: "53-Al Basateen Mall",
     quantity: 1,
     lastSaleDate: "2025-04-16"
+  },
+  {
+    code: "23822",
+    name: "*DAMASK PAINTED GREY KING COMFORTER 11 PCS KIT",
+    mall: "56- Aziz Mall 2",
+    quantity: 2,
+    lastSaleDate: "2025-04-15"
   },
   {
     code: "16452",
@@ -6326,13 +5843,6 @@ const oldData = [
     mall: "46-Khaleej Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "20622",
-    name: "*DAWN PINK YELLOW FULL COMFORTER 8 PCS KIT",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "20622",
@@ -6449,20 +5959,6 @@ const oldData = [
   {
     code: "23842",
     name: "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "23842",
-    name: "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23842",
-    name: "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
     mall: "55- Jabl Omar",
     quantity: 1,
     lastSaleDate: "2025-03-15"
@@ -6470,13 +5966,6 @@ const oldData = [
   {
     code: "23842",
     name: "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23842",
-    name: "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2025-04-19"
@@ -6487,13 +5976,6 @@ const oldData = [
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "23842",
-    name: "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
-    mall: "56- Aziz Mall 2",
-    quantity: 1,
-    lastSaleDate: "2025-04-10"
   },
   {
     code: "23842",
@@ -6501,34 +5983,6 @@ const oldData = [
     mall: "11-Jouri Mall",
     quantity: 2,
     lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23842",
-    name: "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
-    mall: "56- Aziz Mall 2",
-    quantity: 2,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23842",
-    name: "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
-    mall: "56- Aziz Mall 2",
-    quantity: 2,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23842",
-    name: "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "23842",
-    name: "*ELEEN BLUSH KING COMFORTER 8 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "23842",
@@ -6615,188 +6069,6 @@ const oldData = [
     lastSaleDate: "2024-12-04"
   },
   {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 5,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2024-06-04"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2024-12-28"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "36-Al jubail Mall",
-    quantity: 5,
-    lastSaleDate: "2024-07-07"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2024-10-20"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-04"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "43-Mujan Park",
-    quantity: 12,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2024-11-21"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2024-09-23"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-02-02"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2025-02-04"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "04-Andalos Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-05"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "48 - Jeddah Park",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "11-Jouri Mall",
-    quantity: 4,
-    lastSaleDate: "2024-12-03"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "38-Al_Riyadh Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 2,
-    lastSaleDate: "2024-12-28"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "08-Makkah Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23190",
-    name: "*ELLE MULTI KING COMFORTER 11 PCS KIT",
-    mall: "48 - Jeddah Park",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
     code: "19277",
     name: "*EMILE KING COMFORTER 11 PCS KIT",
     mall: "42-Dareen Mall Dammam",
@@ -6869,13 +6141,6 @@ const oldData = [
   {
     code: "20370",
     name: "*ESTELLE KING COMFORTER 8 PCS. KIT",
-    mall: "06-Red Sea Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "20370",
-    name: "*ESTELLE KING COMFORTER 8 PCS. KIT",
     mall: "07-Arab Mall",
     quantity: 1,
     lastSaleDate: "2025-04-27"
@@ -6883,30 +6148,9 @@ const oldData = [
   {
     code: "20370",
     name: "*ESTELLE KING COMFORTER 8 PCS. KIT",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "20370",
-    name: "*ESTELLE KING COMFORTER 8 PCS. KIT",
-    mall: "06-Red Sea Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "20370",
-    name: "*ESTELLE KING COMFORTER 8 PCS. KIT",
     mall: "07-Arab Mall",
     quantity: 1,
     lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "20370",
-    name: "*ESTELLE KING COMFORTER 8 PCS. KIT",
-    mall: "06-Red Sea Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "20370",
@@ -6963,20 +6207,6 @@ const oldData = [
     mall: "43-Mujan Park",
     quantity: 2,
     lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23818",
-    name: "*EVELYN WHITE KING COMFORTER 11 PCS KIT",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23818",
-    name: "*EVELYN WHITE KING COMFORTER 11 PCS KIT",
-    mall: "49-AlAhsa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-28"
   },
   {
     code: "19571",
@@ -7114,13 +6344,6 @@ const oldData = [
   {
     code: "21087",
     name: "*FLORAL FULL COMFORTER 8 PCS KIT",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "21087",
-    name: "*FLORAL FULL COMFORTER 8 PCS KIT",
     mall: "32-Atyaf Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-02-06"
@@ -7131,62 +6354,6 @@ const oldData = [
     mall: "42-Dareen Mall Dammam",
     quantity: 4,
     lastSaleDate: "2025-03-18"
-  },
-  {
-    code: "23986",
-    name: "*FLORAL PEACOCK / SEA FOAM KING COMFORTER  8 PCS KIT",
-    mall: "04-Andalos Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23986",
-    name: "*FLORAL PEACOCK / SEA FOAM KING COMFORTER  8 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "23986",
-    name: "*FLORAL PEACOCK / SEA FOAM KING COMFORTER  8 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23986",
-    name: "*FLORAL PEACOCK / SEA FOAM KING COMFORTER  8 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23986",
-    name: "*FLORAL PEACOCK / SEA FOAM KING COMFORTER  8 PCS KIT",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23986",
-    name: "*FLORAL PEACOCK / SEA FOAM KING COMFORTER  8 PCS KIT",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23986",
-    name: "*FLORAL PEACOCK / SEA FOAM KING COMFORTER  8 PCS KIT",
-    mall: "04-Andalos Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23986",
-    name: "*FLORAL PEACOCK / SEA FOAM KING COMFORTER  8 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "23801",
@@ -7348,13 +6515,6 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 1,
     lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23795",
-    name: "*GALILEO IVORY COM K 11 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "23795",
@@ -7541,13 +6701,6 @@ const oldData = [
   {
     code: "21945",
     name: "*HEATH FULL COMFORTER 8 PCS KIT",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2024-07-17"
-  },
-  {
-    code: "21945",
-    name: "*HEATH FULL COMFORTER 8 PCS KIT",
     mall: "14-Al Kamal Mall",
     quantity: 1,
     lastSaleDate: "2024-09-04"
@@ -7597,13 +6750,6 @@ const oldData = [
   {
     code: "21945",
     name: "*HEATH FULL COMFORTER 8 PCS KIT",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2025-02-05"
-  },
-  {
-    code: "21945",
-    name: "*HEATH FULL COMFORTER 8 PCS KIT",
     mall: "12-Al_Hamra Mall",
     quantity: 2,
     lastSaleDate: "2024-10-04"
@@ -7611,23 +6757,9 @@ const oldData = [
   {
     code: "21945",
     name: "*HEATH FULL COMFORTER 8 PCS KIT",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 2,
-    lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "21945",
-    name: "*HEATH FULL COMFORTER 8 PCS KIT",
     mall: "29-Al Nakheel Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "21945",
-    name: "*HEATH FULL COMFORTER 8 PCS KIT",
-    mall: "38-Al_Riyadh Park",
-    quantity: 2,
-    lastSaleDate: "2025-02-01"
   },
   {
     code: "21945",
@@ -7653,9 +6785,16 @@ const oldData = [
   {
     code: "21945",
     name: "*HEATH FULL COMFORTER 8 PCS KIT",
-    mall: "27-Dhahran Mall khobar",
+    mall: "29-Al Nakheel Mall Riyadh",
     quantity: 2,
-    lastSaleDate: "2025-04-20"
+    lastSaleDate: "2025-04-13"
+  },
+  {
+    code: "21945",
+    name: "*HEATH FULL COMFORTER 8 PCS KIT",
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 2,
+    lastSaleDate: "2025-03-04"
   },
   {
     code: "20901",
@@ -7709,13 +6848,6 @@ const oldData = [
   {
     code: "21349",
     name: "*HONEY FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "21349",
-    name: "*HONEY FULL WAMSUTTA COMFORTER 9 PCS KIT",
     mall: "56- Aziz Mall 2",
     quantity: 2,
     lastSaleDate: "2025-04-21"
@@ -7740,13 +6872,6 @@ const oldData = [
     mall: "24-Yanbu Dana Mall",
     quantity: 2,
     lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "21349",
-    name: "*HONEY FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-19"
   },
   {
     code: "21349",
@@ -7784,32 +6909,11 @@ const oldData = [
     lastSaleDate: "2024-11-07"
   },
   {
-    code: "21349",
-    name: "*HONEY FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 4,
-    lastSaleDate: "2024-12-25"
-  },
-  {
     code: "21343",
     name: "*HONEY KING WAMSUTTA COMFORTER 9 PCS KIT",
     mall: "55- Jabl Omar",
     quantity: 1,
     lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "21343",
-    name: "*HONEY KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "11-Jouri Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "21343",
-    name: "*HONEY KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "11-Jouri Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-17"
   },
   {
     code: "21343",
@@ -7856,30 +6960,9 @@ const oldData = [
   {
     code: "23799",
     name: "*HOTEL ATHENA WILD DOVE COM K 11 PCS KIT",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23799",
-    name: "*HOTEL ATHENA WILD DOVE COM K 11 PCS KIT",
     mall: "39-Salam Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23799",
-    name: "*HOTEL ATHENA WILD DOVE COM K 11 PCS KIT",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23799",
-    name: "*HOTEL ATHENA WILD DOVE COM K 11 PCS KIT",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 8,
-    lastSaleDate: "2025-04-24"
   },
   {
     code: "20543",
@@ -7961,13 +7044,6 @@ const oldData = [
   {
     code: "23118",
     name: "*ISABELLA BAIGE KING COMFORTER 11 PCS KIT.",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-02-07"
-  },
-  {
-    code: "23118",
-    name: "*ISABELLA BAIGE KING COMFORTER 11 PCS KIT.",
     mall: "15-Riyadh Othaim Mall",
     quantity: 2,
     lastSaleDate: "2025-04-15"
@@ -7987,179 +7063,39 @@ const oldData = [
     lastSaleDate: "2024-07-08"
   },
   {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "48 - Jeddah Park",
+    code: "23678",
+    name: "*JEWEL SILVER COM K 11 PCS KIT",
+    mall: "55- Jabl Omar",
     quantity: 1,
-    lastSaleDate: "2025-04-09"
+    lastSaleDate: "2025-02-17"
   },
   {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "45- Riyadh Gallery Mall",
+    code: "23678",
+    name: "*JEWEL SILVER COM K 11 PCS KIT",
+    mall: "38-Al_Riyadh Park",
     quantity: 1,
-    lastSaleDate: "2025-03-26"
+    lastSaleDate: "2025-04-03"
   },
   {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-11"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "36-Al jubail Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "50-Meem Plaza Riyadh",
+    code: "23678",
+    name: "*JEWEL SILVER COM K 11 PCS KIT",
+    mall: "18-Al_Khayyat Center",
     quantity: 1,
-    lastSaleDate: "2025-03-11"
+    lastSaleDate: "2025-04-20"
   },
   {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "11-Jouri Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
+    code: "23678",
+    name: "*JEWEL SILVER COM K 11 PCS KIT",
     mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-11"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
     quantity: 1,
-    lastSaleDate: "2025-03-28"
+    lastSaleDate: "2025-04-24"
   },
   {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "07-Arab Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "08-Makkah Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "11-Jouri Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "48 - Jeddah Park",
-    quantity: 2,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "52-Al_Baha Mall",
+    code: "23678",
+    name: "*JEWEL SILVER COM K 11 PCS KIT",
+    mall: "38-Al_Riyadh Park",
     quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "56- Aziz Mall 2",
-    quantity: 2,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "07-Arab Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "11-Jouri Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "56- Aziz Mall 2",
-    quantity: 2,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23680",
-    name: "*JEWEL AQUA COM K 11 PCS KIT",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2025-04-08"
+    lastSaleDate: "2025-04-03"
   },
   {
     code: "23682",
@@ -8192,13 +7128,6 @@ const oldData = [
   {
     code: "23682",
     name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "23682",
-    name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
     mall: "22-Tabuk Park",
     quantity: 2,
     lastSaleDate: "2025-03-16"
@@ -8227,13 +7156,6 @@ const oldData = [
   {
     code: "23682",
     name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23682",
-    name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
     mall: "47-Al-Nakheel Plaza",
     quantity: 1,
     lastSaleDate: "2025-04-16"
@@ -8248,30 +7170,9 @@ const oldData = [
   {
     code: "23682",
     name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "23682",
-    name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
     mall: "29-Al Nakheel Mall Riyadh",
     quantity: 4,
     lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "23682",
-    name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 3,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23682",
-    name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-10"
   },
   {
     code: "23682",
@@ -8311,20 +7212,6 @@ const oldData = [
   {
     code: "23682",
     name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "23682",
-    name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-02-18"
-  },
-  {
-    code: "23682",
-    name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
     mall: "26-Al-Noor Mall Madinah",
     quantity: 1,
     lastSaleDate: "2025-03-28"
@@ -8342,13 +7229,6 @@ const oldData = [
     mall: "18-Al_Khayyat Center",
     quantity: 2,
     lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23682",
-    name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
-    mall: "20-Sitten Street Makkah",
-    quantity: 2,
-    lastSaleDate: "2025-02-18"
   },
   {
     code: "23682",
@@ -8381,13 +7261,6 @@ const oldData = [
   {
     code: "23682",
     name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "23682",
-    name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
     mall: "17-Arar Othaim Mall",
     quantity: 3,
     lastSaleDate: "2025-04-18"
@@ -8398,13 +7271,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 2,
     lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23682",
-    name: "*JEWEL VATALIA PURPLE COMF K 11 PCS KIT",
-    mall: "54-THE VILLAGE",
-    quantity: 5,
-    lastSaleDate: "2025-04-17"
   },
   {
     code: "23682",
@@ -8640,13 +7506,6 @@ const oldData = [
   {
     code: "20016",
     name: "*KATTIE SILVER KING COMFORTER 11 PCS KIT",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2024-05-06"
-  },
-  {
-    code: "20016",
-    name: "*KATTIE SILVER KING COMFORTER 11 PCS KIT",
     mall: "47-Al-Nakheel Plaza",
     quantity: 1,
     lastSaleDate: "2024-08-15"
@@ -8680,20 +7539,6 @@ const oldData = [
     lastSaleDate: "2025-01-27"
   },
   {
-    code: "21885",
-    name: "*KIARA MULTI FULL COMFORTER 8 PCS KIT",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2024-11-23"
-  },
-  {
-    code: "21885",
-    name: "*KIARA MULTI FULL COMFORTER 8 PCS KIT",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-02"
-  },
-  {
     code: "23379",
     name: "*LAVENDAR EVELYN KING COMFORTER 6 PCS",
     mall: "04-Andalos Mall",
@@ -8713,13 +7558,6 @@ const oldData = [
     mall: "09-Al-Salam Mall",
     quantity: 1,
     lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23379",
-    name: "*LAVENDAR EVELYN KING COMFORTER 6 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-22"
   },
   {
     code: "23379",
@@ -8871,13 +7709,6 @@ const oldData = [
   {
     code: "23658",
     name: "*LEXY CREAM GREY COMF K 8 PCS KIT",
-    mall: "38-Al_Riyadh Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23658",
-    name: "*LEXY CREAM GREY COMF K 8 PCS KIT",
     mall: "40-Hayat Mall Riyad",
     quantity: 4,
     lastSaleDate: "2025-03-17"
@@ -8892,20 +7723,6 @@ const oldData = [
   {
     code: "23658",
     name: "*LEXY CREAM GREY COMF K 8 PCS KIT",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 4,
-    lastSaleDate: "2025-02-12"
-  },
-  {
-    code: "23658",
-    name: "*LEXY CREAM GREY COMF K 8 PCS KIT",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23658",
-    name: "*LEXY CREAM GREY COMF K 8 PCS KIT",
     mall: "49-AlAhsa Mall",
     quantity: 2,
     lastSaleDate: "2025-04-18"
@@ -8916,13 +7733,6 @@ const oldData = [
     mall: "05-Haifa Mall",
     quantity: 2,
     lastSaleDate: "2025-03-05"
-  },
-  {
-    code: "23658",
-    name: "*LEXY CREAM GREY COMF K 8 PCS KIT",
-    mall: "06-Red Sea Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-25"
   },
   {
     code: "23658",
@@ -8955,107 +7765,9 @@ const oldData = [
   {
     code: "23658",
     name: "*LEXY CREAM GREY COMF K 8 PCS KIT",
-    mall: "06-Red Sea Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23658",
-    name: "*LEXY CREAM GREY COMF K 8 PCS KIT",
     mall: "57-Sauq7",
     quantity: 1,
     lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23658",
-    name: "*LEXY CREAM GREY COMF K 8 PCS KIT",
-    mall: "06-Red Sea Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23660",
-    name: "*LEXY FEROZI COMF K 8 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-25"
-  },
-  {
-    code: "23660",
-    name: "*LEXY FEROZI COMF K 8 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23660",
-    name: "*LEXY FEROZI COMF K 8 PCS KIT",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23660",
-    name: "*LEXY FEROZI COMF K 8 PCS KIT",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23660",
-    name: "*LEXY FEROZI COMF K 8 PCS KIT",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-27"
-  },
-  {
-    code: "23660",
-    name: "*LEXY FEROZI COMF K 8 PCS KIT",
-    mall: "38-Al_Riyadh Park",
-    quantity: 2,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "23660",
-    name: "*LEXY FEROZI COMF K 8 PCS KIT",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 7,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23660",
-    name: "*LEXY FEROZI COMF K 8 PCS KIT",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "23660",
-    name: "*LEXY FEROZI COMF K 8 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-25"
-  },
-  {
-    code: "23660",
-    name: "*LEXY FEROZI COMF K 8 PCS KIT",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23660",
-    name: "*LEXY FEROZI COMF K 8 PCS KIT",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23660",
-    name: "*LEXY FEROZI COMF K 8 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-02"
   },
   {
     code: "23662",
@@ -9095,23 +7807,9 @@ const oldData = [
   {
     code: "23662",
     name: "*LEXY YELLOW CHARCOAL COMF K 8 PCS KIT",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23662",
-    name: "*LEXY YELLOW CHARCOAL COMF K 8 PCS KIT",
     mall: "25-Rabwa Othaim Mall",
     quantity: 3,
     lastSaleDate: "2025-03-17"
-  },
-  {
-    code: "23662",
-    name: "*LEXY YELLOW CHARCOAL COMF K 8 PCS KIT",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "23662",
@@ -9126,13 +7824,6 @@ const oldData = [
     mall: "45- Riyadh Gallery Mall",
     quantity: 3,
     lastSaleDate: "2025-02-09"
-  },
-  {
-    code: "23662",
-    name: "*LEXY YELLOW CHARCOAL COMF K 8 PCS KIT",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-04-16"
   },
   {
     code: "23662",
@@ -9158,37 +7849,9 @@ const oldData = [
   {
     code: "23662",
     name: "*LEXY YELLOW CHARCOAL COMF K 8 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23662",
-    name: "*LEXY YELLOW CHARCOAL COMF K 8 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23662",
-    name: "*LEXY YELLOW CHARCOAL COMF K 8 PCS KIT",
     mall: "56- Aziz Mall 2",
     quantity: 1,
     lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23662",
-    name: "*LEXY YELLOW CHARCOAL COMF K 8 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23662",
-    name: "*LEXY YELLOW CHARCOAL COMF K 8 PCS KIT",
-    mall: "17-Arar Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-24"
   },
   {
     code: "23662",
@@ -9203,20 +7866,6 @@ const oldData = [
     mall: "56- Aziz Mall 2",
     quantity: 1,
     lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23662",
-    name: "*LEXY YELLOW CHARCOAL COMF K 8 PCS KIT",
-    mall: "17-Arar Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "16915",
-    name: "*LEXY YELLOW KING COMFORTER 8 PCS KIT",
-    mall: "44-Al-Jouf Center",
-    quantity: 4,
-    lastSaleDate: "2025-02-11"
   },
   {
     code: "16915",
@@ -9305,13 +7954,6 @@ const oldData = [
   {
     code: "19998",
     name: "*LIANA KING COMFORTER 11 PCS KIT",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 3,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "19998",
-    name: "*LIANA KING COMFORTER 11 PCS KIT",
     mall: "39-Salam Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-01-26"
@@ -9322,13 +7964,6 @@ const oldData = [
     mall: "12-Al_Hamra Mall",
     quantity: 2,
     lastSaleDate: "2025-03-03"
-  },
-  {
-    code: "19998",
-    name: "*LIANA KING COMFORTER 11 PCS KIT",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-16"
   },
   {
     code: "19998",
@@ -9415,25 +8050,11 @@ const oldData = [
     lastSaleDate: "2025-04-12"
   },
   {
-    code: "23840",
-    name: "*LINLITHGOW PALE LAVENDER KING COMFORTER 8 PCS KIT",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-03-25"
-  },
-  {
     code: "21951",
     name: "*LIZZIE FULL COMFORTER 8 PCS KIT",
     mall: "39-Salam Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2024-09-26"
-  },
-  {
-    code: "21951",
-    name: "*LIZZIE FULL COMFORTER 8 PCS KIT",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 1,
-    lastSaleDate: "2024-11-04"
   },
   {
     code: "21951",
@@ -9448,13 +8069,6 @@ const oldData = [
     mall: "15-Riyadh Othaim Mall",
     quantity: 2,
     lastSaleDate: "2024-08-15"
-  },
-  {
-    code: "21951",
-    name: "*LIZZIE FULL COMFORTER 8 PCS KIT",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-08"
   },
   {
     code: "21951",
@@ -9529,13 +8143,6 @@ const oldData = [
   {
     code: "21951",
     name: "*LIZZIE FULL COMFORTER 8 PCS KIT",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 1,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "21951",
-    name: "*LIZZIE FULL COMFORTER 8 PCS KIT",
     mall: "44-Al-Jouf Center",
     quantity: 1,
     lastSaleDate: "2024-08-17"
@@ -9546,13 +8153,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 3,
     lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "21951",
-    name: "*LIZZIE FULL COMFORTER 8 PCS KIT",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-03-25"
   },
   {
     code: "21951",
@@ -9665,13 +8265,6 @@ const oldData = [
     mall: "11-Jouri Mall",
     quantity: 4,
     lastSaleDate: "2025-02-19"
-  },
-  {
-    code: "21951",
-    name: "*LIZZIE FULL COMFORTER 8 PCS KIT",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "21951",
@@ -9879,13 +8472,6 @@ const oldData = [
   {
     code: "19926",
     name: "*MARGARET SILVER KING COMFORTER 11 PCS KIT",
-    mall: "23-Alia Mall Madinah",
-    quantity: 3,
-    lastSaleDate: "2024-07-20"
-  },
-  {
-    code: "19926",
-    name: "*MARGARET SILVER KING COMFORTER 11 PCS KIT",
     mall: "24-Yanbu Dana Mall",
     quantity: 1,
     lastSaleDate: "2024-07-25"
@@ -9924,13 +8510,6 @@ const oldData = [
     mall: "57-Sauq7",
     quantity: 1,
     lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "23647",
-    name: "*MARGOUT BLUE COMF K 8 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-28"
   },
   {
     code: "23647",
@@ -10110,13 +8689,6 @@ const oldData = [
   {
     code: "20750",
     name: "*MEDALION KING COMFORTER 11 PCS KIT",
-    mall: "55- Jabl Omar",
-    quantity: 1,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "20750",
-    name: "*MEDALION KING COMFORTER 11 PCS KIT",
     mall: "11-Jouri Mall",
     quantity: 1,
     lastSaleDate: "2025-01-17"
@@ -10185,48 +8757,6 @@ const oldData = [
     lastSaleDate: "2025-01-11"
   },
   {
-    code: "23165",
-    name: "*MIKHALIA SAGE KING COMFORTER 11 PCS KIT",
-    mall: "49-AlAhsa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "24024",
-    name: "*MIRABELLE PALE SEASPRAY KING COMFORTER 8 PCS KIT",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "24024",
-    name: "*MIRABELLE PALE SEASPRAY KING COMFORTER 8 PCS KIT",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24024",
-    name: "*MIRABELLE PALE SEASPRAY KING COMFORTER 8 PCS KIT",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "24024",
-    name: "*MIRABELLE PALE SEASPRAY KING COMFORTER 8 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "24024",
-    name: "*MIRABELLE PALE SEASPRAY KING COMFORTER 8 PCS KIT",
-    mall: "49-AlAhsa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-09"
-  },
-  {
     code: "19839",
     name: "*MIRAGE KING COMFORTER 12 PCS KIT",
     mall: "36-Al jubail Mall",
@@ -10274,13 +8804,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 2,
     lastSaleDate: "2024-04-08"
-  },
-  {
-    code: "20862",
-    name: "*MORA NAVY KING COMFORTER 11 PCS KIT",
-    mall: "55- Jabl Omar",
-    quantity: 1,
-    lastSaleDate: "2025-03-31"
   },
   {
     code: "23814",
@@ -10381,6 +8904,13 @@ const oldData = [
     lastSaleDate: "2025-04-21"
   },
   {
+    code: "21351",
+    name: "*NAVY FULL WAMSUTTA COMFORTER 9 PCS KIT",
+    mall: "24-Yanbu Dana Mall",
+    quantity: 2,
+    lastSaleDate: "2024-09-22"
+  },
+  {
     code: "21345",
     name: "*NAVY KING WAMSUTTA COMFORTER 9 PCS KIT",
     mall: "04-Andalos Mall",
@@ -10393,13 +8923,6 @@ const oldData = [
     mall: "05-Haifa Mall",
     quantity: 6,
     lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "21345",
-    name: "*NAVY KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "06-Red Sea Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "21345",
@@ -10425,23 +8948,9 @@ const oldData = [
   {
     code: "21345",
     name: "*NAVY KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "23-Alia Mall Madinah",
-    quantity: 5,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "21345",
-    name: "*NAVY KING WAMSUTTA COMFORTER 9 PCS KIT",
     mall: "26-Al-Noor Mall Madinah",
     quantity: 4,
     lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "21345",
-    name: "*NAVY KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "43-Mujan Park",
-    quantity: 5,
-    lastSaleDate: "2025-04-11"
   },
   {
     code: "21345",
@@ -10474,13 +8983,6 @@ const oldData = [
   {
     code: "21345",
     name: "*NAVY KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "06-Red Sea Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "21345",
-    name: "*NAVY KING WAMSUTTA COMFORTER 9 PCS KIT",
     mall: "14-Al Kamal Mall",
     quantity: 2,
     lastSaleDate: "2025-03-28"
@@ -10502,30 +9004,9 @@ const oldData = [
   {
     code: "21345",
     name: "*NAVY KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2024-06-28"
-  },
-  {
-    code: "21345",
-    name: "*NAVY KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2024-09-20"
-  },
-  {
-    code: "21345",
-    name: "*NAVY KING WAMSUTTA COMFORTER 9 PCS KIT",
     mall: "36-Al jubail Mall",
     quantity: 2,
     lastSaleDate: "2024-06-16"
-  },
-  {
-    code: "21345",
-    name: "*NAVY KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 4,
-    lastSaleDate: "2024-07-20"
   },
   {
     code: "21345",
@@ -10603,48 +9084,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 2,
     lastSaleDate: "2024-07-20"
-  },
-  {
-    code: "23982",
-    name: "*PALLINGTON BLOOM / PLASTER PINK KING COMFORTER 8 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23982",
-    name: "*PALLINGTON BLOOM / PLASTER PINK KING COMFORTER 8 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23982",
-    name: "*PALLINGTON BLOOM / PLASTER PINK KING COMFORTER 8 PCS KIT",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23982",
-    name: "*PALLINGTON BLOOM / PLASTER PINK KING COMFORTER 8 PCS KIT",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23984",
-    name: "*PALLINGTON BLOOM / RUBY  KING COMFORTER 8 PCS KIT",
-    mall: "55- Jabl Omar",
-    quantity: 1,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23984",
-    name: "*PALLINGTON BLOOM / RUBY  KING COMFORTER 8 PCS KIT",
-    mall: "49-AlAhsa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-26"
   },
   {
     code: "19918",
@@ -10787,60 +9226,11 @@ const oldData = [
     lastSaleDate: "2024-12-10"
   },
   {
-    code: "23865",
-    name: "*QUINCY BEIGE KING COMFORTER 8 PCS KIT",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23865",
-    name: "*QUINCY BEIGE KING COMFORTER 8 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23865",
-    name: "*QUINCY BEIGE KING COMFORTER 8 PCS KIT",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23865",
-    name: "*QUINCY BEIGE KING COMFORTER 8 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23865",
-    name: "*QUINCY BEIGE KING COMFORTER 8 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23865",
-    name: "*QUINCY BEIGE KING COMFORTER 8 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-27"
-  },
-  {
     code: "23645",
     name: "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT",
     mall: "52-Al_Baha Mall",
     quantity: 2,
     lastSaleDate: "2025-03-18"
-  },
-  {
-    code: "23645",
-    name: "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "23645",
@@ -10855,13 +9245,6 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 1,
     lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23645",
-    name: "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-14"
   },
   {
     code: "23645",
@@ -10915,20 +9298,6 @@ const oldData = [
   {
     code: "23645",
     name: "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT",
-    mall: "20-Sitten Street Makkah",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23645",
-    name: "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23645",
-    name: "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT",
     mall: "52-Al_Baha Mall",
     quantity: 1,
     lastSaleDate: "2025-03-18"
@@ -10939,13 +9308,6 @@ const oldData = [
     mall: "56- Aziz Mall 2",
     quantity: 3,
     lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23645",
-    name: "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT",
-    mall: "17-Arar Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
   },
   {
     code: "23645",
@@ -10964,13 +9326,6 @@ const oldData = [
   {
     code: "23645",
     name: "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23645",
-    name: "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT",
     mall: "45- Riyadh Gallery Mall",
     quantity: 4,
     lastSaleDate: "2025-03-21"
@@ -10981,13 +9336,6 @@ const oldData = [
     mall: "30-Tala Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23645",
-    name: "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 6,
-    lastSaleDate: "2025-03-28"
   },
   {
     code: "23645",
@@ -11062,13 +9410,6 @@ const oldData = [
   {
     code: "16412",
     name: "*REIGER KING COMFORTER 11 PCS KIT",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2024-08-29"
-  },
-  {
-    code: "16412",
-    name: "*REIGER KING COMFORTER 11 PCS KIT",
     mall: "19-Hail Othaim Mall",
     quantity: 5,
     lastSaleDate: "2025-04-14"
@@ -11097,42 +9438,7 @@ const oldData = [
   {
     code: "23867",
     name: "*ROME MEDALLION KING COMFORTER 8 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23867",
-    name: "*ROME MEDALLION KING COMFORTER 8 PCS KIT",
-    mall: "06-Red Sea Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23867",
-    name: "*ROME MEDALLION KING COMFORTER 8 PCS KIT",
-    mall: "07-Arab Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23867",
-    name: "*ROME MEDALLION KING COMFORTER 8 PCS KIT",
     mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23867",
-    name: "*ROME MEDALLION KING COMFORTER 8 PCS KIT",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "23867",
-    name: "*ROME MEDALLION KING COMFORTER 8 PCS KIT",
-    mall: "57-Sauq7",
     quantity: 1,
     lastSaleDate: "2025-03-29"
   },
@@ -11149,13 +9455,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 1,
     lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "23867",
-    name: "*ROME MEDALLION KING COMFORTER 8 PCS KIT",
-    mall: "06-Red Sea Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "23867",
@@ -11202,9 +9501,9 @@ const oldData = [
   {
     code: "23867",
     name: "*ROME MEDALLION KING COMFORTER 8 PCS KIT",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-07"
+    mall: "24-Yanbu Dana Mall",
+    quantity: 2,
+    lastSaleDate: "2025-04-04"
   },
   {
     code: "23867",
@@ -11226,13 +9525,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 2,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23867",
-    name: "*ROME MEDALLION KING COMFORTER 8 PCS KIT",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 3,
-    lastSaleDate: "2025-03-30"
   },
   {
     code: "23867",
@@ -11279,13 +9571,6 @@ const oldData = [
   {
     code: "15214",
     name: "*ROPE EMBRODERY KING COMFORTER 11 PCS KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "15214",
-    name: "*ROPE EMBRODERY KING COMFORTER 11 PCS KIT",
     mall: "49-AlAhsa Mall",
     quantity: 2,
     lastSaleDate: "2024-12-22"
@@ -11296,13 +9581,6 @@ const oldData = [
     mall: "15-Riyadh Othaim Mall",
     quantity: 2,
     lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "15214",
-    name: "*ROPE EMBRODERY KING COMFORTER 11 PCS KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "15214",
@@ -11375,13 +9653,6 @@ const oldData = [
     lastSaleDate: "2025-04-27"
   },
   {
-    code: "15214",
-    name: "*ROPE EMBRODERY KING COMFORTER 11 PCS KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
     code: "20628",
     name: "*RORY YELLOW FULL COMFORTER 8 PCS KIT",
     mall: "43-Mujan Park",
@@ -11415,20 +9686,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 1,
     lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "20628",
-    name: "*RORY YELLOW FULL COMFORTER 8 PCS KIT",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-02-11"
-  },
-  {
-    code: "20628",
-    name: "*RORY YELLOW FULL COMFORTER 8 PCS KIT",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "23169",
@@ -11510,20 +9767,6 @@ const oldData = [
   {
     code: "23869",
     name: "*SAKURA LILAC KING COMFORTER 7 PCS KIT",
-    mall: "56- Aziz Mall 2",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23869",
-    name: "*SAKURA LILAC KING COMFORTER 7 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23869",
-    name: "*SAKURA LILAC KING COMFORTER 7 PCS KIT",
     mall: "14-Al Kamal Mall",
     quantity: 3,
     lastSaleDate: "2025-04-26"
@@ -11534,13 +9777,6 @@ const oldData = [
     mall: "22-Tabuk Park",
     quantity: 3,
     lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23869",
-    name: "*SAKURA LILAC KING COMFORTER 7 PCS KIT",
-    mall: "56- Aziz Mall 2",
-    quantity: 3,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "23869",
@@ -11620,48 +9856,6 @@ const oldData = [
     lastSaleDate: "2025-04-24"
   },
   {
-    code: "23652",
-    name: "*SHANGAI NATURAL COMF K 8 PCS KIT",
-    mall: "49-AlAhsa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "23652",
-    name: "*SHANGAI NATURAL COMF K 8 PCS KIT",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23652",
-    name: "*SHANGAI NATURAL COMF K 8 PCS KIT",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23652",
-    name: "*SHANGAI NATURAL COMF K 8 PCS KIT",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23652",
-    name: "*SHANGAI NATURAL COMF K 8 PCS KIT",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23650",
-    name: "*SHANGAI OLIVE TUSCAN COMF K 8 PCS KIT",
-    mall: "38-Al_Riyadh Park",
-    quantity: 3,
-    lastSaleDate: "2025-04-25"
-  },
-  {
     code: "23650",
     name: "*SHANGAI OLIVE TUSCAN COMF K 8 PCS KIT",
     mall: "48 - Jeddah Park",
@@ -11671,9 +9865,9 @@ const oldData = [
   {
     code: "23650",
     name: "*SHANGAI OLIVE TUSCAN COMF K 8 PCS KIT",
-    mall: "57-Sauq7",
+    mall: "18-Al_Khayyat Center",
     quantity: 1,
-    lastSaleDate: "2025-04-28"
+    lastSaleDate: "2025-04-27"
   },
   {
     code: "23650",
@@ -11741,72 +9935,9 @@ const oldData = [
   {
     code: "23656",
     name: "*SHANGAI QULETUDE COMF K 8 PCS KIT",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "23656",
-    name: "*SHANGAI QULETUDE COMF K 8 PCS KIT",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "23656",
-    name: "*SHANGAI QULETUDE COMF K 8 PCS KIT",
     mall: "53-Al Basateen Mall",
     quantity: 1,
     lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23871",
-    name: "*SHANGHAI GREY KING COMFORTER 8 PCS KIT",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23871",
-    name: "*SHANGHAI GREY KING COMFORTER 8 PCS KIT",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23871",
-    name: "*SHANGHAI GREY KING COMFORTER 8 PCS KIT",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23871",
-    name: "*SHANGHAI GREY KING COMFORTER 8 PCS KIT",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23871",
-    name: "*SHANGHAI GREY KING COMFORTER 8 PCS KIT",
-    mall: "38-Al_Riyadh Park",
-    quantity: 2,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "23871",
-    name: "*SHANGHAI GREY KING COMFORTER 8 PCS KIT",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "17201",
-    name: "*SHANGIA SAFRON KING COMFORTER 8 PCS KIT",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-17"
   },
   {
     code: "17201",
@@ -11818,37 +9949,9 @@ const oldData = [
   {
     code: "17201",
     name: "*SHANGIA SAFRON KING COMFORTER 8 PCS KIT",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "17201",
-    name: "*SHANGIA SAFRON KING COMFORTER 8 PCS KIT",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "17201",
-    name: "*SHANGIA SAFRON KING COMFORTER 8 PCS KIT",
     mall: "17-Arar Othaim Mall",
     quantity: 2,
     lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "17201",
-    name: "*SHANGIA SAFRON KING COMFORTER 8 PCS KIT",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "17201",
-    name: "*SHANGIA SAFRON KING COMFORTER 8 PCS KIT",
-    mall: "49-AlAhsa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-25"
   },
   {
     code: "21091",
@@ -11902,13 +10005,6 @@ const oldData = [
   {
     code: "21348",
     name: "*SILVER FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "22-Tabuk Park",
-    quantity: 2,
-    lastSaleDate: "2024-07-19"
-  },
-  {
-    code: "21348",
-    name: "*SILVER FULL WAMSUTTA COMFORTER 9 PCS KIT",
     mall: "24-Yanbu Dana Mall",
     quantity: 2,
     lastSaleDate: "2024-09-14"
@@ -11951,13 +10047,6 @@ const oldData = [
   {
     code: "21348",
     name: "*SILVER FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2024-07-15"
-  },
-  {
-    code: "21348",
-    name: "*SILVER FULL WAMSUTTA COMFORTER 9 PCS KIT",
     mall: "56- Aziz Mall 2",
     quantity: 4,
     lastSaleDate: "2024-08-12"
@@ -11991,13 +10080,6 @@ const oldData = [
     lastSaleDate: "2024-09-08"
   },
   {
-    code: "21348",
-    name: "*SILVER FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "22-Tabuk Park",
-    quantity: 2,
-    lastSaleDate: "2024-07-19"
-  },
-  {
     code: "21342",
     name: "*SILVER KING WAMSUTTA COMFORTER 9 PCS KIT",
     mall: "55- Jabl Omar",
@@ -12010,20 +10092,6 @@ const oldData = [
     mall: "05-Haifa Mall",
     quantity: 6,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "21342",
-    name: "*SILVER KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "21342",
-    name: "*SILVER KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "11-Jouri Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-24"
   },
   {
     code: "21342",
@@ -12045,13 +10113,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 1,
     lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "23820",
-    name: "*SOFT TOILE FLORAL AVOIN BLUE KING COMFORTER 11 PCS KIT",
-    mall: "11-Jouri Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "23820",
@@ -12108,83 +10169,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 1,
     lastSaleDate: "2023-07-24"
-  },
-  {
-    code: "23830",
-    name: "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "04-Andalos Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23830",
-    name: "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "04-Andalos Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23830",
-    name: "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23830",
-    name: "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23830",
-    name: "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "23830",
-    name: "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23830",
-    name: "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "18-Al_Khayyat Center",
-    quantity: 3,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "23830",
-    name: "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "48 - Jeddah Park",
-    quantity: 2,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23830",
-    name: "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23830",
-    name: "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23830",
-    name: "*STRAWBERRY WHITE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "36-Al jubail Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
   },
   {
     code: "22437",
@@ -12264,34 +10248,6 @@ const oldData = [
     lastSaleDate: "2020-08-16"
   },
   {
-    code: "23873",
-    name: "*TERINA BLUSH KING COMFORTER 8 PCS KIT",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23873",
-    name: "*TERINA BLUSH KING COMFORTER 8 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23873",
-    name: "*TERINA BLUSH KING COMFORTER 8 PCS KIT",
-    mall: "08-Makkah Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23873",
-    name: "*TERINA BLUSH KING COMFORTER 8 PCS KIT",
-    mall: "08-Makkah Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-21"
-  },
-  {
     code: "21749",
     name: "*TERRA FULL COMFORTER 8 PCS KIT",
     mall: "50-Meem Plaza Riyadh",
@@ -12322,13 +10278,6 @@ const oldData = [
   {
     code: "21749",
     name: "*TERRA FULL COMFORTER 8 PCS KIT",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 1,
-    lastSaleDate: "2025-03-12"
-  },
-  {
-    code: "21749",
-    name: "*TERRA FULL COMFORTER 8 PCS KIT",
     mall: "51-Park Avenue Riyadh",
     quantity: 8,
     lastSaleDate: "2025-01-22"
@@ -12339,13 +10288,6 @@ const oldData = [
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "21749",
-    name: "*TERRA FULL COMFORTER 8 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-09"
   },
   {
     code: "21749",
@@ -12511,20 +10453,6 @@ const oldData = [
   {
     code: "21749",
     name: "*TERRA FULL COMFORTER 8 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-09"
-  },
-  {
-    code: "21749",
-    name: "*TERRA FULL COMFORTER 8 PCS KIT",
-    mall: "18-Al_Khayyat Center",
-    quantity: 2,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "21749",
-    name: "*TERRA FULL COMFORTER 8 PCS KIT",
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 4,
     lastSaleDate: "2024-10-31"
@@ -12563,34 +10491,6 @@ const oldData = [
     mall: "57-Sauq7",
     quantity: 1,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "24026",
-    name: "*TONAL FLORAL TAUPE KING COMFORTER 8 PCS KIT",
-    mall: "55- Jabl Omar",
-    quantity: 1,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "24026",
-    name: "*TONAL FLORAL TAUPE KING COMFORTER 8 PCS KIT",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "24026",
-    name: "*TONAL FLORAL TAUPE KING COMFORTER 8 PCS KIT",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "24026",
-    name: "*TONAL FLORAL TAUPE KING COMFORTER 8 PCS KIT",
-    mall: "22-Tabuk Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-12"
   },
   {
     code: "23826",
@@ -12698,13 +10598,6 @@ const oldData = [
     lastSaleDate: "2025-04-26"
   },
   {
-    code: "23826",
-    name: "*TONAL SAGE VILETTE KING COMFORTER 11 PCS KIT",
-    mall: "49-AlAhsa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
     code: "15395",
     name: "*TRAVEL DIARIES LILAC FULL COMFORTER 9 PCS KIT",
     mall: "36-Al jubail Mall",
@@ -12733,270 +10626,11 @@ const oldData = [
     lastSaleDate: "2024-12-06"
   },
   {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "48 - Jeddah Park",
-    quantity: 4,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "48 - Jeddah Park",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "53-Al Basateen Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "23-Alia Mall Madinah",
-    quantity: 4,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "23-Alia Mall Madinah",
-    quantity: 2,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23828",
-    name: "*VILETTE MULTI SAGE CASCADE KING COMFORTER 11 PCS KIT",
-    mall: "36-Al jubail Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
     code: "17617",
     name: "*WATERLILY DARK BLUE KING COMFORTER 6 PCS KIT",
     mall: "32-Atyaf Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2023-03-22"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2024-08-07"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 13,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "04-Andalos Mall",
-    quantity: 4,
-    lastSaleDate: "2024-08-06"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2024-07-29"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 2,
-    lastSaleDate: "2024-08-28"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 2,
-    lastSaleDate: "2024-08-09"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2024-12-26"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "54-THE VILLAGE",
-    quantity: 2,
-    lastSaleDate: "2024-09-23"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "57-Sauq7",
-    quantity: 2,
-    lastSaleDate: "2024-04-19"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "11-Jouri Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-27"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "23-Alia Mall Madinah",
-    quantity: 4,
-    lastSaleDate: "2024-08-03"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2024-08-07"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 4,
-    lastSaleDate: "2024-10-12"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 4,
-    lastSaleDate: "2024-08-24"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2023-09-23"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 2,
-    lastSaleDate: "2024-08-24"
-  },
-  {
-    code: "21347",
-    name: "*WHITE FULL WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "21341",
-    name: "*WHITE KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2024-09-18"
-  },
-  {
-    code: "21341",
-    name: "*WHITE KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "21341",
-    name: "*WHITE KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "21341",
-    name: "*WHITE KING WAMSUTTA COMFORTER 9 PCS KIT",
-    mall: "49-AlAhsa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-30"
   },
   {
     code: "21931",
@@ -13118,181 +10752,6 @@ const oldData = [
     lastSaleDate: "2025-03-22"
   },
   {
-    code: "23516",
-    name: "*ZAHA ECRU KING COMFORTER 8 PCS KIT",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23516",
-    name: "*ZAHA ECRU KING COMFORTER 8 PCS KIT",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23516",
-    name: "*ZAHA ECRU KING COMFORTER 8 PCS KIT",
-    mall: "43-Mujan Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23516",
-    name: "*ZAHA ECRU KING COMFORTER 8 PCS KIT",
-    mall: "06-Red Sea Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23516",
-    name: "*ZAHA ECRU KING COMFORTER 8 PCS KIT",
-    mall: "54-THE VILLAGE",
-    quantity: 1,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "55- Jabl Omar",
-    quantity: 1,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-02-21"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "11-Jouri Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "11-Jouri Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "09-Al-Salam Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "11-Jouri Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "17084",
-    name: "*ZAHA RAIN BLUE KING COMFORTER 8 PCS KIT",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "17086",
-    name: "*ZAHA WHITE KING COMFORTER 8 PCS KIT",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "17086",
-    name: "*ZAHA WHITE KING COMFORTER 8 PCS KIT",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "17086",
-    name: "*ZAHA WHITE KING COMFORTER 8 PCS KIT",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "17086",
-    name: "*ZAHA WHITE KING COMFORTER 8 PCS KIT",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-27"
-  },
-  {
     code: "22378",
     name: "008 VM TUMBER WITH STRAW 24 OZ",
     mall: "25-Rabwa Othaim Mall",
@@ -13312,13 +10771,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 2,
     lastSaleDate: "2024-08-27"
-  },
-  {
-    code: "23713",
-    name: "1034 PP TRAVEL BAG LARGE SIZE",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-04-25"
   },
   {
     code: "15872",
@@ -13391,20 +10843,6 @@ const oldData = [
     lastSaleDate: "2022-05-25"
   },
   {
-    code: "16832",
-    name: "300TC DREAM COMFORT KING PILLOW",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "16832",
-    name: "300TC DREAM COMFORT KING PILLOW",
-    mall: "55- Jabl Omar",
-    quantity: 24,
-    lastSaleDate: "2025-03-26"
-  },
-  {
     code: "15535",
     name: "3PCS TOWEL SET BENTONNE",
     mall: "30-Tala Mall Riyadh",
@@ -13442,13 +10880,6 @@ const oldData = [
   {
     code: "22485",
     name: "90*50 KITCH TOWEL BTP-243",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 30,
-    lastSaleDate: "2024-09-21"
-  },
-  {
-    code: "22485",
-    name: "90*50 KITCH TOWEL BTP-243",
     mall: "19-Hail Othaim Mall",
     quantity: 3,
     lastSaleDate: "2024-08-16"
@@ -13470,13 +10901,6 @@ const oldData = [
   {
     code: "22486",
     name: "90*50 KITCH TOWEL BTP-248",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22486",
-    name: "90*50 KITCH TOWEL BTP-248",
     mall: "50-Meem Plaza Riyadh",
     quantity: 1,
     lastSaleDate: "2025-03-11"
@@ -13494,13 +10918,6 @@ const oldData = [
     mall: "12-Al_Hamra Mall",
     quantity: 1,
     lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23144",
-    name: "90*50 KITCH TOWEL CHAMBRAY BLUE BTP-781",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 12,
-    lastSaleDate: "2025-04-24"
   },
   {
     code: "23144",
@@ -13550,13 +10967,6 @@ const oldData = [
     mall: "39-Salam Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23143",
-    name: "90*50 KITCH TOWEL CHAMBRAY BROWN BTP-781",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 5,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "23143",
@@ -13855,23 +11265,9 @@ const oldData = [
   {
     code: "23129",
     name: "90*50 KITCH TOWEL LUSTROUS BLUE BTP-802",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23129",
-    name: "90*50 KITCH TOWEL LUSTROUS BLUE BTP-802",
     mall: "28-Al Nakheel Mall Dammam",
     quantity: 1,
     lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23129",
-    name: "90*50 KITCH TOWEL LUSTROUS BLUE BTP-802",
-    mall: "38-Al_Riyadh Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "23129",
@@ -13949,13 +11345,6 @@ const oldData = [
     mall: "48 - Jeddah Park",
     quantity: 2,
     lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "23130",
-    name: "90*50 KITCH TOWEL LUSTROUS GREY BTP-802",
-    mall: "49-AlAhsa Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "23130",
@@ -14156,13 +11545,6 @@ const oldData = [
   {
     code: "23128",
     name: "90*50 KITCH TOWEL LUSTROUS WHITE BTP-802",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23128",
-    name: "90*50 KITCH TOWEL LUSTROUS WHITE BTP-802",
     mall: "46-Khaleej Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-25"
@@ -14289,13 +11671,6 @@ const oldData = [
   {
     code: "23126",
     name: "90*50 KITCH TOWEL POPCORN BEIGE BTP-8920",
-    mall: "22-Tabuk Park",
-    quantity: 5,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23126",
-    name: "90*50 KITCH TOWEL POPCORN BEIGE BTP-8920",
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2025-03-18"
@@ -14327,13 +11702,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 14,
     lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "23125",
-    name: "90*50 KITCH TOWEL POPCORN BROWN BTP-8920",
-    mall: "52-Al_Baha Mall",
-    quantity: 32,
-    lastSaleDate: "2025-04-20"
   },
   {
     code: "23125",
@@ -14516,13 +11884,6 @@ const oldData = [
     mall: "06-Red Sea Mall",
     quantity: 4,
     lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "23122",
-    name: "90*50 KITCH TOWEL POPCORN WHITE BTP-8920",
-    mall: "12-Al_Hamra Mall",
-    quantity: 16,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "23122",
@@ -14812,13 +12173,6 @@ const oldData = [
     lastSaleDate: "2020-10-17"
   },
   {
-    code: "13635",
-    name: "@ACCESS SET 3 PCS NZ90-628",
-    mall: "56- Aziz Mall 2",
-    quantity: 10,
-    lastSaleDate: "2025-04-28"
-  },
-  {
     code: "13640",
     name: "@ACCESS SET 5 PCS NZ90-624",
     mall: "19-Hail Othaim Mall",
@@ -14931,181 +12285,6 @@ const oldData = [
     lastSaleDate: "2024-11-30"
   },
   {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "12-Al_Hamra Mall",
-    quantity: 6,
-    lastSaleDate: "2023-08-24"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2023-08-26"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 6,
-    lastSaleDate: "2023-07-07"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 2,
-    lastSaleDate: "2024-05-25"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2023-08-27"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2024-02-01"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 4,
-    lastSaleDate: "2023-09-09"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "44-Al-Jouf Center",
-    quantity: 4,
-    lastSaleDate: "2024-06-13"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 2,
-    lastSaleDate: "2023-08-22"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 6,
-    lastSaleDate: "2023-11-25"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "49-AlAhsa Mall",
-    quantity: 7,
-    lastSaleDate: "2023-04-14"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "53-Al Basateen Mall",
-    quantity: 6,
-    lastSaleDate: "2023-08-01"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "08-Makkah Mall",
-    quantity: 10,
-    lastSaleDate: "2023-07-19"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "11-Jouri Mall",
-    quantity: 6,
-    lastSaleDate: "2023-07-26"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 2,
-    lastSaleDate: "2023-07-21"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "14-Al Kamal Mall",
-    quantity: 4,
-    lastSaleDate: "2023-08-01"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2023-08-30"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2023-08-24"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 4,
-    lastSaleDate: "2024-05-03"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "22-Tabuk Park",
-    quantity: 2,
-    lastSaleDate: "2023-08-19"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "23-Alia Mall Madinah",
-    quantity: 10,
-    lastSaleDate: "2024-09-05"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 9,
-    lastSaleDate: "2023-08-27"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "48 - Jeddah Park",
-    quantity: 4,
-    lastSaleDate: "2023-08-02"
-  },
-  {
-    code: "10637",
-    name: "@EURO SHAM PILLOW",
-    mall: "56- Aziz Mall 2",
-    quantity: 4,
-    lastSaleDate: "2024-08-16"
-  },
-  {
     code: "12163",
     name: "@FINEST KING 6 PCS",
     mall: "11-Jouri Mall",
@@ -15174,146 +12353,6 @@ const oldData = [
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 2,
     lastSaleDate: "2023-01-05"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "36-Al jubail Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "12-Al_Hamra Mall",
-    quantity: 32,
-    lastSaleDate: "2023-01-07"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 19,
-    lastSaleDate: "2025-01-04"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "19-Hail Othaim Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2024-10-05"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 34,
-    lastSaleDate: "2023-08-17"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 12,
-    lastSaleDate: "2022-12-31"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 14,
-    lastSaleDate: "2022-12-22"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 17,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "44-Al-Jouf Center",
-    quantity: 17,
-    lastSaleDate: "2024-12-09"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 32,
-    lastSaleDate: "2023-12-01"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 5,
-    lastSaleDate: "2023-08-30"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2023-03-05"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 16,
-    lastSaleDate: "2023-08-31"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "53-Al Basateen Mall",
-    quantity: 7,
-    lastSaleDate: "2024-08-07"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "17-Arar Othaim Mall",
-    quantity: 39,
-    lastSaleDate: "2025-01-04"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "55- Jabl Omar",
-    quantity: 22,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "18-Al_Khayyat Center",
-    quantity: 16,
-    lastSaleDate: "2024-11-05"
-  },
-  {
-    code: "10638",
-    name: "@KING PILLOW MARAM",
-    mall: "55- Jabl Omar",
-    quantity: 15,
-    lastSaleDate: "2025-03-24"
   },
   {
     code: "12308",
@@ -15430,13 +12469,6 @@ const oldData = [
   {
     code: "12162",
     name: "@SILVER LEAF KING 6 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2020-09-07"
-  },
-  {
-    code: "12162",
-    name: "@SILVER LEAF KING 6 PCS",
     mall: "11-Jouri Mall",
     quantity: 2,
     lastSaleDate: "2021-06-16"
@@ -15526,13 +12558,6 @@ const oldData = [
     lastSaleDate: "2024-05-14"
   },
   {
-    code: "11223",
-    name: "@UNIFORM",
-    mall: "20-Sitten Street Makkah",
-    quantity: 7,
-    lastSaleDate: "2021-04-20"
-  },
-  {
     code: "14498",
     name: "@UNIFORM NEW",
     mall: "06-Red Sea Mall",
@@ -15582,74 +12607,11 @@ const oldData = [
     lastSaleDate: "2024-08-24"
   },
   {
-    code: "23731",
-    name: "A28 FABRIC TRAVEL BAG LARGE SIZE",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2025-04-15"
-  },
-  {
     code: "23729",
     name: "A28 FABRIC TRAVEL BAG SMALL SIZE",
     mall: "55- Jabl Omar",
     quantity: 1,
     lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23307",
-    name: "A426 SOMOOSHIE TOY - CRAB PINK",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-07"
-  },
-  {
-    code: "23307",
-    name: "A426 SOMOOSHIE TOY - CRAB PINK",
-    mall: "14-Al Kamal Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23307",
-    name: "A426 SOMOOSHIE TOY - CRAB PINK",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "23307",
-    name: "A426 SOMOOSHIE TOY - CRAB PINK",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "23307",
-    name: "A426 SOMOOSHIE TOY - CRAB PINK",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23307",
-    name: "A426 SOMOOSHIE TOY - CRAB PINK",
-    mall: "57-Sauq7",
-    quantity: 2,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23309",
-    name: "A428 SOMOOSHIE TOY - DEER WHITE/RED",
-    mall: "07-Arab Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23309",
-    name: "A428 SOMOOSHIE TOY - DEER WHITE/RED",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-19"
   },
   {
     code: "23309",
@@ -15675,23 +12637,9 @@ const oldData = [
   {
     code: "23309",
     name: "A428 SOMOOSHIE TOY - DEER WHITE/RED",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-03-16"
-  },
-  {
-    code: "23309",
-    name: "A428 SOMOOSHIE TOY - DEER WHITE/RED",
     mall: "39-Salam Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "23309",
-    name: "A428 SOMOOSHIE TOY - DEER WHITE/RED",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "23459",
@@ -15706,13 +12654,6 @@ const oldData = [
     mall: "08-Makkah Mall",
     quantity: 2,
     lastSaleDate: "2025-02-19"
-  },
-  {
-    code: "23459",
-    name: "A450 SMOOSHIE TOY- STRAWBERRY TEA PEACH PING",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-03-14"
   },
   {
     code: "23459",
@@ -15738,30 +12679,9 @@ const oldData = [
   {
     code: "23460",
     name: "A451 SMOOSHIE TOY- CREAM TEA LT.PINK",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23460",
-    name: "A451 SMOOSHIE TOY- CREAM TEA LT.PINK",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23460",
-    name: "A451 SMOOSHIE TOY- CREAM TEA LT.PINK",
     mall: "08-Makkah Mall",
     quantity: 2,
     lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "23460",
-    name: "A451 SMOOSHIE TOY- CREAM TEA LT.PINK",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-09"
   },
   {
     code: "23460",
@@ -15780,72 +12700,9 @@ const oldData = [
   {
     code: "23460",
     name: "A451 SMOOSHIE TOY- CREAM TEA LT.PINK",
-    mall: "54-THE VILLAGE",
-    quantity: 4,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23460",
-    name: "A451 SMOOSHIE TOY- CREAM TEA LT.PINK",
     mall: "55- Jabl Omar",
     quantity: 4,
     lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "23317",
-    name: "A455 SOMOOSHIE TOY - CRAB LT.LAVENDER/PEACH",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "23317",
-    name: "A455 SOMOOSHIE TOY - CRAB LT.LAVENDER/PEACH",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-12"
-  },
-  {
-    code: "23317",
-    name: "A455 SOMOOSHIE TOY - CRAB LT.LAVENDER/PEACH",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "23317",
-    name: "A455 SOMOOSHIE TOY - CRAB LT.LAVENDER/PEACH",
-    mall: "23-Alia Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-03-08"
-  },
-  {
-    code: "23317",
-    name: "A455 SOMOOSHIE TOY - CRAB LT.LAVENDER/PEACH",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23317",
-    name: "A455 SOMOOSHIE TOY - CRAB LT.LAVENDER/PEACH",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 12,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23317",
-    name: "A455 SOMOOSHIE TOY - CRAB LT.LAVENDER/PEACH",
-    mall: "56- Aziz Mall 2",
-    quantity: 4,
-    lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "23317",
-    name: "A455 SOMOOSHIE TOY - CRAB LT.LAVENDER/PEACH",
-    mall: "57-Sauq7",
-    quantity: 2,
-    lastSaleDate: "2025-03-22"
   },
   {
     code: "21562",
@@ -15853,34 +12710,6 @@ const oldData = [
     mall: "46-Khaleej Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2024-11-26"
-  },
-  {
-    code: "17968",
-    name: "ADJUSTABLE KING PILLOW",
-    mall: "55- Jabl Omar",
-    quantity: 12,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "17968",
-    name: "ADJUSTABLE KING PILLOW",
-    mall: "44-Al-Jouf Center",
-    quantity: 18,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "17968",
-    name: "ADJUSTABLE KING PILLOW",
-    mall: "55- Jabl Omar",
-    quantity: 30,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "17968",
-    name: "ADJUSTABLE KING PILLOW",
-    mall: "09-Al-Salam Mall",
-    quantity: 13,
-    lastSaleDate: "2025-02-14"
   },
   {
     code: "21713",
@@ -15948,13 +12777,6 @@ const oldData = [
   {
     code: "21713",
     name: "ADLER TURKISH COFFEE SET 6 PCS 90 ML CS-017",
-    mall: "54-THE VILLAGE",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "21713",
-    name: "ADLER TURKISH COFFEE SET 6 PCS 90 ML CS-017",
     mall: "55- Jabl Omar",
     quantity: 3,
     lastSaleDate: "2025-03-20"
@@ -15965,13 +12787,6 @@ const oldData = [
     mall: "09-Al-Salam Mall",
     quantity: 2,
     lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "23514",
-    name: "ADRIANNA IVORY FULL COMFORTER 8 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-26"
   },
   {
     code: "23514",
@@ -16004,23 +12819,9 @@ const oldData = [
   {
     code: "23514",
     name: "ADRIANNA IVORY FULL COMFORTER 8 PCS",
-    mall: "36-Al jubail Mall",
-    quantity: 2,
-    lastSaleDate: "2025-01-28"
-  },
-  {
-    code: "23514",
-    name: "ADRIANNA IVORY FULL COMFORTER 8 PCS",
     mall: "42-Dareen Mall Dammam",
     quantity: 16,
     lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23514",
-    name: "ADRIANNA IVORY FULL COMFORTER 8 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-12"
   },
   {
     code: "23514",
@@ -16093,20 +12894,6 @@ const oldData = [
     lastSaleDate: "2025-04-05"
   },
   {
-    code: "19316",
-    name: "AIR-RICH IVORY 70X140 BATH TOWEL",
-    mall: "14-Al Kamal Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "19316",
-    name: "AIR-RICH IVORY 70X140 BATH TOWEL",
-    mall: "14-Al Kamal Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-09"
-  },
-  {
     code: "19347",
     name: "AIR-RICH LAVENDER 70X140 BATH TOWEL",
     mall: "46-Khaleej Mall Riyadh",
@@ -16126,27 +12913,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 3,
     lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "19317",
-    name: "AIR-RICH LINEN 70X140 BATH TOWEL",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 14,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "20159",
-    name: "AIR-RICH NAVY 70X140 BATH TOWEL",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2024-05-12"
-  },
-  {
-    code: "20159",
-    name: "AIR-RICH NAVY 70X140 BATH TOWEL",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-12"
   },
   {
     code: "19319",
@@ -16291,6 +13057,13 @@ const oldData = [
   {
     code: "20776",
     name: "ALICE MEMORY KING QUILT 3 PCS",
+    mall: "05-Haifa Mall",
+    quantity: 4,
+    lastSaleDate: "2025-04-11"
+  },
+  {
+    code: "20776",
+    name: "ALICE MEMORY KING QUILT 3 PCS",
     mall: "14-Al Kamal Mall",
     quantity: 3,
     lastSaleDate: "2025-04-02"
@@ -16336,13 +13109,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 2,
     lastSaleDate: "2023-06-26"
-  },
-  {
-    code: "23610",
-    name: "ALMKAAR BEIGE BLUE KING COMFORTER 8 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-19"
   },
   {
     code: "23610",
@@ -17005,13 +13771,6 @@ const oldData = [
   {
     code: "19899",
     name: "ARK DINING SET 40 PCS P758/40",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "19899",
-    name: "ARK DINING SET 40 PCS P758/40",
     mall: "45- Riyadh Gallery Mall",
     quantity: 1,
     lastSaleDate: "2023-11-23"
@@ -17045,13 +13804,6 @@ const oldData = [
     lastSaleDate: "2024-04-17"
   },
   {
-    code: "16503",
-    name: "AS IS 129 S.R",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
     code: "17941",
     name: "AS IS 169",
     mall: "57-Sauq7",
@@ -17071,34 +13823,6 @@ const oldData = [
     mall: "57-Sauq7",
     quantity: 16,
     lastSaleDate: "2025-03-06"
-  },
-  {
-    code: "18872",
-    name: "AS IS 3 S.R",
-    mall: "19-Hail Othaim Mall",
-    quantity: 77,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "18872",
-    name: "AS IS 3 S.R",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 73,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "18872",
-    name: "AS IS 3 S.R",
-    mall: "38-Al_Riyadh Park",
-    quantity: 8,
-    lastSaleDate: "2025-02-18"
-  },
-  {
-    code: "21852",
-    name: "AS IS 6 S.R",
-    mall: "05-Haifa Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-19"
   },
   {
     code: "19946",
@@ -17180,13 +13904,6 @@ const oldData = [
   {
     code: "22280",
     name: "ASHLEY SHINE 3 PCS BATH ACCESS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 4,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "22280",
-    name: "ASHLEY SHINE 3 PCS BATH ACCESS",
     mall: "43-Mujan Park",
     quantity: 2,
     lastSaleDate: "2024-03-07"
@@ -17232,13 +13949,6 @@ const oldData = [
     mall: "04-Andalos Mall",
     quantity: 1,
     lastSaleDate: "2025-03-20"
-  },
-  {
-    code: "23181",
-    name: "ASSORTED BATH ROBE BRID 6 PCS",
-    mall: "23-Alia Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "23181",
@@ -17311,13 +14021,6 @@ const oldData = [
     lastSaleDate: "2024-08-07"
   },
   {
-    code: "22124",
-    name: "AZURE JUICE CUPS 3 PCS 420055/3",
-    mall: "17-Arar Othaim Mall",
-    quantity: 11,
-    lastSaleDate: "2025-02-13"
-  },
-  {
     code: "20481",
     name: "B KITCHEN TOWEL GREY 28*16",
     mall: "50-Meem Plaza Riyadh",
@@ -17330,13 +14033,6 @@ const oldData = [
     mall: "15-Riyadh Othaim Mall",
     quantity: 1,
     lastSaleDate: "2023-05-05"
-  },
-  {
-    code: "20443",
-    name: "B KITCHEN TOWEL IVORY 28*16",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "20443",
@@ -17390,16 +14086,16 @@ const oldData = [
   {
     code: "23453",
     name: "B423 SMOOSHIE TOY- RABBIT IVORY",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-15"
+    mall: "30-Tala Mall Riyadh",
+    quantity: 6,
+    lastSaleDate: "2025-04-07"
   },
   {
     code: "23453",
     name: "B423 SMOOSHIE TOY- RABBIT IVORY",
-    mall: "45- Riyadh Gallery Mall",
+    mall: "40-Hayat Mall Riyad",
     quantity: 6,
-    lastSaleDate: "2025-03-04"
+    lastSaleDate: "2025-04-12"
   },
   {
     code: "23453",
@@ -17411,64 +14107,8 @@ const oldData = [
   {
     code: "23453",
     name: "B423 SMOOSHIE TOY- RABBIT IVORY",
-    mall: "56- Aziz Mall 2",
-    quantity: 4,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "23453",
-    name: "B423 SMOOSHIE TOY- RABBIT IVORY",
     mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23454",
-    name: "B424 SMOOSHIE TOY- RABBIT SKY BLUE",
-    mall: "15-Riyadh Othaim Mall",
     quantity: 3,
-    lastSaleDate: "2025-02-26"
-  },
-  {
-    code: "23454",
-    name: "B424 SMOOSHIE TOY- RABBIT SKY BLUE",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23454",
-    name: "B424 SMOOSHIE TOY- RABBIT SKY BLUE",
-    mall: "11-Jouri Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-11"
-  },
-  {
-    code: "23454",
-    name: "B424 SMOOSHIE TOY- RABBIT SKY BLUE",
-    mall: "20-Sitten Street Makkah",
-    quantity: 4,
-    lastSaleDate: "2025-03-12"
-  },
-  {
-    code: "23454",
-    name: "B424 SMOOSHIE TOY- RABBIT SKY BLUE",
-    mall: "22-Tabuk Park",
-    quantity: 7,
-    lastSaleDate: "2025-03-12"
-  },
-  {
-    code: "23454",
-    name: "B424 SMOOSHIE TOY- RABBIT SKY BLUE",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23454",
-    name: "B424 SMOOSHIE TOY- RABBIT SKY BLUE",
-    mall: "57-Sauq7",
-    quantity: 2,
     lastSaleDate: "2025-04-24"
   },
   {
@@ -17477,62 +14117,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 3,
     lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23349",
-    name: "BABY BEAR PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-03-13"
-  },
-  {
-    code: "23349",
-    name: "BABY BEAR PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 4,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23349",
-    name: "BABY BEAR PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 14,
-    lastSaleDate: "2025-03-09"
-  },
-  {
-    code: "23349",
-    name: "BABY BEAR PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "23349",
-    name: "BABY BEAR PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "43-Mujan Park",
-    quantity: 2,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23349",
-    name: "BABY BEAR PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-02-21"
-  },
-  {
-    code: "23349",
-    name: "BABY BEAR PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "52-Al_Baha Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "23349",
-    name: "BABY BEAR PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "55- Jabl Omar",
-    quantity: 15,
-    lastSaleDate: "2025-04-27"
   },
   {
     code: "16891",
@@ -17866,13 +14450,6 @@ const oldData = [
   {
     code: "19403",
     name: "BATH MAT 17X24IN BURGUNDY",
-    mall: "04-Andalos Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "19403",
-    name: "BATH MAT 17X24IN BURGUNDY",
     mall: "08-Makkah Mall",
     quantity: 3,
     lastSaleDate: "2025-03-23"
@@ -17925,13 +14502,6 @@ const oldData = [
     mall: "18-Al_Khayyat Center",
     quantity: 8,
     lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "19403",
-    name: "BATH MAT 17X24IN BURGUNDY",
-    mall: "20-Sitten Street Makkah",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "19403",
@@ -17995,13 +14565,6 @@ const oldData = [
     mall: "45- Riyadh Gallery Mall",
     quantity: 4,
     lastSaleDate: "2025-02-24"
-  },
-  {
-    code: "19403",
-    name: "BATH MAT 17X24IN BURGUNDY",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-03-08"
   },
   {
     code: "19403",
@@ -18097,13 +14660,6 @@ const oldData = [
   {
     code: "19401",
     name: "BATH MAT 17X24IN CHINO GREEN",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-01-15"
-  },
-  {
-    code: "19401",
-    name: "BATH MAT 17X24IN CHINO GREEN",
     mall: "36-Al jubail Mall",
     quantity: 3,
     lastSaleDate: "2024-01-01"
@@ -18114,104 +14670,6 @@ const oldData = [
     mall: "39-Salam Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2024-07-15"
-  },
-  {
-    code: "23916",
-    name: "BATH MAT 17X24IN DARK LILAC",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23916",
-    name: "BATH MAT 17X24IN DARK LILAC",
-    mall: "11-Jouri Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23916",
-    name: "BATH MAT 17X24IN DARK LILAC",
-    mall: "14-Al Kamal Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23916",
-    name: "BATH MAT 17X24IN DARK LILAC",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23916",
-    name: "BATH MAT 17X24IN DARK LILAC",
-    mall: "56- Aziz Mall 2",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23916",
-    name: "BATH MAT 17X24IN DARK LILAC",
-    mall: "05-Haifa Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23916",
-    name: "BATH MAT 17X24IN DARK LILAC",
-    mall: "09-Al-Salam Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23916",
-    name: "BATH MAT 17X24IN DARK LILAC",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23916",
-    name: "BATH MAT 17X24IN DARK LILAC",
-    mall: "49-AlAhsa Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23916",
-    name: "BATH MAT 17X24IN DARK LILAC",
-    mall: "57-Sauq7",
-    quantity: 6,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "19406",
-    name: "BATH MAT 17X24IN DARKER LIGHT GREY",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2024-11-12"
-  },
-  {
-    code: "19406",
-    name: "BATH MAT 17X24IN DARKER LIGHT GREY",
-    mall: "52-Al_Baha Mall",
-    quantity: 6,
-    lastSaleDate: "2023-06-12"
-  },
-  {
-    code: "19406",
-    name: "BATH MAT 17X24IN DARKER LIGHT GREY",
-    mall: "53-Al Basateen Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "19406",
-    name: "BATH MAT 17X24IN DARKER LIGHT GREY",
-    mall: "09-Al-Salam Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-23"
   },
   {
     code: "19400",
@@ -18233,13 +14691,6 @@ const oldData = [
     mall: "25-Rabwa Othaim Mall",
     quantity: 6,
     lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "19400",
-    name: "BATH MAT 17X24IN LIGHT YELLOW",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 6,
-    lastSaleDate: "2025-03-28"
   },
   {
     code: "19400",
@@ -18305,13 +14756,6 @@ const oldData = [
     lastSaleDate: "2025-04-08"
   },
   {
-    code: "24043",
-    name: "BATH MAT 17X24IN NAVY",
-    mall: "49-AlAhsa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
     code: "19407",
     name: "BATH MAT 17X24IN P.BLUE",
     mall: "44-Al-Jouf Center",
@@ -18324,13 +14768,6 @@ const oldData = [
     mall: "19-Hail Othaim Mall",
     quantity: 5,
     lastSaleDate: "2024-02-06"
-  },
-  {
-    code: "19407",
-    name: "BATH MAT 17X24IN P.BLUE",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "19407",
@@ -18436,13 +14873,6 @@ const oldData = [
     mall: "51-Park Avenue Riyadh",
     quantity: 8,
     lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "19407",
-    name: "BATH MAT 17X24IN P.BLUE",
-    mall: "56- Aziz Mall 2",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "19408",
@@ -18629,13 +15059,6 @@ const oldData = [
   {
     code: "19408",
     name: "BATH MAT 17X24IN PINK",
-    mall: "38-Al_Riyadh Park",
-    quantity: 6,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "19408",
-    name: "BATH MAT 17X24IN PINK",
     mall: "40-Hayat Mall Riyad",
     quantity: 3,
     lastSaleDate: "2025-04-18"
@@ -18704,151 +15127,11 @@ const oldData = [
     lastSaleDate: "2025-03-23"
   },
   {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "08-Makkah Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "14-Al Kamal Mall",
-    quantity: 7,
-    lastSaleDate: "2025-02-27"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 8,
-    lastSaleDate: "2025-02-13"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 3,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "43-Mujan Park",
-    quantity: 6,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2023-10-23"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "56- Aziz Mall 2",
-    quantity: 9,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2024-10-04"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2024-12-30"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 3,
-    lastSaleDate: "2025-02-10"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-03-10"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "38-Al_Riyadh Park",
-    quantity: 4,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 3,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2023-09-25"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "19409",
-    name: "BATH MAT 17X24IN ROSE",
-    mall: "52-Al_Baha Mall",
-    quantity: 4,
-    lastSaleDate: "2023-10-23"
-  },
-  {
     code: "19404",
     name: "BATH MAT 17X24IN WHITE",
     mall: "49-AlAhsa Mall",
     quantity: 3,
     lastSaleDate: "2024-09-12"
-  },
-  {
-    code: "19404",
-    name: "BATH MAT 17X24IN WHITE",
-    mall: "11-Jouri Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "19404",
@@ -18881,13 +15164,6 @@ const oldData = [
   {
     code: "19404",
     name: "BATH MAT 17X24IN WHITE",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 37,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "19404",
-    name: "BATH MAT 17X24IN WHITE",
     mall: "42-Dareen Mall Dammam",
     quantity: 1,
     lastSaleDate: "2025-03-07"
@@ -18898,20 +15174,6 @@ const oldData = [
     mall: "47-Al-Nakheel Plaza",
     quantity: 3,
     lastSaleDate: "2024-11-01"
-  },
-  {
-    code: "19404",
-    name: "BATH MAT 17X24IN WHITE",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "19404",
-    name: "BATH MAT 17X24IN WHITE",
-    mall: "11-Jouri Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "19404",
@@ -18937,13 +15199,6 @@ const oldData = [
   {
     code: "19404",
     name: "BATH MAT 17X24IN WHITE",
-    mall: "12-Al_Hamra Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "19404",
-    name: "BATH MAT 17X24IN WHITE",
     mall: "20-Sitten Street Makkah",
     quantity: 6,
     lastSaleDate: "2025-03-27"
@@ -18954,13 +15209,6 @@ const oldData = [
     mall: "25-Rabwa Othaim Mall",
     quantity: 3,
     lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "19404",
-    name: "BATH MAT 17X24IN WHITE",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-11"
   },
   {
     code: "19404",
@@ -18986,16 +15234,9 @@ const oldData = [
   {
     code: "19404",
     name: "BATH MAT 17X24IN WHITE",
-    mall: "48 - Jeddah Park",
-    quantity: 3,
-    lastSaleDate: "2024-04-03"
-  },
-  {
-    code: "19404",
-    name: "BATH MAT 17X24IN WHITE",
-    mall: "48 - Jeddah Park",
+    mall: "53-Al Basateen Mall",
     quantity: 6,
-    lastSaleDate: "2024-04-03"
+    lastSaleDate: "2025-03-28"
   },
   {
     code: "19404",
@@ -19049,13 +15290,6 @@ const oldData = [
   {
     code: "19390",
     name: "BATH MAT 21X34IN BURGUNDY",
-    mall: "04-Andalos Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "19390",
-    name: "BATH MAT 21X34IN BURGUNDY",
     mall: "11-Jouri Mall",
     quantity: 4,
     lastSaleDate: "2024-04-01"
@@ -19066,6 +15300,13 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 1,
     lastSaleDate: "2025-03-10"
+  },
+  {
+    code: "19390",
+    name: "BATH MAT 21X34IN BURGUNDY",
+    mall: "21-Abha Al_Rashid Mall New",
+    quantity: 2,
+    lastSaleDate: "2025-04-02"
   },
   {
     code: "19390",
@@ -19115,13 +15356,6 @@ const oldData = [
     mall: "12-Al_Hamra Mall",
     quantity: 3,
     lastSaleDate: "2025-01-04"
-  },
-  {
-    code: "19390",
-    name: "BATH MAT 21X34IN BURGUNDY",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-02-23"
   },
   {
     code: "19390",
@@ -19217,23 +15451,9 @@ const oldData = [
   {
     code: "19388",
     name: "BATH MAT 21X34IN CHINO GREEN",
-    mall: "19-Hail Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "19388",
-    name: "BATH MAT 21X34IN CHINO GREEN",
     mall: "24-Yanbu Dana Mall",
     quantity: 6,
     lastSaleDate: "2023-08-20"
-  },
-  {
-    code: "19388",
-    name: "BATH MAT 21X34IN CHINO GREEN",
-    mall: "49-AlAhsa Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "19393",
@@ -19252,30 +15472,16 @@ const oldData = [
   {
     code: "19393",
     name: "BATH MAT 21X34IN DARKER LIGHT GREY",
-    mall: "04-Andalos Mall",
+    mall: "53-Al Basateen Mall",
     quantity: 6,
-    lastSaleDate: "2025-03-24"
+    lastSaleDate: "2025-03-26"
   },
   {
-    code: "24042",
-    name: "BATH MAT 21X34IN DARKER LILAC",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "24042",
-    name: "BATH MAT 21X34IN DARKER LILAC",
-    mall: "19-Hail Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "24042",
-    name: "BATH MAT 21X34IN DARKER LILAC",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-25"
+    code: "19393",
+    name: "BATH MAT 21X34IN DARKER LIGHT GREY",
+    mall: "54-THE VILLAGE",
+    quantity: 6,
+    lastSaleDate: "2025-03-22"
   },
   {
     code: "19395",
@@ -19283,13 +15489,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 1,
     lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "19395",
-    name: "BATH MAT 21X34IN LIGHT ROSE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "19395",
@@ -19346,13 +15545,6 @@ const oldData = [
     mall: "16-Ehsa Othaim Mall",
     quantity: 4,
     lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "19395",
-    name: "BATH MAT 21X34IN LIGHT ROSE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "19395",
@@ -19572,97 +15764,6 @@ const oldData = [
     lastSaleDate: "2025-04-09"
   },
   {
-    code: "19387",
-    name: "BATH MAT 21X34IN LIGHT YELLOW",
-    mall: "11-Jouri Mall",
-    quantity: 8,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "19387",
-    name: "BATH MAT 21X34IN LIGHT YELLOW",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "19387",
-    name: "BATH MAT 21X34IN LIGHT YELLOW",
-    mall: "52-Al_Baha Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "19387",
-    name: "BATH MAT 21X34IN LIGHT YELLOW",
-    mall: "53-Al Basateen Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "19387",
-    name: "BATH MAT 21X34IN LIGHT YELLOW",
-    mall: "14-Al Kamal Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "19387",
-    name: "BATH MAT 21X34IN LIGHT YELLOW",
-    mall: "56- Aziz Mall 2",
-    quantity: 6,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "23915",
-    name: "BATH MAT 21X34IN NAVY",
-    mall: "11-Jouri Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23915",
-    name: "BATH MAT 21X34IN NAVY",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 2,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23915",
-    name: "BATH MAT 21X34IN NAVY",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23915",
-    name: "BATH MAT 21X34IN NAVY",
-    mall: "54-THE VILLAGE",
-    quantity: 1,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23915",
-    name: "BATH MAT 21X34IN NAVY",
-    mall: "55- Jabl Omar",
-    quantity: 5,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23915",
-    name: "BATH MAT 21X34IN NAVY",
-    mall: "12-Al_Hamra Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23915",
-    name: "BATH MAT 21X34IN NAVY",
-    mall: "54-THE VILLAGE",
-    quantity: 7,
-    lastSaleDate: "2025-04-12"
-  },
-  {
     code: "19394",
     name: "BATH MAT 21X34IN P.BLUE",
     mall: "47-Al-Nakheel Plaza",
@@ -19742,13 +15843,6 @@ const oldData = [
   {
     code: "19396",
     name: "BATH MAT 21X34IN ROSE",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-02-06"
-  },
-  {
-    code: "19396",
-    name: "BATH MAT 21X34IN ROSE",
     mall: "44-Al-Jouf Center",
     quantity: 4,
     lastSaleDate: "2024-04-09"
@@ -19780,13 +15874,6 @@ const oldData = [
     mall: "11-Jouri Mall",
     quantity: 8,
     lastSaleDate: "2024-08-17"
-  },
-  {
-    code: "19396",
-    name: "BATH MAT 21X34IN ROSE",
-    mall: "14-Al Kamal Mall",
-    quantity: 8,
-    lastSaleDate: "2024-08-18"
   },
   {
     code: "19396",
@@ -19899,13 +15986,6 @@ const oldData = [
     mall: "26-Al-Noor Mall Madinah",
     quantity: 6,
     lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "19391",
-    name: "BATH MAT 21X34IN WHITE",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 6,
-    lastSaleDate: "2024-01-15"
   },
   {
     code: "19391",
@@ -20127,13 +16207,6 @@ const oldData = [
   {
     code: "19374",
     name: "BATH MAT 24X60IN IVORY",
-    mall: "14-Al Kamal Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "19374",
-    name: "BATH MAT 24X60IN IVORY",
     mall: "17-Arar Othaim Mall",
     quantity: 2,
     lastSaleDate: "2024-12-14"
@@ -20200,13 +16273,6 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 9,
     lastSaleDate: "2024-11-19"
-  },
-  {
-    code: "22278",
-    name: "BATH MAT 24X60IN NAVY",
-    mall: "18-Al_Khayyat Center",
-    quantity: 6,
-    lastSaleDate: "2024-11-03"
   },
   {
     code: "22278",
@@ -20468,13 +16534,6 @@ const oldData = [
     lastSaleDate: "2024-08-22"
   },
   {
-    code: "19382",
-    name: "BATH MAT 24X60IN PINK",
-    mall: "19-Hail Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-29"
-  },
-  {
     code: "19383",
     name: "BATH MAT 24X60IN ROSE",
     mall: "32-Atyaf Mall Riyadh",
@@ -20547,13 +16606,6 @@ const oldData = [
   {
     code: "19383",
     name: "BATH MAT 24X60IN ROSE",
-    mall: "06-Red Sea Mall",
-    quantity: 2,
-    lastSaleDate: "2024-03-31"
-  },
-  {
-    code: "19383",
-    name: "BATH MAT 24X60IN ROSE",
     mall: "07-Arab Mall",
     quantity: 1,
     lastSaleDate: "2024-04-08"
@@ -20561,23 +16613,9 @@ const oldData = [
   {
     code: "19383",
     name: "BATH MAT 24X60IN ROSE",
-    mall: "09-Al-Salam Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "19383",
-    name: "BATH MAT 24X60IN ROSE",
     mall: "11-Jouri Mall",
     quantity: 4,
     lastSaleDate: "2024-09-28"
-  },
-  {
-    code: "19383",
-    name: "BATH MAT 24X60IN ROSE",
-    mall: "12-Al_Hamra Mall",
-    quantity: 2,
-    lastSaleDate: "2024-12-22"
   },
   {
     code: "19383",
@@ -20736,13 +16774,6 @@ const oldData = [
   {
     code: "19365",
     name: "BATH MAT SET 2 PCS BURGUNDY",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2024-12-11"
-  },
-  {
-    code: "19365",
-    name: "BATH MAT SET 2 PCS BURGUNDY",
     mall: "39-Salam Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2024-03-20"
@@ -20834,13 +16865,6 @@ const oldData = [
   {
     code: "19365",
     name: "BATH MAT SET 2 PCS BURGUNDY",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2024-12-11"
-  },
-  {
-    code: "19365",
-    name: "BATH MAT SET 2 PCS BURGUNDY",
     mall: "47-Al-Nakheel Plaza",
     quantity: 5,
     lastSaleDate: "2024-12-31"
@@ -20851,27 +16875,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 2,
     lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "19368",
-    name: "BATH MAT SET 2 PCS DARKER LIGHT GREY",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2022-07-03"
-  },
-  {
-    code: "19368",
-    name: "BATH MAT SET 2 PCS DARKER LIGHT GREY",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "19368",
-    name: "BATH MAT SET 2 PCS DARKER LIGHT GREY",
-    mall: "44-Al-Jouf Center",
-    quantity: 6,
-    lastSaleDate: "2024-04-21"
   },
   {
     code: "23913",
@@ -20932,282 +16935,9 @@ const oldData = [
   {
     code: "23913",
     name: "BATH MAT SET 2 PCS DARKER LILAC",
-    mall: "14-Al Kamal Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23913",
-    name: "BATH MAT SET 2 PCS DARKER LILAC",
     mall: "48 - Jeddah Park",
     quantity: 6,
     lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23913",
-    name: "BATH MAT SET 2 PCS DARKER LILAC",
-    mall: "54-THE VILLAGE",
-    quantity: 6,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "22-Tabuk Park",
-    quantity: 2,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "43-Mujan Park",
-    quantity: 3,
-    lastSaleDate: "2024-07-06"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2024-10-30"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-08"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-02-05"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "36-Al jubail Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-07"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2024-12-24"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 9,
-    lastSaleDate: "2025-02-16"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 2,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 3,
-    lastSaleDate: "2024-08-21"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "11-Jouri Mall",
-    quantity: 4,
-    lastSaleDate: "2024-08-07"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2024-11-24"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2024-11-21"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-01-10"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "04-Andalos Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "09-Al-Salam Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "11-Jouri Mall",
-    quantity: 6,
-    lastSaleDate: "2024-08-07"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "14-Al Kamal Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 6,
-    lastSaleDate: "2024-11-30"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "22-Tabuk Park",
-    quantity: 6,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "43-Mujan Park",
-    quantity: 6,
-    lastSaleDate: "2024-07-06"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "48 - Jeddah Park",
-    quantity: 7,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "57-Sauq7",
-    quantity: 4,
-    lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2024-12-31"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2024-11-21"
-  },
-  {
-    code: "19370",
-    name: "BATH MAT SET 2 PCS LIGHT ROSE",
-    mall: "49-AlAhsa Mall",
-    quantity: 3,
-    lastSaleDate: "2024-06-13"
-  },
-  {
-    code: "19362",
-    name: "BATH MAT SET 2 PCS LIGHT YELLOW",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2024-10-03"
-  },
-  {
-    code: "19362",
-    name: "BATH MAT SET 2 PCS LIGHT YELLOW",
-    mall: "11-Jouri Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "19362",
-    name: "BATH MAT SET 2 PCS LIGHT YELLOW",
-    mall: "17-Arar Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2023-12-07"
-  },
-  {
-    code: "19362",
-    name: "BATH MAT SET 2 PCS LIGHT YELLOW",
-    mall: "53-Al Basateen Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "19362",
-    name: "BATH MAT SET 2 PCS LIGHT YELLOW",
-    mall: "12-Al_Hamra Mall",
-    quantity: 6,
-    lastSaleDate: "2023-12-30"
-  },
-  {
-    code: "19362",
-    name: "BATH MAT SET 2 PCS LIGHT YELLOW",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2023-11-19"
-  },
-  {
-    code: "19362",
-    name: "BATH MAT SET 2 PCS LIGHT YELLOW",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2024-10-03"
-  },
-  {
-    code: "19362",
-    name: "BATH MAT SET 2 PCS LIGHT YELLOW",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2023-11-03"
-  },
-  {
-    code: "19362",
-    name: "BATH MAT SET 2 PCS LIGHT YELLOW",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 6,
-    lastSaleDate: "2025-02-20"
-  },
-  {
-    code: "19362",
-    name: "BATH MAT SET 2 PCS LIGHT YELLOW",
-    mall: "49-AlAhsa Mall",
-    quantity: 6,
-    lastSaleDate: "2023-12-20"
   },
   {
     code: "19364",
@@ -21222,34 +16952,6 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 1,
     lastSaleDate: "2023-04-17"
-  },
-  {
-    code: "23914",
-    name: "BATH MAT SET 2 PCS NAVY",
-    mall: "04-Andalos Mall",
-    quantity: 10,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23914",
-    name: "BATH MAT SET 2 PCS NAVY",
-    mall: "20-Sitten Street Makkah",
-    quantity: 6,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23914",
-    name: "BATH MAT SET 2 PCS NAVY",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-20"
-  },
-  {
-    code: "23914",
-    name: "BATH MAT SET 2 PCS NAVY",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-23"
   },
   {
     code: "19369",
@@ -21420,69 +17122,6 @@ const oldData = [
     lastSaleDate: "2025-03-26"
   },
   {
-    code: "19366",
-    name: "BATH MAT SET 2 PCS WHITE",
-    mall: "07-Arab Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "19366",
-    name: "BATH MAT SET 2 PCS WHITE",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "19366",
-    name: "BATH MAT SET 2 PCS WHITE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2024-08-30"
-  },
-  {
-    code: "19366",
-    name: "BATH MAT SET 2 PCS WHITE",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2024-07-15"
-  },
-  {
-    code: "19366",
-    name: "BATH MAT SET 2 PCS WHITE",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2024-06-07"
-  },
-  {
-    code: "19366",
-    name: "BATH MAT SET 2 PCS WHITE",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2024-06-07"
-  },
-  {
-    code: "19366",
-    name: "BATH MAT SET 2 PCS WHITE",
-    mall: "49-AlAhsa Mall",
-    quantity: 6,
-    lastSaleDate: "2024-06-08"
-  },
-  {
-    code: "19366",
-    name: "BATH MAT SET 2 PCS WHITE",
-    mall: "07-Arab Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "19366",
-    name: "BATH MAT SET 2 PCS WHITE",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 6,
-    lastSaleDate: "2024-06-02"
-  },
-  {
     code: "19939",
     name: "BATH ROBE BLUE HAZ XS/S",
     mall: "44-Al-Jouf Center",
@@ -21502,13 +17141,6 @@ const oldData = [
     mall: "30-Tala Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "19939",
-    name: "BATH ROBE BLUE HAZ XS/S",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "19939",
@@ -21551,13 +17183,6 @@ const oldData = [
     mall: "11-Jouri Mall",
     quantity: 2,
     lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "20330",
-    name: "BATH ROBE BURGUNDY WAFFLE PIPING X/S",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2024-04-07"
   },
   {
     code: "20330",
@@ -22150,13 +17775,6 @@ const oldData = [
   {
     code: "20300",
     name: "BATH ROBE HOOD S/M NAVY",
-    mall: "14-Al Kamal Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "20300",
-    name: "BATH ROBE HOOD S/M NAVY",
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2024-09-13"
@@ -22197,13 +17815,6 @@ const oldData = [
     lastSaleDate: "2025-03-03"
   },
   {
-    code: "20301",
-    name: "BATH ROBE HOOD S/M WHITE",
-    mall: "43-Mujan Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
     code: "20306",
     name: "BATH ROBE HOOD X/S BLUE HAZE",
     mall: "05-Haifa Mall",
@@ -22223,13 +17834,6 @@ const oldData = [
     mall: "36-Al jubail Mall",
     quantity: 2,
     lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "20306",
-    name: "BATH ROBE HOOD X/S BLUE HAZE",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-03-23"
   },
   {
     code: "20306",
@@ -22255,13 +17859,6 @@ const oldData = [
   {
     code: "20294",
     name: "BATH ROBE HOOD X/S IVORY",
-    mall: "09-Al-Salam Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "20294",
-    name: "BATH ROBE HOOD X/S IVORY",
     mall: "44-Al-Jouf Center",
     quantity: 4,
     lastSaleDate: "2025-03-28"
@@ -22272,13 +17869,6 @@ const oldData = [
     mall: "11-Jouri Mall",
     quantity: 6,
     lastSaleDate: "2024-07-09"
-  },
-  {
-    code: "20294",
-    name: "BATH ROBE HOOD X/S IVORY",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2024-06-07"
   },
   {
     code: "20294",
@@ -22321,13 +17911,6 @@ const oldData = [
     mall: "54-THE VILLAGE",
     quantity: 1,
     lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "20294",
-    name: "BATH ROBE HOOD X/S IVORY",
-    mall: "56- Aziz Mall 2",
-    quantity: 6,
-    lastSaleDate: "2025-04-09"
   },
   {
     code: "22870",
@@ -22451,13 +18034,6 @@ const oldData = [
   {
     code: "20315",
     name: "BATH ROBE HOOD X/S P.BLUE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2024-09-19"
-  },
-  {
-    code: "20315",
-    name: "BATH ROBE HOOD X/S P.BLUE",
     mall: "25-Rabwa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2024-12-24"
@@ -22489,13 +18065,6 @@ const oldData = [
     mall: "15-Riyadh Othaim Mall",
     quantity: 2,
     lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "22869",
-    name: "BATH ROBE HOOD X/S PLATINUM",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-01-18"
   },
   {
     code: "22869",
@@ -22563,6 +18132,13 @@ const oldData = [
   {
     code: "20313",
     name: "BATH ROBE HOOD X/S WHITE",
+    mall: "11-Jouri Mall",
+    quantity: 6,
+    lastSaleDate: "2022-11-24"
+  },
+  {
+    code: "20313",
+    name: "BATH ROBE HOOD X/S WHITE",
     mall: "20-Sitten Street Makkah",
     quantity: 7,
     lastSaleDate: "2024-10-27"
@@ -22580,13 +18156,6 @@ const oldData = [
     mall: "29-Al Nakheel Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-03-16"
-  },
-  {
-    code: "20313",
-    name: "BATH ROBE HOOD X/S WHITE",
-    mall: "48 - Jeddah Park",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "20313",
@@ -22622,13 +18191,6 @@ const oldData = [
     mall: "17-Arar Othaim Mall",
     quantity: 1,
     lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "21763",
-    name: "BATH ROBE INFINITY S/M",
-    mall: "55- Jabl Omar",
-    quantity: 5,
-    lastSaleDate: "2025-03-08"
   },
   {
     code: "21759",
@@ -22741,13 +18303,6 @@ const oldData = [
     mall: "20-Sitten Street Makkah",
     quantity: 6,
     lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "19929",
-    name: "BATH ROBE IVORY XS/S",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-03"
   },
   {
     code: "21768",
@@ -22871,22 +18426,8 @@ const oldData = [
   {
     code: "21760",
     name: "BATH ROBE L.WREATH XS/S",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-02-07"
-  },
-  {
-    code: "21760",
-    name: "BATH ROBE L.WREATH XS/S",
     mall: "18-Al_Khayyat Center",
     quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "21760",
-    name: "BATH ROBE L.WREATH XS/S",
-    mall: "56- Aziz Mall 2",
-    quantity: 1,
     lastSaleDate: "2025-03-28"
   },
   {
@@ -22895,13 +18436,6 @@ const oldData = [
     mall: "23-Alia Mall Madinah",
     quantity: 1,
     lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "21760",
-    name: "BATH ROBE L.WREATH XS/S",
-    mall: "56- Aziz Mall 2",
-    quantity: 6,
-    lastSaleDate: "2025-03-28"
   },
   {
     code: "23438",
@@ -22981,11 +18515,32 @@ const oldData = [
     lastSaleDate: "2025-04-04"
   },
   {
-    code: "23436",
-    name: "BATH ROBE LAVENDER BLUE S/M",
-    mall: "54-THE VILLAGE",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
+    code: "23434",
+    name: "BATH ROBE LAVENDER BLUE XS/S",
+    mall: "25-Rabwa Othaim Mall",
+    quantity: 1,
+    lastSaleDate: "2025-04-05"
+  },
+  {
+    code: "23434",
+    name: "BATH ROBE LAVENDER BLUE XS/S",
+    mall: "39-Salam Mall Riyadh",
+    quantity: 1,
+    lastSaleDate: "2025-04-20"
+  },
+  {
+    code: "23434",
+    name: "BATH ROBE LAVENDER BLUE XS/S",
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 4,
+    lastSaleDate: "2025-04-02"
+  },
+  {
+    code: "23434",
+    name: "BATH ROBE LAVENDER BLUE XS/S",
+    mall: "13-Al-Yasmin Mall",
+    quantity: 8,
+    lastSaleDate: "2025-03-22"
   },
   {
     code: "14311",
@@ -23235,13 +18790,6 @@ const oldData = [
   {
     code: "20331",
     name: "BATH ROBE LINEN WAFFLE PIPING X/S",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "20331",
-    name: "BATH ROBE LINEN WAFFLE PIPING X/S",
     mall: "43-Mujan Park",
     quantity: 1,
     lastSaleDate: "2024-10-05"
@@ -23362,15 +18910,8 @@ const oldData = [
     code: "19931",
     name: "BATH ROBE LINEN XS/S",
     mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 6,
+    quantity: 12,
     lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "19931",
-    name: "BATH ROBE LINEN XS/S",
-    mall: "04-Andalos Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "19931",
@@ -23480,20 +19021,6 @@ const oldData = [
   {
     code: "19943",
     name: "BATH ROBE NAVY XS/S",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2024-12-01"
-  },
-  {
-    code: "19943",
-    name: "BATH ROBE NAVY XS/S",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "19943",
-    name: "BATH ROBE NAVY XS/S",
     mall: "25-Rabwa Othaim Mall",
     quantity: 3,
     lastSaleDate: "2025-04-25"
@@ -23520,48 +19047,6 @@ const oldData = [
     lastSaleDate: "2025-03-24"
   },
   {
-    code: "16842",
-    name: "BATH ROBE OYSTER MUSHROOM L/XL",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "16842",
-    name: "BATH ROBE OYSTER MUSHROOM L/XL",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "16842",
-    name: "BATH ROBE OYSTER MUSHROOM L/XL",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "16842",
-    name: "BATH ROBE OYSTER MUSHROOM L/XL",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "16839",
-    name: "BATH ROBE OYSTER MUSHROOM S/M",
-    mall: "44-Al-Jouf Center",
-    quantity: 4,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "16839",
-    name: "BATH ROBE OYSTER MUSHROOM S/M",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-15"
-  },
-  {
     code: "19529",
     name: "BATH ROBE OYSTER MUSHROOM WAFFLE PIPING L/XL",
     mall: "30-Tala Mall Riyadh",
@@ -23574,97 +19059,6 @@ const oldData = [
     mall: "32-Atyaf Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2024-09-22"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "17-Arar Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-26"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-16"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 3,
-    lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "18-Al_Khayyat Center",
-    quantity: 3,
-    lastSaleDate: "2025-03-06"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "20-Sitten Street Makkah",
-    quantity: 4,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2024-12-21"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "20-Sitten Street Makkah",
-    quantity: 6,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 6,
-    lastSaleDate: "2025-03-17"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "38-Al_Riyadh Park",
-    quantity: 6,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 6,
-    lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "19941",
-    name: "BATH ROBE OYSTER MUSHROOM XS/S",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-02-24"
   },
   {
     code: "20328",
@@ -23725,13 +19119,6 @@ const oldData = [
   {
     code: "20328",
     name: "BATH ROBE P.BLUE WAFFLE PIPING X/S",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "20328",
-    name: "BATH ROBE P.BLUE WAFFLE PIPING X/S",
     mall: "42-Dareen Mall Dammam",
     quantity: 2,
     lastSaleDate: "2024-05-19"
@@ -23749,13 +19136,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 4,
     lastSaleDate: "2024-08-30"
-  },
-  {
-    code: "19934",
-    name: "BATH ROBE P.BLUE XS/S",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "19934",
@@ -23802,13 +19182,6 @@ const oldData = [
   {
     code: "19934",
     name: "BATH ROBE P.BLUE XS/S",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "19934",
-    name: "BATH ROBE P.BLUE XS/S",
     mall: "43-Mujan Park",
     quantity: 1,
     lastSaleDate: "2025-04-15"
@@ -23830,23 +19203,9 @@ const oldData = [
   {
     code: "19934",
     name: "BATH ROBE P.BLUE XS/S",
-    mall: "13-Al-Yasmin Mall",
+    mall: "48 - Jeddah Park",
     quantity: 6,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "19934",
-    name: "BATH ROBE P.BLUE XS/S",
-    mall: "18-Al_Khayyat Center",
-    quantity: 6,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "19934",
-    name: "BATH ROBE P.BLUE XS/S",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 6,
-    lastSaleDate: "2024-10-23"
+    lastSaleDate: "2025-03-29"
   },
   {
     code: "19934",
@@ -23861,41 +19220,6 @@ const oldData = [
     mall: "57-Sauq7",
     quantity: 1,
     lastSaleDate: "2025-01-20"
-  },
-  {
-    code: "21765",
-    name: "BATH ROBE P.R.YELLOW S/M",
-    mall: "14-Al Kamal Mall",
-    quantity: 6,
-    lastSaleDate: "2025-01-04"
-  },
-  {
-    code: "21765",
-    name: "BATH ROBE P.R.YELLOW S/M",
-    mall: "55- Jabl Omar",
-    quantity: 7,
-    lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "21765",
-    name: "BATH ROBE P.R.YELLOW S/M",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "21765",
-    name: "BATH ROBE P.R.YELLOW S/M",
-    mall: "20-Sitten Street Makkah",
-    quantity: 6,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "21761",
-    name: "BATH ROBE P.R.YELLOW XS/S",
-    mall: "43-Mujan Park",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "21761",
@@ -24047,13 +19371,6 @@ const oldData = [
   {
     code: "23435",
     name: "BATH ROBE PINK C S/M",
-    mall: "43-Mujan Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23435",
-    name: "BATH ROBE PINK C S/M",
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2025-03-26"
@@ -24066,18 +19383,32 @@ const oldData = [
     lastSaleDate: "2025-04-22"
   },
   {
+    code: "23433",
+    name: "BATH ROBE PINK C XS/S",
+    mall: "40-Hayat Mall Riyad",
+    quantity: 1,
+    lastSaleDate: "2025-02-20"
+  },
+  {
+    code: "23433",
+    name: "BATH ROBE PINK C XS/S",
+    mall: "47-Al-Nakheel Plaza",
+    quantity: 2,
+    lastSaleDate: "2025-04-11"
+  },
+  {
+    code: "23433",
+    name: "BATH ROBE PINK C XS/S",
+    mall: "48 - Jeddah Park",
+    quantity: 2,
+    lastSaleDate: "2025-03-23"
+  },
+  {
     code: "19932",
     name: "BATH ROBE PINK XS/S",
     mall: "14-Al Kamal Mall",
     quantity: 1,
     lastSaleDate: "2023-12-24"
-  },
-  {
-    code: "19932",
-    name: "BATH ROBE PINK XS/S",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-16"
   },
   {
     code: "19936",
@@ -24220,6 +19551,69 @@ const oldData = [
     lastSaleDate: "2025-04-18"
   },
   {
+    code: "22487",
+    name: "BATH ROBE TERRA COTTA XS/S",
+    mall: "25-Rabwa Othaim Mall",
+    quantity: 1,
+    lastSaleDate: "2024-12-08"
+  },
+  {
+    code: "22487",
+    name: "BATH ROBE TERRA COTTA XS/S",
+    mall: "52-Al_Baha Mall",
+    quantity: 5,
+    lastSaleDate: "2024-04-30"
+  },
+  {
+    code: "22487",
+    name: "BATH ROBE TERRA COTTA XS/S",
+    mall: "21-Abha Al_Rashid Mall New",
+    quantity: 1,
+    lastSaleDate: "2024-06-13"
+  },
+  {
+    code: "22487",
+    name: "BATH ROBE TERRA COTTA XS/S",
+    mall: "55- Jabl Omar",
+    quantity: 4,
+    lastSaleDate: "2025-03-02"
+  },
+  {
+    code: "22487",
+    name: "BATH ROBE TERRA COTTA XS/S",
+    mall: "14-Al Kamal Mall",
+    quantity: 3,
+    lastSaleDate: "2025-03-25"
+  },
+  {
+    code: "22487",
+    name: "BATH ROBE TERRA COTTA XS/S",
+    mall: "45- Riyadh Gallery Mall",
+    quantity: 1,
+    lastSaleDate: "2025-03-29"
+  },
+  {
+    code: "22487",
+    name: "BATH ROBE TERRA COTTA XS/S",
+    mall: "18-Al_Khayyat Center",
+    quantity: 4,
+    lastSaleDate: "2025-04-15"
+  },
+  {
+    code: "22487",
+    name: "BATH ROBE TERRA COTTA XS/S",
+    mall: "20-Sitten Street Makkah",
+    quantity: 6,
+    lastSaleDate: "2025-03-29"
+  },
+  {
+    code: "22487",
+    name: "BATH ROBE TERRA COTTA XS/S",
+    mall: "21-Abha Al_Rashid Mall New",
+    quantity: 6,
+    lastSaleDate: "2024-06-13"
+  },
+  {
     code: "20324",
     name: "BATH ROBE TITANIUM WAFFLE PIPING X/S",
     mall: "16-Ehsa Othaim Mall",
@@ -24302,62 +19696,6 @@ const oldData = [
     mall: "57-Sauq7",
     quantity: 1,
     lastSaleDate: "2025-02-19"
-  },
-  {
-    code: "19935",
-    name: "BATH ROBE TITANIUM XS/S",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2024-08-05"
-  },
-  {
-    code: "19935",
-    name: "BATH ROBE TITANIUM XS/S",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "19935",
-    name: "BATH ROBE TITANIUM XS/S",
-    mall: "17-Arar Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2024-07-13"
-  },
-  {
-    code: "19935",
-    name: "BATH ROBE TITANIUM XS/S",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "19935",
-    name: "BATH ROBE TITANIUM XS/S",
-    mall: "07-Arab Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "19935",
-    name: "BATH ROBE TITANIUM XS/S",
-    mall: "36-Al jubail Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-07"
-  },
-  {
-    code: "19935",
-    name: "BATH ROBE TITANIUM XS/S",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 6,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "19935",
-    name: "BATH ROBE TITANIUM XS/S",
-    mall: "48 - Jeddah Park",
-    quantity: 5,
-    lastSaleDate: "2025-04-25"
   },
   {
     code: "15530",
@@ -24542,172 +19880,11 @@ const oldData = [
     lastSaleDate: "2025-04-23"
   },
   {
-    code: "19930",
-    name: "BATH ROBE WHITE XS/S",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "19930",
-    name: "BATH ROBE WHITE XS/S",
-    mall: "36-Al jubail Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-08"
-  },
-  {
-    code: "19930",
-    name: "BATH ROBE WHITE XS/S",
-    mall: "20-Sitten Street Makkah",
-    quantity: 5,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "19930",
-    name: "BATH ROBE WHITE XS/S",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-03-07"
-  },
-  {
-    code: "19930",
-    name: "BATH ROBE WHITE XS/S",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "19930",
-    name: "BATH ROBE WHITE XS/S",
-    mall: "43-Mujan Park",
-    quantity: 6,
-    lastSaleDate: "2024-11-06"
-  },
-  {
-    code: "19930",
-    name: "BATH ROBE WHITE XS/S",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "23977",
-    name: "BATH ROBE ZERO TEIST IVORY L/XL",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23977",
-    name: "BATH ROBE ZERO TEIST IVORY L/XL",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 10,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "23977",
-    name: "BATH ROBE ZERO TEIST IVORY L/XL",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 10,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "23972",
-    name: "BATH ROBE ZERO TEIST IVORY S/M",
-    mall: "17-Arar Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23972",
-    name: "BATH ROBE ZERO TEIST IVORY S/M",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 3,
-    lastSaleDate: "2025-04-21"
-  },
-  {
     code: "23980",
     name: "BATH ROBE ZERO TEIST NAVY L/XL",
     mall: "53-Al Basateen Mall",
     quantity: 5,
     lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23980",
-    name: "BATH ROBE ZERO TEIST NAVY L/XL",
-    mall: "55- Jabl Omar",
-    quantity: 10,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23979",
-    name: "BATH ROBE ZERO TEIST OYSTER MUSHROOM L/XL",
-    mall: "43-Mujan Park",
-    quantity: 11,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23974",
-    name: "BATH ROBE ZERO TEIST OYSTER MUSHROOM S/M",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "23974",
-    name: "BATH ROBE ZERO TEIST OYSTER MUSHROOM S/M",
-    mall: "55- Jabl Omar",
-    quantity: 5,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23974",
-    name: "BATH ROBE ZERO TEIST OYSTER MUSHROOM S/M",
-    mall: "56- Aziz Mall 2",
-    quantity: 5,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23978",
-    name: "BATH ROBE ZERO TEIST ROSE L/XL",
-    mall: "08-Makkah Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23978",
-    name: "BATH ROBE ZERO TEIST ROSE L/XL",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 8,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23978",
-    name: "BATH ROBE ZERO TEIST ROSE L/XL",
-    mall: "55- Jabl Omar",
-    quantity: 11,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23976",
-    name: "BATH ROBE ZERO TEIST WHITE L/XL",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23976",
-    name: "BATH ROBE ZERO TEIST WHITE L/XL",
-    mall: "20-Sitten Street Makkah",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23976",
-    name: "BATH ROBE ZERO TEIST WHITE L/XL",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-16"
   },
   {
     code: "23971",
@@ -24719,36 +19896,8 @@ const oldData = [
   {
     code: "23971",
     name: "BATH ROBE ZERO TEIST WHITE S/M",
-    mall: "14-Al Kamal Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23971",
-    name: "BATH ROBE ZERO TEIST WHITE S/M",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 10,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "23971",
-    name: "BATH ROBE ZERO TEIST WHITE S/M",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 9,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23971",
-    name: "BATH ROBE ZERO TEIST WHITE S/M",
-    mall: "44-Al-Jouf Center",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23971",
-    name: "BATH ROBE ZERO TEIST WHITE S/M",
     mall: "48 - Jeddah Park",
-    quantity: 5,
+    quantity: 11,
     lastSaleDate: "2025-04-26"
   },
   {
@@ -24810,13 +19959,6 @@ const oldData = [
   {
     code: "21816",
     name: "BATH SHEET AIR-RICH 86X172 CM GRAPE WINE",
-    mall: "49-AlAhsa Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "21816",
-    name: "BATH SHEET AIR-RICH 86X172 CM GRAPE WINE",
     mall: "53-Al Basateen Mall",
     quantity: 4,
     lastSaleDate: "2025-01-28"
@@ -24862,55 +20004,6 @@ const oldData = [
     mall: "50-Meem Plaza Riyadh",
     quantity: 12,
     lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "23370",
-    name: "BATH SHEET AIR-RICH 86X172 CM LAVENDER BLUE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "23370",
-    name: "BATH SHEET AIR-RICH 86X172 CM LAVENDER BLUE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23370",
-    name: "BATH SHEET AIR-RICH 86X172 CM LAVENDER BLUE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23370",
-    name: "BATH SHEET AIR-RICH 86X172 CM LAVENDER BLUE",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23370",
-    name: "BATH SHEET AIR-RICH 86X172 CM LAVENDER BLUE",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 13,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "23370",
-    name: "BATH SHEET AIR-RICH 86X172 CM LAVENDER BLUE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "24032",
-    name: "BATH SHEET AIR-RICH 86X172 CM LIGHT BLUE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-27"
   },
   {
     code: "23369",
@@ -24974,13 +20067,6 @@ const oldData = [
     mall: "25-Rabwa Othaim Mall",
     quantity: 4,
     lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23369",
-    name: "BATH SHEET AIR-RICH 86X172 CM PINK CARN",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-01-28"
   },
   {
     code: "23369",
@@ -25074,97 +20160,6 @@ const oldData = [
     lastSaleDate: "2025-03-06"
   },
   {
-    code: "21819",
-    name: "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-02-26"
-  },
-  {
-    code: "21819",
-    name: "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
-    mall: "36-Al jubail Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "21819",
-    name: "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "21819",
-    name: "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 9,
-    lastSaleDate: "2025-01-26"
-  },
-  {
-    code: "21819",
-    name: "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
-    mall: "38-Al_Riyadh Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "21819",
-    name: "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
-    mall: "49-AlAhsa Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "21819",
-    name: "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 12,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "21819",
-    name: "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
-    mall: "38-Al_Riyadh Park",
-    quantity: 12,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "21819",
-    name: "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
-    mall: "44-Al-Jouf Center",
-    quantity: 16,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "21819",
-    name: "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "21819",
-    name: "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "21819",
-    name: "BATH SHEET AIR-RICH 86X172 CM PRIM ROSE",
-    mall: "53-Al Basateen Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "24031",
-    name: "BATH SHEET AIR-RICH 86X172 CM RICH BLACK",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-30"
-  },
-  {
     code: "22374",
     name: "BATH SHEET AIR-RICH 86X172 CM TERRA COTTA",
     mall: "19-Hail Othaim Mall",
@@ -25177,13 +20172,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 6,
     lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "22374",
-    name: "BATH SHEET AIR-RICH 86X172 CM TERRA COTTA",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 3,
-    lastSaleDate: "2025-04-05"
   },
   {
     code: "22374",
@@ -25223,13 +20211,6 @@ const oldData = [
   {
     code: "22374",
     name: "BATH SHEET AIR-RICH 86X172 CM TERRA COTTA",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 12,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "22374",
-    name: "BATH SHEET AIR-RICH 86X172 CM TERRA COTTA",
     mall: "45- Riyadh Gallery Mall",
     quantity: 12,
     lastSaleDate: "2025-04-06"
@@ -25237,23 +20218,9 @@ const oldData = [
   {
     code: "12424",
     name: "BATH SHEET AIR-RICH BURGANDY",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "12424",
-    name: "BATH SHEET AIR-RICH BURGANDY",
     mall: "17-Arar Othaim Mall",
     quantity: 21,
     lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "12424",
-    name: "BATH SHEET AIR-RICH BURGANDY",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 6,
-    lastSaleDate: "2025-02-18"
   },
   {
     code: "12424",
@@ -25300,20 +20267,6 @@ const oldData = [
   {
     code: "12424",
     name: "BATH SHEET AIR-RICH BURGANDY",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 10,
-    lastSaleDate: "2025-01-07"
-  },
-  {
-    code: "12424",
-    name: "BATH SHEET AIR-RICH BURGANDY",
-    mall: "52-Al_Baha Mall",
-    quantity: 20,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "12424",
-    name: "BATH SHEET AIR-RICH BURGANDY",
     mall: "53-Al Basateen Mall",
     quantity: 14,
     lastSaleDate: "2025-03-26"
@@ -25340,48 +20293,6 @@ const oldData = [
     lastSaleDate: "2023-06-19"
   },
   {
-    code: "12415",
-    name: "BATH SHEET AIR-RICH IVORY",
-    mall: "09-Al-Salam Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "12415",
-    name: "BATH SHEET AIR-RICH IVORY",
-    mall: "17-Arar Othaim Mall",
-    quantity: 20,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "12415",
-    name: "BATH SHEET AIR-RICH IVORY",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 11,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "12415",
-    name: "BATH SHEET AIR-RICH IVORY",
-    mall: "44-Al-Jouf Center",
-    quantity: 13,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "12415",
-    name: "BATH SHEET AIR-RICH IVORY",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "12415",
-    name: "BATH SHEET AIR-RICH IVORY",
-    mall: "55- Jabl Omar",
-    quantity: 13,
-    lastSaleDate: "2025-04-06"
-  },
-  {
     code: "14418",
     name: "BATH SHEET AIR-RICH LAVENDER",
     mall: "47-Al-Nakheel Plaza",
@@ -25401,13 +20312,6 @@ const oldData = [
     mall: "13-Al-Yasmin Mall",
     quantity: 1,
     lastSaleDate: "2024-12-26"
-  },
-  {
-    code: "14418",
-    name: "BATH SHEET AIR-RICH LAVENDER",
-    mall: "17-Arar Othaim Mall",
-    quantity: 13,
-    lastSaleDate: "2025-03-17"
   },
   {
     code: "14418",
@@ -25454,13 +20358,6 @@ const oldData = [
   {
     code: "14418",
     name: "BATH SHEET AIR-RICH LAVENDER",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "14418",
-    name: "BATH SHEET AIR-RICH LAVENDER",
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2025-03-09"
@@ -25480,46 +20377,11 @@ const oldData = [
     lastSaleDate: "2025-01-28"
   },
   {
-    code: "12417",
-    name: "BATH SHEET AIR-RICH LINEN",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 26,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "12417",
-    name: "BATH SHEET AIR-RICH LINEN",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-18"
-  },
-  {
     code: "14420",
     name: "BATH SHEET AIR-RICH LIVING CORAL",
     mall: "30-Tala Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2023-01-30"
-  },
-  {
-    code: "20160",
-    name: "BATH SHEET AIR-RICH NAVY",
-    mall: "53-Al Basateen Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "20160",
-    name: "BATH SHEET AIR-RICH NAVY",
-    mall: "55- Jabl Omar",
-    quantity: 19,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "16060",
-    name: "BATH SHEET AIR-RICH OYSTER MUSHROOM",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 17,
-    lastSaleDate: "2025-04-13"
   },
   {
     code: "12425",
@@ -25552,13 +20414,6 @@ const oldData = [
   {
     code: "12425",
     name: "BATH SHEET AIR-RICH P.BLUE",
-    mall: "12-Al_Hamra Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "12425",
-    name: "BATH SHEET AIR-RICH P.BLUE",
     mall: "13-Al-Yasmin Mall",
     quantity: 2,
     lastSaleDate: "2025-03-15"
@@ -25580,20 +20435,6 @@ const oldData = [
   {
     code: "12425",
     name: "BATH SHEET AIR-RICH P.BLUE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-10"
-  },
-  {
-    code: "12425",
-    name: "BATH SHEET AIR-RICH P.BLUE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 14,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "12425",
-    name: "BATH SHEET AIR-RICH P.BLUE",
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 1,
     lastSaleDate: "2025-03-25"
@@ -25611,20 +20452,6 @@ const oldData = [
     mall: "23-Alia Mall Madinah",
     quantity: 3,
     lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "12425",
-    name: "BATH SHEET AIR-RICH P.BLUE",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-12"
-  },
-  {
-    code: "12425",
-    name: "BATH SHEET AIR-RICH P.BLUE",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 17,
-    lastSaleDate: "2025-04-09"
   },
   {
     code: "12425",
@@ -25692,20 +20519,6 @@ const oldData = [
   {
     code: "12423",
     name: "BATH SHEET AIR-RICH PINK",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 8,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "12423",
-    name: "BATH SHEET AIR-RICH PINK",
-    mall: "19-Hail Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "12423",
-    name: "BATH SHEET AIR-RICH PINK",
     mall: "36-Al jubail Mall",
     quantity: 14,
     lastSaleDate: "2025-04-25"
@@ -25755,13 +20568,6 @@ const oldData = [
   {
     code: "12428",
     name: "BATH SHEET AIR-RICH ROSE",
-    mall: "11-Jouri Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "12428",
-    name: "BATH SHEET AIR-RICH ROSE",
     mall: "14-Al Kamal Mall",
     quantity: 13,
     lastSaleDate: "2025-03-28"
@@ -25797,20 +20603,6 @@ const oldData = [
   {
     code: "12428",
     name: "BATH SHEET AIR-RICH ROSE",
-    mall: "11-Jouri Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "12428",
-    name: "BATH SHEET AIR-RICH ROSE",
-    mall: "20-Sitten Street Makkah",
-    quantity: 13,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "12428",
-    name: "BATH SHEET AIR-RICH ROSE",
     mall: "24-Yanbu Dana Mall",
     quantity: 12,
     lastSaleDate: "2025-04-07"
@@ -25830,20 +20622,6 @@ const oldData = [
     lastSaleDate: "2025-04-03"
   },
   {
-    code: "12428",
-    name: "BATH SHEET AIR-RICH ROSE",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "16062",
-    name: "BATH SHEET AIR-RICH ROSE DUST",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-01-06"
-  },
-  {
     code: "16062",
     name: "BATH SHEET AIR-RICH ROSE DUST",
     mall: "50-Meem Plaza Riyadh",
@@ -25856,34 +20634,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 2,
     lastSaleDate: "2023-05-29"
-  },
-  {
-    code: "12426",
-    name: "BATH SHEET AIR-RICH TITANIUM",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-01"
-  },
-  {
-    code: "12426",
-    name: "BATH SHEET AIR-RICH TITANIUM",
-    mall: "36-Al jubail Mall",
-    quantity: 14,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "12426",
-    name: "BATH SHEET AIR-RICH TITANIUM",
-    mall: "55- Jabl Omar",
-    quantity: 10,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "12416",
-    name: "BATH SHEET AIR-RICH WHITE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 24,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "13672",
@@ -25933,13 +20683,6 @@ const oldData = [
     mall: "20-Sitten Street Makkah",
     quantity: 1,
     lastSaleDate: "2019-07-22"
-  },
-  {
-    code: "15523",
-    name: "BATH SHEET ZERO TWIST 1 PCS 170*85",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2024-02-29"
   },
   {
     code: "14844",
@@ -26010,97 +20753,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 3,
     lastSaleDate: "2025-01-25"
-  },
-  {
-    code: "21826",
-    name: "BATH TOWEL AIR-RICH  70X140 CM LAUREL WREATH",
-    mall: "12-Al_Hamra Mall",
-    quantity: 12,
-    lastSaleDate: "2024-06-06"
-  },
-  {
-    code: "21826",
-    name: "BATH TOWEL AIR-RICH  70X140 CM LAUREL WREATH",
-    mall: "17-Arar Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2024-11-29"
-  },
-  {
-    code: "21826",
-    name: "BATH TOWEL AIR-RICH  70X140 CM LAUREL WREATH",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2024-04-06"
-  },
-  {
-    code: "21826",
-    name: "BATH TOWEL AIR-RICH  70X140 CM LAUREL WREATH",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 12,
-    lastSaleDate: "2024-07-08"
-  },
-  {
-    code: "21827",
-    name: "BATH TOWEL AIR-RICH  70X140 CM PRIM ROSE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "21827",
-    name: "BATH TOWEL AIR-RICH  70X140 CM PRIM ROSE",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2024-10-11"
-  },
-  {
-    code: "21827",
-    name: "BATH TOWEL AIR-RICH  70X140 CM PRIM ROSE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "21827",
-    name: "BATH TOWEL AIR-RICH  70X140 CM PRIM ROSE",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2024-10-11"
-  },
-  {
-    code: "21827",
-    name: "BATH TOWEL AIR-RICH  70X140 CM PRIM ROSE",
-    mall: "49-AlAhsa Mall",
-    quantity: 12,
-    lastSaleDate: "2025-02-24"
-  },
-  {
-    code: "21827",
-    name: "BATH TOWEL AIR-RICH  70X140 CM PRIM ROSE",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 11,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "21827",
-    name: "BATH TOWEL AIR-RICH  70X140 CM PRIM ROSE",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "21827",
-    name: "BATH TOWEL AIR-RICH  70X140 CM PRIM ROSE",
-    mall: "55- Jabl Omar",
-    quantity: 12,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23372",
-    name: "BATH TOWEL AIR-RICH 70X140 CM LAVENDER BLUE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-11"
   },
   {
     code: "23372",
@@ -26644,13 +21296,6 @@ const oldData = [
   {
     code: "22367",
     name: "BE-75 WHITE WOLF WRAP HOODED 124*180",
-    mall: "43-Mujan Park",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22367",
-    name: "BE-75 WHITE WOLF WRAP HOODED 124*180",
     mall: "45- Riyadh Gallery Mall",
     quantity: 5,
     lastSaleDate: "2025-01-31"
@@ -26661,13 +21306,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 15,
     lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "22176",
-    name: "BE-78 MAN SLIPPER BLUE 40/41",
-    mall: "14-Al Kamal Mall",
-    quantity: 7,
-    lastSaleDate: "2025-03-25"
   },
   {
     code: "22176",
@@ -26742,23 +21380,9 @@ const oldData = [
   {
     code: "22177",
     name: "BE-78 MAN SLIPPER BLUE 42/43",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22177",
-    name: "BE-78 MAN SLIPPER BLUE 42/43",
     mall: "52-Al_Baha Mall",
     quantity: 8,
     lastSaleDate: "2024-07-18"
-  },
-  {
-    code: "22187",
-    name: "BE-78 MAN SLIPPER GREY 42/43",
-    mall: "06-Red Sea Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "22187",
@@ -26794,13 +21418,6 @@ const oldData = [
     mall: "23-Alia Mall Madinah",
     quantity: 1,
     lastSaleDate: "2025-01-03"
-  },
-  {
-    code: "22188",
-    name: "BE-78 MAN SLIPPER GREY 44/45",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "22188",
@@ -26889,23 +21506,9 @@ const oldData = [
   {
     code: "22197",
     name: "BE-78 MAN SLIPPER ORANGE 40/41",
-    mall: "23-Alia Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "22197",
-    name: "BE-78 MAN SLIPPER ORANGE 40/41",
     mall: "30-Tala Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2024-09-19"
-  },
-  {
-    code: "22197",
-    name: "BE-78 MAN SLIPPER ORANGE 40/41",
-    mall: "36-Al jubail Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "22197",
@@ -26945,23 +21548,9 @@ const oldData = [
   {
     code: "22198",
     name: "BE-78 MAN SLIPPER ORANGE 42/43",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 7,
-    lastSaleDate: "2025-03-11"
-  },
-  {
-    code: "22198",
-    name: "BE-78 MAN SLIPPER ORANGE 42/43",
     mall: "23-Alia Mall Madinah",
     quantity: 7,
     lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "22198",
-    name: "BE-78 MAN SLIPPER ORANGE 42/43",
-    mall: "36-Al jubail Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-07"
   },
   {
     code: "22198",
@@ -27162,6 +21751,13 @@ const oldData = [
   {
     code: "22173",
     name: "BE-78 WOMEN SLIPPER BLUE 36/37",
+    mall: "12-Al_Hamra Mall",
+    quantity: 8,
+    lastSaleDate: "2023-11-04"
+  },
+  {
+    code: "22173",
+    name: "BE-78 WOMEN SLIPPER BLUE 36/37",
     mall: "19-Hail Othaim Mall",
     quantity: 8,
     lastSaleDate: "2023-10-31"
@@ -27190,6 +21786,20 @@ const oldData = [
   {
     code: "22173",
     name: "BE-78 WOMEN SLIPPER BLUE 36/37",
+    mall: "39-Salam Mall Riyadh",
+    quantity: 8,
+    lastSaleDate: "2024-11-25"
+  },
+  {
+    code: "22173",
+    name: "BE-78 WOMEN SLIPPER BLUE 36/37",
+    mall: "42-Dareen Mall Dammam",
+    quantity: 8,
+    lastSaleDate: "2025-03-30"
+  },
+  {
+    code: "22173",
+    name: "BE-78 WOMEN SLIPPER BLUE 36/37",
     mall: "43-Mujan Park",
     quantity: 5,
     lastSaleDate: "2025-01-13"
@@ -27211,6 +21821,13 @@ const oldData = [
   {
     code: "22174",
     name: "BE-78 WOMEN SLIPPER BLUE 38/39",
+    mall: "12-Al_Hamra Mall",
+    quantity: 16,
+    lastSaleDate: "2023-11-23"
+  },
+  {
+    code: "22174",
+    name: "BE-78 WOMEN SLIPPER BLUE 38/39",
     mall: "16-Ehsa Othaim Mall",
     quantity: 21,
     lastSaleDate: "2025-03-19"
@@ -27225,9 +21842,9 @@ const oldData = [
   {
     code: "22174",
     name: "BE-78 WOMEN SLIPPER BLUE 38/39",
-    mall: "29-Al Nakheel Mall Riyadh",
+    mall: "39-Salam Mall Riyadh",
     quantity: 16,
-    lastSaleDate: "2024-12-26"
+    lastSaleDate: "2023-12-23"
   },
   {
     code: "22174",
@@ -27253,16 +21870,9 @@ const oldData = [
   {
     code: "22175",
     name: "BE-78 WOMEN SLIPPER BLUE 40/41",
-    mall: "16-Ehsa Othaim Mall",
+    mall: "12-Al_Hamra Mall",
     quantity: 4,
-    lastSaleDate: "2025-01-30"
-  },
-  {
-    code: "22175",
-    name: "BE-78 WOMEN SLIPPER BLUE 40/41",
-    mall: "19-Hail Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-11"
+    lastSaleDate: "2023-10-08"
   },
   {
     code: "22175",
@@ -27270,6 +21880,13 @@ const oldData = [
     mall: "29-Al Nakheel Mall Riyadh",
     quantity: 4,
     lastSaleDate: "2024-09-14"
+  },
+  {
+    code: "22175",
+    name: "BE-78 WOMEN SLIPPER BLUE 40/41",
+    mall: "39-Salam Mall Riyadh",
+    quantity: 4,
+    lastSaleDate: "2023-11-05"
   },
   {
     code: "22175",
@@ -27296,7 +21913,7 @@ const oldData = [
     code: "22175",
     name: "BE-78 WOMEN SLIPPER BLUE 40/41",
     mall: "50-Meem Plaza Riyadh",
-    quantity: 4,
+    quantity: 8,
     lastSaleDate: "2023-09-30"
   },
   {
@@ -27400,13 +22017,6 @@ const oldData = [
   {
     code: "22189",
     name: "BE-78 WOMEN SLIPPER NAVY BLUE 36/37",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 3,
-    lastSaleDate: "2025-01-09"
-  },
-  {
-    code: "22189",
-    name: "BE-78 WOMEN SLIPPER NAVY BLUE 36/37",
     mall: "43-Mujan Park",
     quantity: 2,
     lastSaleDate: "2025-02-08"
@@ -27428,13 +22038,6 @@ const oldData = [
   {
     code: "22190",
     name: "BE-78 WOMEN SLIPPER NAVY BLUE 38/39",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-01-25"
-  },
-  {
-    code: "22190",
-    name: "BE-78 WOMEN SLIPPER NAVY BLUE 38/39",
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 1,
     lastSaleDate: "2025-04-11"
@@ -27445,13 +22048,6 @@ const oldData = [
     mall: "24-Yanbu Dana Mall",
     quantity: 5,
     lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "22190",
-    name: "BE-78 WOMEN SLIPPER NAVY BLUE 38/39",
-    mall: "44-Al-Jouf Center",
-    quantity: 5,
-    lastSaleDate: "2024-11-30"
   },
   {
     code: "22190",
@@ -27480,13 +22076,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 2,
     lastSaleDate: "2024-09-19"
-  },
-  {
-    code: "22194",
-    name: "BE-78 WOMEN SLIPPER ORANGE 36/37",
-    mall: "12-Al_Hamra Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "22194",
@@ -27545,13 +22134,6 @@ const oldData = [
     lastSaleDate: "2023-10-09"
   },
   {
-    code: "22194",
-    name: "BE-78 WOMEN SLIPPER ORANGE 36/37",
-    mall: "49-AlAhsa Mall",
-    quantity: 10,
-    lastSaleDate: "2025-03-25"
-  },
-  {
     code: "22195",
     name: "BE-78 WOMEN SLIPPER ORANGE 38/39",
     mall: "12-Al_Hamra Mall",
@@ -27564,13 +22146,6 @@ const oldData = [
     mall: "15-Riyadh Othaim Mall",
     quantity: 6,
     lastSaleDate: "2023-10-19"
-  },
-  {
-    code: "22195",
-    name: "BE-78 WOMEN SLIPPER ORANGE 38/39",
-    mall: "19-Hail Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "22195",
@@ -27673,23 +22248,9 @@ const oldData = [
   {
     code: "22170",
     name: "BE-78 WOMEN SLIPPER PINK 36/37",
-    mall: "05-Haifa Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "22170",
-    name: "BE-78 WOMEN SLIPPER PINK 36/37",
     mall: "06-Red Sea Mall",
     quantity: 1,
     lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "22170",
-    name: "BE-78 WOMEN SLIPPER PINK 36/37",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 8,
-    lastSaleDate: "2025-02-03"
   },
   {
     code: "22170",
@@ -27701,13 +22262,6 @@ const oldData = [
   {
     code: "22170",
     name: "BE-78 WOMEN SLIPPER PINK 36/37",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "22170",
-    name: "BE-78 WOMEN SLIPPER PINK 36/37",
     mall: "25-Rabwa Othaim Mall",
     quantity: 8,
     lastSaleDate: "2023-09-08"
@@ -27715,16 +22269,16 @@ const oldData = [
   {
     code: "22170",
     name: "BE-78 WOMEN SLIPPER PINK 36/37",
-    mall: "29-Al Nakheel Mall Riyadh",
+    mall: "38-Al_Riyadh Park",
     quantity: 8,
-    lastSaleDate: "2024-11-19"
+    lastSaleDate: "2023-09-14"
   },
   {
     code: "22170",
     name: "BE-78 WOMEN SLIPPER PINK 36/37",
-    mall: "38-Al_Riyadh Park",
+    mall: "39-Salam Mall Riyadh",
     quantity: 8,
-    lastSaleDate: "2023-09-14"
+    lastSaleDate: "2023-12-11"
   },
   {
     code: "22170",
@@ -27792,9 +22346,9 @@ const oldData = [
   {
     code: "22171",
     name: "BE-78 WOMEN SLIPPER PINK 38/39",
-    mall: "40-Hayat Mall Riyad",
+    mall: "39-Salam Mall Riyadh",
     quantity: 16,
-    lastSaleDate: "2023-11-15"
+    lastSaleDate: "2023-10-28"
   },
   {
     code: "22171",
@@ -27876,13 +22430,6 @@ const oldData = [
   {
     code: "22172",
     name: "BE-78 WOMEN SLIPPER PINK 40/41",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 8,
-    lastSaleDate: "2024-10-04"
-  },
-  {
-    code: "22172",
-    name: "BE-78 WOMEN SLIPPER PINK 40/41",
     mall: "38-Al_Riyadh Park",
     quantity: 8,
     lastSaleDate: "2023-09-24"
@@ -27890,9 +22437,9 @@ const oldData = [
   {
     code: "22172",
     name: "BE-78 WOMEN SLIPPER PINK 40/41",
-    mall: "40-Hayat Mall Riyad",
+    mall: "39-Salam Mall Riyadh",
     quantity: 8,
-    lastSaleDate: "2023-11-03"
+    lastSaleDate: "2023-10-09"
   },
   {
     code: "22172",
@@ -27900,118 +22447,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 8,
     lastSaleDate: "2024-03-15"
-  },
-  {
-    code: "22178",
-    name: "BE-78 WOMEN SLIPPER WHITE 36/37",
-    mall: "09-Al-Salam Mall",
-    quantity: 6,
-    lastSaleDate: "2025-02-20"
-  },
-  {
-    code: "22178",
-    name: "BE-78 WOMEN SLIPPER WHITE 36/37",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22178",
-    name: "BE-78 WOMEN SLIPPER WHITE 36/37",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2024-03-22"
-  },
-  {
-    code: "22178",
-    name: "BE-78 WOMEN SLIPPER WHITE 36/37",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 1,
-    lastSaleDate: "2023-09-15"
-  },
-  {
-    code: "22178",
-    name: "BE-78 WOMEN SLIPPER WHITE 36/37",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 12,
-    lastSaleDate: "2025-01-25"
-  },
-  {
-    code: "22178",
-    name: "BE-78 WOMEN SLIPPER WHITE 36/37",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 12,
-    lastSaleDate: "2023-09-03"
-  },
-  {
-    code: "22178",
-    name: "BE-78 WOMEN SLIPPER WHITE 36/37",
-    mall: "44-Al-Jouf Center",
-    quantity: 10,
-    lastSaleDate: "2023-08-26"
-  },
-  {
-    code: "22178",
-    name: "BE-78 WOMEN SLIPPER WHITE 36/37",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 12,
-    lastSaleDate: "2023-11-05"
-  },
-  {
-    code: "22179",
-    name: "BE-78 WOMEN SLIPPER WHITE 38/39",
-    mall: "09-Al-Salam Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-06"
-  },
-  {
-    code: "22179",
-    name: "BE-78 WOMEN SLIPPER WHITE 38/39",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "22179",
-    name: "BE-78 WOMEN SLIPPER WHITE 38/39",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 12,
-    lastSaleDate: "2024-12-28"
-  },
-  {
-    code: "22179",
-    name: "BE-78 WOMEN SLIPPER WHITE 38/39",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 12,
-    lastSaleDate: "2024-08-17"
-  },
-  {
-    code: "22179",
-    name: "BE-78 WOMEN SLIPPER WHITE 38/39",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 12,
-    lastSaleDate: "2023-11-11"
-  },
-  {
-    code: "22179",
-    name: "BE-78 WOMEN SLIPPER WHITE 38/39",
-    mall: "44-Al-Jouf Center",
-    quantity: 9,
-    lastSaleDate: "2023-09-13"
-  },
-  {
-    code: "22179",
-    name: "BE-78 WOMEN SLIPPER WHITE 38/39",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 12,
-    lastSaleDate: "2023-11-05"
-  },
-  {
-    code: "22179",
-    name: "BE-78 WOMEN SLIPPER WHITE 38/39",
-    mall: "52-Al_Baha Mall",
-    quantity: 6,
-    lastSaleDate: "2025-02-27"
   },
   {
     code: "22180",
@@ -28023,13 +22458,6 @@ const oldData = [
   {
     code: "22180",
     name: "BE-78 WOMEN SLIPPER WHITE 40/41",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 6,
-    lastSaleDate: "2024-11-25"
-  },
-  {
-    code: "22180",
-    name: "BE-78 WOMEN SLIPPER WHITE 40/41",
     mall: "29-Al Nakheel Mall Riyadh",
     quantity: 6,
     lastSaleDate: "2024-09-30"
@@ -28037,9 +22465,9 @@ const oldData = [
   {
     code: "22180",
     name: "BE-78 WOMEN SLIPPER WHITE 40/41",
-    mall: "40-Hayat Mall Riyad",
+    mall: "39-Salam Mall Riyadh",
     quantity: 6,
-    lastSaleDate: "2024-11-25"
+    lastSaleDate: "2023-10-08"
   },
   {
     code: "22180",
@@ -28058,9 +22486,9 @@ const oldData = [
   {
     code: "22180",
     name: "BE-78 WOMEN SLIPPER WHITE 40/41",
-    mall: "45- Riyadh Gallery Mall",
+    mall: "46-Khaleej Mall Riyadh",
     quantity: 6,
-    lastSaleDate: "2023-11-08"
+    lastSaleDate: "2025-01-17"
   },
   {
     code: "22180",
@@ -28107,23 +22535,9 @@ const oldData = [
   {
     code: "22167",
     name: "BE-78 WOMEN SLIPPER YELLOW 36/37",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "22167",
-    name: "BE-78 WOMEN SLIPPER YELLOW 36/37",
     mall: "19-Hail Othaim Mall",
     quantity: 1,
     lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "22167",
-    name: "BE-78 WOMEN SLIPPER YELLOW 36/37",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-03-16"
   },
   {
     code: "22167",
@@ -28145,20 +22559,6 @@ const oldData = [
     mall: "26-Al-Noor Mall Madinah",
     quantity: 11,
     lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "22167",
-    name: "BE-78 WOMEN SLIPPER YELLOW 36/37",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 8,
-    lastSaleDate: "2025-02-19"
-  },
-  {
-    code: "22167",
-    name: "BE-78 WOMEN SLIPPER YELLOW 36/37",
-    mall: "36-Al jubail Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-25"
   },
   {
     code: "22167",
@@ -28191,16 +22591,16 @@ const oldData = [
   {
     code: "22167",
     name: "BE-78 WOMEN SLIPPER YELLOW 36/37",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 16,
-    lastSaleDate: "2024-07-12"
+    mall: "47-Al-Nakheel Plaza",
+    quantity: 11,
+    lastSaleDate: "2025-04-16"
   },
   {
     code: "22167",
     name: "BE-78 WOMEN SLIPPER YELLOW 36/37",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 11,
-    lastSaleDate: "2025-04-16"
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 8,
+    lastSaleDate: "2024-08-23"
   },
   {
     code: "22167",
@@ -28215,83 +22615,6 @@ const oldData = [
     mall: "56- Aziz Mall 2",
     quantity: 7,
     lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "22168",
-    name: "BE-78 WOMEN SLIPPER YELLOW 38/39",
-    mall: "12-Al_Hamra Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "22168",
-    name: "BE-78 WOMEN SLIPPER YELLOW 38/39",
-    mall: "14-Al Kamal Mall",
-    quantity: 7,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "22168",
-    name: "BE-78 WOMEN SLIPPER YELLOW 38/39",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "22168",
-    name: "BE-78 WOMEN SLIPPER YELLOW 38/39",
-    mall: "18-Al_Khayyat Center",
-    quantity: 3,
-    lastSaleDate: "2025-02-23"
-  },
-  {
-    code: "22168",
-    name: "BE-78 WOMEN SLIPPER YELLOW 38/39",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2023-11-13"
-  },
-  {
-    code: "22168",
-    name: "BE-78 WOMEN SLIPPER YELLOW 38/39",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 16,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "22168",
-    name: "BE-78 WOMEN SLIPPER YELLOW 38/39",
-    mall: "38-Al_Riyadh Park",
-    quantity: 12,
-    lastSaleDate: "2024-07-14"
-  },
-  {
-    code: "22168",
-    name: "BE-78 WOMEN SLIPPER YELLOW 38/39",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 12,
-    lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "22168",
-    name: "BE-78 WOMEN SLIPPER YELLOW 38/39",
-    mall: "44-Al-Jouf Center",
-    quantity: 9,
-    lastSaleDate: "2025-02-06"
-  },
-  {
-    code: "22168",
-    name: "BE-78 WOMEN SLIPPER YELLOW 38/39",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 18,
-    lastSaleDate: "2025-02-26"
-  },
-  {
-    code: "22168",
-    name: "BE-78 WOMEN SLIPPER YELLOW 38/39",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 2,
-    lastSaleDate: "2024-10-11"
   },
   {
     code: "22169",
@@ -28313,13 +22636,6 @@ const oldData = [
     mall: "25-Rabwa Othaim Mall",
     quantity: 8,
     lastSaleDate: "2023-12-15"
-  },
-  {
-    code: "22169",
-    name: "BE-78 WOMEN SLIPPER YELLOW 40/41",
-    mall: "36-Al jubail Mall",
-    quantity: 5,
-    lastSaleDate: "2024-09-21"
   },
   {
     code: "22169",
@@ -28373,9 +22689,9 @@ const oldData = [
   {
     code: "22169",
     name: "BE-78 WOMEN SLIPPER YELLOW 40/41",
-    mall: "56- Aziz Mall 2",
-    quantity: 6,
-    lastSaleDate: "2025-04-24"
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 8,
+    lastSaleDate: "2025-02-27"
   },
   {
     code: "22294",
@@ -28415,13 +22731,6 @@ const oldData = [
   {
     code: "22295",
     name: "BE-79 MAN SLIPPER GREY 42/43",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "22295",
-    name: "BE-79 MAN SLIPPER GREY 42/43",
     mall: "32-Atyaf Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-04-22"
@@ -28443,13 +22752,6 @@ const oldData = [
   {
     code: "22296",
     name: "BE-79 MAN SLIPPER GREY 44/45",
-    mall: "18-Al_Khayyat Center",
-    quantity: 2,
-    lastSaleDate: "2025-02-24"
-  },
-  {
-    code: "22296",
-    name: "BE-79 MAN SLIPPER GREY 44/45",
     mall: "55- Jabl Omar",
     quantity: 4,
     lastSaleDate: "2025-02-18"
@@ -28460,13 +22762,6 @@ const oldData = [
     mall: "15-Riyadh Othaim Mall",
     quantity: 6,
     lastSaleDate: "2024-06-08"
-  },
-  {
-    code: "22296",
-    name: "BE-79 MAN SLIPPER GREY 44/45",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 2,
-    lastSaleDate: "2025-04-20"
   },
   {
     code: "22296",
@@ -28553,13 +22848,6 @@ const oldData = [
     lastSaleDate: "2025-03-23"
   },
   {
-    code: "22288",
-    name: "BE-79 WOMAN SLIPPER GREY 36/37",
-    mall: "18-Al_Khayyat Center",
-    quantity: 3,
-    lastSaleDate: "2025-04-06"
-  },
-  {
     code: "22289",
     name: "BE-79 WOMAN SLIPPER GREY 38/39",
     mall: "18-Al_Khayyat Center",
@@ -28600,13 +22888,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 2,
     lastSaleDate: "2025-02-27"
-  },
-  {
-    code: "22291",
-    name: "BE-79 WOMAN SLIPPER LIGHT BROWN 36/37",
-    mall: "18-Al_Khayyat Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-05"
   },
   {
     code: "22291",
@@ -28751,13 +23032,6 @@ const oldData = [
   {
     code: "22301",
     name: "BE-80 WOMEN SLIPPER BLACK 38/39",
-    mall: "11-Jouri Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22301",
-    name: "BE-80 WOMEN SLIPPER BLACK 38/39",
     mall: "20-Sitten Street Makkah",
     quantity: 1,
     lastSaleDate: "2025-03-07"
@@ -28768,13 +23042,6 @@ const oldData = [
     mall: "23-Alia Mall Madinah",
     quantity: 1,
     lastSaleDate: "2025-01-29"
-  },
-  {
-    code: "22301",
-    name: "BE-80 WOMEN SLIPPER BLACK 38/39",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "22301",
@@ -28821,23 +23088,9 @@ const oldData = [
   {
     code: "22301",
     name: "BE-80 WOMEN SLIPPER BLACK 38/39",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "22301",
-    name: "BE-80 WOMEN SLIPPER BLACK 38/39",
     mall: "42-Dareen Mall Dammam",
     quantity: 2,
     lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "22301",
-    name: "BE-80 WOMEN SLIPPER BLACK 38/39",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "22302",
@@ -28882,13 +23135,6 @@ const oldData = [
     lastSaleDate: "2025-04-11"
   },
   {
-    code: "22302",
-    name: "BE-80 WOMEN SLIPPER BLACK 40/41",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-02-12"
-  },
-  {
     code: "22303",
     name: "BE-80 WOMEN SLIPPER IVORY 36/37",
     mall: "18-Al_Khayyat Center",
@@ -28901,13 +23147,6 @@ const oldData = [
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 1,
     lastSaleDate: "2024-11-15"
-  },
-  {
-    code: "22303",
-    name: "BE-80 WOMEN SLIPPER IVORY 36/37",
-    mall: "43-Mujan Park",
-    quantity: 5,
-    lastSaleDate: "2025-02-05"
   },
   {
     code: "22303",
@@ -28954,30 +23193,9 @@ const oldData = [
   {
     code: "22303",
     name: "BE-80 WOMEN SLIPPER IVORY 36/37",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 12,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "22303",
-    name: "BE-80 WOMEN SLIPPER IVORY 36/37",
     mall: "47-Al-Nakheel Plaza",
     quantity: 23,
     lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "22303",
-    name: "BE-80 WOMEN SLIPPER IVORY 36/37",
-    mall: "49-AlAhsa Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "22303",
-    name: "BE-80 WOMEN SLIPPER IVORY 36/37",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "22304",
@@ -28992,13 +23210,6 @@ const oldData = [
     mall: "22-Tabuk Park",
     quantity: 1,
     lastSaleDate: "2025-01-03"
-  },
-  {
-    code: "22304",
-    name: "BE-80 WOMEN SLIPPER IVORY 38/39",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "22304",
@@ -29076,83 +23287,6 @@ const oldData = [
     mall: "45- Riyadh Gallery Mall",
     quantity: 1,
     lastSaleDate: "2024-09-18"
-  },
-  {
-    code: "22306",
-    name: "BE-80 WOMEN SLIPPER LIGHT PINK 36/37",
-    mall: "17-Arar Othaim Mall",
-    quantity: 13,
-    lastSaleDate: "2024-12-02"
-  },
-  {
-    code: "22306",
-    name: "BE-80 WOMEN SLIPPER LIGHT PINK 36/37",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 6,
-    lastSaleDate: "2025-02-08"
-  },
-  {
-    code: "22306",
-    name: "BE-80 WOMEN SLIPPER LIGHT PINK 36/37",
-    mall: "22-Tabuk Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "22306",
-    name: "BE-80 WOMEN SLIPPER LIGHT PINK 36/37",
-    mall: "23-Alia Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "22306",
-    name: "BE-80 WOMEN SLIPPER LIGHT PINK 36/37",
-    mall: "43-Mujan Park",
-    quantity: 6,
-    lastSaleDate: "2025-02-27"
-  },
-  {
-    code: "22306",
-    name: "BE-80 WOMEN SLIPPER LIGHT PINK 36/37",
-    mall: "48 - Jeddah Park",
-    quantity: 3,
-    lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "22306",
-    name: "BE-80 WOMEN SLIPPER LIGHT PINK 36/37",
-    mall: "12-Al_Hamra Mall",
-    quantity: 9,
-    lastSaleDate: "2025-01-02"
-  },
-  {
-    code: "22306",
-    name: "BE-80 WOMEN SLIPPER LIGHT PINK 36/37",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 11,
-    lastSaleDate: "2024-06-24"
-  },
-  {
-    code: "22306",
-    name: "BE-80 WOMEN SLIPPER LIGHT PINK 36/37",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "22306",
-    name: "BE-80 WOMEN SLIPPER LIGHT PINK 36/37",
-    mall: "36-Al jubail Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "22306",
-    name: "BE-80 WOMEN SLIPPER LIGHT PINK 36/37",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 14,
-    lastSaleDate: "2023-09-27"
   },
   {
     code: "22307",
@@ -29253,18 +23387,18 @@ const oldData = [
     lastSaleDate: "2025-01-26"
   },
   {
+    code: "22308",
+    name: "BE-80 WOMEN SLIPPER LIGHT PINK 40/41",
+    mall: "46-Khaleej Mall Riyadh",
+    quantity: 14,
+    lastSaleDate: "2024-12-16"
+  },
+  {
     code: "22309",
     name: "BE-80 WOMEN SLIPPER NAVY 36/37",
     mall: "09-Al-Salam Mall",
     quantity: 1,
     lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "22309",
-    name: "BE-80 WOMEN SLIPPER NAVY 36/37",
-    mall: "11-Jouri Mall",
-    quantity: 12,
-    lastSaleDate: "2024-09-25"
   },
   {
     code: "22309",
@@ -29286,13 +23420,6 @@ const oldData = [
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "22309",
-    name: "BE-80 WOMEN SLIPPER NAVY 36/37",
-    mall: "52-Al_Baha Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "22309",
@@ -29363,13 +23490,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 10,
     lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "22310",
-    name: "BE-80 WOMEN SLIPPER NAVY 38/39",
-    mall: "14-Al Kamal Mall",
-    quantity: 12,
-    lastSaleDate: "2023-09-30"
   },
   {
     code: "22310",
@@ -29493,13 +23613,6 @@ const oldData = [
   {
     code: "22311",
     name: "BE-80 WOMEN SLIPPER NAVY 40/41",
-    mall: "19-Hail Othaim Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "22311",
-    name: "BE-80 WOMEN SLIPPER NAVY 40/41",
     mall: "36-Al jubail Mall",
     quantity: 2,
     lastSaleDate: "2025-04-24"
@@ -29552,13 +23665,6 @@ const oldData = [
     mall: "15-Riyadh Othaim Mall",
     quantity: 14,
     lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "22349",
-    name: "BE-81 MAN SLIPPER DESERT SAND 42/43",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 9,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "22349",
@@ -29752,6 +23858,13 @@ const oldData = [
   {
     code: "22315",
     name: "BE-81 WOMEN SLIPPER ORANGE 36/37",
+    mall: "12-Al_Hamra Mall",
+    quantity: 7,
+    lastSaleDate: "2024-09-24"
+  },
+  {
+    code: "22315",
+    name: "BE-81 WOMEN SLIPPER ORANGE 36/37",
     mall: "15-Riyadh Othaim Mall",
     quantity: 2,
     lastSaleDate: "2024-06-11"
@@ -29771,11 +23884,25 @@ const oldData = [
     lastSaleDate: "2025-03-03"
   },
   {
+    code: "22315",
+    name: "BE-81 WOMEN SLIPPER ORANGE 36/37",
+    mall: "42-Dareen Mall Dammam",
+    quantity: 7,
+    lastSaleDate: "2024-07-19"
+  },
+  {
     code: "22316",
     name: "BE-81 WOMEN SLIPPER ORANGE 38/39",
     mall: "52-Al_Baha Mall",
     quantity: 10,
     lastSaleDate: "2024-10-31"
+  },
+  {
+    code: "22316",
+    name: "BE-81 WOMEN SLIPPER ORANGE 38/39",
+    mall: "12-Al_Hamra Mall",
+    quantity: 7,
+    lastSaleDate: "2024-08-09"
   },
   {
     code: "22316",
@@ -29799,6 +23926,13 @@ const oldData = [
     lastSaleDate: "2024-11-23"
   },
   {
+    code: "22316",
+    name: "BE-81 WOMEN SLIPPER ORANGE 38/39",
+    mall: "42-Dareen Mall Dammam",
+    quantity: 7,
+    lastSaleDate: "2024-05-30"
+  },
+  {
     code: "22317",
     name: "BE-81 WOMEN SLIPPER ORANGE 40/41",
     mall: "24-Yanbu Dana Mall",
@@ -29811,6 +23945,13 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 3,
     lastSaleDate: "2025-04-24"
+  },
+  {
+    code: "22317",
+    name: "BE-81 WOMEN SLIPPER ORANGE 40/41",
+    mall: "12-Al_Hamra Mall",
+    quantity: 6,
+    lastSaleDate: "2024-07-19"
   },
   {
     code: "22317",
@@ -29839,6 +23980,20 @@ const oldData = [
     mall: "28-Al Nakheel Mall Dammam",
     quantity: 5,
     lastSaleDate: "2025-04-11"
+  },
+  {
+    code: "22317",
+    name: "BE-81 WOMEN SLIPPER ORANGE 40/41",
+    mall: "42-Dareen Mall Dammam",
+    quantity: 6,
+    lastSaleDate: "2024-05-25"
+  },
+  {
+    code: "22317",
+    name: "BE-81 WOMEN SLIPPER ORANGE 40/41",
+    mall: "46-Khaleej Mall Riyadh",
+    quantity: 6,
+    lastSaleDate: "2024-11-22"
   },
   {
     code: "22334",
@@ -29904,25 +24059,11 @@ const oldData = [
     lastSaleDate: "2024-08-07"
   },
   {
-    code: "22337",
-    name: "BE-82 WOMEN SLIPPER PURPLE 38/39",
-    mall: "52-Al_Baha Mall",
-    quantity: 10,
-    lastSaleDate: "2025-04-29"
-  },
-  {
     code: "22338",
     name: "BE-82 WOMEN SLIPPER PURPLE 40/41",
     mall: "44-Al-Jouf Center",
     quantity: 1,
     lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "22221",
-    name: "BE-83 MAN SLIPPER BLUE 40/41",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 2,
-    lastSaleDate: "2024-08-05"
   },
   {
     code: "22222",
@@ -29932,32 +24073,11 @@ const oldData = [
     lastSaleDate: "2024-08-01"
   },
   {
-    code: "22223",
-    name: "BE-83 MAN SLIPPER BLUE 44/45",
-    mall: "06-Red Sea Mall",
-    quantity: 3,
-    lastSaleDate: "2024-08-02"
-  },
-  {
-    code: "22223",
-    name: "BE-83 MAN SLIPPER BLUE 44/45",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-20"
-  },
-  {
     code: "22209",
     name: "BE-83 MAN SLIPPER BRIGHT GREEN 40/41",
     mall: "43-Mujan Park",
     quantity: 2,
     lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "22209",
-    name: "BE-83 MAN SLIPPER BRIGHT GREEN 40/41",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2024-08-22"
   },
   {
     code: "22210",
@@ -30109,13 +24229,6 @@ const oldData = [
   {
     code: "22205",
     name: "BE-83 MAN SLIPPER YELLOW 44/45",
-    mall: "06-Red Sea Mall",
-    quantity: 9,
-    lastSaleDate: "2024-09-21"
-  },
-  {
-    code: "22205",
-    name: "BE-83 MAN SLIPPER YELLOW 44/45",
     mall: "28-Al Nakheel Mall Dammam",
     quantity: 1,
     lastSaleDate: "2024-09-29"
@@ -30126,13 +24239,6 @@ const oldData = [
     mall: "45- Riyadh Gallery Mall",
     quantity: 8,
     lastSaleDate: "2024-09-14"
-  },
-  {
-    code: "22218",
-    name: "BE-83 WOMEN SLIPPER BLUE 36/37",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 5,
-    lastSaleDate: "2025-04-25"
   },
   {
     code: "22218",
@@ -30151,16 +24257,16 @@ const oldData = [
   {
     code: "22220",
     name: "BE-83 WOMEN SLIPPER BLUE 40/41",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2024-10-05"
-  },
-  {
-    code: "22220",
-    name: "BE-83 WOMEN SLIPPER BLUE 40/41",
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 1,
     lastSaleDate: "2024-07-04"
+  },
+  {
+    code: "22206",
+    name: "BE-83 WOMEN SLIPPER BRIGHT GREEN 36/37",
+    mall: "16-Ehsa Othaim Mall",
+    quantity: 7,
+    lastSaleDate: "2024-10-03"
   },
   {
     code: "22206",
@@ -30172,16 +24278,16 @@ const oldData = [
   {
     code: "22206",
     name: "BE-83 WOMEN SLIPPER BRIGHT GREEN 36/37",
-    mall: "36-Al jubail Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-16"
+    mall: "44-Al-Jouf Center",
+    quantity: 4,
+    lastSaleDate: "2025-04-18"
   },
   {
     code: "22206",
     name: "BE-83 WOMEN SLIPPER BRIGHT GREEN 36/37",
-    mall: "44-Al-Jouf Center",
-    quantity: 4,
-    lastSaleDate: "2025-04-18"
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-06-13"
   },
   {
     code: "22206",
@@ -30200,16 +24306,23 @@ const oldData = [
   {
     code: "22207",
     name: "BE-83 WOMEN SLIPPER BRIGHT GREEN 38/39",
+    mall: "16-Ehsa Othaim Mall",
+    quantity: 7,
+    lastSaleDate: "2024-10-03"
+  },
+  {
+    code: "22207",
+    name: "BE-83 WOMEN SLIPPER BRIGHT GREEN 38/39",
     mall: "28-Al Nakheel Mall Dammam",
     quantity: 3,
     lastSaleDate: "2024-11-15"
   },
   {
-    code: "22208",
-    name: "BE-83 WOMEN SLIPPER BRIGHT GREEN 40/41",
-    mall: "06-Red Sea Mall",
-    quantity: 2,
-    lastSaleDate: "2024-09-01"
+    code: "22207",
+    name: "BE-83 WOMEN SLIPPER BRIGHT GREEN 38/39",
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-07-04"
   },
   {
     code: "22208",
@@ -30224,13 +24337,6 @@ const oldData = [
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 1,
     lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "22208",
-    name: "BE-83 WOMEN SLIPPER BRIGHT GREEN 40/41",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 12,
-    lastSaleDate: "2024-10-13"
   },
   {
     code: "22208",
@@ -30254,11 +24360,25 @@ const oldData = [
     lastSaleDate: "2024-09-25"
   },
   {
-    code: "22226",
-    name: "BE-83 WOMEN SLIPPER NAVY 40/41",
-    mall: "06-Red Sea Mall",
-    quantity: 1,
-    lastSaleDate: "2024-08-31"
+    code: "22208",
+    name: "BE-83 WOMEN SLIPPER BRIGHT GREEN 40/41",
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 6,
+    lastSaleDate: "2024-10-19"
+  },
+  {
+    code: "22212",
+    name: "BE-83 WOMEN SLIPPER ORANGE 36/37",
+    mall: "12-Al_Hamra Mall",
+    quantity: 7,
+    lastSaleDate: "2024-09-24"
+  },
+  {
+    code: "22212",
+    name: "BE-83 WOMEN SLIPPER ORANGE 36/37",
+    mall: "16-Ehsa Othaim Mall",
+    quantity: 7,
+    lastSaleDate: "2024-10-04"
   },
   {
     code: "22212",
@@ -30284,9 +24404,16 @@ const oldData = [
   {
     code: "22213",
     name: "BE-83 WOMEN SLIPPER ORANGE 38/39",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 13,
-    lastSaleDate: "2025-04-30"
+    mall: "12-Al_Hamra Mall",
+    quantity: 7,
+    lastSaleDate: "2024-07-26"
+  },
+  {
+    code: "22213",
+    name: "BE-83 WOMEN SLIPPER ORANGE 38/39",
+    mall: "16-Ehsa Othaim Mall",
+    quantity: 7,
+    lastSaleDate: "2024-09-01"
   },
   {
     code: "22213",
@@ -30305,7 +24432,7 @@ const oldData = [
   {
     code: "22214",
     name: "BE-83 WOMEN SLIPPER ORANGE 40/41",
-    mall: "06-Red Sea Mall",
+    mall: "12-Al_Hamra Mall",
     quantity: 6,
     lastSaleDate: "2024-07-28"
   },
@@ -30315,13 +24442,6 @@ const oldData = [
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 1,
     lastSaleDate: "2024-09-28"
-  },
-  {
-    code: "22214",
-    name: "BE-83 WOMEN SLIPPER ORANGE 40/41",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 12,
-    lastSaleDate: "2024-10-03"
   },
   {
     code: "22214",
@@ -30345,17 +24465,17 @@ const oldData = [
     lastSaleDate: "2024-12-21"
   },
   {
-    code: "22201",
-    name: "BE-83 WOMEN SLIPPER YELLOW 38/39",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 2,
-    lastSaleDate: "2025-03-14"
+    code: "22236",
+    name: "BE-84 MAN SLIPPER IVORY 40/41",
+    mall: "04-Andalos Mall",
+    quantity: 8,
+    lastSaleDate: "2025-02-18"
   },
   {
     code: "22236",
     name: "BE-84 MAN SLIPPER IVORY 40/41",
     mall: "07-Arab Mall",
-    quantity: 8,
+    quantity: 16,
     lastSaleDate: "2025-04-26"
   },
   {
@@ -30417,13 +24537,6 @@ const oldData = [
   {
     code: "22237",
     name: "BE-84 MAN SLIPPER IVORY 42/43",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 10,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "22237",
-    name: "BE-84 MAN SLIPPER IVORY 42/43",
     mall: "16-Ehsa Othaim Mall",
     quantity: 9,
     lastSaleDate: "2025-03-21"
@@ -30441,13 +24554,6 @@ const oldData = [
     mall: "27-Dhahran Mall khobar",
     quantity: 8,
     lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22237",
-    name: "BE-84 MAN SLIPPER IVORY 42/43",
-    mall: "38-Al_Riyadh Park",
-    quantity: 6,
-    lastSaleDate: "2025-04-26"
   },
   {
     code: "22237",
@@ -30473,8 +24579,22 @@ const oldData = [
   {
     code: "22238",
     name: "BE-84 MAN SLIPPER IVORY 44/45",
-    mall: "07-Arab Mall",
+    mall: "04-Andalos Mall",
     quantity: 8,
+    lastSaleDate: "2025-01-10"
+  },
+  {
+    code: "22238",
+    name: "BE-84 MAN SLIPPER IVORY 44/45",
+    mall: "05-Haifa Mall",
+    quantity: 8,
+    lastSaleDate: "2024-12-13"
+  },
+  {
+    code: "22238",
+    name: "BE-84 MAN SLIPPER IVORY 44/45",
+    mall: "07-Arab Mall",
+    quantity: 16,
     lastSaleDate: "2025-03-22"
   },
   {
@@ -30483,13 +24603,6 @@ const oldData = [
     mall: "16-Ehsa Othaim Mall",
     quantity: 8,
     lastSaleDate: "2025-02-15"
-  },
-  {
-    code: "22238",
-    name: "BE-84 MAN SLIPPER IVORY 44/45",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 8,
-    lastSaleDate: "2025-02-14"
   },
   {
     code: "22238",
@@ -30522,9 +24635,9 @@ const oldData = [
   {
     code: "22233",
     name: "BE-84 MAN SLIPPER NAVY 40/41",
-    mall: "36-Al jubail Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-29"
+    mall: "32-Atyaf Mall Riyadh",
+    quantity: 8,
+    lastSaleDate: "2024-07-07"
   },
   {
     code: "22233",
@@ -30562,46 +24675,18 @@ const oldData = [
     lastSaleDate: "2025-02-02"
   },
   {
-    code: "22235",
-    name: "BE-84 MAN SLIPPER NAVY 44/45",
-    mall: "07-Arab Mall",
-    quantity: 8,
-    lastSaleDate: "2025-01-13"
-  },
-  {
-    code: "22235",
-    name: "BE-84 MAN SLIPPER NAVY 44/45",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "22235",
-    name: "BE-84 MAN SLIPPER NAVY 44/45",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 8,
-    lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "22235",
-    name: "BE-84 MAN SLIPPER NAVY 44/45",
-    mall: "43-Mujan Park",
-    quantity: 7,
-    lastSaleDate: "2024-12-01"
-  },
-  {
-    code: "22235",
-    name: "BE-84 MAN SLIPPER NAVY 44/45",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 2,
-    lastSaleDate: "2024-12-19"
-  },
-  {
     code: "22230",
     name: "BE-84 WOMEN SLIPPER PINK 36/37",
     mall: "07-Arab Mall",
     quantity: 10,
     lastSaleDate: "2023-11-09"
+  },
+  {
+    code: "22230",
+    name: "BE-84 WOMEN SLIPPER PINK 36/37",
+    mall: "08-Makkah Mall",
+    quantity: 10,
+    lastSaleDate: "2024-12-28"
   },
   {
     code: "22230",
@@ -30620,13 +24705,6 @@ const oldData = [
   {
     code: "22230",
     name: "BE-84 WOMEN SLIPPER PINK 36/37",
-    mall: "36-Al jubail Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22230",
-    name: "BE-84 WOMEN SLIPPER PINK 36/37",
     mall: "38-Al_Riyadh Park",
     quantity: 8,
     lastSaleDate: "2025-04-23"
@@ -30634,72 +24712,16 @@ const oldData = [
   {
     code: "22230",
     name: "BE-84 WOMEN SLIPPER PINK 36/37",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "22230",
-    name: "BE-84 WOMEN SLIPPER PINK 36/37",
     mall: "51-Park Avenue Riyadh",
     quantity: 1,
     lastSaleDate: "2025-03-14"
   },
   {
-    code: "22231",
-    name: "BE-84 WOMEN SLIPPER PINK 38/39",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "22231",
-    name: "BE-84 WOMEN SLIPPER PINK 38/39",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 10,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "22231",
-    name: "BE-84 WOMEN SLIPPER PINK 38/39",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 10,
-    lastSaleDate: "2024-12-06"
-  },
-  {
-    code: "22232",
-    name: "BE-84 WOMEN SLIPPER PINK 40/41",
-    mall: "15-Riyadh Othaim Mall",
+    code: "22242",
+    name: "BE-85 MAN SLIPPER ORANGE&WHITE 40/41",
+    mall: "12-Al_Hamra Mall",
     quantity: 7,
-    lastSaleDate: "2024-05-04"
-  },
-  {
-    code: "22232",
-    name: "BE-84 WOMEN SLIPPER PINK 40/41",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 10,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "22232",
-    name: "BE-84 WOMEN SLIPPER PINK 40/41",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 7,
-    lastSaleDate: "2025-01-02"
-  },
-  {
-    code: "22232",
-    name: "BE-84 WOMEN SLIPPER PINK 40/41",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "22232",
-    name: "BE-84 WOMEN SLIPPER PINK 40/41",
-    mall: "55- Jabl Omar",
-    quantity: 8,
-    lastSaleDate: "2025-01-07"
+    lastSaleDate: "2024-06-29"
   },
   {
     code: "22242",
@@ -30767,9 +24789,37 @@ const oldData = [
   {
     code: "22242",
     name: "BE-85 MAN SLIPPER ORANGE&WHITE 40/41",
+    mall: "46-Khaleej Mall Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-10-07"
+  },
+  {
+    code: "22242",
+    name: "BE-85 MAN SLIPPER ORANGE&WHITE 40/41",
     mall: "47-Al-Nakheel Plaza",
     quantity: 1,
     lastSaleDate: "2025-02-22"
+  },
+  {
+    code: "22242",
+    name: "BE-85 MAN SLIPPER ORANGE&WHITE 40/41",
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 7,
+    lastSaleDate: "2025-03-26"
+  },
+  {
+    code: "22242",
+    name: "BE-85 MAN SLIPPER ORANGE&WHITE 40/41",
+    mall: "51-Park Avenue Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-06-23"
+  },
+  {
+    code: "22243",
+    name: "BE-85 MAN SLIPPER ORANGE&WHITE 42/43",
+    mall: "12-Al_Hamra Mall",
+    quantity: 7,
+    lastSaleDate: "2024-09-05"
   },
   {
     code: "22243",
@@ -30784,6 +24834,13 @@ const oldData = [
     mall: "15-Riyadh Othaim Mall",
     quantity: 5,
     lastSaleDate: "2024-09-29"
+  },
+  {
+    code: "22243",
+    name: "BE-85 MAN SLIPPER ORANGE&WHITE 42/43",
+    mall: "16-Ehsa Othaim Mall",
+    quantity: 7,
+    lastSaleDate: "2024-08-10"
   },
   {
     code: "22243",
@@ -30837,100 +24894,37 @@ const oldData = [
   {
     code: "22243",
     name: "BE-85 MAN SLIPPER ORANGE&WHITE 42/43",
+    mall: "46-Khaleej Mall Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-09-08"
+  },
+  {
+    code: "22243",
+    name: "BE-85 MAN SLIPPER ORANGE&WHITE 42/43",
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 7,
+    lastSaleDate: "2025-04-08"
+  },
+  {
+    code: "22243",
+    name: "BE-85 MAN SLIPPER ORANGE&WHITE 42/43",
+    mall: "51-Park Avenue Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-06-06"
+  },
+  {
+    code: "22243",
+    name: "BE-85 MAN SLIPPER ORANGE&WHITE 42/43",
     mall: "55- Jabl Omar",
     quantity: 5,
     lastSaleDate: "2025-04-04"
   },
   {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "11-Jouri Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2024-08-21"
-  },
-  {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "19-Hail Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 4,
-    lastSaleDate: "2024-08-08"
-  },
-  {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "27-Dhahran Mall khobar",
+    code: "22239",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 40/41",
+    mall: "12-Al_Hamra Mall",
     quantity: 7,
-    lastSaleDate: "2024-06-14"
-  },
-  {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2024-05-05"
-  },
-  {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "38-Al_Riyadh Park",
-    quantity: 7,
-    lastSaleDate: "2024-07-01"
-  },
-  {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2024-12-14"
-  },
-  {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 3,
-    lastSaleDate: "2024-09-29"
-  },
-  {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 1,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "49-AlAhsa Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "22244",
-    name: "BE-85 MAN SLIPPER ORANGE&WHITE 44/45",
-    mall: "56- Aziz Mall 2",
-    quantity: 1,
-    lastSaleDate: "2025-04-18"
+    lastSaleDate: "2024-05-10"
   },
   {
     code: "22239",
@@ -30942,16 +24936,16 @@ const oldData = [
   {
     code: "22239",
     name: "BE-85 MAN SLIPPER WHIE&BLUE 40/41",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2024-06-09"
+    mall: "16-Ehsa Othaim Mall",
+    quantity: 7,
+    lastSaleDate: "2024-05-29"
   },
   {
     code: "22239",
     name: "BE-85 MAN SLIPPER WHIE&BLUE 40/41",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2023-10-23"
+    mall: "19-Hail Othaim Mall",
+    quantity: 1,
+    lastSaleDate: "2024-06-09"
   },
   {
     code: "22239",
@@ -30977,6 +24971,20 @@ const oldData = [
   {
     code: "22239",
     name: "BE-85 MAN SLIPPER WHIE&BLUE 40/41",
+    mall: "39-Salam Mall Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-06-27"
+  },
+  {
+    code: "22239",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 40/41",
+    mall: "42-Dareen Mall Dammam",
+    quantity: 7,
+    lastSaleDate: "2024-06-21"
+  },
+  {
+    code: "22239",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 40/41",
     mall: "43-Mujan Park",
     quantity: 1,
     lastSaleDate: "2024-10-04"
@@ -30984,9 +24992,44 @@ const oldData = [
   {
     code: "22239",
     name: "BE-85 MAN SLIPPER WHIE&BLUE 40/41",
+    mall: "46-Khaleej Mall Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-09-16"
+  },
+  {
+    code: "22239",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 40/41",
+    mall: "49-AlAhsa Mall",
+    quantity: 7,
+    lastSaleDate: "2024-08-26"
+  },
+  {
+    code: "22239",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 40/41",
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-07-19"
+  },
+  {
+    code: "22239",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 40/41",
+    mall: "51-Park Avenue Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-06-24"
+  },
+  {
+    code: "22239",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 40/41",
     mall: "52-Al_Baha Mall",
     quantity: 5,
     lastSaleDate: "2024-08-12"
+  },
+  {
+    code: "22240",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 42/43",
+    mall: "12-Al_Hamra Mall",
+    quantity: 7,
+    lastSaleDate: "2024-07-09"
   },
   {
     code: "22240",
@@ -31001,13 +25044,6 @@ const oldData = [
     mall: "24-Yanbu Dana Mall",
     quantity: 1,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22240",
-    name: "BE-85 MAN SLIPPER WHIE&BLUE 42/43",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2023-12-01"
   },
   {
     code: "22240",
@@ -31029,6 +25065,55 @@ const oldData = [
     mall: "38-Al_Riyadh Park",
     quantity: 7,
     lastSaleDate: "2024-05-08"
+  },
+  {
+    code: "22240",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 42/43",
+    mall: "39-Salam Mall Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-07-30"
+  },
+  {
+    code: "22240",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 42/43",
+    mall: "42-Dareen Mall Dammam",
+    quantity: 7,
+    lastSaleDate: "2024-07-08"
+  },
+  {
+    code: "22240",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 42/43",
+    mall: "46-Khaleej Mall Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-07-05"
+  },
+  {
+    code: "22240",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 42/43",
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-10-09"
+  },
+  {
+    code: "22240",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 42/43",
+    mall: "51-Park Avenue Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-05-04"
+  },
+  {
+    code: "22241",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 44/45",
+    mall: "12-Al_Hamra Mall",
+    quantity: 7,
+    lastSaleDate: "2024-07-20"
+  },
+  {
+    code: "22241",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 44/45",
+    mall: "16-Ehsa Othaim Mall",
+    quantity: 7,
+    lastSaleDate: "2024-10-03"
   },
   {
     code: "22241",
@@ -31054,6 +25139,48 @@ const oldData = [
   {
     code: "22241",
     name: "BE-85 MAN SLIPPER WHIE&BLUE 44/45",
+    mall: "39-Salam Mall Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-08-07"
+  },
+  {
+    code: "22241",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 44/45",
+    mall: "42-Dareen Mall Dammam",
+    quantity: 7,
+    lastSaleDate: "2024-06-14"
+  },
+  {
+    code: "22241",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 44/45",
+    mall: "46-Khaleej Mall Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-09-14"
+  },
+  {
+    code: "22241",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 44/45",
+    mall: "49-AlAhsa Mall",
+    quantity: 7,
+    lastSaleDate: "2025-01-10"
+  },
+  {
+    code: "22241",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 44/45",
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-08-15"
+  },
+  {
+    code: "22241",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 44/45",
+    mall: "51-Park Avenue Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-04-21"
+  },
+  {
+    code: "22241",
+    name: "BE-85 MAN SLIPPER WHIE&BLUE 44/45",
     mall: "52-Al_Baha Mall",
     quantity: 4,
     lastSaleDate: "2024-08-05"
@@ -31068,6 +25195,13 @@ const oldData = [
   {
     code: "22245",
     name: "BE-85 MAN SLIPPER WHITE&YELLOW 40/41",
+    mall: "16-Ehsa Othaim Mall",
+    quantity: 7,
+    lastSaleDate: "2024-06-15"
+  },
+  {
+    code: "22245",
+    name: "BE-85 MAN SLIPPER WHITE&YELLOW 40/41",
     mall: "19-Hail Othaim Mall",
     quantity: 7,
     lastSaleDate: "2024-08-10"
@@ -31077,6 +25211,20 @@ const oldData = [
     name: "BE-85 MAN SLIPPER WHITE&YELLOW 40/41",
     mall: "49-AlAhsa Mall",
     quantity: 3,
+    lastSaleDate: "2024-06-26"
+  },
+  {
+    code: "22245",
+    name: "BE-85 MAN SLIPPER WHITE&YELLOW 40/41",
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 7,
+    lastSaleDate: "2025-02-18"
+  },
+  {
+    code: "22245",
+    name: "BE-85 MAN SLIPPER WHITE&YELLOW 40/41",
+    mall: "51-Park Avenue Riyadh",
+    quantity: 7,
     lastSaleDate: "2024-06-26"
   },
   {
@@ -31103,9 +25251,23 @@ const oldData = [
   {
     code: "22246",
     name: "BE-85 MAN SLIPPER WHITE&YELLOW 42/43",
+    mall: "16-Ehsa Othaim Mall",
+    quantity: 7,
+    lastSaleDate: "2024-07-12"
+  },
+  {
+    code: "22246",
+    name: "BE-85 MAN SLIPPER WHITE&YELLOW 42/43",
     mall: "28-Al Nakheel Mall Dammam",
     quantity: 4,
     lastSaleDate: "2024-09-24"
+  },
+  {
+    code: "22246",
+    name: "BE-85 MAN SLIPPER WHITE&YELLOW 42/43",
+    mall: "42-Dareen Mall Dammam",
+    quantity: 7,
+    lastSaleDate: "2024-08-09"
   },
   {
     code: "22246",
@@ -31117,9 +25279,16 @@ const oldData = [
   {
     code: "22246",
     name: "BE-85 MAN SLIPPER WHITE&YELLOW 42/43",
-    mall: "49-AlAhsa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-01-06"
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 7,
+    lastSaleDate: "2025-03-19"
+  },
+  {
+    code: "22246",
+    name: "BE-85 MAN SLIPPER WHITE&YELLOW 42/43",
+    mall: "51-Park Avenue Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-06-06"
   },
   {
     code: "22246",
@@ -31152,9 +25321,9 @@ const oldData = [
   {
     code: "22247",
     name: "BE-85 MAN SLIPPER WHITE&YELLOW 44/45",
-    mall: "19-Hail Othaim Mall",
+    mall: "16-Ehsa Othaim Mall",
     quantity: 7,
-    lastSaleDate: "2025-03-23"
+    lastSaleDate: "2024-07-28"
   },
   {
     code: "22247",
@@ -31162,6 +25331,20 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 4,
     lastSaleDate: "2024-12-14"
+  },
+  {
+    code: "22247",
+    name: "BE-85 MAN SLIPPER WHITE&YELLOW 44/45",
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 7,
+    lastSaleDate: "2025-02-10"
+  },
+  {
+    code: "22247",
+    name: "BE-85 MAN SLIPPER WHITE&YELLOW 44/45",
+    mall: "51-Park Avenue Riyadh",
+    quantity: 7,
+    lastSaleDate: "2024-06-20"
   },
   {
     code: "22247",
@@ -31306,20 +25489,6 @@ const oldData = [
   {
     code: "22361",
     name: "BE-86 MAN SLIPPER LIGHT ORANGE 42/43",
-    mall: "55- Jabl Omar",
-    quantity: 8,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22361",
-    name: "BE-86 MAN SLIPPER LIGHT ORANGE 42/43",
-    mall: "12-Al_Hamra Mall",
-    quantity: 6,
-    lastSaleDate: "2024-12-27"
-  },
-  {
-    code: "22361",
-    name: "BE-86 MAN SLIPPER LIGHT ORANGE 42/43",
     mall: "15-Riyadh Othaim Mall",
     quantity: 15,
     lastSaleDate: "2024-09-07"
@@ -31372,13 +25541,6 @@ const oldData = [
     mall: "54-THE VILLAGE",
     quantity: 16,
     lastSaleDate: "2024-09-14"
-  },
-  {
-    code: "22362",
-    name: "BE-86 MAN SLIPPER LIGHT ORANGE 44/45",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "22362",
@@ -31495,6 +25657,13 @@ const oldData = [
   {
     code: "22363",
     name: "BE-86 MAN SLIPPER NEON GREEN 40/41",
+    mall: "23-Alia Mall Madinah",
+    quantity: 8,
+    lastSaleDate: "2024-11-02"
+  },
+  {
+    code: "22363",
+    name: "BE-86 MAN SLIPPER NEON GREEN 40/41",
     mall: "54-THE VILLAGE",
     quantity: 8,
     lastSaleDate: "2024-10-31"
@@ -31565,6 +25734,13 @@ const oldData = [
   {
     code: "22364",
     name: "BE-86 MAN SLIPPER NEON GREEN 42/43",
+    mall: "23-Alia Mall Madinah",
+    quantity: 16,
+    lastSaleDate: "2025-04-11"
+  },
+  {
+    code: "22364",
+    name: "BE-86 MAN SLIPPER NEON GREEN 42/43",
     mall: "54-THE VILLAGE",
     quantity: 16,
     lastSaleDate: "2024-10-15"
@@ -31621,16 +25797,16 @@ const oldData = [
   {
     code: "22365",
     name: "BE-86 MAN SLIPPER NEON GREEN 44/45",
-    mall: "54-THE VILLAGE",
+    mall: "23-Alia Mall Madinah",
     quantity: 16,
-    lastSaleDate: "2024-10-15"
+    lastSaleDate: "2025-03-18"
   },
   {
     code: "22365",
     name: "BE-86 MAN SLIPPER NEON GREEN 44/45",
-    mall: "55- Jabl Omar",
-    quantity: 7,
-    lastSaleDate: "2025-04-28"
+    mall: "54-THE VILLAGE",
+    quantity: 16,
+    lastSaleDate: "2024-10-15"
   },
   {
     code: "22365",
@@ -31817,13 +25993,6 @@ const oldData = [
   {
     code: "22260",
     name: "BE-86 WOMEN SLIPPER BIEGE 36/37",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "22260",
-    name: "BE-86 WOMEN SLIPPER BIEGE 36/37",
     mall: "52-Al_Baha Mall",
     quantity: 12,
     lastSaleDate: "2024-09-04"
@@ -31887,13 +26056,6 @@ const oldData = [
   {
     code: "22248",
     name: "BE-86 WOMEN SLIPPER BLACK 36/37",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "22248",
-    name: "BE-86 WOMEN SLIPPER BLACK 36/37",
     mall: "51-Park Avenue Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-17"
@@ -31946,55 +26108,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 4,
     lastSaleDate: "2024-06-27"
-  },
-  {
-    code: "22354",
-    name: "BE-86 WOMEN SLIPPER LIGHT ORANGE 36/37",
-    mall: "54-THE VILLAGE",
-    quantity: 14,
-    lastSaleDate: "2024-12-01"
-  },
-  {
-    code: "22354",
-    name: "BE-86 WOMEN SLIPPER LIGHT ORANGE 36/37",
-    mall: "12-Al_Hamra Mall",
-    quantity: 8,
-    lastSaleDate: "2024-12-23"
-  },
-  {
-    code: "22354",
-    name: "BE-86 WOMEN SLIPPER LIGHT ORANGE 36/37",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2024-09-23"
-  },
-  {
-    code: "22354",
-    name: "BE-86 WOMEN SLIPPER LIGHT ORANGE 36/37",
-    mall: "19-Hail Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-01-28"
-  },
-  {
-    code: "22354",
-    name: "BE-86 WOMEN SLIPPER LIGHT ORANGE 36/37",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 14,
-    lastSaleDate: "2024-06-28"
-  },
-  {
-    code: "22354",
-    name: "BE-86 WOMEN SLIPPER LIGHT ORANGE 36/37",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 6,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "22355",
-    name: "BE-86 WOMEN SLIPPER LIGHT ORANGE 38/39",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "22355",
@@ -32482,13 +26595,6 @@ const oldData = [
   {
     code: "22722",
     name: "BE-89 MAN SLIPPER DARK GREY 44/45",
-    mall: "14-Al Kamal Mall",
-    quantity: 28,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22722",
-    name: "BE-89 MAN SLIPPER DARK GREY 44/45",
     mall: "44-Al-Jouf Center",
     quantity: 9,
     lastSaleDate: "2025-03-15"
@@ -32513,13 +26619,6 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 2,
     lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "22733",
-    name: "BE-91 WOMAN SLIPPER CAMEL 38/39",
-    mall: "20-Sitten Street Makkah",
-    quantity: 6,
-    lastSaleDate: "2025-01-18"
   },
   {
     code: "22733",
@@ -32797,13 +26896,6 @@ const oldData = [
   {
     code: "22731",
     name: "BE-91 WOMAN SLIPPER PURPLE 40/41",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-02-06"
-  },
-  {
-    code: "22731",
-    name: "BE-91 WOMAN SLIPPER PURPLE 40/41",
     mall: "43-Mujan Park",
     quantity: 4,
     lastSaleDate: "2024-05-08"
@@ -32975,13 +27067,6 @@ const oldData = [
     mall: "07-Arab Mall",
     quantity: 1,
     lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "22816",
-    name: "BE-92 WOMEN SLIPPER CAMEL 38/39",
-    mall: "08-Makkah Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "22816",
@@ -34603,13 +28688,6 @@ const oldData = [
   {
     code: "22743",
     name: "BE-97 WOMAN SLIPPER HOT PINK 40/41",
-    mall: "23-Alia Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-02-15"
-  },
-  {
-    code: "22743",
-    name: "BE-97 WOMAN SLIPPER HOT PINK 40/41",
     mall: "55- Jabl Omar",
     quantity: 2,
     lastSaleDate: "2025-02-12"
@@ -35107,13 +29185,6 @@ const oldData = [
   {
     code: "22793",
     name: "BE-99 WOMAN SLIPPER IVORY 38/39",
-    mall: "23-Alia Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-02-11"
-  },
-  {
-    code: "22793",
-    name: "BE-99 WOMAN SLIPPER IVORY 38/39",
     mall: "24-Yanbu Dana Mall",
     quantity: 1,
     lastSaleDate: "2025-02-12"
@@ -35131,13 +29202,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 1,
     lastSaleDate: "2025-03-04"
-  },
-  {
-    code: "22793",
-    name: "BE-99 WOMAN SLIPPER IVORY 38/39",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 3,
-    lastSaleDate: "2025-02-24"
   },
   {
     code: "22793",
@@ -35201,20 +29265,6 @@ const oldData = [
     mall: "11-Jouri Mall",
     quantity: 2,
     lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "22683",
-    name: "BE87- MAN SLIPPER GREY 40/41",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "22683",
-    name: "BE87- MAN SLIPPER GREY 40/41",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 8,
-    lastSaleDate: "2025-03-20"
   },
   {
     code: "22684",
@@ -35938,55 +29988,6 @@ const oldData = [
     lastSaleDate: "2025-02-20"
   },
   {
-    code: "22462",
-    name: "BEACH TOWEL BATIK PINEAPPLE 101X183 CM",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 6,
-    lastSaleDate: "2025-01-18"
-  },
-  {
-    code: "22462",
-    name: "BEACH TOWEL BATIK PINEAPPLE 101X183 CM",
-    mall: "36-Al jubail Mall",
-    quantity: 13,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "22462",
-    name: "BEACH TOWEL BATIK PINEAPPLE 101X183 CM",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 9,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "22464",
-    name: "BEACH TOWEL BLACK GREY CABANA 101.6X182 CM",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 6,
-    lastSaleDate: "2025-02-26"
-  },
-  {
-    code: "22464",
-    name: "BEACH TOWEL BLACK GREY CABANA 101.6X182 CM",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-10"
-  },
-  {
-    code: "22464",
-    name: "BEACH TOWEL BLACK GREY CABANA 101.6X182 CM",
-    mall: "38-Al_Riyadh Park",
-    quantity: 2,
-    lastSaleDate: "2025-02-07"
-  },
-  {
-    code: "22464",
-    name: "BEACH TOWEL BLACK GREY CABANA 101.6X182 CM",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-03-24"
-  },
-  {
     code: "22465",
     name: "BEACH TOWEL FLAMINGO FLORALP  101X183 CM",
     mall: "04-Andalos Mall",
@@ -36020,13 +30021,6 @@ const oldData = [
     mall: "57-Sauq7",
     quantity: 1,
     lastSaleDate: "2025-02-15"
-  },
-  {
-    code: "22460",
-    name: "BEACH TOWEL HENNA MANDALA 101X183 CM",
-    mall: "43-Mujan Park",
-    quantity: 2,
-    lastSaleDate: "2025-03-05"
   },
   {
     code: "22463",
@@ -36071,41 +30065,6 @@ const oldData = [
     lastSaleDate: "2025-02-07"
   },
   {
-    code: "22458",
-    name: "BEACH TOWEL MAUI FLORAL PURP 101X183 CM",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 3,
-    lastSaleDate: "2025-01-17"
-  },
-  {
-    code: "22458",
-    name: "BEACH TOWEL MAUI FLORAL PURP 101X183 CM",
-    mall: "36-Al jubail Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "22458",
-    name: "BEACH TOWEL MAUI FLORAL PURP 101X183 CM",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2025-03-05"
-  },
-  {
-    code: "22458",
-    name: "BEACH TOWEL MAUI FLORAL PURP 101X183 CM",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-01-26"
-  },
-  {
-    code: "22458",
-    name: "BEACH TOWEL MAUI FLORAL PURP 101X183 CM",
-    mall: "54-THE VILLAGE",
-    quantity: 2,
-    lastSaleDate: "2025-03-16"
-  },
-  {
     code: "21625",
     name: "BEACH TOWEL PRINT 100*180 CM",
     mall: "11-Jouri Mall",
@@ -36118,13 +30077,6 @@ const oldData = [
     mall: "19-Hail Othaim Mall",
     quantity: 1,
     lastSaleDate: "2024-12-04"
-  },
-  {
-    code: "21625",
-    name: "BEACH TOWEL PRINT 100*180 CM",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2024-05-24"
   },
   {
     code: "21625",
@@ -36276,13 +30228,6 @@ const oldData = [
   {
     code: "21434",
     name: "BEE HAPPY KIND KITCHEN SET TOWLS 4 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "21434",
-    name: "BEE HAPPY KIND KITCHEN SET TOWLS 4 PCS",
     mall: "49-AlAhsa Mall",
     quantity: 1,
     lastSaleDate: "2023-10-13"
@@ -36300,27 +30245,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 2,
     lastSaleDate: "2024-11-12"
-  },
-  {
-    code: "23860",
-    name: "BELLFLOWER WHITE KING QUILT 3 PCS",
-    mall: "09-Al-Salam Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23860",
-    name: "BELLFLOWER WHITE KING QUILT 3 PCS",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23860",
-    name: "BELLFLOWER WHITE KING QUILT 3 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 7,
-    lastSaleDate: "2025-04-26"
   },
   {
     code: "19901",
@@ -36500,13 +30424,6 @@ const oldData = [
   {
     code: "23281",
     name: "BIG CAMERON FULL COMFORTER 9 PCS",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23281",
-    name: "BIG CAMERON FULL COMFORTER 9 PCS",
     mall: "25-Rabwa Othaim Mall",
     quantity: 3,
     lastSaleDate: "2025-03-17"
@@ -36524,13 +30441,6 @@ const oldData = [
     mall: "32-Atyaf Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-03-20"
-  },
-  {
-    code: "23281",
-    name: "BIG CAMERON FULL COMFORTER 9 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 8,
-    lastSaleDate: "2024-12-28"
   },
   {
     code: "23281",
@@ -36703,13 +30613,6 @@ const oldData = [
   {
     code: "22964",
     name: "BIG DANDELION CLOCK OMBER KING COMFORTER 9 PCS",
-    mall: "36-Al jubail Mall",
-    quantity: 3,
-    lastSaleDate: "2025-01-01"
-  },
-  {
-    code: "22964",
-    name: "BIG DANDELION CLOCK OMBER KING COMFORTER 9 PCS",
     mall: "38-Al_Riyadh Park",
     quantity: 1,
     lastSaleDate: "2024-10-18"
@@ -36836,13 +30739,6 @@ const oldData = [
   {
     code: "23274",
     name: "BIG EDWIN STRIPE KING COMFORTER 9 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 4,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23274",
-    name: "BIG EDWIN STRIPE KING COMFORTER 9 PCS",
     mall: "52-Al_Baha Mall",
     quantity: 1,
     lastSaleDate: "2025-03-30"
@@ -36911,83 +30807,6 @@ const oldData = [
     lastSaleDate: "2025-04-11"
   },
   {
-    code: "23275",
-    name: "BIG EMILIY KING COMFORTER 9 PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23284",
-    name: "BIG EMMA FULL COMFORTER 9 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23284",
-    name: "BIG EMMA FULL COMFORTER 9 PCS",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-12"
-  },
-  {
-    code: "23284",
-    name: "BIG EMMA FULL COMFORTER 9 PCS",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23284",
-    name: "BIG EMMA FULL COMFORTER 9 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-01-11"
-  },
-  {
-    code: "23284",
-    name: "BIG EMMA FULL COMFORTER 9 PCS",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "23284",
-    name: "BIG EMMA FULL COMFORTER 9 PCS",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23284",
-    name: "BIG EMMA FULL COMFORTER 9 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 4,
-    lastSaleDate: "2025-03-03"
-  },
-  {
-    code: "23284",
-    name: "BIG EMMA FULL COMFORTER 9 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-25"
-  },
-  {
-    code: "23284",
-    name: "BIG EMMA FULL COMFORTER 9 PCS",
-    mall: "48 - Jeddah Park",
-    quantity: 5,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23284",
-    name: "BIG EMMA FULL COMFORTER 9 PCS",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-03-06"
-  },
-  {
     code: "23276",
     name: "BIG EMMA KING COMFORTER 9 PCS",
     mall: "56- Aziz Mall 2",
@@ -37007,13 +30826,6 @@ const oldData = [
     mall: "05-Haifa Mall",
     quantity: 2,
     lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "23276",
-    name: "BIG EMMA KING COMFORTER 9 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-15"
   },
   {
     code: "23276",
@@ -37056,13 +30868,6 @@ const oldData = [
     mall: "18-Al_Khayyat Center",
     quantity: 1,
     lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23276",
-    name: "BIG EMMA KING COMFORTER 9 PCS",
-    mall: "23-Alia Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "23276",
@@ -37438,30 +31243,9 @@ const oldData = [
   {
     code: "23279",
     name: "BIG JASON KING COMFORTER 9 PCS",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23279",
-    name: "BIG JASON KING COMFORTER 9 PCS",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23279",
-    name: "BIG JASON KING COMFORTER 9 PCS",
     mall: "50-Meem Plaza Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "19970",
-    name: "BIG KARITA KING COMFORTER 9 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2024-02-20"
   },
   {
     code: "19970",
@@ -37842,18 +31626,11 @@ const oldData = [
     lastSaleDate: "2024-10-14"
   },
   {
-    code: "22097",
-    name: "BIG ONE ASTER PLAID KING QUILT 3 PCS T14",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "22097",
-    name: "BIG ONE ASTER PLAID KING QUILT 3 PCS T14",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-03-15"
+    code: "15338",
+    name: "BIG ONE ASTER KING 3 PCS",
+    mall: "17-Arar Othaim Mall",
+    quantity: 6,
+    lastSaleDate: "2020-07-11"
   },
   {
     code: "23388",
@@ -37912,13 +31689,6 @@ const oldData = [
     lastSaleDate: "2025-04-12"
   },
   {
-    code: "23389",
-    name: "BIG ONE BOTANICAL SALLOP FULL QUILT 2 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
     code: "23403",
     name: "BIG ONE BOTANICAL SALLOP KING QUILT 3 PCS",
     mall: "04-Andalos Mall",
@@ -37968,41 +31738,6 @@ const oldData = [
     lastSaleDate: "2025-04-09"
   },
   {
-    code: "15340",
-    name: "BIG ONE CASELLI KING 3 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23404",
-    name: "BIG ONE CATALINA KING QUILT 3 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "23862",
-    name: "BIG ONE COLORFUL FLOWERS FULL QUILT 2 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23862",
-    name: "BIG ONE COLORFUL FLOWERS FULL QUILT 2 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23862",
-    name: "BIG ONE COLORFUL FLOWERS FULL QUILT 2 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 11,
-    lastSaleDate: "2025-04-30"
-  },
-  {
     code: "22863",
     name: "BIG ONE DESHAWN KING QUILT 3 PCS",
     mall: "44-Al-Jouf Center",
@@ -38033,13 +31768,6 @@ const oldData = [
   {
     code: "22855",
     name: "BIG ONE DINO FULL QUILT 2 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22855",
-    name: "BIG ONE DINO FULL QUILT 2 PCS",
     mall: "20-Sitten Street Makkah",
     quantity: 1,
     lastSaleDate: "2025-03-26"
@@ -38057,13 +31785,6 @@ const oldData = [
     mall: "17-Arar Othaim Mall",
     quantity: 1,
     lastSaleDate: "2023-08-27"
-  },
-  {
-    code: "20880",
-    name: "BIG ONE ELOWIN FULL QUILT 2 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2024-08-29"
   },
   {
     code: "20884",
@@ -38115,48 +31836,6 @@ const oldData = [
     lastSaleDate: "2025-04-12"
   },
   {
-    code: "20884",
-    name: "BIG ONE FINN QUILT KING 3 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 1,
-    lastSaleDate: "2023-11-22"
-  },
-  {
-    code: "23391",
-    name: "BIG ONE FLORAL VINE FULL QUILT 2 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23391",
-    name: "BIG ONE FLORAL VINE FULL QUILT 2 PCS",
-    mall: "43-Mujan Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23405",
-    name: "BIG ONE FLORAL VINE KING QUILT 3 PCS",
-    mall: "09-Al-Salam Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-03"
-  },
-  {
-    code: "23405",
-    name: "BIG ONE FLORAL VINE KING QUILT 3 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "23405",
-    name: "BIG ONE FLORAL VINE KING QUILT 3 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 1,
-    lastSaleDate: "2025-04-07"
-  },
-  {
     code: "23396",
     name: "BIG ONE FLOWER GARDEN FULL QUILT 2 PCS",
     mall: "30-Tala Mall Riyadh",
@@ -38190,6 +31869,13 @@ const oldData = [
     mall: "17-Arar Othaim Mall",
     quantity: 1,
     lastSaleDate: "2024-07-22"
+  },
+  {
+    code: "20885",
+    name: "BIG ONE GEMMA QUILT KING 3 PCS",
+    mall: "30-Tala Mall Riyadh",
+    quantity: 4,
+    lastSaleDate: "2023-12-21"
   },
   {
     code: "18897",
@@ -38241,34 +31927,6 @@ const oldData = [
     lastSaleDate: "2025-03-24"
   },
   {
-    code: "23397",
-    name: "BIG ONE IVY GREEN FULL QUILT 2 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 4,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23397",
-    name: "BIG ONE IVY GREEN FULL QUILT 2 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 8,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23397",
-    name: "BIG ONE IVY GREEN FULL QUILT 2 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23397",
-    name: "BIG ONE IVY GREEN FULL QUILT 2 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 7,
-    lastSaleDate: "2025-04-30"
-  },
-  {
     code: "23411",
     name: "BIG ONE IVY GREEN KING QUILT 3 PCS",
     mall: "44-Al-Jouf Center",
@@ -38292,20 +31950,6 @@ const oldData = [
   {
     code: "21065",
     name: "BIG ONE JORDYN KING QUILT 3 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 4,
-    lastSaleDate: "2024-10-01"
-  },
-  {
-    code: "21065",
-    name: "BIG ONE JORDYN KING QUILT 3 PCS",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "21065",
-    name: "BIG ONE JORDYN KING QUILT 3 PCS",
     mall: "18-Al_Khayyat Center",
     quantity: 1,
     lastSaleDate: "2025-04-02"
@@ -38323,13 +31967,6 @@ const oldData = [
     mall: "22-Tabuk Park",
     quantity: 1,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "21065",
-    name: "BIG ONE JORDYN KING QUILT 3 PCS",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 9,
-    lastSaleDate: "2025-04-11"
   },
   {
     code: "21065",
@@ -38374,32 +32011,11 @@ const oldData = [
     lastSaleDate: "2025-04-04"
   },
   {
-    code: "23399",
-    name: "BIG ONE KATHERINE FULL QUILT 2 PCS",
-    mall: "54-THE VILLAGE",
-    quantity: 2,
-    lastSaleDate: "2025-03-25"
-  },
-  {
     code: "23413",
     name: "BIG ONE KATHERINE KING QUILT 3 PCS",
     mall: "12-Al_Hamra Mall",
     quantity: 1,
     lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23413",
-    name: "BIG ONE KATHERINE KING QUILT 3 PCS",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23413",
-    name: "BIG ONE KATHERINE KING QUILT 3 PCS",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-03-25"
   },
   {
     code: "23413",
@@ -38458,46 +32074,11 @@ const oldData = [
     lastSaleDate: "2024-11-09"
   },
   {
-    code: "21054",
-    name: "BIG ONE LATTICE FULL QUILT 2 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "21066",
-    name: "BIG ONE LATTICE KING QUILT 3 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 5,
-    lastSaleDate: "2024-10-13"
-  },
-  {
     code: "21066",
     name: "BIG ONE LATTICE KING QUILT 3 PCS",
     mall: "15-Riyadh Othaim Mall",
     quantity: 3,
     lastSaleDate: "2024-03-29"
-  },
-  {
-    code: "21066",
-    name: "BIG ONE LATTICE KING QUILT 3 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "21066",
-    name: "BIG ONE LATTICE KING QUILT 3 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 4,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "21066",
-    name: "BIG ONE LATTICE KING QUILT 3 PCS",
-    mall: "20-Sitten Street Makkah",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "21066",
@@ -38549,13 +32130,6 @@ const oldData = [
     lastSaleDate: "2025-04-09"
   },
   {
-    code: "23875",
-    name: "BIG ONE LAYIL MEDALLION KING 3 PCS",
-    mall: "38-Al_Riyadh Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-04"
-  },
-  {
     code: "22096",
     name: "BIG ONE LIAM KING QUILT 3 PCS A09",
     mall: "17-Arar Othaim Mall",
@@ -38575,13 +32149,6 @@ const oldData = [
     mall: "20-Sitten Street Makkah",
     quantity: 1,
     lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "21064",
-    name: "BIG ONE LZAE BLOCK KING QUILT 3 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "23400",
@@ -38610,13 +32177,6 @@ const oldData = [
     mall: "11-Jouri Mall",
     quantity: 1,
     lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "23400",
-    name: "BIG ONE MALLORY FULL QUILT 2 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "23400",
@@ -38654,34 +32214,6 @@ const oldData = [
     lastSaleDate: "2025-04-08"
   },
   {
-    code: "23401",
-    name: "BIG ONE MALUS BLUE FULL QUILT 2 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "23401",
-    name: "BIG ONE MALUS BLUE FULL QUILT 2 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23401",
-    name: "BIG ONE MALUS BLUE FULL QUILT 2 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 9,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23414",
-    name: "BIG ONE MALUS BLUE KING QUILT 3 PCS",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
     code: "22850",
     name: "BIG ONE MELANIE PURPLE KING QUILT 3 PCS",
     mall: "54-THE VILLAGE",
@@ -38708,13 +32240,6 @@ const oldData = [
     mall: "51-Park Avenue Riyadh",
     quantity: 1,
     lastSaleDate: "2024-09-23"
-  },
-  {
-    code: "23955",
-    name: "BIG ONE MULTI VEHICLES FULL QUILT 2 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-26"
   },
   {
     code: "21046",
@@ -38803,23 +32328,9 @@ const oldData = [
   {
     code: "23415",
     name: "BIG ONE RAINY INK KING QUILT 3 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23415",
-    name: "BIG ONE RAINY INK KING QUILT 3 PCS",
     mall: "53-Al Basateen Mall",
     quantity: 2,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23415",
-    name: "BIG ONE RAINY INK KING QUILT 3 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-04-21"
   },
   {
     code: "21058",
@@ -38850,67 +32361,11 @@ const oldData = [
     lastSaleDate: "2023-06-26"
   },
   {
-    code: "23394",
-    name: "BIG ONE SUMMER FLOWER FULL QUILT 2 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 7,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23394",
-    name: "BIG ONE SUMMER FLOWER FULL QUILT 2 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 7,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23408",
-    name: "BIG ONE SUMMER FLOWER KING QUILT 3 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "23408",
-    name: "BIG ONE SUMMER FLOWER KING QUILT 3 PCS",
-    mall: "20-Sitten Street Makkah",
-    quantity: 5,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23408",
-    name: "BIG ONE SUMMER FLOWER KING QUILT 3 PCS",
-    mall: "36-Al jubail Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "23408",
-    name: "BIG ONE SUMMER FLOWER KING QUILT 3 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-03-20"
-  },
-  {
-    code: "23408",
-    name: "BIG ONE SUMMER FLOWER KING QUILT 3 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-25"
-  },
-  {
     code: "22845",
     name: "BIG ONE SUNNY TANGERINE FULL QUILT 2 PCS",
     mall: "55- Jabl Omar",
     quantity: 1,
     lastSaleDate: "2024-10-05"
-  },
-  {
-    code: "22851",
-    name: "BIG ONE SUNNY TANGERINE KING QUILT 3 PCS",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 1,
-    lastSaleDate: "2024-12-07"
   },
   {
     code: "22851",
@@ -38941,27 +32396,6 @@ const oldData = [
     lastSaleDate: "2024-07-23"
   },
   {
-    code: "22865",
-    name: "BIG ONE TILE PATCHWORK KING QUILT 3 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "22865",
-    name: "BIG ONE TILE PATCHWORK KING QUILT 3 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "22852",
-    name: "BIG ONE TRIANGLE PATCH KING QUILT 3 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-02"
-  },
-  {
     code: "22852",
     name: "BIG ONE TRIANGLE PATCH KING QUILT 3 PCS",
     mall: "19-Hail Othaim Mall",
@@ -38983,13 +32417,6 @@ const oldData = [
     lastSaleDate: "2025-03-28"
   },
   {
-    code: "23393",
-    name: "BIG ONE VINTAGE STRIPE FULL QUILT 2 PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
     code: "23407",
     name: "BIG ONE VINTAGE STRIPE KING QUILT 3 PCS",
     mall: "05-Haifa Mall",
@@ -39002,13 +32429,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 2,
     lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23407",
-    name: "BIG ONE VINTAGE STRIPE KING QUILT 3 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 6,
-    lastSaleDate: "2025-04-03"
   },
   {
     code: "22853",
@@ -39146,23 +32566,9 @@ const oldData = [
   {
     code: "23286",
     name: "BIG TRIBAL ICON FULL COMFORTER 9 PCS",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "23286",
-    name: "BIG TRIBAL ICON FULL COMFORTER 9 PCS",
     mall: "50-Meem Plaza Riyadh",
     quantity: 6,
     lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "23286",
-    name: "BIG TRIBAL ICON FULL COMFORTER 9 PCS",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-23"
   },
   {
     code: "23286",
@@ -39223,13 +32629,6 @@ const oldData = [
   {
     code: "23278",
     name: "BIG VINE SPRING KING COMFORTER 9 PCS",
-    mall: "07-Arab Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23278",
-    name: "BIG VINE SPRING KING COMFORTER 9 PCS",
     mall: "09-Al-Salam Mall",
     quantity: 1,
     lastSaleDate: "2025-04-11"
@@ -39240,13 +32639,6 @@ const oldData = [
     mall: "15-Riyadh Othaim Mall",
     quantity: 2,
     lastSaleDate: "2025-02-27"
-  },
-  {
-    code: "23278",
-    name: "BIG VINE SPRING KING COMFORTER 9 PCS",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "23278",
@@ -39286,13 +32678,6 @@ const oldData = [
   {
     code: "23278",
     name: "BIG VINE SPRING KING COMFORTER 9 PCS",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23278",
-    name: "BIG VINE SPRING KING COMFORTER 9 PCS",
     mall: "39-Salam Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-03-04"
@@ -39310,13 +32695,6 @@ const oldData = [
     mall: "42-Dareen Mall Dammam",
     quantity: 5,
     lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23278",
-    name: "BIG VINE SPRING KING COMFORTER 9 PCS",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "23278",
@@ -39396,41 +32774,6 @@ const oldData = [
     lastSaleDate: "2025-02-22"
   },
   {
-    code: "23910",
-    name: "BIRDS EMBROIDERED TOWEL WAVE SET 3PCS",
-    mall: "55- Jabl Omar",
-    quantity: 11,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23902",
-    name: "BIRDS GILDED EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23902",
-    name: "BIRDS GILDED EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 11,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "23902",
-    name: "BIRDS GILDED EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23902",
-    name: "BIRDS GILDED EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 12,
-    lastSaleDate: "2025-04-18"
-  },
-  {
     code: "21716",
     name: "BLACK BLOSSOM TURKISH COFFEE SET 6 PCS 90 ML CS-024",
     mall: "16-Ehsa Othaim Mall",
@@ -39494,25 +32837,11 @@ const oldData = [
     lastSaleDate: "2023-12-16"
   },
   {
-    code: "23616",
-    name: "BLACK NECK PILLOW CM 33X49X49",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 2,
-    lastSaleDate: "2025-04-26"
-  },
-  {
     code: "22515",
     name: "BLACK SO-SOFT KING COMFORTER 3 PCS",
     mall: "47-Al-Nakheel Plaza",
     quantity: 1,
     lastSaleDate: "2024-12-07"
-  },
-  {
-    code: "22515",
-    name: "BLACK SO-SOFT KING COMFORTER 3 PCS",
-    mall: "49-AlAhsa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-04"
   },
   {
     code: "22515",
@@ -39604,13 +32933,6 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 2,
     lastSaleDate: "2024-08-14"
-  },
-  {
-    code: "20930",
-    name: "BLANKET FULL QUEEN PRINTED PLUSH WITH SHERPA 229 * 229",
-    mall: "43-Mujan Park",
-    quantity: 3,
-    lastSaleDate: "2024-01-11"
   },
   {
     code: "20930",
@@ -40037,7 +33359,7 @@ const oldData = [
     name: "BOMB SHELL FRESHENER COCODOR 500 ML ROOM SPRAY",
     mall: "20-Sitten Street Makkah",
     quantity: 1,
-    lastSaleDate: "2024-07-25"
+    lastSaleDate: "2023-07-25"
   },
   {
     code: "20286",
@@ -40133,37 +33455,9 @@ const oldData = [
   {
     code: "22645",
     name: "BOTANICAL GARDEN PRINTED DUVET COVER FULL 3 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22645",
-    name: "BOTANICAL GARDEN PRINTED DUVET COVER FULL 3 PCS",
     mall: "55- Jabl Omar",
     quantity: 1,
     lastSaleDate: "2024-12-01"
-  },
-  {
-    code: "23509",
-    name: "BOW HOTEL LAVENDER FULL COMFORTER 8 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23509",
-    name: "BOW HOTEL LAVENDER FULL COMFORTER 8 PCS",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23509",
-    name: "BOW HOTEL LAVENDER FULL COMFORTER 8 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "19677",
@@ -40376,41 +33670,6 @@ const oldData = [
     lastSaleDate: "2025-01-01"
   },
   {
-    code: "24008",
-    name: "BTP-839 KITCHEN TOWEL AQUA 50*90",
-    mall: "12-Al_Hamra Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24008",
-    name: "BTP-839 KITCHEN TOWEL AQUA 50*90",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 3,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24008",
-    name: "BTP-839 KITCHEN TOWEL AQUA 50*90",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "24008",
-    name: "BTP-839 KITCHEN TOWEL AQUA 50*90",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24008",
-    name: "BTP-839 KITCHEN TOWEL AQUA 50*90",
-    mall: "49-AlAhsa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-26"
-  },
-  {
     code: "24006",
     name: "BTP-839 KITCHEN TOWEL IVORY 50*90",
     mall: "19-Hail Othaim Mall",
@@ -40497,13 +33756,6 @@ const oldData = [
   {
     code: "24007",
     name: "BTP-839 KITCHEN TOWEL NAVY 50*90",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "24007",
-    name: "BTP-839 KITCHEN TOWEL NAVY 50*90",
     mall: "47-Al-Nakheel Plaza",
     quantity: 6,
     lastSaleDate: "2025-04-24"
@@ -40532,86 +33784,9 @@ const oldData = [
   {
     code: "24010",
     name: "BTP-839 KITCHEN TOWEL POWDER PINK 50*90",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "24010",
-    name: "BTP-839 KITCHEN TOWEL POWDER PINK 50*90",
     mall: "49-AlAhsa Mall",
     quantity: 1,
     lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24005",
-    name: "BTP-839 KITCHEN TOWEL WHITE 50*90",
-    mall: "12-Al_Hamra Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24014",
-    name: "BTP-840 KITCHEN TOWEL BABY PINK 50*90",
-    mall: "20-Sitten Street Makkah",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "24014",
-    name: "BTP-840 KITCHEN TOWEL BABY PINK 50*90",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 1,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24014",
-    name: "BTP-840 KITCHEN TOWEL BABY PINK 50*90",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24014",
-    name: "BTP-840 KITCHEN TOWEL BABY PINK 50*90",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "24014",
-    name: "BTP-840 KITCHEN TOWEL BABY PINK 50*90",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "24014",
-    name: "BTP-840 KITCHEN TOWEL BABY PINK 50*90",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 8,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "24014",
-    name: "BTP-840 KITCHEN TOWEL BABY PINK 50*90",
-    mall: "49-AlAhsa Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "24015",
-    name: "BTP-840 KITCHEN TOWEL DISCUT 50*90",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 10,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "24015",
-    name: "BTP-840 KITCHEN TOWEL DISCUT 50*90",
-    mall: "55- Jabl Omar",
-    quantity: 29,
-    lastSaleDate: "2025-04-24"
   },
   {
     code: "24012",
@@ -40693,13 +33868,6 @@ const oldData = [
   {
     code: "24013",
     name: "BTP-840 KITCHEN TOWEL LT.BLUE 50*90",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "24013",
-    name: "BTP-840 KITCHEN TOWEL LT.BLUE 50*90",
     mall: "46-Khaleej Mall Riyadh",
     quantity: 6,
     lastSaleDate: "2025-04-26"
@@ -40707,30 +33875,9 @@ const oldData = [
   {
     code: "24013",
     name: "BTP-840 KITCHEN TOWEL LT.BLUE 50*90",
-    mall: "57-Sauq7",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "24016",
-    name: "BTP-840 KITCHEN TOWEL MOVE 50*90",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "24016",
-    name: "BTP-840 KITCHEN TOWEL MOVE 50*90",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 11,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "24016",
-    name: "BTP-840 KITCHEN TOWEL MOVE 50*90",
-    mall: "49-AlAhsa Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-24"
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 6,
+    lastSaleDate: "2025-04-26"
   },
   {
     code: "23989",
@@ -40759,20 +33906,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 2,
     lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23989",
-    name: "BTP-857 KITCHEN TOWEL BEIGE 50*90",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23992",
-    name: "BTP-857 KITCHEN TOWEL BLACK 50*90",
-    mall: "05-Haifa Mall",
-    quantity: 10,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "23992",
@@ -40822,48 +33955,6 @@ const oldData = [
     mall: "29-Al Nakheel Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23991",
-    name: "BTP-857 KITCHEN TOWEL ORANGE 50*90",
-    mall: "12-Al_Hamra Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23991",
-    name: "BTP-857 KITCHEN TOWEL ORANGE 50*90",
-    mall: "20-Sitten Street Makkah",
-    quantity: 6,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23991",
-    name: "BTP-857 KITCHEN TOWEL ORANGE 50*90",
-    mall: "22-Tabuk Park",
-    quantity: 15,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23991",
-    name: "BTP-857 KITCHEN TOWEL ORANGE 50*90",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23988",
-    name: "BTP-857 KITCHEN TOWEL SILVER 50*90",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23988",
-    name: "BTP-857 KITCHEN TOWEL SILVER 50*90",
-    mall: "49-AlAhsa Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-24"
   },
   {
     code: "23987",
@@ -40936,27 +34027,6 @@ const oldData = [
     lastSaleDate: "2025-04-24"
   },
   {
-    code: "23996",
-    name: "BTP-862 KITCHEN TOWEL DUSTY ROSE 50*90",
-    mall: "12-Al_Hamra Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23996",
-    name: "BTP-862 KITCHEN TOWEL DUSTY ROSE 50*90",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23998",
-    name: "BTP-862 KITCHEN TOWEL SLATE 50*90",
-    mall: "05-Haifa Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-26"
-  },
-  {
     code: "23998",
     name: "BTP-862 KITCHEN TOWEL SLATE 50*90",
     mall: "28-Al Nakheel Mall Dammam",
@@ -40987,23 +34057,9 @@ const oldData = [
   {
     code: "23994",
     name: "BTP-862 KITCHEN TOWEL VOILET 50*90",
-    mall: "22-Tabuk Park",
-    quantity: 16,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23994",
-    name: "BTP-862 KITCHEN TOWEL VOILET 50*90",
     mall: "32-Atyaf Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23994",
-    name: "BTP-862 KITCHEN TOWEL VOILET 50*90",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 8,
-    lastSaleDate: "2025-04-25"
   },
   {
     code: "23994",
@@ -41025,13 +34081,6 @@ const oldData = [
     mall: "22-Tabuk Park",
     quantity: 16,
     lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24001",
-    name: "BTP-870 KITCHEN TOWEL ROSE PINK 50*90",
-    mall: "04-Andalos Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "24001",
@@ -41064,20 +34113,6 @@ const oldData = [
   {
     code: "24004",
     name: "BTP-870 KITCHEN TOWEL ROYAL BLUE 50*90",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 16,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24004",
-    name: "BTP-870 KITCHEN TOWEL ROYAL BLUE 50*90",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24004",
-    name: "BTP-870 KITCHEN TOWEL ROYAL BLUE 50*90",
     mall: "42-Dareen Mall Dammam",
     quantity: 1,
     lastSaleDate: "2025-04-25"
@@ -41092,23 +34127,9 @@ const oldData = [
   {
     code: "24004",
     name: "BTP-870 KITCHEN TOWEL ROYAL BLUE 50*90",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "24004",
-    name: "BTP-870 KITCHEN TOWEL ROYAL BLUE 50*90",
     mall: "49-AlAhsa Mall",
     quantity: 4,
     lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "24000",
-    name: "BTP-870 KITCHEN TOWEL RUST 50*90",
-    mall: "08-Makkah Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "24000",
@@ -41120,37 +34141,9 @@ const oldData = [
   {
     code: "24000",
     name: "BTP-870 KITCHEN TOWEL RUST 50*90",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "24000",
-    name: "BTP-870 KITCHEN TOWEL RUST 50*90",
     mall: "30-Tala Mall Riyadh",
     quantity: 5,
     lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "24000",
-    name: "BTP-870 KITCHEN TOWEL RUST 50*90",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 6,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "24003",
-    name: "BTP-870 KITCHEN TOWEL SAGE 50*90",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23999",
-    name: "BTP-870 KITCHEN TOWEL SAND 50*90",
-    mall: "18-Al_Khayyat Center",
-    quantity: 8,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "23999",
@@ -41162,30 +34155,9 @@ const oldData = [
   {
     code: "23959",
     name: "BTY-1 TEDDY BEAR BEIGE CURLY SIZE 45 CM",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23959",
-    name: "BTY-1 TEDDY BEAR BEIGE CURLY SIZE 45 CM",
     mall: "55- Jabl Omar",
     quantity: 20,
     lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "23959",
-    name: "BTY-1 TEDDY BEAR BEIGE CURLY SIZE 45 CM",
-    mall: "56- Aziz Mall 2",
-    quantity: 10,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23963",
-    name: "BTY-4 TEDDY BEAR BEIGE CURLY SIZE 30 CM",
-    mall: "22-Tabuk Park",
-    quantity: 20,
-    lastSaleDate: "2025-04-27"
   },
   {
     code: "23964",
@@ -41193,69 +34165,6 @@ const oldData = [
     mall: "13-Al-Yasmin Mall",
     quantity: 3,
     lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "23964",
-    name: "BTY-4 TEDDY BEAR PINK CURLY SIZE 30 CM",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23962",
-    name: "BTY-4 TEDDY BEAR WHITE CURLY SIZE 30 CM",
-    mall: "14-Al Kamal Mall",
-    quantity: 21,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23962",
-    name: "BTY-4 TEDDY BEAR WHITE CURLY SIZE 30 CM",
-    mall: "22-Tabuk Park",
-    quantity: 21,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23962",
-    name: "BTY-4 TEDDY BEAR WHITE CURLY SIZE 30 CM",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 11,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23962",
-    name: "BTY-4 TEDDY BEAR WHITE CURLY SIZE 30 CM",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23962",
-    name: "BTY-4 TEDDY BEAR WHITE CURLY SIZE 30 CM",
-    mall: "52-Al_Baha Mall",
-    quantity: 21,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23962",
-    name: "BTY-4 TEDDY BEAR WHITE CURLY SIZE 30 CM",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23965",
-    name: "BTY-5 TEDDY BEAR BEIGE STRAIGHT SIZE 30 CM",
-    mall: "22-Tabuk Park",
-    quantity: 19,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23966",
-    name: "BTY-5 TEDDY BEAR PINK STRAIGHT SIZE 30 CM",
-    mall: "36-Al jubail Mall",
-    quantity: 20,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "23967",
@@ -41295,13 +34204,6 @@ const oldData = [
   {
     code: "23969",
     name: "BTY-8 TEDDY BEAR BROWN STRAIGHT SIZE 70 CM",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "23969",
-    name: "BTY-8 TEDDY BEAR BROWN STRAIGHT SIZE 70 CM",
     mall: "20-Sitten Street Makkah",
     quantity: 8,
     lastSaleDate: "2025-04-15"
@@ -41323,13 +34225,6 @@ const oldData = [
   {
     code: "23969",
     name: "BTY-8 TEDDY BEAR BROWN STRAIGHT SIZE 70 CM",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 1,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "23969",
-    name: "BTY-8 TEDDY BEAR BROWN STRAIGHT SIZE 70 CM",
     mall: "48 - Jeddah Park",
     quantity: 17,
     lastSaleDate: "2025-04-01"
@@ -41342,13 +34237,6 @@ const oldData = [
     lastSaleDate: "2025-04-22"
   },
   {
-    code: "23969",
-    name: "BTY-8 TEDDY BEAR BROWN STRAIGHT SIZE 70 CM",
-    mall: "56- Aziz Mall 2",
-    quantity: 9,
-    lastSaleDate: "2025-04-29"
-  },
-  {
     code: "23542",
     name: "BUNNY L.PINK KIDS HOODED TOWEL BATH ROBE",
     mall: "15-Riyadh Othaim Mall",
@@ -41358,23 +34246,37 @@ const oldData = [
   {
     code: "23542",
     name: "BUNNY L.PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2025-02-23"
-  },
-  {
-    code: "23542",
-    name: "BUNNY L.PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "36-Al jubail Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23542",
-    name: "BUNNY L.PINK KIDS HOODED TOWEL BATH ROBE",
     mall: "40-Hayat Mall Riyad",
     quantity: 2,
     lastSaleDate: "2025-03-16"
+  },
+  {
+    code: "23353",
+    name: "BUNNY LILAC KIDS HOODED TOWEL BATH ROBE",
+    mall: "09-Al-Salam Mall",
+    quantity: 2,
+    lastSaleDate: "2025-04-12"
+  },
+  {
+    code: "23353",
+    name: "BUNNY LILAC KIDS HOODED TOWEL BATH ROBE",
+    mall: "18-Al_Khayyat Center",
+    quantity: 1,
+    lastSaleDate: "2025-04-13"
+  },
+  {
+    code: "23353",
+    name: "BUNNY LILAC KIDS HOODED TOWEL BATH ROBE",
+    mall: "21-Abha Al_Rashid Mall New",
+    quantity: 6,
+    lastSaleDate: "2025-04-23"
+  },
+  {
+    code: "23353",
+    name: "BUNNY LILAC KIDS HOODED TOWEL BATH ROBE",
+    mall: "53-Al Basateen Mall",
+    quantity: 2,
+    lastSaleDate: "2025-02-28"
   },
   {
     code: "15090",
@@ -41531,34 +34433,6 @@ const oldData = [
     lastSaleDate: "2025-02-23"
   },
   {
-    code: "23550",
-    name: "BUTTERFLY L.BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 1,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "23550",
-    name: "BUTTERFLY L.BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "22-Tabuk Park",
-    quantity: 3,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "23550",
-    name: "BUTTERFLY L.BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "36-Al jubail Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23550",
-    name: "BUTTERFLY L.BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-11"
-  },
-  {
     code: "23449",
     name: "BUTTERFLY YELLOW BLUE FULL COMFORTER 7 PCS WM YZ BIAB",
     mall: "25-Rabwa Othaim Mall",
@@ -41631,13 +34505,6 @@ const oldData = [
   {
     code: "23422",
     name: "CABARNET TAORMINA KING COMFORTER 9 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23422",
-    name: "CABARNET TAORMINA KING COMFORTER 9 PCS",
     mall: "42-Dareen Mall Dammam",
     quantity: 3,
     lastSaleDate: "2025-03-11"
@@ -41662,13 +34529,6 @@ const oldData = [
     mall: "57-Sauq7",
     quantity: 3,
     lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23422",
-    name: "CABARNET TAORMINA KING COMFORTER 9 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
   },
   {
     code: "23422",
@@ -41862,13 +34722,6 @@ const oldData = [
   {
     code: "22639",
     name: "CAT NAVY PINK FULL COMFORTER 7 PCS WM YZ BIAB.",
-    mall: "12-Al_Hamra Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-17"
-  },
-  {
-    code: "22639",
-    name: "CAT NAVY PINK FULL COMFORTER 7 PCS WM YZ BIAB.",
     mall: "25-Rabwa Othaim Mall",
     quantity: 7,
     lastSaleDate: "2025-03-22"
@@ -41916,46 +34769,11 @@ const oldData = [
     lastSaleDate: "2025-01-10"
   },
   {
-    code: "21101",
-    name: "CERAMIC MUG..",
-    mall: "11-Jouri Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "21101",
-    name: "CERAMIC MUG..",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-24"
-  },
-  {
-    code: "21101",
-    name: "CERAMIC MUG..",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 241,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "21101",
-    name: "CERAMIC MUG..",
-    mall: "22-Tabuk Park",
-    quantity: 6,
-    lastSaleDate: "2024-11-04"
-  },
-  {
     code: "21668",
     name: "CERAMIC MUJ",
     mall: "22-Tabuk Park",
     quantity: 3,
     lastSaleDate: "2023-09-15"
-  },
-  {
-    code: "21668",
-    name: "CERAMIC MUJ",
-    mall: "44-Al-Jouf Center",
-    quantity: 5,
-    lastSaleDate: "2025-03-02"
   },
   {
     code: "21668",
@@ -42023,13 +34841,6 @@ const oldData = [
   {
     code: "17283",
     name: "CHARCOAL FAUX RABBIT FUR 50*85 CM MAT",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 8,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "17283",
-    name: "CHARCOAL FAUX RABBIT FUR 50*85 CM MAT",
     mall: "30-Tala Mall Riyadh",
     quantity: 6,
     lastSaleDate: "2025-03-23"
@@ -42040,13 +34851,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 13,
     lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "17283",
-    name: "CHARCOAL FAUX RABBIT FUR 50*85 CM MAT",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 12,
-    lastSaleDate: "2024-09-05"
   },
   {
     code: "17283",
@@ -42075,13 +34879,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 9,
     lastSaleDate: "2024-12-11"
-  },
-  {
-    code: "17283",
-    name: "CHARCOAL FAUX RABBIT FUR 50*85 CM MAT",
-    mall: "09-Al-Salam Mall",
-    quantity: 12,
-    lastSaleDate: "2025-02-22"
   },
   {
     code: "17283",
@@ -42121,13 +34918,6 @@ const oldData = [
   {
     code: "16486",
     name: "CHATEA RED KING QUILT 3 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "16486",
-    name: "CHATEA RED KING QUILT 3 PCS",
     mall: "52-Al_Baha Mall",
     quantity: 1,
     lastSaleDate: "2024-09-15"
@@ -42163,13 +34953,6 @@ const oldData = [
   {
     code: "23958",
     name: "CHEETAH SELVA FULL COMFORTER 8 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 7,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23958",
-    name: "CHEETAH SELVA FULL COMFORTER 8 PCS",
     mall: "44-Al-Jouf Center",
     quantity: 1,
     lastSaleDate: "2025-04-19"
@@ -42180,34 +34963,6 @@ const oldData = [
     mall: "53-Al Basateen Mall",
     quantity: 3,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23958",
-    name: "CHEETAH SELVA FULL COMFORTER 8 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 4,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23948",
-    name: "CHERRIES KATIE BLUE FULL COMFORTER 8 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23948",
-    name: "CHERRIES KATIE BLUE FULL COMFORTER 8 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "13813",
-    name: "CHERRY BLOOSOM SO-SOFT KING COMFORTER 3PCS",
-    mall: "12-Al_Hamra Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "13813",
@@ -42222,13 +34977,6 @@ const oldData = [
     mall: "30-Tala Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2023-02-03"
-  },
-  {
-    code: "13813",
-    name: "CHERRY BLOOSOM SO-SOFT KING COMFORTER 3PCS",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-04"
   },
   {
     code: "13813",
@@ -42289,13 +35037,6 @@ const oldData = [
   {
     code: "21721",
     name: "CHEVAL TURKISH COFFEE SET 6 PCS 90 ML CS-021",
-    mall: "06-Red Sea Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "21721",
-    name: "CHEVAL TURKISH COFFEE SET 6 PCS 90 ML CS-021",
     mall: "09-Al-Salam Mall",
     quantity: 4,
     lastSaleDate: "2025-02-15"
@@ -42310,23 +35051,9 @@ const oldData = [
   {
     code: "21721",
     name: "CHEVAL TURKISH COFFEE SET 6 PCS 90 ML CS-021",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "21721",
-    name: "CHEVAL TURKISH COFFEE SET 6 PCS 90 ML CS-021",
     mall: "15-Riyadh Othaim Mall",
     quantity: 5,
     lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "21721",
-    name: "CHEVAL TURKISH COFFEE SET 6 PCS 90 ML CS-021",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "21721",
@@ -42376,20 +35103,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 3,
     lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "23241",
-    name: "CHRISTMAS RED WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "44-Al-Jouf Center",
-    quantity: 7,
-    lastSaleDate: "2025-03-03"
-  },
-  {
-    code: "23241",
-    name: "CHRISTMAS RED WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-19"
   },
   {
     code: "23245",
@@ -42446,55 +35159,6 @@ const oldData = [
     mall: "39-Salam Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23900",
-    name: "CIRCLES MULTIPLE EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 11,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23900",
-    name: "CIRCLES MULTIPLE EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 11,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "23900",
-    name: "CIRCLES MULTIPLE EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "22-Tabuk Park",
-    quantity: 11,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23900",
-    name: "CIRCLES MULTIPLE EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 9,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23900",
-    name: "CIRCLES MULTIPLE EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 9,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23900",
-    name: "CIRCLES MULTIPLE EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 22,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "23900",
-    name: "CIRCLES MULTIPLE EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "57-Sauq7",
-    quantity: 5,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "15176",
@@ -42770,34 +35434,6 @@ const oldData = [
     lastSaleDate: "2024-07-30"
   },
   {
-    code: "23319",
-    name: "COCODOR 200 ML SIMPLE DIFFUSER BLACK CHERRY",
-    mall: "08-Makkah Mall",
-    quantity: 8,
-    lastSaleDate: "2025-03-10"
-  },
-  {
-    code: "23319",
-    name: "COCODOR 200 ML SIMPLE DIFFUSER BLACK CHERRY",
-    mall: "20-Sitten Street Makkah",
-    quantity: 10,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23319",
-    name: "COCODOR 200 ML SIMPLE DIFFUSER BLACK CHERRY",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23319",
-    name: "COCODOR 200 ML SIMPLE DIFFUSER BLACK CHERRY",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-23"
-  },
-  {
     code: "23322",
     name: "COCODOR 200 ML SIMPLE DIFFUSER DARK VANILLA",
     mall: "08-Makkah Mall",
@@ -42831,27 +35467,6 @@ const oldData = [
     mall: "53-Al Basateen Mall",
     quantity: 7,
     lastSaleDate: "2025-03-09"
-  },
-  {
-    code: "23320",
-    name: "COCODOR 200 ML SIMPLE DIFFUSER GARDEN LAVENDER",
-    mall: "14-Al Kamal Mall",
-    quantity: 29,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23320",
-    name: "COCODOR 200 ML SIMPLE DIFFUSER GARDEN LAVENDER",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "23320",
-    name: "COCODOR 200 ML SIMPLE DIFFUSER GARDEN LAVENDER",
-    mall: "55- Jabl Omar",
-    quantity: 75,
-    lastSaleDate: "2025-04-19"
   },
   {
     code: "23324",
@@ -42938,48 +35553,6 @@ const oldData = [
     lastSaleDate: "2025-03-25"
   },
   {
-    code: "23220",
-    name: "COCODOR 500 ML ROOM SPRAY CLEAN COTTON",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 7,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23220",
-    name: "COCODOR 500 ML ROOM SPRAY CLEAN COTTON",
-    mall: "19-Hail Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23220",
-    name: "COCODOR 500 ML ROOM SPRAY CLEAN COTTON",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23684",
-    name: "COCODOR 500 ML ROOM SPRAY FIG TREE",
-    mall: "20-Sitten Street Makkah",
-    quantity: 2,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23684",
-    name: "COCODOR 500 ML ROOM SPRAY FIG TREE",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 2,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23684",
-    name: "COCODOR 500 ML ROOM SPRAY FIG TREE",
-    mall: "55- Jabl Omar",
-    quantity: 7,
-    lastSaleDate: "2025-04-17"
-  },
-  {
     code: "23222",
     name: "COCODOR 500 ML ROOM SPRAY FOREST DAWN",
     mall: "04-Andalos Mall",
@@ -43003,79 +35576,9 @@ const oldData = [
   {
     code: "23222",
     name: "COCODOR 500 ML ROOM SPRAY FOREST DAWN",
-    mall: "14-Al Kamal Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23222",
-    name: "COCODOR 500 ML ROOM SPRAY FOREST DAWN",
     mall: "20-Sitten Street Makkah",
     quantity: 9,
     lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23685",
-    name: "COCODOR 500 ML ROOM SPRAY FRENCH LAVENDER",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23685",
-    name: "COCODOR 500 ML ROOM SPRAY FRENCH LAVENDER",
-    mall: "18-Al_Khayyat Center",
-    quantity: 19,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23685",
-    name: "COCODOR 500 ML ROOM SPRAY FRENCH LAVENDER",
-    mall: "20-Sitten Street Makkah",
-    quantity: 2,
-    lastSaleDate: "2025-03-06"
-  },
-  {
-    code: "23685",
-    name: "COCODOR 500 ML ROOM SPRAY FRENCH LAVENDER",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-20"
-  },
-  {
-    code: "23685",
-    name: "COCODOR 500 ML ROOM SPRAY FRENCH LAVENDER",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23685",
-    name: "COCODOR 500 ML ROOM SPRAY FRENCH LAVENDER",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23683",
-    name: "COCODOR 500 ML ROOM SPRAY ROSE BOUQUET",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23683",
-    name: "COCODOR 500 ML ROOM SPRAY ROSE BOUQUET",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23683",
-    name: "COCODOR 500 ML ROOM SPRAY ROSE BOUQUET",
-    mall: "56- Aziz Mall 2",
-    quantity: 1,
-    lastSaleDate: "2025-04-12"
   },
   {
     code: "23807",
@@ -43101,13 +35604,6 @@ const oldData = [
   {
     code: "23807",
     name: "COCODOR DIFFUSER DAFFODILS 200 ML BOUQUEST ROSE",
-    mall: "52-Al_Baha Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "23807",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML BOUQUEST ROSE",
     mall: "53-Al Basateen Mall",
     quantity: 10,
     lastSaleDate: "2025-04-20"
@@ -43127,115 +35623,10 @@ const oldData = [
     lastSaleDate: "2025-04-20"
   },
   {
-    code: "24027",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML CHERRY BLACK",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 31,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23808",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML MASK WHITE",
-    mall: "05-Haifa Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23808",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML MASK WHITE",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23808",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML MASK WHITE",
-    mall: "49-AlAhsa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23808",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML MASK WHITE",
-    mall: "55- Jabl Omar",
-    quantity: 34,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23808",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML MASK WHITE",
-    mall: "56- Aziz Mall 2",
-    quantity: 17,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23810",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML SAND PINK",
-    mall: "11-Jouri Mall",
-    quantity: 31,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "23810",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML SAND PINK",
-    mall: "14-Al Kamal Mall",
-    quantity: 20,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23810",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML SAND PINK",
-    mall: "17-Arar Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "23810",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML SAND PINK",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "23810",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML SAND PINK",
-    mall: "19-Hail Othaim Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "23810",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML SAND PINK",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 20,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23810",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML SAND PINK",
-    mall: "36-Al jubail Mall",
-    quantity: 18,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23810",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML SAND PINK",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 16,
-    lastSaleDate: "2025-03-25"
-  },
-  {
     code: "23809",
     name: "COCODOR DIFFUSER DAFFODILS 200 ML WOOD SANDAL AND VANILLA",
     mall: "04-Andalos Mall",
     quantity: 14,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "23809",
-    name: "COCODOR DIFFUSER DAFFODILS 200 ML WOOD SANDAL AND VANILLA",
-    mall: "43-Mujan Park",
-    quantity: 25,
     lastSaleDate: "2025-04-07"
   },
   {
@@ -43706,13 +36097,6 @@ const oldData = [
     mall: "56- Aziz Mall 2",
     quantity: 10,
     lastSaleDate: "2024-08-10"
-  },
-  {
-    code: "16464",
-    name: "COCODOR FRESHENER HERBARIUM 220 ML PURE COTTON",
-    mall: "08-Makkah Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "16464",
@@ -44259,118 +36643,6 @@ const oldData = [
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 1,
     lastSaleDate: "2021-09-13"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "07-Arab Mall",
-    quantity: 2,
-    lastSaleDate: "2025-01-10"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "09-Al-Salam Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "11-Jouri Mall",
-    quantity: 4,
-    lastSaleDate: "2025-02-08"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "18-Al_Khayyat Center",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-01-17"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 1,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "22-Tabuk Park",
-    quantity: 15,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "23-Alia Mall Madinah",
-    quantity: 3,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 5,
-    lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "55- Jabl Omar",
-    quantity: 7,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "56- Aziz Mall 2",
-    quantity: 1,
-    lastSaleDate: "2024-12-11"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "36-Al jubail Mall",
-    quantity: 5,
-    lastSaleDate: "2025-02-09"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "36-Al jubail Mall",
-    quantity: 15,
-    lastSaleDate: "2025-02-09"
-  },
-  {
-    code: "23253",
-    name: "COCODOR ROSE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 8,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "23252",
@@ -45171,139 +37443,6 @@ const oldData = [
     lastSaleDate: "2025-03-26"
   },
   {
-    code: "23246",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "04-Andalos Mall",
-    quantity: 2,
-    lastSaleDate: "2025-01-09"
-  },
-  {
-    code: "23246",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "07-Arab Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-26"
-  },
-  {
-    code: "23246",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "08-Makkah Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23246",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "14-Al Kamal Mall",
-    quantity: 5,
-    lastSaleDate: "2025-02-06"
-  },
-  {
-    code: "23246",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "18-Al_Khayyat Center",
-    quantity: 3,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23246",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "20-Sitten Street Makkah",
-    quantity: 5,
-    lastSaleDate: "2025-03-05"
-  },
-  {
-    code: "23246",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "22-Tabuk Park",
-    quantity: 21,
-    lastSaleDate: "2025-03-12"
-  },
-  {
-    code: "23246",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "48 - Jeddah Park",
-    quantity: 7,
-    lastSaleDate: "2025-03-16"
-  },
-  {
-    code: "23246",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 10,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23246",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "36-Al jubail Mall",
-    quantity: 14,
-    lastSaleDate: "2024-11-03"
-  },
-  {
-    code: "23246",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 18,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "21234",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BLACK CHERRY",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-27"
-  },
-  {
-    code: "21234",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BLACK CHERRY",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-08"
-  },
-  {
-    code: "21234",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BLACK CHERRY",
-    mall: "36-Al jubail Mall",
-    quantity: 6,
-    lastSaleDate: "2025-02-23"
-  },
-  {
-    code: "21234",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BLACK CHERRY",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "21234",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BLACK CHERRY",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-17"
-  },
-  {
-    code: "21234",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BLACK CHERRY",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 15,
-    lastSaleDate: "2025-01-08"
-  },
-  {
-    code: "21234",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BLACK CHERRY",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 16,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "21234",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BLACK CHERRY",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 15,
-    lastSaleDate: "2025-04-18"
-  },
-  {
     code: "23806",
     name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BOUQUET ROSE",
     mall: "05-Haifa Mall",
@@ -45316,13 +37455,6 @@ const oldData = [
     mall: "07-Arab Mall",
     quantity: 1,
     lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23806",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER BOUQUET ROSE",
-    mall: "09-Al-Salam Mall",
-    quantity: 16,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "23806",
@@ -45656,20 +37788,6 @@ const oldData = [
   {
     code: "21236",
     name: "COCODOR WHITE FLOWER 200 ML DIFFUSER VANILLA AND SANDALWOOD",
-    mall: "18-Al_Khayyat Center",
-    quantity: 8,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "21236",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER VANILLA AND SANDALWOOD",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 8,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "21236",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER VANILLA AND SANDALWOOD",
     mall: "38-Al_Riyadh Park",
     quantity: 15,
     lastSaleDate: "2025-04-19"
@@ -45754,13 +37872,6 @@ const oldData = [
   {
     code: "23676",
     name: "COCODOR WHITE FLOWER 200 ML DIFFUSER WHITE JASMINE",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23676",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER WHITE JASMINE",
     mall: "40-Hayat Mall Riyad",
     quantity: 4,
     lastSaleDate: "2025-03-23"
@@ -45771,34 +37882,6 @@ const oldData = [
     mall: "46-Khaleej Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-03-13"
-  },
-  {
-    code: "21238",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER WHITE MUSK",
-    mall: "36-Al jubail Mall",
-    quantity: 23,
-    lastSaleDate: "2025-02-03"
-  },
-  {
-    code: "21238",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER WHITE MUSK",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 1,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "21238",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER WHITE MUSK",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 37,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "21238",
-    name: "COCODOR WHITE FLOWER 200 ML DIFFUSER WHITE MUSK",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 15,
-    lastSaleDate: "2025-04-03"
   },
   {
     code: "20335",
@@ -46044,13 +38127,6 @@ const oldData = [
     mall: "30-Tala Mall Riyadh",
     quantity: 8,
     lastSaleDate: "2024-08-10"
-  },
-  {
-    code: "20338",
-    name: "COFFEE SET 6 PCS 90 ML CS 05",
-    mall: "43-Mujan Park",
-    quantity: 8,
-    lastSaleDate: "2025-03-20"
   },
   {
     code: "20338",
@@ -46326,13 +38402,6 @@ const oldData = [
     lastSaleDate: "2025-02-05"
   },
   {
-    code: "22286",
-    name: "COLIN MARBLE 3 PCS BATH ACCESS",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 2,
-    lastSaleDate: "2024-07-09"
-  },
-  {
     code: "14462",
     name: "COLORED CUPS 12 PCS",
     mall: "20-Sitten Street Makkah",
@@ -46352,48 +38421,6 @@ const oldData = [
     mall: "06-Red Sea Mall",
     quantity: 1,
     lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "23623",
-    name: "COMFORTER FULL BLUE ICE PROSELINE 12PCS",
-    mall: "48 - Jeddah Park",
-    quantity: 1,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "23624",
-    name: "COMFORTER KING BLUE ICE ROSELINE 12PCS",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "23942",
-    name: "CONTROLLER GAMING FAVORITE FULL COMFORTER 8 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23942",
-    name: "CONTROLLER GAMING FAVORITE FULL COMFORTER 8 PCS",
-    mall: "36-Al jubail Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23942",
-    name: "CONTROLLER GAMING FAVORITE FULL COMFORTER 8 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23942",
-    name: "CONTROLLER GAMING FAVORITE FULL COMFORTER 8 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-22"
   },
   {
     code: "17183",
@@ -46468,149 +38495,9 @@ const oldData = [
   {
     code: "23837",
     name: "COOLING GRAY FULL COMFORTER 1 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23837",
-    name: "COOLING GRAY FULL COMFORTER 1 PCS",
-    mall: "19-Hail Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23837",
-    name: "COOLING GRAY FULL COMFORTER 1 PCS",
     mall: "44-Al-Jouf Center",
     quantity: 3,
     lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "23837",
-    name: "COOLING GRAY FULL COMFORTER 1 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23834",
-    name: "COOLING GRAY KING COMFORTER 1 PCS",
-    mall: "49-AlAhsa Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23834",
-    name: "COOLING GRAY KING COMFORTER 1 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "23834",
-    name: "COOLING GRAY KING COMFORTER 1 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 7,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "17-Arar Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2024-04-09"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 9,
-    lastSaleDate: "2024-05-14"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "11-Jouri Mall",
-    quantity: 9,
-    lastSaleDate: "2025-01-02"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "55- Jabl Omar",
-    quantity: 9,
-    lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "05-Haifa Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "11-Jouri Mall",
-    quantity: 6,
-    lastSaleDate: "2025-01-02"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "17-Arar Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2024-04-09"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "18-Al_Khayyat Center",
-    quantity: 6,
-    lastSaleDate: "2025-02-05"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "21455",
-    name: "COOLING MEMORY FIBER KING PILLOW",
-    mall: "55- Jabl Omar",
-    quantity: 6,
-    lastSaleDate: "2025-04-20"
   },
   {
     code: "23270",
@@ -46685,13 +38572,6 @@ const oldData = [
   {
     code: "23270",
     name: "COOLING MEMORY FOAM PILLOW STANDARD",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23270",
-    name: "COOLING MEMORY FOAM PILLOW STANDARD",
     mall: "56- Aziz Mall 2",
     quantity: 1,
     lastSaleDate: "2025-02-10"
@@ -46702,62 +38582,6 @@ const oldData = [
     mall: "15-Riyadh Othaim Mall",
     quantity: 3,
     lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23838",
-    name: "COOLING NAVY FULL COMFORTER 1 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23835",
-    name: "COOLING NAVY KING COMFORTER 1 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "23835",
-    name: "COOLING NAVY KING COMFORTER 1 PCS",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "23835",
-    name: "COOLING NAVY KING COMFORTER 1 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23835",
-    name: "COOLING NAVY KING COMFORTER 1 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "23835",
-    name: "COOLING NAVY KING COMFORTER 1 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 9,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23835",
-    name: "COOLING NAVY KING COMFORTER 1 PCS",
-    mall: "57-Sauq7",
-    quantity: 5,
-    lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "23836",
-    name: "COOLING WHITE FULL COMFORTER 1 PCS",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "23836",
@@ -46772,13 +38596,6 @@ const oldData = [
     mall: "53-Al Basateen Mall",
     quantity: 4,
     lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23833",
-    name: "COOLING WHITE KING COMFORTER 1 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 5,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "17569",
@@ -46839,13 +38656,6 @@ const oldData = [
   {
     code: "23439",
     name: "COSTCO ANNALISE TAN KING COMFORTER 6 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23439",
-    name: "COSTCO ANNALISE TAN KING COMFORTER 6 PCS",
     mall: "18-Al_Khayyat Center",
     quantity: 2,
     lastSaleDate: "2025-03-29"
@@ -46874,15 +38684,15 @@ const oldData = [
   {
     code: "23384",
     name: "COSTCO EMILIA BLUE KING COMFORTER 6 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23384",
-    name: "COSTCO EMILIA BLUE KING COMFORTER 6 PCS",
     mall: "38-Al_Riyadh Park",
     quantity: 3,
+    lastSaleDate: "2025-04-20"
+  },
+  {
+    code: "23441",
+    name: "COSTCO FLORE NAVY BLUE KING COMFORTER 6 PCS",
+    mall: "18-Al_Khayyat Center",
+    quantity: 1,
     lastSaleDate: "2025-04-20"
   },
   {
@@ -46909,30 +38719,9 @@ const oldData = [
   {
     code: "23184",
     name: "COSTCO GRAPHIC GEO GREY KING COMFORTER 6 PCS",
-    mall: "12-Al_Hamra Mall",
-    quantity: 4,
-    lastSaleDate: "2024-11-28"
-  },
-  {
-    code: "23184",
-    name: "COSTCO GRAPHIC GEO GREY KING COMFORTER 6 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2024-06-02"
-  },
-  {
-    code: "23184",
-    name: "COSTCO GRAPHIC GEO GREY KING COMFORTER 6 PCS",
     mall: "38-Al_Riyadh Park",
     quantity: 4,
     lastSaleDate: "2024-12-27"
-  },
-  {
-    code: "23184",
-    name: "COSTCO GRAPHIC GEO GREY KING COMFORTER 6 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "22887",
@@ -46940,13 +38729,6 @@ const oldData = [
     mall: "11-Jouri Mall",
     quantity: 2,
     lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22887",
-    name: "COSTCO MOEMI AQUA KING COMFORTER 6 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-19"
   },
   {
     code: "22887",
@@ -47000,65 +38782,9 @@ const oldData = [
   {
     code: "23183",
     name: "COSTCO OLIVER NEUTRAL KING COMFORTER 6 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 6,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "23183",
-    name: "COSTCO OLIVER NEUTRAL KING COMFORTER 6 PCS",
     mall: "57-Sauq7",
     quantity: 1,
     lastSaleDate: "2024-06-28"
-  },
-  {
-    code: "23385",
-    name: "COSTCO RACQUEL NEUTRAL KING COMFORTER 6 PCS",
-    mall: "38-Al_Riyadh Park",
-    quantity: 3,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23385",
-    name: "COSTCO RACQUEL NEUTRAL KING COMFORTER 6 PCS",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2024-10-30"
-  },
-  {
-    code: "23385",
-    name: "COSTCO RACQUEL NEUTRAL KING COMFORTER 6 PCS",
-    mall: "48 - Jeddah Park",
-    quantity: 4,
-    lastSaleDate: "2025-02-17"
-  },
-  {
-    code: "23385",
-    name: "COSTCO RACQUEL NEUTRAL KING COMFORTER 6 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-01-27"
-  },
-  {
-    code: "23182",
-    name: "COSTCO RILEY SILVER KING COMFORTER 6 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23182",
-    name: "COSTCO RILEY SILVER KING COMFORTER 6 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23182",
-    name: "COSTCO RILEY SILVER KING COMFORTER 6 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2024-10-11"
   },
   {
     code: "21557",
@@ -47087,34 +38813,6 @@ const oldData = [
     mall: "46-Khaleej Mall Riyadh",
     quantity: 4,
     lastSaleDate: "2025-01-22"
-  },
-  {
-    code: "23443",
-    name: "COSTCO THOMAS COOL KING COMFORTER 6 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "23443",
-    name: "COSTCO THOMAS COOL KING COMFORTER 6 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23443",
-    name: "COSTCO THOMAS COOL KING COMFORTER 6 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23443",
-    name: "COSTCO THOMAS COOL KING COMFORTER 6 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2025-02-15"
   },
   {
     code: "23067",
@@ -47168,30 +38866,9 @@ const oldData = [
   {
     code: "23067",
     name: "COSTCO TUMBLERS 14OZ LEMON ANIMAL",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23067",
-    name: "COSTCO TUMBLERS 14OZ LEMON ANIMAL",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-01-07"
-  },
-  {
-    code: "23067",
-    name: "COSTCO TUMBLERS 14OZ LEMON ANIMAL",
     mall: "38-Al_Riyadh Park",
     quantity: 2,
     lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23067",
-    name: "COSTCO TUMBLERS 14OZ LEMON ANIMAL",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 16,
-    lastSaleDate: "2025-03-21"
   },
   {
     code: "23067",
@@ -47292,13 +38969,6 @@ const oldData = [
     lastSaleDate: "2024-11-22"
   },
   {
-    code: "23065",
-    name: "COSTCO TUMBLERS 24OZ ORANGE",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-11"
-  },
-  {
     code: "23066",
     name: "COSTCO TUMBLERS 24OZ PINK",
     mall: "43-Mujan Park",
@@ -47311,160 +38981,6 @@ const oldData = [
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2024-07-30"
-  },
-  {
-    code: "23071",
-    name: "COSTCO TUMBLERS 40OZ BLACK",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-26"
-  },
-  {
-    code: "23226",
-    name: "COSTCO TUMBLERS 40OZ CHRISTMAS RED",
-    mall: "49-AlAhsa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-14"
-  },
-  {
-    code: "23226",
-    name: "COSTCO TUMBLERS 40OZ CHRISTMAS RED",
-    mall: "14-Al Kamal Mall",
-    quantity: 10,
-    lastSaleDate: "2025-01-08"
-  },
-  {
-    code: "23226",
-    name: "COSTCO TUMBLERS 40OZ CHRISTMAS RED",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "23226",
-    name: "COSTCO TUMBLERS 40OZ CHRISTMAS RED",
-    mall: "44-Al-Jouf Center",
-    quantity: 15,
-    lastSaleDate: "2024-12-26"
-  },
-  {
-    code: "23226",
-    name: "COSTCO TUMBLERS 40OZ CHRISTMAS RED",
-    mall: "56- Aziz Mall 2",
-    quantity: 16,
-    lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "23225",
-    name: "COSTCO TUMBLERS 40OZ LAVENDER",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 2,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23225",
-    name: "COSTCO TUMBLERS 40OZ LAVENDER",
-    mall: "38-Al_Riyadh Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23225",
-    name: "COSTCO TUMBLERS 40OZ LAVENDER",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-03-10"
-  },
-  {
-    code: "23225",
-    name: "COSTCO TUMBLERS 40OZ LAVENDER",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23225",
-    name: "COSTCO TUMBLERS 40OZ LAVENDER",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "23225",
-    name: "COSTCO TUMBLERS 40OZ LAVENDER",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23225",
-    name: "COSTCO TUMBLERS 40OZ LAVENDER",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23225",
-    name: "COSTCO TUMBLERS 40OZ LAVENDER",
-    mall: "22-Tabuk Park",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23225",
-    name: "COSTCO TUMBLERS 40OZ LAVENDER",
-    mall: "43-Mujan Park",
-    quantity: 2,
-    lastSaleDate: "2025-03-04"
-  },
-  {
-    code: "23224",
-    name: "COSTCO TUMBLERS 40OZ LIGHT BLUE",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 17,
-    lastSaleDate: "2025-02-04"
-  },
-  {
-    code: "23224",
-    name: "COSTCO TUMBLERS 40OZ LIGHT BLUE",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 17,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23224",
-    name: "COSTCO TUMBLERS 40OZ LIGHT BLUE",
-    mall: "18-Al_Khayyat Center",
-    quantity: 16,
-    lastSaleDate: "2024-12-04"
-  },
-  {
-    code: "23224",
-    name: "COSTCO TUMBLERS 40OZ LIGHT BLUE",
-    mall: "20-Sitten Street Makkah",
-    quantity: 17,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23224",
-    name: "COSTCO TUMBLERS 40OZ LIGHT BLUE",
-    mall: "22-Tabuk Park",
-    quantity: 2,
-    lastSaleDate: "2024-12-24"
-  },
-  {
-    code: "23228",
-    name: "COSTCO TUMBLERS 40OZ ORANGE",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 14,
-    lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "23228",
-    name: "COSTCO TUMBLERS 40OZ ORANGE",
-    mall: "49-AlAhsa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-18"
   },
   {
     code: "23223",
@@ -47497,13 +39013,6 @@ const oldData = [
   {
     code: "23072",
     name: "COSTCO TUMBLERS 40OZ TEAL BLUE",
-    mall: "55- Jabl Omar",
-    quantity: 31,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23072",
-    name: "COSTCO TUMBLERS 40OZ TEAL BLUE",
     mall: "12-Al_Hamra Mall",
     quantity: 21,
     lastSaleDate: "2024-10-17"
@@ -47511,37 +39020,9 @@ const oldData = [
   {
     code: "23070",
     name: "COSTCO TUMBLERS 40OZ WHITE",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 16,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23070",
-    name: "COSTCO TUMBLERS 40OZ WHITE",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 15,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23070",
-    name: "COSTCO TUMBLERS 40OZ WHITE",
     mall: "44-Al-Jouf Center",
     quantity: 15,
     lastSaleDate: "2025-03-03"
-  },
-  {
-    code: "23227",
-    name: "COSTCO TUMBLERS 40OZ YELLOW",
-    mall: "20-Sitten Street Makkah",
-    quantity: 16,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "23227",
-    name: "COSTCO TUMBLERS 40OZ YELLOW",
-    mall: "44-Al-Jouf Center",
-    quantity: 13,
-    lastSaleDate: "2025-03-02"
   },
   {
     code: "23386",
@@ -47563,13 +39044,6 @@ const oldData = [
     mall: "08-Makkah Mall",
     quantity: 1,
     lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "23386",
-    name: "COSTCO VIDA BERRY KING COMFORTER 6 PCS",
-    mall: "09-Al-Salam Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-18"
   },
   {
     code: "23386",
@@ -47672,27 +39146,6 @@ const oldData = [
   {
     code: "13616",
     name: "COUBLE STONE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "05-Haifa Mall",
-    quantity: 4,
-    lastSaleDate: "2024-12-28"
-  },
-  {
-    code: "13616",
-    name: "COUBLE STONE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2024-12-29"
-  },
-  {
-    code: "13616",
-    name: "COUBLE STONE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-02-14"
-  },
-  {
-    code: "13616",
-    name: "COUBLE STONE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
     mall: "24-Yanbu Dana Mall",
     quantity: 4,
     lastSaleDate: "2025-02-12"
@@ -47703,13 +39156,6 @@ const oldData = [
     mall: "25-Rabwa Othaim Mall",
     quantity: 2,
     lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "13616",
-    name: "COUBLE STONE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 6,
-    lastSaleDate: "2024-11-30"
   },
   {
     code: "13616",
@@ -47728,13 +39174,6 @@ const oldData = [
   {
     code: "13616",
     name: "COUBLE STONE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 6,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "13616",
-    name: "COUBLE STONE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
     mall: "47-Al-Nakheel Plaza",
     quantity: 4,
     lastSaleDate: "2024-12-17"
@@ -47743,7 +39182,7 @@ const oldData = [
     code: "13616",
     name: "COUBLE STONE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
     mall: "50-Meem Plaza Riyadh",
-    quantity: 4,
+    quantity: 6,
     lastSaleDate: "2025-03-07"
   },
   {
@@ -47770,20 +39209,6 @@ const oldData = [
   {
     code: "13493",
     name: "COUBLESTONE DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "13493",
-    name: "COUBLESTONE DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "13493",
-    name: "COUBLESTONE DAMASK KING  COMFORTER 500 TC 6 PCS",
     mall: "16-Ehsa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2025-03-07"
@@ -47801,13 +39226,6 @@ const oldData = [
     mall: "36-Al jubail Mall",
     quantity: 1,
     lastSaleDate: "2024-12-21"
-  },
-  {
-    code: "13493",
-    name: "COUBLESTONE DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-04"
   },
   {
     code: "13493",
@@ -47840,13 +39258,6 @@ const oldData = [
   {
     code: "13493",
     name: "COUBLESTONE DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "13493",
-    name: "COUBLESTONE DAMASK KING  COMFORTER 500 TC 6 PCS",
     mall: "40-Hayat Mall Riyad",
     quantity: 3,
     lastSaleDate: "2024-12-23"
@@ -47868,23 +39279,9 @@ const oldData = [
   {
     code: "13493",
     name: "COUBLESTONE DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "13493",
-    name: "COUBLESTONE DAMASK KING  COMFORTER 500 TC 6 PCS",
     mall: "55- Jabl Omar",
     quantity: 2,
     lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "13493",
-    name: "COUBLESTONE DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 4,
-    lastSaleDate: "2025-02-06"
   },
   {
     code: "13493",
@@ -47934,13 +39331,6 @@ const oldData = [
     mall: "12-Al_Hamra Mall",
     quantity: 7,
     lastSaleDate: "2025-01-11"
-  },
-  {
-    code: "22523",
-    name: "COW KIDS HOODED TOWEL BATH ROBE",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 11,
-    lastSaleDate: "2025-03-25"
   },
   {
     code: "22523",
@@ -48540,13 +39930,6 @@ const oldData = [
   {
     code: "22667",
     name: "COZY SLEEP LOUNGER S/M MARSHMALLOW",
-    mall: "43-Mujan Park",
-    quantity: 11,
-    lastSaleDate: "2025-03-06"
-  },
-  {
-    code: "22667",
-    name: "COZY SLEEP LOUNGER S/M MARSHMALLOW",
     mall: "48 - Jeddah Park",
     quantity: 10,
     lastSaleDate: "2024-11-13"
@@ -48615,13 +39998,6 @@ const oldData = [
     lastSaleDate: "2025-01-15"
   },
   {
-    code: "23518",
-    name: "COZY STRIPE BISCUIT FULL COMFORTER 2 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
-  },
-  {
     code: "23519",
     name: "COZY STRIPE BLUE LOYAL FULL COMFORTER 2 PCS",
     mall: "47-Al-Nakheel Plaza",
@@ -48648,13 +40024,6 @@ const oldData = [
     mall: "25-Rabwa Othaim Mall",
     quantity: 6,
     lastSaleDate: "2025-01-31"
-  },
-  {
-    code: "23519",
-    name: "COZY STRIPE BLUE LOYAL FULL COMFORTER 2 PCS",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 2,
-    lastSaleDate: "2025-03-21"
   },
   {
     code: "23519",
@@ -48904,44 +40273,9 @@ const oldData = [
   {
     code: "22407",
     name: "CRIMSON COMFY 104*90 BLANKET KING",
-    mall: "17-Arar Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-21"
-  },
-  {
-    code: "22407",
-    name: "CRIMSON COMFY 104*90 BLANKET KING",
     mall: "44-Al-Jouf Center",
     quantity: 1,
     lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "22407",
-    name: "CRIMSON COMFY 104*90 BLANKET KING",
-    mall: "52-Al_Baha Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "22407",
-    name: "CRIMSON COMFY 104*90 BLANKET KING",
-    mall: "06-Red Sea Mall",
-    quantity: 14,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "22407",
-    name: "CRIMSON COMFY 104*90 BLANKET KING",
-    mall: "12-Al_Hamra Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "22407",
-    name: "CRIMSON COMFY 104*90 BLANKET KING",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "22407",
@@ -48953,30 +40287,9 @@ const oldData = [
   {
     code: "22407",
     name: "CRIMSON COMFY 104*90 BLANKET KING",
-    mall: "17-Arar Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-02-21"
-  },
-  {
-    code: "22407",
-    name: "CRIMSON COMFY 104*90 BLANKET KING",
     mall: "32-Atyaf Mall Riyadh",
     quantity: 4,
     lastSaleDate: "2025-03-08"
-  },
-  {
-    code: "22407",
-    name: "CRIMSON COMFY 104*90 BLANKET KING",
-    mall: "36-Al jubail Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22407",
-    name: "CRIMSON COMFY 104*90 BLANKET KING",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 4,
-    lastSaleDate: "2025-04-22"
   },
   {
     code: "22407",
@@ -48998,62 +40311,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 6,
     lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "22407",
-    name: "CRIMSON COMFY 104*90 BLANKET KING",
-    mall: "55- Jabl Omar",
-    quantity: 6,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "22407",
-    name: "CRIMSON COMFY 104*90 BLANKET KING",
-    mall: "57-Sauq7",
-    quantity: 3,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "22400",
-    name: "CRIMSON COMFY 66*90 BLANKET FULL",
-    mall: "18-Al_Khayyat Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "22400",
-    name: "CRIMSON COMFY 66*90 BLANKET FULL",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "22400",
-    name: "CRIMSON COMFY 66*90 BLANKET FULL",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "22400",
-    name: "CRIMSON COMFY 66*90 BLANKET FULL",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "22400",
-    name: "CRIMSON COMFY 66*90 BLANKET FULL",
-    mall: "18-Al_Khayyat Center",
-    quantity: 4,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "22400",
-    name: "CRIMSON COMFY 66*90 BLANKET FULL",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-03-21"
   },
   {
     code: "15172",
@@ -49268,65 +40525,9 @@ const oldData = [
   {
     code: "23614",
     name: "CUSHION SEAT PILLOW BLACK CM 35.5X48X48.5",
-    mall: "14-Al Kamal Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "23614",
-    name: "CUSHION SEAT PILLOW BLACK CM 35.5X48X48.5",
     mall: "18-Al_Khayyat Center",
     quantity: 12,
     lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23620",
-    name: "CUSHION SEAT PILLOW GREY CM 41.5X50X50",
-    mall: "55- Jabl Omar",
-    quantity: 43,
-    lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "23615",
-    name: "CUSHION SEAT PILLOW NAVY CM 41.5X50X50",
-    mall: "18-Al_Khayyat Center",
-    quantity: 15,
-    lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "23615",
-    name: "CUSHION SEAT PILLOW NAVY CM 41.5X50X50",
-    mall: "43-Mujan Park",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23615",
-    name: "CUSHION SEAT PILLOW NAVY CM 41.5X50X50",
-    mall: "44-Al-Jouf Center",
-    quantity: 11,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23543",
-    name: "CUTE OWL D.PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "22-Tabuk Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23543",
-    name: "CUTE OWL D.PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "36-Al jubail Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23543",
-    name: "CUTE OWL D.PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "52-Al_Baha Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-09"
   },
   {
     code: "22284",
@@ -49401,13 +40602,6 @@ const oldData = [
   {
     code: "22284",
     name: "CYPRESS COPPER 3 PCS BATH ACCESS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 3,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "22284",
-    name: "CYPRESS COPPER 3 PCS BATH ACCESS",
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2025-01-04"
@@ -49462,13 +40656,6 @@ const oldData = [
     lastSaleDate: "2024-08-14"
   },
   {
-    code: "20449",
-    name: "D KITCHEN TOWEL IVORY 28*16",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 5,
-    lastSaleDate: "2024-09-03"
-  },
-  {
     code: "20468",
     name: "D KITCHEN TOWEL WHITE 28*16",
     mall: "15-Riyadh Othaim Mall",
@@ -49481,13 +40668,6 @@ const oldData = [
     mall: "18-Al_Khayyat Center",
     quantity: 1,
     lastSaleDate: "2023-01-11"
-  },
-  {
-    code: "20468",
-    name: "D KITCHEN TOWEL WHITE 28*16",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 2,
-    lastSaleDate: "2023-01-27"
   },
   {
     code: "17639",
@@ -49516,27 +40696,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 1,
     lastSaleDate: "2024-11-20"
-  },
-  {
-    code: "23445",
-    name: "DAISY SPRING TANGERING TWIN COMFORTER 5 PCS WM YZ BIAB",
-    mall: "17-Arar Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "23445",
-    name: "DAISY SPRING TANGERING TWIN COMFORTER 5 PCS WM YZ BIAB",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23445",
-    name: "DAISY SPRING TANGERING TWIN COMFORTER 5 PCS WM YZ BIAB",
-    mall: "55- Jabl Omar",
-    quantity: 5,
-    lastSaleDate: "2025-02-20"
   },
   {
     code: "16522",
@@ -49863,13 +41022,6 @@ const oldData = [
   {
     code: "13565",
     name: "DINNER SET 28 PCS (G4)",
-    mall: "23-Alia Mall Madinah",
-    quantity: 4,
-    lastSaleDate: "2021-03-18"
-  },
-  {
-    code: "13565",
-    name: "DINNER SET 28 PCS (G4)",
     mall: "24-Yanbu Dana Mall",
     quantity: 1,
     lastSaleDate: "2020-02-14"
@@ -49894,20 +41046,6 @@ const oldData = [
     mall: "11-Jouri Mall",
     quantity: 2,
     lastSaleDate: "2021-02-11"
-  },
-  {
-    code: "11955",
-    name: "DINNER SET 28 PCS.",
-    mall: "11-Jouri Mall",
-    quantity: 2,
-    lastSaleDate: "2024-07-29"
-  },
-  {
-    code: "23356",
-    name: "DINO GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "04-Andalos Mall",
-    quantity: 9,
-    lastSaleDate: "2024-11-06"
   },
   {
     code: "23356",
@@ -49980,34 +41118,6 @@ const oldData = [
     lastSaleDate: "2025-03-26"
   },
   {
-    code: "23547",
-    name: "DINO1 GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 15,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23547",
-    name: "DINO1 GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23547",
-    name: "DINO1 GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "23547",
-    name: "DINO1 GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
     code: "23545",
     name: "DINO2 L.GREEN KIDS HOODED TOWEL BATH ROBE",
     mall: "09-Al-Salam Mall",
@@ -50024,23 +41134,9 @@ const oldData = [
   {
     code: "23545",
     name: "DINO2 L.GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "38-Al_Riyadh Park",
-    quantity: 3,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23545",
-    name: "DINO2 L.GREEN KIDS HOODED TOWEL BATH ROBE",
     mall: "47-Al-Nakheel Plaza",
     quantity: 10,
     lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "23545",
-    name: "DINO2 L.GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "23545",
@@ -50094,13 +41190,6 @@ const oldData = [
   {
     code: "14790",
     name: "DISHES SET 16 PCS WHITE MEDITERRANEO",
-    mall: "12-Al_Hamra Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-17"
-  },
-  {
-    code: "14790",
-    name: "DISHES SET 16 PCS WHITE MEDITERRANEO",
     mall: "20-Sitten Street Makkah",
     quantity: 1,
     lastSaleDate: "2024-11-26"
@@ -50146,20 +41235,6 @@ const oldData = [
     mall: "43-Mujan Park",
     quantity: 1,
     lastSaleDate: "2023-07-15"
-  },
-  {
-    code: "22405",
-    name: "DOE SKIN COMFY 104*90 BLANKET KING",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "22405",
-    name: "DOE SKIN COMFY 104*90 BLANKET KING",
-    mall: "55- Jabl Omar",
-    quantity: 6,
-    lastSaleDate: "2025-04-25"
   },
   {
     code: "21429",
@@ -50297,13 +41372,6 @@ const oldData = [
   {
     code: "23612",
     name: "DOMBRG BLUE KING COMFORTER 8 PCS",
-    mall: "09-Al-Salam Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-12"
-  },
-  {
-    code: "23612",
-    name: "DOMBRG BLUE KING COMFORTER 8 PCS",
     mall: "15-Riyadh Othaim Mall",
     quantity: 3,
     lastSaleDate: "2025-04-05"
@@ -50314,13 +41382,6 @@ const oldData = [
     mall: "23-Alia Mall Madinah",
     quantity: 2,
     lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23612",
-    name: "DOMBRG BLUE KING COMFORTER 8 PCS",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "23612",
@@ -50465,23 +41526,9 @@ const oldData = [
   {
     code: "22149",
     name: "DOORMAT #12 SIZE 60X90 CM",
-    mall: "43-Mujan Park",
-    quantity: 3,
-    lastSaleDate: "2024-10-05"
-  },
-  {
-    code: "22149",
-    name: "DOORMAT #12 SIZE 60X90 CM",
     mall: "52-Al_Baha Mall",
     quantity: 1,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22149",
-    name: "DOORMAT #12 SIZE 60X90 CM",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 5,
-    lastSaleDate: "2025-04-23"
   },
   {
     code: "22149",
@@ -50743,76 +41790,6 @@ const oldData = [
     lastSaleDate: "2024-12-28"
   },
   {
-    code: "22890",
-    name: "DUCK 2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "06-Red Sea Mall",
-    quantity: 1,
-    lastSaleDate: "2024-08-04"
-  },
-  {
-    code: "22890",
-    name: "DUCK 2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "09-Al-Salam Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "22890",
-    name: "DUCK 2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 4,
-    lastSaleDate: "2024-10-03"
-  },
-  {
-    code: "22890",
-    name: "DUCK 2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-17"
-  },
-  {
-    code: "22890",
-    name: "DUCK 2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "22890",
-    name: "DUCK 2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "36-Al jubail Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22890",
-    name: "DUCK 2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22890",
-    name: "DUCK 2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 13,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "22890",
-    name: "DUCK 2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 10,
-    lastSaleDate: "2025-02-24"
-  },
-  {
-    code: "22890",
-    name: "DUCK 2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "56- Aziz Mall 2",
-    quantity: 3,
-    lastSaleDate: "2025-02-09"
-  },
-  {
     code: "12352",
     name: "DUVET BLUEBELL WOODS 3 PCS",
     mall: "24-Yanbu Dana Mall",
@@ -50986,13 +41963,6 @@ const oldData = [
     mall: "39-Salam Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2024-12-15"
-  },
-  {
-    code: "20809",
-    name: "DUVET COVER BORDER STRIPE NAVY QUEEN 4 PCS",
-    mall: "43-Mujan Park",
-    quantity: 1,
-    lastSaleDate: "2024-03-09"
   },
   {
     code: "20809",
@@ -51263,13 +42233,6 @@ const oldData = [
   {
     code: "12356",
     name: "DUVET TETBURY 3 PCS",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "12356",
-    name: "DUVET TETBURY 3 PCS",
     mall: "52-Al_Baha Mall",
     quantity: 2,
     lastSaleDate: "2024-02-02"
@@ -51375,20 +42338,6 @@ const oldData = [
   {
     code: "23416",
     name: "E438 SMOOSHIE TOY- BEE PURPLE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "23416",
-    name: "E438 SMOOSHIE TOY- BEE PURPLE",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23416",
-    name: "E438 SMOOSHIE TOY- BEE PURPLE",
     mall: "39-Salam Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-03-14"
@@ -51399,83 +42348,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 2,
     lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23461",
-    name: "E452 SMOOSHIE TOY- SHEEP COLORFUL",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "23461",
-    name: "E452 SMOOSHIE TOY- SHEEP COLORFUL",
-    mall: "06-Red Sea Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23461",
-    name: "E452 SMOOSHIE TOY- SHEEP COLORFUL",
-    mall: "07-Arab Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-20"
-  },
-  {
-    code: "23461",
-    name: "E452 SMOOSHIE TOY- SHEEP COLORFUL",
-    mall: "09-Al-Salam Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23461",
-    name: "E452 SMOOSHIE TOY- SHEEP COLORFUL",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23461",
-    name: "E452 SMOOSHIE TOY- SHEEP COLORFUL",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-08"
-  },
-  {
-    code: "23461",
-    name: "E452 SMOOSHIE TOY- SHEEP COLORFUL",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 8,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23461",
-    name: "E452 SMOOSHIE TOY- SHEEP COLORFUL",
-    mall: "48 - Jeddah Park",
-    quantity: 4,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "23461",
-    name: "E452 SMOOSHIE TOY- SHEEP COLORFUL",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-01-24"
-  },
-  {
-    code: "23461",
-    name: "E452 SMOOSHIE TOY- SHEEP COLORFUL",
-    mall: "56- Aziz Mall 2",
-    quantity: 4,
-    lastSaleDate: "2025-02-26"
-  },
-  {
-    code: "23461",
-    name: "E452 SMOOSHIE TOY- SHEEP COLORFUL",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-03-26"
   },
   {
     code: "23036",
@@ -51511,20 +42383,6 @@ const oldData = [
     mall: "09-Al-Salam Mall",
     quantity: 3,
     lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23539",
-    name: "ELEOHANT L.BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "11-Jouri Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "23539",
-    name: "ELEOHANT L.BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-21"
   },
   {
     code: "23539",
@@ -51588,13 +42446,6 @@ const oldData = [
     mall: "20-Sitten Street Makkah",
     quantity: 1,
     lastSaleDate: "2025-03-16"
-  },
-  {
-    code: "23357",
-    name: "ELEPHANT BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 10,
-    lastSaleDate: "2025-04-10"
   },
   {
     code: "23357",
@@ -52635,20 +43486,6 @@ const oldData = [
   {
     code: "20405",
     name: "EMBROIDERED GREY TOWEL SET WAVES 3 PCS E",
-    mall: "12-Al_Hamra Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "20405",
-    name: "EMBROIDERED GREY TOWEL SET WAVES 3 PCS E",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-13"
-  },
-  {
-    code: "20405",
-    name: "EMBROIDERED GREY TOWEL SET WAVES 3 PCS E",
     mall: "17-Arar Othaim Mall",
     quantity: 6,
     lastSaleDate: "2023-08-05"
@@ -52740,13 +43577,6 @@ const oldData = [
   {
     code: "20405",
     name: "EMBROIDERED GREY TOWEL SET WAVES 3 PCS E",
-    mall: "11-Jouri Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "20405",
-    name: "EMBROIDERED GREY TOWEL SET WAVES 3 PCS E",
     mall: "43-Mujan Park",
     quantity: 5,
     lastSaleDate: "2024-06-04"
@@ -52785,13 +43615,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 2,
     lastSaleDate: "2024-09-19"
-  },
-  {
-    code: "20394",
-    name: "EMBROIDERED GREY TOWEL SET WAVES 3 PCS F",
-    mall: "52-Al_Baha Mall",
-    quantity: 4,
-    lastSaleDate: "2024-08-01"
   },
   {
     code: "20397",
@@ -52855,13 +43678,6 @@ const oldData = [
     mall: "39-Salam Mall Riyadh",
     quantity: 6,
     lastSaleDate: "2023-09-09"
-  },
-  {
-    code: "20397",
-    name: "EMBROIDERED GREY TOWEL SET WAVES 3 PCS G",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2025-03-11"
   },
   {
     code: "20397",
@@ -53100,13 +43916,6 @@ const oldData = [
     mall: "50-Meem Plaza Riyadh",
     quantity: 6,
     lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "20400",
-    name: "EMBROIDERED GREY TOWEL SET WAVES 3 PCS J",
-    mall: "06-Red Sea Mall",
-    quantity: 3,
-    lastSaleDate: "2025-02-28"
   },
   {
     code: "20400",
@@ -53356,13 +44165,6 @@ const oldData = [
   {
     code: "20404",
     name: "EMBROIDERED GREY TOWEL SET WAVES 3 PCS O",
-    mall: "06-Red Sea Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-13"
-  },
-  {
-    code: "20404",
-    name: "EMBROIDERED GREY TOWEL SET WAVES 3 PCS O",
     mall: "12-Al_Hamra Mall",
     quantity: 4,
     lastSaleDate: "2025-01-31"
@@ -53443,20 +44245,6 @@ const oldData = [
     mall: "51-Park Avenue Riyadh",
     quantity: 4,
     lastSaleDate: "2025-03-12"
-  },
-  {
-    code: "20404",
-    name: "EMBROIDERED GREY TOWEL SET WAVES 3 PCS O",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2022-11-07"
-  },
-  {
-    code: "20404",
-    name: "EMBROIDERED GREY TOWEL SET WAVES 3 PCS O",
-    mall: "06-Red Sea Mall",
-    quantity: 15,
-    lastSaleDate: "2025-03-13"
   },
   {
     code: "20404",
@@ -53940,20 +44728,6 @@ const oldData = [
     mall: "17-Arar Othaim Mall",
     quantity: 2,
     lastSaleDate: "2023-09-26"
-  },
-  {
-    code: "20173",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS  E",
-    mall: "19-Hail Othaim Mall",
-    quantity: 10,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "20173",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS  E",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-01-20"
   },
   {
     code: "20173",
@@ -54595,13 +45369,6 @@ const oldData = [
   {
     code: "17116",
     name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS G",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2024-08-30"
-  },
-  {
-    code: "17116",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS G",
     mall: "04-Andalos Mall",
     quantity: 6,
     lastSaleDate: "2025-04-21"
@@ -54840,20 +45607,6 @@ const oldData = [
   {
     code: "17119",
     name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS K",
-    mall: "12-Al_Hamra Mall",
-    quantity: 7,
-    lastSaleDate: "2025-03-04"
-  },
-  {
-    code: "17119",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS K",
-    mall: "19-Hail Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "17119",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS K",
     mall: "20-Sitten Street Makkah",
     quantity: 6,
     lastSaleDate: "2025-02-26"
@@ -55001,13 +45754,6 @@ const oldData = [
   {
     code: "17120",
     name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS L",
-    mall: "04-Andalos Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "17120",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS L",
     mall: "06-Red Sea Mall",
     quantity: 6,
     lastSaleDate: "2025-04-25"
@@ -55099,13 +45845,6 @@ const oldData = [
   {
     code: "17120",
     name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS L",
-    mall: "38-Al_Riyadh Park",
-    quantity: 6,
-    lastSaleDate: "2024-08-31"
-  },
-  {
-    code: "17120",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS L",
     mall: "39-Salam Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2025-02-13"
@@ -55183,13 +45922,6 @@ const oldData = [
   {
     code: "17120",
     name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS L",
-    mall: "04-Andalos Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "17120",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS L",
     mall: "06-Red Sea Mall",
     quantity: 1,
     lastSaleDate: "2025-04-25"
@@ -55253,23 +45985,9 @@ const oldData = [
   {
     code: "17121",
     name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS M",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 1,
-    lastSaleDate: "2024-07-25"
-  },
-  {
-    code: "17121",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS M",
     mall: "47-Al-Nakheel Plaza",
     quantity: 3,
     lastSaleDate: "2024-07-31"
-  },
-  {
-    code: "19553",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS O",
-    mall: "12-Al_Hamra Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "19553",
@@ -55417,13 +46135,6 @@ const oldData = [
     mall: "47-Al-Nakheel Plaza",
     quantity: 11,
     lastSaleDate: "2025-03-11"
-  },
-  {
-    code: "19553",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS O",
-    mall: "48 - Jeddah Park",
-    quantity: 6,
-    lastSaleDate: "2025-04-03"
   },
   {
     code: "19553",
@@ -55813,20 +46524,6 @@ const oldData = [
   {
     code: "17125",
     name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS W",
-    mall: "04-Andalos Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "17125",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS W",
-    mall: "08-Makkah Mall",
-    quantity: 6,
-    lastSaleDate: "2024-12-18"
-  },
-  {
-    code: "17125",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS W",
     mall: "16-Ehsa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2025-02-26"
@@ -55907,13 +46604,6 @@ const oldData = [
     mall: "51-Park Avenue Riyadh",
     quantity: 5,
     lastSaleDate: "2024-06-20"
-  },
-  {
-    code: "17125",
-    name: "EMBROIDERED IVORY TOWEL SET WAVES 3 PCS W",
-    mall: "08-Makkah Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-18"
   },
   {
     code: "17125",
@@ -56429,13 +47119,6 @@ const oldData = [
   {
     code: "20692",
     name: "EMBROIDERED TOWEL SET 3 PCS #12",
-    mall: "49-AlAhsa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "20692",
-    name: "EMBROIDERED TOWEL SET 3 PCS #12",
     mall: "51-Park Avenue Riyadh",
     quantity: 2,
     lastSaleDate: "2024-10-14"
@@ -56646,13 +47329,6 @@ const oldData = [
   {
     code: "20827",
     name: "EMBROIDERED TOWEL SET 3 PCS D #1",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-05"
-  },
-  {
-    code: "20827",
-    name: "EMBROIDERED TOWEL SET 3 PCS D #1",
     mall: "19-Hail Othaim Mall",
     quantity: 1,
     lastSaleDate: "2025-02-15"
@@ -56828,13 +47504,6 @@ const oldData = [
   {
     code: "20837",
     name: "EMBROIDERED TOWEL SET 3 PCS D #11",
-    mall: "08-Makkah Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "20837",
-    name: "EMBROIDERED TOWEL SET 3 PCS D #11",
     mall: "09-Al-Salam Mall",
     quantity: 6,
     lastSaleDate: "2025-01-27"
@@ -56866,13 +47535,6 @@ const oldData = [
     mall: "25-Rabwa Othaim Mall",
     quantity: 3,
     lastSaleDate: "2025-03-06"
-  },
-  {
-    code: "20837",
-    name: "EMBROIDERED TOWEL SET 3 PCS D #11",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 3,
-    lastSaleDate: "2025-04-26"
   },
   {
     code: "20837",
@@ -57013,13 +47675,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 1,
     lastSaleDate: "2023-10-11"
-  },
-  {
-    code: "20828",
-    name: "EMBROIDERED TOWEL SET 3 PCS D #2",
-    mall: "11-Jouri Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "20828",
@@ -57304,13 +47959,6 @@ const oldData = [
   {
     code: "20834",
     name: "EMBROIDERED TOWEL SET 3 PCS D #8",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 8,
-    lastSaleDate: "2024-12-03"
-  },
-  {
-    code: "20834",
-    name: "EMBROIDERED TOWEL SET 3 PCS D #8",
     mall: "39-Salam Mall Riyadh",
     quantity: 4,
     lastSaleDate: "2024-12-27"
@@ -57472,13 +48120,6 @@ const oldData = [
   {
     code: "22008",
     name: "EMBROIDERED TOWEL SET 3 PCS EMB D #2",
-    mall: "12-Al_Hamra Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22008",
-    name: "EMBROIDERED TOWEL SET 3 PCS EMB D #2",
     mall: "14-Al Kamal Mall",
     quantity: 8,
     lastSaleDate: "2025-03-10"
@@ -57524,13 +48165,6 @@ const oldData = [
     mall: "39-Salam Mall Riyadh",
     quantity: 5,
     lastSaleDate: "2025-01-03"
-  },
-  {
-    code: "22008",
-    name: "EMBROIDERED TOWEL SET 3 PCS EMB D #2",
-    mall: "43-Mujan Park",
-    quantity: 7,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "22008",
@@ -57594,13 +48228,6 @@ const oldData = [
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 7,
     lastSaleDate: "2025-02-14"
-  },
-  {
-    code: "22009",
-    name: "EMBROIDERED TOWEL SET 3 PCS EMB D #3",
-    mall: "22-Tabuk Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "22009",
@@ -57738,13 +48365,6 @@ const oldData = [
   {
     code: "22012",
     name: "EMBROIDERED TOWEL SET 3 PCS EMB D #6",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "22012",
-    name: "EMBROIDERED TOWEL SET 3 PCS EMB D #6",
     mall: "47-Al-Nakheel Plaza",
     quantity: 2,
     lastSaleDate: "2025-01-31"
@@ -57755,13 +48375,6 @@ const oldData = [
     mall: "19-Hail Othaim Mall",
     quantity: 3,
     lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "19086",
-    name: "EMBROIDERED TOWEL SET 3 PCS EMB D #7",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2021-06-04"
   },
   {
     code: "19086",
@@ -59355,13 +49968,6 @@ const oldData = [
   {
     code: "16640",
     name: "ENVOGUE KITCHEN TOWEL 46X71 CM",
-    mall: "19-Hail Othaim Mall",
-    quantity: 11,
-    lastSaleDate: "2025-03-07"
-  },
-  {
-    code: "16640",
-    name: "ENVOGUE KITCHEN TOWEL 46X71 CM",
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 4,
     lastSaleDate: "2024-09-09"
@@ -59400,13 +50006,6 @@ const oldData = [
     mall: "43-Mujan Park",
     quantity: 7,
     lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "16640",
-    name: "ENVOGUE KITCHEN TOWEL 46X71 CM",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "16640",
@@ -59500,76 +50099,6 @@ const oldData = [
     lastSaleDate: "2019-10-31"
   },
   {
-    code: "21822",
-    name: "EUR TOWEL AIR-RICH 50X100 CM LAUREL WREATH",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 3,
-    lastSaleDate: "2024-06-09"
-  },
-  {
-    code: "21822",
-    name: "EUR TOWEL AIR-RICH 50X100 CM LAUREL WREATH",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2025-01-29"
-  },
-  {
-    code: "21822",
-    name: "EUR TOWEL AIR-RICH 50X100 CM LAUREL WREATH",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 12,
-    lastSaleDate: "2024-06-09"
-  },
-  {
-    code: "23374",
-    name: "EUR TOWEL AIR-RICH 50X100 CM LAVENDER BLUE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23374",
-    name: "EUR TOWEL AIR-RICH 50X100 CM LAVENDER BLUE",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23374",
-    name: "EUR TOWEL AIR-RICH 50X100 CM LAVENDER BLUE",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23374",
-    name: "EUR TOWEL AIR-RICH 50X100 CM LAVENDER BLUE",
-    mall: "14-Al Kamal Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23374",
-    name: "EUR TOWEL AIR-RICH 50X100 CM LAVENDER BLUE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23374",
-    name: "EUR TOWEL AIR-RICH 50X100 CM LAVENDER BLUE",
-    mall: "44-Al-Jouf Center",
-    quantity: 10,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23374",
-    name: "EUR TOWEL AIR-RICH 50X100 CM LAVENDER BLUE",
-    mall: "52-Al_Baha Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-21"
-  },
-  {
     code: "23373",
     name: "EUR TOWEL AIR-RICH 50X100 CM PINK CARN",
     mall: "21-Abha Al_Rashid Mall New",
@@ -59605,48 +50134,6 @@ const oldData = [
     lastSaleDate: "2025-03-22"
   },
   {
-    code: "21823",
-    name: "EUR TOWEL AIR-RICH 50X100 CM PRIM ROSE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "21823",
-    name: "EUR TOWEL AIR-RICH 50X100 CM PRIM ROSE",
-    mall: "44-Al-Jouf Center",
-    quantity: 11,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "21823",
-    name: "EUR TOWEL AIR-RICH 50X100 CM PRIM ROSE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "21823",
-    name: "EUR TOWEL AIR-RICH 50X100 CM PRIM ROSE",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "21823",
-    name: "EUR TOWEL AIR-RICH 50X100 CM PRIM ROSE",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "24037",
-    name: "EUR TOWEL AIR-RICH 50X100 CM RICH BLACK",
-    mall: "53-Al Basateen Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-30"
-  },
-  {
     code: "22371",
     name: "EUR TOWEL AIR-RICH 50X100 CM TERRA COTTA",
     mall: "44-Al-Jouf Center",
@@ -59659,20 +50146,6 @@ const oldData = [
     mall: "19-Hail Othaim Mall",
     quantity: 14,
     lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "22371",
-    name: "EUR TOWEL AIR-RICH 50X100 CM TERRA COTTA",
-    mall: "36-Al jubail Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "22371",
-    name: "EUR TOWEL AIR-RICH 50X100 CM TERRA COTTA",
-    mall: "38-Al_Riyadh Park",
-    quantity: 10,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "12440",
@@ -59708,13 +50181,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 6,
     lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "12440",
-    name: "EUR TOWEL AIR-RICH BURGANDY",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 11,
-    lastSaleDate: "2025-02-13"
   },
   {
     code: "12440",
@@ -59757,20 +50223,6 @@ const oldData = [
     mall: "43-Mujan Park",
     quantity: 2,
     lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "12431",
-    name: "EUR TOWEL AIR-RICH IVORY",
-    mall: "17-Arar Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "12431",
-    name: "EUR TOWEL AIR-RICH IVORY",
-    mall: "17-Arar Othaim Mall",
-    quantity: 24,
-    lastSaleDate: "2025-04-25"
   },
   {
     code: "14424",
@@ -59820,13 +50272,6 @@ const oldData = [
     mall: "53-Al Basateen Mall",
     quantity: 1,
     lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "12433",
-    name: "EUR TOWEL AIR-RICH LINEN",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 16,
-    lastSaleDate: "2025-04-12"
   },
   {
     code: "12441",
@@ -59941,41 +50386,6 @@ const oldData = [
     lastSaleDate: "2025-03-23"
   },
   {
-    code: "12444",
-    name: "EUR TOWEL AIR-RICH ROSE",
-    mall: "14-Al Kamal Mall",
-    quantity: 14,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "12444",
-    name: "EUR TOWEL AIR-RICH ROSE",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "12442",
-    name: "EUR TOWEL AIR-RICH TITANIUM",
-    mall: "17-Arar Othaim Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "12442",
-    name: "EUR TOWEL AIR-RICH TITANIUM",
-    mall: "48 - Jeddah Park",
-    quantity: 16,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "12442",
-    name: "EUR TOWEL AIR-RICH TITANIUM",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-13"
-  },
-  {
     code: "17035",
     name: "EURO SHAM DOWN ALT FIRM PILLOW ( PAIRE )",
     mall: "52-Al_Baha Mall",
@@ -60037,13 +50447,6 @@ const oldData = [
     mall: "42-Dareen Mall Dammam",
     quantity: 5,
     lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "17035",
-    name: "EURO SHAM DOWN ALT FIRM PILLOW ( PAIRE )",
-    mall: "43-Mujan Park",
-    quantity: 7,
-    lastSaleDate: "2025-04-25"
   },
   {
     code: "17035",
@@ -60118,30 +50521,9 @@ const oldData = [
   {
     code: "23298",
     name: "EXCAVATOR HG JUVI FULL COMFORTER 8 PCS",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 5,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23298",
-    name: "EXCAVATOR HG JUVI FULL COMFORTER 8 PCS",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23298",
-    name: "EXCAVATOR HG JUVI FULL COMFORTER 8 PCS",
     mall: "30-Tala Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2025-02-25"
-  },
-  {
-    code: "23298",
-    name: "EXCAVATOR HG JUVI FULL COMFORTER 8 PCS",
-    mall: "38-Al_Riyadh Park",
-    quantity: 4,
-    lastSaleDate: "2025-03-12"
   },
   {
     code: "23298",
@@ -60177,13 +50559,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 3,
     lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "23298",
-    name: "EXCAVATOR HG JUVI FULL COMFORTER 8 PCS",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "23298",
@@ -60230,13 +50605,6 @@ const oldData = [
   {
     code: "23292",
     name: "EXCAVATOR HG JUVI TWIN COMFORTER 6 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23292",
-    name: "EXCAVATOR HG JUVI TWIN COMFORTER 6 PCS",
     mall: "17-Arar Othaim Mall",
     quantity: 1,
     lastSaleDate: "2025-02-12"
@@ -60259,7 +50627,7 @@ const oldData = [
     code: "23292",
     name: "EXCAVATOR HG JUVI TWIN COMFORTER 6 PCS",
     mall: "38-Al_Riyadh Park",
-    quantity: 2,
+    quantity: 4,
     lastSaleDate: "2025-04-24"
   },
   {
@@ -60648,130 +51016,11 @@ const oldData = [
     lastSaleDate: "2023-04-09"
   },
   {
-    code: "21775",
-    name: "FABRIC TOTE BAGS",
-    mall: "44-Al-Jouf Center",
-    quantity: 56,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "21775",
-    name: "FABRIC TOTE BAGS",
-    mall: "11-Jouri Mall",
-    quantity: 15,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "21775",
-    name: "FABRIC TOTE BAGS",
-    mall: "12-Al_Hamra Mall",
-    quantity: 80,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "21775",
-    name: "FABRIC TOTE BAGS",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "21775",
-    name: "FABRIC TOTE BAGS",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "21775",
-    name: "FABRIC TOTE BAGS",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 52,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "21775",
-    name: "FABRIC TOTE BAGS",
-    mall: "38-Al_Riyadh Park",
-    quantity: 38,
-    lastSaleDate: "2025-04-27"
-  },
-  {
     code: "19906",
     name: "FEATHER BREEZE COCNUT MILK KING COMFORTER 7 CS",
     mall: "25-Rabwa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2022-03-22"
-  },
-  {
-    code: "23191",
-    name: "FEATHER PILLOW WHITE DOWN KING",
-    mall: "09-Al-Salam Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "23191",
-    name: "FEATHER PILLOW WHITE DOWN KING",
-    mall: "17-Arar Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23191",
-    name: "FEATHER PILLOW WHITE DOWN KING",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23191",
-    name: "FEATHER PILLOW WHITE DOWN KING",
-    mall: "36-Al jubail Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "23191",
-    name: "FEATHER PILLOW WHITE DOWN KING",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 12,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "23191",
-    name: "FEATHER PILLOW WHITE DOWN KING",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2024-09-29"
-  },
-  {
-    code: "23191",
-    name: "FEATHER PILLOW WHITE DOWN KING",
-    mall: "49-AlAhsa Mall",
-    quantity: 18,
-    lastSaleDate: "2024-10-22"
-  },
-  {
-    code: "23191",
-    name: "FEATHER PILLOW WHITE DOWN KING",
-    mall: "52-Al_Baha Mall",
-    quantity: 13,
-    lastSaleDate: "2025-02-17"
-  },
-  {
-    code: "23191",
-    name: "FEATHER PILLOW WHITE DOWN KING",
-    mall: "55- Jabl Omar",
-    quantity: 15,
-    lastSaleDate: "2025-03-20"
-  },
-  {
-    code: "23191",
-    name: "FEATHER PILLOW WHITE DOWN KING",
-    mall: "56- Aziz Mall 2",
-    quantity: 13,
-    lastSaleDate: "2025-04-01"
   },
   {
     code: "19770",
@@ -60856,13 +51105,6 @@ const oldData = [
     mall: "22-Tabuk Park",
     quantity: 2,
     lastSaleDate: "2022-12-20"
-  },
-  {
-    code: "19912",
-    name: "FLORA BATH ACCESS SET 5 PCS",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-10"
   },
   {
     code: "19912",
@@ -61005,20 +51247,6 @@ const oldData = [
     lastSaleDate: "2025-03-06"
   },
   {
-    code: "23904",
-    name: "FLOWER & LEAF EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23899",
-    name: "FLOWER EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "22-Tabuk Park",
-    quantity: 10,
-    lastSaleDate: "2025-04-14"
-  },
-  {
     code: "23899",
     name: "FLOWER EMBROIDERED TOWEL WAVE SET 3 PCS",
     mall: "53-Al Basateen Mall",
@@ -61033,200 +51261,11 @@ const oldData = [
     lastSaleDate: "2025-04-27"
   },
   {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "07-Arab Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "09-Al-Salam Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-08"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "09-Al-Salam Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-08"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2024-08-24"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "20-Sitten Street Makkah",
-    quantity: 5,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-17"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 7,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 4,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 4,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-02-27"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "36-Al jubail Mall",
-    quantity: 2,
-    lastSaleDate: "2024-11-04"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 4,
-    lastSaleDate: "2025-02-09"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 13,
-    lastSaleDate: "2025-02-26"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "43-Mujan Park",
-    quantity: 3,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "43-Mujan Park",
-    quantity: 2,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-03-11"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "49-AlAhsa Mall",
-    quantity: 3,
-    lastSaleDate: "2024-11-13"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23295",
-    name: "FLOWER LACE HG JUVI FULL COMFORTER 8 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-15"
-  },
-  {
     code: "23289",
     name: "FLOWER LACE HG JUVI TWIN COMFORTER 6 PCS",
     mall: "08-Makkah Mall",
     quantity: 4,
     lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23289",
-    name: "FLOWER LACE HG JUVI TWIN COMFORTER 6 PCS",
-    mall: "09-Al-Salam Mall",
-    quantity: 8,
-    lastSaleDate: "2025-03-27"
   },
   {
     code: "23289",
@@ -61281,7 +51320,7 @@ const oldData = [
     code: "23289",
     name: "FLOWER LACE HG JUVI TWIN COMFORTER 6 PCS",
     mall: "23-Alia Mall Madinah",
-    quantity: 7,
+    quantity: 9,
     lastSaleDate: "2025-03-28"
   },
   {
@@ -61337,7 +51376,7 @@ const oldData = [
     code: "23289",
     name: "FLOWER LACE HG JUVI TWIN COMFORTER 6 PCS",
     mall: "39-Salam Mall Riyadh",
-    quantity: 5,
+    quantity: 9,
     lastSaleDate: "2025-03-25"
   },
   {
@@ -61346,13 +51385,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 3,
     lastSaleDate: "2024-11-28"
-  },
-  {
-    code: "23289",
-    name: "FLOWER LACE HG JUVI TWIN COMFORTER 6 PCS",
-    mall: "43-Mujan Park",
-    quantity: 5,
-    lastSaleDate: "2025-02-28"
   },
   {
     code: "23289",
@@ -61374,6 +51406,13 @@ const oldData = [
     mall: "50-Meem Plaza Riyadh",
     quantity: 4,
     lastSaleDate: "2024-10-26"
+  },
+  {
+    code: "23289",
+    name: "FLOWER LACE HG JUVI TWIN COMFORTER 6 PCS",
+    mall: "52-Al_Baha Mall",
+    quantity: 2,
+    lastSaleDate: "2024-12-03"
   },
   {
     code: "23289",
@@ -61406,34 +51445,6 @@ const oldData = [
   {
     code: "23541",
     name: "FLOWER LEMON KIDS HOODED TOWEL BATH ROBE",
-    mall: "23-Alia Mall Madinah",
-    quantity: 14,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23541",
-    name: "FLOWER LEMON KIDS HOODED TOWEL BATH ROBE",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23541",
-    name: "FLOWER LEMON KIDS HOODED TOWEL BATH ROBE",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 6,
-    lastSaleDate: "2025-03-13"
-  },
-  {
-    code: "23541",
-    name: "FLOWER LEMON KIDS HOODED TOWEL BATH ROBE",
-    mall: "36-Al jubail Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23541",
-    name: "FLOWER LEMON KIDS HOODED TOWEL BATH ROBE",
     mall: "42-Dareen Mall Dammam",
     quantity: 6,
     lastSaleDate: "2025-03-16"
@@ -61444,13 +51455,6 @@ const oldData = [
     mall: "47-Al-Nakheel Plaza",
     quantity: 8,
     lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23541",
-    name: "FLOWER LEMON KIDS HOODED TOWEL BATH ROBE",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 8,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "23541",
@@ -61521,13 +51525,6 @@ const oldData = [
     mall: "46-Khaleej Mall Riyadh",
     quantity: 4,
     lastSaleDate: "2024-08-11"
-  },
-  {
-    code: "20849",
-    name: "FLOWER MARKET FRESHENER WHITE 200 ML",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 48,
-    lastSaleDate: "2025-04-07"
   },
   {
     code: "20849",
@@ -61614,13 +51611,6 @@ const oldData = [
     lastSaleDate: "2024-08-10"
   },
   {
-    code: "20849",
-    name: "FLOWER MARKET FRESHENER WHITE 200 ML",
-    mall: "55- Jabl Omar",
-    quantity: 22,
-    lastSaleDate: "2025-04-26"
-  },
-  {
     code: "20342",
     name: "FLOWERS COFFEE SET 6 PCS 90 ML CS 09",
     mall: "43-Mujan Park",
@@ -61700,13 +51690,6 @@ const oldData = [
   {
     code: "23299",
     name: "FLYING MODEL HG JUVI FULL COMFORTER 8 PCS",
-    mall: "38-Al_Riyadh Park",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23299",
-    name: "FLYING MODEL HG JUVI FULL COMFORTER 8 PCS",
     mall: "39-Salam Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2024-09-26"
@@ -61735,13 +51718,6 @@ const oldData = [
   {
     code: "23299",
     name: "FLYING MODEL HG JUVI FULL COMFORTER 8 PCS",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23299",
-    name: "FLYING MODEL HG JUVI FULL COMFORTER 8 PCS",
     mall: "48 - Jeddah Park",
     quantity: 7,
     lastSaleDate: "2025-04-04"
@@ -61752,13 +51728,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 4,
     lastSaleDate: "2025-02-21"
-  },
-  {
-    code: "23299",
-    name: "FLYING MODEL HG JUVI FULL COMFORTER 8 PCS",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-03-21"
   },
   {
     code: "23299",
@@ -61787,13 +51756,6 @@ const oldData = [
     mall: "05-Haifa Mall",
     quantity: 4,
     lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23293",
-    name: "FLYING MODEL HG JUVI TWIN COMFORTER 6 PCS",
-    mall: "07-Arab Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-25"
   },
   {
     code: "23293",
@@ -61833,13 +51795,6 @@ const oldData = [
   {
     code: "23293",
     name: "FLYING MODEL HG JUVI TWIN COMFORTER 6 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23293",
-    name: "FLYING MODEL HG JUVI TWIN COMFORTER 6 PCS",
     mall: "36-Al jubail Mall",
     quantity: 2,
     lastSaleDate: "2025-03-11"
@@ -61871,13 +51826,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 3,
     lastSaleDate: "2024-09-30"
-  },
-  {
-    code: "23293",
-    name: "FLYING MODEL HG JUVI TWIN COMFORTER 6 PCS",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-10"
   },
   {
     code: "23293",
@@ -61999,32 +51947,11 @@ const oldData = [
     lastSaleDate: "2024-06-03"
   },
   {
-    code: "22648",
-    name: "FOX GLOVE PRINTED DUVET COVER KING 3 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 11,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "19305",
-    name: "FRESH LAVENDER MEMORY FOAM STANDARD PILLOW",
-    mall: "17-Arar Othaim Mall",
-    quantity: 10,
-    lastSaleDate: "2024-12-16"
-  },
-  {
     code: "19306",
     name: "FRESH LINEN MEMORY FOAM STANDARD PILLOW",
     mall: "55- Jabl Omar",
     quantity: 3,
     lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "19306",
-    name: "FRESH LINEN MEMORY FOAM STANDARD PILLOW",
-    mall: "17-Arar Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2024-07-12"
   },
   {
     code: "19306",
@@ -62230,62 +52157,6 @@ const oldData = [
     lastSaleDate: "2024-12-03"
   },
   {
-    code: "20139",
-    name: "FRESHENER BLACK CHERRY BLACK 500 ML",
-    mall: "44-Al-Jouf Center",
-    quantity: 21,
-    lastSaleDate: "2025-02-18"
-  },
-  {
-    code: "20139",
-    name: "FRESHENER BLACK CHERRY BLACK 500 ML",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-02-07"
-  },
-  {
-    code: "20139",
-    name: "FRESHENER BLACK CHERRY BLACK 500 ML",
-    mall: "20-Sitten Street Makkah",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "22796",
-    name: "FRESHENER DARK VANILLA & SANDALWOOD BLACK 500 ML",
-    mall: "05-Haifa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "22796",
-    name: "FRESHENER DARK VANILLA & SANDALWOOD BLACK 500 ML",
-    mall: "49-AlAhsa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "22796",
-    name: "FRESHENER DARK VANILLA & SANDALWOOD BLACK 500 ML",
-    mall: "52-Al_Baha Mall",
-    quantity: 14,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "22796",
-    name: "FRESHENER DARK VANILLA & SANDALWOOD BLACK 500 ML",
-    mall: "55- Jabl Omar",
-    quantity: 46,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "22796",
-    name: "FRESHENER DARK VANILLA & SANDALWOOD BLACK 500 ML",
-    mall: "05-Haifa Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-10"
-  },
-  {
     code: "14856",
     name: "FRESHENER FLOWER DIFFUSER 200 ML APRIL FRESH",
     mall: "22-Tabuk Park",
@@ -62305,90 +52176,6 @@ const oldData = [
     mall: "38-Al_Riyadh Park",
     quantity: 1,
     lastSaleDate: "2022-03-18"
-  },
-  {
-    code: "20141",
-    name: "FRESHENER GARDEN LAVENDER BLACK 500 ML",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "20141",
-    name: "FRESHENER GARDEN LAVENDER BLACK 500 ML",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "20141",
-    name: "FRESHENER GARDEN LAVENDER BLACK 500 ML",
-    mall: "05-Haifa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-02-18"
-  },
-  {
-    code: "20141",
-    name: "FRESHENER GARDEN LAVENDER BLACK 500 ML",
-    mall: "07-Arab Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "20141",
-    name: "FRESHENER GARDEN LAVENDER BLACK 500 ML",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "20141",
-    name: "FRESHENER GARDEN LAVENDER BLACK 500 ML",
-    mall: "43-Mujan Park",
-    quantity: 2,
-    lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "20141",
-    name: "FRESHENER GARDEN LAVENDER BLACK 500 ML",
-    mall: "07-Arab Mall",
-    quantity: 8,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "20141",
-    name: "FRESHENER GARDEN LAVENDER BLACK 500 ML",
-    mall: "14-Al Kamal Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "20141",
-    name: "FRESHENER GARDEN LAVENDER BLACK 500 ML",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 8,
-    lastSaleDate: "2024-11-25"
-  },
-  {
-    code: "20141",
-    name: "FRESHENER GARDEN LAVENDER BLACK 500 ML",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 16,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "20141",
-    name: "FRESHENER GARDEN LAVENDER BLACK 500 ML",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 8,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "20141",
-    name: "FRESHENER GARDEN LAVENDER BLACK 500 ML",
-    mall: "43-Mujan Park",
-    quantity: 8,
-    lastSaleDate: "2025-02-28"
   },
   {
     code: "20143",
@@ -62601,48 +52388,6 @@ const oldData = [
     lastSaleDate: "2024-07-18"
   },
   {
-    code: "22795",
-    name: "FRESHENER WHITE JASMINE BLACK 500 ML",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "22795",
-    name: "FRESHENER WHITE JASMINE BLACK 500 ML",
-    mall: "36-Al jubail Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "22795",
-    name: "FRESHENER WHITE JASMINE BLACK 500 ML",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-09"
-  },
-  {
-    code: "22795",
-    name: "FRESHENER WHITE JASMINE BLACK 500 ML",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "22795",
-    name: "FRESHENER WHITE JASMINE BLACK 500 ML",
-    mall: "53-Al Basateen Mall",
-    quantity: 16,
-    lastSaleDate: "2025-03-09"
-  },
-  {
-    code: "22797",
-    name: "FRESHENER WHITE MUSK BLACK 500 ML",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-14"
-  },
-  {
     code: "21444",
     name: "FROG 2 KIDS HOODED TOWEL BATH ROBE",
     mall: "05-Haifa Mall",
@@ -62732,13 +52477,6 @@ const oldData = [
     mall: "30-Tala Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-01-14"
-  },
-  {
-    code: "21444",
-    name: "FROG 2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "36-Al jubail Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "21444",
@@ -62893,13 +52631,6 @@ const oldData = [
     mall: "50-Meem Plaza Riyadh",
     quantity: 1,
     lastSaleDate: "2024-06-26"
-  },
-  {
-    code: "22522",
-    name: "FROG4 KIDS HOODED TOWEL BATH ROBE",
-    mall: "52-Al_Baha Mall",
-    quantity: 6,
-    lastSaleDate: "2024-09-19"
   },
   {
     code: "22522",
@@ -63217,13 +52948,6 @@ const oldData = [
     lastSaleDate: "2024-09-26"
   },
   {
-    code: "23272",
-    name: "GEL FOAM MATTRESS PAD KING 4 INCH",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-04-20"
-  },
-  {
     code: "22518",
     name: "GENNA WINTER DARK GREY KING COMFORTER 8 PCS",
     mall: "06-Red Sea Mall",
@@ -63450,13 +53174,6 @@ const oldData = [
   {
     code: "22285",
     name: "GILDER GOLD 3 PCS BATH ACCESS",
-    mall: "12-Al_Hamra Mall",
-    quantity: 5,
-    lastSaleDate: "2025-02-07"
-  },
-  {
-    code: "22285",
-    name: "GILDER GOLD 3 PCS BATH ACCESS",
     mall: "14-Al Kamal Mall",
     quantity: 3,
     lastSaleDate: "2024-02-17"
@@ -63658,27 +53375,6 @@ const oldData = [
     lastSaleDate: "2022-03-20"
   },
   {
-    code: "24022",
-    name: "GREEN CAMO JACK FULL COMFORTER 8 PCS",
-    mall: "09-Al-Salam Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "24022",
-    name: "GREEN CAMO JACK FULL COMFORTER 8 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "24022",
-    name: "GREEN CAMO JACK FULL COMFORTER 8 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-04"
-  },
-  {
     code: "18504",
     name: "GREEN LEAVES COTON QUILT 3 PCS",
     mall: "21-Abha Al_Rashid Mall New",
@@ -63728,20 +53424,6 @@ const oldData = [
     lastSaleDate: "2024-12-12"
   },
   {
-    code: "22404",
-    name: "GREY COMFY 104*90 BLANKET KING",
-    mall: "44-Al-Jouf Center",
-    quantity: 6,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "22404",
-    name: "GREY COMFY 104*90 BLANKET KING",
-    mall: "36-Al jubail Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-21"
-  },
-  {
     code: "16664",
     name: "GREY DAMASK FULL 500 STITCH DUVET COVER 3 PCS",
     mall: "25-Rabwa Othaim Mall",
@@ -63754,104 +53436,6 @@ const oldData = [
     mall: "17-Arar Othaim Mall",
     quantity: 1,
     lastSaleDate: "2024-05-31"
-  },
-  {
-    code: "20035",
-    name: "GREY PILLOW CASES KING 2 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "20035",
-    name: "GREY PILLOW CASES KING 2 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "20035",
-    name: "GREY PILLOW CASES KING 2 PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-03-02"
-  },
-  {
-    code: "20035",
-    name: "GREY PILLOW CASES KING 2 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-20"
-  },
-  {
-    code: "20035",
-    name: "GREY PILLOW CASES KING 2 PCS",
-    mall: "49-AlAhsa Mall",
-    quantity: 24,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "20035",
-    name: "GREY PILLOW CASES KING 2 PCS",
-    mall: "08-Makkah Mall",
-    quantity: 12,
-    lastSaleDate: "2024-08-13"
-  },
-  {
-    code: "20035",
-    name: "GREY PILLOW CASES KING 2 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 12,
-    lastSaleDate: "2024-10-09"
-  },
-  {
-    code: "20035",
-    name: "GREY PILLOW CASES KING 2 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 12,
-    lastSaleDate: "2025-02-24"
-  },
-  {
-    code: "20035",
-    name: "GREY PILLOW CASES KING 2 PCS",
-    mall: "20-Sitten Street Makkah",
-    quantity: 12,
-    lastSaleDate: "2024-09-11"
-  },
-  {
-    code: "20035",
-    name: "GREY PILLOW CASES KING 2 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "20035",
-    name: "GREY PILLOW CASES KING 2 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 12,
-    lastSaleDate: "2025-02-20"
-  },
-  {
-    code: "20035",
-    name: "GREY PILLOW CASES KING 2 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 6,
-    lastSaleDate: "2025-02-14"
-  },
-  {
-    code: "13041",
-    name: "GREY SHEET 3 PCS 300 STITSH KING",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "13041",
-    name: "GREY SHEET 3 PCS 300 STITSH KING",
-    mall: "17-Arar Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-28"
   },
   {
     code: "19854",
@@ -63908,13 +53492,6 @@ const oldData = [
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 3,
     lastSaleDate: "2023-04-02"
-  },
-  {
-    code: "19854",
-    name: "GREY SHEET 4 PCS 400 STITSH KING",
-    mall: "23-Alia Mall Madinah",
-    quantity: 5,
-    lastSaleDate: "2025-03-13"
   },
   {
     code: "19854",
@@ -64003,13 +53580,6 @@ const oldData = [
   {
     code: "22949",
     name: "H-VOILD DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2024-11-11"
-  },
-  {
-    code: "22949",
-    name: "H-VOILD DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     mall: "32-Atyaf Mall Riyadh",
     quantity: 4,
     lastSaleDate: "2025-03-18"
@@ -64027,13 +53597,6 @@ const oldData = [
     mall: "39-Salam Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2025-03-11"
-  },
-  {
-    code: "22949",
-    name: "H-VOILD DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 4,
-    lastSaleDate: "2025-01-23"
   },
   {
     code: "22949",
@@ -64059,13 +53622,6 @@ const oldData = [
   {
     code: "22949",
     name: "H-VOILD DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 3,
-    lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "22949",
-    name: "H-VOILD DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     mall: "13-Al-Yasmin Mall",
     quantity: 8,
     lastSaleDate: "2025-04-06"
@@ -64076,13 +53632,6 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 8,
     lastSaleDate: "2024-12-03"
-  },
-  {
-    code: "22949",
-    name: "H-VOILD DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-01-02"
   },
   {
     code: "22949",
@@ -64108,23 +53657,9 @@ const oldData = [
   {
     code: "22949",
     name: "H-VOILD DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "23-Alia Mall Madinah",
-    quantity: 6,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "22949",
-    name: "H-VOILD DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     mall: "24-Yanbu Dana Mall",
     quantity: 6,
     lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "22949",
-    name: "H-VOILD DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 7,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "22949",
@@ -64139,13 +53674,6 @@ const oldData = [
     mall: "43-Mujan Park",
     quantity: 9,
     lastSaleDate: "2024-07-07"
-  },
-  {
-    code: "22949",
-    name: "H-VOILD DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "22949",
@@ -64228,15 +53756,8 @@ const oldData = [
     code: "23296",
     name: "HAILEY HG JUVI FULL COMFORTER 8 PCS",
     mall: "39-Salam Mall Riyadh",
-    quantity: 2,
+    quantity: 6,
     lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23296",
-    name: "HAILEY HG JUVI FULL COMFORTER 8 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 4,
-    lastSaleDate: "2025-03-27"
   },
   {
     code: "23296",
@@ -64249,7 +53770,7 @@ const oldData = [
     code: "23296",
     name: "HAILEY HG JUVI FULL COMFORTER 8 PCS",
     mall: "45- Riyadh Gallery Mall",
-    quantity: 3,
+    quantity: 5,
     lastSaleDate: "2025-03-07"
   },
   {
@@ -64283,13 +53804,6 @@ const oldData = [
   {
     code: "23290",
     name: "HAILEY HG JUVI TWIN COMFORTER 6 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23290",
-    name: "HAILEY HG JUVI TWIN COMFORTER 6 PCS",
     mall: "17-Arar Othaim Mall",
     quantity: 1,
     lastSaleDate: "2025-04-11"
@@ -64298,7 +53812,7 @@ const oldData = [
     code: "23290",
     name: "HAILEY HG JUVI TWIN COMFORTER 6 PCS",
     mall: "18-Al_Khayyat Center",
-    quantity: 1,
+    quantity: 3,
     lastSaleDate: "2025-03-29"
   },
   {
@@ -64319,7 +53833,7 @@ const oldData = [
     code: "23290",
     name: "HAILEY HG JUVI TWIN COMFORTER 6 PCS",
     mall: "39-Salam Mall Riyadh",
-    quantity: 2,
+    quantity: 6,
     lastSaleDate: "2025-03-26"
   },
   {
@@ -64367,37 +53881,9 @@ const oldData = [
   {
     code: "23229",
     name: "HAMBURGER STATIONERY BOX SET",
-    mall: "11-Jouri Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "23229",
-    name: "HAMBURGER STATIONERY BOX SET",
-    mall: "20-Sitten Street Makkah",
-    quantity: 3,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23229",
-    name: "HAMBURGER STATIONERY BOX SET",
     mall: "32-Atyaf Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-03-05"
-  },
-  {
-    code: "23229",
-    name: "HAMBURGER STATIONERY BOX SET",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23229",
-    name: "HAMBURGER STATIONERY BOX SET",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "23229",
@@ -64435,46 +53921,18 @@ const oldData = [
     lastSaleDate: "2017-09-13"
   },
   {
-    code: "23045",
-    name: "HEAD ACCESSORIES SLUMBER BLACK 4 PCS",
-    mall: "14-Al Kamal Mall",
+    code: "22681",
+    name: "HEAD ACCESSORIES SLUMBER BURGUNDY 4 PCS",
+    mall: "52-Al_Baha Mall",
     quantity: 10,
-    lastSaleDate: "2025-03-23"
+    lastSaleDate: "2024-11-10"
   },
   {
-    code: "23045",
-    name: "HEAD ACCESSORIES SLUMBER BLACK 4 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-18"
-  },
-  {
-    code: "23045",
-    name: "HEAD ACCESSORIES SLUMBER BLACK 4 PCS",
-    mall: "20-Sitten Street Makkah",
-    quantity: 12,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23045",
-    name: "HEAD ACCESSORIES SLUMBER BLACK 4 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-02-23"
-  },
-  {
-    code: "23045",
-    name: "HEAD ACCESSORIES SLUMBER BLACK 4 PCS",
-    mall: "49-AlAhsa Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23045",
-    name: "HEAD ACCESSORIES SLUMBER BLACK 4 PCS",
-    mall: "55- Jabl Omar",
+    code: "22681",
+    name: "HEAD ACCESSORIES SLUMBER BURGUNDY 4 PCS",
+    mall: "52-Al_Baha Mall",
     quantity: 10,
-    lastSaleDate: "2025-03-22"
+    lastSaleDate: "2024-11-10"
   },
   {
     code: "22680",
@@ -64533,34 +53991,6 @@ const oldData = [
     lastSaleDate: "2025-01-16"
   },
   {
-    code: "22682",
-    name: "HEAD ACCESSORIES SLUMBER DARK GREEN 4 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "22682",
-    name: "HEAD ACCESSORIES SLUMBER DARK GREEN 4 PCS",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 10,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "22682",
-    name: "HEAD ACCESSORIES SLUMBER DARK GREEN 4 PCS",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "22682",
-    name: "HEAD ACCESSORIES SLUMBER DARK GREEN 4 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 10,
-    lastSaleDate: "2025-02-13"
-  },
-  {
     code: "21412",
     name: "HEAD ACCESSORIES SLUMBER PINK 4 PCS",
     mall: "12-Al_Hamra Mall",
@@ -64573,13 +54003,6 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 2,
     lastSaleDate: "2025-03-11"
-  },
-  {
-    code: "21412",
-    name: "HEAD ACCESSORIES SLUMBER PINK 4 PCS",
-    mall: "23-Alia Mall Madinah",
-    quantity: 8,
-    lastSaleDate: "2025-04-26"
   },
   {
     code: "21412",
@@ -64745,13 +54168,6 @@ const oldData = [
   {
     code: "23291",
     name: "HEART CHEVRON HG JUVI TWIN COMFORTER 6 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23291",
-    name: "HEART CHEVRON HG JUVI TWIN COMFORTER 6 PCS",
     mall: "25-Rabwa Othaim Mall",
     quantity: 2,
     lastSaleDate: "2025-04-05"
@@ -64780,13 +54196,6 @@ const oldData = [
   {
     code: "23291",
     name: "HEART CHEVRON HG JUVI TWIN COMFORTER 6 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 4,
-    lastSaleDate: "2025-02-25"
-  },
-  {
-    code: "23291",
-    name: "HEART CHEVRON HG JUVI TWIN COMFORTER 6 PCS",
     mall: "46-Khaleej Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-02-11"
@@ -64811,13 +54220,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 1,
     lastSaleDate: "2025-03-06"
-  },
-  {
-    code: "23291",
-    name: "HEART CHEVRON HG JUVI TWIN COMFORTER 6 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 5,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "23291",
@@ -64885,13 +54287,6 @@ const oldData = [
   {
     code: "23297",
     name: "HEART FLOWER CHEVRON HG JUVI FULL COMFORTER 8 PCS",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23297",
-    name: "HEART FLOWER CHEVRON HG JUVI FULL COMFORTER 8 PCS",
     mall: "30-Tala Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2025-03-28"
@@ -64907,7 +54302,7 @@ const oldData = [
     code: "23297",
     name: "HEART FLOWER CHEVRON HG JUVI FULL COMFORTER 8 PCS",
     mall: "45- Riyadh Gallery Mall",
-    quantity: 1,
+    quantity: 3,
     lastSaleDate: "2025-04-23"
   },
   {
@@ -64983,13 +54378,6 @@ const oldData = [
   {
     code: "17280",
     name: "HEATHER FAUX RABBIT FUR 50*85 CM MAT",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 12,
-    lastSaleDate: "2024-05-08"
-  },
-  {
-    code: "17280",
-    name: "HEATHER FAUX RABBIT FUR 50*85 CM MAT",
     mall: "43-Mujan Park",
     quantity: 1,
     lastSaleDate: "2025-04-26"
@@ -65046,13 +54434,6 @@ const oldData = [
   {
     code: "13469",
     name: "HEATHER KING 3 PCS 300 STITSH",
-    mall: "49-AlAhsa Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "13469",
-    name: "HEATHER KING 3 PCS 300 STITSH",
     mall: "14-Al Kamal Mall",
     quantity: 10,
     lastSaleDate: "2024-09-23"
@@ -65070,13 +54451,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 10,
     lastSaleDate: "2024-08-27"
-  },
-  {
-    code: "13469",
-    name: "HEATHER KING 3 PCS 300 STITSH",
-    mall: "49-AlAhsa Mall",
-    quantity: 10,
-    lastSaleDate: "2025-04-08"
   },
   {
     code: "20034",
@@ -65357,13 +54731,6 @@ const oldData = [
     mall: "16-Ehsa Othaim Mall",
     quantity: 4,
     lastSaleDate: "2024-12-29"
-  },
-  {
-    code: "21432",
-    name: "HERB STAMP KITCHEN SET TOWLS 4 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2024-08-05"
   },
   {
     code: "21432",
@@ -65907,13 +55274,6 @@ const oldData = [
   {
     code: "18493",
     name: "HKL9705 BATH MAT 50X80",
-    mall: "23-Alia Mall Madinah",
-    quantity: 5,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "18493",
-    name: "HKL9705 BATH MAT 50X80",
     mall: "25-Rabwa Othaim Mall",
     quantity: 3,
     lastSaleDate: "2023-11-28"
@@ -65931,13 +55291,6 @@ const oldData = [
     mall: "42-Dareen Mall Dammam",
     quantity: 3,
     lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "18493",
-    name: "HKL9705 BATH MAT 50X80",
-    mall: "43-Mujan Park",
-    quantity: 6,
-    lastSaleDate: "2025-02-15"
   },
   {
     code: "18493",
@@ -66075,34 +55428,6 @@ const oldData = [
   {
     code: "22138",
     name: "HONEY BEE QUILT KING 3 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "22138",
-    name: "HONEY BEE QUILT KING 3 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22138",
-    name: "HONEY BEE QUILT KING 3 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "22138",
-    name: "HONEY BEE QUILT KING 3 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "22138",
-    name: "HONEY BEE QUILT KING 3 PCS",
     mall: "55- Jabl Omar",
     quantity: 4,
     lastSaleDate: "2025-03-04"
@@ -66166,13 +55491,6 @@ const oldData = [
   {
     code: "13608",
     name: "HUSH VIOLT DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "13608",
-    name: "HUSH VIOLT DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
     mall: "44-Al-Jouf Center",
     quantity: 2,
     lastSaleDate: "2024-09-23"
@@ -66201,23 +55519,9 @@ const oldData = [
   {
     code: "13608",
     name: "HUSH VIOLT DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "13608",
-    name: "HUSH VIOLT DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
     mall: "53-Al Basateen Mall",
     quantity: 3,
     lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "13608",
-    name: "HUSH VIOLT DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
-    mall: "54-THE VILLAGE",
-    quantity: 2,
-    lastSaleDate: "2024-10-12"
   },
   {
     code: "13608",
@@ -66369,13 +55673,6 @@ const oldData = [
   {
     code: "13503",
     name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "13503",
-    name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
     mall: "28-Al Nakheel Mall Dammam",
     quantity: 2,
     lastSaleDate: "2025-03-29"
@@ -66386,20 +55683,6 @@ const oldData = [
     mall: "32-Atyaf Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "13503",
-    name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "13503",
-    name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "13503",
@@ -66425,23 +55708,9 @@ const oldData = [
   {
     code: "13503",
     name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "13503",
-    name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
     mall: "51-Park Avenue Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "13503",
-    name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "13503",
@@ -66474,13 +55743,6 @@ const oldData = [
   {
     code: "13503",
     name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "13503",
-    name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
     mall: "08-Makkah Mall",
     quantity: 4,
     lastSaleDate: "2025-04-14"
@@ -66488,23 +55750,9 @@ const oldData = [
   {
     code: "13503",
     name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "09-Al-Salam Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "13503",
-    name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
     mall: "11-Jouri Mall",
     quantity: 4,
     lastSaleDate: "2024-11-29"
-  },
-  {
-    code: "13503",
-    name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "13503",
@@ -66544,58 +55792,9 @@ const oldData = [
   {
     code: "13503",
     name: "HUSHED VIOLET DAMASK KING  COMFORTER 500 TC 6 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23455",
-    name: "I430 SMOOSHIE TOY- UNICORN COLORFUL",
-    mall: "15-Riyadh Othaim Mall",
+    mall: "57-Sauq7",
     quantity: 1,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23455",
-    name: "I430 SMOOSHIE TOY- UNICORN COLORFUL",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23455",
-    name: "I430 SMOOSHIE TOY- UNICORN COLORFUL",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23455",
-    name: "I430 SMOOSHIE TOY- UNICORN COLORFUL",
-    mall: "20-Sitten Street Makkah",
-    quantity: 4,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23455",
-    name: "I430 SMOOSHIE TOY- UNICORN COLORFUL",
-    mall: "43-Mujan Park",
-    quantity: 3,
-    lastSaleDate: "2025-01-31"
-  },
-  {
-    code: "23455",
-    name: "I430 SMOOSHIE TOY- UNICORN COLORFUL",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23455",
-    name: "I430 SMOOSHIE TOY- UNICORN COLORFUL",
-    mall: "55- Jabl Omar",
-    quantity: 6,
-    lastSaleDate: "2025-03-08"
+    lastSaleDate: "2025-03-26"
   },
   {
     code: "19561",
@@ -66796,20 +55995,6 @@ const oldData = [
   {
     code: "23556",
     name: "INO ADEL BLUE KING COMFORTER 10 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23556",
-    name: "INO ADEL BLUE KING COMFORTER 10 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23556",
-    name: "INO ADEL BLUE KING COMFORTER 10 PCS",
     mall: "48 - Jeddah Park",
     quantity: 4,
     lastSaleDate: "2025-04-08"
@@ -66827,13 +56012,6 @@ const oldData = [
     mall: "39-Salam Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-03-12"
-  },
-  {
-    code: "13613",
-    name: "IVORY DAMASK  FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "13613",
@@ -66873,13 +56051,6 @@ const oldData = [
   {
     code: "13613",
     name: "IVORY DAMASK  FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "04-Andalos Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "13613",
-    name: "IVORY DAMASK  FULL COMFORTER 4 PCS 500 STITSH",
     mall: "05-Haifa Mall",
     quantity: 2,
     lastSaleDate: "2025-03-22"
@@ -66895,22 +56066,8 @@ const oldData = [
     code: "13613",
     name: "IVORY DAMASK  FULL COMFORTER 4 PCS 500 STITSH",
     mall: "11-Jouri Mall",
-    quantity: 4,
+    quantity: 6,
     lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "13613",
-    name: "IVORY DAMASK  FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "18-Al_Khayyat Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "13613",
-    name: "IVORY DAMASK  FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "13613",
@@ -66929,183 +56086,8 @@ const oldData = [
   {
     code: "13613",
     name: "IVORY DAMASK  FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "13613",
-    name: "IVORY DAMASK  FULL COMFORTER 4 PCS 500 STITSH",
     mall: "56- Aziz Mall 2",
     quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "12-Al_Hamra Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 10,
-    lastSaleDate: "2024-10-05"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-01-14"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "49-AlAhsa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-01-03"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "04-Andalos Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "09-Al-Salam Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "11-Jouri Mall",
-    quantity: 5,
-    lastSaleDate: "2024-12-16"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "12-Al_Hamra Mall",
-    quantity: 5,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "14-Al Kamal Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2024-07-27"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "17-Arar Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "19-Hail Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 9,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 5,
-    lastSaleDate: "2025-01-14"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "43-Mujan Park",
-    quantity: 7,
-    lastSaleDate: "2024-12-11"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "48 - Jeddah Park",
-    quantity: 7,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "53-Al Basateen Mall",
-    quantity: 10,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "55- Jabl Omar",
-    quantity: 14,
-    lastSaleDate: "2024-11-19"
-  },
-  {
-    code: "12265",
-    name: "IVORY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "57-Sauq7",
-    quantity: 5,
     lastSaleDate: "2025-03-29"
   },
   {
@@ -67146,13 +56128,6 @@ const oldData = [
   {
     code: "22948",
     name: "IVORY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-02-09"
-  },
-  {
-    code: "22948",
-    name: "IVORY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     mall: "36-Al jubail Mall",
     quantity: 4,
     lastSaleDate: "2024-11-16"
@@ -67181,13 +56156,6 @@ const oldData = [
   {
     code: "22948",
     name: "IVORY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 6,
-    lastSaleDate: "2025-02-06"
-  },
-  {
-    code: "22948",
-    name: "IVORY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     mall: "46-Khaleej Mall Riyadh",
     quantity: 6,
     lastSaleDate: "2024-11-29"
@@ -67209,23 +56177,9 @@ const oldData = [
   {
     code: "22948",
     name: "IVORY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "04-Andalos Mall",
-    quantity: 5,
-    lastSaleDate: "2025-01-12"
-  },
-  {
-    code: "22948",
-    name: "IVORY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     mall: "05-Haifa Mall",
     quantity: 8,
     lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22948",
-    name: "IVORY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "09-Al-Salam Mall",
-    quantity: 12,
-    lastSaleDate: "2025-03-23"
   },
   {
     code: "22948",
@@ -67342,13 +56296,6 @@ const oldData = [
   {
     code: "13536",
     name: "IVORY DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "13536",
-    name: "IVORY DAMASK KING COMFORTER 500 TC 6 PCS",
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 1,
     lastSaleDate: "2025-03-21"
@@ -67415,20 +56362,6 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 1,
     lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "13536",
-    name: "IVORY DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "13536",
-    name: "IVORY DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "13536",
@@ -67520,13 +56453,6 @@ const oldData = [
     mall: "13-Al-Yasmin Mall",
     quantity: 1,
     lastSaleDate: "2025-03-13"
-  },
-  {
-    code: "12570",
-    name: "IVORY SO-SOFT KING COMFORTER 3PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "12570",
@@ -67685,13 +56611,6 @@ const oldData = [
   {
     code: "18460",
     name: "J1929 GARDEN CORAL 21X34 INCH BATH MAT",
-    mall: "43-Mujan Park",
-    quantity: 6,
-    lastSaleDate: "2025-01-16"
-  },
-  {
-    code: "18460",
-    name: "J1929 GARDEN CORAL 21X34 INCH BATH MAT",
     mall: "49-AlAhsa Mall",
     quantity: 5,
     lastSaleDate: "2024-03-31"
@@ -67781,67 +56700,25 @@ const oldData = [
     lastSaleDate: "2023-07-31"
   },
   {
-    code: "23558",
-    name: "JAQUARD BEACH TOWEL 100*180 CM",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-11"
+    code: "23557",
+    name: "JAQUARD BEACH TOWEL 86*160 CM",
+    mall: "48 - Jeddah Park",
+    quantity: 13,
+    lastSaleDate: "2025-04-03"
   },
   {
-    code: "23558",
-    name: "JAQUARD BEACH TOWEL 100*180 CM",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 111,
-    lastSaleDate: "2025-04-22"
+    code: "23557",
+    name: "JAQUARD BEACH TOWEL 86*160 CM",
+    mall: "54-THE VILLAGE",
+    quantity: 2,
+    lastSaleDate: "2025-03-26"
   },
   {
-    code: "20283",
-    name: "JASMIN WOOD FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2024-08-10"
-  },
-  {
-    code: "20283",
-    name: "JASMIN WOOD FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2024-08-15"
-  },
-  {
-    code: "20283",
-    name: "JASMIN WOOD FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 1,
-    lastSaleDate: "2024-07-30"
-  },
-  {
-    code: "20283",
-    name: "JASMIN WOOD FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-18"
-  },
-  {
-    code: "20283",
-    name: "JASMIN WOOD FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2024-08-30"
-  },
-  {
-    code: "20283",
-    name: "JASMIN WOOD FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2024-08-22"
-  },
-  {
-    code: "20283",
-    name: "JASMIN WOOD FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2024-08-07"
+    code: "23557",
+    name: "JAQUARD BEACH TOWEL 86*160 CM",
+    mall: "57-Sauq7",
+    quantity: 8,
+    lastSaleDate: "2025-04-23"
   },
   {
     code: "21560",
@@ -67870,13 +56747,6 @@ const oldData = [
     mall: "16-Ehsa Othaim Mall",
     quantity: 10,
     lastSaleDate: "2025-02-16"
-  },
-  {
-    code: "21560",
-    name: "JASON CHECK BIGONE WINTER TWIN COMFORTER 1 PCS",
-    mall: "19-Hail Othaim Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "21560",
@@ -68070,27 +56940,6 @@ const oldData = [
   {
     code: "23512",
     name: "JULIETTE SPARKLE WHITE FULL COMFORTER 8 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23512",
-    name: "JULIETTE SPARKLE WHITE FULL COMFORTER 8 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23512",
-    name: "JULIETTE SPARKLE WHITE FULL COMFORTER 8 PCS",
-    mall: "36-Al jubail Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23512",
-    name: "JULIETTE SPARKLE WHITE FULL COMFORTER 8 PCS",
     mall: "39-Salam Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-22"
@@ -68117,6 +56966,13 @@ const oldData = [
     lastSaleDate: "2025-03-06"
   },
   {
+    code: "23512",
+    name: "JULIETTE SPARKLE WHITE FULL COMFORTER 8 PCS",
+    mall: "56- Aziz Mall 2",
+    quantity: 6,
+    lastSaleDate: "2025-03-29"
+  },
+  {
     code: "15420",
     name: "JUST RELAX 203*218 CM FULL DUVET",
     mall: "09-Al-Salam Mall",
@@ -68126,30 +56982,9 @@ const oldData = [
   {
     code: "15420",
     name: "JUST RELAX 203*218 CM FULL DUVET",
-    mall: "11-Jouri Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "15420",
-    name: "JUST RELAX 203*218 CM FULL DUVET",
     mall: "14-Al Kamal Mall",
     quantity: 6,
     lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "15420",
-    name: "JUST RELAX 203*218 CM FULL DUVET",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "15420",
-    name: "JUST RELAX 203*218 CM FULL DUVET",
-    mall: "19-Hail Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "15420",
@@ -68182,13 +57017,6 @@ const oldData = [
   {
     code: "15420",
     name: "JUST RELAX 203*218 CM FULL DUVET",
-    mall: "52-Al_Baha Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "15420",
-    name: "JUST RELAX 203*218 CM FULL DUVET",
     mall: "53-Al Basateen Mall",
     quantity: 6,
     lastSaleDate: "2025-04-22"
@@ -68224,20 +57052,6 @@ const oldData = [
   {
     code: "22279",
     name: "JUST RELAX 274*228 CM KING DUVET",
-    mall: "19-Hail Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22279",
-    name: "JUST RELAX 274*228 CM KING DUVET",
-    mall: "20-Sitten Street Makkah",
-    quantity: 10,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "22279",
-    name: "JUST RELAX 274*228 CM KING DUVET",
     mall: "25-Rabwa Othaim Mall",
     quantity: 2,
     lastSaleDate: "2025-04-22"
@@ -68252,23 +57066,9 @@ const oldData = [
   {
     code: "22279",
     name: "JUST RELAX 274*228 CM KING DUVET",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22279",
-    name: "JUST RELAX 274*228 CM KING DUVET",
     mall: "46-Khaleej Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "22279",
-    name: "JUST RELAX 274*228 CM KING DUVET",
-    mall: "48 - Jeddah Park",
-    quantity: 21,
-    lastSaleDate: "2025-04-24"
   },
   {
     code: "22279",
@@ -68301,30 +57101,9 @@ const oldData = [
   {
     code: "22955",
     name: "JUST RELAX 90X191 CM TWIN MATRESPAD",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 4,
-    lastSaleDate: "2025-02-27"
-  },
-  {
-    code: "22955",
-    name: "JUST RELAX 90X191 CM TWIN MATRESPAD",
     mall: "55- Jabl Omar",
     quantity: 5,
     lastSaleDate: "2025-01-24"
-  },
-  {
-    code: "16607",
-    name: "JUST RELAX FULL MATTRES PAD 122X191 CM",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "16607",
-    name: "JUST RELAX FULL MATTRES PAD 122X191 CM",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "20448",
@@ -68332,62 +57111,6 @@ const oldData = [
     mall: "50-Meem Plaza Riyadh",
     quantity: 3,
     lastSaleDate: "2022-11-10"
-  },
-  {
-    code: "23457",
-    name: "K437 SMOOSHIE TOY- YAK LT.TURQ",
-    mall: "07-Arab Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23457",
-    name: "K437 SMOOSHIE TOY- YAK LT.TURQ",
-    mall: "09-Al-Salam Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23457",
-    name: "K437 SMOOSHIE TOY- YAK LT.TURQ",
-    mall: "48 - Jeddah Park",
-    quantity: 4,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23457",
-    name: "K437 SMOOSHIE TOY- YAK LT.TURQ",
-    mall: "55- Jabl Omar",
-    quantity: 7,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23457",
-    name: "K437 SMOOSHIE TOY- YAK LT.TURQ",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "23611",
-    name: "KAROU BLUE KING COMFORTER 8 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23611",
-    name: "KAROU BLUE KING COMFORTER 8 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23611",
-    name: "KAROU BLUE KING COMFORTER 8 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-22"
   },
   {
     code: "23611",
@@ -68408,27 +57131,6 @@ const oldData = [
     name: "KAROU BLUE KING COMFORTER 8 PCS",
     mall: "30-Tala Mall Riyadh",
     quantity: 1,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23611",
-    name: "KAROU BLUE KING COMFORTER 8 PCS",
-    mall: "43-Mujan Park",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23611",
-    name: "KAROU BLUE KING COMFORTER 8 PCS",
-    mall: "48 - Jeddah Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23611",
-    name: "KAROU BLUE KING COMFORTER 8 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 4,
     lastSaleDate: "2025-03-29"
   },
   {
@@ -68465,13 +57167,6 @@ const oldData = [
     mall: "06-Red Sea Mall",
     quantity: 1,
     lastSaleDate: "2024-11-26"
-  },
-  {
-    code: "21428",
-    name: "KENZIA BLESS KITCHEN SET TOWLS 4 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-15"
   },
   {
     code: "21428",
@@ -68651,13 +57346,6 @@ const oldData = [
   {
     code: "22034",
     name: "KIDS DINO TRUCKS TWIN SHEET 3 PCS",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "22034",
-    name: "KIDS DINO TRUCKS TWIN SHEET 3 PCS",
     mall: "44-Al-Jouf Center",
     quantity: 5,
     lastSaleDate: "2024-09-20"
@@ -68707,13 +57395,6 @@ const oldData = [
   {
     code: "21701",
     name: "KIDS HEARTS DIM FULL SHEET 4 PCS",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "21701",
-    name: "KIDS HEARTS DIM FULL SHEET 4 PCS",
     mall: "55- Jabl Omar",
     quantity: 1,
     lastSaleDate: "2025-03-06"
@@ -68724,13 +57405,6 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 8,
     lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "21702",
-    name: "KIDS HEARTS TWIN SHEET 3 PCS",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 6,
-    lastSaleDate: "2025-04-07"
   },
   {
     code: "21702",
@@ -68806,7 +57480,7 @@ const oldData = [
     code: "21704",
     name: "KIDS RAINBOWS TWIN SHEET 3 PCS",
     mall: "39-Salam Mall Riyadh",
-    quantity: 6,
+    quantity: 12,
     lastSaleDate: "2025-04-26"
   },
   {
@@ -68915,13 +57589,6 @@ const oldData = [
     lastSaleDate: "2024-10-01"
   },
   {
-    code: "22033",
-    name: "KIDS UNICORN BUSTS FULL SHEET 4 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 7,
-    lastSaleDate: "2024-08-03"
-  },
-  {
     code: "22036",
     name: "KIDS UNICORN BUSTS TWIN SHEET 3 PCS",
     mall: "14-Al Kamal Mall",
@@ -68952,13 +57619,6 @@ const oldData = [
   {
     code: "22036",
     name: "KIDS UNICORN BUSTS TWIN SHEET 3 PCS",
-    mall: "20-Sitten Street Makkah",
-    quantity: 6,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22036",
-    name: "KIDS UNICORN BUSTS TWIN SHEET 3 PCS",
     mall: "24-Yanbu Dana Mall",
     quantity: 5,
     lastSaleDate: "2025-03-21"
@@ -68976,69 +57636,6 @@ const oldData = [
     mall: "49-AlAhsa Mall",
     quantity: 5,
     lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "21924",
-    name: "KING (SMALL) SHARPER IMAGE MATRESS PAD",
-    mall: "14-Al Kamal Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "21924",
-    name: "KING (SMALL) SHARPER IMAGE MATRESS PAD",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2024-11-14"
-  },
-  {
-    code: "21924",
-    name: "KING (SMALL) SHARPER IMAGE MATRESS PAD",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "21924",
-    name: "KING (SMALL) SHARPER IMAGE MATRESS PAD",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "21924",
-    name: "KING (SMALL) SHARPER IMAGE MATRESS PAD",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 9,
-    lastSaleDate: "2025-01-31"
-  },
-  {
-    code: "21924",
-    name: "KING (SMALL) SHARPER IMAGE MATRESS PAD",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 2,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "21924",
-    name: "KING (SMALL) SHARPER IMAGE MATRESS PAD",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-03-07"
-  },
-  {
-    code: "21924",
-    name: "KING (SMALL) SHARPER IMAGE MATRESS PAD",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 4,
-    lastSaleDate: "2024-11-30"
-  },
-  {
-    code: "21924",
-    name: "KING (SMALL) SHARPER IMAGE MATRESS PAD",
-    mall: "49-AlAhsa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-03"
   },
   {
     code: "21771",
@@ -69074,13 +57671,6 @@ const oldData = [
     mall: "12-Al_Hamra Mall",
     quantity: 2,
     lastSaleDate: "2025-02-11"
-  },
-  {
-    code: "21771",
-    name: "KITCHEN SET DOUBLE DOTS 3 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 12,
-    lastSaleDate: "2025-03-26"
   },
   {
     code: "21771",
@@ -69169,13 +57759,6 @@ const oldData = [
   {
     code: "21771",
     name: "KITCHEN SET DOUBLE DOTS 3 PCS",
-    mall: "48 - Jeddah Park",
-    quantity: 7,
-    lastSaleDate: "2025-02-24"
-  },
-  {
-    code: "21771",
-    name: "KITCHEN SET DOUBLE DOTS 3 PCS",
     mall: "52-Al_Baha Mall",
     quantity: 10,
     lastSaleDate: "2023-04-19"
@@ -69193,13 +57776,6 @@ const oldData = [
     mall: "56- Aziz Mall 2",
     quantity: 1,
     lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "21774",
-    name: "KITCHEN SET LUNA NATURAL 3 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 15,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "21774",
@@ -69340,13 +57916,6 @@ const oldData = [
     mall: "22-Tabuk Park",
     quantity: 1,
     lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "21772",
-    name: "KITCHEN SET MANI OCHRE 3 PCS",
-    mall: "23-Alia Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-04-27"
   },
   {
     code: "21772",
@@ -69568,30 +58137,9 @@ const oldData = [
   {
     code: "21770",
     name: "KITCHEN SET SIENNA NAVY 3 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "21770",
-    name: "KITCHEN SET SIENNA NAVY 3 PCS",
-    mall: "08-Makkah Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "21770",
-    name: "KITCHEN SET SIENNA NAVY 3 PCS",
     mall: "12-Al_Hamra Mall",
     quantity: 6,
     lastSaleDate: "2025-01-11"
-  },
-  {
-    code: "21770",
-    name: "KITCHEN SET SIENNA NAVY 3 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "21770",
@@ -69785,13 +58333,6 @@ const oldData = [
   {
     code: "22641",
     name: "KOALA LILAC FULL COMFORTER 7 PCS WM YZ BIAB",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22641",
-    name: "KOALA LILAC FULL COMFORTER 7 PCS WM YZ BIAB",
     mall: "55- Jabl Omar",
     quantity: 8,
     lastSaleDate: "2024-04-06"
@@ -69809,13 +58350,6 @@ const oldData = [
     mall: "29-Al Nakheel Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23926",
-    name: "KUCUK KABEALTIN-55",
-    mall: "55- Jabl Omar",
-    quantity: 10,
-    lastSaleDate: "2025-03-30"
   },
   {
     code: "22876",
@@ -69844,13 +58378,6 @@ const oldData = [
     mall: "32-Atyaf Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-03-20"
-  },
-  {
-    code: "22876",
-    name: "KUFUNNY HOODEI PONCHO 85X70CM GREY",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "22876",
@@ -69935,13 +58462,6 @@ const oldData = [
     mall: "30-Tala Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "22878",
-    name: "KUFUNNY HOODEI PONCHO 85X70CM NAVY",
-    mall: "36-Al jubail Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "22878",
@@ -70126,13 +58646,6 @@ const oldData = [
     lastSaleDate: "2024-10-17"
   },
   {
-    code: "20445",
-    name: "L KITCHEN TOWEL IVORY 28*16",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 2,
-    lastSaleDate: "2024-08-17"
-  },
-  {
     code: "20464",
     name: "L KITCHEN TOWEL WHITE 28*16",
     mall: "04-Andalos Mall",
@@ -70166,27 +58679,6 @@ const oldData = [
     mall: "51-Park Avenue Riyadh",
     quantity: 2,
     lastSaleDate: "2023-08-12"
-  },
-  {
-    code: "13043",
-    name: "L. MARBLE SHEET 3 PCS 300 STITSH KING",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "13043",
-    name: "L. MARBLE SHEET 3 PCS 300 STITSH KING",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "13043",
-    name: "L. MARBLE SHEET 3 PCS 300 STITSH KING",
-    mall: "55- Jabl Omar",
-    quantity: 10,
-    lastSaleDate: "2024-07-16"
   },
   {
     code: "16667",
@@ -70282,20 +58774,6 @@ const oldData = [
   {
     code: "19557",
     name: "LADY FROG KIDS HOODED TOWEL BATH ROBE",
-    mall: "05-Haifa Mall",
-    quantity: 13,
-    lastSaleDate: "2025-02-05"
-  },
-  {
-    code: "19557",
-    name: "LADY FROG KIDS HOODED TOWEL BATH ROBE",
-    mall: "08-Makkah Mall",
-    quantity: 11,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "19557",
-    name: "LADY FROG KIDS HOODED TOWEL BATH ROBE",
     mall: "09-Al-Salam Mall",
     quantity: 13,
     lastSaleDate: "2025-03-23"
@@ -70320,13 +58798,6 @@ const oldData = [
     mall: "15-Riyadh Othaim Mall",
     quantity: 7,
     lastSaleDate: "2024-09-05"
-  },
-  {
-    code: "19557",
-    name: "LADY FROG KIDS HOODED TOWEL BATH ROBE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 19,
-    lastSaleDate: "2024-10-01"
   },
   {
     code: "19557",
@@ -70457,13 +58928,6 @@ const oldData = [
   {
     code: "23505",
     name: "LARGE BOX ARMY GREEN FULL COMFORTER 8 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23505",
-    name: "LARGE BOX ARMY GREEN FULL COMFORTER 8 PCS",
     mall: "50-Meem Plaza Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-27"
@@ -70576,13 +59040,6 @@ const oldData = [
   {
     code: "23898",
     name: "LEAF 2 EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23898",
-    name: "LEAF 2 EMBROIDERED TOWEL WAVE SET 3 PCS",
     mall: "22-Tabuk Park",
     quantity: 5,
     lastSaleDate: "2025-03-30"
@@ -70591,7 +59048,7 @@ const oldData = [
     code: "23898",
     name: "LEAF 2 EMBROIDERED TOWEL WAVE SET 3 PCS",
     mall: "26-Al-Noor Mall Madinah",
-    quantity: 32,
+    quantity: 44,
     lastSaleDate: "2025-04-23"
   },
   {
@@ -70600,13 +59057,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 6,
     lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23898",
-    name: "LEAF 2 EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 8,
-    lastSaleDate: "2025-03-24"
   },
   {
     code: "11830",
@@ -70665,32 +59115,25 @@ const oldData = [
     lastSaleDate: "2025-02-24"
   },
   {
-    code: "23905",
-    name: "LEAF3 EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-20"
+    code: "23897",
+    name: "LEAF EMBROIDERED TOWEL WAVE SET 3PCS",
+    mall: "04-Andalos Mall",
+    quantity: 12,
+    lastSaleDate: "2025-04-17"
   },
   {
-    code: "23905",
-    name: "LEAF3 EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "19-Hail Othaim Mall",
-    quantity: 11,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "23905",
-    name: "LEAF3 EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23625",
-    name: "LEILANI SILVER FULL COMFORTER 12 PCS",
+    code: "23897",
+    name: "LEAF EMBROIDERED TOWEL WAVE SET 3PCS",
     mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
+    quantity: 8,
+    lastSaleDate: "2025-04-21"
+  },
+  {
+    code: "23897",
+    name: "LEAF EMBROIDERED TOWEL WAVE SET 3PCS",
+    mall: "55- Jabl Omar",
+    quantity: 15,
+    lastSaleDate: "2025-04-07"
   },
   {
     code: "17534",
@@ -70870,13 +59313,6 @@ const oldData = [
   {
     code: "14336",
     name: "LILAC MARBLE SHEET ( FULL )SET 3PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 2,
-    lastSaleDate: "2024-09-23"
-  },
-  {
-    code: "14336",
-    name: "LILAC MARBLE SHEET ( FULL )SET 3PCS",
     mall: "19-Hail Othaim Mall",
     quantity: 1,
     lastSaleDate: "2024-07-22"
@@ -70905,30 +59341,9 @@ const oldData = [
   {
     code: "14336",
     name: "LILAC MARBLE SHEET ( FULL )SET 3PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 11,
-    lastSaleDate: "2025-01-11"
-  },
-  {
-    code: "14336",
-    name: "LILAC MARBLE SHEET ( FULL )SET 3PCS",
     mall: "06-Red Sea Mall",
     quantity: 1,
     lastSaleDate: "2024-10-04"
-  },
-  {
-    code: "22637",
-    name: "LILAC MARBLE SHEET 3 PCS 300 STITSH FULL",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22637",
-    name: "LILAC MARBLE SHEET 3 PCS 300 STITSH FULL",
-    mall: "36-Al jubail Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "22637",
@@ -70978,13 +59393,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 3,
     lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "22492",
-    name: "LILAC MARBLE SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-03-21"
   },
   {
     code: "22492",
@@ -71057,69 +59465,6 @@ const oldData = [
     lastSaleDate: "2023-10-27"
   },
   {
-    code: "20080",
-    name: "LILAC MARBLE STANDARD PILLOW CASES",
-    mall: "52-Al_Baha Mall",
-    quantity: 7,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "20080",
-    name: "LILAC MARBLE STANDARD PILLOW CASES",
-    mall: "12-Al_Hamra Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "20080",
-    name: "LILAC MARBLE STANDARD PILLOW CASES",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "20080",
-    name: "LILAC MARBLE STANDARD PILLOW CASES",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "20080",
-    name: "LILAC MARBLE STANDARD PILLOW CASES",
-    mall: "49-AlAhsa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-20"
-  },
-  {
-    code: "20080",
-    name: "LILAC MARBLE STANDARD PILLOW CASES",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "20080",
-    name: "LILAC MARBLE STANDARD PILLOW CASES",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "20080",
-    name: "LILAC MARBLE STANDARD PILLOW CASES",
-    mall: "52-Al_Baha Mall",
-    quantity: 12,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "20080",
-    name: "LILAC MARBLE STANDARD PILLOW CASES",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 24,
-    lastSaleDate: "2025-03-26"
-  },
-  {
     code: "16542",
     name: "LILAC VELVET QUILT KING 3 PCS",
     mall: "43-Mujan Park",
@@ -71132,13 +59477,6 @@ const oldData = [
     mall: "09-Al-Salam Mall",
     quantity: 1,
     lastSaleDate: "2020-08-13"
-  },
-  {
-    code: "23447",
-    name: "LILI FLORAL PURPLE BLUE TWIN COMFORTER 5 PCS WM YZ BIAB",
-    mall: "17-Arar Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-20"
   },
   {
     code: "23450",
@@ -71181,34 +59519,6 @@ const oldData = [
     mall: "26-Al-Noor Mall Madinah",
     quantity: 1,
     lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23450",
-    name: "LILY AQUA PINK FULL COMFORTER 7 PCS WM YZ BIAB",
-    mall: "54-THE VILLAGE",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "14227",
-    name: "LINEN KING 3 PCS 300 STITSH",
-    mall: "17-Arar Othaim Mall",
-    quantity: 10,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "14227",
-    name: "LINEN KING 3 PCS 300 STITSH",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "14227",
-    name: "LINEN KING 3 PCS 300 STITSH",
-    mall: "55- Jabl Omar",
-    quantity: 18,
-    lastSaleDate: "2025-04-22"
   },
   {
     code: "20031",
@@ -71318,13 +59628,6 @@ const oldData = [
   {
     code: "23350",
     name: "LION PEACH KIDS HOODED TOWEL BATH ROBE",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "23350",
-    name: "LION PEACH KIDS HOODED TOWEL BATH ROBE",
     mall: "42-Dareen Mall Dammam",
     quantity: 5,
     lastSaleDate: "2025-03-27"
@@ -71335,13 +59638,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 9,
     lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "23350",
-    name: "LION PEACH KIDS HOODED TOWEL BATH ROBE",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 18,
-    lastSaleDate: "2025-03-26"
   },
   {
     code: "23350",
@@ -71391,13 +59687,6 @@ const oldData = [
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2024-12-25"
-  },
-  {
-    code: "18876",
-    name: "LITTLE FLORAL ORANGE PRINTED WINTER KING COMFORTER 3 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "19339",
@@ -71647,6 +59936,13 @@ const oldData = [
   {
     code: "22471",
     name: "LOVE THE EARTH TWIN COMFORTER 5 PCS WM YZ BIAB",
+    mall: "13-Al-Yasmin Mall",
+    quantity: 1,
+    lastSaleDate: "2025-03-08"
+  },
+  {
+    code: "22471",
+    name: "LOVE THE EARTH TWIN COMFORTER 5 PCS WM YZ BIAB",
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 1,
     lastSaleDate: "2025-04-04"
@@ -71712,7 +60008,7 @@ const oldData = [
     name: "LOVE THE EARTH TWIN COMFORTER 5 PCS WM YZ BIAB",
     mall: "13-Al-Yasmin Mall",
     quantity: 1,
-    lastSaleDate: "2025-03-21"
+    lastSaleDate: "2025-03-08"
   },
   {
     code: "22471",
@@ -71815,13 +60111,6 @@ const oldData = [
   {
     code: "13629",
     name: "LT BLUE DAMASK FULL COMFORTER 4 PCS 500 STITSH - 13618",
-    mall: "04-Andalos Mall",
-    quantity: 4,
-    lastSaleDate: "2024-06-30"
-  },
-  {
-    code: "13629",
-    name: "LT BLUE DAMASK FULL COMFORTER 4 PCS 500 STITSH - 13618",
     mall: "05-Haifa Mall",
     quantity: 2,
     lastSaleDate: "2025-04-14"
@@ -71865,7 +60154,7 @@ const oldData = [
     code: "13629",
     name: "LT BLUE DAMASK FULL COMFORTER 4 PCS 500 STITSH - 13618",
     mall: "30-Tala Mall Riyadh",
-    quantity: 2,
+    quantity: 4,
     lastSaleDate: "2025-01-14"
   },
   {
@@ -71899,20 +60188,6 @@ const oldData = [
   {
     code: "13629",
     name: "LT BLUE DAMASK FULL COMFORTER 4 PCS 500 STITSH - 13618",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "13629",
-    name: "LT BLUE DAMASK FULL COMFORTER 4 PCS 500 STITSH - 13618",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "13629",
-    name: "LT BLUE DAMASK FULL COMFORTER 4 PCS 500 STITSH - 13618",
     mall: "52-Al_Baha Mall",
     quantity: 2,
     lastSaleDate: "2024-10-10"
@@ -71937,258 +60212,6 @@ const oldData = [
     mall: "32-Atyaf Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2024-03-25"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "12-Al_Hamra Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-18"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2024-10-11"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-11"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2024-04-05"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 3,
-    lastSaleDate: "2024-11-16"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 4,
-    lastSaleDate: "2024-12-03"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 2,
-    lastSaleDate: "2024-12-14"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-03-18"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "49-AlAhsa Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 9,
-    lastSaleDate: "2024-12-28"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-11"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "12-Al_Hamra Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 10,
-    lastSaleDate: "2024-06-14"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-09"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2024-11-29"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 8,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "20-Sitten Street Makkah",
-    quantity: 8,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "22-Tabuk Park",
-    quantity: 5,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 7,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "38-Al_Riyadh Park",
-    quantity: 6,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2024-04-05"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 5,
-    lastSaleDate: "2024-11-16"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "43-Mujan Park",
-    quantity: 10,
-    lastSaleDate: "2024-12-30"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 5,
-    lastSaleDate: "2024-12-14"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 4,
-    lastSaleDate: "2024-11-28"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 8,
-    lastSaleDate: "2024-05-21"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "54-THE VILLAGE",
-    quantity: 6,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 6,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 10,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "22950",
-    name: "LT-BLUE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "57-Sauq7",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "12262",
-    name: "LT.BLUE DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "12262",
@@ -72217,13 +60240,6 @@ const oldData = [
     mall: "04-Andalos Mall",
     quantity: 6,
     lastSaleDate: "2025-02-05"
-  },
-  {
-    code: "12262",
-    name: "LT.BLUE DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "11-Jouri Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "12262",
@@ -72273,13 +60289,6 @@ const oldData = [
     mall: "25-Rabwa Othaim Mall",
     quantity: 4,
     lastSaleDate: "2025-01-15"
-  },
-  {
-    code: "12262",
-    name: "LT.BLUE DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 6,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "12262",
@@ -72336,13 +60345,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 4,
     lastSaleDate: "2024-11-17"
-  },
-  {
-    code: "12262",
-    name: "LT.BLUE DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "56- Aziz Mall 2",
-    quantity: 12,
-    lastSaleDate: "2025-03-27"
   },
   {
     code: "12262",
@@ -72452,13 +60454,6 @@ const oldData = [
   {
     code: "13533",
     name: "LT.BLUE DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "07-Arab Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "13533",
-    name: "LT.BLUE DAMASK KING COMFORTER 500 TC 6 PCS",
     mall: "09-Al-Salam Mall",
     quantity: 2,
     lastSaleDate: "2025-03-26"
@@ -72473,23 +60468,9 @@ const oldData = [
   {
     code: "13533",
     name: "LT.BLUE DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "13533",
-    name: "LT.BLUE DAMASK KING COMFORTER 500 TC 6 PCS",
     mall: "14-Al Kamal Mall",
     quantity: 4,
     lastSaleDate: "2025-02-14"
-  },
-  {
-    code: "13533",
-    name: "LT.BLUE DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "13533",
@@ -72511,13 +60492,6 @@ const oldData = [
     mall: "48 - Jeddah Park",
     quantity: 4,
     lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "13533",
-    name: "LT.BLUE DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "13533",
@@ -73640,13 +61614,6 @@ const oldData = [
     lastSaleDate: "2023-07-21"
   },
   {
-    code: "21717",
-    name: "MARIAN TURKISH COFFEE SET 6 PCS 90 ML CS-025",
-    mall: "54-THE VILLAGE",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
     code: "21714",
     name: "MARIYE TURKISH COFFEE SET 6 PCS 90 ML CS-018",
     mall: "40-Hayat Mall Riyad",
@@ -73717,53 +61684,11 @@ const oldData = [
     lastSaleDate: "2025-04-24"
   },
   {
-    code: "22403",
-    name: "MARSHMALLOW COMFY 104*90 BLANKET KING",
-    mall: "17-Arar Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "22403",
-    name: "MARSHMALLOW COMFY 104*90 BLANKET KING",
-    mall: "53-Al Basateen Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22403",
-    name: "MARSHMALLOW COMFY 104*90 BLANKET KING",
-    mall: "56- Aziz Mall 2",
-    quantity: 10,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "22403",
-    name: "MARSHMALLOW COMFY 104*90 BLANKET KING",
-    mall: "36-Al jubail Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-29"
-  },
-  {
     code: "22396",
     name: "MARSHMALLOW COMFY 66*90 BLANKET FULL",
     mall: "52-Al_Baha Mall",
     quantity: 6,
     lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "22396",
-    name: "MARSHMALLOW COMFY 66*90 BLANKET FULL",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "22396",
-    name: "MARSHMALLOW COMFY 66*90 BLANKET FULL",
-    mall: "14-Al Kamal Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-05"
   },
   {
     code: "22396",
@@ -73785,13 +61710,6 @@ const oldData = [
     mall: "53-Al Basateen Mall",
     quantity: 2,
     lastSaleDate: "2024-03-14"
-  },
-  {
-    code: "11634",
-    name: "MARSHMALLOW SHEET ( FULL ) SET 3PCS",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-17"
   },
   {
     code: "11634",
@@ -73855,13 +61773,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 1,
     lastSaleDate: "2023-02-12"
-  },
-  {
-    code: "20041",
-    name: "MARSHMELLOW SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "14-Al Kamal Mall",
-    quantity: 8,
-    lastSaleDate: "2025-03-28"
   },
   {
     code: "20041",
@@ -73943,13 +61854,6 @@ const oldData = [
   {
     code: "19842",
     name: "MARSHMELLOW SHEET 4 PCS 400 STITSH KING",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "19842",
-    name: "MARSHMELLOW SHEET 4 PCS 400 STITSH KING",
     mall: "39-Salam Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2025-02-25"
@@ -74027,6 +61931,13 @@ const oldData = [
   {
     code: "12735",
     name: "MAT 76*116 AMETHYSIST",
+    mall: "21-Abha Al_Rashid Mall New",
+    quantity: 2,
+    lastSaleDate: "2025-03-29"
+  },
+  {
+    code: "12735",
+    name: "MAT 76*116 AMETHYSIST",
     mall: "22-Tabuk Park",
     quantity: 1,
     lastSaleDate: "2024-07-25"
@@ -74037,13 +61948,6 @@ const oldData = [
     mall: "39-Salam Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2024-02-29"
-  },
-  {
-    code: "12735",
-    name: "MAT 76*116 AMETHYSIST",
-    mall: "43-Mujan Park",
-    quantity: 4,
-    lastSaleDate: "2023-06-26"
   },
   {
     code: "12735",
@@ -74163,13 +62067,6 @@ const oldData = [
     mall: "46-Khaleej Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2024-03-05"
-  },
-  {
-    code: "14152",
-    name: "MAT ANDLUSIA /RED HOME",
-    mall: "04-Andalos Mall",
-    quantity: 2,
-    lastSaleDate: "2022-04-27"
   },
   {
     code: "14152",
@@ -74403,27 +62300,6 @@ const oldData = [
     lastSaleDate: "2024-07-04"
   },
   {
-    code: "20746",
-    name: "MATRESPAD DREAM GUARD WATERPROOF QUEEN SIZE",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2024-08-23"
-  },
-  {
-    code: "20746",
-    name: "MATRESPAD DREAM GUARD WATERPROOF QUEEN SIZE",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "20746",
-    name: "MATRESPAD DREAM GUARD WATERPROOF QUEEN SIZE",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-21"
-  },
-  {
     code: "20748",
     name: "MATRESPAD DREAM GUARD WATERPROOF TWIN SIZE",
     mall: "42-Dareen Mall Dammam",
@@ -74601,13 +62477,6 @@ const oldData = [
   {
     code: "22275",
     name: "MAUVE LOUSE SO-SOFT KING COMFORTER 3 PCS",
-    mall: "07-Arab Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-23"
-  },
-  {
-    code: "22275",
-    name: "MAUVE LOUSE SO-SOFT KING COMFORTER 3 PCS",
     mall: "09-Al-Salam Mall",
     quantity: 2,
     lastSaleDate: "2025-03-21"
@@ -74690,48 +62559,6 @@ const oldData = [
     lastSaleDate: "2025-03-28"
   },
   {
-    code: "22275",
-    name: "MAUVE LOUSE SO-SOFT KING COMFORTER 3 PCS",
-    mall: "57-Sauq7",
-    quantity: 2,
-    lastSaleDate: "2025-02-17"
-  },
-  {
-    code: "23945",
-    name: "MEADOW FLORAL MULTI FULL COMFORTER 8 PCS",
-    mall: "09-Al-Salam Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "23945",
-    name: "MEADOW FLORAL MULTI FULL COMFORTER 8 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 9,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "23945",
-    name: "MEADOW FLORAL MULTI FULL COMFORTER 8 PCS",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23945",
-    name: "MEADOW FLORAL MULTI FULL COMFORTER 8 PCS",
-    mall: "49-AlAhsa Mall",
-    quantity: 7,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23945",
-    name: "MEADOW FLORAL MULTI FULL COMFORTER 8 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-28"
-  },
-  {
     code: "13849",
     name: "MEDALLION CAMEL KING QUILT 3 PCS",
     mall: "57-Sauq7",
@@ -74811,13 +62638,6 @@ const oldData = [
   {
     code: "19981",
     name: "MEMORY RUG 50*90CM WHITE",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 5,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "19981",
-    name: "MEMORY RUG 50*90CM WHITE",
     mall: "42-Dareen Mall Dammam",
     quantity: 4,
     lastSaleDate: "2024-12-25"
@@ -74858,20 +62678,6 @@ const oldData = [
     lastSaleDate: "2024-11-08"
   },
   {
-    code: "23931",
-    name: "MESCID I HARAM ALTIN-115",
-    mall: "55- Jabl Omar",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23931",
-    name: "MESCID I HARAM ALTIN-115",
-    mall: "55- Jabl Omar",
-    quantity: 5,
-    lastSaleDate: "2025-03-27"
-  },
-  {
     code: "23929",
     name: "MESCID I NEBEVI ALTIN-105",
     mall: "55- Jabl Omar",
@@ -74891,13 +62697,6 @@ const oldData = [
     mall: "11-Jouri Mall",
     quantity: 5,
     lastSaleDate: "2023-07-13"
-  },
-  {
-    code: "11455",
-    name: "MIDDLE RUGE WAVES MIDDLE",
-    mall: "48 - Jeddah Park",
-    quantity: 1,
-    lastSaleDate: "2023-11-30"
   },
   {
     code: "21720",
@@ -75197,7 +62996,7 @@ const oldData = [
     code: "24021",
     name: "MULTI MEADOW FLORAL KING COMFORTER 8 PCS",
     mall: "39-Salam Mall Riyadh",
-    quantity: 2,
+    quantity: 6,
     lastSaleDate: "2025-04-25"
   },
   {
@@ -75238,13 +63037,6 @@ const oldData = [
   {
     code: "22944",
     name: "MULTIPLE CIRCLES EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 7,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "22944",
-    name: "MULTIPLE CIRCLES EMBROIDERED TOWEL WAVE SET 3 PCS",
     mall: "14-Al Kamal Mall",
     quantity: 12,
     lastSaleDate: "2024-06-26"
@@ -75262,13 +63054,6 @@ const oldData = [
     mall: "24-Yanbu Dana Mall",
     quantity: 6,
     lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "22944",
-    name: "MULTIPLE CIRCLES EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 12,
-    lastSaleDate: "2024-09-10"
   },
   {
     code: "22944",
@@ -75371,13 +63156,6 @@ const oldData = [
   {
     code: "19552",
     name: "N EMBROIDERED IVORY TOWEL SET WAVES 3 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 4,
-    lastSaleDate: "2024-12-23"
-  },
-  {
-    code: "19552",
-    name: "N EMBROIDERED IVORY TOWEL SET WAVES 3 PCS",
     mall: "47-Al-Nakheel Plaza",
     quantity: 1,
     lastSaleDate: "2025-01-25"
@@ -75432,146 +63210,6 @@ const oldData = [
     lastSaleDate: "2023-12-22"
   },
   {
-    code: "23308",
-    name: "N427 SOMOOSHIE TOY - DINO GRASS",
-    mall: "12-Al_Hamra Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-08"
-  },
-  {
-    code: "23308",
-    name: "N427 SOMOOSHIE TOY - DINO GRASS",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23308",
-    name: "N427 SOMOOSHIE TOY - DINO GRASS",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23308",
-    name: "N427 SOMOOSHIE TOY - DINO GRASS",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "23308",
-    name: "N427 SOMOOSHIE TOY - DINO GRASS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "23308",
-    name: "N427 SOMOOSHIE TOY - DINO GRASS",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-02-17"
-  },
-  {
-    code: "23308",
-    name: "N427 SOMOOSHIE TOY - DINO GRASS",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "23308",
-    name: "N427 SOMOOSHIE TOY - DINO GRASS",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2024-11-14"
-  },
-  {
-    code: "23308",
-    name: "N427 SOMOOSHIE TOY - DINO GRASS",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "23314",
-    name: "N434 SOMOOSHIE TOY - DINO LT.BLUE",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 2,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "23314",
-    name: "N434 SOMOOSHIE TOY - DINO LT.BLUE",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-04"
-  },
-  {
-    code: "23314",
-    name: "N434 SOMOOSHIE TOY - DINO LT.BLUE",
-    mall: "56- Aziz Mall 2",
-    quantity: 3,
-    lastSaleDate: "2025-03-18"
-  },
-  {
-    code: "23314",
-    name: "N434 SOMOOSHIE TOY - DINO LT.BLUE",
-    mall: "08-Makkah Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "23314",
-    name: "N434 SOMOOSHIE TOY - DINO LT.BLUE",
-    mall: "11-Jouri Mall",
-    quantity: 12,
-    lastSaleDate: "2025-01-24"
-  },
-  {
-    code: "23314",
-    name: "N434 SOMOOSHIE TOY - DINO LT.BLUE",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "23314",
-    name: "N434 SOMOOSHIE TOY - DINO LT.BLUE",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-01-02"
-  },
-  {
-    code: "23314",
-    name: "N434 SOMOOSHIE TOY - DINO LT.BLUE",
-    mall: "22-Tabuk Park",
-    quantity: 5,
-    lastSaleDate: "2025-01-04"
-  },
-  {
-    code: "23314",
-    name: "N434 SOMOOSHIE TOY - DINO LT.BLUE",
-    mall: "52-Al_Baha Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-04"
-  },
-  {
-    code: "23314",
-    name: "N434 SOMOOSHIE TOY - DINO LT.BLUE",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-31"
-  },
-  {
-    code: "23314",
-    name: "N434 SOMOOSHIE TOY - DINO LT.BLUE",
-    mall: "56- Aziz Mall 2",
-    quantity: 4,
-    lastSaleDate: "2025-03-18"
-  },
-  {
     code: "23458",
     name: "N439 SMOOSHIE TOY- PENGUIN LAVANDER MULTI",
     mall: "19-Hail Othaim Mall",
@@ -75588,135 +63226,9 @@ const oldData = [
   {
     code: "23458",
     name: "N439 SMOOSHIE TOY- PENGUIN LAVANDER MULTI",
-    mall: "06-Red Sea Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "23458",
-    name: "N439 SMOOSHIE TOY- PENGUIN LAVANDER MULTI",
-    mall: "07-Arab Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "23458",
-    name: "N439 SMOOSHIE TOY- PENGUIN LAVANDER MULTI",
     mall: "08-Makkah Mall",
     quantity: 2,
     lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "23458",
-    name: "N439 SMOOSHIE TOY- PENGUIN LAVANDER MULTI",
-    mall: "09-Al-Salam Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "23458",
-    name: "N439 SMOOSHIE TOY- PENGUIN LAVANDER MULTI",
-    mall: "56- Aziz Mall 2",
-    quantity: 4,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "04-Andalos Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "07-Arab Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 4,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 6,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "48 - Jeddah Park",
-    quantity: 2,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-02-27"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "08-Makkah Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "11-Jouri Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23316",
-    name: "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
-    mall: "43-Mujan Park",
-    quantity: 3,
-    lastSaleDate: "2025-02-11"
   },
   {
     code: "20570",
@@ -75805,13 +63317,6 @@ const oldData = [
   {
     code: "20569",
     name: "NAKIA YELLOW COTON QUILT KING 3 PCS",
-    mall: "43-Mujan Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "20569",
-    name: "NAKIA YELLOW COTON QUILT KING 3 PCS",
     mall: "55- Jabl Omar",
     quantity: 1,
     lastSaleDate: "2025-03-26"
@@ -75854,13 +63359,6 @@ const oldData = [
   {
     code: "22936",
     name: "NASSAU EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22936",
-    name: "NASSAU EMBROIDERED TOWEL WAVE SET 3 PCS",
     mall: "13-Al-Yasmin Mall",
     quantity: 1,
     lastSaleDate: "2025-03-16"
@@ -75896,13 +63394,6 @@ const oldData = [
   {
     code: "22936",
     name: "NASSAU EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22936",
-    name: "NASSAU EMBROIDERED TOWEL WAVE SET 3 PCS",
     mall: "52-Al_Baha Mall",
     quantity: 6,
     lastSaleDate: "2024-08-01"
@@ -75922,67 +63413,53 @@ const oldData = [
     lastSaleDate: "2025-04-06"
   },
   {
-    code: "22408",
-    name: "NAVY COMFY 104*90 BLANKET KING",
-    mall: "17-Arar Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-01-10"
-  },
-  {
-    code: "22408",
-    name: "NAVY COMFY 104*90 BLANKET KING",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 3,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22408",
-    name: "NAVY COMFY 104*90 BLANKET KING",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-02-18"
-  },
-  {
-    code: "22408",
-    name: "NAVY COMFY 104*90 BLANKET KING",
-    mall: "52-Al_Baha Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22408",
-    name: "NAVY COMFY 104*90 BLANKET KING",
-    mall: "55- Jabl Omar",
-    quantity: 9,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "22408",
-    name: "NAVY COMFY 104*90 BLANKET KING",
-    mall: "57-Sauq7",
+    code: "16889",
+    name: "NATURAL GREENTEA FRESHENER COCODOR 500 ML ROOM SPRAY",
+    mall: "40-Hayat Mall Riyad",
     quantity: 2,
-    lastSaleDate: "2025-04-22"
+    lastSaleDate: "2024-11-16"
   },
   {
-    code: "22408",
-    name: "NAVY COMFY 104*90 BLANKET KING",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "22408",
-    name: "NAVY COMFY 104*90 BLANKET KING",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "22401",
-    name: "NAVY COMFY 66*90 BLANKET FULL",
+    code: "16889",
+    name: "NATURAL GREENTEA FRESHENER COCODOR 500 ML ROOM SPRAY",
     mall: "17-Arar Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-25"
+    quantity: 1,
+    lastSaleDate: "2022-06-14"
+  },
+  {
+    code: "16889",
+    name: "NATURAL GREENTEA FRESHENER COCODOR 500 ML ROOM SPRAY",
+    mall: "18-Al_Khayyat Center",
+    quantity: 1,
+    lastSaleDate: "2022-05-06"
+  },
+  {
+    code: "16889",
+    name: "NATURAL GREENTEA FRESHENER COCODOR 500 ML ROOM SPRAY",
+    mall: "22-Tabuk Park",
+    quantity: 3,
+    lastSaleDate: "2022-08-02"
+  },
+  {
+    code: "16889",
+    name: "NATURAL GREENTEA FRESHENER COCODOR 500 ML ROOM SPRAY",
+    mall: "19-Hail Othaim Mall",
+    quantity: 1,
+    lastSaleDate: "2022-12-08"
+  },
+  {
+    code: "16889",
+    name: "NATURAL GREENTEA FRESHENER COCODOR 500 ML ROOM SPRAY",
+    mall: "38-Al_Riyadh Park",
+    quantity: 1,
+    lastSaleDate: "2025-03-25"
+  },
+  {
+    code: "16889",
+    name: "NATURAL GREENTEA FRESHENER COCODOR 500 ML ROOM SPRAY",
+    mall: "06-Red Sea Mall",
+    quantity: 1,
+    lastSaleDate: "2023-06-15"
   },
   {
     code: "13607",
@@ -75990,118 +63467,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 1,
     lastSaleDate: "2023-04-18"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "05-Haifa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "14-Al Kamal Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-20"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "23-Alia Mall Madinah",
-    quantity: 7,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 3,
-    lastSaleDate: "2025-01-18"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 2,
-    lastSaleDate: "2025-03-08"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2024-12-29"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 4,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 4,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-06"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "49-AlAhsa Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "53-Al Basateen Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23418",
-    name: "NAVY DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "16668",
@@ -76141,20 +63506,6 @@ const oldData = [
   {
     code: "23417",
     name: "NAVY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "23417",
-    name: "NAVY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23417",
-    name: "NAVY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     mall: "14-Al Kamal Mall",
     quantity: 4,
     lastSaleDate: "2024-11-04"
@@ -76165,27 +63516,6 @@ const oldData = [
     mall: "16-Ehsa Othaim Mall",
     quantity: 2,
     lastSaleDate: "2025-02-17"
-  },
-  {
-    code: "23417",
-    name: "NAVY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 7,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23417",
-    name: "NAVY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "22-Tabuk Park",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23417",
-    name: "NAVY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "23-Alia Mall Madinah",
-    quantity: 10,
-    lastSaleDate: "2025-03-20"
   },
   {
     code: "23417",
@@ -76205,7 +63535,7 @@ const oldData = [
     code: "23417",
     name: "NAVY DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     mall: "38-Al_Riyadh Park",
-    quantity: 5,
+    quantity: 10,
     lastSaleDate: "2025-04-16"
   },
   {
@@ -76445,13 +63775,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 7,
     lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "20083",
-    name: "NEW BURGANDY STANDARD PILLOW CASES",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 16,
-    lastSaleDate: "2025-04-02"
   },
   {
     code: "20083",
@@ -76860,55 +64183,6 @@ const oldData = [
     lastSaleDate: "2023-03-27"
   },
   {
-    code: "23305",
-    name: "O422 SOMOOSHIE TOY - FROG GREEN",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-13"
-  },
-  {
-    code: "23305",
-    name: "O422 SOMOOSHIE TOY - FROG GREEN",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "23305",
-    name: "O422 SOMOOSHIE TOY - FROG GREEN",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "23305",
-    name: "O422 SOMOOSHIE TOY - FROG GREEN",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "23305",
-    name: "O422 SOMOOSHIE TOY - FROG GREEN",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2024-11-29"
-  },
-  {
-    code: "23305",
-    name: "O422 SOMOOSHIE TOY - FROG GREEN",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23305",
-    name: "O422 SOMOOSHIE TOY - FROG GREEN",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-04-13"
-  },
-  {
     code: "17958",
     name: "OBB DS 20 ROUND DINNER SET 28 PCS",
     mall: "11-Jouri Mall",
@@ -77240,13 +64514,6 @@ const oldData = [
   {
     code: "20345",
     name: "OBB DS 34 DAMIER DINNER SET 28 PCS",
-    mall: "23-Alia Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-02-20"
-  },
-  {
-    code: "20345",
-    name: "OBB DS 34 DAMIER DINNER SET 28 PCS",
     mall: "40-Hayat Mall Riyad",
     quantity: 2,
     lastSaleDate: "2025-01-03"
@@ -77525,104 +64792,6 @@ const oldData = [
     lastSaleDate: "2023-06-28"
   },
   {
-    code: "20028",
-    name: "OFF WHITE PILLOW CASES KING 2 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2023-10-23"
-  },
-  {
-    code: "20028",
-    name: "OFF WHITE PILLOW CASES KING 2 PCS",
-    mall: "22-Tabuk Park",
-    quantity: 9,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "20028",
-    name: "OFF WHITE PILLOW CASES KING 2 PCS",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 12,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "20028",
-    name: "OFF WHITE PILLOW CASES KING 2 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "20072",
-    name: "OFF WHITE SHEET 3 PCS 300 STITSH FULL",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "13046",
-    name: "OFF WHITE SHEET 3 PCS 300 STITSH KING",
-    mall: "55- Jabl Omar",
-    quantity: 1,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "13046",
-    name: "OFF WHITE SHEET 3 PCS 300 STITSH KING",
-    mall: "55- Jabl Omar",
-    quantity: 10,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "20084",
-    name: "OFF WHITE STANDARD PILLOW CASES",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "20084",
-    name: "OFF WHITE STANDARD PILLOW CASES",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-01-02"
-  },
-  {
-    code: "20084",
-    name: "OFF WHITE STANDARD PILLOW CASES",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 12,
-    lastSaleDate: "2024-11-12"
-  },
-  {
-    code: "20084",
-    name: "OFF WHITE STANDARD PILLOW CASES",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-02-27"
-  },
-  {
-    code: "20084",
-    name: "OFF WHITE STANDARD PILLOW CASES",
-    mall: "05-Haifa Mall",
-    quantity: 12,
-    lastSaleDate: "2025-02-07"
-  },
-  {
-    code: "20084",
-    name: "OFF WHITE STANDARD PILLOW CASES",
-    mall: "17-Arar Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2023-03-24"
-  },
-  {
-    code: "20084",
-    name: "OFF WHITE STANDARD PILLOW CASES",
-    mall: "52-Al_Baha Mall",
-    quantity: 12,
-    lastSaleDate: "2024-09-26"
-  },
-  {
     code: "21303",
     name: "OLIE DINO JUVI TWIN COMFORTER 5 PCS",
     mall: "52-Al_Baha Mall",
@@ -77695,23 +64864,9 @@ const oldData = [
   {
     code: "22937",
     name: "OMBRE LEAVES EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "22937",
-    name: "OMBRE LEAVES EMBROIDERED TOWEL WAVE SET 3 PCS",
     mall: "55- Jabl Omar",
     quantity: 2,
     lastSaleDate: "2025-03-18"
-  },
-  {
-    code: "20792",
-    name: "OMBRE MEDALLION KING PILLOW CASE",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2023-06-08"
   },
   {
     code: "17568",
@@ -77733,13 +64888,6 @@ const oldData = [
     mall: "07-Arab Mall",
     quantity: 5,
     lastSaleDate: "2025-03-16"
-  },
-  {
-    code: "22919",
-    name: "ORANGE OMBRE WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "22-Tabuk Park",
-    quantity: 12,
-    lastSaleDate: "2024-08-24"
   },
   {
     code: "22919",
@@ -77779,13 +64927,6 @@ const oldData = [
   {
     code: "22926",
     name: "ORANGE OMBRE WM TUMBER WITH STRAW 24 OZ",
-    mall: "14-Al Kamal Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22926",
-    name: "ORANGE OMBRE WM TUMBER WITH STRAW 24 OZ",
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2025-02-13"
@@ -77800,23 +64941,9 @@ const oldData = [
   {
     code: "23231",
     name: "OWL STATIONERY BOX SET",
-    mall: "07-Arab Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23231",
-    name: "OWL STATIONERY BOX SET",
     mall: "25-Rabwa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23231",
-    name: "OWL STATIONERY BOX SET",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 10,
-    lastSaleDate: "2025-04-16"
   },
   {
     code: "23231",
@@ -77838,62 +64965,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 31,
     lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23546",
-    name: "OWL1 D.GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "11-Jouri Mall",
-    quantity: 15,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "23546",
-    name: "OWL1 D.GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23546",
-    name: "OWL1 D.GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23546",
-    name: "OWL1 D.GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "36-Al jubail Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23546",
-    name: "OWL1 D.GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 3,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "23546",
-    name: "OWL1 D.GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "44-Al-Jouf Center",
-    quantity: 11,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "23546",
-    name: "OWL1 D.GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "52-Al_Baha Mall",
-    quantity: 10,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23546",
-    name: "OWL1 D.GREEN KIDS HOODED TOWEL BATH ROBE",
-    mall: "55- Jabl Omar",
-    quantity: 16,
-    lastSaleDate: "2025-04-24"
   },
   {
     code: "23544",
@@ -78036,41 +65107,6 @@ const oldData = [
     lastSaleDate: "2025-03-17"
   },
   {
-    code: "22636",
-    name: "P.BLUE SHEET 3 PCS 300 STITSH FULL",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 10,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "22636",
-    name: "P.BLUE SHEET 3 PCS 300 STITSH FULL",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "22636",
-    name: "P.BLUE SHEET 3 PCS 300 STITSH FULL",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22636",
-    name: "P.BLUE SHEET 3 PCS 300 STITSH FULL",
-    mall: "57-Sauq7",
-    quantity: 15,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "19851",
-    name: "P.BLUE SHEET 4 PCS 400 STITSH KING",
-    mall: "08-Makkah Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-25"
-  },
-  {
     code: "19851",
     name: "P.BLUE SHEET 4 PCS 400 STITSH KING",
     mall: "09-Al-Salam Mall",
@@ -78209,13 +65245,6 @@ const oldData = [
     mall: "09-Al-Salam Mall",
     quantity: 12,
     lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "21719",
-    name: "PALU TURKISH COFFEE SET 6 PCS 90 ML CS-015",
-    mall: "12-Al_Hamra Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-22"
   },
   {
     code: "21719",
@@ -78484,34 +65513,6 @@ const oldData = [
     lastSaleDate: "2025-03-17"
   },
   {
-    code: "23908",
-    name: "PARIS BOTANIQUE IVORY EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "04-Andalos Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23908",
-    name: "PARIS BOTANIQUE IVORY EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "08-Makkah Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23908",
-    name: "PARIS BOTANIQUE IVORY EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "49-AlAhsa Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23908",
-    name: "PARIS BOTANIQUE IVORY EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 10,
-    lastSaleDate: "2025-04-25"
-  },
-  {
     code: "16691",
     name: "PARSIA LACE FULL COMFORTER 9 PCS",
     mall: "09-Al-Salam Mall",
@@ -78531,13 +65532,6 @@ const oldData = [
     mall: "14-Al Kamal Mall",
     quantity: 1,
     lastSaleDate: "2025-03-09"
-  },
-  {
-    code: "16691",
-    name: "PARSIA LACE FULL COMFORTER 9 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-11"
   },
   {
     code: "16691",
@@ -78736,55 +65730,6 @@ const oldData = [
     lastSaleDate: "2025-04-09"
   },
   {
-    code: "23894",
-    name: "PILLOW EXTRA FIRM KING",
-    mall: "18-Al_Khayyat Center",
-    quantity: 3,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23894",
-    name: "PILLOW EXTRA FIRM KING",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23894",
-    name: "PILLOW EXTRA FIRM KING",
-    mall: "49-AlAhsa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23894",
-    name: "PILLOW EXTRA FIRM KING",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "23894",
-    name: "PILLOW EXTRA FIRM KING",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23894",
-    name: "PILLOW EXTRA FIRM KING",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23894",
-    name: "PILLOW EXTRA FIRM KING",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-04-13"
-  },
-  {
     code: "23893",
     name: "PILLOW EXTRA FIRM STANDARD",
     mall: "54-THE VILLAGE",
@@ -78955,13 +65900,6 @@ const oldData = [
   {
     code: "20897",
     name: "PILLOW KING TENCEL 300 STI",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 1,
-    lastSaleDate: "2025-03-04"
-  },
-  {
-    code: "20897",
-    name: "PILLOW KING TENCEL 300 STI",
     mall: "39-Salam Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2023-01-04"
@@ -79046,13 +65984,6 @@ const oldData = [
   {
     code: "21528",
     name: "PINEAPPLE 90*170 CM BEACH TOWEL",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 12,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "21528",
-    name: "PINEAPPLE 90*170 CM BEACH TOWEL",
     mall: "30-Tala Mall Riyadh",
     quantity: 8,
     lastSaleDate: "2025-03-23"
@@ -79128,69 +66059,6 @@ const oldData = [
     lastSaleDate: "2025-01-20"
   },
   {
-    code: "23540",
-    name: "PINEAPPLE YELLOW KIDS HOODED TOWEL BATH ROBE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23540",
-    name: "PINEAPPLE YELLOW KIDS HOODED TOWEL BATH ROBE",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23540",
-    name: "PINEAPPLE YELLOW KIDS HOODED TOWEL BATH ROBE",
-    mall: "36-Al jubail Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23540",
-    name: "PINEAPPLE YELLOW KIDS HOODED TOWEL BATH ROBE",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 8,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23540",
-    name: "PINEAPPLE YELLOW KIDS HOODED TOWEL BATH ROBE",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 6,
-    lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "23540",
-    name: "PINEAPPLE YELLOW KIDS HOODED TOWEL BATH ROBE",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 16,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23540",
-    name: "PINEAPPLE YELLOW KIDS HOODED TOWEL BATH ROBE",
-    mall: "55- Jabl Omar",
-    quantity: 18,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23540",
-    name: "PINEAPPLE YELLOW KIDS HOODED TOWEL BATH ROBE",
-    mall: "57-Sauq7",
-    quantity: 5,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23419",
-    name: "PINK ALANIS KING COMFORTER 8 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
     code: "23419",
     name: "PINK ALANIS KING COMFORTER 8 PCS",
     mall: "07-Arab Mall",
@@ -79238,13 +66106,6 @@ const oldData = [
     mall: "42-Dareen Mall Dammam",
     quantity: 1,
     lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "20032",
-    name: "PINK PILLOW CASES KING 2 PCS",
-    mall: "49-AlAhsa Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "20032",
@@ -79324,90 +66185,6 @@ const oldData = [
     lastSaleDate: "2023-10-11"
   },
   {
-    code: "20844",
-    name: "PINK SAND FRESHENER WHITE 200 ML",
-    mall: "22-Tabuk Park",
-    quantity: 2,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "20844",
-    name: "PINK SAND FRESHENER WHITE 200 ML",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2023-09-03"
-  },
-  {
-    code: "20844",
-    name: "PINK SAND FRESHENER WHITE 200 ML",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2024-01-26"
-  },
-  {
-    code: "20844",
-    name: "PINK SAND FRESHENER WHITE 200 ML",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2024-03-15"
-  },
-  {
-    code: "20844",
-    name: "PINK SAND FRESHENER WHITE 200 ML",
-    mall: "06-Red Sea Mall",
-    quantity: 30,
-    lastSaleDate: "2024-08-03"
-  },
-  {
-    code: "20844",
-    name: "PINK SAND FRESHENER WHITE 200 ML",
-    mall: "14-Al Kamal Mall",
-    quantity: 28,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "20844",
-    name: "PINK SAND FRESHENER WHITE 200 ML",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 15,
-    lastSaleDate: "2024-02-12"
-  },
-  {
-    code: "20844",
-    name: "PINK SAND FRESHENER WHITE 200 ML",
-    mall: "22-Tabuk Park",
-    quantity: 15,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "20844",
-    name: "PINK SAND FRESHENER WHITE 200 ML",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 11,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "20844",
-    name: "PINK SAND FRESHENER WHITE 200 ML",
-    mall: "36-Al jubail Mall",
-    quantity: 15,
-    lastSaleDate: "2023-12-08"
-  },
-  {
-    code: "20844",
-    name: "PINK SAND FRESHENER WHITE 200 ML",
-    mall: "44-Al-Jouf Center",
-    quantity: 15,
-    lastSaleDate: "2023-09-03"
-  },
-  {
-    code: "20844",
-    name: "PINK SAND FRESHENER WHITE 200 ML",
-    mall: "52-Al_Baha Mall",
-    quantity: 15,
-    lastSaleDate: "2024-01-26"
-  },
-  {
     code: "17004",
     name: "PINK SHEET ( QUEEN) SET 3PCS .",
     mall: "09-Al-Salam Mall",
@@ -79438,58 +66215,9 @@ const oldData = [
   {
     code: "17004",
     name: "PINK SHEET ( QUEEN) SET 3PCS .",
-    mall: "43-Mujan Park",
-    quantity: 4,
-    lastSaleDate: "2023-06-23"
-  },
-  {
-    code: "17004",
-    name: "PINK SHEET ( QUEEN) SET 3PCS .",
     mall: "44-Al-Jouf Center",
     quantity: 15,
     lastSaleDate: "2023-08-07"
-  },
-  {
-    code: "20057",
-    name: "PINK SHEET 3 PCS 300 STITSH FULL",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-22"
-  },
-  {
-    code: "20057",
-    name: "PINK SHEET 3 PCS 300 STITSH FULL",
-    mall: "14-Al Kamal Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "20057",
-    name: "PINK SHEET 3 PCS 300 STITSH FULL",
-    mall: "55- Jabl Omar",
-    quantity: 13,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "11718",
-    name: "PINK SHEET 3 PCS 300 STITSH KING",
-    mall: "44-Al-Jouf Center",
-    quantity: 8,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "11718",
-    name: "PINK SHEET 3 PCS 300 STITSH KING",
-    mall: "44-Al-Jouf Center",
-    quantity: 10,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "11718",
-    name: "PINK SHEET 3 PCS 300 STITSH KING",
-    mall: "53-Al Basateen Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-18"
   },
   {
     code: "20047",
@@ -79508,23 +66236,9 @@ const oldData = [
   {
     code: "20047",
     name: "PINK SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "07-Arab Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "20047",
-    name: "PINK SHEET 3 PCS 300 STITSH QUEEN",
     mall: "20-Sitten Street Makkah",
     quantity: 1,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "20047",
-    name: "PINK SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "36-Al jubail Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-26"
   },
   {
     code: "20047",
@@ -79718,20 +66432,6 @@ const oldData = [
   {
     code: "20087",
     name: "PINK STANDARD PILLOW CASES",
-    mall: "36-Al jubail Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "20087",
-    name: "PINK STANDARD PILLOW CASES",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 11,
-    lastSaleDate: "2025-02-17"
-  },
-  {
-    code: "20087",
-    name: "PINK STANDARD PILLOW CASES",
     mall: "55- Jabl Omar",
     quantity: 15,
     lastSaleDate: "2025-03-29"
@@ -79739,16 +66439,16 @@ const oldData = [
   {
     code: "20087",
     name: "PINK STANDARD PILLOW CASES",
-    mall: "14-Al Kamal Mall",
+    mall: "32-Atyaf Mall Riyadh",
     quantity: 12,
-    lastSaleDate: "2024-12-23"
+    lastSaleDate: "2025-04-21"
   },
   {
     code: "20087",
     name: "PINK STANDARD PILLOW CASES",
-    mall: "17-Arar Othaim Mall",
+    mall: "14-Al Kamal Mall",
     quantity: 12,
-    lastSaleDate: "2023-12-30"
+    lastSaleDate: "2024-12-23"
   },
   {
     code: "20087",
@@ -79914,30 +66614,9 @@ const oldData = [
   {
     code: "23906",
     name: "PLAM TREE EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 9,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23906",
-    name: "PLAM TREE EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 9,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23906",
-    name: "PLAM TREE EMBROIDERED TOWEL WAVE SET 3 PCS",
     mall: "26-Al-Noor Mall Madinah",
     quantity: 20,
     lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "23906",
-    name: "PLAM TREE EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 10,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "23906",
@@ -79991,23 +66670,9 @@ const oldData = [
   {
     code: "22943",
     name: "PLANTS EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "22-Tabuk Park",
-    quantity: 11,
-    lastSaleDate: "2025-02-14"
-  },
-  {
-    code: "22943",
-    name: "PLANTS EMBROIDERED TOWEL WAVE SET 3 PCS",
     mall: "39-Salam Mall Riyadh",
     quantity: 7,
     lastSaleDate: "2024-12-27"
-  },
-  {
-    code: "22943",
-    name: "PLANTS EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 8,
-    lastSaleDate: "2025-04-07"
   },
   {
     code: "22943",
@@ -80073,13 +66738,6 @@ const oldData = [
     lastSaleDate: "2025-01-14"
   },
   {
-    code: "20025",
-    name: "PLATINUM GREY PILLOW CASES KING 2 PCS",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 12,
-    lastSaleDate: "2024-08-08"
-  },
-  {
     code: "16998",
     name: "PLATINUM GREY SHEET  ( FULL )SET 3PCS",
     mall: "44-Al-Jouf Center",
@@ -80136,13 +66794,6 @@ const oldData = [
     lastSaleDate: "2025-02-20"
   },
   {
-    code: "13045",
-    name: "PLATINUM GREY SHEET 3 PCS 300 STITSH KING",
-    mall: "53-Al Basateen Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-22"
-  },
-  {
     code: "20040",
     name: "PLATINUM GREY SHEET 3 PCS 300 STITSH QUEEN",
     mall: "04-Andalos Mall",
@@ -80155,13 +66806,6 @@ const oldData = [
     mall: "08-Makkah Mall",
     quantity: 2,
     lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "20040",
-    name: "PLATINUM GREY SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "20040",
@@ -80250,13 +66894,6 @@ const oldData = [
   {
     code: "20088",
     name: "PLATINUM GREY STANDARD PILLOW CASES",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 12,
-    lastSaleDate: "2024-07-31"
-  },
-  {
-    code: "20088",
-    name: "PLATINUM GREY STANDARD PILLOW CASES",
     mall: "30-Tala Mall Riyadh",
     quantity: 12,
     lastSaleDate: "2024-03-28"
@@ -80264,65 +66901,9 @@ const oldData = [
   {
     code: "20088",
     name: "PLATINUM GREY STANDARD PILLOW CASES",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 12,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "20088",
-    name: "PLATINUM GREY STANDARD PILLOW CASES",
     mall: "42-Dareen Mall Dammam",
     quantity: 12,
     lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "22409",
-    name: "PLUM COMFY 104*90 BLANKET KING",
-    mall: "55- Jabl Omar",
-    quantity: 7,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "22409",
-    name: "PLUM COMFY 104*90 BLANKET KING",
-    mall: "05-Haifa Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "22409",
-    name: "PLUM COMFY 104*90 BLANKET KING",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "22409",
-    name: "PLUM COMFY 104*90 BLANKET KING",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "22409",
-    name: "PLUM COMFY 104*90 BLANKET KING",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22409",
-    name: "PLUM COMFY 104*90 BLANKET KING",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "22402",
-    name: "PLUM COMFY 66*90 BLANKET FULL",
-    mall: "55- Jabl Omar",
-    quantity: 8,
-    lastSaleDate: "2025-03-28"
   },
   {
     code: "19985",
@@ -80815,46 +67396,11 @@ const oldData = [
     lastSaleDate: "2024-06-25"
   },
   {
-    code: "23351",
-    name: "PRINCESS PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-06"
-  },
-  {
-    code: "23351",
-    name: "PRINCESS PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 12,
-    lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "23351",
-    name: "PRINCESS PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2025-02-14"
-  },
-  {
-    code: "23351",
-    name: "PRINCESS PINK KIDS HOODED TOWEL BATH ROBE",
-    mall: "57-Sauq7",
-    quantity: 2,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23238",
-    name: "PRINT BLUE WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-15"
-  },
-  {
     code: "23242",
     name: "PRINT BLUE WM TUMBER WITH STRAW 24 OZ",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-06"
+    mall: "17-Arar Othaim Mall",
+    quantity: 12,
+    lastSaleDate: "2025-03-26"
   },
   {
     code: "22277",
@@ -80901,9 +67447,23 @@ const oldData = [
   {
     code: "23240",
     name: "PRINT RAINBOW AND WHITE WM LEAK PROOF WATER BOTTEL 20 OZ",
+    mall: "50-Meem Plaza Riyadh",
+    quantity: 12,
+    lastSaleDate: "2024-12-15"
+  },
+  {
+    code: "23240",
+    name: "PRINT RAINBOW AND WHITE WM LEAK PROOF WATER BOTTEL 20 OZ",
     mall: "52-Al_Baha Mall",
     quantity: 20,
     lastSaleDate: "2024-12-02"
+  },
+  {
+    code: "23244",
+    name: "PRINT RAINBOW AND WHITE WM TUMBER WITH STRAW 24 OZ",
+    mall: "05-Haifa Mall",
+    quantity: 12,
+    lastSaleDate: "2025-02-14"
   },
   {
     code: "23244",
@@ -80941,46 +67501,11 @@ const oldData = [
     lastSaleDate: "2024-11-23"
   },
   {
-    code: "23239",
-    name: "PRINT RAINBOW WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "12-Al_Hamra Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23239",
-    name: "PRINT RAINBOW WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "14-Al Kamal Mall",
-    quantity: 16,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23239",
-    name: "PRINT RAINBOW WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 2,
-    lastSaleDate: "2024-12-18"
-  },
-  {
     code: "23243",
     name: "PRINT RAINBOW WM TUMBER WITH STRAW 24 OZ",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23243",
-    name: "PRINT RAINBOW WM TUMBER WITH STRAW 24 OZ",
-    mall: "32-Atyaf Mall Riyadh",
+    mall: "50-Meem Plaza Riyadh",
     quantity: 12,
-    lastSaleDate: "2025-02-24"
-  },
-  {
-    code: "23243",
-    name: "PRINT RAINBOW WM TUMBER WITH STRAW 24 OZ",
-    mall: "44-Al-Jouf Center",
-    quantity: 10,
-    lastSaleDate: "2025-04-07"
+    lastSaleDate: "2024-09-24"
   },
   {
     code: "23243",
@@ -81039,41 +67564,6 @@ const oldData = [
     lastSaleDate: "2023-07-07"
   },
   {
-    code: "23892",
-    name: "PRINTED BLUSH DOMBURG KING COMFORTER 8 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23892",
-    name: "PRINTED BLUSH DOMBURG KING COMFORTER 8 PCS",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23892",
-    name: "PRINTED BLUSH DOMBURG KING COMFORTER 8 PCS",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23892",
-    name: "PRINTED BLUSH DOMBURG KING COMFORTER 8 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-20"
-  },
-  {
-    code: "23892",
-    name: "PRINTED BLUSH DOMBURG KING COMFORTER 8 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 7,
-    lastSaleDate: "2025-04-29"
-  },
-  {
     code: "23911",
     name: "PRINTED BLUSH PAVLA FULL COMFORTER 8 PCS",
     mall: "09-Al-Salam Mall",
@@ -81083,37 +67573,9 @@ const oldData = [
   {
     code: "23911",
     name: "PRINTED BLUSH PAVLA FULL COMFORTER 8 PCS",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23911",
-    name: "PRINTED BLUSH PAVLA FULL COMFORTER 8 PCS",
     mall: "23-Alia Mall Madinah",
     quantity: 1,
     lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23911",
-    name: "PRINTED BLUSH PAVLA FULL COMFORTER 8 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23911",
-    name: "PRINTED BLUSH PAVLA FULL COMFORTER 8 PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 9,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "23890",
-    name: "PRINTED GREY PAVLA FULL COMFORTER 8 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "23890",
@@ -81139,13 +67601,6 @@ const oldData = [
   {
     code: "23912",
     name: "PRINTED WHITE/MULTI PAVLA FULL COMFORTER 8 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23912",
-    name: "PRINTED WHITE/MULTI PAVLA FULL COMFORTER 8 PCS",
     mall: "14-Al Kamal Mall",
     quantity: 9,
     lastSaleDate: "2025-04-27"
@@ -81163,20 +67618,6 @@ const oldData = [
     mall: "29-Al Nakheel Mall Riyadh",
     quantity: 9,
     lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23912",
-    name: "PRINTED WHITE/MULTI PAVLA FULL COMFORTER 8 PCS",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23912",
-    name: "PRINTED WHITE/MULTI PAVLA FULL COMFORTER 8 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 10,
-    lastSaleDate: "2025-04-13"
   },
   {
     code: "23912",
@@ -81209,23 +67650,9 @@ const oldData = [
   {
     code: "23891",
     name: "PRINTED WHITE/MULTI VINE FLORAL FRUIT KING COMFORTER 8 PCS",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23891",
-    name: "PRINTED WHITE/MULTI VINE FLORAL FRUIT KING COMFORTER 8 PCS",
     mall: "23-Alia Mall Madinah",
     quantity: 2,
     lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23891",
-    name: "PRINTED WHITE/MULTI VINE FLORAL FRUIT KING COMFORTER 8 PCS",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "23891",
@@ -81240,13 +67667,6 @@ const oldData = [
     mall: "36-Al jubail Mall",
     quantity: 2,
     lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23891",
-    name: "PRINTED WHITE/MULTI VINE FLORAL FRUIT KING COMFORTER 8 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 3,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "23891",
@@ -81275,69 +67695,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 2,
     lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "22595",
-    name: "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH KING",
-    mall: "49-AlAhsa Mall",
-    quantity: 20,
-    lastSaleDate: "2024-09-12"
-  },
-  {
-    code: "22493",
-    name: "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "23-Alia Mall Madinah",
-    quantity: 12,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "22493",
-    name: "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 4,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22493",
-    name: "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2024-10-22"
-  },
-  {
-    code: "22493",
-    name: "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "22493",
-    name: "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "56- Aziz Mall 2",
-    quantity: 12,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22493",
-    name: "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2024-12-04"
-  },
-  {
-    code: "22493",
-    name: "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "49-AlAhsa Mall",
-    quantity: 6,
-    lastSaleDate: "2024-11-29"
-  },
-  {
-    code: "22493",
-    name: "PRISTINE OFF WHITE SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 12,
-    lastSaleDate: "2024-10-08"
   },
   {
     code: "22411",
@@ -81564,13 +67921,6 @@ const oldData = [
     lastSaleDate: "2024-08-13"
   },
   {
-    code: "24045",
-    name: "QUILT EMLLY KING 3 PCS",
-    mall: "20-Sitten Street Makkah",
-    quantity: 3,
-    lastSaleDate: "2025-04-26"
-  },
-  {
     code: "20774",
     name: "QUILT FLORAL SCROLL KING 3 PCS",
     mall: "04-Andalos Mall",
@@ -81713,13 +68063,6 @@ const oldData = [
   {
     code: "23302",
     name: "QUILT PURPLE TRUMPET FLOWER KING 3 PCS",
-    mall: "48 - Jeddah Park",
-    quantity: 7,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23302",
-    name: "QUILT PURPLE TRUMPET FLOWER KING 3 PCS",
     mall: "53-Al Basateen Mall",
     quantity: 2,
     lastSaleDate: "2025-03-25"
@@ -81737,62 +68080,6 @@ const oldData = [
     mall: "57-Sauq7",
     quantity: 2,
     lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23303",
-    name: "QUILT RED ROSE KING 3 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23303",
-    name: "QUILT RED ROSE KING 3 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23303",
-    name: "QUILT RED ROSE KING 3 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23303",
-    name: "QUILT RED ROSE KING 3 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "23303",
-    name: "QUILT RED ROSE KING 3 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23303",
-    name: "QUILT RED ROSE KING 3 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23303",
-    name: "QUILT RED ROSE KING 3 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 8,
-    lastSaleDate: "2025-02-13"
-  },
-  {
-    code: "23303",
-    name: "QUILT RED ROSE KING 3 PCS",
-    mall: "57-Sauq7",
-    quantity: 5,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "23674",
@@ -81837,90 +68124,6 @@ const oldData = [
     lastSaleDate: "2024-08-01"
   },
   {
-    code: "23313",
-    name: "R433 SOMOOSHIE TOY - DEER PEACH",
-    mall: "19-Hail Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2025-01-30"
-  },
-  {
-    code: "23313",
-    name: "R433 SOMOOSHIE TOY - DEER PEACH",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-12"
-  },
-  {
-    code: "23313",
-    name: "R433 SOMOOSHIE TOY - DEER PEACH",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 6,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23313",
-    name: "R433 SOMOOSHIE TOY - DEER PEACH",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 6,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "23313",
-    name: "R433 SOMOOSHIE TOY - DEER PEACH",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23313",
-    name: "R433 SOMOOSHIE TOY - DEER PEACH",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "23313",
-    name: "R433 SOMOOSHIE TOY - DEER PEACH",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "23348",
-    name: "RABBIT CREAM KIDS HOODED TOWEL BATH ROBE",
-    mall: "14-Al Kamal Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23348",
-    name: "RABBIT CREAM KIDS HOODED TOWEL BATH ROBE",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "23348",
-    name: "RABBIT CREAM KIDS HOODED TOWEL BATH ROBE",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23348",
-    name: "RABBIT CREAM KIDS HOODED TOWEL BATH ROBE",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23348",
-    name: "RABBIT CREAM KIDS HOODED TOWEL BATH ROBE",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2024-12-27"
-  },
-  {
     code: "16795",
     name: "RABBIT FUR MAT 60 X 90 CM",
     mall: "04-Andalos Mall",
@@ -81940,13 +68143,6 @@ const oldData = [
     mall: "24-Yanbu Dana Mall",
     quantity: 7,
     lastSaleDate: "2024-12-02"
-  },
-  {
-    code: "16795",
-    name: "RABBIT FUR MAT 60 X 90 CM",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "16795",
@@ -81982,118 +68178,6 @@ const oldData = [
     mall: "16-Ehsa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2022-12-22"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-21"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "19-Hail Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2024-12-30"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-31"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-01"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 3,
-    lastSaleDate: "2025-02-02"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "49-AlAhsa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-23"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-02-02"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "17-Arar Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-02-13"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "22-Tabuk Park",
-    quantity: 11,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 2,
-    lastSaleDate: "2025-01-24"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "38-Al_Riyadh Park",
-    quantity: 3,
-    lastSaleDate: "2025-01-01"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 9,
-    lastSaleDate: "2025-02-04"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-01-28"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-01-08"
-  },
-  {
-    code: "16890",
-    name: "RAIN ROSE FRESHENER COCODOR 500 ML ROOM SPRAY",
-    mall: "53-Al Basateen Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "21433",
@@ -82924,13 +69008,6 @@ const oldData = [
   {
     code: "22273",
     name: "RHAPSODY SO-SOFT KING COMFORTER 3 PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-02-15"
-  },
-  {
-    code: "22273",
-    name: "RHAPSODY SO-SOFT KING COMFORTER 3 PCS",
     mall: "55- Jabl Omar",
     quantity: 1,
     lastSaleDate: "2025-03-28"
@@ -83141,13 +69218,6 @@ const oldData = [
   {
     code: "23355",
     name: "RINO ORANGE KIDS HOODED TOWEL BATH ROBE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 17,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23355",
-    name: "RINO ORANGE KIDS HOODED TOWEL BATH ROBE",
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 1,
     lastSaleDate: "2025-04-09"
@@ -83188,83 +69258,6 @@ const oldData = [
     lastSaleDate: "2025-03-05"
   },
   {
-    code: "12790",
-    name: "ROBE IVORY L/XL",
-    mall: "55- Jabl Omar",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "12790",
-    name: "ROBE IVORY L/XL",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "12790",
-    name: "ROBE IVORY L/XL",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "12790",
-    name: "ROBE IVORY L/XL",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 12,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "12790",
-    name: "ROBE IVORY L/XL",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "12790",
-    name: "ROBE IVORY L/XL",
-    mall: "52-Al_Baha Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "12790",
-    name: "ROBE IVORY L/XL",
-    mall: "53-Al Basateen Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "12790",
-    name: "ROBE IVORY L/XL",
-    mall: "55- Jabl Omar",
-    quantity: 6,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "12775",
-    name: "ROBE IVORY S/M",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "12775",
-    name: "ROBE IVORY S/M",
-    mall: "18-Al_Khayyat Center",
-    quantity: 6,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "12775",
-    name: "ROBE IVORY S/M",
-    mall: "53-Al Basateen Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-29"
-  },
-  {
     code: "14036",
     name: "ROBE IVORY/ROSE VELVET BEST FEELING",
     mall: "18-Al_Khayyat Center",
@@ -83286,34 +69279,6 @@ const oldData = [
     lastSaleDate: "2019-09-22"
   },
   {
-    code: "12792",
-    name: "ROBE LINEN L/XL",
-    mall: "44-Al-Jouf Center",
-    quantity: 6,
-    lastSaleDate: "2024-08-27"
-  },
-  {
-    code: "12780",
-    name: "ROBE LINEN S/M.",
-    mall: "17-Arar Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "12780",
-    name: "ROBE LINEN S/M.",
-    mall: "53-Al Basateen Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "12780",
-    name: "ROBE LINEN S/M.",
-    mall: "55- Jabl Omar",
-    quantity: 13,
-    lastSaleDate: "2025-03-17"
-  },
-  {
     code: "12799",
     name: "ROBE P.BLUE L/XL",
     mall: "12-Al_Hamra Mall",
@@ -83328,6 +69293,27 @@ const oldData = [
     lastSaleDate: "2025-04-02"
   },
   {
+    code: "12785",
+    name: "ROBE P.BLUE S/M",
+    mall: "16-Ehsa Othaim Mall",
+    quantity: 2,
+    lastSaleDate: "2025-03-20"
+  },
+  {
+    code: "12785",
+    name: "ROBE P.BLUE S/M",
+    mall: "29-Al Nakheel Mall Riyadh",
+    quantity: 1,
+    lastSaleDate: "2025-03-25"
+  },
+  {
+    code: "12785",
+    name: "ROBE P.BLUE S/M",
+    mall: "51-Park Avenue Riyadh",
+    quantity: 1,
+    lastSaleDate: "2025-03-27"
+  },
+  {
     code: "12783",
     name: "ROBE PINK S/M",
     mall: "12-Al_Hamra Mall",
@@ -83340,13 +69326,6 @@ const oldData = [
     mall: "16-Ehsa Othaim Mall",
     quantity: 3,
     lastSaleDate: "2025-03-20"
-  },
-  {
-    code: "12783",
-    name: "ROBE PINK S/M",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-03-29"
   },
   {
     code: "12783",
@@ -83524,11 +69503,11 @@ const oldData = [
     lastSaleDate: "2025-04-13"
   },
   {
-    code: "23300",
-    name: "ROBERT HG JUVI FULL COMFORTER 8 PCS",
-    mall: "04-Andalos Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-25"
+    code: "12776",
+    name: "ROBE WHITE S/M",
+    mall: "55- Jabl Omar",
+    quantity: 11,
+    lastSaleDate: "2025-03-09"
   },
   {
     code: "23300",
@@ -83536,13 +69515,6 @@ const oldData = [
     mall: "05-Haifa Mall",
     quantity: 2,
     lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23300",
-    name: "ROBERT HG JUVI FULL COMFORTER 8 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 14,
-    lastSaleDate: "2025-04-07"
   },
   {
     code: "23300",
@@ -83673,13 +69645,6 @@ const oldData = [
   {
     code: "23294",
     name: "ROBERT HG JUVI TWIN COMFORTER 6 PCS",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "23294",
-    name: "ROBERT HG JUVI TWIN COMFORTER 6 PCS",
     mall: "17-Arar Othaim Mall",
     quantity: 1,
     lastSaleDate: "2024-09-10"
@@ -83737,7 +69702,7 @@ const oldData = [
     code: "23294",
     name: "ROBERT HG JUVI TWIN COMFORTER 6 PCS",
     mall: "38-Al_Riyadh Park",
-    quantity: 2,
+    quantity: 4,
     lastSaleDate: "2025-04-20"
   },
   {
@@ -84037,27 +70002,6 @@ const oldData = [
   {
     code: "22406",
     name: "ROSE PINK COMFY 104*90 BLANKET KING",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "22406",
-    name: "ROSE PINK COMFY 104*90 BLANKET KING",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 17,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "22406",
-    name: "ROSE PINK COMFY 104*90 BLANKET KING",
-    mall: "09-Al-Salam Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22406",
-    name: "ROSE PINK COMFY 104*90 BLANKET KING",
     mall: "43-Mujan Park",
     quantity: 8,
     lastSaleDate: "2025-03-18"
@@ -84065,37 +70009,9 @@ const oldData = [
   {
     code: "22406",
     name: "ROSE PINK COMFY 104*90 BLANKET KING",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "22406",
-    name: "ROSE PINK COMFY 104*90 BLANKET KING",
     mall: "55- Jabl Omar",
     quantity: 4,
     lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "22406",
-    name: "ROSE PINK COMFY 104*90 BLANKET KING",
-    mall: "57-Sauq7",
-    quantity: 3,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "22399",
-    name: "ROSE PINK COMFY 66*90 BLANKET FULL",
-    mall: "52-Al_Baha Mall",
-    quantity: 13,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "22399",
-    name: "ROSE PINK COMFY 66*90 BLANKET FULL",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-22"
   },
   {
     code: "13780",
@@ -84110,104 +70026,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 6,
     lastSaleDate: "2024-09-01"
-  },
-  {
-    code: "14290",
-    name: "ROSE WAVE MAT SIZ 51*86",
-    mall: "07-Arab Mall",
-    quantity: 3,
-    lastSaleDate: "2023-06-05"
-  },
-  {
-    code: "14290",
-    name: "ROSE WAVE MAT SIZ 51*86",
-    mall: "11-Jouri Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "14290",
-    name: "ROSE WAVE MAT SIZ 51*86",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 2,
-    lastSaleDate: "2023-06-19"
-  },
-  {
-    code: "14290",
-    name: "ROSE WAVE MAT SIZ 51*86",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2024-06-01"
-  },
-  {
-    code: "14290",
-    name: "ROSE WAVE MAT SIZ 51*86",
-    mall: "22-Tabuk Park",
-    quantity: 2,
-    lastSaleDate: "2024-08-20"
-  },
-  {
-    code: "14290",
-    name: "ROSE WAVE MAT SIZ 51*86",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-01-28"
-  },
-  {
-    code: "14290",
-    name: "ROSE WAVE MAT SIZ 51*86",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2024-12-05"
-  },
-  {
-    code: "14290",
-    name: "ROSE WAVE MAT SIZ 51*86",
-    mall: "43-Mujan Park",
-    quantity: 9,
-    lastSaleDate: "2023-11-26"
-  },
-  {
-    code: "14290",
-    name: "ROSE WAVE MAT SIZ 51*86",
-    mall: "44-Al-Jouf Center",
-    quantity: 5,
-    lastSaleDate: "2022-05-01"
-  },
-  {
-    code: "14290",
-    name: "ROSE WAVE MAT SIZ 51*86",
-    mall: "48 - Jeddah Park",
-    quantity: 3,
-    lastSaleDate: "2024-06-15"
-  },
-  {
-    code: "14290",
-    name: "ROSE WAVE MAT SIZ 51*86",
-    mall: "36-Al jubail Mall",
-    quantity: 9,
-    lastSaleDate: "2023-11-05"
-  },
-  {
-    code: "23909",
-    name: "ROSE1 EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "23909",
-    name: "ROSE1 EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "43-Mujan Park",
-    quantity: 11,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23909",
-    name: "ROSE1 EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "54-THE VILLAGE",
-    quantity: 13,
-    lastSaleDate: "2025-04-26"
   },
   {
     code: "16520",
@@ -84460,13 +70278,6 @@ const oldData = [
     mall: "45- Riyadh Gallery Mall",
     quantity: 1,
     lastSaleDate: "2025-01-31"
-  },
-  {
-    code: "21786",
-    name: "RUG 60*180 CM 03",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "21786",
@@ -84793,13 +70604,6 @@ const oldData = [
   {
     code: "17932",
     name: "S/M LINEN SHAWL JACQUARD BATH ROBE",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 6,
-    lastSaleDate: "2024-09-07"
-  },
-  {
-    code: "17932",
-    name: "S/M LINEN SHAWL JACQUARD BATH ROBE",
     mall: "51-Park Avenue Riyadh",
     quantity: 1,
     lastSaleDate: "2025-03-11"
@@ -84919,13 +70723,6 @@ const oldData = [
   {
     code: "23511",
     name: "SAHIL BLOCK PRINTC SPA FULL COMFORTER 8 PCS",
-    mall: "49-AlAhsa Mall",
-    quantity: 7,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23511",
-    name: "SAHIL BLOCK PRINTC SPA FULL COMFORTER 8 PCS",
     mall: "57-Sauq7",
     quantity: 1,
     lastSaleDate: "2025-03-23"
@@ -84936,13 +70733,6 @@ const oldData = [
     mall: "25-Rabwa Othaim Mall",
     quantity: 5,
     lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23451",
-    name: "SAIL ORANGE MINT FULL COMFORTER 7 PCS WM YZ BIAB",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 7,
-    lastSaleDate: "2025-04-27"
   },
   {
     code: "23451",
@@ -85041,13 +70831,6 @@ const oldData = [
     mall: "04-Andalos Mall",
     quantity: 2,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22650",
-    name: "SANNA PRINTED DUVET COVER KING 3 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-09"
   },
   {
     code: "22650",
@@ -85195,13 +70978,6 @@ const oldData = [
     mall: "22-Tabuk Park",
     quantity: 5,
     lastSaleDate: "2023-08-30"
-  },
-  {
-    code: "19675",
-    name: "SCALIA 5 PCS ACCESS",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 3,
-    lastSaleDate: "2025-02-10"
   },
   {
     code: "19675",
@@ -85619,51 +71395,9 @@ const oldData = [
   {
     code: "23549",
     name: "SHARK GREY KIDS HOODED TOWEL BATH ROBE",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23549",
-    name: "SHARK GREY KIDS HOODED TOWEL BATH ROBE",
-    mall: "44-Al-Jouf Center",
-    quantity: 10,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23549",
-    name: "SHARK GREY KIDS HOODED TOWEL BATH ROBE",
     mall: "53-Al Basateen Mall",
     quantity: 3,
     lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23354",
-    name: "SHARK SEA BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-08"
-  },
-  {
-    code: "23354",
-    name: "SHARK SEA BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23354",
-    name: "SHARK SEA BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-17"
-  },
-  {
-    code: "23354",
-    name: "SHARK SEA BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-25"
   },
   {
     code: "21833",
@@ -85692,34 +71426,6 @@ const oldData = [
     mall: "17-Arar Othaim Mall",
     quantity: 3,
     lastSaleDate: "2019-11-03"
-  },
-  {
-    code: "13039",
-    name: "SHEET 3 PCS 300 STITSH KING BURGUNDY",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "13039",
-    name: "SHEET 3 PCS 300 STITSH KING BURGUNDY",
-    mall: "53-Al Basateen Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "13039",
-    name: "SHEET 3 PCS 300 STITSH KING BURGUNDY",
-    mall: "17-Arar Othaim Mall",
-    quantity: 10,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "13039",
-    name: "SHEET 3 PCS 300 STITSH KING BURGUNDY",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-01"
   },
   {
     code: "13044",
@@ -85822,13 +71528,6 @@ const oldData = [
   {
     code: "19762",
     name: "SHEET 4 PCS 300 STITSH KING BURGANDY",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "19762",
-    name: "SHEET 4 PCS 300 STITSH KING BURGANDY",
     mall: "42-Dareen Mall Dammam",
     quantity: 4,
     lastSaleDate: "2025-04-10"
@@ -85878,13 +71577,6 @@ const oldData = [
   {
     code: "19762",
     name: "SHEET 4 PCS 300 STITSH KING BURGANDY",
-    mall: "54-THE VILLAGE",
-    quantity: 4,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "19762",
-    name: "SHEET 4 PCS 300 STITSH KING BURGANDY",
     mall: "55- Jabl Omar",
     quantity: 5,
     lastSaleDate: "2025-04-10"
@@ -85895,13 +71587,6 @@ const oldData = [
     mall: "56- Aziz Mall 2",
     quantity: 6,
     lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "19760",
-    name: "SHEET 4 PCS 300 STITSH KING GREY",
-    mall: "04-Andalos Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-05"
   },
   {
     code: "19760",
@@ -85962,16 +71647,9 @@ const oldData = [
   {
     code: "19760",
     name: "SHEET 4 PCS 300 STITSH KING GREY",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2024-12-04"
-  },
-  {
-    code: "19760",
-    name: "SHEET 4 PCS 300 STITSH KING GREY",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
+    mall: "19-Hail Othaim Mall",
+    quantity: 12,
+    lastSaleDate: "2025-04-09"
   },
   {
     code: "19760",
@@ -85981,109 +71659,11 @@ const oldData = [
     lastSaleDate: "2025-04-12"
   },
   {
-    code: "19756",
-    name: "SHEET 4 PCS 300 STITSH KING HEATHER",
-    mall: "11-Jouri Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "19756",
-    name: "SHEET 4 PCS 300 STITSH KING HEATHER",
-    mall: "17-Arar Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "19756",
-    name: "SHEET 4 PCS 300 STITSH KING HEATHER",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "19756",
-    name: "SHEET 4 PCS 300 STITSH KING HEATHER",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 4,
-    lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "19756",
-    name: "SHEET 4 PCS 300 STITSH KING HEATHER",
-    mall: "43-Mujan Park",
-    quantity: 3,
-    lastSaleDate: "2024-12-31"
-  },
-  {
-    code: "19756",
-    name: "SHEET 4 PCS 300 STITSH KING HEATHER",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "19756",
-    name: "SHEET 4 PCS 300 STITSH KING HEATHER",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "19756",
-    name: "SHEET 4 PCS 300 STITSH KING HEATHER",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-04-03"
-  },
-  {
     code: "19761",
     name: "SHEET 4 PCS 300 STITSH KING LINEN",
     mall: "39-Salam Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "19768",
-    name: "SHEET 4 PCS 300 STITSH KING MARSHMALLOW",
-    mall: "05-Haifa Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-08"
-  },
-  {
-    code: "19768",
-    name: "SHEET 4 PCS 300 STITSH KING MARSHMALLOW",
-    mall: "19-Hail Othaim Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "19768",
-    name: "SHEET 4 PCS 300 STITSH KING MARSHMALLOW",
-    mall: "36-Al jubail Mall",
-    quantity: 8,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "19768",
-    name: "SHEET 4 PCS 300 STITSH KING MARSHMALLOW",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "19768",
-    name: "SHEET 4 PCS 300 STITSH KING MARSHMALLOW",
-    mall: "55- Jabl Omar",
-    quantity: 4,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "19768",
-    name: "SHEET 4 PCS 300 STITSH KING MARSHMALLOW",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-26"
   },
   {
     code: "10507",
@@ -86235,13 +71815,6 @@ const oldData = [
   {
     code: "11709",
     name: "SHEET 4 PCS 300 STITSH KING PINK",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "11709",
-    name: "SHEET 4 PCS 300 STITSH KING PINK",
     mall: "43-Mujan Park",
     quantity: 4,
     lastSaleDate: "2025-04-12"
@@ -86256,86 +71829,9 @@ const oldData = [
   {
     code: "11709",
     name: "SHEET 4 PCS 300 STITSH KING PINK",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 14,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "11709",
-    name: "SHEET 4 PCS 300 STITSH KING PINK",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "11709",
-    name: "SHEET 4 PCS 300 STITSH KING PINK",
     mall: "51-Park Avenue Riyadh",
     quantity: 5,
     lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "19759",
-    name: "SHEET 4 PCS 300 STITSH KING PLATINUM",
-    mall: "43-Mujan Park",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "19759",
-    name: "SHEET 4 PCS 300 STITSH KING PLATINUM",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "22490",
-    name: "SHEET 4 PCS 300 STITSH KING PRISTINE OFF WHITE",
-    mall: "09-Al-Salam Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "22490",
-    name: "SHEET 4 PCS 300 STITSH KING PRISTINE OFF WHITE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "22490",
-    name: "SHEET 4 PCS 300 STITSH KING PRISTINE OFF WHITE",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 4,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22490",
-    name: "SHEET 4 PCS 300 STITSH KING PRISTINE OFF WHITE",
-    mall: "36-Al jubail Mall",
-    quantity: 9,
-    lastSaleDate: "2024-10-17"
-  },
-  {
-    code: "22490",
-    name: "SHEET 4 PCS 300 STITSH KING PRISTINE OFF WHITE",
-    mall: "43-Mujan Park",
-    quantity: 1,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "22490",
-    name: "SHEET 4 PCS 300 STITSH KING PRISTINE OFF WHITE",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-02-20"
-  },
-  {
-    code: "22490",
-    name: "SHEET 4 PCS 300 STITSH KING PRISTINE OFF WHITE",
-    mall: "55- Jabl Omar",
-    quantity: 5,
-    lastSaleDate: "2025-04-06"
   },
   {
     code: "19764",
@@ -86354,13 +71850,6 @@ const oldData = [
   {
     code: "19764",
     name: "SHEET 4 PCS 300 STITSH KING PURBLE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "19764",
-    name: "SHEET 4 PCS 300 STITSH KING PURBLE",
     mall: "25-Rabwa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2023-12-21"
@@ -86371,13 +71860,6 @@ const oldData = [
     mall: "39-Salam Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "19764",
-    name: "SHEET 4 PCS 300 STITSH KING PURBLE",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "19765",
@@ -86406,20 +71888,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 4,
     lastSaleDate: "2025-04-03"
-  },
-  {
-    code: "19765",
-    name: "SHEET 4 PCS 300 STITSH KING SLIT",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 7,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22491",
-    name: "SHEET 4 PCS 300 STITSH KING SPEED PEARL LINEN",
-    mall: "04-Andalos Mall",
-    quantity: 8,
-    lastSaleDate: "2025-03-26"
   },
   {
     code: "22491",
@@ -86455,13 +71923,6 @@ const oldData = [
     mall: "45- Riyadh Gallery Mall",
     quantity: 5,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22491",
-    name: "SHEET 4 PCS 300 STITSH KING SPEED PEARL LINEN",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 7,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "22491",
@@ -86511,48 +71972,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 3,
     lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "19766",
-    name: "SHEET 4 PCS 300 STITSH KING STERLING BLUE",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "11700",
-    name: "SHEET 4 PCS 300 STITSH KING WHITE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2024-10-15"
-  },
-  {
-    code: "11700",
-    name: "SHEET 4 PCS 300 STITSH KING WHITE",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 4,
-    lastSaleDate: "2023-11-30"
-  },
-  {
-    code: "11700",
-    name: "SHEET 4 PCS 300 STITSH KING WHITE",
-    mall: "44-Al-Jouf Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "11700",
-    name: "SHEET 4 PCS 300 STITSH KING WHITE",
-    mall: "49-AlAhsa Mall",
-    quantity: 8,
-    lastSaleDate: "2024-03-07"
-  },
-  {
-    code: "11700",
-    name: "SHEET 4 PCS 300 STITSH KING WHITE",
-    mall: "55- Jabl Omar",
-    quantity: 7,
-    lastSaleDate: "2025-04-27"
   },
   {
     code: "19767",
@@ -86607,7 +72026,7 @@ const oldData = [
     code: "19767",
     name: "SHEET 4 PCS 300 STITSH KINGLILAC MARBLE",
     mall: "19-Hail Othaim Mall",
-    quantity: 12,
+    quantity: 24,
     lastSaleDate: "2025-04-21"
   },
   {
@@ -86669,13 +72088,6 @@ const oldData = [
   {
     code: "20663",
     name: "SHEET BARD DAMASK ROSE 4 PCS 400 STITSH KING",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-02-15"
-  },
-  {
-    code: "20663",
-    name: "SHEET BARD DAMASK ROSE 4 PCS 400 STITSH KING",
     mall: "38-Al_Riyadh Park",
     quantity: 5,
     lastSaleDate: "2025-03-15"
@@ -86718,6 +72130,13 @@ const oldData = [
   {
     code: "21041",
     name: "SHEET COTON FULL WFORD 220 STITSH 4 PCS",
+    mall: "13-Al-Yasmin Mall",
+    quantity: 6,
+    lastSaleDate: "2025-03-28"
+  },
+  {
+    code: "21041",
+    name: "SHEET COTON FULL WFORD 220 STITSH 4 PCS",
     mall: "17-Arar Othaim Mall",
     quantity: 10,
     lastSaleDate: "2025-02-22"
@@ -86746,13 +72165,6 @@ const oldData = [
   {
     code: "21041",
     name: "SHEET COTON FULL WFORD 220 STITSH 4 PCS",
-    mall: "22-Tabuk Park",
-    quantity: 1,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "21041",
-    name: "SHEET COTON FULL WFORD 220 STITSH 4 PCS",
     mall: "25-Rabwa Othaim Mall",
     quantity: 15,
     lastSaleDate: "2025-01-22"
@@ -86760,23 +72172,9 @@ const oldData = [
   {
     code: "21041",
     name: "SHEET COTON FULL WFORD 220 STITSH 4 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 15,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "21041",
-    name: "SHEET COTON FULL WFORD 220 STITSH 4 PCS",
     mall: "43-Mujan Park",
     quantity: 8,
     lastSaleDate: "2025-01-02"
-  },
-  {
-    code: "21041",
-    name: "SHEET COTON FULL WFORD 220 STITSH 4 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 6,
-    lastSaleDate: "2025-04-25"
   },
   {
     code: "21044",
@@ -87145,13 +72543,6 @@ const oldData = [
   {
     code: "21366",
     name: "SHEET KING 4 PCS PRINTED RAE DUNN LEMON",
-    mall: "49-AlAhsa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "21366",
-    name: "SHEET KING 4 PCS PRINTED RAE DUNN LEMON",
     mall: "50-Meem Plaza Riyadh",
     quantity: 2,
     lastSaleDate: "2025-03-17"
@@ -87362,13 +72753,6 @@ const oldData = [
   {
     code: "20382",
     name: "SHEET KING 400 TC DOVE SILKY 4 PCS",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 2,
-    lastSaleDate: "2024-07-29"
-  },
-  {
-    code: "20382",
-    name: "SHEET KING 400 TC DOVE SILKY 4 PCS",
     mall: "24-Yanbu Dana Mall",
     quantity: 3,
     lastSaleDate: "2024-08-05"
@@ -87379,13 +72763,6 @@ const oldData = [
     mall: "36-Al jubail Mall",
     quantity: 2,
     lastSaleDate: "2025-01-08"
-  },
-  {
-    code: "20382",
-    name: "SHEET KING 400 TC DOVE SILKY 4 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 2,
-    lastSaleDate: "2025-04-27"
   },
   {
     code: "20382",
@@ -87703,13 +73080,6 @@ const oldData = [
     lastSaleDate: "2024-09-25"
   },
   {
-    code: "20826",
-    name: "SHEET KING 400 TC ILLUSION BLUE COOL 4 PCS",
-    mall: "48 - Jeddah Park",
-    quantity: 1,
-    lastSaleDate: "2025-01-13"
-  },
-  {
     code: "20825",
     name: "SHEET KING 400 TC LUNAR ROCK  COOL 4 PCS",
     mall: "04-Andalos Mall",
@@ -87743,13 +73113,6 @@ const oldData = [
     mall: "16-Ehsa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2024-12-20"
-  },
-  {
-    code: "20825",
-    name: "SHEET KING 400 TC LUNAR ROCK  COOL 4 PCS",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 1,
-    lastSaleDate: "2024-08-27"
   },
   {
     code: "20825",
@@ -87999,13 +73362,6 @@ const oldData = [
   {
     code: "20904",
     name: "SHEET KING DITSY FLORAL GREEN ALLOVER 400 STITCH 4 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "20904",
-    name: "SHEET KING DITSY FLORAL GREEN ALLOVER 400 STITCH 4 PCS",
     mall: "39-Salam Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-11"
@@ -88104,9 +73460,9 @@ const oldData = [
   {
     code: "20818",
     name: "SHEET KING GREY RING 400 STITCH 4 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 8,
-    lastSaleDate: "2025-04-23"
+    mall: "39-Salam Mall Riyadh",
+    quantity: 3,
+    lastSaleDate: "2025-01-11"
   },
   {
     code: "20818",
@@ -88391,13 +73747,6 @@ const oldData = [
   {
     code: "20721",
     name: "SHEET KING JACQUARD 300 STITSH 4 PCS WHITE STYLE4",
-    mall: "09-Al-Salam Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "20721",
-    name: "SHEET KING JACQUARD 300 STITSH 4 PCS WHITE STYLE4",
     mall: "13-Al-Yasmin Mall",
     quantity: 1,
     lastSaleDate: "2024-06-09"
@@ -88573,13 +73922,6 @@ const oldData = [
   {
     code: "20821",
     name: "SHEET KING JERSEY HEATHER GREY 4 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "20821",
-    name: "SHEET KING JERSEY HEATHER GREY 4 PCS",
     mall: "15-Riyadh Othaim Mall",
     quantity: 5,
     lastSaleDate: "2025-03-29"
@@ -88667,13 +74009,6 @@ const oldData = [
     mall: "45- Riyadh Gallery Mall",
     quantity: 2,
     lastSaleDate: "2025-03-09"
-  },
-  {
-    code: "20821",
-    name: "SHEET KING JERSEY HEATHER GREY 4 PCS",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 5,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "20821",
@@ -88856,13 +74191,6 @@ const oldData = [
     mall: "32-Atyaf Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2025-01-30"
-  },
-  {
-    code: "20822",
-    name: "SHEET KING JERSEY STRIPE OATMEAL 4 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 5,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "20822",
@@ -89150,13 +74478,6 @@ const oldData = [
     mall: "30-Tala Mall Riyadh",
     quantity: 5,
     lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23172",
-    name: "SHEET KING PLATINUM GREY 800 TC 4 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "23172",
@@ -89518,13 +74839,6 @@ const oldData = [
   {
     code: "20727",
     name: "SHEET KING SATEEN STRIPE 300 STITSH 4 PCS WHITE STYLE12",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 9,
-    lastSaleDate: "2024-09-28"
-  },
-  {
-    code: "20727",
-    name: "SHEET KING SATEEN STRIPE 300 STITSH 4 PCS WHITE STYLE12",
     mall: "18-Al_Khayyat Center",
     quantity: 10,
     lastSaleDate: "2023-04-16"
@@ -89826,13 +75140,6 @@ const oldData = [
   {
     code: "20919",
     name: "SHEET KING SOFT & COZY CURDLE DUD 4 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2024-05-19"
-  },
-  {
-    code: "20919",
-    name: "SHEET KING SOFT & COZY CURDLE DUD 4 PCS",
     mall: "49-AlAhsa Mall",
     quantity: 1,
     lastSaleDate: "2024-05-01"
@@ -89934,13 +75241,6 @@ const oldData = [
     mall: "04-Andalos Mall",
     quantity: 2,
     lastSaleDate: "2023-05-22"
-  },
-  {
-    code: "20420",
-    name: "SHEET KING SOLID DAMASK KING BURGUNDY 4 PCS 500 TC",
-    mall: "06-Red Sea Mall",
-    quantity: 8,
-    lastSaleDate: "2025-01-14"
   },
   {
     code: "20420",
@@ -90358,13 +75658,6 @@ const oldData = [
   {
     code: "20416",
     name: "SHEET KING SOLID DAMASK KING IVORY 4 PCS 500 TC",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 6,
-    lastSaleDate: "2025-03-17"
-  },
-  {
-    code: "20416",
-    name: "SHEET KING SOLID DAMASK KING IVORY 4 PCS 500 TC",
     mall: "29-Al Nakheel Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-14"
@@ -90389,13 +75682,6 @@ const oldData = [
     mall: "38-Al_Riyadh Park",
     quantity: 2,
     lastSaleDate: "2024-12-02"
-  },
-  {
-    code: "20416",
-    name: "SHEET KING SOLID DAMASK KING IVORY 4 PCS 500 TC",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "20416",
@@ -90571,13 +75857,6 @@ const oldData = [
     mall: "12-Al_Hamra Mall",
     quantity: 1,
     lastSaleDate: "2023-08-18"
-  },
-  {
-    code: "20421",
-    name: "SHEET KING SOLID DAMASK KING TAUPE 4 PCS 500 TC",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-17"
   },
   {
     code: "20421",
@@ -91082,13 +76361,6 @@ const oldData = [
     mall: "25-Rabwa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2023-03-07"
-  },
-  {
-    code: "20410",
-    name: "SHEET KING STRIPE DAMASK KING GREY 4 PCS 500 TC",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 4,
-    lastSaleDate: "2025-03-10"
   },
   {
     code: "20410",
@@ -91772,20 +77044,6 @@ const oldData = [
   {
     code: "20815",
     name: "SHEET KING TETURY MEADOW 220 STITCH 3 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 3,
-    lastSaleDate: "2023-04-19"
-  },
-  {
-    code: "20815",
-    name: "SHEET KING TETURY MEADOW 220 STITCH 3 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 1,
-    lastSaleDate: "2023-04-19"
-  },
-  {
-    code: "20815",
-    name: "SHEET KING TETURY MEADOW 220 STITCH 3 PCS",
     mall: "22-Tabuk Park",
     quantity: 3,
     lastSaleDate: "2024-12-05"
@@ -91824,83 +77082,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 1,
     lastSaleDate: "2025-03-13"
-  },
-  {
-    code: "23170",
-    name: "SHEET KING WHITE 800 TC 4 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 4,
-    lastSaleDate: "2025-01-24"
-  },
-  {
-    code: "23170",
-    name: "SHEET KING WHITE 800 TC 4 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 4,
-    lastSaleDate: "2025-02-15"
-  },
-  {
-    code: "23170",
-    name: "SHEET KING WHITE 800 TC 4 PCS",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "23170",
-    name: "SHEET KING WHITE 800 TC 4 PCS",
-    mall: "23-Alia Mall Madinah",
-    quantity: 5,
-    lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "23170",
-    name: "SHEET KING WHITE 800 TC 4 PCS",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 8,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "23170",
-    name: "SHEET KING WHITE 800 TC 4 PCS",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-03-09"
-  },
-  {
-    code: "23170",
-    name: "SHEET KING WHITE 800 TC 4 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 6,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "23170",
-    name: "SHEET KING WHITE 800 TC 4 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23170",
-    name: "SHEET KING WHITE 800 TC 4 PCS",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23170",
-    name: "SHEET KING WHITE 800 TC 4 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 7,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23170",
-    name: "SHEET KING WHITE 800 TC 4 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 2,
-    lastSaleDate: "2025-03-27"
   },
   {
     code: "15112",
@@ -92029,20 +77210,6 @@ const oldData = [
     lastSaleDate: "2024-12-25"
   },
   {
-    code: "23907",
-    name: "SHELL 2 EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "22-Tabuk Park",
-    quantity: 11,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "23907",
-    name: "SHELL 2 EMBROIDERED TOWEL WAVE SET 3 PCS",
-    mall: "48 - Jeddah Park",
-    quantity: 17,
-    lastSaleDate: "2025-04-29"
-  },
-  {
     code: "22940",
     name: "SHELL EMBROIDERED TOWEL WAVE SET 3 PCS",
     mall: "04-Andalos Mall",
@@ -92111,20 +77278,6 @@ const oldData = [
     mall: "54-THE VILLAGE",
     quantity: 1,
     lastSaleDate: "2025-02-11"
-  },
-  {
-    code: "23901",
-    name: "SHELL EMBROIDERED TOWEL WAVE SET 3PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "23901",
-    name: "SHELL EMBROIDERED TOWEL WAVE SET 3PCS",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 19,
-    lastSaleDate: "2025-04-18"
   },
   {
     code: "14232",
@@ -92204,34 +77357,6 @@ const oldData = [
     lastSaleDate: "2022-12-16"
   },
   {
-    code: "13610",
-    name: "SILVER DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
-    mall: "17-Arar Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2023-11-24"
-  },
-  {
-    code: "13610",
-    name: "SILVER DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 4,
-    lastSaleDate: "2024-11-10"
-  },
-  {
-    code: "13610",
-    name: "SILVER DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 2,
-    lastSaleDate: "2024-09-11"
-  },
-  {
-    code: "13610",
-    name: "SILVER DAMASK  FULL COMFORTER 4 PCS 500 STITSH - 13607",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 4,
-    lastSaleDate: "2025-01-05"
-  },
-  {
     code: "12261",
     name: "SILVER DAMASK DUVET 4 PCS KING 500 STITCH",
     mall: "15-Riyadh Othaim Mall",
@@ -92265,13 +77390,6 @@ const oldData = [
     mall: "09-Al-Salam Mall",
     quantity: 9,
     lastSaleDate: "2025-02-05"
-  },
-  {
-    code: "12261",
-    name: "SILVER DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "14-Al Kamal Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-19"
   },
   {
     code: "12261",
@@ -92332,23 +77450,9 @@ const oldData = [
   {
     code: "12261",
     name: "SILVER DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "48 - Jeddah Park",
-    quantity: 5,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "12261",
-    name: "SILVER DAMASK DUVET 4 PCS KING 500 STITCH",
     mall: "49-AlAhsa Mall",
     quantity: 1,
     lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "12261",
-    name: "SILVER DAMASK DUVET 4 PCS KING 500 STITCH",
-    mall: "52-Al_Baha Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-07"
   },
   {
     code: "12261",
@@ -92370,13 +77474,6 @@ const oldData = [
     mall: "56- Aziz Mall 2",
     quantity: 9,
     lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "22947",
-    name: "SILVER DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "12-Al_Hamra Mall",
-    quantity: 3,
-    lastSaleDate: "2024-11-26"
   },
   {
     code: "22947",
@@ -92416,20 +77513,6 @@ const oldData = [
   {
     code: "22947",
     name: "SILVER DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "12-Al_Hamra Mall",
-    quantity: 5,
-    lastSaleDate: "2024-11-26"
-  },
-  {
-    code: "22947",
-    name: "SILVER DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 7,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "22947",
-    name: "SILVER DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     mall: "15-Riyadh Othaim Mall",
     quantity: 6,
     lastSaleDate: "2025-04-11"
@@ -92440,13 +77523,6 @@ const oldData = [
     mall: "16-Ehsa Othaim Mall",
     quantity: 8,
     lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "22947",
-    name: "SILVER DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-02-27"
   },
   {
     code: "22947",
@@ -92556,13 +77632,6 @@ const oldData = [
   {
     code: "22947",
     name: "SILVER DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 6,
-    lastSaleDate: "2025-02-21"
-  },
-  {
-    code: "22947",
-    name: "SILVER DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     mall: "57-Sauq7",
     quantity: 5,
     lastSaleDate: "2024-07-20"
@@ -92598,27 +77667,6 @@ const oldData = [
   {
     code: "13498",
     name: "SILVER DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "08-Makkah Mall",
-    quantity: 5,
-    lastSaleDate: "2024-12-07"
-  },
-  {
-    code: "13498",
-    name: "SILVER DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 3,
-    lastSaleDate: "2025-02-25"
-  },
-  {
-    code: "13498",
-    name: "SILVER DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 3,
-    lastSaleDate: "2025-03-16"
-  },
-  {
-    code: "13498",
-    name: "SILVER DAMASK KING COMFORTER 500 TC 6 PCS",
     mall: "44-Al-Jouf Center",
     quantity: 2,
     lastSaleDate: "2024-09-16"
@@ -92636,13 +77684,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 2,
     lastSaleDate: "2025-01-31"
-  },
-  {
-    code: "13498",
-    name: "SILVER DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2024-05-27"
   },
   {
     code: "17281",
@@ -92699,90 +77740,6 @@ const oldData = [
     mall: "48 - Jeddah Park",
     quantity: 4,
     lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "22635",
-    name: "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
-    mall: "07-Arab Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-13"
-  },
-  {
-    code: "22635",
-    name: "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "22635",
-    name: "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "22635",
-    name: "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
-    mall: "17-Arar Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "22635",
-    name: "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-03-04"
-  },
-  {
-    code: "22635",
-    name: "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
-    mall: "23-Alia Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "22635",
-    name: "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "22635",
-    name: "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-09"
-  },
-  {
-    code: "22635",
-    name: "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 2,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "22635",
-    name: "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
-    mall: "43-Mujan Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "22635",
-    name: "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
-    mall: "55- Jabl Omar",
-    quantity: 9,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "22635",
-    name: "SILVER GREY SHEET 3 PCS 300 STITSH FULL",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-03-27"
   },
   {
     code: "11633",
@@ -93025,13 +77982,6 @@ const oldData = [
   {
     code: "20979",
     name: "SLIPPER BE - 53 BROWN 36/37",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2024-08-30"
-  },
-  {
-    code: "20979",
-    name: "SLIPPER BE - 53 BROWN 36/37",
     mall: "15-Riyadh Othaim Mall",
     quantity: 2,
     lastSaleDate: "2023-07-03"
@@ -93168,13 +78118,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 1,
     lastSaleDate: "2023-04-17"
-  },
-  {
-    code: "20989",
-    name: "SLIPPER BE - 54 GREEN 38/39",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2023-02-28"
   },
   {
     code: "20982",
@@ -94376,13 +79319,6 @@ const oldData = [
   {
     code: "21160",
     name: "SLIPPER KD 1 GREY 24-25",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 1,
-    lastSaleDate: "2023-12-12"
-  },
-  {
-    code: "21160",
-    name: "SLIPPER KD 1 GREY 24-25",
     mall: "44-Al-Jouf Center",
     quantity: 2,
     lastSaleDate: "2025-01-27"
@@ -94442,13 +79378,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 2,
     lastSaleDate: "2023-12-28"
-  },
-  {
-    code: "21182",
-    name: "SLIPPER KD 10 BROWN 26-27",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "21182",
@@ -94526,20 +79455,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 1,
     lastSaleDate: "2025-02-15"
-  },
-  {
-    code: "21164",
-    name: "SLIPPER KD 2 GREY 26-27",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 1,
-    lastSaleDate: "2024-04-07"
-  },
-  {
-    code: "21164",
-    name: "SLIPPER KD 2 GREY 26-27",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "21106",
@@ -94941,13 +79856,6 @@ const oldData = [
     lastSaleDate: "2024-06-21"
   },
   {
-    code: "21146",
-    name: "SLIPPER KD 9 GREY 26-27",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 7,
-    lastSaleDate: "2024-05-31"
-  },
-  {
     code: "21148",
     name: "SLIPPER KD 9 ORANGE 24-25",
     mall: "52-Al_Baha Mall",
@@ -95002,202 +79910,6 @@ const oldData = [
     mall: "32-Atyaf Mall Riyadh",
     quantity: 1,
     lastSaleDate: "2020-12-03"
-  },
-  {
-    code: "14228",
-    name: "SLIT KING 3 PCS 300 STITSH",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "14228",
-    name: "SLIT KING 3 PCS 300 STITSH",
-    mall: "05-Haifa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "14228",
-    name: "SLIT KING 3 PCS 300 STITSH",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "14228",
-    name: "SLIT KING 3 PCS 300 STITSH",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 10,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "14228",
-    name: "SLIT KING 3 PCS 300 STITSH",
-    mall: "36-Al jubail Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "14228",
-    name: "SLIT KING 3 PCS 300 STITSH",
-    mall: "52-Al_Baha Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "14228",
-    name: "SLIT KING 3 PCS 300 STITSH",
-    mall: "05-Haifa Mall",
-    quantity: 10,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "14228",
-    name: "SLIT KING 3 PCS 300 STITSH",
-    mall: "55- Jabl Omar",
-    quantity: 10,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 24,
-    lastSaleDate: "2024-04-05"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-31"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 9,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2025-01-31"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 31,
-    lastSaleDate: "2024-11-12"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "49-AlAhsa Mall",
-    quantity: 9,
-    lastSaleDate: "2024-10-27"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 12,
-    lastSaleDate: "2025-01-31"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "05-Haifa Mall",
-    quantity: 12,
-    lastSaleDate: "2024-11-21"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 12,
-    lastSaleDate: "2025-01-08"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 12,
-    lastSaleDate: "2024-06-18"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 12,
-    lastSaleDate: "2025-01-31"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "20-Sitten Street Makkah",
-    quantity: 12,
-    lastSaleDate: "2024-05-21"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 12,
-    lastSaleDate: "2024-10-11"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 12,
-    lastSaleDate: "2024-10-15"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "43-Mujan Park",
-    quantity: 12,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2024-04-05"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 6,
-    lastSaleDate: "2024-01-25"
-  },
-  {
-    code: "20038",
-    name: "SLIT PILLOW CASES KING 2 PCS",
-    mall: "57-Sauq7",
-    quantity: 6,
-    lastSaleDate: "2024-07-24"
   },
   {
     code: "20058",
@@ -95279,16 +79991,16 @@ const oldData = [
   {
     code: "22881",
     name: "SMOOSHIE TOY",
-    mall: "12-Al_Hamra Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-21"
+    mall: "13-Al-Yasmin Mall",
+    quantity: 4,
+    lastSaleDate: "2025-03-23"
   },
   {
     code: "22881",
     name: "SMOOSHIE TOY",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-23"
+    mall: "18-Al_Khayyat Center",
+    quantity: 3,
+    lastSaleDate: "2024-10-23"
   },
   {
     code: "22881",
@@ -95338,27 +80050,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 2,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "22881",
-    name: "SMOOSHIE TOY",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "22881",
-    name: "SMOOSHIE TOY",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 9,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "22881",
-    name: "SMOOSHIE TOY",
-    mall: "48 - Jeddah Park",
-    quantity: 6,
-    lastSaleDate: "2025-04-10"
   },
   {
     code: "22881",
@@ -95496,13 +80187,6 @@ const oldData = [
   {
     code: "22884",
     name: "SO SOFT OMBRE FROM LIGHT BLUE TO BLUE KING COMFORTER 3 PCS",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "22884",
-    name: "SO SOFT OMBRE FROM LIGHT BLUE TO BLUE KING COMFORTER 3 PCS",
     mall: "27-Dhahran Mall khobar",
     quantity: 2,
     lastSaleDate: "2025-04-19"
@@ -95538,13 +80222,6 @@ const oldData = [
   {
     code: "22884",
     name: "SO SOFT OMBRE FROM LIGHT BLUE TO BLUE KING COMFORTER 3 PCS",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "22884",
-    name: "SO SOFT OMBRE FROM LIGHT BLUE TO BLUE KING COMFORTER 3 PCS",
     mall: "47-Al-Nakheel Plaza",
     quantity: 2,
     lastSaleDate: "2025-03-31"
@@ -95569,125 +80246,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 7,
     lastSaleDate: "2025-03-16"
-  },
-  {
-    code: "22884",
-    name: "SO SOFT OMBRE FROM LIGHT BLUE TO BLUE KING COMFORTER 3 PCS",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "04-Andalos Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "11-Jouri Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-08"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 2,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-02-24"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "43-Mujan Park",
-    quantity: 14,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-02-25"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 1,
-    lastSaleDate: "2025-03-02"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-02-17"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2025-02-05"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 3,
-    lastSaleDate: "2025-04-17"
-  },
-  {
-    code: "22882",
-    name: "SO SOFT OMBRE FROM LIGHT PINK TO PINK KING COMFORTER 3 PCS",
-    mall: "57-Sauq7",
-    quantity: 3,
-    lastSaleDate: "2025-03-19"
   },
   {
     code: "22802",
@@ -95741,13 +80299,6 @@ const oldData = [
   {
     code: "22801",
     name: "SO SOFT OMBRE FROM WHITE TO YELLOW KING COMFORTER 3 PCS",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "22801",
-    name: "SO SOFT OMBRE FROM WHITE TO YELLOW KING COMFORTER 3 PCS",
     mall: "52-Al_Baha Mall",
     quantity: 4,
     lastSaleDate: "2025-02-14"
@@ -95755,9 +80306,9 @@ const oldData = [
   {
     code: "22801",
     name: "SO SOFT OMBRE FROM WHITE TO YELLOW KING COMFORTER 3 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2025-01-18"
+    mall: "57-Sauq7",
+    quantity: 1,
+    lastSaleDate: "2025-02-28"
   },
   {
     code: "15436",
@@ -95942,48 +80493,6 @@ const oldData = [
     lastSaleDate: "2024-07-30"
   },
   {
-    code: "23237",
-    name: "SOLID GOLD WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "23237",
-    name: "SOLID GOLD WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-02-21"
-  },
-  {
-    code: "23237",
-    name: "SOLID GOLD WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 1,
-    lastSaleDate: "2025-03-07"
-  },
-  {
-    code: "23237",
-    name: "SOLID GOLD WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "44-Al-Jouf Center",
-    quantity: 5,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23237",
-    name: "SOLID GOLD WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 2,
-    lastSaleDate: "2025-01-30"
-  },
-  {
-    code: "23237",
-    name: "SOLID GOLD WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "53-Al Basateen Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-15"
-  },
-  {
     code: "23061",
     name: "SOLID GOLD WM TUMBER WITH STRAW 24 OZ",
     mall: "43-Mujan Park",
@@ -96077,44 +80586,9 @@ const oldData = [
   {
     code: "22916",
     name: "SOLID ORANGE WM LEAK PROOF WATER BOTTEL 20 OZ",
-    mall: "48 - Jeddah Park",
-    quantity: 4,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "22916",
-    name: "SOLID ORANGE WM LEAK PROOF WATER BOTTEL 20 OZ",
     mall: "27-Dhahran Mall khobar",
     quantity: 2,
     lastSaleDate: "2024-12-18"
-  },
-  {
-    code: "22923",
-    name: "SOLID ORANGE WM TUMBER WITH STRAW 24 OZ",
-    mall: "23-Alia Mall Madinah",
-    quantity: 5,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "22923",
-    name: "SOLID ORANGE WM TUMBER WITH STRAW 24 OZ",
-    mall: "48 - Jeddah Park",
-    quantity: 1,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22923",
-    name: "SOLID ORANGE WM TUMBER WITH STRAW 24 OZ",
-    mall: "52-Al_Baha Mall",
-    quantity: 29,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "22923",
-    name: "SOLID ORANGE WM TUMBER WITH STRAW 24 OZ",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2024-08-23"
   },
   {
     code: "23235",
@@ -96131,20 +80605,6 @@ const oldData = [
     lastSaleDate: "2024-07-12"
   },
   {
-    code: "23881",
-    name: "SOLID VELVETLOFT ORCHID BLOOM 60*70 THROW",
-    mall: "17-Arar Othaim Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23883",
-    name: "SOLID VELVETLOFT PINK LADY 60*70 THROW",
-    mall: "52-Al_Baha Mall",
-    quantity: 8,
-    lastSaleDate: "2025-04-25"
-  },
-  {
     code: "22924",
     name: "SOLID WHITE WM TUMBER WITH STRAW 24 OZ",
     mall: "48 - Jeddah Park",
@@ -96157,13 +80617,6 @@ const oldData = [
     mall: "45- Riyadh Gallery Mall",
     quantity: 2,
     lastSaleDate: "2024-09-05"
-  },
-  {
-    code: "21723",
-    name: "SOPHIA TURKISH COFFEE SET 6 PCS 90 ML CS-023",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-10"
   },
   {
     code: "21723",
@@ -96199,83 +80652,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 1,
     lastSaleDate: "2024-09-20"
-  },
-  {
-    code: "22596",
-    name: "SPEED PEARL LINEN KING 3 PCS 300 STITSH",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 10,
-    lastSaleDate: "2024-09-01"
-  },
-  {
-    code: "22494",
-    name: "SPEED PEARL LINEN SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "17-Arar Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2025-02-16"
-  },
-  {
-    code: "22494",
-    name: "SPEED PEARL LINEN SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "20-Sitten Street Makkah",
-    quantity: 8,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "22494",
-    name: "SPEED PEARL LINEN SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 2,
-    lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "22494",
-    name: "SPEED PEARL LINEN SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "23-Alia Mall Madinah",
-    quantity: 2,
-    lastSaleDate: "2024-11-29"
-  },
-  {
-    code: "22494",
-    name: "SPEED PEARL LINEN SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 1,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "22494",
-    name: "SPEED PEARL LINEN SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "22494",
-    name: "SPEED PEARL LINEN SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "48 - Jeddah Park",
-    quantity: 13,
-    lastSaleDate: "2025-03-18"
-  },
-  {
-    code: "22494",
-    name: "SPEED PEARL LINEN SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "53-Al Basateen Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "22494",
-    name: "SPEED PEARL LINEN SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 5,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "22494",
-    name: "SPEED PEARL LINEN SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 21,
-    lastSaleDate: "2025-04-11"
   },
   {
     code: "20355",
@@ -96525,13 +80901,6 @@ const oldData = [
   {
     code: "20353",
     name: "SPOONS BAG 18 PCS SILVER DC-001",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-29"
-  },
-  {
-    code: "20353",
-    name: "SPOONS BAG 18 PCS SILVER DC-001",
     mall: "11-Jouri Mall",
     quantity: 6,
     lastSaleDate: "2024-03-27"
@@ -96768,195 +81137,6 @@ const oldData = [
     lastSaleDate: "2025-03-26"
   },
   {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "49-AlAhsa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-05"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2024-09-27"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "27-Dhahran Mall khobar",
-    quantity: 3,
-    lastSaleDate: "2024-11-11"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "38-Al_Riyadh Park",
-    quantity: 1,
-    lastSaleDate: "2024-12-26"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 3,
-    lastSaleDate: "2024-12-21"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 1,
-    lastSaleDate: "2024-10-05"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "05-Haifa Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "06-Red Sea Mall",
-    quantity: 7,
-    lastSaleDate: "2025-03-13"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "07-Arab Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-12"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "09-Al-Salam Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "11-Jouri Mall",
-    quantity: 3,
-    lastSaleDate: "2025-01-17"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 2,
-    lastSaleDate: "2025-01-30"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "14-Al Kamal Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "17-Arar Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-02-15"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 12,
-    lastSaleDate: "2025-01-17"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "22-Tabuk Park",
-    quantity: 8,
-    lastSaleDate: "2025-01-11"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 3,
-    lastSaleDate: "2025-02-21"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 3,
-    lastSaleDate: "2025-01-29"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "43-Mujan Park",
-    quantity: 3,
-    lastSaleDate: "2025-02-15"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "44-Al-Jouf Center",
-    quantity: 4,
-    lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2024-09-27"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "48 - Jeddah Park",
-    quantity: 6,
-    lastSaleDate: "2025-01-31"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "52-Al_Baha Mall",
-    quantity: 12,
-    lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "54-THE VILLAGE",
-    quantity: 2,
-    lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "54-THE VILLAGE",
-    quantity: 1,
-    lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "16892",
-    name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM",
-    mall: "57-Sauq7",
-    quantity: 3,
-    lastSaleDate: "2025-02-19"
-  },
-  {
     code: "20781",
     name: "SPRAY CHERRY FRESHENER COCODOR 500 ML ROOM 2",
     mall: "08-Makkah Mall",
@@ -97027,34 +81207,6 @@ const oldData = [
     lastSaleDate: "2025-03-17"
   },
   {
-    code: "24040",
-    name: "SQUARE TOWELS 30X30 CM AIR-RICH RICH BLACK",
-    mall: "12-Al_Hamra Mall",
-    quantity: 76,
-    lastSaleDate: "2025-04-15"
-  },
-  {
-    code: "24040",
-    name: "SQUARE TOWELS 30X30 CM AIR-RICH RICH BLACK",
-    mall: "20-Sitten Street Makkah",
-    quantity: 82,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "24039",
-    name: "SQUARE TOWELS 30X30 CM AIR-RICH ROSE PINK",
-    mall: "44-Al-Jouf Center",
-    quantity: 83,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "24039",
-    name: "SQUARE TOWELS 30X30 CM AIR-RICH ROSE PINK",
-    mall: "52-Al_Baha Mall",
-    quantity: 39,
-    lastSaleDate: "2025-04-24"
-  },
-  {
     code: "14422",
     name: "SQUARE TOWELS AIR-RICH BLUE HAZE",
     mall: "44-Al-Jouf Center",
@@ -97090,25 +81242,11 @@ const oldData = [
     lastSaleDate: "2024-09-10"
   },
   {
-    code: "12383",
-    name: "SQUARE TOWELS AIR-RICH IVORY",
-    mall: "52-Al_Baha Mall",
-    quantity: 60,
-    lastSaleDate: "2025-03-22"
-  },
-  {
     code: "22370",
     name: "SQUARE TOWELS AIR-RICH LAUREL WREATH",
     mall: "12-Al_Hamra Mall",
     quantity: 84,
     lastSaleDate: "2024-06-22"
-  },
-  {
-    code: "22370",
-    name: "SQUARE TOWELS AIR-RICH LAUREL WREATH",
-    mall: "17-Arar Othaim Mall",
-    quantity: 23,
-    lastSaleDate: "2025-04-19"
   },
   {
     code: "22370",
@@ -97181,174 +81319,6 @@ const oldData = [
     lastSaleDate: "2025-02-07"
   },
   {
-    code: "12385",
-    name: "SQUARE TOWELS AIR-RICH LINEN",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 72,
-    lastSaleDate: "2024-12-28"
-  },
-  {
-    code: "12385",
-    name: "SQUARE TOWELS AIR-RICH LINEN",
-    mall: "53-Al Basateen Mall",
-    quantity: 42,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "12385",
-    name: "SQUARE TOWELS AIR-RICH LINEN",
-    mall: "53-Al Basateen Mall",
-    quantity: 24,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "20759",
-    name: "SQUARE TOWELS AIR-RICH NAVY",
-    mall: "12-Al_Hamra Mall",
-    quantity: 77,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "20759",
-    name: "SQUARE TOWELS AIR-RICH NAVY",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 48,
-    lastSaleDate: "2024-01-31"
-  },
-  {
-    code: "20759",
-    name: "SQUARE TOWELS AIR-RICH NAVY",
-    mall: "44-Al-Jouf Center",
-    quantity: 60,
-    lastSaleDate: "2024-09-20"
-  },
-  {
-    code: "20759",
-    name: "SQUARE TOWELS AIR-RICH NAVY",
-    mall: "52-Al_Baha Mall",
-    quantity: 60,
-    lastSaleDate: "2024-01-26"
-  },
-  {
-    code: "20759",
-    name: "SQUARE TOWELS AIR-RICH NAVY",
-    mall: "53-Al Basateen Mall",
-    quantity: 24,
-    lastSaleDate: "2024-06-12"
-  },
-  {
-    code: "16057",
-    name: "SQUARE TOWELS AIR-RICH OYSTER MUSHROOM",
-    mall: "52-Al_Baha Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "16057",
-    name: "SQUARE TOWELS AIR-RICH OYSTER MUSHROOM",
-    mall: "52-Al_Baha Mall",
-    quantity: 60,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "12393",
-    name: "SQUARE TOWELS AIR-RICH P.BLUE",
-    mall: "12-Al_Hamra Mall",
-    quantity: 74,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "12393",
-    name: "SQUARE TOWELS AIR-RICH P.BLUE",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "12393",
-    name: "SQUARE TOWELS AIR-RICH P.BLUE",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 15,
-    lastSaleDate: "2025-02-25"
-  },
-  {
-    code: "12393",
-    name: "SQUARE TOWELS AIR-RICH P.BLUE",
-    mall: "26-Al-Noor Mall Madinah",
-    quantity: 2,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "12393",
-    name: "SQUARE TOWELS AIR-RICH P.BLUE",
-    mall: "48 - Jeddah Park",
-    quantity: 4,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "12393",
-    name: "SQUARE TOWELS AIR-RICH P.BLUE",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "12393",
-    name: "SQUARE TOWELS AIR-RICH P.BLUE",
-    mall: "53-Al Basateen Mall",
-    quantity: 16,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "12391",
-    name: "SQUARE TOWELS AIR-RICH PINK",
-    mall: "19-Hail Othaim Mall",
-    quantity: 11,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "12391",
-    name: "SQUARE TOWELS AIR-RICH PINK",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 47,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "12391",
-    name: "SQUARE TOWELS AIR-RICH PINK",
-    mall: "19-Hail Othaim Mall",
-    quantity: 24,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "22376",
-    name: "SQUARE TOWELS AIR-RICH PRIMROSE YELLOW",
-    mall: "17-Arar Othaim Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "22376",
-    name: "SQUARE TOWELS AIR-RICH PRIMROSE YELLOW",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-08"
-  },
-  {
-    code: "22376",
-    name: "SQUARE TOWELS AIR-RICH PRIMROSE YELLOW",
-    mall: "17-Arar Othaim Mall",
-    quantity: 24,
-    lastSaleDate: "2025-03-24"
-  },
-  {
-    code: "22376",
-    name: "SQUARE TOWELS AIR-RICH PRIMROSE YELLOW",
-    mall: "53-Al Basateen Mall",
-    quantity: 36,
-    lastSaleDate: "2025-04-08"
-  },
-  {
     code: "12396",
     name: "SQUARE TOWELS AIR-RICH ROSE",
     mall: "50-Meem Plaza Riyadh",
@@ -97414,13 +81384,6 @@ const oldData = [
   {
     code: "12394",
     name: "SQUARE TOWELS AIR-RICH TITANIUM",
-    mall: "12-Al_Hamra Mall",
-    quantity: 70,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "12394",
-    name: "SQUARE TOWELS AIR-RICH TITANIUM",
     mall: "17-Arar Othaim Mall",
     quantity: 100,
     lastSaleDate: "2025-04-11"
@@ -97459,13 +81422,6 @@ const oldData = [
     mall: "53-Al Basateen Mall",
     quantity: 24,
     lastSaleDate: "2025-02-21"
-  },
-  {
-    code: "12384",
-    name: "SQUARE TOWELS AIR-RICH WHITE",
-    mall: "52-Al_Baha Mall",
-    quantity: 60,
-    lastSaleDate: "2025-02-26"
   },
   {
     code: "21678",
@@ -97522,13 +81478,6 @@ const oldData = [
     mall: "22-Tabuk Park",
     quantity: 2,
     lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "16908",
-    name: "STANDARD PILLOW DREAM COMFORT 300TC",
-    mall: "55- Jabl Omar",
-    quantity: 10,
-    lastSaleDate: "2025-04-05"
   },
   {
     code: "22520",
@@ -97643,34 +81592,6 @@ const oldData = [
     lastSaleDate: "2024-12-21"
   },
   {
-    code: "20059",
-    name: "STERLING BLUE SHEET 3 PCS 300 STITSH FULL",
-    mall: "17-Arar Othaim Mall",
-    quantity: 7,
-    lastSaleDate: "2022-12-02"
-  },
-  {
-    code: "20059",
-    name: "STERLING BLUE SHEET 3 PCS 300 STITSH FULL",
-    mall: "44-Al-Jouf Center",
-    quantity: 3,
-    lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "20059",
-    name: "STERLING BLUE SHEET 3 PCS 300 STITSH FULL",
-    mall: "53-Al Basateen Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "20059",
-    name: "STERLING BLUE SHEET 3 PCS 300 STITSH FULL",
-    mall: "55- Jabl Omar",
-    quantity: 8,
-    lastSaleDate: "2025-04-17"
-  },
-  {
     code: "20045",
     name: "STERLING BLUE SHEET 3 PCS 300 STITSH QUEEN",
     mall: "17-Arar Othaim Mall",
@@ -97694,13 +81615,6 @@ const oldData = [
   {
     code: "20045",
     name: "STERLING BLUE SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 9,
-    lastSaleDate: "2025-02-05"
-  },
-  {
-    code: "20045",
-    name: "STERLING BLUE SHEET 3 PCS 300 STITSH QUEEN",
     mall: "20-Sitten Street Makkah",
     quantity: 1,
     lastSaleDate: "2024-11-11"
@@ -97711,104 +81625,6 @@ const oldData = [
     mall: "51-Park Avenue Riyadh",
     quantity: 1,
     lastSaleDate: "2025-01-12"
-  },
-  {
-    code: "20045",
-    name: "STERLING BLUE SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "55- Jabl Omar",
-    quantity: 5,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "12-Al_Hamra Mall",
-    quantity: 4,
-    lastSaleDate: "2025-01-20"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 9,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "15-Riyadh Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-29"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 16,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "19-Hail Othaim Mall",
-    quantity: 10,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "49-AlAhsa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-08"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 7,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-13"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "56- Aziz Mall 2",
-    quantity: 12,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "20030",
-    name: "STERLING BLUW PILLOW CASES KING 2 PCS",
-    mall: "57-Sauq7",
-    quantity: 4,
-    lastSaleDate: "2025-04-27"
   },
   {
     code: "19848",
@@ -97830,48 +81646,6 @@ const oldData = [
     mall: "21-Abha Al_Rashid Mall New",
     quantity: 1,
     lastSaleDate: "2024-09-24"
-  },
-  {
-    code: "13037",
-    name: "STERLNG BLUE SHEET 3 PCS 300 STITSH KING",
-    mall: "49-AlAhsa Mall",
-    quantity: 6,
-    lastSaleDate: "2025-02-16"
-  },
-  {
-    code: "13037",
-    name: "STERLNG BLUE SHEET 3 PCS 300 STITSH KING",
-    mall: "22-Tabuk Park",
-    quantity: 30,
-    lastSaleDate: "2024-09-15"
-  },
-  {
-    code: "13037",
-    name: "STERLNG BLUE SHEET 3 PCS 300 STITSH KING",
-    mall: "43-Mujan Park",
-    quantity: 10,
-    lastSaleDate: "2025-02-15"
-  },
-  {
-    code: "13037",
-    name: "STERLNG BLUE SHEET 3 PCS 300 STITSH KING",
-    mall: "52-Al_Baha Mall",
-    quantity: 10,
-    lastSaleDate: "2025-01-24"
-  },
-  {
-    code: "13037",
-    name: "STERLNG BLUE SHEET 3 PCS 300 STITSH KING",
-    mall: "53-Al Basateen Mall",
-    quantity: 5,
-    lastSaleDate: "2024-10-08"
-  },
-  {
-    code: "13037",
-    name: "STERLNG BLUE SHEET 3 PCS 300 STITSH KING",
-    mall: "55- Jabl Omar",
-    quantity: 10,
-    lastSaleDate: "2024-12-14"
   },
   {
     code: "13680",
@@ -97967,13 +81741,6 @@ const oldData = [
   {
     code: "23513",
     name: "STRAWBERRY WHITE FULL COMFORTER 8 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23513",
-    name: "STRAWBERRY WHITE FULL COMFORTER 8 PCS",
     mall: "20-Sitten Street Makkah",
     quantity: 1,
     lastSaleDate: "2025-04-07"
@@ -97991,13 +81758,6 @@ const oldData = [
     mall: "36-Al jubail Mall",
     quantity: 2,
     lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "23513",
-    name: "STRAWBERRY WHITE FULL COMFORTER 8 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 12,
-    lastSaleDate: "2025-04-16"
   },
   {
     code: "23513",
@@ -98070,46 +81830,11 @@ const oldData = [
     lastSaleDate: "2024-04-29"
   },
   {
-    code: "20091",
-    name: "STRING BLUE STANDARD PILLOW CASES",
-    mall: "44-Al-Jouf Center",
-    quantity: 25,
-    lastSaleDate: "2025-02-08"
-  },
-  {
-    code: "20091",
-    name: "STRING BLUE STANDARD PILLOW CASES",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 28,
-    lastSaleDate: "2025-03-15"
-  },
-  {
-    code: "20091",
-    name: "STRING BLUE STANDARD PILLOW CASES",
-    mall: "44-Al-Jouf Center",
-    quantity: 12,
-    lastSaleDate: "2025-02-08"
-  },
-  {
-    code: "20091",
-    name: "STRING BLUE STANDARD PILLOW CASES",
-    mall: "53-Al Basateen Mall",
-    quantity: 6,
-    lastSaleDate: "2024-03-18"
-  },
-  {
     code: "20555",
     name: "STRIPE BLUE KING COMFORTER 3 PCS",
     mall: "11-Jouri Mall",
     quantity: 1,
     lastSaleDate: "2024-11-30"
-  },
-  {
-    code: "20555",
-    name: "STRIPE BLUE KING COMFORTER 3 PCS",
-    mall: "19-Hail Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-28"
   },
   {
     code: "20555",
@@ -98147,34 +81872,6 @@ const oldData = [
     lastSaleDate: "2024-11-18"
   },
   {
-    code: "22145",
-    name: "SUB-0 TRIPLE COOLING KING PILLOW",
-    mall: "17-Arar Othaim Mall",
-    quantity: 8,
-    lastSaleDate: "2024-12-03"
-  },
-  {
-    code: "22145",
-    name: "SUB-0 TRIPLE COOLING KING PILLOW",
-    mall: "55- Jabl Omar",
-    quantity: 12,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "22145",
-    name: "SUB-0 TRIPLE COOLING KING PILLOW",
-    mall: "17-Arar Othaim Mall",
-    quantity: 8,
-    lastSaleDate: "2024-12-03"
-  },
-  {
-    code: "22145",
-    name: "SUB-0 TRIPLE COOLING KING PILLOW",
-    mall: "55- Jabl Omar",
-    quantity: 8,
-    lastSaleDate: "2025-04-18"
-  },
-  {
     code: "17162",
     name: "SUGARY 1 PCS TB012-1C",
     mall: "17-Arar Othaim Mall",
@@ -98194,13 +81891,6 @@ const oldData = [
     mall: "12-Al_Hamra Mall",
     quantity: 2,
     lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "21530",
-    name: "SUMMER VIBES 90*170 CM BEACH TOWEL",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-24"
   },
   {
     code: "21530",
@@ -98278,13 +81968,6 @@ const oldData = [
     mall: "06-Red Sea Mall",
     quantity: 1,
     lastSaleDate: "2024-10-01"
-  },
-  {
-    code: "22532",
-    name: "SUNFLOWER KIDS HOODED TOWEL BATH ROBE",
-    mall: "23-Alia Mall Madinah",
-    quantity: 8,
-    lastSaleDate: "2025-03-03"
   },
   {
     code: "20853",
@@ -98434,41 +82117,6 @@ const oldData = [
     lastSaleDate: "2024-01-25"
   },
   {
-    code: "23641",
-    name: "SUPER SOFT CHERRY THROW",
-    mall: "19-Hail Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23641",
-    name: "SUPER SOFT CHERRY THROW",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23634",
-    name: "SUPER SOFT COLOERFUL BOWS THROW",
-    mall: "14-Al Kamal Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "23634",
-    name: "SUPER SOFT COLOERFUL BOWS THROW",
-    mall: "22-Tabuk Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-07"
-  },
-  {
-    code: "23634",
-    name: "SUPER SOFT COLOERFUL BOWS THROW",
-    mall: "44-Al-Jouf Center",
-    quantity: 7,
-    lastSaleDate: "2025-04-11"
-  },
-  {
     code: "23266",
     name: "SUPER SOFT COLOURFUL SHELL PRINTED THROW",
     mall: "27-Dhahran Mall khobar",
@@ -98483,27 +82131,6 @@ const oldData = [
     lastSaleDate: "2024-11-28"
   },
   {
-    code: "23631",
-    name: "SUPER SOFT FLORA AND LEAVES THROW",
-    mall: "05-Haifa Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23631",
-    name: "SUPER SOFT FLORA AND LEAVES THROW",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 1,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23631",
-    name: "SUPER SOFT FLORA AND LEAVES THROW",
-    mall: "55- Jabl Omar",
-    quantity: 21,
-    lastSaleDate: "2025-04-04"
-  },
-  {
     code: "23265",
     name: "SUPER SOFT GAMING PRINTED THROW",
     mall: "04-Andalos Mall",
@@ -98516,34 +82143,6 @@ const oldData = [
     mall: "06-Red Sea Mall",
     quantity: 5,
     lastSaleDate: "2024-11-24"
-  },
-  {
-    code: "23635",
-    name: "SUPER SOFT GAMING THROW",
-    mall: "44-Al-Jouf Center",
-    quantity: 6,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23639",
-    name: "SUPER SOFT MARBLING THROW",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23639",
-    name: "SUPER SOFT MARBLING THROW",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 10,
-    lastSaleDate: "2025-03-23"
-  },
-  {
-    code: "23639",
-    name: "SUPER SOFT MARBLING THROW",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-26"
   },
   {
     code: "22969",
@@ -98574,18 +82173,18 @@ const oldData = [
     lastSaleDate: "2024-12-20"
   },
   {
-    code: "23633",
-    name: "SUPER SOFT OIL PAINTING FLORA THROW",
-    mall: "18-Al_Khayyat Center",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
     code: "22074",
     name: "SUPER SOFT RABBIT & SPRING PRINTED THROW",
     mall: "54-THE VILLAGE",
     quantity: 1,
     lastSaleDate: "2024-07-28"
+  },
+  {
+    code: "23637",
+    name: "SUPER SOFT ROGER SQUARE THROW",
+    mall: "55- Jabl Omar",
+    quantity: 11,
+    lastSaleDate: "2025-03-23"
   },
   {
     code: "22978",
@@ -98607,20 +82206,6 @@ const oldData = [
     mall: "48 - Jeddah Park",
     quantity: 1,
     lastSaleDate: "2024-06-24"
-  },
-  {
-    code: "23638",
-    name: "SUPER SOFT SUNFLOWER THROW",
-    mall: "20-Sitten Street Makkah",
-    quantity: 11,
-    lastSaleDate: "2025-03-10"
-  },
-  {
-    code: "23638",
-    name: "SUPER SOFT SUNFLOWER THROW",
-    mall: "56- Aziz Mall 2",
-    quantity: 6,
-    lastSaleDate: "2025-04-15"
   },
   {
     code: "22652",
@@ -98651,39 +82236,11 @@ const oldData = [
     lastSaleDate: "2024-11-15"
   },
   {
-    code: "23630",
-    name: "SUPER SOFT YELLOW CHECK THROW",
-    mall: "08-Makkah Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23630",
-    name: "SUPER SOFT YELLOW CHECK THROW",
-    mall: "14-Al Kamal Mall",
-    quantity: 10,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23630",
-    name: "SUPER SOFT YELLOW CHECK THROW",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-27"
-  },
-  {
-    code: "23630",
-    name: "SUPER SOFT YELLOW CHECK THROW",
-    mall: "54-THE VILLAGE",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "23630",
-    name: "SUPER SOFT YELLOW CHECK THROW",
+    code: "23094",
+    name: "SYRIAN VELVET WOODED CARPETS",
     mall: "55- Jabl Omar",
-    quantity: 21,
-    lastSaleDate: "2025-03-27"
+    quantity: 1,
+    lastSaleDate: "2024-09-03"
   },
   {
     code: "20488",
@@ -98714,34 +82271,6 @@ const oldData = [
     lastSaleDate: "2024-08-13"
   },
   {
-    code: "23306",
-    name: "T425 SOMOOSHIE TOY - CUTTLEFISH FUSHIA",
-    mall: "05-Haifa Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-13"
-  },
-  {
-    code: "23306",
-    name: "T425 SOMOOSHIE TOY - CUTTLEFISH FUSHIA",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-14"
-  },
-  {
-    code: "23306",
-    name: "T425 SOMOOSHIE TOY - CUTTLEFISH FUSHIA",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-23"
-  },
-  {
-    code: "23310",
-    name: "T429 SOMOOSHIE TOY - CUTTLEFISH RED",
-    mall: "36-Al jubail Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-21"
-  },
-  {
     code: "23310",
     name: "T429 SOMOOSHIE TOY - CUTTLEFISH RED",
     mall: "39-Salam Mall Riyadh",
@@ -98754,20 +82283,6 @@ const oldData = [
     mall: "40-Hayat Mall Riyad",
     quantity: 8,
     lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23310",
-    name: "T429 SOMOOSHIE TOY - CUTTLEFISH RED",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-02-15"
-  },
-  {
-    code: "23310",
-    name: "T429 SOMOOSHIE TOY - CUTTLEFISH RED",
-    mall: "04-Andalos Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-02"
   },
   {
     code: "23310",
@@ -98791,13 +82306,6 @@ const oldData = [
     lastSaleDate: "2025-04-09"
   },
   {
-    code: "23310",
-    name: "T429 SOMOOSHIE TOY - CUTTLEFISH RED",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-03-16"
-  },
-  {
     code: "23312",
     name: "T432 SOMOOSHIE TOY - CAT LT.PINK/FUSHIA",
     mall: "27-Dhahran Mall khobar",
@@ -98814,9 +82322,9 @@ const oldData = [
   {
     code: "23312",
     name: "T432 SOMOOSHIE TOY - CAT LT.PINK/FUSHIA",
-    mall: "57-Sauq7",
-    quantity: 2,
-    lastSaleDate: "2025-02-09"
+    mall: "53-Al Basateen Mall",
+    quantity: 1,
+    lastSaleDate: "2024-11-26"
   },
   {
     code: "13506",
@@ -98866,13 +82374,6 @@ const oldData = [
     mall: "17-Arar Othaim Mall",
     quantity: 1,
     lastSaleDate: "2021-04-07"
-  },
-  {
-    code: "22123",
-    name: "TEA CUPS SET 6 PCS B-55411/GB",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 6,
-    lastSaleDate: "2024-03-08"
   },
   {
     code: "22921",
@@ -99085,48 +82586,6 @@ const oldData = [
     lastSaleDate: "2024-11-21"
   },
   {
-    code: "23554",
-    name: "TERRY HAND TOWEL 5 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 45,
-    lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23554",
-    name: "TERRY HAND TOWEL 5 PCS",
-    mall: "18-Al_Khayyat Center",
-    quantity: 14,
-    lastSaleDate: "2025-04-22"
-  },
-  {
-    code: "23554",
-    name: "TERRY HAND TOWEL 5 PCS",
-    mall: "36-Al jubail Mall",
-    quantity: 1,
-    lastSaleDate: "2025-01-27"
-  },
-  {
-    code: "23554",
-    name: "TERRY HAND TOWEL 5 PCS",
-    mall: "38-Al_Riyadh Park",
-    quantity: 1,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23554",
-    name: "TERRY HAND TOWEL 5 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 22,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23554",
-    name: "TERRY HAND TOWEL 5 PCS",
-    mall: "57-Sauq7",
-    quantity: 3,
-    lastSaleDate: "2025-02-22"
-  },
-  {
     code: "23553",
     name: "TERRY WASH TOWEL 30*50 CM",
     mall: "04-Andalos Mall",
@@ -99160,20 +82619,6 @@ const oldData = [
     mall: "54-THE VILLAGE",
     quantity: 3,
     lastSaleDate: "2025-03-01"
-  },
-  {
-    code: "22646",
-    name: "TETBURY PRINTED DUVET COVER FULL 3 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 3,
-    lastSaleDate: "2024-10-05"
-  },
-  {
-    code: "22646",
-    name: "TETBURY PRINTED DUVET COVER FULL 3 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 1,
-    lastSaleDate: "2024-10-05"
   },
   {
     code: "22646",
@@ -99216,13 +82661,6 @@ const oldData = [
     mall: "43-Mujan Park",
     quantity: 7,
     lastSaleDate: "2024-07-29"
-  },
-  {
-    code: "22646",
-    name: "TETBURY PRINTED DUVET COVER FULL 3 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "22646",
@@ -99332,13 +82770,6 @@ const oldData = [
   {
     code: "23381",
     name: "THERMO PERFORMACE DUVET KING",
-    mall: "13-Al-Yasmin Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-11"
-  },
-  {
-    code: "23381",
-    name: "THERMO PERFORMACE DUVET KING",
     mall: "19-Hail Othaim Mall",
     quantity: 2,
     lastSaleDate: "2024-12-09"
@@ -99384,20 +82815,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 7,
     lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "23382",
-    name: "THERMO PERFORMANCE (COOL-0) KING PILLOW",
-    mall: "17-Arar Othaim Mall",
-    quantity: 10,
-    lastSaleDate: "2025-04-10"
-  },
-  {
-    code: "23382",
-    name: "THERMO PERFORMANCE (COOL-0) KING PILLOW",
-    mall: "36-Al jubail Mall",
-    quantity: 6,
-    lastSaleDate: "2025-04-27"
   },
   {
     code: "21892",
@@ -99514,13 +82931,6 @@ const oldData = [
   {
     code: "20999",
     name: "THROW CHENILLE CHUNKY BLUSH",
-    mall: "07-Arab Mall",
-    quantity: 7,
-    lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "20999",
-    name: "THROW CHENILLE CHUNKY BLUSH",
     mall: "09-Al-Salam Mall",
     quantity: 6,
     lastSaleDate: "2025-01-01"
@@ -99584,13 +82994,6 @@ const oldData = [
   {
     code: "20999",
     name: "THROW CHENILLE CHUNKY BLUSH",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-01-12"
-  },
-  {
-    code: "20999",
-    name: "THROW CHENILLE CHUNKY BLUSH",
     mall: "36-Al jubail Mall",
     quantity: 3,
     lastSaleDate: "2024-08-03"
@@ -99608,20 +83011,6 @@ const oldData = [
     mall: "39-Salam Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2024-12-27"
-  },
-  {
-    code: "20999",
-    name: "THROW CHENILLE CHUNKY BLUSH",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "20999",
-    name: "THROW CHENILLE CHUNKY BLUSH",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 1,
-    lastSaleDate: "2025-02-13"
   },
   {
     code: "20999",
@@ -99710,23 +83099,9 @@ const oldData = [
   {
     code: "20998",
     name: "THROW CHENILLE CHUNKY GREY",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 10,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "20998",
-    name: "THROW CHENILLE CHUNKY GREY",
     mall: "30-Tala Mall Riyadh",
     quantity: 3,
     lastSaleDate: "2024-12-14"
-  },
-  {
-    code: "20998",
-    name: "THROW CHENILLE CHUNKY GREY",
-    mall: "32-Atyaf Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-01-12"
   },
   {
     code: "20998",
@@ -99892,13 +83267,6 @@ const oldData = [
   {
     code: "20997",
     name: "THROW CHENILLE CHUNKY WHITE",
-    mall: "09-Al-Salam Mall",
-    quantity: 1,
-    lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "20997",
-    name: "THROW CHENILLE CHUNKY WHITE",
     mall: "11-Jouri Mall",
     quantity: 2,
     lastSaleDate: "2024-09-13"
@@ -100049,20 +83417,6 @@ const oldData = [
     mall: "09-Al-Salam Mall",
     quantity: 1,
     lastSaleDate: "2024-09-28"
-  },
-  {
-    code: "22525",
-    name: "TIGER2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "11-Jouri Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-21"
-  },
-  {
-    code: "22525",
-    name: "TIGER2 KIDS HOODED TOWEL BATH ROBE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 17,
-    lastSaleDate: "2025-04-26"
   },
   {
     code: "22525",
@@ -100408,13 +83762,6 @@ const oldData = [
     lastSaleDate: "2025-03-29"
   },
   {
-    code: "23763",
-    name: "TOYS BLOCK SMALL 601",
-    mall: "55- Jabl Omar",
-    quantity: 23,
-    lastSaleDate: "2025-04-22"
-  },
-  {
     code: "23749",
     name: "TOYS CLAY BUCKET TK383/348 (24PCS)",
     mall: "55- Jabl Omar",
@@ -100427,13 +83774,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 18,
     lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23738",
-    name: "TOYS HUILI CAR 10 PCS KZ957-000",
-    mall: "55- Jabl Omar",
-    quantity: 6,
-    lastSaleDate: "2025-04-11"
   },
   {
     code: "23771",
@@ -100478,13 +83818,6 @@ const oldData = [
     lastSaleDate: "2023-07-08"
   },
   {
-    code: "19944",
-    name: "TRELLIS GREY POLYSTER PRINTED KING SHEET 6 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-19"
-  },
-  {
     code: "23017",
     name: "TROLLY BAG SIZE 24",
     mall: "55- Jabl Omar",
@@ -100504,13 +83837,6 @@ const oldData = [
     mall: "52-Al_Baha Mall",
     quantity: 1,
     lastSaleDate: "2024-04-16"
-  },
-  {
-    code: "21681",
-    name: "TUAL BATH ROBE BRIDE GRAY-POWDER 7 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 1,
-    lastSaleDate: "2024-10-14"
   },
   {
     code: "21681",
@@ -100655,20 +83981,6 @@ const oldData = [
   {
     code: "23311",
     name: "U431 SOMOOSHIE TOY - MOUSE LT.PINK",
-    mall: "17-Arar Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "23311",
-    name: "U431 SOMOOSHIE TOY - MOUSE LT.PINK",
-    mall: "22-Tabuk Park",
-    quantity: 5,
-    lastSaleDate: "2024-11-29"
-  },
-  {
-    code: "23311",
-    name: "U431 SOMOOSHIE TOY - MOUSE LT.PINK",
     mall: "24-Yanbu Dana Mall",
     quantity: 5,
     lastSaleDate: "2025-04-27"
@@ -100676,23 +83988,9 @@ const oldData = [
   {
     code: "23311",
     name: "U431 SOMOOSHIE TOY - MOUSE LT.PINK",
-    mall: "57-Sauq7",
-    quantity: 3,
-    lastSaleDate: "2025-03-20"
-  },
-  {
-    code: "23311",
-    name: "U431 SOMOOSHIE TOY - MOUSE LT.PINK",
     mall: "36-Al jubail Mall",
     quantity: 6,
     lastSaleDate: "2025-03-07"
-  },
-  {
-    code: "23456",
-    name: "U435 SMOOSHIE TOY- CUUTOPIA ORANGE GREEN",
-    mall: "09-Al-Salam Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-14"
   },
   {
     code: "23315",
@@ -100826,62 +84124,6 @@ const oldData = [
     mall: "23-Alia Mall Madinah",
     quantity: 1,
     lastSaleDate: "2025-03-16"
-  },
-  {
-    code: "23352",
-    name: "UNICORN LILAC KIDS HOODED TOWEL BATH ROBE",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-03-21"
-  },
-  {
-    code: "23352",
-    name: "UNICORN LILAC KIDS HOODED TOWEL BATH ROBE",
-    mall: "21-Abha Al_Rashid Mall New",
-    quantity: 2,
-    lastSaleDate: "2025-03-30"
-  },
-  {
-    code: "23352",
-    name: "UNICORN LILAC KIDS HOODED TOWEL BATH ROBE",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 5,
-    lastSaleDate: "2025-03-13"
-  },
-  {
-    code: "23352",
-    name: "UNICORN LILAC KIDS HOODED TOWEL BATH ROBE",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 17,
-    lastSaleDate: "2025-03-31"
-  },
-  {
-    code: "23352",
-    name: "UNICORN LILAC KIDS HOODED TOWEL BATH ROBE",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 13,
-    lastSaleDate: "2025-03-18"
-  },
-  {
-    code: "23352",
-    name: "UNICORN LILAC KIDS HOODED TOWEL BATH ROBE",
-    mall: "49-AlAhsa Mall",
-    quantity: 1,
-    lastSaleDate: "2024-11-29"
-  },
-  {
-    code: "23352",
-    name: "UNICORN LILAC KIDS HOODED TOWEL BATH ROBE",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "23352",
-    name: "UNICORN LILAC KIDS HOODED TOWEL BATH ROBE",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "22642",
@@ -101143,25 +84385,11 @@ const oldData = [
     lastSaleDate: "2025-04-27"
   },
   {
-    code: "23627",
-    name: "VERDEIRE SOFT BLUSH FULL COMFORTER 12 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-03-18"
-  },
-  {
     code: "23609",
     name: "VERNAZZA YELLOW KING COMFORTER 8 PCS",
     mall: "05-Haifa Mall",
     quantity: 3,
     lastSaleDate: "2025-04-14"
-  },
-  {
-    code: "23609",
-    name: "VERNAZZA YELLOW KING COMFORTER 8 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-29"
   },
   {
     code: "21715",
@@ -101710,146 +84938,6 @@ const oldData = [
     lastSaleDate: "2023-07-03"
   },
   {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "05-Haifa Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-18"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "08-Makkah Mall",
-    quantity: 6,
-    lastSaleDate: "2025-03-25"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "14-Al Kamal Mall",
-    quantity: 3,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "16-Ehsa Othaim Mall",
-    quantity: 15,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "17-Arar Othaim Mall",
-    quantity: 9,
-    lastSaleDate: "2024-11-11"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "19-Hail Othaim Mall",
-    quantity: 12,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "20-Sitten Street Makkah",
-    quantity: 1,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 3,
-    lastSaleDate: "2025-01-19"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 5,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "29-Al Nakheel Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-04"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "36-Al jubail Mall",
-    quantity: 5,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "39-Salam Mall Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-24"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 6,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "44-Al-Jouf Center",
-    quantity: 10,
-    lastSaleDate: "2025-01-14"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "46-Khaleej Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-01-06"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 5,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 4,
-    lastSaleDate: "2025-04-05"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "52-Al_Baha Mall",
-    quantity: 6,
-    lastSaleDate: "2025-01-17"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "53-Al Basateen Mall",
-    quantity: 7,
-    lastSaleDate: "2025-03-29"
-  },
-  {
-    code: "23358",
-    name: "WHALE BLUE KIDS HOODED TOWEL BATH ROBE",
-    mall: "55- Jabl Omar",
-    quantity: 24,
-    lastSaleDate: "2025-04-26"
-  },
-  {
     code: "21879",
     name: "WHITE BLEACHED KING SHEET SET 4 PCS",
     mall: "04-Andalos Mall",
@@ -101985,23 +85073,9 @@ const oldData = [
   {
     code: "21879",
     name: "WHITE BLEACHED KING SHEET SET 4 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "21879",
-    name: "WHITE BLEACHED KING SHEET SET 4 PCS",
     mall: "43-Mujan Park",
     quantity: 1,
     lastSaleDate: "2025-04-01"
-  },
-  {
-    code: "21879",
-    name: "WHITE BLEACHED KING SHEET SET 4 PCS",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 9,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "21879",
@@ -102174,20 +85248,6 @@ const oldData = [
   {
     code: "22946",
     name: "WHITE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "28-Al Nakheel Mall Dammam",
-    quantity: 5,
-    lastSaleDate: "2025-03-28"
-  },
-  {
-    code: "22946",
-    name: "WHITE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 6,
-    lastSaleDate: "2025-04-19"
-  },
-  {
-    code: "22946",
-    name: "WHITE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
     mall: "32-Atyaf Mall Riyadh",
     quantity: 5,
     lastSaleDate: "2024-12-03"
@@ -102198,13 +85258,6 @@ const oldData = [
     mall: "39-Salam Mall Riyadh",
     quantity: 5,
     lastSaleDate: "2024-09-19"
-  },
-  {
-    code: "22946",
-    name: "WHITE DAMASK FULL 500 STITCH DUVET COVER 4 PCS",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 2,
-    lastSaleDate: "2025-04-30"
   },
   {
     code: "22946",
@@ -102240,132 +85293,6 @@ const oldData = [
     mall: "55- Jabl Omar",
     quantity: 5,
     lastSaleDate: "2025-03-05"
-  },
-  {
-    code: "13615",
-    name: "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "13615",
-    name: "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "04-Andalos Mall",
-    quantity: 1,
-    lastSaleDate: "2025-02-23"
-  },
-  {
-    code: "13615",
-    name: "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "52-Al_Baha Mall",
-    quantity: 3,
-    lastSaleDate: "2025-02-23"
-  },
-  {
-    code: "13615",
-    name: "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "56- Aziz Mall 2",
-    quantity: 1,
-    lastSaleDate: "2025-03-10"
-  },
-  {
-    code: "13615",
-    name: "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "04-Andalos Mall",
-    quantity: 3,
-    lastSaleDate: "2025-02-23"
-  },
-  {
-    code: "13615",
-    name: "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "44-Al-Jouf Center",
-    quantity: 2,
-    lastSaleDate: "2025-01-25"
-  },
-  {
-    code: "13615",
-    name: "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 6,
-    lastSaleDate: "2025-02-14"
-  },
-  {
-    code: "13615",
-    name: "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2025-02-23"
-  },
-  {
-    code: "13615",
-    name: "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "13615",
-    name: "WHITE DAMASK FULL COMFORTER 4 PCS 500 STITSH",
-    mall: "56- Aziz Mall 2",
-    quantity: 2,
-    lastSaleDate: "2025-03-10"
-  },
-  {
-    code: "13492",
-    name: "WHITE DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-22"
-  },
-  {
-    code: "13492",
-    name: "WHITE DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 4,
-    lastSaleDate: "2025-03-17"
-  },
-  {
-    code: "13492",
-    name: "WHITE DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "17-Arar Othaim Mall",
-    quantity: 2,
-    lastSaleDate: "2024-11-02"
-  },
-  {
-    code: "13492",
-    name: "WHITE DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "20-Sitten Street Makkah",
-    quantity: 4,
-    lastSaleDate: "2025-01-27"
-  },
-  {
-    code: "13492",
-    name: "WHITE DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "25-Rabwa Othaim Mall",
-    quantity: 1,
-    lastSaleDate: "2024-12-22"
-  },
-  {
-    code: "13492",
-    name: "WHITE DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 2,
-    lastSaleDate: "2025-03-17"
-  },
-  {
-    code: "13492",
-    name: "WHITE DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "55- Jabl Omar",
-    quantity: 2,
-    lastSaleDate: "2024-12-15"
-  },
-  {
-    code: "13492",
-    name: "WHITE DAMASK KING COMFORTER 500 TC 6 PCS",
-    mall: "57-Sauq7",
-    quantity: 1,
-    lastSaleDate: "2024-07-30"
   },
   {
     code: "17282",
@@ -102937,13 +85864,6 @@ const oldData = [
   {
     code: "21485",
     name: "WHITE S/M ROBE FEATHER YARN",
-    mall: "30-Tala Mall Riyadh",
-    quantity: 1,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "21485",
-    name: "WHITE S/M ROBE FEATHER YARN",
     mall: "36-Al jubail Mall",
     quantity: 1,
     lastSaleDate: "2025-01-04"
@@ -102982,20 +85902,6 @@ const oldData = [
     mall: "50-Meem Plaza Riyadh",
     quantity: 5,
     lastSaleDate: "2025-03-26"
-  },
-  {
-    code: "11461",
-    name: "WHITE SHEET ( FULL ) SET 3PCS",
-    mall: "36-Al jubail Mall",
-    quantity: 10,
-    lastSaleDate: "2023-12-08"
-  },
-  {
-    code: "11461",
-    name: "WHITE SHEET ( FULL ) SET 3PCS",
-    mall: "38-Al_Riyadh Park",
-    quantity: 34,
-    lastSaleDate: "2023-11-11"
   },
   {
     code: "11461",
@@ -103073,13 +85979,6 @@ const oldData = [
     mall: "13-Al-Yasmin Mall",
     quantity: 10,
     lastSaleDate: "2025-02-28"
-  },
-  {
-    code: "11461",
-    name: "WHITE SHEET ( FULL ) SET 3PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 7,
-    lastSaleDate: "2024-07-19"
   },
   {
     code: "11461",
@@ -103168,44 +86067,9 @@ const oldData = [
   {
     code: "20060",
     name: "WHITE SHEET 3 PCS 300 STITSH FULL",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 10,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "20060",
-    name: "WHITE SHEET 3 PCS 300 STITSH FULL",
     mall: "55- Jabl Omar",
     quantity: 14,
     lastSaleDate: "2025-03-22"
-  },
-  {
-    code: "11710",
-    name: "WHITE SHEET 3 PCS 300 STITSH KING",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 2,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "11710",
-    name: "WHITE SHEET 3 PCS 300 STITSH KING",
-    mall: "09-Al-Salam Mall",
-    quantity: 10,
-    lastSaleDate: "2025-02-14"
-  },
-  {
-    code: "11710",
-    name: "WHITE SHEET 3 PCS 300 STITSH KING",
-    mall: "50-Meem Plaza Riyadh",
-    quantity: 10,
-    lastSaleDate: "2025-04-26"
-  },
-  {
-    code: "20042",
-    name: "WHITE SHEET 3 PCS 300 STITSH QUEEN",
-    mall: "55- Jabl Omar",
-    quantity: 6,
-    lastSaleDate: "2025-03-28"
   },
   {
     code: "19840",
@@ -103262,41 +86126,6 @@ const oldData = [
     mall: "43-Mujan Park",
     quantity: 4,
     lastSaleDate: "2023-01-28"
-  },
-  {
-    code: "19840",
-    name: "WHITE SHEET 4 PCS 400 STITSH KING",
-    mall: "47-Al-Nakheel Plaza",
-    quantity: 3,
-    lastSaleDate: "2025-04-28"
-  },
-  {
-    code: "20092",
-    name: "WHITE STANDARD PILLOW CASES",
-    mall: "40-Hayat Mall Riyad",
-    quantity: 4,
-    lastSaleDate: "2025-04-12"
-  },
-  {
-    code: "20092",
-    name: "WHITE STANDARD PILLOW CASES",
-    mall: "55- Jabl Omar",
-    quantity: 3,
-    lastSaleDate: "2025-04-06"
-  },
-  {
-    code: "20092",
-    name: "WHITE STANDARD PILLOW CASES",
-    mall: "52-Al_Baha Mall",
-    quantity: 12,
-    lastSaleDate: "2025-04-25"
-  },
-  {
-    code: "20092",
-    name: "WHITE STANDARD PILLOW CASES",
-    mall: "55- Jabl Omar",
-    quantity: 12,
-    lastSaleDate: "2025-04-06"
   },
   {
     code: "22510",
@@ -103448,13 +86277,6 @@ const oldData = [
   {
     code: "17673",
     name: "WINTER SHEET HAS SKY FULL 2 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 9,
-    lastSaleDate: "2025-02-08"
-  },
-  {
-    code: "17673",
-    name: "WINTER SHEET HAS SKY FULL 2 PCS",
     mall: "23-Alia Mall Madinah",
     quantity: 1,
     lastSaleDate: "2025-04-05"
@@ -103563,13 +86385,6 @@ const oldData = [
     mall: "44-Al-Jouf Center",
     quantity: 17,
     lastSaleDate: "2024-12-17"
-  },
-  {
-    code: "18487",
-    name: "WINTER SHEET HAS SKY KING 3 PCS",
-    mall: "52-Al_Baha Mall",
-    quantity: 23,
-    lastSaleDate: "2025-04-28"
   },
   {
     code: "18487",
@@ -103812,13 +86627,6 @@ const oldData = [
   {
     code: "19048",
     name: "WINTER SHEET ROSE PINK KING 3 PCS",
-    mall: "14-Al Kamal Mall",
-    quantity: 1,
-    lastSaleDate: "2025-04-30"
-  },
-  {
-    code: "19048",
-    name: "WINTER SHEET ROSE PINK KING 3 PCS",
     mall: "36-Al jubail Mall",
     quantity: 1,
     lastSaleDate: "2024-12-20"
@@ -103924,13 +86732,6 @@ const oldData = [
   {
     code: "23562",
     name: "WISLEY TAUPE KING COMFORTER 10 PCS",
-    mall: "06-Red Sea Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-02"
-  },
-  {
-    code: "23562",
-    name: "WISLEY TAUPE KING COMFORTER 10 PCS",
     mall: "30-Tala Mall Riyadh",
     quantity: 2,
     lastSaleDate: "2025-04-04"
@@ -104004,13 +86805,6 @@ const oldData = [
     mall: "16-Ehsa Othaim Mall",
     quantity: 1,
     lastSaleDate: "2024-02-04"
-  },
-  {
-    code: "20435",
-    name: "XS BURGUNDY SHAWL JACQUARD BATH ROBE",
-    mall: "24-Yanbu Dana Mall",
-    quantity: 3,
-    lastSaleDate: "2025-04-24"
   },
   {
     code: "20435",
@@ -104232,23 +87026,9 @@ const oldData = [
   {
     code: "20434",
     name: "XS LINEN SHAWL JACQUARD BATH ROBE",
-    mall: "49-AlAhsa Mall",
-    quantity: 9,
-    lastSaleDate: "2025-03-27"
-  },
-  {
-    code: "20434",
-    name: "XS LINEN SHAWL JACQUARD BATH ROBE",
     mall: "50-Meem Plaza Riyadh",
     quantity: 9,
     lastSaleDate: "2025-03-17"
-  },
-  {
-    code: "20434",
-    name: "XS LINEN SHAWL JACQUARD BATH ROBE",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 10,
-    lastSaleDate: "2023-11-25"
   },
   {
     code: "20434",
@@ -104330,23 +87110,9 @@ const oldData = [
   {
     code: "20432",
     name: "XS NAVY SHAWL JACQUARD BATH ROBE",
-    mall: "42-Dareen Mall Dammam",
-    quantity: 6,
-    lastSaleDate: "2025-03-19"
-  },
-  {
-    code: "20432",
-    name: "XS NAVY SHAWL JACQUARD BATH ROBE",
     mall: "43-Mujan Park",
     quantity: 3,
     lastSaleDate: "2024-11-01"
-  },
-  {
-    code: "20432",
-    name: "XS NAVY SHAWL JACQUARD BATH ROBE",
-    mall: "51-Park Avenue Riyadh",
-    quantity: 3,
-    lastSaleDate: "2025-03-28"
   },
   {
     code: "20432",
@@ -104382,6 +87148,13 @@ const oldData = [
     mall: "11-Jouri Mall",
     quantity: 6,
     lastSaleDate: "2024-07-30"
+  },
+  {
+    code: "20432",
+    name: "XS NAVY SHAWL JACQUARD BATH ROBE",
+    mall: "21-Abha Al_Rashid Mall New",
+    quantity: 6,
+    lastSaleDate: "2025-03-09"
   },
   {
     code: "20432",
@@ -104526,23 +87299,9 @@ const oldData = [
   {
     code: "20431",
     name: "XS P.BLUE SHAWL JACQUARD BATH ROBE",
-    mall: "45- Riyadh Gallery Mall",
-    quantity: 4,
-    lastSaleDate: "2025-04-29"
-  },
-  {
-    code: "20431",
-    name: "XS P.BLUE SHAWL JACQUARD BATH ROBE",
     mall: "47-Al-Nakheel Plaza",
     quantity: 6,
     lastSaleDate: "2024-11-28"
-  },
-  {
-    code: "20431",
-    name: "XS P.BLUE SHAWL JACQUARD BATH ROBE",
-    mall: "04-Andalos Mall",
-    quantity: 7,
-    lastSaleDate: "2025-03-31"
   },
   {
     code: "20431",
@@ -104879,13 +87638,6 @@ const oldData = [
     mall: "43-Mujan Park",
     quantity: 11,
     lastSaleDate: "2025-04-16"
-  },
-  {
-    code: "23927",
-    name: "ZEMZEM KABELI ALTIN-103",
-    mall: "55- Jabl Omar",
-    quantity: 5,
-    lastSaleDate: "2025-03-22"
   },
   {
     code: "22415",
