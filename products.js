@@ -558,7 +558,7 @@ const data = [
     "alias": "900762",
     "name": "BATH ROBE KIDS HOODED TOWEL RABBIT CREAM",
     "price": 69,
-    "stock": 1022,
+    "stock": 1010,
     "sales": 26,
     "branches": {
       "00-GIFTS": 0,
@@ -573,7 +573,7 @@ const data = [
       "11-Jouri Mall": 6,
       "12-Al_Hamra Mall": 15,
       "13-Al-Yasmin Mall": 2,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 12,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 14,
       "17-Arar Othaim Mall": 0,
@@ -616,7 +616,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1022,
+      "Warehouse": 1010,
       "warehouse riyadh": 1200
     }
   },
@@ -627,7 +627,7 @@ const data = [
     "alias": "900763",
     "name": "BABY BEAR PINK KIDS HOODED TOWEL BATH ROBE",
     "price": 69,
-    "stock": 73,
+    "stock": 61,
     "sales": 56,
     "branches": {
       "00-GIFTS": 2,
@@ -685,7 +685,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 73,
+      "Warehouse": 61,
       "warehouse riyadh": 804
     }
   },
@@ -1248,7 +1248,7 @@ const data = [
     "alias": "900773",
     "name": "UNICORN WHITE KIDS HOODED TOWEL BATH ROBE",
     "price": 69,
-    "stock": 149,
+    "stock": 137,
     "sales": 68,
     "branches": {
       "00-GIFTS": 5,
@@ -1306,7 +1306,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 1,
-      "Warehouse": 149,
+      "Warehouse": 137,
       "warehouse riyadh": 444
     }
   },
@@ -1376,7 +1376,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 7,
-      "warehouse riyadh": 564
+      "warehouse riyadh": 552
     }
   },
   {
@@ -1445,7 +1445,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 6,
-      "warehouse riyadh": 36
+      "warehouse riyadh": 24
     }
   },
   {
@@ -1583,7 +1583,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 4,
-      "warehouse riyadh": 288
+      "warehouse riyadh": 276
     }
   },
   {
@@ -2973,7 +2973,7 @@ const data = [
     "alias": "900778",
     "name": "CUTE OWL D.PINK KIDS HOODED TOWEL BATH ROBE",
     "price": 69,
-    "stock": 77,
+    "stock": 72,
     "sales": 55,
     "branches": {
       "00-GIFTS": 1,
@@ -3031,8 +3031,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 77,
-      "warehouse riyadh": 336
+      "Warehouse": 72,
+      "warehouse riyadh": 324
     }
   },
   {
@@ -3249,7 +3249,7 @@ const data = [
     "alias": "900782",
     "name": "BATH ROBE KIDS HOODED TOWEL DINO1 GREEN",
     "price": 69,
-    "stock": 1290,
+    "stock": 1278,
     "sales": 42,
     "branches": {
       "00-GIFTS": 0,
@@ -3307,7 +3307,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1290,
+      "Warehouse": 1278,
       "warehouse riyadh": 1333
     }
   },
@@ -3387,7 +3387,7 @@ const data = [
     "alias": "900784",
     "name": "BATH ROBE KIDS HOODED TOWEL SHARK GREY",
     "price": 69,
-    "stock": 234,
+    "stock": 222,
     "sales": 128,
     "branches": {
       "00-GIFTS": 1,
@@ -3445,8 +3445,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 234,
-      "warehouse riyadh": 614
+      "Warehouse": 222,
+      "warehouse riyadh": 602
     }
   },
   {
@@ -5320,7 +5320,7 @@ const data = [
     "name": "HOOD PONCHO KIDS PENGUIN",
     "price": 32,
     "stock": 1289,
-    "sales": 64,
+    "sales": 65,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -5343,7 +5343,7 @@ const data = [
       "20-Sitten Street Makkah": 4,
       "21-Abha Al_Rashid Mall New": 12,
       "22-Tabuk Park": 3,
-      "23-Alia Mall Madinah": 8,
+      "23-Alia Mall Madinah": 7,
       "24-Yanbu Dana Mall": 11,
       "25-Rabwa Othaim Mall": 3,
       "26-Al-Noor Mall Madinah": 14,
@@ -5389,7 +5389,7 @@ const data = [
     "name": "HOOD PONCHO KIDS MERMAID",
     "price": 32,
     "stock": 1254,
-    "sales": 34,
+    "sales": 35,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -5412,7 +5412,7 @@ const data = [
       "20-Sitten Street Makkah": 4,
       "21-Abha Al_Rashid Mall New": 12,
       "22-Tabuk Park": 2,
-      "23-Alia Mall Madinah": 7,
+      "23-Alia Mall Madinah": 6,
       "24-Yanbu Dana Mall": 11,
       "25-Rabwa Othaim Mall": 0,
       "26-Al-Noor Mall Madinah": 8,
@@ -5596,7 +5596,7 @@ const data = [
     "name": "HOOD PONCHO KIDS LADYBUG",
     "price": 32,
     "stock": 1332,
-    "sales": 20,
+    "sales": 21,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -5619,7 +5619,7 @@ const data = [
       "20-Sitten Street Makkah": 5,
       "21-Abha Al_Rashid Mall New": 13,
       "22-Tabuk Park": 6,
-      "23-Alia Mall Madinah": 9,
+      "23-Alia Mall Madinah": 8,
       "24-Yanbu Dana Mall": 2,
       "25-Rabwa Othaim Mall": 5,
       "26-Al-Noor Mall Madinah": 10,
@@ -5664,7 +5664,7 @@ const data = [
     "alias": "900786-6",
     "name": "DUK BOYS KIDS BATHROBE SIZE 6/8",
     "price": 69,
-    "stock": 321,
+    "stock": 318,
     "sales": 29,
     "branches": {
       "00-GIFTS": 0,
@@ -5679,7 +5679,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 7,
       "13-Al-Yasmin Mall": 5,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 4,
       "15-Riyadh Othaim Mall": 1,
       "16-Ehsa Othaim Mall": 15,
       "17-Arar Othaim Mall": 1,
@@ -5722,7 +5722,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 321,
+      "Warehouse": 318,
       "warehouse riyadh": 397
     }
   },
@@ -5871,7 +5871,7 @@ const data = [
     "alias": "900787-6",
     "name": "TIGER BOYS KIDS BATHROBE SIZE 6/8",
     "price": 69,
-    "stock": 321,
+    "stock": 318,
     "sales": 27,
     "branches": {
       "00-GIFTS": 0,
@@ -5886,7 +5886,7 @@ const data = [
       "11-Jouri Mall": 1,
       "12-Al_Hamra Mall": 8,
       "13-Al-Yasmin Mall": 5,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 4,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 5,
       "17-Arar Othaim Mall": 3,
@@ -5929,7 +5929,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 321,
+      "Warehouse": 318,
       "warehouse riyadh": 401
     }
   },
@@ -6078,7 +6078,7 @@ const data = [
     "alias": "900788-6",
     "name": "BUNNY BOYS KIDS BATHROBE SIZE 6/8",
     "price": 69,
-    "stock": 324,
+    "stock": 321,
     "sales": 21,
     "branches": {
       "00-GIFTS": 0,
@@ -6093,7 +6093,7 @@ const data = [
       "11-Jouri Mall": 1,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 7,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 3,
       "15-Riyadh Othaim Mall": 1,
       "16-Ehsa Othaim Mall": 7,
       "17-Arar Othaim Mall": 3,
@@ -6136,7 +6136,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 324,
+      "Warehouse": 321,
       "warehouse riyadh": 381
     }
   },
@@ -6285,7 +6285,7 @@ const data = [
     "alias": "900789-6",
     "name": "TURTLE BOYS KIDS BATHROBE SIZE 6/8",
     "price": 69,
-    "stock": 318,
+    "stock": 315,
     "sales": 23,
     "branches": {
       "00-GIFTS": 0,
@@ -6300,7 +6300,7 @@ const data = [
       "11-Jouri Mall": 5,
       "12-Al_Hamra Mall": 13,
       "13-Al-Yasmin Mall": 9,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 4,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 5,
       "17-Arar Othaim Mall": 1,
@@ -6343,7 +6343,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 318,
+      "Warehouse": 315,
       "warehouse riyadh": 401
     }
   },
@@ -6561,7 +6561,7 @@ const data = [
     "alias": "900790-10",
     "name": "BATH ROBE GIRLS KIDS SHEEP SIZE 10/12",
     "price": 69,
-    "stock": 591,
+    "stock": 588,
     "sales": 20,
     "branches": {
       "00-GIFTS": 0,
@@ -6619,7 +6619,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 591,
+      "Warehouse": 588,
       "warehouse riyadh": 708
     }
   },
@@ -6768,7 +6768,7 @@ const data = [
     "alias": "900791-10",
     "name": "BATH ROBE GIRLS KIDS PENGUIN SIZE 10/12",
     "price": 69,
-    "stock": 591,
+    "stock": 588,
     "sales": 12,
     "branches": {
       "00-GIFTS": 0,
@@ -6826,7 +6826,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 591,
+      "Warehouse": 588,
       "warehouse riyadh": 678
     }
   },
@@ -6975,7 +6975,7 @@ const data = [
     "alias": "900792-10",
     "name": "BATH ROBE GIRLS KIDS PRINCESS SIZE 10/12",
     "price": 69,
-    "stock": 591,
+    "stock": 588,
     "sales": 25,
     "branches": {
       "00-GIFTS": 0,
@@ -7033,7 +7033,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 591,
+      "Warehouse": 588,
       "warehouse riyadh": 680
     }
   },
@@ -7182,7 +7182,7 @@ const data = [
     "alias": "900793-10",
     "name": "BATH ROBE GIRLS KIDS BUNNY SIZE 10/12",
     "price": 69,
-    "stock": 589,
+    "stock": 586,
     "sales": 32,
     "branches": {
       "00-GIFTS": 0,
@@ -7240,7 +7240,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 589,
+      "Warehouse": 586,
       "warehouse riyadh": 648
     }
   },
@@ -8976,7 +8976,7 @@ const data = [
     "alias": "916801",
     "name": "BATH ROBE IVORY S/M",
     "price": 99,
-    "stock": 434,
+    "stock": 428,
     "sales": 90,
     "branches": {
       "00-GIFTS": 0,
@@ -9034,8 +9034,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 44,
-      "Warehouse": 434,
-      "warehouse riyadh": 1308
+      "Warehouse": 428,
+      "warehouse riyadh": 1290
     }
   },
   {
@@ -9104,7 +9104,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 100,
       "Warehouse": 500,
-      "warehouse riyadh": 516
+      "warehouse riyadh": 510
     }
   },
   {
@@ -9173,7 +9173,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 44,
       "Warehouse": 2316,
-      "warehouse riyadh": 1896
+      "warehouse riyadh": 1884
     }
   },
   {
@@ -9183,7 +9183,7 @@ const data = [
     "alias": "916808",
     "name": "ROBE PINK S/M",
     "price": 99,
-    "stock": 77,
+    "stock": 71,
     "sales": 228,
     "branches": {
       "00-GIFTS": 0,
@@ -9198,7 +9198,7 @@ const data = [
       "11-Jouri Mall": 4,
       "12-Al_Hamra Mall": 12,
       "13-Al-Yasmin Mall": 9,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 5,
       "16-Ehsa Othaim Mall": 8,
       "17-Arar Othaim Mall": 12,
@@ -9241,7 +9241,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 35,
-      "Warehouse": 77,
+      "Warehouse": 71,
       "warehouse riyadh": 468
     }
   },
@@ -9311,7 +9311,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 31,
       "Warehouse": 166,
-      "warehouse riyadh": 912
+      "warehouse riyadh": 900
     }
   },
   {
@@ -9321,13 +9321,13 @@ const data = [
     "alias": "916901",
     "name": "BATH ROBE IVORY L/XL",
     "price": 99,
-    "stock": 1896,
-    "sales": 76,
+    "stock": 1890,
+    "sales": 77,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 5,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 15,
       "06-Red Sea Mall": 28,
       "07-Arab Mall": 13,
@@ -9341,7 +9341,7 @@ const data = [
       "16-Ehsa Othaim Mall": 4,
       "17-Arar Othaim Mall": 8,
       "18-Al_Khayyat Center": 14,
-      "19-Hail Othaim Mall": 6,
+      "19-Hail Othaim Mall": 5,
       "20-Sitten Street Makkah": 8,
       "21-Abha Al_Rashid Mall New": 12,
       "22-Tabuk Park": 14,
@@ -9379,8 +9379,8 @@ const data = [
       "Abha Al_Rashid Mall": 10,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 37,
-      "Warehouse": 1896,
-      "warehouse riyadh": 1530
+      "Warehouse": 1890,
+      "warehouse riyadh": 1524
     }
   },
   {
@@ -9390,7 +9390,7 @@ const data = [
     "alias": "916902",
     "name": "BATH ROBE WHITE L/XL",
     "price": 99,
-    "stock": 2296,
+    "stock": 2290,
     "sales": 110,
     "branches": {
       "00-GIFTS": 1,
@@ -9448,7 +9448,7 @@ const data = [
       "Abha Al_Rashid Mall": 2,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 2296,
+      "Warehouse": 2290,
       "warehouse riyadh": 2046
     }
   },
@@ -9518,7 +9518,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 900,
-      "warehouse riyadh": 1505
+      "warehouse riyadh": 1499
     }
   },
   {
@@ -9597,13 +9597,13 @@ const data = [
     "alias": "916910",
     "name": "ROBE P.BLUE L/XL",
     "price": 99,
-    "stock": 258,
+    "stock": 246,
     "sales": 56,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 10,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 6,
+      "04-Andalos Mall": 12,
       "05-Haifa Mall": 5,
       "06-Red Sea Mall": 12,
       "07-Arab Mall": 4,
@@ -9639,12 +9639,12 @@ const data = [
       "42-Dareen Mall Dammam": 10,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 8,
+      "45- Riyadh Gallery Mall": 14,
       "46-Khaleej Mall Riyadh": 24,
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 9,
       "49-AlAhsa Mall": 12,
-      "50-Meem Plaza Riyadh": 6,
+      "50-Meem Plaza Riyadh": 12,
       "51-Park Avenue Riyadh": 6,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 3,
@@ -9655,8 +9655,8 @@ const data = [
       "Abha Al_Rashid Mall": 27,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 258,
-      "warehouse riyadh": 1332
+      "Warehouse": 246,
+      "warehouse riyadh": 1308
     }
   },
   {
@@ -9782,7 +9782,7 @@ const data = [
       "47-Al-Nakheel Plaza": 1,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 12,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -9794,7 +9794,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1,
-      "warehouse riyadh": 840
+      "warehouse riyadh": 786
     }
   },
   {
@@ -9863,7 +9863,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 18,
       "Warehouse": 167,
-      "warehouse riyadh": 978
+      "warehouse riyadh": 966
     }
   },
   {
@@ -9873,13 +9873,13 @@ const data = [
     "alias": "916921",
     "name": "BATH ROBE OYSTER MUSHROOM L/XL",
     "price": 99,
-    "stock": 146,
+    "stock": 134,
     "sales": 58,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 6,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 3,
@@ -9920,7 +9920,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 12,
-      "50-Meem Plaza Riyadh": 6,
+      "50-Meem Plaza Riyadh": 12,
       "51-Park Avenue Riyadh": 10,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -9931,8 +9931,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 146,
-      "warehouse riyadh": 984
+      "Warehouse": 134,
+      "warehouse riyadh": 960
     }
   },
   {
@@ -10001,7 +10001,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
       "Warehouse": 1523,
-      "warehouse riyadh": 798
+      "warehouse riyadh": 786
     }
   },
   {
@@ -10011,13 +10011,13 @@ const data = [
     "alias": "958202",
     "name": "BATH ROBE WHITE XS/S",
     "price": 99,
-    "stock": 1297,
+    "stock": 1291,
     "sales": 19,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 4,
+      "04-Andalos Mall": 10,
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 11,
       "07-Arab Mall": 9,
@@ -10069,8 +10069,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 49,
-      "Warehouse": 1297,
-      "warehouse riyadh": 468
+      "Warehouse": 1291,
+      "warehouse riyadh": 462
     }
   },
   {
@@ -10208,7 +10208,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 18,
       "Warehouse": 336,
-      "warehouse riyadh": 414
+      "warehouse riyadh": 402
     }
   },
   {
@@ -10218,7 +10218,7 @@ const data = [
     "alias": "958210",
     "name": "BATH ROBE P.BLUE XS/S",
     "price": 99,
-    "stock": 529,
+    "stock": 528,
     "sales": 29,
     "branches": {
       "00-GIFTS": 0,
@@ -10276,8 +10276,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 32,
-      "Warehouse": 529,
-      "warehouse riyadh": 738
+      "Warehouse": 528,
+      "warehouse riyadh": 732
     }
   },
   {
@@ -10356,13 +10356,13 @@ const data = [
     "alias": "958217",
     "name": "BATH ROBE LAVENDER XS/S",
     "price": 99,
-    "stock": 18,
+    "stock": 12,
     "sales": 13,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 6,
+      "04-Andalos Mall": 12,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 5,
@@ -10403,7 +10403,7 @@ const data = [
       "47-Al-Nakheel Plaza": 6,
       "48 - Jeddah Park": 5,
       "49-AlAhsa Mall": 6,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -10414,8 +10414,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 9,
-      "Warehouse": 18,
-      "warehouse riyadh": 276
+      "Warehouse": 12,
+      "warehouse riyadh": 252
     }
   },
   {
@@ -10563,7 +10563,7 @@ const data = [
     "alias": "958301",
     "name": "FRESHENER BLACK CHERRY BLACK 500 ML",
     "price": 79,
-    "stock": 835,
+    "stock": 827,
     "sales": 99,
     "branches": {
       "00-GIFTS": 14,
@@ -10621,8 +10621,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
-      "Warehouse": 835,
-      "warehouse riyadh": 144
+      "Warehouse": 827,
+      "warehouse riyadh": 136
     }
   },
   {
@@ -12416,7 +12416,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 23,
       "Warehouse": 88,
-      "warehouse riyadh": 18
+      "warehouse riyadh": 12
     }
   },
   {
@@ -12909,13 +12909,13 @@ const data = [
     "alias": "9892001",
     "name": "BATH ROBE ZERO TEIST WHITE S/M",
     "price": 129,
-    "stock": 524,
+    "stock": 518,
     "sales": 25,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 14,
       "07-Arab Mall": 19,
@@ -12967,7 +12967,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 524,
+      "Warehouse": 518,
       "warehouse riyadh": 36
     }
   },
@@ -13047,7 +13047,7 @@ const data = [
     "alias": "9892004",
     "name": "BATH ROBE ZERO TEIST OYSTER MUSHROOM S/M",
     "price": 129,
-    "stock": 96,
+    "stock": 90,
     "sales": 14,
     "branches": {
       "00-GIFTS": 0,
@@ -13105,7 +13105,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 96,
+      "Warehouse": 90,
       "warehouse riyadh": 0
     }
   },
@@ -13254,13 +13254,13 @@ const data = [
     "alias": "9893004",
     "name": "BATH ROBE ZERO TWIST OYSTER MUSHROOM L/XL",
     "price": 129,
-    "stock": 81,
+    "stock": 75,
     "sales": 40,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 6,
+      "04-Andalos Mall": 12,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 3,
       "07-Arab Mall": 13,
@@ -13312,7 +13312,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 18,
-      "Warehouse": 81,
+      "Warehouse": 75,
       "warehouse riyadh": 0
     }
   },
@@ -13451,7 +13451,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 120,
-      "warehouse riyadh": 204
+      "warehouse riyadh": 198
     }
   },
   {
@@ -13461,13 +13461,13 @@ const data = [
     "alias": "916932",
     "name": "BATH ROBE LIGHT BLUE L/XL",
     "price": 99,
-    "stock": 66,
+    "stock": 60,
     "sales": 86,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 10,
+      "04-Andalos Mall": 16,
       "05-Haifa Mall": 12,
       "06-Red Sea Mall": 5,
       "07-Arab Mall": 12,
@@ -13519,8 +13519,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 66,
-      "warehouse riyadh": 246
+      "Warehouse": 60,
+      "warehouse riyadh": 222
     }
   },
   {
@@ -13875,13 +13875,13 @@ const data = [
     "alias": "816202",
     "name": "BATH MAT SET 2 PCS CHINO GREEN",
     "price": 99,
-    "stock": 501,
+    "stock": 495,
     "sales": 36,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 1,
+      "04-Andalos Mall": 7,
       "05-Haifa Mall": 9,
       "06-Red Sea Mall": 19,
       "07-Arab Mall": 7,
@@ -13917,7 +13917,7 @@ const data = [
       "42-Dareen Mall Dammam": 5,
       "43-Mujan Park": 6,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 2,
+      "45- Riyadh Gallery Mall": 8,
       "46-Khaleej Mall Riyadh": 8,
       "47-Al-Nakheel Plaza": 6,
       "48 - Jeddah Park": 4,
@@ -13933,8 +13933,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 501,
-      "warehouse riyadh": 1146
+      "Warehouse": 495,
+      "warehouse riyadh": 1140
     }
   },
   {
@@ -14013,7 +14013,7 @@ const data = [
     "alias": "816205",
     "name": "BATH MAT SET 2 PCS WHITE",
     "price": 99,
-    "stock": 651,
+    "stock": 645,
     "sales": 19,
     "branches": {
       "00-GIFTS": 3,
@@ -14071,7 +14071,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 651,
+      "Warehouse": 645,
       "warehouse riyadh": 1206
     }
   },
@@ -14082,13 +14082,13 @@ const data = [
     "alias": "816207",
     "name": "BATH MAT SET 2 PCS OYESTER MUSHROOM",
     "price": 99,
-    "stock": 516,
+    "stock": 510,
     "sales": 25,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 1,
+      "04-Andalos Mall": 7,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 22,
       "07-Arab Mall": 2,
@@ -14124,7 +14124,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 3,
       "44-Al-Jouf Center": 5,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 7,
       "46-Khaleej Mall Riyadh": 8,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 6,
@@ -14140,8 +14140,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 516,
-      "warehouse riyadh": 708
+      "Warehouse": 510,
+      "warehouse riyadh": 702
     }
   },
   {
@@ -14151,7 +14151,7 @@ const data = [
     "alias": "816209",
     "name": "BATH MAT SET 2 PCS PINK",
     "price": 99,
-    "stock": 1587,
+    "stock": 1575,
     "sales": 16,
     "branches": {
       "00-GIFTS": 9,
@@ -14209,7 +14209,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 1587,
+      "Warehouse": 1575,
       "warehouse riyadh": 438
     }
   },
@@ -14331,7 +14331,7 @@ const data = [
       "42-Dareen Mall Dammam": 5,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 6,
       "46-Khaleej Mall Riyadh": 9,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 8,
@@ -14348,7 +14348,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 792,
-      "warehouse riyadh": 1200
+      "warehouse riyadh": 1194
     }
   },
   {
@@ -14405,7 +14405,7 @@ const data = [
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 4,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 1,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 6,
       "52-Al_Baha Mall": 4,
       "53-Al Basateen Mall": 3,
@@ -14417,7 +14417,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1336,
-      "warehouse riyadh": 828
+      "warehouse riyadh": 822
     }
   },
   {
@@ -19316,7 +19316,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 28,
       "Warehouse": 79,
-      "warehouse riyadh": 564
+      "warehouse riyadh": 552
     }
   },
   {
@@ -25191,7 +25191,7 @@ const data = [
     "alias": "970133",
     "name": "O422 SOMOOSHIE TOY - FROG GREEN",
     "price": 69,
-    "stock": 689,
+    "stock": 687,
     "sales": 43,
     "branches": {
       "00-GIFTS": 0,
@@ -25249,7 +25249,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 689,
+      "Warehouse": 687,
       "warehouse riyadh": 18
     }
   },
@@ -25260,13 +25260,13 @@ const data = [
     "alias": "970136",
     "name": "T425 SOMOOSHIE TOY - CUTTLEFISH FUSHIA",
     "price": 69,
-    "stock": 230,
+    "stock": 228,
     "sales": 44,
     "branches": {
       "00-GIFTS": 4,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 2,
+      "04-Andalos Mall": 4,
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 4,
@@ -25318,7 +25318,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 230,
+      "Warehouse": 228,
       "warehouse riyadh": 0
     }
   },
@@ -25329,13 +25329,13 @@ const data = [
     "alias": "970137",
     "name": "A426 SOMOOSHIE TOY - CRAB PINK",
     "price": 69,
-    "stock": 85,
+    "stock": 83,
     "sales": 21,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 1,
+      "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 4,
       "07-Arab Mall": 8,
@@ -25387,7 +25387,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 85,
+      "Warehouse": 83,
       "warehouse riyadh": 0
     }
   },
@@ -25398,13 +25398,13 @@ const data = [
     "alias": "970138",
     "name": "N427 SOMOOSHIE TOY - DINO GRASS",
     "price": 69,
-    "stock": 991,
+    "stock": 987,
     "sales": 24,
     "branches": {
       "00-GIFTS": 4,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 1,
+      "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 5,
       "07-Arab Mall": 1,
@@ -25456,7 +25456,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 991,
+      "Warehouse": 987,
       "warehouse riyadh": 0
     }
   },
@@ -25467,7 +25467,7 @@ const data = [
     "alias": "970139",
     "name": "A428 SOMOOSHIE TOY - DEER WHITE/RED",
     "price": 69,
-    "stock": 695,
+    "stock": 689,
     "sales": 44,
     "branches": {
       "00-GIFTS": 2,
@@ -25525,7 +25525,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 695,
+      "Warehouse": 689,
       "warehouse riyadh": 6
     }
   },
@@ -25605,7 +25605,7 @@ const data = [
     "alias": "970142",
     "name": "U431 SOMOOSHIE TOY - MOUSE LT.PINK",
     "price": 69,
-    "stock": 516,
+    "stock": 504,
     "sales": 30,
     "branches": {
       "00-GIFTS": 0,
@@ -25663,7 +25663,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 516,
+      "Warehouse": 504,
       "warehouse riyadh": 205
     }
   },
@@ -25674,7 +25674,7 @@ const data = [
     "alias": "970143",
     "name": "T432 SOMOOSHIE TOY - CAT LT.PINK/FUSHIA",
     "price": 69,
-    "stock": 151,
+    "stock": 143,
     "sales": 47,
     "branches": {
       "00-GIFTS": 0,
@@ -25732,7 +25732,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 23,
-      "Warehouse": 151,
+      "Warehouse": 143,
       "warehouse riyadh": 0
     }
   },
@@ -25743,13 +25743,13 @@ const data = [
     "alias": "970144",
     "name": "R433 SOMOOSHIE TOY - DEER PEACH",
     "price": 69,
-    "stock": 494,
+    "stock": 490,
     "sales": 13,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 5,
       "07-Arab Mall": 6,
@@ -25801,7 +25801,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 494,
+      "Warehouse": 490,
       "warehouse riyadh": 0
     }
   },
@@ -25812,13 +25812,13 @@ const data = [
     "alias": "970145",
     "name": "N434 SOMOOSHIE TOY - DINO LT.BLUE",
     "price": 69,
-    "stock": 986,
+    "stock": 984,
     "sales": 12,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 1,
       "07-Arab Mall": 5,
@@ -25870,7 +25870,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 986,
+      "Warehouse": 984,
       "warehouse riyadh": 0
     }
   },
@@ -26009,7 +26009,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 1110,
-      "warehouse riyadh": 282
+      "warehouse riyadh": 276
     }
   },
   {
@@ -26019,7 +26019,7 @@ const data = [
     "alias": "970155",
     "name": "A455 SOMOOSHIE TOY - CRAB LT.LAVENDER/PEACH",
     "price": 69,
-    "stock": 799,
+    "stock": 793,
     "sales": 10,
     "branches": {
       "00-GIFTS": 1,
@@ -26077,7 +26077,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 799,
+      "Warehouse": 793,
       "warehouse riyadh": 0
     }
   },
@@ -26088,7 +26088,7 @@ const data = [
     "alias": "970149",
     "name": "E438 SMOOSHIE TOY- BEE PURPLE",
     "price": 69,
-    "stock": 413,
+    "stock": 409,
     "sales": 46,
     "branches": {
       "00-GIFTS": 1,
@@ -26146,7 +26146,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 413,
+      "Warehouse": 409,
       "warehouse riyadh": 0
     }
   },
@@ -26157,7 +26157,7 @@ const data = [
     "alias": "970134",
     "name": "B423 SMOOSHIE TOY- RABBIT IVORY",
     "price": 69,
-    "stock": 697,
+    "stock": 695,
     "sales": 57,
     "branches": {
       "00-GIFTS": 1,
@@ -26199,7 +26199,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 6,
       "46-Khaleej Mall Riyadh": 3,
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 6,
@@ -26215,8 +26215,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 697,
-      "warehouse riyadh": 348
+      "Warehouse": 695,
+      "warehouse riyadh": 336
     }
   },
   {
@@ -26285,7 +26285,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
       "Warehouse": 656,
-      "warehouse riyadh": 314
+      "warehouse riyadh": 302
     }
   },
   {
@@ -26295,7 +26295,7 @@ const data = [
     "alias": "970141",
     "name": "I430 SMOOSHIE TOY- UNICORN COLORFUL",
     "price": 69,
-    "stock": 415,
+    "stock": 405,
     "sales": 43,
     "branches": {
       "00-GIFTS": 0,
@@ -26353,8 +26353,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 415,
-      "warehouse riyadh": 211
+      "Warehouse": 405,
+      "warehouse riyadh": 199
     }
   },
   {
@@ -26364,13 +26364,13 @@ const data = [
     "alias": "970146",
     "name": "U435 SMOOSHIE TOY- CUUTOPIA ORANGE GREEN",
     "price": 69,
-    "stock": 35,
+    "stock": 23,
     "sales": 69,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 5,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 0,
       "07-Arab Mall": 6,
@@ -26422,7 +26422,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 35,
+      "Warehouse": 23,
       "warehouse riyadh": 0
     }
   },
@@ -26492,7 +26492,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 863,
-      "warehouse riyadh": 570
+      "warehouse riyadh": 558
     }
   },
   {
@@ -26549,7 +26549,7 @@ const data = [
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 1,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 2,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 0,
@@ -26561,7 +26561,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 701,
-      "warehouse riyadh": 366
+      "warehouse riyadh": 360
     }
   },
   {
@@ -26571,7 +26571,7 @@ const data = [
     "alias": "970151",
     "name": "A450 SMOOSHIE TOY- STRAWBERRY TEA PEACH PING",
     "price": 69,
-    "stock": 464,
+    "stock": 462,
     "sales": 83,
     "branches": {
       "00-GIFTS": 1,
@@ -26618,7 +26618,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 3,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 1,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -26629,8 +26629,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 464,
-      "warehouse riyadh": 192
+      "Warehouse": 462,
+      "warehouse riyadh": 180
     }
   },
   {
@@ -26640,13 +26640,13 @@ const data = [
     "alias": "970152",
     "name": "A451 SMOOSHIE TOY- CREAM TEA LT.PINK",
     "price": 69,
-    "stock": 755,
+    "stock": 753,
     "sales": 36,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 5,
+      "04-Andalos Mall": 7,
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 7,
@@ -26698,7 +26698,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 755,
+      "Warehouse": 753,
       "warehouse riyadh": 450
     }
   },
@@ -26768,7 +26768,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
       "Warehouse": 885,
-      "warehouse riyadh": 588
+      "warehouse riyadh": 576
     }
   },
   {
@@ -28769,7 +28769,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 7,
-      "warehouse riyadh": 29
+      "warehouse riyadh": 23
     }
   },
   {
@@ -28907,7 +28907,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 23,
       "Warehouse": 18,
-      "warehouse riyadh": 48
+      "warehouse riyadh": 42
     }
   },
   {
@@ -29597,7 +29597,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
       "Warehouse": 194,
-      "warehouse riyadh": 269
+      "warehouse riyadh": 263
     }
   },
   {
@@ -30711,13 +30711,13 @@ const data = [
     "alias": "502601",
     "name": "BLANKET FULL MARSHMALLOW COMFY 66*90",
     "price": 79,
-    "stock": 2320,
+    "stock": 2308,
     "sales": 77,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 4,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 15,
+      "04-Andalos Mall": 19,
       "05-Haifa Mall": 9,
       "06-Red Sea Mall": 16,
       "07-Arab Mall": 9,
@@ -30758,7 +30758,7 @@ const data = [
       "47-Al-Nakheel Plaza": 8,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 6,
+      "50-Meem Plaza Riyadh": 10,
       "51-Park Avenue Riyadh": 8,
       "52-Al_Baha Mall": 1,
       "53-Al Basateen Mall": 1,
@@ -30769,8 +30769,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 2320,
-      "warehouse riyadh": 1404
+      "Warehouse": 2308,
+      "warehouse riyadh": 1400
     }
   },
   {
@@ -30780,13 +30780,13 @@ const data = [
     "alias": "502602",
     "name": "BLANKET FULL GREY COMFY 66*90",
     "price": 79,
-    "stock": 2248,
+    "stock": 2224,
     "sales": 101,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 5,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 13,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 14,
       "07-Arab Mall": 5,
@@ -30822,7 +30822,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 9,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 5,
+      "45- Riyadh Gallery Mall": 9,
       "46-Khaleej Mall Riyadh": 12,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 10,
@@ -30838,8 +30838,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 2248,
-      "warehouse riyadh": 2420
+      "Warehouse": 2224,
+      "warehouse riyadh": 2412
     }
   },
   {
@@ -30849,13 +30849,13 @@ const data = [
     "alias": "502603",
     "name": "BLANKET FULL DOE SKIN COMFY 66*90",
     "price": 79,
-    "stock": 2712,
+    "stock": 2688,
     "sales": 132,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 5,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 11,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 15,
       "07-Arab Mall": 4,
@@ -30864,7 +30864,7 @@ const data = [
       "11-Jouri Mall": 11,
       "12-Al_Hamra Mall": 13,
       "13-Al-Yasmin Mall": 9,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 14,
       "15-Riyadh Othaim Mall": 1,
       "16-Ehsa Othaim Mall": 4,
       "17-Arar Othaim Mall": 2,
@@ -30896,7 +30896,7 @@ const data = [
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 5,
-      "50-Meem Plaza Riyadh": 2,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 8,
       "52-Al_Baha Mall": 4,
       "53-Al Basateen Mall": 4,
@@ -30907,8 +30907,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 2712,
-      "warehouse riyadh": 2896
+      "Warehouse": 2688,
+      "warehouse riyadh": 2888
     }
   },
   {
@@ -30918,13 +30918,13 @@ const data = [
     "alias": "502606",
     "name": "BLANKET FULL NAVY COMFY 66*90",
     "price": 79,
-    "stock": 417,
+    "stock": 409,
     "sales": 133,
     "branches": {
       "00-GIFTS": 6,
       "01-Jeddah INT Market": 6,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 5,
+      "04-Andalos Mall": 9,
       "05-Haifa Mall": 4,
       "06-Red Sea Mall": 16,
       "07-Arab Mall": 15,
@@ -30933,7 +30933,7 @@ const data = [
       "11-Jouri Mall": 8,
       "12-Al_Hamra Mall": 10,
       "13-Al-Yasmin Mall": 8,
-      "14-Al Kamal Mall": 4,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 9,
       "17-Arar Othaim Mall": 2,
@@ -30965,7 +30965,7 @@ const data = [
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 2,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 12,
       "52-Al_Baha Mall": 4,
       "53-Al Basateen Mall": 2,
@@ -30976,8 +30976,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 21,
-      "Warehouse": 417,
-      "warehouse riyadh": 1220
+      "Warehouse": 409,
+      "warehouse riyadh": 1216
     }
   },
   {
@@ -30987,7 +30987,7 @@ const data = [
     "alias": "502701",
     "name": "BLANKET KING MARSHMALLOW COMFY 104*90",
     "price": 99,
-    "stock": 2479,
+    "stock": 2475,
     "sales": 88,
     "branches": {
       "00-GIFTS": 1,
@@ -31034,7 +31034,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 7,
       "53-Al Basateen Mall": 0,
@@ -31045,8 +31045,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 2479,
-      "warehouse riyadh": 1832
+      "Warehouse": 2475,
+      "warehouse riyadh": 1820
     }
   },
   {
@@ -31056,7 +31056,7 @@ const data = [
     "alias": "502702",
     "name": "BLANKET KING GREY COMFY 104*90",
     "price": 99,
-    "stock": 1935,
+    "stock": 1925,
     "sales": 88,
     "branches": {
       "00-GIFTS": 1,
@@ -31114,8 +31114,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 49,
-      "Warehouse": 1935,
-      "warehouse riyadh": 2288
+      "Warehouse": 1925,
+      "warehouse riyadh": 2284
     }
   },
   {
@@ -31125,7 +31125,7 @@ const data = [
     "alias": "502703",
     "name": "BLANKET KING DOE SKIN COMFY 104*90",
     "price": 99,
-    "stock": 1536,
+    "stock": 1522,
     "sales": 172,
     "branches": {
       "00-GIFTS": 0,
@@ -31172,7 +31172,7 @@ const data = [
       "47-Al-Nakheel Plaza": 12,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 3,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 1,
@@ -31183,8 +31183,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 39,
-      "Warehouse": 1536,
-      "warehouse riyadh": 1712
+      "Warehouse": 1522,
+      "warehouse riyadh": 1704
     }
   },
   {
@@ -31194,7 +31194,7 @@ const data = [
     "alias": "502704",
     "name": "BLANKET KING ROSE PINK COMFY 104*90",
     "price": 99,
-    "stock": 965,
+    "stock": 949,
     "sales": 66,
     "branches": {
       "00-GIFTS": 2,
@@ -31252,8 +31252,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 965,
-      "warehouse riyadh": 1032
+      "Warehouse": 949,
+      "warehouse riyadh": 1028
     }
   },
   {
@@ -31263,7 +31263,7 @@ const data = [
     "alias": "502705",
     "name": "BLANKET KING CRIMSON COMFY 104*90",
     "price": 99,
-    "stock": 974,
+    "stock": 966,
     "sales": 71,
     "branches": {
       "00-GIFTS": 12,
@@ -31305,7 +31305,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 9,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 4,
+      "45- Riyadh Gallery Mall": 8,
       "46-Khaleej Mall Riyadh": 5,
       "47-Al-Nakheel Plaza": 12,
       "48 - Jeddah Park": 11,
@@ -31321,8 +31321,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 51,
-      "Warehouse": 974,
-      "warehouse riyadh": 1276
+      "Warehouse": 966,
+      "warehouse riyadh": 1268
     }
   },
   {
@@ -31379,7 +31379,7 @@ const data = [
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 10,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 6,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 0,
@@ -31391,7 +31391,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 31,
       "Warehouse": 1402,
-      "warehouse riyadh": 1728
+      "warehouse riyadh": 1720
     }
   },
   {
@@ -31746,7 +31746,7 @@ const data = [
     "alias": "502708",
     "name": "BLANKET KING 17K PORCINI COMFY 104*90",
     "price": 99,
-    "stock": 788,
+    "stock": 776,
     "sales": 88,
     "branches": {
       "00-GIFTS": 0,
@@ -31804,8 +31804,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 788,
-      "warehouse riyadh": 920
+      "Warehouse": 776,
+      "warehouse riyadh": 916
     }
   },
   {
@@ -31815,7 +31815,7 @@ const data = [
     "alias": "502709",
     "name": "BLANKET KING 81W FIRE PIT COMFY 104*90",
     "price": 99,
-    "stock": 672,
+    "stock": 668,
     "sales": 148,
     "branches": {
       "00-GIFTS": 0,
@@ -31857,7 +31857,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 10,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 3,
+      "45- Riyadh Gallery Mall": 7,
       "46-Khaleej Mall Riyadh": 8,
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 12,
@@ -31873,8 +31873,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 672,
-      "warehouse riyadh": 864
+      "Warehouse": 668,
+      "warehouse riyadh": 856
     }
   },
   {
@@ -31943,7 +31943,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 885,
-      "warehouse riyadh": 996
+      "warehouse riyadh": 992
     }
   },
   {
@@ -31953,7 +31953,7 @@ const data = [
     "alias": "502711",
     "name": "BLANKET KING 92H FARMHOUSE SAGE COMFY 104*90",
     "price": 99,
-    "stock": 677,
+    "stock": 665,
     "sales": 123,
     "branches": {
       "00-GIFTS": 0,
@@ -32011,8 +32011,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 677,
-      "warehouse riyadh": 832
+      "Warehouse": 665,
+      "warehouse riyadh": 828
     }
   },
   {
@@ -32345,7 +32345,7 @@ const data = [
       "47-Al-Nakheel Plaza": 8,
       "48 - Jeddah Park": 9,
       "49-AlAhsa Mall": 5,
-      "50-Meem Plaza Riyadh": 13,
+      "50-Meem Plaza Riyadh": 18,
       "51-Park Avenue Riyadh": 6,
       "52-Al_Baha Mall": 1,
       "53-Al Basateen Mall": 10,
@@ -32357,7 +32357,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 52,
       "Warehouse": 715,
-      "warehouse riyadh": 830
+      "warehouse riyadh": 825
     }
   },
   {
@@ -32897,7 +32897,7 @@ const data = [
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 5,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 9,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 4,
@@ -32909,7 +32909,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
       "Warehouse": 100,
-      "warehouse riyadh": 295
+      "warehouse riyadh": 290
     }
   },
   {
@@ -34506,8 +34506,8 @@ const data = [
     "alias": "927005",
     "name": "PILLOW CASES KING PLATINUM GREY 2PCS",
     "price": 35,
-    "stock": 814,
-    "sales": 39,
+    "stock": 812,
+    "sales": 41,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -34564,7 +34564,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 814,
+      "Warehouse": 812,
       "warehouse riyadh": 0
     }
   },
@@ -34782,8 +34782,8 @@ const data = [
     "alias": "927003",
     "name": "PILLOW CASES KING LINEN 2PCS",
     "price": 35,
-    "stock": 388,
-    "sales": 45,
+    "stock": 387,
+    "sales": 46,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 9,
@@ -34840,7 +34840,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 388,
+      "Warehouse": 387,
       "warehouse riyadh": 336
     }
   },
@@ -34851,8 +34851,8 @@ const data = [
     "alias": "927009",
     "name": "PILLOW CASES KING PINK 2PCS",
     "price": 35,
-    "stock": 370,
-    "sales": 17,
+    "stock": 369,
+    "sales": 18,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 2,
@@ -34909,7 +34909,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 370,
+      "Warehouse": 369,
       "warehouse riyadh": 0
     }
   },
@@ -34920,8 +34920,8 @@ const data = [
     "alias": "927013",
     "name": "PILLOW CASES KING LILAC MARBLE 2PCS",
     "price": 35,
-    "stock": 13,
-    "sales": 32,
+    "stock": 12,
+    "sales": 33,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 8,
@@ -34978,7 +34978,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 13,
+      "Warehouse": 12,
       "warehouse riyadh": 60
     }
   },
@@ -35450,7 +35450,7 @@ const data = [
       "47-Al-Nakheel Plaza": 14,
       "48 - Jeddah Park": 3,
       "49-AlAhsa Mall": 14,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 12,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 7,
       "53-Al Basateen Mall": 0,
@@ -35462,7 +35462,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 604,
-      "warehouse riyadh": 936
+      "warehouse riyadh": 924
     }
   },
   {
@@ -35726,7 +35726,7 @@ const data = [
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 11,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 12,
       "51-Park Avenue Riyadh": 9,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 12,
@@ -35738,7 +35738,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1703,
-      "warehouse riyadh": 132
+      "warehouse riyadh": 120
     }
   },
   {
@@ -35795,7 +35795,7 @@ const data = [
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 14,
       "49-AlAhsa Mall": 3,
-      "50-Meem Plaza Riyadh": 5,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 4,
       "53-Al Basateen Mall": 6,
@@ -35807,7 +35807,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 48,
       "Warehouse": 306,
-      "warehouse riyadh": 994
+      "warehouse riyadh": 992
     }
   },
   {
@@ -36428,7 +36428,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 146,
-      "warehouse riyadh": 384
+      "warehouse riyadh": 378
     }
   },
   {
@@ -36438,13 +36438,13 @@ const data = [
     "alias": "816402",
     "name": "BATH MAT 21X34IN CHINO GREEN",
     "price": 59,
-    "stock": 1596,
+    "stock": 1590,
     "sales": 22,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 9,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 21,
       "07-Arab Mall": 9,
@@ -36496,7 +36496,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1596,
+      "Warehouse": 1590,
       "warehouse riyadh": 312
     }
   },
@@ -36645,13 +36645,13 @@ const data = [
     "alias": "816407",
     "name": "BATH MAT 21X34IN DARKER LIGHT GREY",
     "price": 59,
-    "stock": 294,
+    "stock": 228,
     "sales": 21,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 6,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 0,
@@ -36660,7 +36660,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 9,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 6,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 8,
       "17-Arar Othaim Mall": 0,
@@ -36703,8 +36703,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 294,
-      "warehouse riyadh": 408
+      "Warehouse": 228,
+      "warehouse riyadh": 402
     }
   },
   {
@@ -36894,7 +36894,7 @@ const data = [
       "42-Dareen Mall Dammam": 8,
       "43-Mujan Park": 8,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 5,
+      "45- Riyadh Gallery Mall": 11,
       "46-Khaleej Mall Riyadh": 5,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 4,
@@ -36911,7 +36911,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 38,
       "Warehouse": 1332,
-      "warehouse riyadh": 862
+      "warehouse riyadh": 856
     }
   },
   {
@@ -37256,7 +37256,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 105,
-      "warehouse riyadh": 744
+      "warehouse riyadh": 738
     }
   },
   {
@@ -37611,7 +37611,7 @@ const data = [
     "alias": "816414",
     "name": "BATH MAT 21X34IN NAVY",
     "price": 59,
-    "stock": 210,
+    "stock": 204,
     "sales": 12,
     "branches": {
       "00-GIFTS": 0,
@@ -37669,8 +37669,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 210,
-      "warehouse riyadh": 450
+      "Warehouse": 204,
+      "warehouse riyadh": 444
     }
   },
   {
@@ -37680,7 +37680,7 @@ const data = [
     "alias": "816313",
     "name": "BATH MAT 17X24IN DARK LILAC",
     "price": 39,
-    "stock": 714,
+    "stock": 708,
     "sales": 25,
     "branches": {
       "00-GIFTS": 0,
@@ -37738,7 +37738,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 714,
+      "Warehouse": 708,
       "warehouse riyadh": 576
     }
   },
@@ -37749,13 +37749,13 @@ const data = [
     "alias": "816413",
     "name": "BATH MAT 21X34IN DARKER LILAC",
     "price": 59,
-    "stock": 252,
+    "stock": 186,
     "sales": 9,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 6,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 0,
@@ -37764,7 +37764,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 6,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 6,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 5,
       "17-Arar Othaim Mall": 0,
@@ -37807,7 +37807,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 252,
+      "Warehouse": 186,
       "warehouse riyadh": 228
     }
   },
@@ -37818,7 +37818,7 @@ const data = [
     "alias": "816314",
     "name": "BATH MAT 17X24IN NAVY",
     "price": 39,
-    "stock": 228,
+    "stock": 222,
     "sales": 19,
     "branches": {
       "00-GIFTS": 0,
@@ -37876,7 +37876,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 228,
+      "Warehouse": 222,
       "warehouse riyadh": 960
     }
   },
@@ -37946,7 +37946,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 60,
-      "warehouse riyadh": 192
+      "warehouse riyadh": 186
     }
   },
   {
@@ -38015,7 +38015,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 168,
-      "warehouse riyadh": 168
+      "warehouse riyadh": 162
     }
   },
   {
@@ -38153,7 +38153,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 102,
-      "warehouse riyadh": 132
+      "warehouse riyadh": 126
     }
   },
   {
@@ -38222,7 +38222,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 198,
-      "warehouse riyadh": 192
+      "warehouse riyadh": 186
     }
   },
   {
@@ -38291,7 +38291,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 162,
-      "warehouse riyadh": 306
+      "warehouse riyadh": 300
     }
   },
   {
@@ -38508,13 +38508,13 @@ const data = [
     "alias": "817203",
     "name": "BATH MAT 30X50IN DARKER LIGHT GRAY",
     "price": 129,
-    "stock": 96,
+    "stock": 30,
     "sales": 10,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 6,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 0,
@@ -38523,7 +38523,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 6,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 6,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -38566,7 +38566,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 96,
+      "Warehouse": 30,
       "warehouse riyadh": 12
     }
   },
@@ -38715,13 +38715,13 @@ const data = [
     "alias": "9006-01",
     "name": "BOTTEL WATER SOLID BLACK WM LEAK PROOF 20 OZ",
     "price": 29,
-    "stock": 1027,
-    "sales": 554,
+    "stock": 1003,
+    "sales": 558,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 19,
+      "04-Andalos Mall": 31,
       "05-Haifa Mall": 11,
       "06-Red Sea Mall": 16,
       "07-Arab Mall": 30,
@@ -38762,19 +38762,19 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 8,
       "49-AlAhsa Mall": 3,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 16,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 12,
       "53-Al Basateen Mall": 4,
       "54-THE VILLAGE": 41,
-      "55- Jabl Omar": 69,
+      "55- Jabl Omar": 65,
       "56- Aziz Mall 2": 16,
       "57-Sauq7": 11,
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1027,
-      "warehouse riyadh": 96
+      "Warehouse": 1003,
+      "warehouse riyadh": 36
     }
   },
   {
@@ -38853,13 +38853,13 @@ const data = [
     "alias": "9006-03",
     "name": "BOTTEL WATER SOLID WHITE WM LEAK PROOF  20 OZ",
     "price": 29,
-    "stock": 2744,
+    "stock": 2732,
     "sales": 265,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 23,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 14,
+      "04-Andalos Mall": 26,
       "05-Haifa Mall": 13,
       "06-Red Sea Mall": 54,
       "07-Arab Mall": 43,
@@ -38911,8 +38911,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 2744,
-      "warehouse riyadh": 1032
+      "Warehouse": 2732,
+      "warehouse riyadh": 1008
     }
   },
   {
@@ -38922,13 +38922,13 @@ const data = [
     "alias": "9006-04",
     "name": "BOTTEL WATER BLUE OMBRE WM LEAK PROOF 20 OZ",
     "price": 29,
-    "stock": 2017,
-    "sales": 439,
+    "stock": 1993,
+    "sales": 441,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 22,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 11,
+      "04-Andalos Mall": 23,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 22,
       "07-Arab Mall": 31,
@@ -38939,7 +38939,7 @@ const data = [
       "13-Al-Yasmin Mall": 20,
       "14-Al Kamal Mall": 0,
       "15-Riyadh Othaim Mall": 0,
-      "16-Ehsa Othaim Mall": 8,
+      "16-Ehsa Othaim Mall": 6,
       "17-Arar Othaim Mall": 1,
       "18-Al_Khayyat Center": 6,
       "19-Hail Othaim Mall": 1,
@@ -38980,8 +38980,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2017,
-      "warehouse riyadh": 660
+      "Warehouse": 1993,
+      "warehouse riyadh": 624
     }
   },
   {
@@ -39038,7 +39038,7 @@ const data = [
       "47-Al-Nakheel Plaza": 16,
       "48 - Jeddah Park": 31,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 10,
+      "50-Meem Plaza Riyadh": 22,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 23,
       "53-Al Basateen Mall": 9,
@@ -39050,7 +39050,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 31,
       "Warehouse": 2355,
-      "warehouse riyadh": 1117
+      "warehouse riyadh": 1105
     }
   },
   {
@@ -39060,13 +39060,13 @@ const data = [
     "alias": "9006-06",
     "name": "BOTTEL WATER PURPLE OMBRE WM LEAK PROOF 20 OZ",
     "price": 29,
-    "stock": 2099,
+    "stock": 2075,
     "sales": 336,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 15,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 12,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 5,
       "06-Red Sea Mall": 20,
       "07-Arab Mall": 24,
@@ -39118,8 +39118,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2099,
-      "warehouse riyadh": 721
+      "Warehouse": 2075,
+      "warehouse riyadh": 697
     }
   },
   {
@@ -39129,7 +39129,7 @@ const data = [
     "alias": "9006-07",
     "name": "BOTTEL WATER TEAL OMBRE WM LEAK PROOF  20 OZ",
     "price": 29,
-    "stock": 2192,
+    "stock": 2168,
     "sales": 359,
     "branches": {
       "00-GIFTS": 0,
@@ -39171,7 +39171,7 @@ const data = [
       "42-Dareen Mall Dammam": 14,
       "43-Mujan Park": 10,
       "44-Al-Jouf Center": 9,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 12,
       "46-Khaleej Mall Riyadh": 15,
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 13,
@@ -39187,8 +39187,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 2192,
-      "warehouse riyadh": 913
+      "Warehouse": 2168,
+      "warehouse riyadh": 889
     }
   },
   {
@@ -39405,7 +39405,7 @@ const data = [
     "alias": "9005-04",
     "name": "TUMBER WITH STRAW BLUE OMBRE WM 24 OZ",
     "price": 29,
-    "stock": 726,
+    "stock": 714,
     "sales": 140,
     "branches": {
       "00-GIFTS": 0,
@@ -39463,8 +39463,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 726,
-      "warehouse riyadh": 192
+      "Warehouse": 714,
+      "warehouse riyadh": 168
     }
   },
   {
@@ -39543,7 +39543,7 @@ const data = [
     "alias": "9005-06",
     "name": "PURPLE OMBRE WM TUMBER WITH STRAW 24 OZ",
     "price": 29,
-    "stock": 423,
+    "stock": 411,
     "sales": 223,
     "branches": {
       "00-GIFTS": 0,
@@ -39601,8 +39601,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 423,
-      "warehouse riyadh": 13
+      "Warehouse": 411,
+      "warehouse riyadh": 1
     }
   },
   {
@@ -39612,7 +39612,7 @@ const data = [
     "alias": "9005-07",
     "name": "TUMBER WITH STRAW TEAL OMBRE WM 24 OZ",
     "price": 29,
-    "stock": 727,
+    "stock": 715,
     "sales": 137,
     "branches": {
       "00-GIFTS": 0,
@@ -39670,7 +39670,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 727,
+      "Warehouse": 715,
       "warehouse riyadh": 241
     }
   },
@@ -39681,13 +39681,13 @@ const data = [
     "alias": "9006-08",
     "name": "BOTTEL WATER SOLID LAVENDER WM LEAK PROOF  20 OZ",
     "price": 29,
-    "stock": 1194,
-    "sales": 443,
+    "stock": 1170,
+    "sales": 447,
     "branches": {
       "00-GIFTS": 4,
       "01-Jeddah INT Market": 6,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 19,
+      "04-Andalos Mall": 31,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 10,
       "07-Arab Mall": 34,
@@ -39705,7 +39705,7 @@ const data = [
       "20-Sitten Street Makkah": 0,
       "21-Abha Al_Rashid Mall New": 4,
       "22-Tabuk Park": 16,
-      "23-Alia Mall Madinah": 21,
+      "23-Alia Mall Madinah": 20,
       "24-Yanbu Dana Mall": 8,
       "25-Rabwa Othaim Mall": 3,
       "26-Al-Noor Mall Madinah": 18,
@@ -39723,7 +39723,7 @@ const data = [
       "42-Dareen Mall Dammam": 11,
       "43-Mujan Park": 8,
       "44-Al-Jouf Center": 11,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 12,
       "46-Khaleej Mall Riyadh": 13,
       "47-Al-Nakheel Plaza": 12,
       "48 - Jeddah Park": 20,
@@ -39733,14 +39733,14 @@ const data = [
       "52-Al_Baha Mall": 14,
       "53-Al Basateen Mall": 1,
       "54-THE VILLAGE": 19,
-      "55- Jabl Omar": 57,
+      "55- Jabl Omar": 54,
       "56- Aziz Mall 2": 24,
       "57-Sauq7": 12,
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1194,
-      "warehouse riyadh": 216
+      "Warehouse": 1170,
+      "warehouse riyadh": 180
     }
   },
   {
@@ -39750,7 +39750,7 @@ const data = [
     "alias": "9005-08",
     "name": "SOLID LAVENDER WM TUMBER WITH STRAW 24 OZ",
     "price": 29,
-    "stock": 112,
+    "stock": 100,
     "sales": 199,
     "branches": {
       "00-GIFTS": 1,
@@ -39808,7 +39808,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 112,
+      "Warehouse": 100,
       "warehouse riyadh": 0
     }
   },
@@ -39819,7 +39819,7 @@ const data = [
     "alias": "9005-09",
     "name": "TUMBER WITH STRAW SOLID PINK WM 24 OZ",
     "price": 29,
-    "stock": 636,
+    "stock": 612,
     "sales": 185,
     "branches": {
       "00-GIFTS": 0,
@@ -39877,8 +39877,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 636,
-      "warehouse riyadh": 181
+      "Warehouse": 612,
+      "warehouse riyadh": 169
     }
   },
   {
@@ -39888,13 +39888,13 @@ const data = [
     "alias": "9005-10",
     "name": "SOLID NAVY WM TUMBER WITH STRAW 24 OZ",
     "price": 29,
-    "stock": 416,
-    "sales": 204,
+    "stock": 392,
+    "sales": 205,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 11,
+      "04-Andalos Mall": 10,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 44,
       "07-Arab Mall": 25,
@@ -39946,7 +39946,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 416,
+      "Warehouse": 392,
       "warehouse riyadh": 1
     }
   },
@@ -40095,7 +40095,7 @@ const data = [
     "alias": "900410",
     "name": "TUMBLERS COSTCO 40OZ BLACK",
     "price": 49,
-    "stock": 1552,
+    "stock": 1536,
     "sales": 77,
     "branches": {
       "00-GIFTS": 3,
@@ -40153,7 +40153,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 15,
-      "Warehouse": 1552,
+      "Warehouse": 1536,
       "warehouse riyadh": 0
     }
   },
@@ -40164,7 +40164,7 @@ const data = [
     "alias": "900414",
     "name": "COSTCO TUMBLERS 40OZ PINK",
     "price": 49,
-    "stock": 1222,
+    "stock": 1206,
     "sales": 63,
     "branches": {
       "00-GIFTS": 0,
@@ -40211,7 +40211,7 @@ const data = [
       "47-Al-Nakheel Plaza": 9,
       "48 - Jeddah Park": 19,
       "49-AlAhsa Mall": 11,
-      "50-Meem Plaza Riyadh": 2,
+      "50-Meem Plaza Riyadh": 18,
       "51-Park Avenue Riyadh": 13,
       "52-Al_Baha Mall": 10,
       "53-Al Basateen Mall": 0,
@@ -40222,8 +40222,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 15,
-      "Warehouse": 1222,
-      "warehouse riyadh": 256
+      "Warehouse": 1206,
+      "warehouse riyadh": 240
     }
   },
   {
@@ -40233,7 +40233,7 @@ const data = [
     "alias": "900415",
     "name": "TUMBLERS COSTCO 40OZ LIGHT BLUE",
     "price": 49,
-    "stock": 2807,
+    "stock": 2791,
     "sales": 95,
     "branches": {
       "00-GIFTS": 0,
@@ -40291,7 +40291,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 15,
-      "Warehouse": 2807,
+      "Warehouse": 2791,
       "warehouse riyadh": 768
     }
   },
@@ -40302,7 +40302,7 @@ const data = [
     "alias": "900417",
     "name": "COSTCO TUMBLERS 40OZ CHRISTMAS RED",
     "price": 49,
-    "stock": 1562,
+    "stock": 1546,
     "sales": 57,
     "branches": {
       "00-GIFTS": 1,
@@ -40349,7 +40349,7 @@ const data = [
       "47-Al-Nakheel Plaza": 26,
       "48 - Jeddah Park": 29,
       "49-AlAhsa Mall": 10,
-      "50-Meem Plaza Riyadh": 6,
+      "50-Meem Plaza Riyadh": 22,
       "51-Park Avenue Riyadh": 14,
       "52-Al_Baha Mall": 5,
       "53-Al Basateen Mall": 1,
@@ -40360,8 +40360,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1562,
-      "warehouse riyadh": 496
+      "Warehouse": 1546,
+      "warehouse riyadh": 480
     }
   },
   {
@@ -40371,7 +40371,7 @@ const data = [
     "alias": "900418",
     "name": "COSTCO TUMBLERS 40OZ YELLOW",
     "price": 49,
-    "stock": 650,
+    "stock": 634,
     "sales": 77,
     "branches": {
       "00-GIFTS": 2,
@@ -40429,7 +40429,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 15,
-      "Warehouse": 650,
+      "Warehouse": 634,
       "warehouse riyadh": 16
     }
   },
@@ -40440,7 +40440,7 @@ const data = [
     "alias": "900419",
     "name": "COSTCO TUMBLERS 40OZ ORANGE",
     "price": 49,
-    "stock": 1609,
+    "stock": 1593,
     "sales": 51,
     "branches": {
       "00-GIFTS": 0,
@@ -40487,7 +40487,7 @@ const data = [
       "47-Al-Nakheel Plaza": 28,
       "48 - Jeddah Park": 23,
       "49-AlAhsa Mall": 12,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 16,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 9,
       "53-Al Basateen Mall": 1,
@@ -40498,8 +40498,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 15,
-      "Warehouse": 1609,
-      "warehouse riyadh": 368
+      "Warehouse": 1593,
+      "warehouse riyadh": 352
     }
   },
   {
@@ -40509,13 +40509,13 @@ const data = [
     "alias": "9006-09",
     "name": "BOTTEL WATER SOLID PINK WM LEAK PROOF 20 OZ",
     "price": 29,
-    "stock": 2196,
-    "sales": 435,
+    "stock": 2184,
+    "sales": 439,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 17,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 15,
+      "04-Andalos Mall": 27,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 14,
       "07-Arab Mall": 34,
@@ -40533,7 +40533,7 @@ const data = [
       "20-Sitten Street Makkah": 7,
       "21-Abha Al_Rashid Mall New": 10,
       "22-Tabuk Park": 11,
-      "23-Alia Mall Madinah": 14,
+      "23-Alia Mall Madinah": 13,
       "24-Yanbu Dana Mall": 7,
       "25-Rabwa Othaim Mall": 3,
       "26-Al-Noor Mall Madinah": 20,
@@ -40551,7 +40551,7 @@ const data = [
       "42-Dareen Mall Dammam": 15,
       "43-Mujan Park": 20,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 6,
+      "45- Riyadh Gallery Mall": 18,
       "46-Khaleej Mall Riyadh": 10,
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 12,
@@ -40561,14 +40561,14 @@ const data = [
       "52-Al_Baha Mall": 8,
       "53-Al Basateen Mall": 3,
       "54-THE VILLAGE": 7,
-      "55- Jabl Omar": 39,
+      "55- Jabl Omar": 36,
       "56- Aziz Mall 2": 21,
       "57-Sauq7": 11,
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2196,
-      "warehouse riyadh": 865
+      "Warehouse": 2184,
+      "warehouse riyadh": 817
     }
   },
   {
@@ -40578,7 +40578,7 @@ const data = [
     "alias": "9006-10",
     "name": "BOTTEL WATER SOLID NAVY WM LEAK PROOF 20 OZ",
     "price": 29,
-    "stock": 1799,
+    "stock": 1787,
     "sales": 362,
     "branches": {
       "00-GIFTS": 1,
@@ -40636,8 +40636,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1799,
-      "warehouse riyadh": 709
+      "Warehouse": 1787,
+      "warehouse riyadh": 673
     }
   },
   {
@@ -40775,7 +40775,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 3368,
-      "warehouse riyadh": 636
+      "warehouse riyadh": 624
     }
   },
   {
@@ -40844,7 +40844,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 49,
       "Warehouse": 4731,
-      "warehouse riyadh": 1776
+      "warehouse riyadh": 1764
     }
   },
   {
@@ -40854,13 +40854,13 @@ const data = [
     "alias": "9006-14",
     "name": "BOTTEL PRINT RAINBOW AND WHITE WM LEAK PROOF WATER 20 OZ",
     "price": 29,
-    "stock": 5350,
+    "stock": 5338,
     "sales": 61,
     "branches": {
       "00-GIFTS": 4,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 7,
+      "04-Andalos Mall": 19,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 39,
       "07-Arab Mall": 27,
@@ -40912,7 +40912,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 5350,
+      "Warehouse": 5338,
       "warehouse riyadh": 2076
     }
   },
@@ -40923,13 +40923,13 @@ const data = [
     "alias": "9006-15",
     "name": "CHRISTMAS RED WM LEAK PROOF WATER BOTTEL 20 OZ",
     "price": 29,
-    "stock": 498,
+    "stock": 486,
     "sales": 46,
     "branches": {
       "00-GIFTS": 9,
       "01-Jeddah INT Market": 13,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 21,
       "05-Haifa Mall": 4,
       "06-Red Sea Mall": 42,
       "07-Arab Mall": 29,
@@ -40981,7 +40981,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 498,
+      "Warehouse": 486,
       "warehouse riyadh": 0
     }
   },
@@ -41120,7 +41120,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 15,
       "Warehouse": 1063,
-      "warehouse riyadh": 408
+      "warehouse riyadh": 396
     }
   },
   {
@@ -50445,7 +50445,7 @@ const data = [
     "alias": "95632636",
     "name": "BE-92 WOMEN SLIPPER PINK 36/37",
     "price": 19,
-    "stock": 352,
+    "stock": 336,
     "sales": 13,
     "branches": {
       "00-GIFTS": 0,
@@ -50503,7 +50503,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 352,
+      "Warehouse": 336,
       "warehouse riyadh": 352
     }
   },
@@ -50514,7 +50514,7 @@ const data = [
     "alias": "95632638",
     "name": "BE-92 WOMEN SLIPPER PINK 38/39",
     "price": 19,
-    "stock": 352,
+    "stock": 336,
     "sales": 17,
     "branches": {
       "00-GIFTS": 0,
@@ -50572,7 +50572,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 352,
+      "Warehouse": 336,
       "warehouse riyadh": 352
     }
   },
@@ -50583,7 +50583,7 @@ const data = [
     "alias": "95632640",
     "name": "BE-92 WOMEN SLIPPER PINK 40/41",
     "price": 19,
-    "stock": 176,
+    "stock": 168,
     "sales": 9,
     "branches": {
       "00-GIFTS": 0,
@@ -50641,7 +50641,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 176,
+      "Warehouse": 168,
       "warehouse riyadh": 176
     }
   },
@@ -51963,7 +51963,7 @@ const data = [
     "alias": "95635936",
     "name": "BE-78 WOMEN SLIPPER BROWN 36/37",
     "price": 29,
-    "stock": 32,
+    "stock": 26,
     "sales": 22,
     "branches": {
       "00-GIFTS": 0,
@@ -51978,7 +51978,7 @@ const data = [
       "11-Jouri Mall": 13,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 10,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 7,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 9,
@@ -52021,7 +52021,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 32,
+      "Warehouse": 26,
       "warehouse riyadh": 0
     }
   },
@@ -52032,7 +52032,7 @@ const data = [
     "alias": "95635938",
     "name": "BE-78 WOMEN SLIPPER BROWN 38/39",
     "price": 29,
-    "stock": 33,
+    "stock": 25,
     "sales": 38,
     "branches": {
       "00-GIFTS": 0,
@@ -52047,7 +52047,7 @@ const data = [
       "11-Jouri Mall": 18,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 11,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 10,
@@ -52090,7 +52090,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 33,
+      "Warehouse": 25,
       "warehouse riyadh": 0
     }
   },
@@ -52101,7 +52101,7 @@ const data = [
     "alias": "95635940",
     "name": "BE-78 WOMEN SLIPPER BROWN 40/41",
     "price": 29,
-    "stock": 13,
+    "stock": 7,
     "sales": 24,
     "branches": {
       "00-GIFTS": 0,
@@ -52116,7 +52116,7 @@ const data = [
       "11-Jouri Mall": 4,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 3,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 6,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 3,
@@ -52159,7 +52159,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 13,
+      "Warehouse": 7,
       "warehouse riyadh": 0
     }
   },
@@ -52170,7 +52170,7 @@ const data = [
     "alias": "95636036",
     "name": "BE-78 WOMEN SLIPPER GREEN 36/37",
     "price": 29,
-    "stock": 43,
+    "stock": 37,
     "sales": 29,
     "branches": {
       "00-GIFTS": 0,
@@ -52185,7 +52185,7 @@ const data = [
       "11-Jouri Mall": 6,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 6,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 6,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 7,
@@ -52228,7 +52228,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 43,
+      "Warehouse": 37,
       "warehouse riyadh": 0
     }
   },
@@ -52239,7 +52239,7 @@ const data = [
     "alias": "95636038",
     "name": "BE-78 WOMEN SLIPPER GREEN 38/39",
     "price": 29,
-    "stock": 54,
+    "stock": 46,
     "sales": 27,
     "branches": {
       "00-GIFTS": 0,
@@ -52254,7 +52254,7 @@ const data = [
       "11-Jouri Mall": 10,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 10,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 10,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 13,
@@ -52297,7 +52297,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 54,
+      "Warehouse": 46,
       "warehouse riyadh": 0
     }
   },
@@ -52308,7 +52308,7 @@ const data = [
     "alias": "95636040",
     "name": "BE-78 WOMEN SLIPPER GREEN 40/41",
     "price": 29,
-    "stock": 45,
+    "stock": 37,
     "sales": 33,
     "branches": {
       "00-GIFTS": 0,
@@ -52323,7 +52323,7 @@ const data = [
       "11-Jouri Mall": 12,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 9,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 9,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 11,
@@ -52366,7 +52366,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 45,
+      "Warehouse": 37,
       "warehouse riyadh": 0
     }
   },
@@ -53274,7 +53274,7 @@ const data = [
     "alias": "926229",
     "name": "THROW SUPER SOFT COLOERFUL BOWS",
     "price": 39,
-    "stock": 1007,
+    "stock": 997,
     "sales": 35,
     "branches": {
       "00-GIFTS": 1,
@@ -53332,8 +53332,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 48,
-      "Warehouse": 1007,
-      "warehouse riyadh": 1290
+      "Warehouse": 997,
+      "warehouse riyadh": 1280
     }
   },
   {
@@ -53540,7 +53540,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 51,
       "Warehouse": 136,
-      "warehouse riyadh": 400
+      "warehouse riyadh": 390
     }
   },
   {
@@ -53550,7 +53550,7 @@ const data = [
     "alias": "926235",
     "name": "THROW SUPER SOFT STRAWBERRY",
     "price": 39,
-    "stock": 942,
+    "stock": 932,
     "sales": 60,
     "branches": {
       "00-GIFTS": 0,
@@ -53608,7 +53608,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 49,
-      "Warehouse": 942,
+      "Warehouse": 932,
       "warehouse riyadh": 1060
     }
   },
@@ -53661,7 +53661,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 8,
       "44-Al-Jouf Center": 2,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 10,
       "46-Khaleej Mall Riyadh": 8,
       "47-Al-Nakheel Plaza": 1,
       "48 - Jeddah Park": 9,
@@ -53678,7 +53678,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
       "Warehouse": 871,
-      "warehouse riyadh": 1230
+      "warehouse riyadh": 1210
     }
   },
   {
@@ -53826,7 +53826,7 @@ const data = [
     "alias": "989111",
     "name": "THROW SOLID VELVETLOFT PUMICE STONE 60*70",
     "price": 39,
-    "stock": 1474,
+    "stock": 1464,
     "sales": 177,
     "branches": {
       "00-GIFTS": 0,
@@ -53884,7 +53884,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1474,
+      "Warehouse": 1464,
       "warehouse riyadh": 1700
     }
   },
@@ -53954,7 +53954,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 3618,
-      "warehouse riyadh": 2910
+      "warehouse riyadh": 2900
     }
   },
   {
@@ -53964,7 +53964,7 @@ const data = [
     "alias": "989112",
     "name": "THROW SOLID VELVETLOFT STARGAZER 60*70",
     "price": 39,
-    "stock": 2752,
+    "stock": 2742,
     "sales": 85,
     "branches": {
       "00-GIFTS": 1,
@@ -54022,8 +54022,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2752,
-      "warehouse riyadh": 2400
+      "Warehouse": 2742,
+      "warehouse riyadh": 2390
     }
   },
   {
@@ -54033,13 +54033,13 @@ const data = [
     "alias": "989114",
     "name": "THROW SOLID VELVETLOFT PINK LADY 60*70",
     "price": 39,
-    "stock": 3193,
+    "stock": 3173,
     "sales": 50,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 5,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 14,
       "07-Arab Mall": 22,
@@ -54091,7 +54091,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 3193,
+      "Warehouse": 3173,
       "warehouse riyadh": 2570
     }
   },
@@ -54102,13 +54102,13 @@ const data = [
     "alias": "989113",
     "name": "THROW SOLID VELVETLOFT JADEITE 60*70",
     "price": 39,
-    "stock": 2334,
+    "stock": 2304,
     "sales": 78,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 5,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 13,
       "07-Arab Mall": 10,
@@ -54160,7 +54160,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2334,
+      "Warehouse": 2304,
       "warehouse riyadh": 2140
     }
   },
@@ -54240,7 +54240,7 @@ const data = [
     "alias": "926239",
     "name": "THROW SUPER SOFT FOOTBALL STRIPE",
     "price": 39,
-    "stock": 1191,
+    "stock": 1161,
     "sales": 182,
     "branches": {
       "00-GIFTS": 0,
@@ -54298,8 +54298,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1191,
-      "warehouse riyadh": 1650
+      "Warehouse": 1161,
+      "warehouse riyadh": 1620
     }
   },
   {
@@ -54309,8 +54309,8 @@ const data = [
     "alias": "926240",
     "name": "THROW SUPER SOFT DOT STRIPE",
     "price": 39,
-    "stock": 1761,
-    "sales": 90,
+    "stock": 1750,
+    "sales": 91,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -54367,7 +54367,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1761,
+      "Warehouse": 1750,
       "warehouse riyadh": 2050
     }
   },
@@ -54378,7 +54378,7 @@ const data = [
     "alias": "926241",
     "name": "THROW SUPER SOFT MAZE STRIPE",
     "price": 39,
-    "stock": 1885,
+    "stock": 1875,
     "sales": 69,
     "branches": {
       "00-GIFTS": 0,
@@ -54436,7 +54436,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1885,
+      "Warehouse": 1875,
       "warehouse riyadh": 2160
     }
   },
@@ -54447,7 +54447,7 @@ const data = [
     "alias": "926257",
     "name": "THROW SUPER SOFT PINK STRIPE",
     "price": 39,
-    "stock": 1840,
+    "stock": 1830,
     "sales": 71,
     "branches": {
       "00-GIFTS": 0,
@@ -54505,8 +54505,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1840,
-      "warehouse riyadh": 2080
+      "Warehouse": 1830,
+      "warehouse riyadh": 2070
     }
   },
   {
@@ -54585,7 +54585,7 @@ const data = [
     "alias": "926252",
     "name": "THROW SUPER SOFT CARTOON CARNATION STRIPE",
     "price": 39,
-    "stock": 1414,
+    "stock": 1404,
     "sales": 151,
     "branches": {
       "00-GIFTS": 0,
@@ -54643,8 +54643,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1414,
-      "warehouse riyadh": 1920
+      "Warehouse": 1404,
+      "warehouse riyadh": 1900
     }
   },
   {
@@ -54713,7 +54713,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1512,
-      "warehouse riyadh": 2050
+      "warehouse riyadh": 2040
     }
   },
   {
@@ -54782,7 +54782,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1536,
-      "warehouse riyadh": 1890
+      "warehouse riyadh": 1880
     }
   },
   {
@@ -54792,7 +54792,7 @@ const data = [
     "alias": "926246",
     "name": "THROW SUPER SOFT BROW BEAR STRIPE",
     "price": 39,
-    "stock": 1042,
+    "stock": 1032,
     "sales": 181,
     "branches": {
       "00-GIFTS": 0,
@@ -54807,7 +54807,7 @@ const data = [
       "11-Jouri Mall": 11,
       "12-Al_Hamra Mall": 11,
       "13-Al-Yasmin Mall": 10,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 10,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 1,
@@ -54850,8 +54850,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1042,
-      "warehouse riyadh": 1610
+      "Warehouse": 1032,
+      "warehouse riyadh": 1590
     }
   },
   {
@@ -54920,7 +54920,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1409,
-      "warehouse riyadh": 1830
+      "warehouse riyadh": 1810
     }
   },
   {
@@ -54930,13 +54930,13 @@ const data = [
     "alias": "926248",
     "name": "THROW SUPER SOFT TADDY BEAR STRIPE",
     "price": 39,
-    "stock": 1076,
+    "stock": 1036,
     "sales": 193,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 5,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 11,
       "06-Red Sea Mall": 20,
       "07-Arab Mall": 4,
@@ -54945,7 +54945,7 @@ const data = [
       "11-Jouri Mall": 8,
       "12-Al_Hamra Mall": 5,
       "13-Al-Yasmin Mall": 2,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 10,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 1,
       "17-Arar Othaim Mall": 0,
@@ -54988,8 +54988,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1076,
-      "warehouse riyadh": 1530
+      "Warehouse": 1036,
+      "warehouse riyadh": 1510
     }
   },
   {
@@ -54999,13 +54999,13 @@ const data = [
     "alias": "926249",
     "name": "THROW SUPER SOFT WHITE FLORA-2 STRIPE",
     "price": 39,
-    "stock": 1967,
+    "stock": 1957,
     "sales": 61,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 6,
+      "04-Andalos Mall": 16,
       "05-Haifa Mall": 9,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 9,
@@ -55041,7 +55041,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 7,
       "44-Al-Jouf Center": 9,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 11,
       "46-Khaleej Mall Riyadh": 11,
       "47-Al-Nakheel Plaza": 18,
       "48 - Jeddah Park": 15,
@@ -55057,8 +55057,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1967,
-      "warehouse riyadh": 2121
+      "Warehouse": 1957,
+      "warehouse riyadh": 2101
     }
   },
   {
@@ -55110,7 +55110,7 @@ const data = [
       "42-Dareen Mall Dammam": 6,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 10,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 10,
       "46-Khaleej Mall Riyadh": 8,
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 4,
@@ -55127,7 +55127,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1653,
-      "warehouse riyadh": 2050
+      "warehouse riyadh": 2030
     }
   },
   {
@@ -55137,8 +55137,8 @@ const data = [
     "alias": "926253",
     "name": "THROW SUPER SOFT WASHED STRIPE",
     "price": 39,
-    "stock": 1728,
-    "sales": 96,
+    "stock": 1727,
+    "sales": 97,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -55195,8 +55195,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1728,
-      "warehouse riyadh": 2180
+      "Warehouse": 1727,
+      "warehouse riyadh": 2170
     }
   },
   {
@@ -55206,13 +55206,13 @@ const data = [
     "alias": "926254",
     "name": "THROW SUPER SOFT NAVY WEAVE STRIPE",
     "price": 39,
-    "stock": 1634,
-    "sales": 104,
+    "stock": 1603,
+    "sales": 105,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 10,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 5,
       "07-Arab Mall": 4,
@@ -55264,7 +55264,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1634,
+      "Warehouse": 1603,
       "warehouse riyadh": 1990
     }
   },
@@ -55334,7 +55334,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1803,
-      "warehouse riyadh": 2020
+      "warehouse riyadh": 2000
     }
   },
   {
@@ -55345,7 +55345,7 @@ const data = [
     "name": "THROW SUPER SOFT PINK WATERMELON STRIPE",
     "price": 39,
     "stock": 1186,
-    "sales": 181,
+    "sales": 182,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -55353,7 +55353,7 @@ const data = [
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 18,
-      "07-Arab Mall": 7,
+      "07-Arab Mall": 6,
       "08-Makkah Mall": 10,
       "09-Al-Salam Mall": 1,
       "11-Jouri Mall": 5,
@@ -55386,7 +55386,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 10,
       "44-Al-Jouf Center": 3,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 11,
       "46-Khaleej Mall Riyadh": 10,
       "47-Al-Nakheel Plaza": 14,
       "48 - Jeddah Park": 13,
@@ -55403,7 +55403,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1186,
-      "warehouse riyadh": 1670
+      "warehouse riyadh": 1650
     }
   },
   {
@@ -55472,7 +55472,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1900,
-      "warehouse riyadh": 2070
+      "warehouse riyadh": 2050
     }
   },
   {
@@ -56162,7 +56162,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 21,
       "Warehouse": 3338,
-      "warehouse riyadh": 3586
+      "warehouse riyadh": 3582
     }
   },
   {
@@ -56241,7 +56241,7 @@ const data = [
     "alias": "607701",
     "name": "SHEET KING WHITE 300 STITCH 3PCS",
     "price": 129,
-    "stock": 24233,
+    "stock": 24223,
     "sales": 189,
     "branches": {
       "00-GIFTS": 19,
@@ -56288,7 +56288,7 @@ const data = [
       "47-Al-Nakheel Plaza": 11,
       "48 - Jeddah Park": 42,
       "49-AlAhsa Mall": 14,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 23,
       "51-Park Avenue Riyadh": 13,
       "52-Al_Baha Mall": 12,
       "53-Al Basateen Mall": 4,
@@ -56299,8 +56299,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
-      "Warehouse": 24233,
-      "warehouse riyadh": 18748
+      "Warehouse": 24223,
+      "warehouse riyadh": 18718
     }
   },
   {
@@ -56310,7 +56310,7 @@ const data = [
     "alias": "607709",
     "name": "SHEET KING PINK 300 STITCH 3PCS",
     "price": 129,
-    "stock": 1310,
+    "stock": 1300,
     "sales": 91,
     "branches": {
       "00-GIFTS": 0,
@@ -56368,8 +56368,8 @@ const data = [
       "Abha Al_Rashid Mall": 10,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 48,
-      "Warehouse": 1310,
-      "warehouse riyadh": 1430
+      "Warehouse": 1300,
+      "warehouse riyadh": 1410
     }
   },
   {
@@ -56724,7 +56724,7 @@ const data = [
     "alias": "607723",
     "name": "SHEET KING STERLNG BLUE 300 STITCH 3PCS",
     "price": 129,
-    "stock": 1398,
+    "stock": 1388,
     "sales": 56,
     "branches": {
       "00-GIFTS": 1,
@@ -56782,8 +56782,8 @@ const data = [
       "Abha Al_Rashid Mall": 34,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 47,
-      "Warehouse": 1398,
-      "warehouse riyadh": 1730
+      "Warehouse": 1388,
+      "warehouse riyadh": 1720
     }
   },
   {
@@ -56931,7 +56931,7 @@ const data = [
     "alias": "607729",
     "name": "SHEET KING GREY 300 STITCH 3PCS",
     "price": 129,
-    "stock": 2663,
+    "stock": 2653,
     "sales": 62,
     "branches": {
       "00-GIFTS": 0,
@@ -56989,8 +56989,8 @@ const data = [
       "Abha Al_Rashid Mall": 22,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
-      "Warehouse": 2663,
-      "warehouse riyadh": 6560
+      "Warehouse": 2653,
+      "warehouse riyadh": 6550
     }
   },
   {
@@ -57059,7 +57059,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 47,
       "Warehouse": 622,
-      "warehouse riyadh": 2220
+      "warehouse riyadh": 2210
     }
   },
   {
@@ -57069,7 +57069,7 @@ const data = [
     "alias": "607730",
     "name": "SHEET KING PLATINUM GREY 300 STITCH 3PCS",
     "price": 129,
-    "stock": 2481,
+    "stock": 2471,
     "sales": 156,
     "branches": {
       "00-GIFTS": 1,
@@ -57127,8 +57127,8 @@ const data = [
       "Abha Al_Rashid Mall": 66,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 44,
-      "Warehouse": 2481,
-      "warehouse riyadh": 2830
+      "Warehouse": 2471,
+      "warehouse riyadh": 2820
     }
   },
   {
@@ -57138,7 +57138,7 @@ const data = [
     "alias": "607732",
     "name": "SHEET KING OFF WHITE 300 STITCH 3PCS",
     "price": 129,
-    "stock": 12235,
+    "stock": 12225,
     "sales": 111,
     "branches": {
       "00-GIFTS": 1,
@@ -57196,8 +57196,8 @@ const data = [
       "Abha Al_Rashid Mall": 14,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 39,
-      "Warehouse": 12235,
-      "warehouse riyadh": 3016
+      "Warehouse": 12225,
+      "warehouse riyadh": 2978
     }
   },
   {
@@ -57249,7 +57249,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 9,
       "44-Al-Jouf Center": 10,
-      "45- Riyadh Gallery Mall": 3,
+      "45- Riyadh Gallery Mall": 13,
       "46-Khaleej Mall Riyadh": 19,
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 14,
@@ -57266,7 +57266,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
       "Warehouse": 927,
-      "warehouse riyadh": 1370
+      "warehouse riyadh": 1360
     }
   },
   {
@@ -57414,7 +57414,7 @@ const data = [
     "alias": "607736",
     "name": "SHEET KING SLIT GREY 300 STITCH 3PCS",
     "price": 129,
-    "stock": 1470,
+    "stock": 1460,
     "sales": 45,
     "branches": {
       "00-GIFTS": 1,
@@ -57472,7 +57472,7 @@ const data = [
       "Abha Al_Rashid Mall": 16,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 19,
-      "Warehouse": 1470,
+      "Warehouse": 1460,
       "warehouse riyadh": 1726
     }
   },
@@ -58094,7 +58094,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 21,
       "Warehouse": 3,
-      "warehouse riyadh": 92
+      "warehouse riyadh": 88
     }
   },
   {
@@ -58232,7 +58232,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 47,
       "Warehouse": 1360,
-      "warehouse riyadh": 1576
+      "warehouse riyadh": 1572
     }
   },
   {
@@ -58301,7 +58301,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 21,
       "Warehouse": 90,
-      "warehouse riyadh": 340
+      "warehouse riyadh": 336
     }
   },
   {
@@ -58508,7 +58508,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 1000,
-      "warehouse riyadh": 1292
+      "warehouse riyadh": 1288
     }
   },
   {
@@ -58587,7 +58587,7 @@ const data = [
     "alias": "619404",
     "name": "SHEET QUEEN MARSHMELLOW 300 STITCH 3PCS",
     "price": 89,
-    "stock": 691,
+    "stock": 679,
     "sales": 43,
     "branches": {
       "00-GIFTS": 0,
@@ -58645,8 +58645,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 23,
-      "Warehouse": 691,
-      "warehouse riyadh": 1188
+      "Warehouse": 679,
+      "warehouse riyadh": 1182
     }
   },
   {
@@ -58853,7 +58853,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 12,
       "Warehouse": 9,
-      "warehouse riyadh": 433
+      "warehouse riyadh": 427
     }
   },
   {
@@ -59415,7 +59415,7 @@ const data = [
     "alias": "622701",
     "name": "SHEET KING JACQUARD 300 STITCH 4PCS WHITE STYLE1",
     "price": 245,
-    "stock": 76,
+    "stock": 72,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
@@ -59457,7 +59457,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 3,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 8,
       "46-Khaleej Mall Riyadh": 5,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 0,
@@ -59473,8 +59473,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 76,
-      "warehouse riyadh": 84
+      "Warehouse": 72,
+      "warehouse riyadh": 72
     }
   },
   {
@@ -59484,7 +59484,7 @@ const data = [
     "alias": "622705",
     "name": "SHEET KING JACQUARD 300 STITCH 4PCS WHITE STYLE5",
     "price": 245,
-    "stock": 112,
+    "stock": 108,
     "sales": 1,
     "branches": {
       "00-GIFTS": 0,
@@ -59526,7 +59526,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 5,
@@ -59542,8 +59542,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 112,
-      "warehouse riyadh": 116
+      "Warehouse": 108,
+      "warehouse riyadh": 108
     }
   },
   {
@@ -59595,7 +59595,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 0,
@@ -59612,7 +59612,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 852,
-      "warehouse riyadh": 820
+      "warehouse riyadh": 812
     }
   },
   {
@@ -59622,7 +59622,7 @@ const data = [
     "alias": "622602",
     "name": "SHEET KING SATEEN STRIPE 300 STITCH 4PCS WHITE STYLE9",
     "price": 245,
-    "stock": 144,
+    "stock": 140,
     "sales": 1,
     "branches": {
       "00-GIFTS": 0,
@@ -59664,7 +59664,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 6,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 5,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 4,
@@ -59680,8 +59680,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 144,
-      "warehouse riyadh": 124
+      "Warehouse": 140,
+      "warehouse riyadh": 116
     }
   },
   {
@@ -59802,7 +59802,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 3,
@@ -59819,7 +59819,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 364,
-      "warehouse riyadh": 392
+      "warehouse riyadh": 384
     }
   },
   {
@@ -60440,7 +60440,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 52,
       "Warehouse": 393,
-      "warehouse riyadh": 540
+      "warehouse riyadh": 528
     }
   },
   {
@@ -60716,7 +60716,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 52,
       "Warehouse": 1599,
-      "warehouse riyadh": 1704
+      "warehouse riyadh": 1700
     }
   },
   {
@@ -60773,7 +60773,7 @@ const data = [
       "47-Al-Nakheel Plaza": 1,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 2,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 3,
@@ -60785,7 +60785,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 372,
-      "warehouse riyadh": 544
+      "warehouse riyadh": 532
     }
   },
   {
@@ -61061,7 +61061,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 942,
-      "warehouse riyadh": 1220
+      "warehouse riyadh": 1200
     }
   },
   {
@@ -61182,12 +61182,12 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 3,
+      "45- Riyadh Gallery Mall": 7,
       "46-Khaleej Mall Riyadh": 2,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 25,
+      "50-Meem Plaza Riyadh": 29,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 11,
@@ -61199,7 +61199,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 52,
       "Warehouse": 596,
-      "warehouse riyadh": 88
+      "warehouse riyadh": 80
     }
   },
   {
@@ -62037,7 +62037,7 @@ const data = [
     "alias": "441102",
     "name": "*COMFORTER KING BAROCK GOLD 11 PCS KIT",
     "price": 895,
-    "stock": 32,
+    "stock": 28,
     "sales": 31,
     "branches": {
       "00-GIFTS": 0,
@@ -62095,8 +62095,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 32,
-      "warehouse riyadh": 112
+      "Warehouse": 28,
+      "warehouse riyadh": 110
     }
   },
   {
@@ -62153,7 +62153,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 13,
       "49-AlAhsa Mall": 16,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 16,
       "51-Park Avenue Riyadh": 18,
       "52-Al_Baha Mall": 12,
       "53-Al Basateen Mall": 11,
@@ -62165,7 +62165,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1236,
-      "warehouse riyadh": 1380
+      "warehouse riyadh": 1368
     }
   },
   {
@@ -62175,13 +62175,13 @@ const data = [
     "alias": "502608",
     "name": "BLANKET FULL PORCINI 66*90",
     "price": 79,
-    "stock": 1584,
+    "stock": 1576,
     "sales": 68,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 11,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 4,
       "07-Arab Mall": 9,
@@ -62190,7 +62190,7 @@ const data = [
       "11-Jouri Mall": 2,
       "12-Al_Hamra Mall": 12,
       "13-Al-Yasmin Mall": 2,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 5,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 3,
       "17-Arar Othaim Mall": 4,
@@ -62217,7 +62217,7 @@ const data = [
       "42-Dareen Mall Dammam": 4,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 3,
+      "45- Riyadh Gallery Mall": 7,
       "46-Khaleej Mall Riyadh": 3,
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 9,
@@ -62233,8 +62233,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1584,
-      "warehouse riyadh": 1636
+      "Warehouse": 1576,
+      "warehouse riyadh": 1632
     }
   },
   {
@@ -62244,13 +62244,13 @@ const data = [
     "alias": "502609",
     "name": "BLANKET FULL FIRE PIT COMFY 66*90",
     "price": 79,
-    "stock": 1568,
+    "stock": 1556,
     "sales": 97,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 10,
+      "04-Andalos Mall": 14,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 4,
@@ -62259,7 +62259,7 @@ const data = [
       "11-Jouri Mall": 4,
       "12-Al_Hamra Mall": 6,
       "13-Al-Yasmin Mall": 2,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 5,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 6,
       "17-Arar Othaim Mall": 4,
@@ -62286,7 +62286,7 @@ const data = [
       "42-Dareen Mall Dammam": 4,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 2,
+      "45- Riyadh Gallery Mall": 6,
       "46-Khaleej Mall Riyadh": 1,
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 6,
@@ -62302,8 +62302,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1568,
-      "warehouse riyadh": 1644
+      "Warehouse": 1556,
+      "warehouse riyadh": 1640
     }
   },
   {
@@ -62313,13 +62313,13 @@ const data = [
     "alias": "502610",
     "name": "BLANKET FULL LAMENT BLUE COMFY 66*90",
     "price": 79,
-    "stock": 1575,
+    "stock": 1559,
     "sales": 46,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 10,
+      "04-Andalos Mall": 14,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 10,
@@ -62328,7 +62328,7 @@ const data = [
       "11-Jouri Mall": 3,
       "12-Al_Hamra Mall": 7,
       "13-Al-Yasmin Mall": 2,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 6,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 7,
       "17-Arar Othaim Mall": 4,
@@ -62360,7 +62360,7 @@ const data = [
       "47-Al-Nakheel Plaza": 8,
       "48 - Jeddah Park": 10,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 8,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 4,
       "53-Al Basateen Mall": 3,
@@ -62371,8 +62371,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1575,
-      "warehouse riyadh": 1648
+      "Warehouse": 1559,
+      "warehouse riyadh": 1644
     }
   },
   {
@@ -64521,13 +64521,13 @@ const data = [
     "alias": "502611",
     "name": "BLANKET FULL FARMHOUSE SAGE COMFY 66*90",
     "price": 79,
-    "stock": 529,
+    "stock": 525,
     "sales": 105,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 8,
+      "04-Andalos Mall": 12,
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 6,
@@ -64563,12 +64563,12 @@ const data = [
       "42-Dareen Mall Dammam": 4,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 5,
       "46-Khaleej Mall Riyadh": 0,
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 2,
@@ -64579,8 +64579,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 529,
-      "warehouse riyadh": 1644
+      "Warehouse": 525,
+      "warehouse riyadh": 1636
     }
   },
   {
@@ -64637,7 +64637,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -64649,7 +64649,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 90,
-      "warehouse riyadh": 156
+      "warehouse riyadh": 120
     }
   },
   {
@@ -64706,7 +64706,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -64718,7 +64718,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 180,
-      "warehouse riyadh": 246
+      "warehouse riyadh": 210
     }
   },
   {
@@ -64775,7 +64775,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -64787,7 +64787,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 90,
-      "warehouse riyadh": 150
+      "warehouse riyadh": 119
     }
   },
   {
@@ -64844,7 +64844,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 10,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 3,
@@ -64856,7 +64856,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 84,
-      "warehouse riyadh": 174
+      "warehouse riyadh": 138
     }
   },
   {
@@ -64913,7 +64913,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 11,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 3,
@@ -64925,7 +64925,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 84,
-      "warehouse riyadh": 186
+      "warehouse riyadh": 138
     }
   },
   {
@@ -64982,7 +64982,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 13,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 3,
@@ -64994,7 +64994,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 510,
-      "warehouse riyadh": 606
+      "warehouse riyadh": 576
     }
   },
   {
@@ -65004,13 +65004,13 @@ const data = [
     "alias": "817301",
     "name": "BATH MAT TUFTED BYRGANDY",
     "price": 19,
-    "stock": 2736,
+    "stock": 2540,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 24,
       "07-Arab Mall": 0,
@@ -65019,7 +65019,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -65062,7 +65062,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2736,
+      "Warehouse": 2540,
       "warehouse riyadh": 0
     }
   },
@@ -65073,13 +65073,13 @@ const data = [
     "alias": "817302",
     "name": "BATH MAT TUFTED LT.GREY",
     "price": 19,
-    "stock": 1536,
+    "stock": 1340,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 24,
       "07-Arab Mall": 0,
@@ -65088,7 +65088,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 8,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -65120,7 +65120,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -65131,8 +65131,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1536,
-      "warehouse riyadh": 1076
+      "Warehouse": 1340,
+      "warehouse riyadh": 1048
     }
   },
   {
@@ -65142,13 +65142,13 @@ const data = [
     "alias": "817303",
     "name": "BATH MAT TUFTED BEIGE",
     "price": 19,
-    "stock": 1536,
+    "stock": 1340,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 24,
       "07-Arab Mall": 0,
@@ -65157,7 +65157,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 8,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -65189,7 +65189,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -65200,8 +65200,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1536,
-      "warehouse riyadh": 1076
+      "Warehouse": 1340,
+      "warehouse riyadh": 1048
     }
   },
   {
@@ -65211,13 +65211,13 @@ const data = [
     "alias": "817304",
     "name": "BATH MAT TUFTED GREEN",
     "price": 19,
-    "stock": 2136,
+    "stock": 1940,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 24,
       "07-Arab Mall": 0,
@@ -65226,7 +65226,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 8,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -65258,7 +65258,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -65269,8 +65269,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2136,
-      "warehouse riyadh": 476
+      "Warehouse": 1940,
+      "warehouse riyadh": 448
     }
   },
   {
@@ -65280,13 +65280,13 @@ const data = [
     "alias": "817305",
     "name": "BATH MAT TUFTED TEAL",
     "price": 19,
-    "stock": 2736,
+    "stock": 2540,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 24,
       "07-Arab Mall": 0,
@@ -65295,7 +65295,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -65338,7 +65338,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2736,
+      "Warehouse": 2540,
       "warehouse riyadh": 0
     }
   },
@@ -65349,13 +65349,13 @@ const data = [
     "alias": "817306",
     "name": "BATH MAT TUFTED DK.GREY",
     "price": 19,
-    "stock": 1536,
+    "stock": 1340,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 24,
       "07-Arab Mall": 0,
@@ -65364,7 +65364,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 8,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -65396,7 +65396,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -65407,8 +65407,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1536,
-      "warehouse riyadh": 1076
+      "Warehouse": 1340,
+      "warehouse riyadh": 1048
     }
   },
   {
@@ -65960,7 +65960,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 800,
-      "warehouse riyadh": 208
+      "warehouse riyadh": 200
     }
   },
   {
@@ -65970,7 +65970,7 @@ const data = [
     "alias": "926507",
     "name": "COCODOR JASMIN WOOD FRESHENER 500 ML ROOM SPRAY",
     "price": 39,
-    "stock": 1661,
+    "stock": 1581,
     "sales": 265,
     "branches": {
       "00-GIFTS": 24,
@@ -65985,7 +65985,7 @@ const data = [
       "11-Jouri Mall": 13,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 49,
-      "14-Al Kamal Mall": 17,
+      "14-Al Kamal Mall": 37,
       "15-Riyadh Othaim Mall": 1,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 2,
@@ -66028,7 +66028,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 24,
-      "Warehouse": 1661,
+      "Warehouse": 1581,
       "warehouse riyadh": 0
     }
   },
@@ -66236,7 +66236,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 343,
-      "warehouse riyadh": 555
+      "warehouse riyadh": 540
     }
   },
   {
@@ -66305,7 +66305,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 58,
-      "warehouse riyadh": 2370
+      "warehouse riyadh": 2340
     }
   },
   {
@@ -66315,7 +66315,7 @@ const data = [
     "alias": "959802",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER GARDEN LAVENDER",
     "price": 39,
-    "stock": 529,
+    "stock": 514,
     "sales": 49,
     "branches": {
       "00-GIFTS": 22,
@@ -66373,7 +66373,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 529,
+      "Warehouse": 514,
       "warehouse riyadh": 1545
     }
   },
@@ -66431,7 +66431,7 @@ const data = [
       "47-Al-Nakheel Plaza": 6,
       "48 - Jeddah Park": 4,
       "49-AlAhsa Mall": 5,
-      "50-Meem Plaza Riyadh": 11,
+      "50-Meem Plaza Riyadh": 26,
       "51-Park Avenue Riyadh": 15,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 1,
@@ -66443,7 +66443,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 4,
-      "warehouse riyadh": 840
+      "warehouse riyadh": 810
     }
   },
   {
@@ -66512,7 +66512,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 623,
-      "warehouse riyadh": 1230
+      "warehouse riyadh": 1215
     }
   },
   {
@@ -66581,7 +66581,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
       "Warehouse": 39,
-      "warehouse riyadh": 800
+      "warehouse riyadh": 784
     }
   },
   {
@@ -66638,7 +66638,7 @@ const data = [
       "47-Al-Nakheel Plaza": 16,
       "48 - Jeddah Park": 18,
       "49-AlAhsa Mall": 8,
-      "50-Meem Plaza Riyadh": 20,
+      "50-Meem Plaza Riyadh": 28,
       "51-Park Avenue Riyadh": 11,
       "52-Al_Baha Mall": 8,
       "53-Al Basateen Mall": 7,
@@ -66650,7 +66650,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
       "Warehouse": 873,
-      "warehouse riyadh": 40
+      "warehouse riyadh": 32
     }
   },
   {
@@ -66719,7 +66719,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
       "Warehouse": 128,
-      "warehouse riyadh": 896
+      "warehouse riyadh": 880
     }
   },
   {
@@ -66729,7 +66729,7 @@ const data = [
     "alias": "960202",
     "name": "COCODOR 500 ML ROOM SPRAY FOREST DAWN",
     "price": 39,
-    "stock": 4476,
+    "stock": 4458,
     "sales": 353,
     "branches": {
       "00-GIFTS": 35,
@@ -66787,7 +66787,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 4476,
+      "Warehouse": 4458,
       "warehouse riyadh": 0
     }
   },
@@ -66798,13 +66798,13 @@ const data = [
     "alias": "960204",
     "name": "COCODOR 500 ML ROOM SPRAY BOMB SHELL",
     "price": 39,
-    "stock": 2707,
-    "sales": 860,
+    "stock": 2617,
+    "sales": 861,
     "branches": {
       "00-GIFTS": 32,
       "01-Jeddah INT Market": 50,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 71,
+      "04-Andalos Mall": 107,
       "05-Haifa Mall": 36,
       "06-Red Sea Mall": 36,
       "07-Arab Mall": 68,
@@ -66813,7 +66813,7 @@ const data = [
       "11-Jouri Mall": 29,
       "12-Al_Hamra Mall": 15,
       "13-Al-Yasmin Mall": 43,
-      "14-Al Kamal Mall": 17,
+      "14-Al Kamal Mall": 35,
       "15-Riyadh Othaim Mall": 18,
       "16-Ehsa Othaim Mall": 23,
       "17-Arar Othaim Mall": 6,
@@ -66830,7 +66830,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 19,
       "29-Al Nakheel Mall Riyadh": 11,
       "30-Tala Mall Riyadh": 5,
-      "32-Atyaf Mall Riyadh": 39,
+      "32-Atyaf Mall Riyadh": 38,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 5,
       "38-Al_Riyadh Park": 10,
@@ -66856,7 +66856,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2707,
+      "Warehouse": 2617,
       "warehouse riyadh": 0
     }
   },
@@ -66867,7 +66867,7 @@ const data = [
     "alias": "960206",
     "name": "COCODOR 500 ML ROOM SPRAY RAIN ROSE",
     "price": 39,
-    "stock": 7132,
+    "stock": 7114,
     "sales": 366,
     "branches": {
       "00-GIFTS": 22,
@@ -66925,7 +66925,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 7132,
+      "Warehouse": 7114,
       "warehouse riyadh": 0
     }
   },
@@ -67409,7 +67409,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 8,
-      "warehouse riyadh": 135
+      "warehouse riyadh": 120
     }
   },
   {
@@ -67478,7 +67478,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 3132,
-      "warehouse riyadh": 2844
+      "warehouse riyadh": 2808
     }
   },
   {
@@ -67547,7 +67547,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 2572,
-      "warehouse riyadh": 2592
+      "warehouse riyadh": 2556
     }
   },
   {
@@ -67616,7 +67616,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 448,
-      "warehouse riyadh": 882
+      "warehouse riyadh": 846
     }
   },
   {
@@ -67685,7 +67685,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 2296,
-      "warehouse riyadh": 2841
+      "warehouse riyadh": 2826
     }
   },
   {
@@ -67754,7 +67754,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1108,
-      "warehouse riyadh": 2535
+      "warehouse riyadh": 2520
     }
   },
   {
@@ -67902,13 +67902,13 @@ const data = [
     "alias": "989005",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML CHERRY BLACK",
     "price": 39,
-    "stock": 2507,
+    "stock": 2492,
     "sales": 82,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 12,
+      "04-Andalos Mall": 27,
       "05-Haifa Mall": 18,
       "06-Red Sea Mall": 40,
       "07-Arab Mall": 25,
@@ -67960,7 +67960,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2507,
+      "Warehouse": 2492,
       "warehouse riyadh": 0
     }
   },
@@ -68099,7 +68099,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 155,
-      "warehouse riyadh": 300
+      "warehouse riyadh": 285
     }
   },
   {
@@ -71628,13 +71628,13 @@ const data = [
     "alias": "5481",
     "name": "QUILT KING TRUMPET FLOWER PURPLE 3PCS",
     "price": 299,
-    "stock": 193,
+    "stock": 189,
     "sales": 27,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 7,
       "05-Haifa Mall": 5,
       "06-Red Sea Mall": 11,
       "07-Arab Mall": 5,
@@ -71686,7 +71686,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 34,
-      "Warehouse": 193,
+      "Warehouse": 189,
       "warehouse riyadh": 0
     }
   },
@@ -71697,13 +71697,13 @@ const data = [
     "alias": "5482",
     "name": "QUILT KING RED ROSE 3PCS",
     "price": 299,
-    "stock": 86,
+    "stock": 82,
     "sales": 26,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 7,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 15,
       "07-Arab Mall": 7,
@@ -71755,7 +71755,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 45,
-      "Warehouse": 86,
+      "Warehouse": 82,
       "warehouse riyadh": 0
     }
   },
@@ -73629,7 +73629,7 @@ const data = [
     "alias": "542542",
     "name": "BIG ONE FULL MULTI SUNFLOWERS 2PCS",
     "price": 79,
-    "stock": 184,
+    "stock": 178,
     "sales": 118,
     "branches": {
       "00-GIFTS": 0,
@@ -73687,7 +73687,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 37,
-      "Warehouse": 184,
+      "Warehouse": 178,
       "warehouse riyadh": 6
     }
   },
@@ -73698,7 +73698,7 @@ const data = [
     "alias": "542534",
     "name": "BIG ONE FULL BALLERINA GIRLS 2PCS",
     "price": 79,
-    "stock": 340,
+    "stock": 334,
     "sales": 62,
     "branches": {
       "00-GIFTS": 0,
@@ -73756,7 +73756,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
-      "Warehouse": 340,
+      "Warehouse": 334,
       "warehouse riyadh": 168
     }
   },
@@ -73901,75 +73901,6 @@ const data = [
   {
     "outlet": "Warehouse",
     "category": "كويلتات",
-    "code": "23950",
-    "alias": "542541",
-    "name": "BIG ONE FULL MULTI BALLS 2PCS",
-    "price": 79,
-    "stock": 1,
-    "sales": 44,
-    "branches": {
-      "00-GIFTS": 0,
-      "01-Jeddah INT Market": 0,
-      "02-Serafi Mall": 0,
-      "04-Andalos Mall": 6,
-      "05-Haifa Mall": 0,
-      "06-Red Sea Mall": 7,
-      "07-Arab Mall": 0,
-      "08-Makkah Mall": 6,
-      "09-Al-Salam Mall": 1,
-      "11-Jouri Mall": 0,
-      "12-Al_Hamra Mall": 10,
-      "13-Al-Yasmin Mall": 6,
-      "14-Al Kamal Mall": 0,
-      "15-Riyadh Othaim Mall": 1,
-      "16-Ehsa Othaim Mall": 10,
-      "17-Arar Othaim Mall": 8,
-      "18-Al_Khayyat Center": 4,
-      "19-Hail Othaim Mall": 6,
-      "20-Sitten Street Makkah": 0,
-      "21-Abha Al_Rashid Mall New": 0,
-      "22-Tabuk Park": 0,
-      "23-Alia Mall Madinah": 0,
-      "24-Yanbu Dana Mall": 7,
-      "25-Rabwa Othaim Mall": 7,
-      "26-Al-Noor Mall Madinah": 3,
-      "27-Dhahran Mall khobar": 4,
-      "28-Al Nakheel Mall Dammam": 3,
-      "29-Al Nakheel Mall Riyadh": 4,
-      "30-Tala Mall Riyadh": 4,
-      "32-Atyaf Mall Riyadh": 1,
-      "33-Othaim Mall Rabwa2 Riyadh": 0,
-      "36-Al jubail Mall": 0,
-      "38-Al_Riyadh Park": 3,
-      "39-Salam Mall Riyadh": 13,
-      "40-Hayat Mall Riyad": 8,
-      "41-Khamis Avenue": 0,
-      "42-Dareen Mall Dammam": 4,
-      "43-Mujan Park": 0,
-      "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 4,
-      "46-Khaleej Mall Riyadh": 6,
-      "47-Al-Nakheel Plaza": 13,
-      "48 - Jeddah Park": 1,
-      "49-AlAhsa Mall": 5,
-      "50-Meem Plaza Riyadh": 6,
-      "51-Park Avenue Riyadh": 7,
-      "52-Al_Baha Mall": 1,
-      "53-Al Basateen Mall": 1,
-      "54-THE VILLAGE": 0,
-      "55- Jabl Omar": 10,
-      "56- Aziz Mall 2": 6,
-      "57-Sauq7": 0,
-      "Abha Al_Rashid Mall": 0,
-      "Al Manar Mall Madinah": 0,
-      "PLATFORMS": 31,
-      "Warehouse": 1,
-      "warehouse riyadh": 900
-    }
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "كويلتات",
     "code": "23951",
     "alias": "542543",
     "name": "BIG ONE FULL MULTI COLOR STRIPES 2PCS",
@@ -74033,7 +73964,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 7,
-      "warehouse riyadh": 552
+      "warehouse riyadh": 540
     }
   },
   {
@@ -74319,13 +74250,13 @@ const data = [
     "alias": "5484",
     "name": "QUILT KING EMLLY 3PCS",
     "price": 299,
-    "stock": 45,
-    "sales": 32,
+    "stock": 40,
+    "sales": 33,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 7,
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 6,
@@ -74377,7 +74308,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 47,
-      "Warehouse": 45,
+      "Warehouse": 40,
       "warehouse riyadh": 0
     }
   },
@@ -74388,13 +74319,13 @@ const data = [
     "alias": "9300",
     "name": "MATRESSPAD KING JUST RELAX 200*200",
     "price": 199,
-    "stock": 5195,
+    "stock": 5167,
     "sales": 449,
     "branches": {
       "00-GIFTS": 30,
       "01-Jeddah INT Market": 1,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 15,
+      "04-Andalos Mall": 23,
       "05-Haifa Mall": 13,
       "06-Red Sea Mall": 19,
       "07-Arab Mall": 38,
@@ -74403,7 +74334,7 @@ const data = [
       "11-Jouri Mall": 19,
       "12-Al_Hamra Mall": 28,
       "13-Al-Yasmin Mall": 8,
-      "14-Al Kamal Mall": 5,
+      "14-Al Kamal Mall": 11,
       "15-Riyadh Othaim Mall": 6,
       "16-Ehsa Othaim Mall": 12,
       "17-Arar Othaim Mall": 8,
@@ -74430,12 +74361,12 @@ const data = [
       "42-Dareen Mall Dammam": 17,
       "43-Mujan Park": 21,
       "44-Al-Jouf Center": 8,
-      "45- Riyadh Gallery Mall": 8,
+      "45- Riyadh Gallery Mall": 10,
       "46-Khaleej Mall Riyadh": 18,
       "47-Al-Nakheel Plaza": 12,
       "48 - Jeddah Park": 19,
       "49-AlAhsa Mall": 15,
-      "50-Meem Plaza Riyadh": 6,
+      "50-Meem Plaza Riyadh": 12,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 11,
       "53-Al Basateen Mall": 5,
@@ -74446,8 +74377,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 52,
-      "Warehouse": 5195,
-      "warehouse riyadh": 12149
+      "Warehouse": 5167,
+      "warehouse riyadh": 12123
     }
   },
   {
@@ -74526,7 +74457,7 @@ const data = [
     "alias": "9417",
     "name": "MATRESSPAD QUEEN DREAM GUARD WATERPROOF",
     "price": 49,
-    "stock": 1294,
+    "stock": 1282,
     "sales": 156,
     "branches": {
       "00-GIFTS": 3,
@@ -74573,7 +74504,7 @@ const data = [
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 9,
       "49-AlAhsa Mall": 10,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 16,
       "51-Park Avenue Riyadh": 19,
       "52-Al_Baha Mall": 22,
       "53-Al Basateen Mall": 1,
@@ -74584,8 +74515,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 40,
-      "Warehouse": 1294,
-      "warehouse riyadh": 1032
+      "Warehouse": 1282,
+      "warehouse riyadh": 1020
     }
   },
   {
@@ -74664,7 +74595,7 @@ const data = [
     "alias": "9405",
     "name": "(SPECIAL OFFER) MATRESSPAD QUEEN NAUTICA WICKING 141",
     "price": 69,
-    "stock": 87,
+    "stock": 85,
     "sales": 8,
     "branches": {
       "00-GIFTS": 0,
@@ -74722,7 +74653,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 44,
-      "Warehouse": 87,
+      "Warehouse": 85,
       "warehouse riyadh": 148
     }
   },
@@ -74733,8 +74664,8 @@ const data = [
     "alias": "9403",
     "name": "(SPECIAL OFFER) MATRESSPAD QUEEN NAUTICA LUXURY 400 STITCH 105",
     "price": 69,
-    "stock": 63,
-    "sales": 32,
+    "stock": 58,
+    "sales": 35,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 5,
@@ -74791,7 +74722,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 63,
+      "Warehouse": 58,
       "warehouse riyadh": 198
     }
   },
@@ -74802,7 +74733,7 @@ const data = [
     "alias": "9421",
     "name": "(SPECIAL OFFER) MATRESSPAD KING FIBER BED TANCEL 500 STITCH",
     "price": 94,
-    "stock": 17,
+    "stock": 15,
     "sales": 47,
     "branches": {
       "00-GIFTS": 3,
@@ -74860,8 +74791,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 31,
-      "Warehouse": 17,
-      "warehouse riyadh": 514
+      "Warehouse": 15,
+      "warehouse riyadh": 510
     }
   },
   {
@@ -74871,7 +74802,7 @@ const data = [
     "alias": "9183",
     "name": "MATRESSPAD KING(SMALL) SHARPER IMAGE",
     "price": 249,
-    "stock": 107,
+    "stock": 105,
     "sales": 66,
     "branches": {
       "00-GIFTS": 0,
@@ -74929,7 +74860,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 107,
+      "Warehouse": 105,
       "warehouse riyadh": 426
     }
   },
@@ -74987,7 +74918,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 18,
       "49-AlAhsa Mall": 3,
-      "50-Meem Plaza Riyadh": 5,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 5,
       "52-Al_Baha Mall": 1,
       "53-Al Basateen Mall": 4,
@@ -74999,7 +74930,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 51,
       "Warehouse": 72,
-      "warehouse riyadh": 650
+      "warehouse riyadh": 648
     }
   },
   {
@@ -75010,7 +74941,7 @@ const data = [
     "name": "MATRESSPAD KING GEL FOAM",
     "price": 194,
     "stock": 6,
-    "sales": 159,
+    "sales": 160,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 1,
@@ -75041,7 +74972,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 1,
       "29-Al Nakheel Mall Riyadh": 19,
       "30-Tala Mall Riyadh": 1,
-      "32-Atyaf Mall Riyadh": 5,
+      "32-Atyaf Mall Riyadh": 4,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 3,
       "38-Al_Riyadh Park": 10,
@@ -75068,7 +74999,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 6,
-      "warehouse riyadh": 513
+      "warehouse riyadh": 498
     }
   },
   {
@@ -75275,7 +75206,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
       "Warehouse": 345,
-      "warehouse riyadh": 428
+      "warehouse riyadh": 422
     }
   },
   {
@@ -75344,7 +75275,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 21,
       "Warehouse": 10,
-      "warehouse riyadh": 224
+      "warehouse riyadh": 218
     }
   },
   {
@@ -75354,13 +75285,13 @@ const data = [
     "alias": "100411",
     "name": "COMFORTER TWIN FLOWER LACE HG JUVI 6PCS",
     "price": 149,
-    "stock": 237,
-    "sales": 139,
+    "stock": 220,
+    "sales": 140,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 2,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 14,
+      "04-Andalos Mall": 22,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 12,
       "07-Arab Mall": 10,
@@ -75369,7 +75300,7 @@ const data = [
       "11-Jouri Mall": 5,
       "12-Al_Hamra Mall": 12,
       "13-Al-Yasmin Mall": 6,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 3,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 4,
       "17-Arar Othaim Mall": 7,
@@ -75412,8 +75343,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 237,
-      "warehouse riyadh": 536
+      "Warehouse": 220,
+      "warehouse riyadh": 528
     }
   },
   {
@@ -75482,7 +75413,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 45,
       "Warehouse": 4,
-      "warehouse riyadh": 89
+      "warehouse riyadh": 73
     }
   },
   {
@@ -75492,13 +75423,13 @@ const data = [
     "alias": "100414",
     "name": "COMFORTER TWIN EXCAVATOR HG JUVI 6PCS",
     "price": 149,
-    "stock": 119,
+    "stock": 107,
     "sales": 95,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 1,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 16,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 10,
       "06-Red Sea Mall": 14,
       "07-Arab Mall": 10,
@@ -75550,77 +75481,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
-      "Warehouse": 119,
-      "warehouse riyadh": 357
-    }
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "لحافات توين",
-    "code": "23293",
-    "alias": "100415",
-    "name": "COMFORTER TWIN FLYING MODEL HG JUVI 6PCS",
-    "price": 149,
-    "stock": 11,
-    "sales": 137,
-    "branches": {
-      "00-GIFTS": 0,
-      "01-Jeddah INT Market": 2,
-      "02-Serafi Mall": 0,
-      "04-Andalos Mall": 16,
-      "05-Haifa Mall": 8,
-      "06-Red Sea Mall": 13,
-      "07-Arab Mall": 9,
-      "08-Makkah Mall": 10,
-      "09-Al-Salam Mall": 10,
-      "11-Jouri Mall": 4,
-      "12-Al_Hamra Mall": 12,
-      "13-Al-Yasmin Mall": 8,
-      "14-Al Kamal Mall": 3,
-      "15-Riyadh Othaim Mall": 3,
-      "16-Ehsa Othaim Mall": 7,
-      "17-Arar Othaim Mall": 6,
-      "18-Al_Khayyat Center": 2,
-      "19-Hail Othaim Mall": 5,
-      "20-Sitten Street Makkah": 3,
-      "21-Abha Al_Rashid Mall New": 8,
-      "22-Tabuk Park": 8,
-      "23-Alia Mall Madinah": 10,
-      "24-Yanbu Dana Mall": 6,
-      "25-Rabwa Othaim Mall": 1,
-      "26-Al-Noor Mall Madinah": 12,
-      "27-Dhahran Mall khobar": 9,
-      "28-Al Nakheel Mall Dammam": 6,
-      "29-Al Nakheel Mall Riyadh": 2,
-      "30-Tala Mall Riyadh": 5,
-      "32-Atyaf Mall Riyadh": 2,
-      "33-Othaim Mall Rabwa2 Riyadh": 0,
-      "36-Al jubail Mall": 0,
-      "38-Al_Riyadh Park": 2,
-      "39-Salam Mall Riyadh": 0,
-      "40-Hayat Mall Riyad": 5,
-      "41-Khamis Avenue": 0,
-      "42-Dareen Mall Dammam": 8,
-      "43-Mujan Park": 7,
-      "44-Al-Jouf Center": 5,
-      "45- Riyadh Gallery Mall": 3,
-      "46-Khaleej Mall Riyadh": 9,
-      "47-Al-Nakheel Plaza": 11,
-      "48 - Jeddah Park": 8,
-      "49-AlAhsa Mall": 5,
-      "50-Meem Plaza Riyadh": 2,
-      "51-Park Avenue Riyadh": 7,
-      "52-Al_Baha Mall": 0,
-      "53-Al Basateen Mall": 0,
-      "54-THE VILLAGE": 12,
-      "55- Jabl Omar": 2,
-      "56- Aziz Mall 2": 2,
-      "57-Sauq7": 1,
-      "Abha Al_Rashid Mall": 0,
-      "Al Manar Mall Madinah": 0,
-      "PLATFORMS": 47,
-      "Warehouse": 11,
-      "warehouse riyadh": 365
+      "Warehouse": 107,
+      "warehouse riyadh": 353
     }
   },
   {
@@ -75630,13 +75492,13 @@ const data = [
     "alias": "100416",
     "name": "COMFORTER TWIN ROBERT HG JUVI 6PCS",
     "price": 149,
-    "stock": 299,
-    "sales": 103,
+    "stock": 281,
+    "sales": 104,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 14,
+      "04-Andalos Mall": 22,
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 14,
       "07-Arab Mall": 8,
@@ -75654,7 +75516,7 @@ const data = [
       "20-Sitten Street Makkah": 3,
       "21-Abha Al_Rashid Mall New": 5,
       "22-Tabuk Park": 9,
-      "23-Alia Mall Madinah": 8,
+      "23-Alia Mall Madinah": 7,
       "24-Yanbu Dana Mall": 6,
       "25-Rabwa Othaim Mall": 1,
       "26-Al-Noor Mall Madinah": 10,
@@ -75688,8 +75550,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 47,
-      "Warehouse": 299,
-      "warehouse riyadh": 506
+      "Warehouse": 281,
+      "warehouse riyadh": 498
     }
   },
   {
@@ -75758,7 +75620,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 7,
       "Warehouse": 3,
-      "warehouse riyadh": 192
+      "warehouse riyadh": 184
     }
   },
   {
@@ -75768,7 +75630,7 @@ const data = [
     "alias": "100608",
     "name": "COMFORTER TWIN DAISY SPRING TANGERING 5PCS",
     "price": 139,
-    "stock": 40,
+    "stock": 36,
     "sales": 66,
     "branches": {
       "00-GIFTS": 1,
@@ -75826,7 +75688,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 40,
+      "Warehouse": 36,
       "warehouse riyadh": 812
     }
   },
@@ -75837,7 +75699,7 @@ const data = [
     "alias": "100609",
     "name": "COMFORTER TWIN DINO RED BLUE 5PCS",
     "price": 139,
-    "stock": 282,
+    "stock": 278,
     "sales": 30,
     "branches": {
       "00-GIFTS": 0,
@@ -75895,7 +75757,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 31,
-      "Warehouse": 282,
+      "Warehouse": 278,
       "warehouse riyadh": 504
     }
   },
@@ -76182,7 +76044,7 @@ const data = [
     "alias": "239904",
     "name": "COMFORTER FULL DAMASK HUSH VIOLT 500TC 4PCS",
     "price": 499,
-    "stock": 128,
+    "stock": 126,
     "sales": 21,
     "branches": {
       "00-GIFTS": 1,
@@ -76240,7 +76102,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 128,
+      "Warehouse": 126,
       "warehouse riyadh": 248
     }
   },
@@ -76251,7 +76113,7 @@ const data = [
     "alias": "239906",
     "name": "COMFORTER FULL DAMASK SILVER 500TC 4PCS",
     "price": 499,
-    "stock": 19,
+    "stock": 11,
     "sales": 22,
     "branches": {
       "00-GIFTS": 0,
@@ -76309,8 +76171,8 @@ const data = [
       "Abha Al_Rashid Mall": 2,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 41,
-      "Warehouse": 19,
-      "warehouse riyadh": 134
+      "Warehouse": 11,
+      "warehouse riyadh": 132
     }
   },
   {
@@ -76448,7 +76310,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
       "Warehouse": 165,
-      "warehouse riyadh": 248
+      "warehouse riyadh": 246
     }
   },
   {
@@ -77069,7 +76931,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1,
-      "warehouse riyadh": 52
+      "warehouse riyadh": 50
     }
   },
   {
@@ -77759,7 +77621,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 16,
       "Warehouse": 14,
-      "warehouse riyadh": 36
+      "warehouse riyadh": 34
     }
   },
   {
@@ -78173,7 +78035,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
       "Warehouse": 9,
-      "warehouse riyadh": 100
+      "warehouse riyadh": 96
     }
   },
   {
@@ -78183,7 +78045,7 @@ const data = [
     "alias": "269212",
     "name": "COMFORTER FULL EXCAVATOR HG JUVI 8PCS",
     "price": 194,
-    "stock": 4,
+    "stock": 2,
     "sales": 42,
     "branches": {
       "00-GIFTS": 0,
@@ -78241,8 +78103,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 4,
-      "warehouse riyadh": 64
+      "Warehouse": 2,
+      "warehouse riyadh": 62
     }
   },
   {
@@ -78311,7 +78173,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 4,
       "Warehouse": 2,
-      "warehouse riyadh": 26
+      "warehouse riyadh": 24
     }
   },
   {
@@ -78321,7 +78183,7 @@ const data = [
     "alias": "269214",
     "name": "COMFORTER FULL ROBERT HG JUVI 8PCS",
     "price": 194,
-    "stock": 13,
+    "stock": 11,
     "sales": 46,
     "branches": {
       "00-GIFTS": 0,
@@ -78363,7 +78225,7 @@ const data = [
       "42-Dareen Mall Dammam": 16,
       "43-Mujan Park": 7,
       "44-Al-Jouf Center": 2,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 6,
       "48 - Jeddah Park": 5,
@@ -78379,8 +78241,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 13,
-      "warehouse riyadh": 122
+      "Warehouse": 11,
+      "warehouse riyadh": 120
     }
   },
   {
@@ -78794,7 +78656,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 8,
       "Warehouse": 8,
-      "warehouse riyadh": 132
+      "warehouse riyadh": 128
     }
   },
   {
@@ -79139,7 +79001,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
       "Warehouse": 2,
-      "warehouse riyadh": 94
+      "warehouse riyadh": 88
     }
   },
   {
@@ -79196,7 +79058,7 @@ const data = [
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 3,
       "49-AlAhsa Mall": 6,
-      "50-Meem Plaza Riyadh": 1,
+      "50-Meem Plaza Riyadh": 3,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 12,
       "53-Al Basateen Mall": 3,
@@ -79208,7 +79070,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 43,
       "Warehouse": 8,
-      "warehouse riyadh": 126
+      "warehouse riyadh": 122
     }
   },
   {
@@ -79218,7 +79080,7 @@ const data = [
     "alias": "2737",
     "name": "COMFORTER FULL ORVAL NAVY 8PCS",
     "price": 249,
-    "stock": 14,
+    "stock": 10,
     "sales": 64,
     "branches": {
       "00-GIFTS": 0,
@@ -79265,7 +79127,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 7,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 2,
       "51-Park Avenue Riyadh": 1,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 2,
@@ -79276,8 +79138,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 14,
-      "Warehouse": 14,
-      "warehouse riyadh": 42
+      "Warehouse": 10,
+      "warehouse riyadh": 34
     }
   },
   {
@@ -79287,7 +79149,7 @@ const data = [
     "alias": "2732",
     "name": "COMFORTER FULL MEADOW FLORAL MULTI 8PCS",
     "price": 249,
-    "stock": 178,
+    "stock": 174,
     "sales": 32,
     "branches": {
       "00-GIFTS": 0,
@@ -79345,7 +79207,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 45,
-      "Warehouse": 178,
+      "Warehouse": 174,
       "warehouse riyadh": 228
     }
   },
@@ -79421,86 +79283,17 @@ const data = [
   {
     "outlet": "Warehouse",
     "category": "لحافات فل",
-    "code": "23958",
-    "alias": "2739",
-    "name": "COMFORTER FULL CHEETAH SELVA 8PCS",
-    "price": 249,
-    "stock": 11,
-    "sales": 55,
-    "branches": {
-      "00-GIFTS": 0,
-      "01-Jeddah INT Market": 0,
-      "02-Serafi Mall": 0,
-      "04-Andalos Mall": 8,
-      "05-Haifa Mall": 1,
-      "06-Red Sea Mall": 1,
-      "07-Arab Mall": 8,
-      "08-Makkah Mall": 9,
-      "09-Al-Salam Mall": 7,
-      "11-Jouri Mall": 3,
-      "12-Al_Hamra Mall": 11,
-      "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
-      "15-Riyadh Othaim Mall": 2,
-      "16-Ehsa Othaim Mall": 5,
-      "17-Arar Othaim Mall": 1,
-      "18-Al_Khayyat Center": 2,
-      "19-Hail Othaim Mall": 15,
-      "20-Sitten Street Makkah": 8,
-      "21-Abha Al_Rashid Mall New": 0,
-      "22-Tabuk Park": 0,
-      "23-Alia Mall Madinah": 12,
-      "24-Yanbu Dana Mall": 5,
-      "25-Rabwa Othaim Mall": 2,
-      "26-Al-Noor Mall Madinah": 6,
-      "27-Dhahran Mall khobar": 8,
-      "28-Al Nakheel Mall Dammam": 5,
-      "29-Al Nakheel Mall Riyadh": 7,
-      "30-Tala Mall Riyadh": 4,
-      "32-Atyaf Mall Riyadh": 2,
-      "33-Othaim Mall Rabwa2 Riyadh": 0,
-      "36-Al jubail Mall": 0,
-      "38-Al_Riyadh Park": 2,
-      "39-Salam Mall Riyadh": 3,
-      "40-Hayat Mall Riyad": 5,
-      "41-Khamis Avenue": 0,
-      "42-Dareen Mall Dammam": 4,
-      "43-Mujan Park": 0,
-      "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 5,
-      "46-Khaleej Mall Riyadh": 5,
-      "47-Al-Nakheel Plaza": 8,
-      "48 - Jeddah Park": 1,
-      "49-AlAhsa Mall": 7,
-      "50-Meem Plaza Riyadh": 2,
-      "51-Park Avenue Riyadh": 7,
-      "52-Al_Baha Mall": 0,
-      "53-Al Basateen Mall": 2,
-      "54-THE VILLAGE": 0,
-      "55- Jabl Omar": 4,
-      "56- Aziz Mall 2": 3,
-      "57-Sauq7": 0,
-      "Abha Al_Rashid Mall": 0,
-      "Al Manar Mall Madinah": 0,
-      "PLATFORMS": 27,
-      "Warehouse": 11,
-      "warehouse riyadh": 142
-    }
-  },
-  {
-    "outlet": "Warehouse",
-    "category": "لحافات فل",
     "code": "24022",
     "alias": "2740",
     "name": "COMFORTER FULL GREEN CAMO JACK 8PCS",
     "price": 249,
-    "stock": 162,
+    "stock": 146,
     "sales": 46,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 13,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 9,
@@ -79509,7 +79302,7 @@ const data = [
       "11-Jouri Mall": 6,
       "12-Al_Hamra Mall": 7,
       "13-Al-Yasmin Mall": 9,
-      "14-Al Kamal Mall": 3,
+      "14-Al Kamal Mall": 5,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 13,
       "17-Arar Othaim Mall": 4,
@@ -79552,7 +79345,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 162,
+      "Warehouse": 146,
       "warehouse riyadh": 582
     }
   },
@@ -79563,7 +79356,7 @@ const data = [
     "alias": "2741",
     "name": "COMFORTER FULL BOW GIMINY BLUE 5PCS",
     "price": 299,
-    "stock": 279,
+    "stock": 275,
     "sales": 65,
     "branches": {
       "00-GIFTS": 0,
@@ -79605,7 +79398,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 5,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 3,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 5,
@@ -79621,8 +79414,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 49,
-      "Warehouse": 279,
-      "warehouse riyadh": 296
+      "Warehouse": 275,
+      "warehouse riyadh": 292
     }
   },
   {
@@ -79701,7 +79494,7 @@ const data = [
     "alias": "2743",
     "name": "COMFORTER FULL BOW GIMINY LAVENDER 5PCS",
     "price": 299,
-    "stock": 347,
+    "stock": 343,
     "sales": 47,
     "branches": {
       "00-GIFTS": 0,
@@ -79743,7 +79536,7 @@ const data = [
       "42-Dareen Mall Dammam": 6,
       "43-Mujan Park": 3,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 3,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 6,
@@ -79759,8 +79552,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 35,
-      "Warehouse": 347,
-      "warehouse riyadh": 326
+      "Warehouse": 343,
+      "warehouse riyadh": 322
     }
   },
   {
@@ -79908,8 +79701,8 @@ const data = [
     "alias": "2269401",
     "name": "*COMFORTER FULL HUTTON STRIPE BLUE 11PCS KIT",
     "price": 499,
-    "stock": 64,
-    "sales": 11,
+    "stock": 63,
+    "sales": 12,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -79955,7 +79748,7 @@ const data = [
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 5,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 4,
@@ -79966,8 +79759,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 64,
-      "warehouse riyadh": 90
+      "Warehouse": 63,
+      "warehouse riyadh": 88
     }
   },
   {
@@ -80093,7 +79886,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 7,
       "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 4,
@@ -80105,7 +79898,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 52,
-      "warehouse riyadh": 44
+      "warehouse riyadh": 42
     }
   },
   {
@@ -80184,8 +79977,8 @@ const data = [
     "alias": "2269406",
     "name": "*COMFORTER FULL SPRING BORDER LILAC 11PCS KIT",
     "price": 499,
-    "stock": 77,
-    "sales": 75,
+    "stock": 72,
+    "sales": 76,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -80242,7 +80035,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 77,
+      "Warehouse": 72,
       "warehouse riyadh": 42
     }
   },
@@ -80529,7 +80322,7 @@ const data = [
     "alias": "2269402",
     "name": "*COMFORTER FULL WARDEN STRIPE GREY 11PCS KIT",
     "price": 499,
-    "stock": 46,
+    "stock": 38,
     "sales": 92,
     "branches": {
       "00-GIFTS": 0,
@@ -80544,7 +80337,7 @@ const data = [
       "11-Jouri Mall": 3,
       "12-Al_Hamra Mall": 10,
       "13-Al-Yasmin Mall": 10,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 3,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 6,
       "17-Arar Othaim Mall": 2,
@@ -80587,8 +80380,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 46,
-      "warehouse riyadh": 24
+      "Warehouse": 38,
+      "warehouse riyadh": 22
     }
   },
   {
@@ -81012,7 +80805,7 @@ const data = [
     "alias": "408501",
     "name": "COMFORTER KING DAMASK WHITE 500TC 6PCS",
     "price": 699,
-    "stock": 547,
+    "stock": 544,
     "sales": 38,
     "branches": {
       "00-GIFTS": 9,
@@ -81027,7 +80820,7 @@ const data = [
       "11-Jouri Mall": 3,
       "12-Al_Hamra Mall": 5,
       "13-Al-Yasmin Mall": 5,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 2,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 2,
       "17-Arar Othaim Mall": 2,
@@ -81070,8 +80863,8 @@ const data = [
       "Abha Al_Rashid Mall": 6,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 547,
-      "warehouse riyadh": 624
+      "Warehouse": 544,
+      "warehouse riyadh": 621
     }
   },
   {
@@ -81081,7 +80874,7 @@ const data = [
     "alias": "408502",
     "name": "COMFORTER KING DAMASK COUBLESTONE 500TC 6PCS",
     "price": 699,
-    "stock": 201,
+    "stock": 199,
     "sales": 17,
     "branches": {
       "00-GIFTS": 5,
@@ -81139,7 +80932,7 @@ const data = [
       "Abha Al_Rashid Mall": 2,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 201,
+      "Warehouse": 199,
       "warehouse riyadh": 332
     }
   },
@@ -81150,7 +80943,7 @@ const data = [
     "alias": "408507",
     "name": "COMFORTER KING DAMASK SILVER 500TC 6PCS",
     "price": 699,
-    "stock": 422,
+    "stock": 421,
     "sales": 15,
     "branches": {
       "00-GIFTS": 8,
@@ -81208,8 +81001,8 @@ const data = [
       "Abha Al_Rashid Mall": 6,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 422,
-      "warehouse riyadh": 512
+      "Warehouse": 421,
+      "warehouse riyadh": 510
     }
   },
   {
@@ -81278,7 +81071,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 11,
-      "warehouse riyadh": 403
+      "warehouse riyadh": 402
     }
   },
   {
@@ -81288,7 +81081,7 @@ const data = [
     "alias": "408511",
     "name": "COMFORTER KING DAMASK LT.BLUE  500TC 6PCS",
     "price": 699,
-    "stock": 35,
+    "stock": 34,
     "sales": 7,
     "branches": {
       "00-GIFTS": 3,
@@ -81346,8 +81139,8 @@ const data = [
       "Abha Al_Rashid Mall": 3,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 35,
-      "warehouse riyadh": 293
+      "Warehouse": 34,
+      "warehouse riyadh": 292
     }
   },
   {
@@ -81416,7 +81209,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
       "Warehouse": 694,
-      "warehouse riyadh": 1065
+      "warehouse riyadh": 1061
     }
   },
   {
@@ -81633,7 +81426,7 @@ const data = [
     "alias": "44160",
     "name": "*COMFORTER KING BETSY 11PCS KIT",
     "price": 799,
-    "stock": 86,
+    "stock": 84,
     "sales": 53,
     "branches": {
       "00-GIFTS": 4,
@@ -81680,7 +81473,7 @@ const data = [
       "47-Al-Nakheel Plaza": 6,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 10,
+      "50-Meem Plaza Riyadh": 14,
       "51-Park Avenue Riyadh": 5,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 3,
@@ -81691,8 +81484,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 86,
-      "warehouse riyadh": 12
+      "Warehouse": 84,
+      "warehouse riyadh": 8
     }
   },
   {
@@ -81771,7 +81564,7 @@ const data = [
     "alias": "440114",
     "name": "*COMFORTER KING LEXY BLUSH 8PCS KIT",
     "price": 495,
-    "stock": 10,
+    "stock": 5,
     "sales": 37,
     "branches": {
       "00-GIFTS": 4,
@@ -81786,7 +81579,7 @@ const data = [
       "11-Jouri Mall": 3,
       "12-Al_Hamra Mall": 5,
       "13-Al-Yasmin Mall": 6,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 2,
       "15-Riyadh Othaim Mall": 3,
       "16-Ehsa Othaim Mall": 1,
       "17-Arar Othaim Mall": 2,
@@ -81818,7 +81611,7 @@ const data = [
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 2,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 1,
@@ -81829,8 +81622,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 25,
-      "Warehouse": 10,
-      "warehouse riyadh": 171
+      "Warehouse": 5,
+      "warehouse riyadh": 169
     }
   },
   {
@@ -81956,7 +81749,7 @@ const data = [
       "47-Al-Nakheel Plaza": 10,
       "48 - Jeddah Park": 3,
       "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 5,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 2,
@@ -81968,7 +81761,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 36,
       "Warehouse": 80,
-      "warehouse riyadh": 30
+      "warehouse riyadh": 26
     }
   },
   {
@@ -81978,13 +81771,13 @@ const data = [
     "alias": "44049",
     "name": "*COMFORTER KING SHANGIA SAFRON 8PCS KIT",
     "price": 495,
-    "stock": 21,
+    "stock": 20,
     "sales": 39,
     "branches": {
       "00-GIFTS": 7,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 4,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 8,
@@ -82036,8 +81829,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 36,
-      "Warehouse": 21,
-      "warehouse riyadh": 27
+      "Warehouse": 20,
+      "warehouse riyadh": 23
     }
   },
   {
@@ -82244,7 +82037,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 27,
       "Warehouse": 75,
-      "warehouse riyadh": 47
+      "warehouse riyadh": 44
     }
   },
   {
@@ -83003,7 +82796,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 32,
-      "warehouse riyadh": 56
+      "warehouse riyadh": 52
     }
   },
   {
@@ -84366,12 +84159,12 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 2,
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 2,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -84383,7 +84176,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 37,
       "Warehouse": 98,
-      "warehouse riyadh": 142
+      "warehouse riyadh": 130
     }
   },
   {
@@ -84531,7 +84324,7 @@ const data = [
     "alias": "44372",
     "name": "*COMFORTER KING ISABELLA BAIGE 11PCS KIT",
     "price": 995,
-    "stock": 28,
+    "stock": 26,
     "sales": 73,
     "branches": {
       "00-GIFTS": 0,
@@ -84589,8 +84382,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 5,
-      "Warehouse": 28,
-      "warehouse riyadh": 76
+      "Warehouse": 26,
+      "warehouse riyadh": 70
     }
   },
   {
@@ -84669,13 +84462,13 @@ const data = [
     "alias": "4052123",
     "name": "COMFORTER KING COSTCO GRAPHIC GEO GREY 6PCS",
     "price": 229,
-    "stock": 58,
+    "stock": 44,
     "sales": 26,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 1,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 5,
+      "04-Andalos Mall": 11,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 1,
       "07-Arab Mall": 5,
@@ -84711,12 +84504,12 @@ const data = [
       "42-Dareen Mall Dammam": 10,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 1,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -84727,8 +84520,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 51,
-      "Warehouse": 58,
-      "warehouse riyadh": 404
+      "Warehouse": 44,
+      "warehouse riyadh": 392
     }
   },
   {
@@ -84918,7 +84711,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 3,
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 0,
@@ -84935,7 +84728,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
       "Warehouse": 10,
-      "warehouse riyadh": 114
+      "warehouse riyadh": 104
     }
   },
   {
@@ -84945,7 +84738,7 @@ const data = [
     "alias": "4001787",
     "name": "COMFORTER KING BIG EMMA 9PCS",
     "price": 249,
-    "stock": 127,
+    "stock": 123,
     "sales": 3,
     "branches": {
       "00-GIFTS": 3,
@@ -84987,7 +84780,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 2,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 3,
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 3,
@@ -85003,8 +84796,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 28,
-      "Warehouse": 127,
-      "warehouse riyadh": 178
+      "Warehouse": 123,
+      "warehouse riyadh": 174
     }
   },
   {
@@ -85073,7 +84866,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 2,
-      "warehouse riyadh": 40
+      "warehouse riyadh": 38
     }
   },
   {
@@ -85142,7 +84935,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1,
-      "warehouse riyadh": 22
+      "warehouse riyadh": 18
     }
   },
   {
@@ -85263,7 +85056,7 @@ const data = [
       "42-Dareen Mall Dammam": 8,
       "43-Mujan Park": 8,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 2,
+      "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 5,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 3,
@@ -85280,7 +85073,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 17,
-      "warehouse riyadh": 154
+      "warehouse riyadh": 152
     }
   },
   {
@@ -85332,7 +85125,7 @@ const data = [
       "42-Dareen Mall Dammam": 1,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 2,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 0,
@@ -85349,7 +85142,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 32,
       "Warehouse": 20,
-      "warehouse riyadh": 52
+      "warehouse riyadh": 46
     }
   },
   {
@@ -85401,7 +85194,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 0,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 0,
@@ -85418,7 +85211,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 18,
       "Warehouse": 15,
-      "warehouse riyadh": 4
+      "warehouse riyadh": 0
     }
   },
   {
@@ -85497,7 +85290,7 @@ const data = [
     "alias": "4406013",
     "name": "*COMFORTER KING COZY STRIPE GREY PRINTED 6PCS KIT",
     "price": 399,
-    "stock": 72,
+    "stock": 70,
     "sales": 19,
     "branches": {
       "00-GIFTS": 3,
@@ -85555,7 +85348,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 1,
-      "Warehouse": 72,
+      "Warehouse": 70,
       "warehouse riyadh": 97
     }
   },
@@ -86303,7 +86096,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 3,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 2,
       "51-Park Avenue Riyadh": 2,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -86315,7 +86108,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 17,
       "Warehouse": 5,
-      "warehouse riyadh": 11
+      "warehouse riyadh": 5
     }
   },
   {
@@ -86325,13 +86118,13 @@ const data = [
     "alias": "48803",
     "name": "COMFORTER KING BLUE ICE ROSELINE 12PCS",
     "price": 399,
-    "stock": 110,
-    "sales": 111,
+    "stock": 96,
+    "sales": 112,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 11,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 5,
       "07-Arab Mall": 9,
@@ -86365,7 +86158,7 @@ const data = [
       "40-Hayat Mall Riyad": 3,
       "41-Khamis Avenue": 2,
       "42-Dareen Mall Dammam": 3,
-      "43-Mujan Park": 5,
+      "43-Mujan Park": 4,
       "44-Al-Jouf Center": 2,
       "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 5,
@@ -86383,8 +86176,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 162,
-      "Warehouse": 110,
-      "warehouse riyadh": 518
+      "Warehouse": 96,
+      "warehouse riyadh": 512
     }
   },
   {
@@ -86394,13 +86187,13 @@ const data = [
     "alias": "48801",
     "name": "COMFORTER KING LEILANI SILVER 12PCS",
     "price": 399,
-    "stock": 1262,
+    "stock": 1244,
     "sales": 100,
     "branches": {
       "00-GIFTS": 3,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 13,
+      "04-Andalos Mall": 17,
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 4,
       "07-Arab Mall": 8,
@@ -86452,8 +86245,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 345,
-      "Warehouse": 1262,
-      "warehouse riyadh": 1449
+      "Warehouse": 1244,
+      "warehouse riyadh": 1445
     }
   },
   {
@@ -86463,13 +86256,13 @@ const data = [
     "alias": "48802",
     "name": "COMFORTER KING VERDEIRE SOFT BLUSH 12PCS",
     "price": 399,
-    "stock": 72,
+    "stock": 52,
     "sales": 114,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 19,
+      "04-Andalos Mall": 23,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 3,
       "07-Arab Mall": 8,
@@ -86478,7 +86271,7 @@ const data = [
       "11-Jouri Mall": 5,
       "12-Al_Hamra Mall": 2,
       "13-Al-Yasmin Mall": 4,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 2,
       "15-Riyadh Othaim Mall": 3,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 2,
@@ -86521,8 +86314,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 326,
-      "Warehouse": 72,
-      "warehouse riyadh": 1212
+      "Warehouse": 52,
+      "warehouse riyadh": 1198
     }
   },
   {
@@ -86532,7 +86325,7 @@ const data = [
     "alias": "440901",
     "name": "*COMFORTER KING RAINY WITH SCALLOP 8PCS KIT",
     "price": 595,
-    "stock": 73,
+    "stock": 71,
     "sales": 37,
     "branches": {
       "00-GIFTS": 0,
@@ -86590,8 +86383,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 32,
-      "Warehouse": 73,
-      "warehouse riyadh": 123
+      "Warehouse": 71,
+      "warehouse riyadh": 121
     }
   },
   {
@@ -86660,7 +86453,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 36,
       "Warehouse": 22,
-      "warehouse riyadh": 138
+      "warehouse riyadh": 137
     }
   },
   {
@@ -86729,7 +86522,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 11,
       "Warehouse": 11,
-      "warehouse riyadh": 117
+      "warehouse riyadh": 115
     }
   },
   {
@@ -86877,13 +86670,13 @@ const data = [
     "alias": "4488903",
     "name": "*COMFORTER KING LEXY CREAM GREY 8PCS KIT",
     "price": 499,
-    "stock": 75,
+    "stock": 71,
     "sales": 9,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 1,
+      "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 11,
       "07-Arab Mall": 5,
@@ -86935,8 +86728,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 24,
-      "Warehouse": 75,
-      "warehouse riyadh": 218
+      "Warehouse": 71,
+      "warehouse riyadh": 214
     }
   },
   {
@@ -86993,7 +86786,7 @@ const data = [
       "47-Al-Nakheel Plaza": 10,
       "48 - Jeddah Park": 3,
       "49-AlAhsa Mall": 3,
-      "50-Meem Plaza Riyadh": 2,
+      "50-Meem Plaza Riyadh": 3,
       "51-Park Avenue Riyadh": 2,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 1,
@@ -87005,7 +86798,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
       "Warehouse": 83,
-      "warehouse riyadh": 65
+      "warehouse riyadh": 64
     }
   },
   {
@@ -87074,7 +86867,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 37,
       "Warehouse": 10,
-      "warehouse riyadh": 102
+      "warehouse riyadh": 100
     }
   },
   {
@@ -87222,7 +87015,7 @@ const data = [
     "alias": "440905",
     "name": "*COMFORTER KING JEWEL VATALIA PURPLE 11PCS KIT",
     "price": 399,
-    "stock": 63,
+    "stock": 56,
     "sales": 118,
     "branches": {
       "00-GIFTS": 0,
@@ -87269,7 +87062,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 4,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 2,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 1,
@@ -87280,8 +87073,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 63,
-      "warehouse riyadh": 29
+      "Warehouse": 56,
+      "warehouse riyadh": 20
     }
   },
   {
@@ -87705,13 +87498,13 @@ const data = [
     "alias": "449905",
     "name": "*COMFORTER KING DAMASK PAINTED GREY 11PCS KIT",
     "price": 695,
-    "stock": 22,
+    "stock": 20,
     "sales": 45,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 4,
+      "04-Andalos Mall": 6,
       "05-Haifa Mall": 5,
       "06-Red Sea Mall": 8,
       "07-Arab Mall": 15,
@@ -87763,7 +87556,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 23,
-      "Warehouse": 22,
+      "Warehouse": 20,
       "warehouse riyadh": 0
     }
   },
@@ -87833,7 +87626,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
       "Warehouse": 9,
-      "warehouse riyadh": 44
+      "warehouse riyadh": 40
     }
   },
   {
@@ -87843,7 +87636,7 @@ const data = [
     "alias": "449909",
     "name": "*COMFORTER KING VILETTE MULTI SAGE CASCADE 11PCS KIT",
     "price": 695,
-    "stock": 42,
+    "stock": 41,
     "sales": 32,
     "branches": {
       "00-GIFTS": 0,
@@ -87901,8 +87694,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 34,
-      "Warehouse": 42,
-      "warehouse riyadh": 82
+      "Warehouse": 41,
+      "warehouse riyadh": 78
     }
   },
   {
@@ -88109,7 +87902,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 41,
       "Warehouse": 71,
-      "warehouse riyadh": 116
+      "warehouse riyadh": 114
     }
   },
   {
@@ -88188,13 +87981,13 @@ const data = [
     "alias": "440912",
     "name": "*COMFORTER KING LUXE GREY MITALLIC 8PCS KIT",
     "price": 499,
-    "stock": 101,
+    "stock": 92,
     "sales": 199,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 4,
+      "04-Andalos Mall": 8,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 13,
       "07-Arab Mall": 10,
@@ -88203,7 +87996,7 @@ const data = [
       "11-Jouri Mall": 9,
       "12-Al_Hamra Mall": 12,
       "13-Al-Yasmin Mall": 10,
-      "14-Al Kamal Mall": 5,
+      "14-Al Kamal Mall": 6,
       "15-Riyadh Othaim Mall": 3,
       "16-Ehsa Othaim Mall": 7,
       "17-Arar Othaim Mall": 3,
@@ -88230,12 +88023,12 @@ const data = [
       "42-Dareen Mall Dammam": 8,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 3,
-      "45- Riyadh Gallery Mall": 4,
+      "45- Riyadh Gallery Mall": 8,
       "46-Khaleej Mall Riyadh": 6,
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 10,
       "49-AlAhsa Mall": 13,
-      "50-Meem Plaza Riyadh": 6,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 6,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 1,
@@ -88246,8 +88039,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 101,
-      "warehouse riyadh": 81
+      "Warehouse": 92,
+      "warehouse riyadh": 59
     }
   },
   {
@@ -88326,7 +88119,7 @@ const data = [
     "alias": "440913",
     "name": "*COMFORTER KING CYNTHIA FLORAL BIEGE 8PCS KIT",
     "price": 499,
-    "stock": 68,
+    "stock": 67,
     "sales": 45,
     "branches": {
       "00-GIFTS": 0,
@@ -88341,7 +88134,7 @@ const data = [
       "11-Jouri Mall": 4,
       "12-Al_Hamra Mall": 3,
       "13-Al-Yasmin Mall": 4,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 3,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 3,
       "17-Arar Othaim Mall": 2,
@@ -88384,8 +88177,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 38,
-      "Warehouse": 68,
-      "warehouse riyadh": 88
+      "Warehouse": 67,
+      "warehouse riyadh": 86
     }
   },
   {
@@ -88602,13 +88395,13 @@ const data = [
     "alias": "440916",
     "name": "*COMFORTER KING ROME MEDALLION 8PCS KIT",
     "price": 599,
-    "stock": 73,
+    "stock": 67,
     "sales": 42,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 2,
+      "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 4,
       "07-Arab Mall": 5,
@@ -88660,8 +88453,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 35,
-      "Warehouse": 73,
-      "warehouse riyadh": 95
+      "Warehouse": 67,
+      "warehouse riyadh": 93
     }
   },
   {
@@ -88740,7 +88533,7 @@ const data = [
     "alias": "440917",
     "name": "*COMFORTER KING SAKURA LILAC 7PCS KIT",
     "price": 399,
-    "stock": 95,
+    "stock": 85,
     "sales": 99,
     "branches": {
       "00-GIFTS": 0,
@@ -88798,7 +88591,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 40,
-      "Warehouse": 95,
+      "Warehouse": 85,
       "warehouse riyadh": 8
     }
   },
@@ -88994,7 +88787,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 2,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 2,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 1,
@@ -89006,7 +88799,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 78,
       "Warehouse": 592,
-      "warehouse riyadh": 670
+      "warehouse riyadh": 664
     }
   },
   {
@@ -89016,7 +88809,7 @@ const data = [
     "alias": "49912",
     "name": "COMFORTER KING PRINTED BLUSH DOMBURG 8PCS",
     "price": 299,
-    "stock": 752,
+    "stock": 750,
     "sales": 50,
     "branches": {
       "00-GIFTS": 1,
@@ -89074,8 +88867,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 245,
-      "Warehouse": 752,
-      "warehouse riyadh": 1312
+      "Warehouse": 750,
+      "warehouse riyadh": 1306
     }
   },
   {
@@ -89154,13 +88947,13 @@ const data = [
     "alias": "440920",
     "name": "*COMFORTER KING PALLINGTON PINK 8PCS KIT",
     "price": 599,
-    "stock": 71,
+    "stock": 66,
     "sales": 39,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 4,
+      "04-Andalos Mall": 6,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 5,
       "07-Arab Mall": 5,
@@ -89212,7 +89005,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 24,
-      "Warehouse": 71,
+      "Warehouse": 66,
       "warehouse riyadh": 60
     }
   },
@@ -89223,13 +89016,13 @@ const data = [
     "alias": "440921",
     "name": "*COMFORTER KING PALLINGTON RUBY 8PCS KIT",
     "price": 599,
-    "stock": 64,
+    "stock": 59,
     "sales": 63,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 7,
@@ -89281,7 +89074,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 32,
-      "Warehouse": 64,
+      "Warehouse": 59,
       "warehouse riyadh": 99
     }
   },
@@ -89293,7 +89086,7 @@ const data = [
     "name": "*COMFORTER KING FLORAL SEA FOAM 8PCS KIT",
     "price": 599,
     "stock": 9,
-    "sales": 144,
+    "sales": 145,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -89312,7 +89105,7 @@ const data = [
       "16-Ehsa Othaim Mall": 10,
       "17-Arar Othaim Mall": 2,
       "18-Al_Khayyat Center": 0,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 1,
       "20-Sitten Street Makkah": 0,
       "21-Abha Al_Rashid Mall New": 0,
       "22-Tabuk Park": 0,
@@ -89334,12 +89127,12 @@ const data = [
       "42-Dareen Mall Dammam": 6,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 5,
+      "45- Riyadh Gallery Mall": 8,
       "46-Khaleej Mall Riyadh": 9,
       "47-Al-Nakheel Plaza": 1,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 11,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 8,
       "51-Park Avenue Riyadh": 1,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -89351,7 +89144,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 9,
-      "warehouse riyadh": 35
+      "warehouse riyadh": 34
     }
   },
   {
@@ -89430,13 +89223,13 @@ const data = [
     "alias": "4489100",
     "name": "*COMFORTER KING BLOOMING PINK 10PCS KIT",
     "price": 499,
-    "stock": 65,
+    "stock": 51,
     "sales": 72,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 4,
+      "04-Andalos Mall": 8,
       "05-Haifa Mall": 3,
       "06-Red Sea Mall": 8,
       "07-Arab Mall": 2,
@@ -89472,7 +89265,7 @@ const data = [
       "42-Dareen Mall Dammam": 7,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 2,
-      "45- Riyadh Gallery Mall": 4,
+      "45- Riyadh Gallery Mall": 6,
       "46-Khaleej Mall Riyadh": 2,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 4,
@@ -89488,8 +89281,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 19,
-      "Warehouse": 65,
-      "warehouse riyadh": 58
+      "Warehouse": 51,
+      "warehouse riyadh": 54
     }
   },
   {
@@ -89568,13 +89361,13 @@ const data = [
     "alias": "4489101",
     "name": "*COMFORTER KING BLOOMING WHITE 10PCS KIT",
     "price": 499,
-    "stock": 60,
+    "stock": 58,
     "sales": 42,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 3,
@@ -89626,7 +89419,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
-      "Warehouse": 90,
+      "Warehouse": 88,
       "warehouse riyadh": 118
     }
   },
@@ -89643,7 +89436,7 @@ const data = [
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 3,
@@ -89695,7 +89488,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
-      "Warehouse": 90,
+      "Warehouse": 88,
       "warehouse riyadh": 118
     }
   },
@@ -89706,7 +89499,7 @@ const data = [
     "alias": "49913",
     "name": "COMFORTER KING MULTI MEADOW FLORAL 8PCS",
     "price": 299,
-    "stock": 1139,
+    "stock": 1137,
     "sales": 32,
     "branches": {
       "00-GIFTS": 1,
@@ -89748,12 +89541,12 @@ const data = [
       "42-Dareen Mall Dammam": 4,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 3,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 3,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 4,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 2,
       "51-Park Avenue Riyadh": 5,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 2,
@@ -89764,8 +89557,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 63,
-      "Warehouse": 1139,
-      "warehouse riyadh": 1400
+      "Warehouse": 1137,
+      "warehouse riyadh": 1390
     }
   },
   {
@@ -89844,7 +89637,7 @@ const data = [
     "alias": "440923",
     "name": "*COMFORTER KING MIRABELLE SEASPRAY 8PCS KIT",
     "price": 599,
-    "stock": 84,
+    "stock": 82,
     "sales": 70,
     "branches": {
       "00-GIFTS": 0,
@@ -89902,7 +89695,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 24,
-      "Warehouse": 84,
+      "Warehouse": 82,
       "warehouse riyadh": 157
     }
   },
@@ -89913,7 +89706,7 @@ const data = [
     "alias": "440924",
     "name": "*COMFORTER KING TONAL FLORAL TAUPE 8PCS KIT",
     "price": 599,
-    "stock": 75,
+    "stock": 70,
     "sales": 72,
     "branches": {
       "00-GIFTS": 1,
@@ -89928,7 +89721,7 @@ const data = [
       "11-Jouri Mall": 3,
       "12-Al_Hamra Mall": 9,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 3,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 3,
       "17-Arar Othaim Mall": 2,
@@ -89971,8 +89764,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 75,
-      "warehouse riyadh": 123
+      "Warehouse": 70,
+      "warehouse riyadh": 121
     }
   },
   {
@@ -89982,13 +89775,13 @@ const data = [
     "alias": "49916",
     "name": "COMFORTER KING PAVLA GREY 8PCS",
     "price": 299,
-    "stock": 1301,
+    "stock": 1293,
     "sales": 23,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 6,
+      "04-Andalos Mall": 8,
       "05-Haifa Mall": 3,
       "06-Red Sea Mall": 8,
       "07-Arab Mall": 2,
@@ -89997,7 +89790,7 @@ const data = [
       "11-Jouri Mall": 5,
       "12-Al_Hamra Mall": 2,
       "13-Al-Yasmin Mall": 2,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 3,
       "15-Riyadh Othaim Mall": 1,
       "16-Ehsa Othaim Mall": 4,
       "17-Arar Othaim Mall": 0,
@@ -90029,7 +89822,7 @@ const data = [
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 2,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 2,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -90040,8 +89833,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 35,
-      "Warehouse": 1301,
-      "warehouse riyadh": 1460
+      "Warehouse": 1293,
+      "warehouse riyadh": 1452
     }
   },
   {
@@ -90051,13 +89844,13 @@ const data = [
     "alias": "49917",
     "name": "COMFORTER KING PAVLA BLUSH 8PCS",
     "price": 299,
-    "stock": 1383,
+    "stock": 1379,
     "sales": 19,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 7,
@@ -90098,7 +89891,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 7,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 5,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -90109,8 +89902,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 5,
-      "Warehouse": 1383,
-      "warehouse riyadh": 1496
+      "Warehouse": 1379,
+      "warehouse riyadh": 1488
     }
   },
   {
@@ -90179,7 +89972,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 4,
       "Warehouse": 8,
-      "warehouse riyadh": 5
+      "warehouse riyadh": 1
     }
   },
   {
@@ -90189,7 +89982,7 @@ const data = [
     "alias": "49919",
     "name": "COMFORTER KING ARDICE GRAY ECRU 8PCS",
     "price": 299,
-    "stock": 168,
+    "stock": 154,
     "sales": 83,
     "branches": {
       "00-GIFTS": 1,
@@ -90204,7 +89997,7 @@ const data = [
       "11-Jouri Mall": 4,
       "12-Al_Hamra Mall": 5,
       "13-Al-Yasmin Mall": 6,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 4,
       "15-Riyadh Othaim Mall": 3,
       "16-Ehsa Othaim Mall": 6,
       "17-Arar Othaim Mall": 3,
@@ -90231,7 +90024,7 @@ const data = [
       "42-Dareen Mall Dammam": 4,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 3,
+      "45- Riyadh Gallery Mall": 5,
       "46-Khaleej Mall Riyadh": 6,
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 0,
@@ -90247,8 +90040,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 84,
-      "Warehouse": 168,
-      "warehouse riyadh": 970
+      "Warehouse": 154,
+      "warehouse riyadh": 960
     }
   },
   {
@@ -90879,7 +90672,7 @@ const data = [
     "alias": "440929",
     "name": "*COMFORTER KING PATIA GRAY 11PCS KIT",
     "price": 399,
-    "stock": 63,
+    "stock": 61,
     "sales": 34,
     "branches": {
       "00-GIFTS": 0,
@@ -90937,8 +90730,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 33,
-      "Warehouse": 63,
-      "warehouse riyadh": 32
+      "Warehouse": 61,
+      "warehouse riyadh": 30
     }
   },
   {
@@ -90948,7 +90741,7 @@ const data = [
     "alias": "49914",
     "name": "COMFORTER KING BOW GIMINY BLUE 5PCS",
     "price": 299,
-    "stock": 402,
+    "stock": 400,
     "sales": 40,
     "branches": {
       "00-GIFTS": 0,
@@ -90963,7 +90756,7 @@ const data = [
       "11-Jouri Mall": 2,
       "12-Al_Hamra Mall": 2,
       "13-Al-Yasmin Mall": 5,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 4,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 2,
       "17-Arar Othaim Mall": 2,
@@ -90990,7 +90783,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 2,
       "44-Al-Jouf Center": 2,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 3,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 6,
@@ -91006,8 +90799,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 85,
-      "Warehouse": 402,
-      "warehouse riyadh": 372
+      "Warehouse": 400,
+      "warehouse riyadh": 368
     }
   },
   {
@@ -91059,7 +90852,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 2,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 7,
@@ -91076,7 +90869,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
       "Warehouse": 530,
-      "warehouse riyadh": 380
+      "warehouse riyadh": 376
     }
   },
   {
@@ -91086,7 +90879,7 @@ const data = [
     "alias": "49921",
     "name": "COMFORTER KING GAVOTTE SAGE 8PCS",
     "price": 299,
-    "stock": 335,
+    "stock": 329,
     "sales": 188,
     "branches": {
       "00-GIFTS": 0,
@@ -91101,7 +90894,7 @@ const data = [
       "11-Jouri Mall": 7,
       "12-Al_Hamra Mall": 3,
       "13-Al-Yasmin Mall": 4,
-      "14-Al Kamal Mall": 3,
+      "14-Al Kamal Mall": 5,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 6,
       "17-Arar Othaim Mall": 0,
@@ -91133,7 +90926,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 4,
       "49-AlAhsa Mall": 8,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 1,
@@ -91144,8 +90937,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 216,
-      "Warehouse": 335,
-      "warehouse riyadh": 1946
+      "Warehouse": 329,
+      "warehouse riyadh": 1936
     }
   },
   {
@@ -91155,7 +90948,7 @@ const data = [
     "alias": "49922",
     "name": "COMFORTER KING ABELIA CORAL 8PCS",
     "price": 299,
-    "stock": 1198,
+    "stock": 1186,
     "sales": 69,
     "branches": {
       "00-GIFTS": 0,
@@ -91170,7 +90963,7 @@ const data = [
       "11-Jouri Mall": 4,
       "12-Al_Hamra Mall": 2,
       "13-Al-Yasmin Mall": 7,
-      "14-Al Kamal Mall": 3,
+      "14-Al Kamal Mall": 7,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 8,
       "17-Arar Othaim Mall": 0,
@@ -91197,12 +90990,12 @@ const data = [
       "42-Dareen Mall Dammam": 4,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 4,
+      "45- Riyadh Gallery Mall": 8,
       "46-Khaleej Mall Riyadh": 5,
       "47-Al-Nakheel Plaza": 1,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 7,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -91213,8 +91006,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 86,
-      "Warehouse": 1198,
-      "warehouse riyadh": 1969
+      "Warehouse": 1186,
+      "warehouse riyadh": 1949
     }
   },
   {
@@ -91224,13 +91017,13 @@ const data = [
     "alias": "49923",
     "name": "COMFORTER KING ROSEL VERNAZZA 8PCS",
     "price": 299,
-    "stock": 1839,
+    "stock": 1835,
     "sales": 32,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 4,
+      "04-Andalos Mall": 6,
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 3,
@@ -91271,7 +91064,7 @@ const data = [
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 1,
       "49-AlAhsa Mall": 6,
-      "50-Meem Plaza Riyadh": 1,
+      "50-Meem Plaza Riyadh": 5,
       "51-Park Avenue Riyadh": 1,
       "52-Al_Baha Mall": 1,
       "53-Al Basateen Mall": 0,
@@ -91282,8 +91075,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 83,
-      "Warehouse": 1839,
-      "warehouse riyadh": 2170
+      "Warehouse": 1835,
+      "warehouse riyadh": 2160
     }
   },
   {
@@ -91293,7 +91086,7 @@ const data = [
     "alias": "49920",
     "name": "COMFORTER KING BOW GIMINY BLUSH 5PCS",
     "price": 299,
-    "stock": 196,
+    "stock": 186,
     "sales": 97,
     "branches": {
       "00-GIFTS": 0,
@@ -91335,7 +91128,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 3,
       "44-Al-Jouf Center": 2,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 6,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 6,
@@ -91351,8 +91144,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 78,
-      "Warehouse": 196,
-      "warehouse riyadh": 318
+      "Warehouse": 186,
+      "warehouse riyadh": 308
     }
   },
   {
@@ -91421,7 +91214,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 5,
       "Warehouse": 86,
-      "warehouse riyadh": 94
+      "warehouse riyadh": 92
     }
   },
   {
@@ -91823,7 +91616,7 @@ const data = [
       "47-Al-Nakheel Plaza": 56,
       "48 - Jeddah Park": 17,
       "49-AlAhsa Mall": 33,
-      "50-Meem Plaza Riyadh": 45,
+      "50-Meem Plaza Riyadh": 57,
       "51-Park Avenue Riyadh": 42,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 4,
@@ -91835,7 +91628,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 43,
       "Warehouse": 926,
-      "warehouse riyadh": 1602
+      "warehouse riyadh": 1572
     }
   },
   {
@@ -91914,8 +91707,8 @@ const data = [
     "alias": "9312",
     "name": "PILLOW KING ADJUSTABLE",
     "price": 139,
-    "stock": 7540,
-    "sales": 340,
+    "stock": 7513,
+    "sales": 343,
     "branches": {
       "00-GIFTS": 22,
       "01-Jeddah INT Market": 6,
@@ -91972,8 +91765,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 58,
-      "Warehouse": 7540,
-      "warehouse riyadh": 852
+      "Warehouse": 7513,
+      "warehouse riyadh": 840
     }
   },
   {
@@ -91983,7 +91776,7 @@ const data = [
     "alias": "9575",
     "name": "PILLOW STANDARD FRESH LAVENDER MEMORY FOAM",
     "price": 99,
-    "stock": 400,
+    "stock": 370,
     "sales": 255,
     "branches": {
       "00-GIFTS": 11,
@@ -91998,7 +91791,7 @@ const data = [
       "11-Jouri Mall": 6,
       "12-Al_Hamra Mall": 13,
       "13-Al-Yasmin Mall": 9,
-      "14-Al Kamal Mall": 4,
+      "14-Al Kamal Mall": 14,
       "15-Riyadh Othaim Mall": 14,
       "16-Ehsa Othaim Mall": 24,
       "17-Arar Othaim Mall": 11,
@@ -92041,8 +91834,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 400,
-      "warehouse riyadh": 2086
+      "Warehouse": 370,
+      "warehouse riyadh": 2076
     }
   },
   {
@@ -92052,7 +91845,7 @@ const data = [
     "alias": "9576",
     "name": "PILLOW STANDARD FRESH LINEN MEMORY FOAM",
     "price": 99,
-    "stock": 138,
+    "stock": 126,
     "sales": 108,
     "branches": {
       "00-GIFTS": 4,
@@ -92067,7 +91860,7 @@ const data = [
       "11-Jouri Mall": 10,
       "12-Al_Hamra Mall": 11,
       "13-Al-Yasmin Mall": 5,
-      "14-Al Kamal Mall": 4,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 8,
       "16-Ehsa Othaim Mall": 20,
       "17-Arar Othaim Mall": 5,
@@ -92110,8 +91903,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 33,
-      "Warehouse": 138,
-      "warehouse riyadh": 740
+      "Warehouse": 126,
+      "warehouse riyadh": 736
     }
   },
   {
@@ -92121,7 +91914,7 @@ const data = [
     "alias": "959407",
     "name": "PILLOW KING COOLING MEMORY FIBER",
     "price": 94,
-    "stock": 2859,
+    "stock": 2847,
     "sales": 190,
     "branches": {
       "00-GIFTS": 2,
@@ -92168,7 +91961,7 @@ const data = [
       "47-Al-Nakheel Plaza": 25,
       "48 - Jeddah Park": 17,
       "49-AlAhsa Mall": 20,
-      "50-Meem Plaza Riyadh": 9,
+      "50-Meem Plaza Riyadh": 15,
       "51-Park Avenue Riyadh": 21,
       "52-Al_Baha Mall": 15,
       "53-Al Basateen Mall": 1,
@@ -92179,8 +91972,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 2859,
-      "warehouse riyadh": 2286
+      "Warehouse": 2847,
+      "warehouse riyadh": 2268
     }
   },
   {
@@ -92190,7 +91983,7 @@ const data = [
     "alias": "9192",
     "name": "PILLOW KING SUB-0 TRIPLE COOLING",
     "price": 159,
-    "stock": 1338,
+    "stock": 1330,
     "sales": 221,
     "branches": {
       "00-GIFTS": 5,
@@ -92237,7 +92030,7 @@ const data = [
       "47-Al-Nakheel Plaza": 17,
       "48 - Jeddah Park": 16,
       "49-AlAhsa Mall": 34,
-      "50-Meem Plaza Riyadh": 10,
+      "50-Meem Plaza Riyadh": 18,
       "51-Park Avenue Riyadh": 17,
       "52-Al_Baha Mall": 32,
       "53-Al Basateen Mall": 6,
@@ -92248,8 +92041,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 53,
-      "Warehouse": 1338,
-      "warehouse riyadh": 4072
+      "Warehouse": 1330,
+      "warehouse riyadh": 4048
     }
   },
   {
@@ -92259,7 +92052,7 @@ const data = [
     "alias": "9244",
     "name": "PILLOW KING FEATHER WHITE DOWN",
     "price": 395,
-    "stock": 1285,
+    "stock": 1281,
     "sales": 102,
     "branches": {
       "00-GIFTS": 0,
@@ -92274,7 +92067,7 @@ const data = [
       "11-Jouri Mall": 16,
       "12-Al_Hamra Mall": 16,
       "13-Al-Yasmin Mall": 18,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 5,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 19,
       "17-Arar Othaim Mall": 4,
@@ -92317,8 +92110,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 48,
-      "Warehouse": 1285,
-      "warehouse riyadh": 2556
+      "Warehouse": 1281,
+      "warehouse riyadh": 2544
     }
   },
   {
@@ -92397,7 +92190,7 @@ const data = [
     "alias": "959410",
     "name": "(SPECIAL OFFER) PILLOW STANDARD FIBER WITH EXTRA FILL",
     "price": 59,
-    "stock": 692,
+    "stock": 680,
     "sales": 98,
     "branches": {
       "00-GIFTS": 38,
@@ -92455,7 +92248,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 61,
-      "Warehouse": 692,
+      "Warehouse": 680,
       "warehouse riyadh": 4062
     }
   },
@@ -92466,13 +92259,13 @@ const data = [
     "alias": "959413",
     "name": "PILLOW KING THERMO PERFORMANCE COOL-0",
     "price": 249,
-    "stock": 20,
+    "stock": 11,
     "sales": 189,
     "branches": {
       "00-GIFTS": 5,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 12,
       "05-Haifa Mall": 19,
       "06-Red Sea Mall": 19,
       "07-Arab Mall": 8,
@@ -92524,8 +92317,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 20,
-      "warehouse riyadh": 1251
+      "Warehouse": 11,
+      "warehouse riyadh": 1239
     }
   },
   {
@@ -92535,13 +92328,13 @@ const data = [
     "alias": "959412",
     "name": "PILLOW SIDE SLEEPER TPE COVER",
     "price": 199,
-    "stock": 1897,
+    "stock": 1889,
     "sales": 311,
     "branches": {
       "00-GIFTS": 6,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 20,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 24,
       "06-Red Sea Mall": 47,
       "07-Arab Mall": 19,
@@ -92582,7 +92375,7 @@ const data = [
       "47-Al-Nakheel Plaza": 20,
       "48 - Jeddah Park": 27,
       "49-AlAhsa Mall": 21,
-      "50-Meem Plaza Riyadh": 12,
+      "50-Meem Plaza Riyadh": 20,
       "51-Park Avenue Riyadh": 13,
       "52-Al_Baha Mall": 18,
       "53-Al Basateen Mall": 12,
@@ -92593,8 +92386,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 41,
-      "Warehouse": 1897,
-      "warehouse riyadh": 3588
+      "Warehouse": 1889,
+      "warehouse riyadh": 3556
     }
   },
   {
@@ -92674,7 +92467,7 @@ const data = [
     "name": "PILLOW CUSHION SEAT NAVY 41.5*50*50",
     "price": 49,
     "stock": 1566,
-    "sales": 75,
+    "sales": 76,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -92682,7 +92475,7 @@ const data = [
       "04-Andalos Mall": 39,
       "05-Haifa Mall": 19,
       "06-Red Sea Mall": 13,
-      "07-Arab Mall": 7,
+      "07-Arab Mall": 6,
       "08-Makkah Mall": 0,
       "09-Al-Salam Mall": 6,
       "11-Jouri Mall": 8,
@@ -93156,13 +92949,13 @@ const data = [
     "alias": "91544",
     "name": "PILLOW STANDARD EXTRA FIRM",
     "price": 39,
-    "stock": 9466,
-    "sales": 3444,
+    "stock": 9181,
+    "sales": 3459,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 41,
+      "04-Andalos Mall": 71,
       "05-Haifa Mall": 30,
       "06-Red Sea Mall": 58,
       "07-Arab Mall": 80,
@@ -93171,8 +92964,8 @@ const data = [
       "11-Jouri Mall": 37,
       "12-Al_Hamra Mall": 112,
       "13-Al-Yasmin Mall": 3,
-      "14-Al Kamal Mall": 1,
-      "15-Riyadh Othaim Mall": 19,
+      "14-Al Kamal Mall": 31,
+      "15-Riyadh Othaim Mall": 10,
       "16-Ehsa Othaim Mall": 51,
       "17-Arar Othaim Mall": 20,
       "18-Al_Khayyat Center": 12,
@@ -93180,7 +92973,7 @@ const data = [
       "20-Sitten Street Makkah": 61,
       "21-Abha Al_Rashid Mall New": 66,
       "22-Tabuk Park": 88,
-      "23-Alia Mall Madinah": 113,
+      "23-Alia Mall Madinah": 112,
       "24-Yanbu Dana Mall": 37,
       "25-Rabwa Othaim Mall": 57,
       "26-Al-Noor Mall Madinah": 110,
@@ -93188,7 +92981,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 9,
       "29-Al Nakheel Mall Riyadh": 106,
       "30-Tala Mall Riyadh": 55,
-      "32-Atyaf Mall Riyadh": 20,
+      "32-Atyaf Mall Riyadh": 18,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 0,
       "38-Al_Riyadh Park": 21,
@@ -93198,12 +92991,12 @@ const data = [
       "42-Dareen Mall Dammam": 39,
       "43-Mujan Park": 60,
       "44-Al-Jouf Center": 18,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 66,
       "46-Khaleej Mall Riyadh": 72,
       "47-Al-Nakheel Plaza": 46,
       "48 - Jeddah Park": 54,
       "49-AlAhsa Mall": 68,
-      "50-Meem Plaza Riyadh": 35,
+      "50-Meem Plaza Riyadh": 47,
       "51-Park Avenue Riyadh": 39,
       "52-Al_Baha Mall": 29,
       "53-Al Basateen Mall": 7,
@@ -93214,8 +93007,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 9466,
-      "warehouse riyadh": 20564
+      "Warehouse": 9181,
+      "warehouse riyadh": 20270
     }
   },
   {
@@ -93225,13 +93018,13 @@ const data = [
     "alias": "91144",
     "name": "PILLOW KING EXTRA FIRM",
     "price": 69,
-    "stock": 7484,
+    "stock": 7364,
     "sales": 935,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 42,
+      "04-Andalos Mall": 54,
       "05-Haifa Mall": 18,
       "06-Red Sea Mall": 28,
       "07-Arab Mall": 68,
@@ -93267,12 +93060,12 @@ const data = [
       "42-Dareen Mall Dammam": 65,
       "43-Mujan Park": 61,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 21,
+      "45- Riyadh Gallery Mall": 27,
       "46-Khaleej Mall Riyadh": 58,
       "47-Al-Nakheel Plaza": 39,
       "48 - Jeddah Park": 19,
       "49-AlAhsa Mall": 46,
-      "50-Meem Plaza Riyadh": 35,
+      "50-Meem Plaza Riyadh": 47,
       "51-Park Avenue Riyadh": 25,
       "52-Al_Baha Mall": 33,
       "53-Al Basateen Mall": 10,
@@ -93283,8 +93076,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 7484,
-      "warehouse riyadh": 11334
+      "Warehouse": 7364,
+      "warehouse riyadh": 11226
     }
   },
   {
@@ -93294,7 +93087,7 @@ const data = [
     "alias": "95644",
     "name": "PILLOW STANDARD COMFORT DREAM",
     "price": 69,
-    "stock": 7279,
+    "stock": 7249,
     "sales": 618,
     "branches": {
       "00-GIFTS": 0,
@@ -93341,7 +93134,7 @@ const data = [
       "47-Al-Nakheel Plaza": 31,
       "48 - Jeddah Park": 26,
       "49-AlAhsa Mall": 48,
-      "50-Meem Plaza Riyadh": 13,
+      "50-Meem Plaza Riyadh": 31,
       "51-Park Avenue Riyadh": 33,
       "52-Al_Baha Mall": 51,
       "53-Al Basateen Mall": 11,
@@ -93352,8 +93145,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 7279,
-      "warehouse riyadh": 8562
+      "Warehouse": 7249,
+      "warehouse riyadh": 8538
     }
   },
   {
@@ -93363,13 +93156,13 @@ const data = [
     "alias": "95633",
     "name": "PILLOW KING COMFORT DREAM",
     "price": 99,
-    "stock": 6489,
+    "stock": 6465,
     "sales": 83,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 19,
+      "04-Andalos Mall": 31,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 25,
       "07-Arab Mall": 18,
@@ -93421,7 +93214,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 6489,
+      "Warehouse": 6465,
       "warehouse riyadh": 7794
     }
   },
@@ -93491,7 +93284,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 7,
-      "warehouse riyadh": 683
+      "warehouse riyadh": 668
     }
   },
   {
@@ -93698,7 +93491,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
       "Warehouse": 2884,
-      "warehouse riyadh": 4392
+      "warehouse riyadh": 4296
     }
   },
   {
@@ -93916,7 +93709,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH IVORY",
     "price": 69,
     "stock": 8626,
-    "sales": 94,
+    "sales": 95,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 12,
@@ -93935,7 +93728,7 @@ const data = [
       "16-Ehsa Othaim Mall": 10,
       "17-Arar Othaim Mall": 17,
       "18-Al_Khayyat Center": 15,
-      "19-Hail Othaim Mall": 13,
+      "19-Hail Othaim Mall": 12,
       "20-Sitten Street Makkah": 17,
       "21-Abha Al_Rashid Mall New": 10,
       "22-Tabuk Park": 7,
@@ -93974,7 +93767,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
       "Warehouse": 8626,
-      "warehouse riyadh": 5244
+      "warehouse riyadh": 5232
     }
   },
   {
@@ -94043,7 +93836,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 38,
       "Warehouse": 7533,
-      "warehouse riyadh": 5817
+      "warehouse riyadh": 5805
     }
   },
   {
@@ -94053,7 +93846,7 @@ const data = [
     "alias": "710603",
     "name": "BATH SHEET AIR-RICH LINEN",
     "price": 69,
-    "stock": 2775,
+    "stock": 2757,
     "sales": 111,
     "branches": {
       "00-GIFTS": 0,
@@ -94111,7 +93904,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 44,
-      "Warehouse": 2775,
+      "Warehouse": 2757,
       "warehouse riyadh": 3456
     }
   },
@@ -94399,7 +94192,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH IVORY",
     "price": 25,
     "stock": 7982,
-    "sales": 193,
+    "sales": 194,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 21,
@@ -94418,7 +94211,7 @@ const data = [
       "16-Ehsa Othaim Mall": 5,
       "17-Arar Othaim Mall": 14,
       "18-Al_Khayyat Center": 16,
-      "19-Hail Othaim Mall": 8,
+      "19-Hail Othaim Mall": 7,
       "20-Sitten Street Makkah": 6,
       "21-Abha Al_Rashid Mall New": 14,
       "22-Tabuk Park": 14,
@@ -94457,7 +94250,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
       "Warehouse": 7982,
-      "warehouse riyadh": 2628
+      "warehouse riyadh": 2604
     }
   },
   {
@@ -94467,7 +94260,7 @@ const data = [
     "alias": "710702",
     "name": "TOWEL EUR AIR-RICH WHITE",
     "price": 25,
-    "stock": 8090,
+    "stock": 8078,
     "sales": 179,
     "branches": {
       "00-GIFTS": 4,
@@ -94509,7 +94302,7 @@ const data = [
       "42-Dareen Mall Dammam": 27,
       "43-Mujan Park": 8,
       "44-Al-Jouf Center": 9,
-      "45- Riyadh Gallery Mall": 5,
+      "45- Riyadh Gallery Mall": 17,
       "46-Khaleej Mall Riyadh": 18,
       "47-Al-Nakheel Plaza": 13,
       "48 - Jeddah Park": 20,
@@ -94525,8 +94318,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 8090,
-      "warehouse riyadh": 2844
+      "Warehouse": 8078,
+      "warehouse riyadh": 2808
     }
   },
   {
@@ -94536,7 +94329,7 @@ const data = [
     "alias": "710703",
     "name": "TOWEL EUR AIR-RICH LINEN",
     "price": 25,
-    "stock": 4252,
+    "stock": 4228,
     "sales": 145,
     "branches": {
       "00-GIFTS": 0,
@@ -94551,7 +94344,7 @@ const data = [
       "11-Jouri Mall": 15,
       "12-Al_Hamra Mall": 16,
       "13-Al-Yasmin Mall": 7,
-      "14-Al Kamal Mall": 5,
+      "14-Al Kamal Mall": 17,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 11,
       "17-Arar Othaim Mall": 12,
@@ -94594,8 +94387,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 4252,
-      "warehouse riyadh": 4248
+      "Warehouse": 4228,
+      "warehouse riyadh": 4212
     }
   },
   {
@@ -94605,13 +94398,13 @@ const data = [
     "alias": "710709",
     "name": "TOWEL EUR AIR-RICH PINK",
     "price": 25,
-    "stock": 2131,
+    "stock": 2107,
     "sales": 248,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 11,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 21,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 30,
       "07-Arab Mall": 16,
@@ -94663,8 +94456,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 2131,
-      "warehouse riyadh": 2808
+      "Warehouse": 2107,
+      "warehouse riyadh": 2784
     }
   },
   {
@@ -94743,7 +94536,7 @@ const data = [
     "alias": "710712",
     "name": "TOWEL EUR  AIR-RICH TITANIUM",
     "price": 25,
-    "stock": 656,
+    "stock": 644,
     "sales": 77,
     "branches": {
       "00-GIFTS": 0,
@@ -94801,8 +94594,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 656,
-      "warehouse riyadh": 204
+      "Warehouse": 644,
+      "warehouse riyadh": 192
     }
   },
   {
@@ -95226,7 +95019,7 @@ const data = [
     "alias": "714401",
     "name": "BATH TOWEL AIR-RICH IVORY 70X140",
     "price": 49,
-    "stock": 2865,
+    "stock": 2859,
     "sales": 145,
     "branches": {
       "00-GIFTS": 0,
@@ -95284,8 +95077,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 2865,
-      "warehouse riyadh": 4812
+      "Warehouse": 2859,
+      "warehouse riyadh": 4800
     }
   },
   {
@@ -95295,7 +95088,7 @@ const data = [
     "alias": "714403",
     "name": "BATH TOWEL AIR-RICH LINEN 70X140",
     "price": 49,
-    "stock": 1795,
+    "stock": 1783,
     "sales": 138,
     "branches": {
       "00-GIFTS": 0,
@@ -95353,8 +95146,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 1795,
-      "warehouse riyadh": 3348
+      "Warehouse": 1783,
+      "warehouse riyadh": 3324
     }
   },
   {
@@ -95433,7 +95226,7 @@ const data = [
     "alias": "714421",
     "name": "BATH TOWEL AIR-RICH OYSTER MUSHROOM 70X140",
     "price": 49,
-    "stock": 914,
+    "stock": 896,
     "sales": 159,
     "branches": {
       "00-GIFTS": 2,
@@ -95491,7 +95284,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 914,
+      "Warehouse": 896,
       "warehouse riyadh": 4932
     }
   },
@@ -95502,7 +95295,7 @@ const data = [
     "alias": "714409",
     "name": "BATH TOWEL AIR-RICH PINK 70X140",
     "price": 49,
-    "stock": 2560,
+    "stock": 2554,
     "sales": 156,
     "branches": {
       "00-GIFTS": 3,
@@ -95560,8 +95353,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 2560,
-      "warehouse riyadh": 1421
+      "Warehouse": 2554,
+      "warehouse riyadh": 1397
     }
   },
   {
@@ -95630,7 +95423,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
       "Warehouse": 6931,
-      "warehouse riyadh": 3051
+      "warehouse riyadh": 3039
     }
   },
   {
@@ -95640,7 +95433,7 @@ const data = [
     "alias": "710724",
     "name": "TOWEL EUR AIR-RICH NAVY",
     "price": 25,
-    "stock": 1637,
+    "stock": 1625,
     "sales": 86,
     "branches": {
       "00-GIFTS": 0,
@@ -95698,8 +95491,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1637,
-      "warehouse riyadh": 1404
+      "Warehouse": 1625,
+      "warehouse riyadh": 1380
     }
   },
   {
@@ -95709,7 +95502,7 @@ const data = [
     "alias": "710624",
     "name": "BATH SHEET AIR-RICH NAVY",
     "price": 69,
-    "stock": 477,
+    "stock": 471,
     "sales": 79,
     "branches": {
       "00-GIFTS": 1,
@@ -95767,8 +95560,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 477,
-      "warehouse riyadh": 780
+      "Warehouse": 471,
+      "warehouse riyadh": 768
     }
   },
   {
@@ -95916,7 +95709,7 @@ const data = [
     "alias": "7148",
     "name": "KITCHEN TOWEL ENVOGUE PRINTED 15X25 INCH",
     "price": 14,
-    "stock": 6504,
+    "stock": 6474,
     "sales": 349,
     "branches": {
       "00-GIFTS": 1,
@@ -95974,8 +95767,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 6504,
-      "warehouse riyadh": 570
+      "Warehouse": 6474,
+      "warehouse riyadh": 510
     }
   },
   {
@@ -96924,7 +96717,7 @@ const data = [
       "42-Dareen Mall Dammam": 14,
       "43-Mujan Park": 11,
       "44-Al-Jouf Center": 9,
-      "45- Riyadh Gallery Mall": 12,
+      "45- Riyadh Gallery Mall": 24,
       "46-Khaleej Mall Riyadh": 28,
       "47-Al-Nakheel Plaza": 12,
       "48 - Jeddah Park": 43,
@@ -96941,7 +96734,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
       "Warehouse": 2753,
-      "warehouse riyadh": 120
+      "warehouse riyadh": 84
     }
   },
   {
@@ -97200,7 +96993,7 @@ const data = [
       "42-Dareen Mall Dammam": 13,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 19,
+      "45- Riyadh Gallery Mall": 31,
       "46-Khaleej Mall Riyadh": 20,
       "47-Al-Nakheel Plaza": 19,
       "48 - Jeddah Park": 0,
@@ -97217,7 +97010,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 12,
-      "warehouse riyadh": 600
+      "warehouse riyadh": 564
     }
   },
   {
@@ -97562,7 +97355,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 36,
-      "warehouse riyadh": 1752
+      "warehouse riyadh": 1728
     }
   },
   {
@@ -98045,7 +97838,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 15,
-      "warehouse riyadh": 1060
+      "warehouse riyadh": 1020
     }
   },
   {
@@ -98114,7 +97907,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 60,
-      "warehouse riyadh": 848
+      "warehouse riyadh": 816
     }
   },
   {
@@ -98183,7 +97976,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 28,
-      "warehouse riyadh": 848
+      "warehouse riyadh": 816
     }
   },
   {
@@ -98252,7 +98045,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 36,
-      "warehouse riyadh": 636
+      "warehouse riyadh": 612
     }
   },
   {
@@ -98321,7 +98114,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 45,
-      "warehouse riyadh": 636
+      "warehouse riyadh": 612
     }
   },
   {
@@ -98332,7 +98125,7 @@ const data = [
     "name": "BTP-862 KITCHEN TOWEL DUSTY PINK 50*90",
     "price": 9,
     "stock": 43,
-    "sales": 75,
+    "sales": 77,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -98363,7 +98156,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 9,
       "29-Al Nakheel Mall Riyadh": 20,
       "30-Tala Mall Riyadh": 13,
-      "32-Atyaf Mall Riyadh": 2,
+      "32-Atyaf Mall Riyadh": 0,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 10,
       "38-Al_Riyadh Park": 1,
@@ -98390,7 +98183,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 43,
-      "warehouse riyadh": 1060
+      "warehouse riyadh": 1020
     }
   },
   {
@@ -98401,7 +98194,7 @@ const data = [
     "name": "BTP-862 KITCHEN TOWEL VOILET 50*90",
     "price": 9,
     "stock": 20,
-    "sales": 75,
+    "sales": 76,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -98432,7 +98225,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 0,
       "29-Al Nakheel Mall Riyadh": 17,
       "30-Tala Mall Riyadh": 14,
-      "32-Atyaf Mall Riyadh": 8,
+      "32-Atyaf Mall Riyadh": 7,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 4,
       "38-Al_Riyadh Park": 0,
@@ -98459,7 +98252,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 20,
-      "warehouse riyadh": 848
+      "warehouse riyadh": 816
     }
   },
   {
@@ -98470,7 +98263,7 @@ const data = [
     "name": "BTP-862 KITCHEN TOWEL TAUPE 50*90",
     "price": 9,
     "stock": 21,
-    "sales": 74,
+    "sales": 75,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -98501,7 +98294,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 2,
       "29-Al Nakheel Mall Riyadh": 16,
       "30-Tala Mall Riyadh": 8,
-      "32-Atyaf Mall Riyadh": 7,
+      "32-Atyaf Mall Riyadh": 6,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 4,
       "38-Al_Riyadh Park": 2,
@@ -98528,7 +98321,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 21,
-      "warehouse riyadh": 848
+      "warehouse riyadh": 816
     }
   },
   {
@@ -98597,7 +98390,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 100,
-      "warehouse riyadh": 1060
+      "warehouse riyadh": 1020
     }
   },
   {
@@ -98666,7 +98459,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 5,
-      "warehouse riyadh": 636
+      "warehouse riyadh": 612
     }
   },
   {
@@ -98735,7 +98528,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 128,
-      "warehouse riyadh": 1792
+      "warehouse riyadh": 1744
     }
   },
   {
@@ -98804,7 +98597,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 39,
-      "warehouse riyadh": 672
+      "warehouse riyadh": 654
     }
   },
   {
@@ -98873,7 +98666,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 36,
-      "warehouse riyadh": 672
+      "warehouse riyadh": 654
     }
   },
   {
@@ -98942,7 +98735,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 23,
-      "warehouse riyadh": 896
+      "warehouse riyadh": 872
     }
   },
   {
@@ -99011,7 +98804,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 215,
-      "warehouse riyadh": 1792
+      "warehouse riyadh": 1712
     }
   },
   {
@@ -99080,7 +98873,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 35,
-      "warehouse riyadh": 896
+      "warehouse riyadh": 856
     }
   },
   {
@@ -99149,7 +98942,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 68,
-      "warehouse riyadh": 675
+      "warehouse riyadh": 651
     }
   },
   {
@@ -99218,7 +99011,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 37,
-      "warehouse riyadh": 675
+      "warehouse riyadh": 651
     }
   },
   {
@@ -99287,7 +99080,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 51,
-      "warehouse riyadh": 672
+      "warehouse riyadh": 648
     }
   },
   {
@@ -99356,7 +99149,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 9,
-      "warehouse riyadh": 672
+      "warehouse riyadh": 648
     }
   },
   {
@@ -99425,7 +99218,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 40,
-      "warehouse riyadh": 1130
+      "warehouse riyadh": 1070
     }
   },
   {
@@ -99494,7 +99287,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 24,
-      "warehouse riyadh": 678
+      "warehouse riyadh": 642
     }
   },
   {
@@ -99563,7 +99356,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 24,
-      "warehouse riyadh": 678
+      "warehouse riyadh": 642
     }
   },
   {
@@ -99632,7 +99425,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 32,
-      "warehouse riyadh": 904
+      "warehouse riyadh": 856
     }
   },
   {
@@ -99701,7 +99494,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 40,
-      "warehouse riyadh": 1130
+      "warehouse riyadh": 1070
     }
   },
   {
@@ -99770,7 +99563,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 32,
-      "warehouse riyadh": 906
+      "warehouse riyadh": 858
     }
   },
   {
@@ -99849,7 +99642,7 @@ const data = [
     "alias": "710634",
     "name": "BATH SHEET AIR-RICH 86X172 CM RICH BLACK",
     "price": 69,
-    "stock": 158,
+    "stock": 152,
     "sales": 58,
     "branches": {
       "00-GIFTS": 0,
@@ -99907,8 +99700,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 158,
-      "warehouse riyadh": 396
+      "Warehouse": 152,
+      "warehouse riyadh": 384
     }
   },
   {
@@ -99977,7 +99770,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 24,
-      "warehouse riyadh": 348
+      "warehouse riyadh": 336
     }
   },
   {
@@ -100046,7 +99839,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 6,
-      "warehouse riyadh": 396
+      "warehouse riyadh": 384
     }
   },
   {
@@ -100056,7 +99849,7 @@ const data = [
     "alias": "710733",
     "name": "TOWEL EUR AIR-RICH 50X100 CM ROSE PINK",
     "price": 25,
-    "stock": 177,
+    "stock": 165,
     "sales": 93,
     "branches": {
       "00-GIFTS": 0,
@@ -100114,7 +99907,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 177,
+      "Warehouse": 165,
       "warehouse riyadh": 324
     }
   },
@@ -100184,7 +99977,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 285,
-      "warehouse riyadh": 528
+      "warehouse riyadh": 516
     }
   },
   {
@@ -100253,7 +100046,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 73,
-      "warehouse riyadh": 288
+      "warehouse riyadh": 276
     }
   },
   {
@@ -100263,7 +100056,7 @@ const data = [
     "alias": "71133301",
     "name": "KITCHEN TOWEL 50*90 IVORY BTP-660",
     "price": 9,
-    "stock": 1370,
+    "stock": 1320,
     "sales": 21,
     "branches": {
       "00-GIFTS": 0,
@@ -100278,7 +100071,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 44,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -100321,7 +100114,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -100332,7 +100125,7 @@ const data = [
     "alias": "71133302",
     "name": "KITCHEN TOWEL 50*90 SAGE BTP-660",
     "price": 9,
-    "stock": 1370,
+    "stock": 1320,
     "sales": 27,
     "branches": {
       "00-GIFTS": 0,
@@ -100347,7 +100140,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 38,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -100390,7 +100183,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -100401,7 +100194,7 @@ const data = [
     "alias": "71133303",
     "name": "KITCHEN TOWEL 50*90 GREY BTP-660",
     "price": 9,
-    "stock": 1370,
+    "stock": 1320,
     "sales": 16,
     "branches": {
       "00-GIFTS": 0,
@@ -100416,7 +100209,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 47,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -100459,7 +100252,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -100470,7 +100263,7 @@ const data = [
     "alias": "71133304",
     "name": "KITCHEN TOWEL 50*90 GREEN BTP-660",
     "price": 9,
-    "stock": 822,
+    "stock": 792,
     "sales": 15,
     "branches": {
       "00-GIFTS": 0,
@@ -100485,7 +100278,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 27,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 12,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -100528,7 +100321,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 822,
+      "Warehouse": 792,
       "warehouse riyadh": 1116
     }
   },
@@ -100539,7 +100332,7 @@ const data = [
     "alias": "71133305",
     "name": "KITCHEN TOWEL 50*90 MUSTARD BTP-660",
     "price": 9,
-    "stock": 822,
+    "stock": 792,
     "sales": 11,
     "branches": {
       "00-GIFTS": 0,
@@ -100554,7 +100347,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 26,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 12,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -100597,7 +100390,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 822,
+      "Warehouse": 792,
       "warehouse riyadh": 1116
     }
   },
@@ -100608,7 +100401,7 @@ const data = [
     "alias": "71133306",
     "name": "KITCHEN TOWEL 50*90 CHARCOAL BTP-660",
     "price": 9,
-    "stock": 822,
+    "stock": 792,
     "sales": 22,
     "branches": {
       "00-GIFTS": 0,
@@ -100623,7 +100416,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 30,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 12,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -100666,7 +100459,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 822,
+      "Warehouse": 792,
       "warehouse riyadh": 1116
     }
   },
@@ -100677,7 +100470,7 @@ const data = [
     "alias": "71133401",
     "name": "KITCHEN TOWEL 50*90 WHITE BTP-668",
     "price": 9,
-    "stock": 1096,
+    "stock": 1056,
     "sales": 23,
     "branches": {
       "00-GIFTS": 0,
@@ -100692,7 +100485,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 37,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -100735,7 +100528,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -100746,7 +100539,7 @@ const data = [
     "alias": "71133402",
     "name": "KITCHEN TOWEL 50*90 SKY BTP-668",
     "price": 9,
-    "stock": 1096,
+    "stock": 1056,
     "sales": 17,
     "branches": {
       "00-GIFTS": 0,
@@ -100761,7 +100554,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 35,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -100804,7 +100597,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -100815,7 +100608,7 @@ const data = [
     "alias": "71133403",
     "name": "KITCHEN TOWEL 50*90 BLUSH PINK BTP-668",
     "price": 9,
-    "stock": 1370,
+    "stock": 1320,
     "sales": 14,
     "branches": {
       "00-GIFTS": 0,
@@ -100830,7 +100623,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 44,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -100873,7 +100666,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -100884,7 +100677,7 @@ const data = [
     "alias": "71133404",
     "name": "KITCHEN TOWEL 50*90 SHADOW GREY BTP-668",
     "price": 9,
-    "stock": 1370,
+    "stock": 1320,
     "sales": 17,
     "branches": {
       "00-GIFTS": 0,
@@ -100899,7 +100692,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 47,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -100942,7 +100735,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -100953,7 +100746,7 @@ const data = [
     "alias": "71133405",
     "name": "KITCHEN TOWEL 50*90 TEAL BTP-668",
     "price": 9,
-    "stock": 822,
+    "stock": 792,
     "sales": 4,
     "branches": {
       "00-GIFTS": 0,
@@ -100968,7 +100761,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 30,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 12,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101011,7 +100804,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 822,
+      "Warehouse": 792,
       "warehouse riyadh": 1116
     }
   },
@@ -101022,7 +100815,7 @@ const data = [
     "alias": "71133406",
     "name": "KITCHEN TOWEL 50*90 BLACK BTP-668",
     "price": 9,
-    "stock": 822,
+    "stock": 792,
     "sales": 32,
     "branches": {
       "00-GIFTS": 0,
@@ -101037,7 +100830,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 21,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 12,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101080,7 +100873,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 822,
+      "Warehouse": 792,
       "warehouse riyadh": 1116
     }
   },
@@ -101091,7 +100884,7 @@ const data = [
     "alias": "71133501",
     "name": "KITCHEN TOWEL 50*90 PINK BTP-861",
     "price": 9,
-    "stock": 1088,
+    "stock": 1048,
     "sales": 27,
     "branches": {
       "00-GIFTS": 0,
@@ -101106,7 +100899,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 32,
-      "14-Al Kamal Mall": 6,
+      "14-Al Kamal Mall": 22,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101149,7 +100942,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1088,
+      "Warehouse": 1048,
       "warehouse riyadh": 1488
     }
   },
@@ -101160,7 +100953,7 @@ const data = [
     "alias": "71133502",
     "name": "KITCHEN TOWEL 50*90 AQUA BTP-861",
     "price": 9,
-    "stock": 1088,
+    "stock": 1048,
     "sales": 32,
     "branches": {
       "00-GIFTS": 0,
@@ -101175,7 +100968,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 31,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 18,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101218,7 +101011,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1088,
+      "Warehouse": 1048,
       "warehouse riyadh": 1488
     }
   },
@@ -101229,7 +101022,7 @@ const data = [
     "alias": "71133503",
     "name": "KITCHEN TOWEL 50*90 DK.PEACH BTP-861",
     "price": 9,
-    "stock": 1088,
+    "stock": 1048,
     "sales": 24,
     "branches": {
       "00-GIFTS": 0,
@@ -101244,7 +101037,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 34,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 18,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101287,7 +101080,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1088,
+      "Warehouse": 1048,
       "warehouse riyadh": 1488
     }
   },
@@ -101298,7 +101091,7 @@ const data = [
     "alias": "71133504",
     "name": "KITCHEN TOWEL 50*90 DENIM BTP-861",
     "price": 9,
-    "stock": 1088,
+    "stock": 1048,
     "sales": 20,
     "branches": {
       "00-GIFTS": 0,
@@ -101313,7 +101106,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 37,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 18,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101356,7 +101149,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1088,
+      "Warehouse": 1048,
       "warehouse riyadh": 1488
     }
   },
@@ -101367,7 +101160,7 @@ const data = [
     "alias": "71133505",
     "name": "KITCHEN TOWEL 50*90 LT.GREY BTP-861",
     "price": 9,
-    "stock": 1360,
+    "stock": 1310,
     "sales": 32,
     "branches": {
       "00-GIFTS": 0,
@@ -101382,7 +101175,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 43,
-      "14-Al Kamal Mall": 4,
+      "14-Al Kamal Mall": 24,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101425,7 +101218,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1360,
+      "Warehouse": 1310,
       "warehouse riyadh": 1860
     }
   },
@@ -101436,7 +101229,7 @@ const data = [
     "alias": "71133506",
     "name": "KITCHEN TOWEL 50*90 COBALT BTP-861",
     "price": 9,
-    "stock": 816,
+    "stock": 786,
     "sales": 8,
     "branches": {
       "00-GIFTS": 0,
@@ -101451,7 +101244,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 28,
-      "14-Al Kamal Mall": 3,
+      "14-Al Kamal Mall": 15,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101494,7 +101287,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 816,
+      "Warehouse": 786,
       "warehouse riyadh": 1116
     }
   },
@@ -101505,7 +101298,7 @@ const data = [
     "alias": "71133601",
     "name": "KITCHEN TOWEL 50*90 GOLD BTP-867",
     "price": 9,
-    "stock": 1096,
+    "stock": 1056,
     "sales": 11,
     "branches": {
       "00-GIFTS": 0,
@@ -101520,7 +101313,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 39,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101563,7 +101356,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -101574,7 +101367,7 @@ const data = [
     "alias": "71133602",
     "name": "KITCHEN TOWEL 50*90 MAGENTA BTP-867",
     "price": 9,
-    "stock": 1096,
+    "stock": 1056,
     "sales": 15,
     "branches": {
       "00-GIFTS": 0,
@@ -101589,7 +101382,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 28,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101632,7 +101425,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -101643,7 +101436,7 @@ const data = [
     "alias": "71133603",
     "name": "KITCHEN TOWEL 50*90 BRIGHT PINK BTP-867",
     "price": 9,
-    "stock": 1096,
+    "stock": 1056,
     "sales": 24,
     "branches": {
       "00-GIFTS": 0,
@@ -101658,7 +101451,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 31,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101701,7 +101494,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -101712,7 +101505,7 @@ const data = [
     "alias": "71133604",
     "name": "KITCHEN TOWEL 50*90 DK.MAGENTA BTP-867",
     "price": 9,
-    "stock": 1096,
+    "stock": 1056,
     "sales": 21,
     "branches": {
       "00-GIFTS": 0,
@@ -101727,7 +101520,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 31,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101770,7 +101563,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -101781,7 +101574,7 @@ const data = [
     "alias": "71133605",
     "name": "KITCHEN TOWEL 50*90 BRIGHT AQUA BTP-867",
     "price": 9,
-    "stock": 1096,
+    "stock": 1056,
     "sales": 21,
     "branches": {
       "00-GIFTS": 0,
@@ -101796,7 +101589,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 36,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101839,7 +101632,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -101850,7 +101643,7 @@ const data = [
     "alias": "71133606",
     "name": "KITCHEN TOWEL 50*90 ROYAL BLUE BTP-867",
     "price": 9,
-    "stock": 1096,
+    "stock": 1056,
     "sales": 22,
     "branches": {
       "00-GIFTS": 0,
@@ -101865,7 +101658,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 31,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101908,7 +101701,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -101919,7 +101712,7 @@ const data = [
     "alias": "71133701",
     "name": "KITCHEN TOWEL 50*90 PINTEREST ROSE",
     "price": 9,
-    "stock": 2466,
+    "stock": 2376,
     "sales": 77,
     "branches": {
       "00-GIFTS": 0,
@@ -101934,7 +101727,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 68,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 36,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -101977,7 +101770,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2466,
+      "Warehouse": 2376,
       "warehouse riyadh": 3348
     }
   },
@@ -101988,7 +101781,7 @@ const data = [
     "alias": "71133702",
     "name": "KITCHEN TOWEL 50*90 PINTEREST YELLOW",
     "price": 9,
-    "stock": 1370,
+    "stock": 1320,
     "sales": 46,
     "branches": {
       "00-GIFTS": 0,
@@ -102003,7 +101796,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 40,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -102046,7 +101839,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -102057,7 +101850,7 @@ const data = [
     "alias": "71133703",
     "name": "KITCHEN TOWEL 50*90 PINTEREST LT.BLUE",
     "price": 9,
-    "stock": 1370,
+    "stock": 1320,
     "sales": 45,
     "branches": {
       "00-GIFTS": 0,
@@ -102072,7 +101865,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 42,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -102115,7 +101908,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -102126,7 +101919,7 @@ const data = [
     "alias": "71133704",
     "name": "KITCHEN TOWEL 50*90 PINTEREST DUSTY AQUA",
     "price": 9,
-    "stock": 1370,
+    "stock": 1320,
     "sales": 37,
     "branches": {
       "00-GIFTS": 0,
@@ -102141,7 +101934,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 46,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -102184,7 +101977,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -104487,7 +104280,7 @@ const data = [
       "11-Jouri Mall": 6,
       "12-Al_Hamra Mall": 15,
       "13-Al-Yasmin Mall": 2,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 12,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 14,
       "17-Arar Othaim Mall": 0,
@@ -104530,7 +104323,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1022,
+      "Warehouse": 1010,
       "warehouse riyadh": 1200
     }
   },
@@ -104599,7 +104392,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 73,
+      "Warehouse": 61,
       "warehouse riyadh": 804
     }
   },
@@ -105289,7 +105082,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 1,
-      "Warehouse": 149,
+      "Warehouse": 137,
       "warehouse riyadh": 444
     }
   },
@@ -105300,7 +105093,7 @@ const data = [
     "alias": "90301",
     "name": "(SPECIAL OFFER) DINO KIDS PONCHO BATH ROBE",
     "price": 49,
-    "stock": 564,
+    "stock": 552,
     "sales": 25,
     "branches": {
       "00-GIFTS": 0,
@@ -105359,7 +105152,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 7,
-      "warehouse riyadh": 564
+      "warehouse riyadh": 552
     }
   },
   {
@@ -105369,7 +105162,7 @@ const data = [
     "alias": "90302",
     "name": "(SPECIAL OFFER) KOALA KIDS PONCHO BATH ROBE",
     "price": 49,
-    "stock": 36,
+    "stock": 24,
     "sales": 36,
     "branches": {
       "00-GIFTS": 0,
@@ -105428,7 +105221,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 6,
-      "warehouse riyadh": 36
+      "warehouse riyadh": 24
     }
   },
   {
@@ -105438,7 +105231,7 @@ const data = [
     "alias": "90304",
     "name": "(SPECIAL OFFER) ALLIGATOR KIDS PONCHO BATH ROBE",
     "price": 49,
-    "stock": 288,
+    "stock": 276,
     "sales": 27,
     "branches": {
       "00-GIFTS": 0,
@@ -105497,7 +105290,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 4,
-      "warehouse riyadh": 288
+      "warehouse riyadh": 276
     }
   },
   {
@@ -105576,7 +105369,7 @@ const data = [
     "alias": "90309",
     "name": "(SPECIAL OFFER) CHEETAH KIDS PONCHO BATH ROBE",
     "price": 49,
-    "stock": 96,
+    "stock": 84,
     "sales": 26,
     "branches": {
       "00-GIFTS": 0,
@@ -105635,7 +105428,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 96
+      "warehouse riyadh": 84
     }
   },
   {
@@ -105921,7 +105714,7 @@ const data = [
     "alias": "900778",
     "name": "CUTE OWL D.PINK KIDS HOODED TOWEL BATH ROBE",
     "price": 69,
-    "stock": 336,
+    "stock": 324,
     "sales": 55,
     "branches": {
       "00-GIFTS": 1,
@@ -105979,8 +105772,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 77,
-      "warehouse riyadh": 336
+      "Warehouse": 72,
+      "warehouse riyadh": 324
     }
   },
   {
@@ -106255,7 +106048,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1290,
+      "Warehouse": 1278,
       "warehouse riyadh": 1333
     }
   },
@@ -106335,7 +106128,7 @@ const data = [
     "alias": "900784",
     "name": "BATH ROBE KIDS HOODED TOWEL SHARK GREY",
     "price": 69,
-    "stock": 614,
+    "stock": 602,
     "sales": 128,
     "branches": {
       "00-GIFTS": 1,
@@ -106393,8 +106186,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 234,
-      "warehouse riyadh": 614
+      "Warehouse": 222,
+      "warehouse riyadh": 602
     }
   },
   {
@@ -106681,7 +106474,7 @@ const data = [
     "name": "HOOD PONCHO KIDS PENGUIN",
     "price": 32,
     "stock": 1230,
-    "sales": 64,
+    "sales": 65,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -106704,7 +106497,7 @@ const data = [
       "20-Sitten Street Makkah": 4,
       "21-Abha Al_Rashid Mall New": 12,
       "22-Tabuk Park": 3,
-      "23-Alia Mall Madinah": 8,
+      "23-Alia Mall Madinah": 7,
       "24-Yanbu Dana Mall": 11,
       "25-Rabwa Othaim Mall": 3,
       "26-Al-Noor Mall Madinah": 14,
@@ -106750,7 +106543,7 @@ const data = [
     "name": "HOOD PONCHO KIDS MERMAID",
     "price": 32,
     "stock": 1265,
-    "sales": 34,
+    "sales": 35,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -106773,7 +106566,7 @@ const data = [
       "20-Sitten Street Makkah": 4,
       "21-Abha Al_Rashid Mall New": 12,
       "22-Tabuk Park": 2,
-      "23-Alia Mall Madinah": 7,
+      "23-Alia Mall Madinah": 6,
       "24-Yanbu Dana Mall": 11,
       "25-Rabwa Othaim Mall": 0,
       "26-Al-Noor Mall Madinah": 8,
@@ -106957,7 +106750,7 @@ const data = [
     "name": "HOOD PONCHO KIDS LADYBUG",
     "price": 32,
     "stock": 1378,
-    "sales": 20,
+    "sales": 21,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -106980,7 +106773,7 @@ const data = [
       "20-Sitten Street Makkah": 5,
       "21-Abha Al_Rashid Mall New": 13,
       "22-Tabuk Park": 6,
-      "23-Alia Mall Madinah": 9,
+      "23-Alia Mall Madinah": 8,
       "24-Yanbu Dana Mall": 2,
       "25-Rabwa Othaim Mall": 5,
       "26-Al-Noor Mall Madinah": 10,
@@ -107040,7 +106833,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 7,
       "13-Al-Yasmin Mall": 5,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 4,
       "15-Riyadh Othaim Mall": 1,
       "16-Ehsa Othaim Mall": 15,
       "17-Arar Othaim Mall": 1,
@@ -107083,7 +106876,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 321,
+      "Warehouse": 318,
       "warehouse riyadh": 397
     }
   },
@@ -107247,7 +107040,7 @@ const data = [
       "11-Jouri Mall": 1,
       "12-Al_Hamra Mall": 8,
       "13-Al-Yasmin Mall": 5,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 4,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 5,
       "17-Arar Othaim Mall": 3,
@@ -107290,7 +107083,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 321,
+      "Warehouse": 318,
       "warehouse riyadh": 401
     }
   },
@@ -107454,7 +107247,7 @@ const data = [
       "11-Jouri Mall": 1,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 7,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 3,
       "15-Riyadh Othaim Mall": 1,
       "16-Ehsa Othaim Mall": 7,
       "17-Arar Othaim Mall": 3,
@@ -107497,7 +107290,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 324,
+      "Warehouse": 321,
       "warehouse riyadh": 381
     }
   },
@@ -107661,7 +107454,7 @@ const data = [
       "11-Jouri Mall": 5,
       "12-Al_Hamra Mall": 13,
       "13-Al-Yasmin Mall": 9,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 4,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 5,
       "17-Arar Othaim Mall": 1,
@@ -107704,7 +107497,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 318,
+      "Warehouse": 315,
       "warehouse riyadh": 401
     }
   },
@@ -107980,7 +107773,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 591,
+      "Warehouse": 588,
       "warehouse riyadh": 708
     }
   },
@@ -108187,7 +107980,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 591,
+      "Warehouse": 588,
       "warehouse riyadh": 678
     }
   },
@@ -108394,7 +108187,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 591,
+      "Warehouse": 588,
       "warehouse riyadh": 680
     }
   },
@@ -108601,7 +108394,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 589,
+      "Warehouse": 586,
       "warehouse riyadh": 648
     }
   },
@@ -110337,7 +110130,7 @@ const data = [
     "alias": "916801",
     "name": "BATH ROBE IVORY S/M",
     "price": 99,
-    "stock": 1308,
+    "stock": 1290,
     "sales": 90,
     "branches": {
       "00-GIFTS": 0,
@@ -110395,8 +110188,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 44,
-      "Warehouse": 434,
-      "warehouse riyadh": 1308
+      "Warehouse": 428,
+      "warehouse riyadh": 1290
     }
   },
   {
@@ -110406,7 +110199,7 @@ const data = [
     "alias": "916802",
     "name": "BATH ROBE WHITE S/M",
     "price": 99,
-    "stock": 516,
+    "stock": 510,
     "sales": 98,
     "branches": {
       "00-GIFTS": 5,
@@ -110465,7 +110258,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 100,
       "Warehouse": 500,
-      "warehouse riyadh": 516
+      "warehouse riyadh": 510
     }
   },
   {
@@ -110475,7 +110268,7 @@ const data = [
     "alias": "916803",
     "name": "BATH ROBE LINEN S/M.",
     "price": 99,
-    "stock": 1896,
+    "stock": 1884,
     "sales": 82,
     "branches": {
       "00-GIFTS": 0,
@@ -110534,7 +110327,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 44,
       "Warehouse": 2316,
-      "warehouse riyadh": 1896
+      "warehouse riyadh": 1884
     }
   },
   {
@@ -110559,7 +110352,7 @@ const data = [
       "11-Jouri Mall": 4,
       "12-Al_Hamra Mall": 12,
       "13-Al-Yasmin Mall": 9,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 5,
       "16-Ehsa Othaim Mall": 8,
       "17-Arar Othaim Mall": 12,
@@ -110602,7 +110395,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 35,
-      "Warehouse": 77,
+      "Warehouse": 71,
       "warehouse riyadh": 468
     }
   },
@@ -110613,7 +110406,7 @@ const data = [
     "alias": "916810",
     "name": "ROBE P.BLUE S/M",
     "price": 99,
-    "stock": 912,
+    "stock": 900,
     "sales": 25,
     "branches": {
       "00-GIFTS": 3,
@@ -110672,7 +110465,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 31,
       "Warehouse": 166,
-      "warehouse riyadh": 912
+      "warehouse riyadh": 900
     }
   },
   {
@@ -110682,13 +110475,13 @@ const data = [
     "alias": "916901",
     "name": "BATH ROBE IVORY L/XL",
     "price": 99,
-    "stock": 1530,
-    "sales": 76,
+    "stock": 1524,
+    "sales": 77,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 5,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 15,
       "06-Red Sea Mall": 28,
       "07-Arab Mall": 13,
@@ -110702,7 +110495,7 @@ const data = [
       "16-Ehsa Othaim Mall": 4,
       "17-Arar Othaim Mall": 8,
       "18-Al_Khayyat Center": 14,
-      "19-Hail Othaim Mall": 6,
+      "19-Hail Othaim Mall": 5,
       "20-Sitten Street Makkah": 8,
       "21-Abha Al_Rashid Mall New": 12,
       "22-Tabuk Park": 14,
@@ -110740,8 +110533,8 @@ const data = [
       "Abha Al_Rashid Mall": 10,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 37,
-      "Warehouse": 1896,
-      "warehouse riyadh": 1530
+      "Warehouse": 1890,
+      "warehouse riyadh": 1524
     }
   },
   {
@@ -110809,7 +110602,7 @@ const data = [
       "Abha Al_Rashid Mall": 2,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 2296,
+      "Warehouse": 2290,
       "warehouse riyadh": 2046
     }
   },
@@ -110820,7 +110613,7 @@ const data = [
     "alias": "916903",
     "name": "BATH ROBE LINEN L/XL",
     "price": 99,
-    "stock": 1505,
+    "stock": 1499,
     "sales": 172,
     "branches": {
       "00-GIFTS": 0,
@@ -110879,7 +110672,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 900,
-      "warehouse riyadh": 1505
+      "warehouse riyadh": 1499
     }
   },
   {
@@ -110958,13 +110751,13 @@ const data = [
     "alias": "916910",
     "name": "ROBE P.BLUE L/XL",
     "price": 99,
-    "stock": 1332,
+    "stock": 1308,
     "sales": 56,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 10,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 6,
+      "04-Andalos Mall": 12,
       "05-Haifa Mall": 5,
       "06-Red Sea Mall": 12,
       "07-Arab Mall": 4,
@@ -111000,12 +110793,12 @@ const data = [
       "42-Dareen Mall Dammam": 10,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 8,
+      "45- Riyadh Gallery Mall": 14,
       "46-Khaleej Mall Riyadh": 24,
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 9,
       "49-AlAhsa Mall": 12,
-      "50-Meem Plaza Riyadh": 6,
+      "50-Meem Plaza Riyadh": 12,
       "51-Park Avenue Riyadh": 6,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 3,
@@ -111016,8 +110809,8 @@ const data = [
       "Abha Al_Rashid Mall": 27,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 258,
-      "warehouse riyadh": 1332
+      "Warehouse": 246,
+      "warehouse riyadh": 1308
     }
   },
   {
@@ -111027,7 +110820,7 @@ const data = [
     "alias": "916917",
     "name": "BATH ROBE LAVENDER L/XL",
     "price": 99,
-    "stock": 840,
+    "stock": 786,
     "sales": 35,
     "branches": {
       "00-GIFTS": 0,
@@ -111074,7 +110867,7 @@ const data = [
       "47-Al-Nakheel Plaza": 1,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 12,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -111086,7 +110879,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1,
-      "warehouse riyadh": 840
+      "warehouse riyadh": 786
     }
   },
   {
@@ -111096,7 +110889,7 @@ const data = [
     "alias": "916817",
     "name": "BATH ROBE LAVENDER S/M",
     "price": 99,
-    "stock": 252,
+    "stock": 246,
     "sales": 221,
     "branches": {
       "00-GIFTS": 0,
@@ -111155,7 +110948,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 18,
       "Warehouse": 0,
-      "warehouse riyadh": 252
+      "warehouse riyadh": 246
     }
   },
   {
@@ -111165,7 +110958,7 @@ const data = [
     "alias": "916821",
     "name": "BATH ROBE OYSTER MUSHROOM S/M",
     "price": 99,
-    "stock": 978,
+    "stock": 966,
     "sales": 31,
     "branches": {
       "00-GIFTS": 2,
@@ -111224,7 +111017,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 18,
       "Warehouse": 167,
-      "warehouse riyadh": 978
+      "warehouse riyadh": 966
     }
   },
   {
@@ -111234,13 +111027,13 @@ const data = [
     "alias": "916921",
     "name": "BATH ROBE OYSTER MUSHROOM L/XL",
     "price": 99,
-    "stock": 984,
+    "stock": 960,
     "sales": 58,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 6,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 3,
@@ -111281,7 +111074,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 12,
-      "50-Meem Plaza Riyadh": 6,
+      "50-Meem Plaza Riyadh": 12,
       "51-Park Avenue Riyadh": 10,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -111292,8 +111085,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 146,
-      "warehouse riyadh": 984
+      "Warehouse": 134,
+      "warehouse riyadh": 960
     }
   },
   {
@@ -111303,7 +111096,7 @@ const data = [
     "alias": "958201",
     "name": "BATH ROBE IVORY XS/S",
     "price": 99,
-    "stock": 798,
+    "stock": 786,
     "sales": 25,
     "branches": {
       "00-GIFTS": 0,
@@ -111362,7 +111155,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
       "Warehouse": 1523,
-      "warehouse riyadh": 798
+      "warehouse riyadh": 786
     }
   },
   {
@@ -111372,13 +111165,13 @@ const data = [
     "alias": "958202",
     "name": "BATH ROBE WHITE XS/S",
     "price": 99,
-    "stock": 468,
+    "stock": 462,
     "sales": 19,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 4,
+      "04-Andalos Mall": 10,
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 11,
       "07-Arab Mall": 9,
@@ -111430,8 +111223,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 49,
-      "Warehouse": 1297,
-      "warehouse riyadh": 468
+      "Warehouse": 1291,
+      "warehouse riyadh": 462
     }
   },
   {
@@ -111510,7 +111303,7 @@ const data = [
     "alias": "958208",
     "name": "BATH ROBE PINK XS/S",
     "price": 99,
-    "stock": 414,
+    "stock": 402,
     "sales": 63,
     "branches": {
       "00-GIFTS": 0,
@@ -111569,7 +111362,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 18,
       "Warehouse": 336,
-      "warehouse riyadh": 414
+      "warehouse riyadh": 402
     }
   },
   {
@@ -111579,7 +111372,7 @@ const data = [
     "alias": "958210",
     "name": "BATH ROBE P.BLUE XS/S",
     "price": 99,
-    "stock": 738,
+    "stock": 732,
     "sales": 29,
     "branches": {
       "00-GIFTS": 0,
@@ -111637,8 +111430,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 32,
-      "Warehouse": 529,
-      "warehouse riyadh": 738
+      "Warehouse": 528,
+      "warehouse riyadh": 732
     }
   },
   {
@@ -111648,13 +111441,13 @@ const data = [
     "alias": "958217",
     "name": "BATH ROBE LAVENDER XS/S",
     "price": 99,
-    "stock": 276,
+    "stock": 252,
     "sales": 13,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 6,
+      "04-Andalos Mall": 12,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 5,
@@ -111695,7 +111488,7 @@ const data = [
       "47-Al-Nakheel Plaza": 6,
       "48 - Jeddah Park": 5,
       "49-AlAhsa Mall": 6,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -111706,8 +111499,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 9,
-      "Warehouse": 18,
-      "warehouse riyadh": 276
+      "Warehouse": 12,
+      "warehouse riyadh": 252
     }
   },
   {
@@ -111786,7 +111579,7 @@ const data = [
     "alias": "958301",
     "name": "FRESHENER BLACK CHERRY BLACK 500 ML",
     "price": 79,
-    "stock": 144,
+    "stock": 136,
     "sales": 99,
     "branches": {
       "00-GIFTS": 14,
@@ -111844,8 +111637,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
-      "Warehouse": 835,
-      "warehouse riyadh": 144
+      "Warehouse": 827,
+      "warehouse riyadh": 136
     }
   },
   {
@@ -112200,7 +111993,7 @@ const data = [
     "alias": "958513",
     "name": "BATH ROBE HOOD X/S LINEN",
     "price": 99,
-    "stock": 18,
+    "stock": 12,
     "sales": 7,
     "branches": {
       "00-GIFTS": 0,
@@ -112259,7 +112052,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 23,
       "Warehouse": 88,
-      "warehouse riyadh": 18
+      "warehouse riyadh": 12
     }
   },
   {
@@ -112275,7 +112068,7 @@ const data = [
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 14,
       "07-Arab Mall": 19,
@@ -112327,7 +112120,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 524,
+      "Warehouse": 518,
       "warehouse riyadh": 36
     }
   },
@@ -112545,7 +112338,7 @@ const data = [
     "alias": "916931",
     "name": "BATH ROBE ROSE PINK L/XL",
     "price": 99,
-    "stock": 204,
+    "stock": 198,
     "sales": 110,
     "branches": {
       "00-GIFTS": 0,
@@ -112604,7 +112397,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 120,
-      "warehouse riyadh": 204
+      "warehouse riyadh": 198
     }
   },
   {
@@ -112614,13 +112407,13 @@ const data = [
     "alias": "916932",
     "name": "BATH ROBE LIGHT BLUE L/XL",
     "price": 99,
-    "stock": 246,
+    "stock": 222,
     "sales": 86,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 10,
+      "04-Andalos Mall": 16,
       "05-Haifa Mall": 12,
       "06-Red Sea Mall": 5,
       "07-Arab Mall": 12,
@@ -112672,8 +112465,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 66,
-      "warehouse riyadh": 246
+      "Warehouse": 60,
+      "warehouse riyadh": 222
     }
   },
   {
@@ -112683,7 +112476,7 @@ const data = [
     "alias": "916933",
     "name": "BATH ROBE RICH BLACK L/XL",
     "price": 99,
-    "stock": 54,
+    "stock": 48,
     "sales": 132,
     "branches": {
       "00-GIFTS": 0,
@@ -112742,7 +112535,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 54
+      "warehouse riyadh": 48
     }
   },
   {
@@ -112821,13 +112614,13 @@ const data = [
     "alias": "816202",
     "name": "BATH MAT SET 2 PCS CHINO GREEN",
     "price": 99,
-    "stock": 1146,
+    "stock": 1140,
     "sales": 36,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 1,
+      "04-Andalos Mall": 7,
       "05-Haifa Mall": 9,
       "06-Red Sea Mall": 19,
       "07-Arab Mall": 7,
@@ -112863,7 +112656,7 @@ const data = [
       "42-Dareen Mall Dammam": 5,
       "43-Mujan Park": 6,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 2,
+      "45- Riyadh Gallery Mall": 8,
       "46-Khaleej Mall Riyadh": 8,
       "47-Al-Nakheel Plaza": 6,
       "48 - Jeddah Park": 4,
@@ -112879,8 +112672,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 501,
-      "warehouse riyadh": 1146
+      "Warehouse": 495,
+      "warehouse riyadh": 1140
     }
   },
   {
@@ -112948,7 +112741,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 651,
+      "Warehouse": 645,
       "warehouse riyadh": 1206
     }
   },
@@ -112959,13 +112752,13 @@ const data = [
     "alias": "816207",
     "name": "BATH MAT SET 2 PCS OYESTER MUSHROOM",
     "price": 99,
-    "stock": 708,
+    "stock": 702,
     "sales": 25,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 1,
+      "04-Andalos Mall": 7,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 22,
       "07-Arab Mall": 2,
@@ -113001,7 +112794,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 3,
       "44-Al-Jouf Center": 5,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 7,
       "46-Khaleej Mall Riyadh": 8,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 6,
@@ -113017,8 +112810,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 516,
-      "warehouse riyadh": 708
+      "Warehouse": 510,
+      "warehouse riyadh": 702
     }
   },
   {
@@ -113086,7 +112879,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 1587,
+      "Warehouse": 1575,
       "warehouse riyadh": 438
     }
   },
@@ -113166,7 +112959,7 @@ const data = [
     "alias": "816213",
     "name": "BATH MAT SET 2 PCS DARKER LILAC",
     "price": 99,
-    "stock": 1200,
+    "stock": 1194,
     "sales": 20,
     "branches": {
       "00-GIFTS": 0,
@@ -113208,7 +113001,7 @@ const data = [
       "42-Dareen Mall Dammam": 5,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 6,
       "46-Khaleej Mall Riyadh": 9,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 8,
@@ -113225,7 +113018,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 792,
-      "warehouse riyadh": 1200
+      "warehouse riyadh": 1194
     }
   },
   {
@@ -113235,7 +113028,7 @@ const data = [
     "alias": "816214",
     "name": "BATH MAT SET 2 PCS NAVY",
     "price": 99,
-    "stock": 828,
+    "stock": 822,
     "sales": 17,
     "branches": {
       "00-GIFTS": 0,
@@ -113282,7 +113075,7 @@ const data = [
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 4,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 1,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 6,
       "52-Al_Baha Mall": 4,
       "53-Al Basateen Mall": 3,
@@ -113294,7 +113087,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1336,
-      "warehouse riyadh": 828
+      "warehouse riyadh": 822
     }
   },
   {
@@ -115857,7 +115650,7 @@ const data = [
     "alias": "710098",
     "name": "CIRCLES MULTIPLE EMBROIDERED TOWEL WAVE SET 3 PCS",
     "price": 99,
-    "stock": 564,
+    "stock": 552,
     "sales": 26,
     "branches": {
       "00-GIFTS": 0,
@@ -115916,7 +115709,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 28,
       "Warehouse": 79,
-      "warehouse riyadh": 564
+      "warehouse riyadh": 552
     }
   },
   {
@@ -118192,7 +117985,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 689,
+      "Warehouse": 687,
       "warehouse riyadh": 18
     }
   },
@@ -118261,7 +118054,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 695,
+      "Warehouse": 689,
       "warehouse riyadh": 6
     }
   },
@@ -118330,7 +118123,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 516,
+      "Warehouse": 504,
       "warehouse riyadh": 205
     }
   },
@@ -118341,7 +118134,7 @@ const data = [
     "alias": "970154",
     "name": "N453 SOMOOSHIE TOY - LITTLE MONSTER TURQ",
     "price": 69,
-    "stock": 282,
+    "stock": 276,
     "sales": 22,
     "branches": {
       "00-GIFTS": 0,
@@ -118400,7 +118193,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 1110,
-      "warehouse riyadh": 282
+      "warehouse riyadh": 276
     }
   },
   {
@@ -118410,7 +118203,7 @@ const data = [
     "alias": "970134",
     "name": "B423 SMOOSHIE TOY- RABBIT IVORY",
     "price": 69,
-    "stock": 348,
+    "stock": 336,
     "sales": 57,
     "branches": {
       "00-GIFTS": 1,
@@ -118452,7 +118245,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 6,
       "46-Khaleej Mall Riyadh": 3,
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 6,
@@ -118468,8 +118261,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 697,
-      "warehouse riyadh": 348
+      "Warehouse": 695,
+      "warehouse riyadh": 336
     }
   },
   {
@@ -118479,7 +118272,7 @@ const data = [
     "alias": "970135",
     "name": "B424 SMOOSHIE TOY- RABBIT SKY BLUE",
     "price": 69,
-    "stock": 314,
+    "stock": 302,
     "sales": 46,
     "branches": {
       "00-GIFTS": 1,
@@ -118538,7 +118331,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
       "Warehouse": 656,
-      "warehouse riyadh": 314
+      "warehouse riyadh": 302
     }
   },
   {
@@ -118548,7 +118341,7 @@ const data = [
     "alias": "970141",
     "name": "I430 SMOOSHIE TOY- UNICORN COLORFUL",
     "price": 69,
-    "stock": 211,
+    "stock": 199,
     "sales": 43,
     "branches": {
       "00-GIFTS": 0,
@@ -118606,8 +118399,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 415,
-      "warehouse riyadh": 211
+      "Warehouse": 405,
+      "warehouse riyadh": 199
     }
   },
   {
@@ -118617,7 +118410,7 @@ const data = [
     "alias": "970148",
     "name": "K437 SMOOSHIE TOY- YAK LT.TURQ",
     "price": 69,
-    "stock": 570,
+    "stock": 558,
     "sales": 39,
     "branches": {
       "00-GIFTS": 7,
@@ -118676,7 +118469,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 863,
-      "warehouse riyadh": 570
+      "warehouse riyadh": 558
     }
   },
   {
@@ -118686,7 +118479,7 @@ const data = [
     "alias": "970150",
     "name": "N439 SMOOSHIE TOY- PENGUIN LAVANDER MULTI",
     "price": 69,
-    "stock": 366,
+    "stock": 360,
     "sales": 36,
     "branches": {
       "00-GIFTS": 0,
@@ -118733,7 +118526,7 @@ const data = [
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 1,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 2,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 0,
@@ -118745,7 +118538,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 701,
-      "warehouse riyadh": 366
+      "warehouse riyadh": 360
     }
   },
   {
@@ -118755,7 +118548,7 @@ const data = [
     "alias": "970151",
     "name": "A450 SMOOSHIE TOY- STRAWBERRY TEA PEACH PING",
     "price": 69,
-    "stock": 192,
+    "stock": 180,
     "sales": 83,
     "branches": {
       "00-GIFTS": 1,
@@ -118802,7 +118595,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 3,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 1,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -118813,8 +118606,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 464,
-      "warehouse riyadh": 192
+      "Warehouse": 462,
+      "warehouse riyadh": 180
     }
   },
   {
@@ -118830,7 +118623,7 @@ const data = [
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 5,
+      "04-Andalos Mall": 7,
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 7,
@@ -118882,7 +118675,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 755,
+      "Warehouse": 753,
       "warehouse riyadh": 450
     }
   },
@@ -118893,7 +118686,7 @@ const data = [
     "alias": "970153",
     "name": "E452 SMOOSHIE TOY- SHEEP COLORFUL",
     "price": 69,
-    "stock": 588,
+    "stock": 576,
     "sales": 20,
     "branches": {
       "00-GIFTS": 1,
@@ -118952,7 +118745,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
       "Warehouse": 885,
-      "warehouse riyadh": 588
+      "warehouse riyadh": 576
     }
   },
   {
@@ -119307,7 +119100,7 @@ const data = [
     "alias": "09003",
     "name": "LUMIRE TURKISH COFFEE SET 6 PCS 90 ML CS-013",
     "price": 79,
-    "stock": 29,
+    "stock": 23,
     "sales": 2,
     "branches": {
       "00-GIFTS": 1,
@@ -119366,7 +119159,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 7,
-      "warehouse riyadh": 29
+      "warehouse riyadh": 23
     }
   },
   {
@@ -119445,7 +119238,7 @@ const data = [
     "alias": "09005",
     "name": "ADLER TURKISH COFFEE SET 6 PCS 90 ML CS-017",
     "price": 79,
-    "stock": 48,
+    "stock": 42,
     "sales": 3,
     "branches": {
       "00-GIFTS": 0,
@@ -119504,7 +119297,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 23,
       "Warehouse": 18,
-      "warehouse riyadh": 48
+      "warehouse riyadh": 42
     }
   },
   {
@@ -120066,7 +119859,7 @@ const data = [
     "alias": "09015",
     "name": "SOPHIA TURKISH COFFEE SET 6 PCS 90 ML CS-023",
     "price": 79,
-    "stock": 269,
+    "stock": 263,
     "sales": 3,
     "branches": {
       "00-GIFTS": 0,
@@ -120125,7 +119918,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
       "Warehouse": 194,
-      "warehouse riyadh": 269
+      "warehouse riyadh": 263
     }
   },
   {
@@ -120963,13 +120756,13 @@ const data = [
     "alias": "502601",
     "name": "BLANKET FULL MARSHMALLOW COMFY 66*90",
     "price": 79,
-    "stock": 1404,
+    "stock": 1400,
     "sales": 77,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 4,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 15,
+      "04-Andalos Mall": 19,
       "05-Haifa Mall": 9,
       "06-Red Sea Mall": 16,
       "07-Arab Mall": 9,
@@ -121010,7 +120803,7 @@ const data = [
       "47-Al-Nakheel Plaza": 8,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 6,
+      "50-Meem Plaza Riyadh": 10,
       "51-Park Avenue Riyadh": 8,
       "52-Al_Baha Mall": 1,
       "53-Al Basateen Mall": 1,
@@ -121021,8 +120814,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 2320,
-      "warehouse riyadh": 1404
+      "Warehouse": 2308,
+      "warehouse riyadh": 1400
     }
   },
   {
@@ -121032,13 +120825,13 @@ const data = [
     "alias": "502602",
     "name": "BLANKET FULL GREY COMFY 66*90",
     "price": 79,
-    "stock": 2420,
+    "stock": 2412,
     "sales": 101,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 5,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 13,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 14,
       "07-Arab Mall": 5,
@@ -121074,7 +120867,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 9,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 5,
+      "45- Riyadh Gallery Mall": 9,
       "46-Khaleej Mall Riyadh": 12,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 10,
@@ -121090,8 +120883,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 2248,
-      "warehouse riyadh": 2420
+      "Warehouse": 2224,
+      "warehouse riyadh": 2412
     }
   },
   {
@@ -121101,13 +120894,13 @@ const data = [
     "alias": "502603",
     "name": "BLANKET FULL DOE SKIN COMFY 66*90",
     "price": 79,
-    "stock": 2896,
+    "stock": 2888,
     "sales": 132,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 5,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 11,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 15,
       "07-Arab Mall": 4,
@@ -121116,7 +120909,7 @@ const data = [
       "11-Jouri Mall": 11,
       "12-Al_Hamra Mall": 13,
       "13-Al-Yasmin Mall": 9,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 14,
       "15-Riyadh Othaim Mall": 1,
       "16-Ehsa Othaim Mall": 4,
       "17-Arar Othaim Mall": 2,
@@ -121148,7 +120941,7 @@ const data = [
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 5,
-      "50-Meem Plaza Riyadh": 2,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 8,
       "52-Al_Baha Mall": 4,
       "53-Al Basateen Mall": 4,
@@ -121159,8 +120952,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 2712,
-      "warehouse riyadh": 2896
+      "Warehouse": 2688,
+      "warehouse riyadh": 2888
     }
   },
   {
@@ -121170,7 +120963,7 @@ const data = [
     "alias": "502604",
     "name": "BLANKET FULL COMFY ROSE PINK",
     "price": 79,
-    "stock": 136,
+    "stock": 132,
     "sales": 63,
     "branches": {
       "00-GIFTS": 2,
@@ -121217,7 +121010,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 3,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 6,
       "52-Al_Baha Mall": 5,
       "53-Al Basateen Mall": 0,
@@ -121229,7 +121022,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 136
+      "warehouse riyadh": 132
     }
   },
   {
@@ -121308,13 +121101,13 @@ const data = [
     "alias": "502606",
     "name": "BLANKET FULL NAVY COMFY 66*90",
     "price": 79,
-    "stock": 1220,
+    "stock": 1216,
     "sales": 133,
     "branches": {
       "00-GIFTS": 6,
       "01-Jeddah INT Market": 6,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 5,
+      "04-Andalos Mall": 9,
       "05-Haifa Mall": 4,
       "06-Red Sea Mall": 16,
       "07-Arab Mall": 15,
@@ -121323,7 +121116,7 @@ const data = [
       "11-Jouri Mall": 8,
       "12-Al_Hamra Mall": 10,
       "13-Al-Yasmin Mall": 8,
-      "14-Al Kamal Mall": 4,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 9,
       "17-Arar Othaim Mall": 2,
@@ -121355,7 +121148,7 @@ const data = [
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 2,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 12,
       "52-Al_Baha Mall": 4,
       "53-Al Basateen Mall": 2,
@@ -121366,8 +121159,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 21,
-      "Warehouse": 417,
-      "warehouse riyadh": 1220
+      "Warehouse": 409,
+      "warehouse riyadh": 1216
     }
   },
   {
@@ -121446,7 +121239,7 @@ const data = [
     "alias": "502701",
     "name": "BLANKET KING MARSHMALLOW COMFY 104*90",
     "price": 99,
-    "stock": 1832,
+    "stock": 1820,
     "sales": 88,
     "branches": {
       "00-GIFTS": 1,
@@ -121493,7 +121286,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 7,
       "53-Al Basateen Mall": 0,
@@ -121504,8 +121297,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 2479,
-      "warehouse riyadh": 1832
+      "Warehouse": 2475,
+      "warehouse riyadh": 1820
     }
   },
   {
@@ -121515,7 +121308,7 @@ const data = [
     "alias": "502702",
     "name": "BLANKET KING GREY COMFY 104*90",
     "price": 99,
-    "stock": 2288,
+    "stock": 2284,
     "sales": 88,
     "branches": {
       "00-GIFTS": 1,
@@ -121573,8 +121366,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 49,
-      "Warehouse": 1935,
-      "warehouse riyadh": 2288
+      "Warehouse": 1925,
+      "warehouse riyadh": 2284
     }
   },
   {
@@ -121584,7 +121377,7 @@ const data = [
     "alias": "502703",
     "name": "BLANKET KING DOE SKIN COMFY 104*90",
     "price": 99,
-    "stock": 1712,
+    "stock": 1704,
     "sales": 172,
     "branches": {
       "00-GIFTS": 0,
@@ -121631,7 +121424,7 @@ const data = [
       "47-Al-Nakheel Plaza": 12,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 3,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 1,
@@ -121642,8 +121435,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 39,
-      "Warehouse": 1536,
-      "warehouse riyadh": 1712
+      "Warehouse": 1522,
+      "warehouse riyadh": 1704
     }
   },
   {
@@ -121653,7 +121446,7 @@ const data = [
     "alias": "502704",
     "name": "BLANKET KING ROSE PINK COMFY 104*90",
     "price": 99,
-    "stock": 1032,
+    "stock": 1028,
     "sales": 66,
     "branches": {
       "00-GIFTS": 2,
@@ -121711,8 +121504,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 965,
-      "warehouse riyadh": 1032
+      "Warehouse": 949,
+      "warehouse riyadh": 1028
     }
   },
   {
@@ -121722,7 +121515,7 @@ const data = [
     "alias": "502705",
     "name": "BLANKET KING CRIMSON COMFY 104*90",
     "price": 99,
-    "stock": 1276,
+    "stock": 1268,
     "sales": 71,
     "branches": {
       "00-GIFTS": 12,
@@ -121764,7 +121557,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 9,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 4,
+      "45- Riyadh Gallery Mall": 8,
       "46-Khaleej Mall Riyadh": 5,
       "47-Al-Nakheel Plaza": 12,
       "48 - Jeddah Park": 11,
@@ -121780,8 +121573,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 51,
-      "Warehouse": 974,
-      "warehouse riyadh": 1276
+      "Warehouse": 966,
+      "warehouse riyadh": 1268
     }
   },
   {
@@ -121791,7 +121584,7 @@ const data = [
     "alias": "502706",
     "name": "BLANKET KING NAVY COMFY 104*90",
     "price": 99,
-    "stock": 1728,
+    "stock": 1720,
     "sales": 99,
     "branches": {
       "00-GIFTS": 11,
@@ -121838,7 +121631,7 @@ const data = [
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 10,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 6,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 0,
@@ -121850,7 +121643,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 31,
       "Warehouse": 1402,
-      "warehouse riyadh": 1728
+      "warehouse riyadh": 1720
     }
   },
   {
@@ -121929,7 +121722,7 @@ const data = [
     "alias": "502708",
     "name": "BLANKET KING 17K PORCINI COMFY 104*90",
     "price": 99,
-    "stock": 920,
+    "stock": 916,
     "sales": 88,
     "branches": {
       "00-GIFTS": 0,
@@ -121987,8 +121780,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 788,
-      "warehouse riyadh": 920
+      "Warehouse": 776,
+      "warehouse riyadh": 916
     }
   },
   {
@@ -121998,7 +121791,7 @@ const data = [
     "alias": "502709",
     "name": "BLANKET KING 81W FIRE PIT COMFY 104*90",
     "price": 99,
-    "stock": 864,
+    "stock": 856,
     "sales": 148,
     "branches": {
       "00-GIFTS": 0,
@@ -122040,7 +121833,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 10,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 3,
+      "45- Riyadh Gallery Mall": 7,
       "46-Khaleej Mall Riyadh": 8,
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 12,
@@ -122056,8 +121849,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 672,
-      "warehouse riyadh": 864
+      "Warehouse": 668,
+      "warehouse riyadh": 856
     }
   },
   {
@@ -122067,7 +121860,7 @@ const data = [
     "alias": "502710",
     "name": "BLANKET KING 82N LAMENT BLUE COMFY 104*90",
     "price": 99,
-    "stock": 996,
+    "stock": 992,
     "sales": 40,
     "branches": {
       "00-GIFTS": 0,
@@ -122126,7 +121919,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 885,
-      "warehouse riyadh": 996
+      "warehouse riyadh": 992
     }
   },
   {
@@ -122136,7 +121929,7 @@ const data = [
     "alias": "502711",
     "name": "BLANKET KING 92H FARMHOUSE SAGE COMFY 104*90",
     "price": 99,
-    "stock": 832,
+    "stock": 828,
     "sales": 123,
     "branches": {
       "00-GIFTS": 0,
@@ -122194,8 +121987,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 677,
-      "warehouse riyadh": 832
+      "Warehouse": 665,
+      "warehouse riyadh": 828
     }
   },
   {
@@ -122412,7 +122205,7 @@ const data = [
     "alias": "608508",
     "name": "DUVET KING DAMASK WHITE 4 PCS 500 STITCH",
     "price": 495,
-    "stock": 830,
+    "stock": 825,
     "sales": 32,
     "branches": {
       "00-GIFTS": 2,
@@ -122459,7 +122252,7 @@ const data = [
       "47-Al-Nakheel Plaza": 8,
       "48 - Jeddah Park": 9,
       "49-AlAhsa Mall": 5,
-      "50-Meem Plaza Riyadh": 13,
+      "50-Meem Plaza Riyadh": 18,
       "51-Park Avenue Riyadh": 6,
       "52-Al_Baha Mall": 1,
       "53-Al Basateen Mall": 10,
@@ -122471,7 +122264,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 52,
       "Warehouse": 715,
-      "warehouse riyadh": 830
+      "warehouse riyadh": 825
     }
   },
   {
@@ -122481,7 +122274,7 @@ const data = [
     "alias": "608517",
     "name": "HUSHED V. DAMASK DUVET 4 PCS KING 500 STITCH",
     "price": 495,
-    "stock": 295,
+    "stock": 290,
     "sales": 14,
     "branches": {
       "00-GIFTS": 1,
@@ -122528,7 +122321,7 @@ const data = [
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 5,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 9,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 4,
@@ -122540,7 +122333,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
       "Warehouse": 100,
-      "warehouse riyadh": 295
+      "warehouse riyadh": 290
     }
   },
   {
@@ -123172,7 +122965,7 @@ const data = [
     "name": "PILLOW CASES KING LINEN 2PCS",
     "price": 35,
     "stock": 336,
-    "sales": 45,
+    "sales": 46,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 9,
@@ -123229,7 +123022,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 388,
+      "Warehouse": 387,
       "warehouse riyadh": 336
     }
   },
@@ -123241,7 +123034,7 @@ const data = [
     "name": "PILLOW CASES KING LILAC MARBLE 2PCS",
     "price": 35,
     "stock": 60,
-    "sales": 32,
+    "sales": 33,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 8,
@@ -123298,7 +123091,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 13,
+      "Warehouse": 12,
       "warehouse riyadh": 60
     }
   },
@@ -123654,7 +123447,7 @@ const data = [
     "alias": "927104",
     "name": "PILLOW CASES STANDARD OFF WHITE",
     "price": 35,
-    "stock": 936,
+    "stock": 924,
     "sales": 37,
     "branches": {
       "00-GIFTS": 0,
@@ -123701,7 +123494,7 @@ const data = [
       "47-Al-Nakheel Plaza": 14,
       "48 - Jeddah Park": 3,
       "49-AlAhsa Mall": 14,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 12,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 7,
       "53-Al Basateen Mall": 0,
@@ -123713,7 +123506,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 604,
-      "warehouse riyadh": 936
+      "warehouse riyadh": 924
     }
   },
   {
@@ -123861,7 +123654,7 @@ const data = [
     "alias": "927103",
     "name": "PILLOW CASES STANDARD WHITE",
     "price": 35,
-    "stock": 132,
+    "stock": 120,
     "sales": 84,
     "branches": {
       "00-GIFTS": 1,
@@ -123908,7 +123701,7 @@ const data = [
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 11,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 12,
       "51-Park Avenue Riyadh": 9,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 12,
@@ -123920,7 +123713,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1703,
-      "warehouse riyadh": 132
+      "warehouse riyadh": 120
     }
   },
   {
@@ -123930,7 +123723,7 @@ const data = [
     "alias": "9301",
     "name": "DUVET FULL JUST RELAX 203*218",
     "price": 194,
-    "stock": 994,
+    "stock": 992,
     "sales": 52,
     "branches": {
       "00-GIFTS": 0,
@@ -123977,7 +123770,7 @@ const data = [
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 14,
       "49-AlAhsa Mall": 3,
-      "50-Meem Plaza Riyadh": 5,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 4,
       "53-Al Basateen Mall": 6,
@@ -123989,7 +123782,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 48,
       "Warehouse": 306,
-      "warehouse riyadh": 994
+      "warehouse riyadh": 992
     }
   },
   {
@@ -124137,7 +123930,7 @@ const data = [
     "alias": "816401",
     "name": "BATH MAT 21X34IN LIGHT YELLOW",
     "price": 59,
-    "stock": 384,
+    "stock": 378,
     "sales": 29,
     "branches": {
       "00-GIFTS": 0,
@@ -124196,7 +123989,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 146,
-      "warehouse riyadh": 384
+      "warehouse riyadh": 378
     }
   },
   {
@@ -124212,7 +124005,7 @@ const data = [
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 9,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 21,
       "07-Arab Mall": 9,
@@ -124264,7 +124057,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1596,
+      "Warehouse": 1590,
       "warehouse riyadh": 312
     }
   },
@@ -124413,13 +124206,13 @@ const data = [
     "alias": "816407",
     "name": "BATH MAT 21X34IN DARKER LIGHT GREY",
     "price": 59,
-    "stock": 408,
+    "stock": 402,
     "sales": 21,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 6,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 0,
@@ -124428,7 +124221,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 9,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 6,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 8,
       "17-Arar Othaim Mall": 0,
@@ -124471,8 +124264,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 294,
-      "warehouse riyadh": 408
+      "Warehouse": 228,
+      "warehouse riyadh": 402
     }
   },
   {
@@ -124620,7 +124413,7 @@ const data = [
     "alias": "816301",
     "name": "BATH MAT 17X24IN LIGHT YELLOW",
     "price": 39,
-    "stock": 862,
+    "stock": 856,
     "sales": 20,
     "branches": {
       "00-GIFTS": 3,
@@ -124662,7 +124455,7 @@ const data = [
       "42-Dareen Mall Dammam": 8,
       "43-Mujan Park": 8,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 5,
+      "45- Riyadh Gallery Mall": 11,
       "46-Khaleej Mall Riyadh": 5,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 4,
@@ -124679,7 +124472,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 38,
       "Warehouse": 1332,
-      "warehouse riyadh": 862
+      "warehouse riyadh": 856
     }
   },
   {
@@ -124896,7 +124689,7 @@ const data = [
     "alias": "816307",
     "name": "BATH MAT 17X24IN DARKER LIGHT GREY",
     "price": 39,
-    "stock": 744,
+    "stock": 738,
     "sales": 29,
     "branches": {
       "00-GIFTS": 0,
@@ -124955,7 +124748,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 105,
-      "warehouse riyadh": 744
+      "warehouse riyadh": 738
     }
   },
   {
@@ -125310,7 +125103,7 @@ const data = [
     "alias": "816414",
     "name": "BATH MAT 21X34IN NAVY",
     "price": 59,
-    "stock": 450,
+    "stock": 444,
     "sales": 12,
     "branches": {
       "00-GIFTS": 0,
@@ -125368,8 +125161,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 210,
-      "warehouse riyadh": 450
+      "Warehouse": 204,
+      "warehouse riyadh": 444
     }
   },
   {
@@ -125437,7 +125230,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 714,
+      "Warehouse": 708,
       "warehouse riyadh": 576
     }
   },
@@ -125454,7 +125247,7 @@ const data = [
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 6,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 0,
@@ -125463,7 +125256,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 6,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 6,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 5,
       "17-Arar Othaim Mall": 0,
@@ -125506,7 +125299,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 252,
+      "Warehouse": 186,
       "warehouse riyadh": 228
     }
   },
@@ -125575,7 +125368,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 228,
+      "Warehouse": 222,
       "warehouse riyadh": 960
     }
   },
@@ -125586,7 +125379,7 @@ const data = [
     "alias": "817201",
     "name": "BATH MAT 30X50IN WITHE",
     "price": 129,
-    "stock": 192,
+    "stock": 186,
     "sales": 6,
     "branches": {
       "00-GIFTS": 0,
@@ -125645,7 +125438,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 60,
-      "warehouse riyadh": 192
+      "warehouse riyadh": 186
     }
   },
   {
@@ -125655,7 +125448,7 @@ const data = [
     "alias": "817202",
     "name": "BATH MAT 30X50IN IVORY",
     "price": 129,
-    "stock": 168,
+    "stock": 162,
     "sales": 13,
     "branches": {
       "00-GIFTS": 0,
@@ -125714,7 +125507,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 168,
-      "warehouse riyadh": 168
+      "warehouse riyadh": 162
     }
   },
   {
@@ -125724,7 +125517,7 @@ const data = [
     "alias": "817205",
     "name": "BATH MAT 30X50IN DARKER LILAC",
     "price": 129,
-    "stock": 132,
+    "stock": 126,
     "sales": 5,
     "branches": {
       "00-GIFTS": 0,
@@ -125783,7 +125576,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 102,
-      "warehouse riyadh": 132
+      "warehouse riyadh": 126
     }
   },
   {
@@ -125793,7 +125586,7 @@ const data = [
     "alias": "817206",
     "name": "BATH MAT 30X50IN PINK",
     "price": 129,
-    "stock": 192,
+    "stock": 186,
     "sales": 1,
     "branches": {
       "00-GIFTS": 0,
@@ -125852,7 +125645,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 198,
-      "warehouse riyadh": 192
+      "warehouse riyadh": 186
     }
   },
   {
@@ -125862,7 +125655,7 @@ const data = [
     "alias": "817208",
     "name": "BATH MAT 30X50IN NAVY",
     "price": 129,
-    "stock": 306,
+    "stock": 300,
     "sales": 6,
     "branches": {
       "00-GIFTS": 0,
@@ -125921,7 +125714,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 162,
-      "warehouse riyadh": 306
+      "warehouse riyadh": 300
     }
   },
   {
@@ -126144,7 +125937,7 @@ const data = [
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 6,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 0,
@@ -126153,7 +125946,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 6,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 6,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -126196,7 +125989,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 96,
+      "Warehouse": 30,
       "warehouse riyadh": 12
     }
   },
@@ -126276,13 +126069,13 @@ const data = [
     "alias": "9006-01",
     "name": "BOTTEL WATER SOLID BLACK WM LEAK PROOF 20 OZ",
     "price": 29,
-    "stock": 96,
-    "sales": 554,
+    "stock": 36,
+    "sales": 558,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 19,
+      "04-Andalos Mall": 31,
       "05-Haifa Mall": 11,
       "06-Red Sea Mall": 16,
       "07-Arab Mall": 30,
@@ -126323,19 +126116,19 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 8,
       "49-AlAhsa Mall": 3,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 16,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 12,
       "53-Al Basateen Mall": 4,
       "54-THE VILLAGE": 41,
-      "55- Jabl Omar": 69,
+      "55- Jabl Omar": 65,
       "56- Aziz Mall 2": 16,
       "57-Sauq7": 11,
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1027,
-      "warehouse riyadh": 96
+      "Warehouse": 1003,
+      "warehouse riyadh": 36
     }
   },
   {
@@ -126345,13 +126138,13 @@ const data = [
     "alias": "9006-03",
     "name": "BOTTEL WATER SOLID WHITE WM LEAK PROOF  20 OZ",
     "price": 29,
-    "stock": 1032,
+    "stock": 1008,
     "sales": 265,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 23,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 14,
+      "04-Andalos Mall": 26,
       "05-Haifa Mall": 13,
       "06-Red Sea Mall": 54,
       "07-Arab Mall": 43,
@@ -126403,8 +126196,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 2744,
-      "warehouse riyadh": 1032
+      "Warehouse": 2732,
+      "warehouse riyadh": 1008
     }
   },
   {
@@ -126414,13 +126207,13 @@ const data = [
     "alias": "9006-04",
     "name": "BOTTEL WATER BLUE OMBRE WM LEAK PROOF 20 OZ",
     "price": 29,
-    "stock": 660,
-    "sales": 439,
+    "stock": 624,
+    "sales": 441,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 22,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 11,
+      "04-Andalos Mall": 23,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 22,
       "07-Arab Mall": 31,
@@ -126431,7 +126224,7 @@ const data = [
       "13-Al-Yasmin Mall": 20,
       "14-Al Kamal Mall": 0,
       "15-Riyadh Othaim Mall": 0,
-      "16-Ehsa Othaim Mall": 8,
+      "16-Ehsa Othaim Mall": 6,
       "17-Arar Othaim Mall": 1,
       "18-Al_Khayyat Center": 6,
       "19-Hail Othaim Mall": 1,
@@ -126472,8 +126265,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2017,
-      "warehouse riyadh": 660
+      "Warehouse": 1993,
+      "warehouse riyadh": 624
     }
   },
   {
@@ -126483,7 +126276,7 @@ const data = [
     "alias": "9006-05",
     "name": "WATER BOTTEL ORANGE OMBRE WM LEAK PROOF  20 OZ",
     "price": 29,
-    "stock": 1117,
+    "stock": 1105,
     "sales": 144,
     "branches": {
       "00-GIFTS": 2,
@@ -126530,7 +126323,7 @@ const data = [
       "47-Al-Nakheel Plaza": 16,
       "48 - Jeddah Park": 31,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 10,
+      "50-Meem Plaza Riyadh": 22,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 23,
       "53-Al Basateen Mall": 9,
@@ -126542,7 +126335,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 31,
       "Warehouse": 2355,
-      "warehouse riyadh": 1117
+      "warehouse riyadh": 1105
     }
   },
   {
@@ -126552,13 +126345,13 @@ const data = [
     "alias": "9006-06",
     "name": "BOTTEL WATER PURPLE OMBRE WM LEAK PROOF 20 OZ",
     "price": 29,
-    "stock": 721,
+    "stock": 697,
     "sales": 336,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 15,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 12,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 5,
       "06-Red Sea Mall": 20,
       "07-Arab Mall": 24,
@@ -126610,8 +126403,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2099,
-      "warehouse riyadh": 721
+      "Warehouse": 2075,
+      "warehouse riyadh": 697
     }
   },
   {
@@ -126621,7 +126414,7 @@ const data = [
     "alias": "9006-07",
     "name": "BOTTEL WATER TEAL OMBRE WM LEAK PROOF  20 OZ",
     "price": 29,
-    "stock": 913,
+    "stock": 889,
     "sales": 359,
     "branches": {
       "00-GIFTS": 0,
@@ -126663,7 +126456,7 @@ const data = [
       "42-Dareen Mall Dammam": 14,
       "43-Mujan Park": 10,
       "44-Al-Jouf Center": 9,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 12,
       "46-Khaleej Mall Riyadh": 15,
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 13,
@@ -126679,8 +126472,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 2192,
-      "warehouse riyadh": 913
+      "Warehouse": 2168,
+      "warehouse riyadh": 889
     }
   },
   {
@@ -126759,7 +126552,7 @@ const data = [
     "alias": "9005-04",
     "name": "TUMBER WITH STRAW BLUE OMBRE WM 24 OZ",
     "price": 29,
-    "stock": 192,
+    "stock": 168,
     "sales": 140,
     "branches": {
       "00-GIFTS": 0,
@@ -126817,8 +126610,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 726,
-      "warehouse riyadh": 192
+      "Warehouse": 714,
+      "warehouse riyadh": 168
     }
   },
   {
@@ -126897,7 +126690,7 @@ const data = [
     "alias": "9005-06",
     "name": "PURPLE OMBRE WM TUMBER WITH STRAW 24 OZ",
     "price": 29,
-    "stock": 13,
+    "stock": 1,
     "sales": 223,
     "branches": {
       "00-GIFTS": 0,
@@ -126955,8 +126748,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 423,
-      "warehouse riyadh": 13
+      "Warehouse": 411,
+      "warehouse riyadh": 1
     }
   },
   {
@@ -127024,7 +126817,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 727,
+      "Warehouse": 715,
       "warehouse riyadh": 241
     }
   },
@@ -127035,13 +126828,13 @@ const data = [
     "alias": "9006-08",
     "name": "BOTTEL WATER SOLID LAVENDER WM LEAK PROOF  20 OZ",
     "price": 29,
-    "stock": 216,
-    "sales": 443,
+    "stock": 180,
+    "sales": 447,
     "branches": {
       "00-GIFTS": 4,
       "01-Jeddah INT Market": 6,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 19,
+      "04-Andalos Mall": 31,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 10,
       "07-Arab Mall": 34,
@@ -127059,7 +126852,7 @@ const data = [
       "20-Sitten Street Makkah": 0,
       "21-Abha Al_Rashid Mall New": 4,
       "22-Tabuk Park": 16,
-      "23-Alia Mall Madinah": 21,
+      "23-Alia Mall Madinah": 20,
       "24-Yanbu Dana Mall": 8,
       "25-Rabwa Othaim Mall": 3,
       "26-Al-Noor Mall Madinah": 18,
@@ -127077,7 +126870,7 @@ const data = [
       "42-Dareen Mall Dammam": 11,
       "43-Mujan Park": 8,
       "44-Al-Jouf Center": 11,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 12,
       "46-Khaleej Mall Riyadh": 13,
       "47-Al-Nakheel Plaza": 12,
       "48 - Jeddah Park": 20,
@@ -127087,14 +126880,14 @@ const data = [
       "52-Al_Baha Mall": 14,
       "53-Al Basateen Mall": 1,
       "54-THE VILLAGE": 19,
-      "55- Jabl Omar": 57,
+      "55- Jabl Omar": 54,
       "56- Aziz Mall 2": 24,
       "57-Sauq7": 12,
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1194,
-      "warehouse riyadh": 216
+      "Warehouse": 1170,
+      "warehouse riyadh": 180
     }
   },
   {
@@ -127104,7 +126897,7 @@ const data = [
     "alias": "9005-09",
     "name": "TUMBER WITH STRAW SOLID PINK WM 24 OZ",
     "price": 29,
-    "stock": 181,
+    "stock": 169,
     "sales": 185,
     "branches": {
       "00-GIFTS": 0,
@@ -127162,8 +126955,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 636,
-      "warehouse riyadh": 181
+      "Warehouse": 612,
+      "warehouse riyadh": 169
     }
   },
   {
@@ -127174,12 +126967,12 @@ const data = [
     "name": "SOLID NAVY WM TUMBER WITH STRAW 24 OZ",
     "price": 29,
     "stock": 1,
-    "sales": 204,
+    "sales": 205,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 11,
+      "04-Andalos Mall": 10,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 44,
       "07-Arab Mall": 25,
@@ -127231,7 +127024,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 416,
+      "Warehouse": 392,
       "warehouse riyadh": 1
     }
   },
@@ -127311,7 +127104,7 @@ const data = [
     "alias": "900414",
     "name": "COSTCO TUMBLERS 40OZ PINK",
     "price": 49,
-    "stock": 256,
+    "stock": 240,
     "sales": 63,
     "branches": {
       "00-GIFTS": 0,
@@ -127358,7 +127151,7 @@ const data = [
       "47-Al-Nakheel Plaza": 9,
       "48 - Jeddah Park": 19,
       "49-AlAhsa Mall": 11,
-      "50-Meem Plaza Riyadh": 2,
+      "50-Meem Plaza Riyadh": 18,
       "51-Park Avenue Riyadh": 13,
       "52-Al_Baha Mall": 10,
       "53-Al Basateen Mall": 0,
@@ -127369,8 +127162,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 15,
-      "Warehouse": 1222,
-      "warehouse riyadh": 256
+      "Warehouse": 1206,
+      "warehouse riyadh": 240
     }
   },
   {
@@ -127438,7 +127231,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 15,
-      "Warehouse": 2807,
+      "Warehouse": 2791,
       "warehouse riyadh": 768
     }
   },
@@ -127449,7 +127242,7 @@ const data = [
     "alias": "900417",
     "name": "COSTCO TUMBLERS 40OZ CHRISTMAS RED",
     "price": 49,
-    "stock": 496,
+    "stock": 480,
     "sales": 57,
     "branches": {
       "00-GIFTS": 1,
@@ -127496,7 +127289,7 @@ const data = [
       "47-Al-Nakheel Plaza": 26,
       "48 - Jeddah Park": 29,
       "49-AlAhsa Mall": 10,
-      "50-Meem Plaza Riyadh": 6,
+      "50-Meem Plaza Riyadh": 22,
       "51-Park Avenue Riyadh": 14,
       "52-Al_Baha Mall": 5,
       "53-Al Basateen Mall": 1,
@@ -127507,8 +127300,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1562,
-      "warehouse riyadh": 496
+      "Warehouse": 1546,
+      "warehouse riyadh": 480
     }
   },
   {
@@ -127576,7 +127369,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 15,
-      "Warehouse": 650,
+      "Warehouse": 634,
       "warehouse riyadh": 16
     }
   },
@@ -127587,7 +127380,7 @@ const data = [
     "alias": "900419",
     "name": "COSTCO TUMBLERS 40OZ ORANGE",
     "price": 49,
-    "stock": 368,
+    "stock": 352,
     "sales": 51,
     "branches": {
       "00-GIFTS": 0,
@@ -127634,7 +127427,7 @@ const data = [
       "47-Al-Nakheel Plaza": 28,
       "48 - Jeddah Park": 23,
       "49-AlAhsa Mall": 12,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 16,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 9,
       "53-Al Basateen Mall": 1,
@@ -127645,8 +127438,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 15,
-      "Warehouse": 1609,
-      "warehouse riyadh": 368
+      "Warehouse": 1593,
+      "warehouse riyadh": 352
     }
   },
   {
@@ -127656,13 +127449,13 @@ const data = [
     "alias": "9006-09",
     "name": "BOTTEL WATER SOLID PINK WM LEAK PROOF 20 OZ",
     "price": 29,
-    "stock": 865,
-    "sales": 435,
+    "stock": 817,
+    "sales": 439,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 17,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 15,
+      "04-Andalos Mall": 27,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 14,
       "07-Arab Mall": 34,
@@ -127680,7 +127473,7 @@ const data = [
       "20-Sitten Street Makkah": 7,
       "21-Abha Al_Rashid Mall New": 10,
       "22-Tabuk Park": 11,
-      "23-Alia Mall Madinah": 14,
+      "23-Alia Mall Madinah": 13,
       "24-Yanbu Dana Mall": 7,
       "25-Rabwa Othaim Mall": 3,
       "26-Al-Noor Mall Madinah": 20,
@@ -127698,7 +127491,7 @@ const data = [
       "42-Dareen Mall Dammam": 15,
       "43-Mujan Park": 20,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 6,
+      "45- Riyadh Gallery Mall": 18,
       "46-Khaleej Mall Riyadh": 10,
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 12,
@@ -127708,14 +127501,14 @@ const data = [
       "52-Al_Baha Mall": 8,
       "53-Al Basateen Mall": 3,
       "54-THE VILLAGE": 7,
-      "55- Jabl Omar": 39,
+      "55- Jabl Omar": 36,
       "56- Aziz Mall 2": 21,
       "57-Sauq7": 11,
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2196,
-      "warehouse riyadh": 865
+      "Warehouse": 2184,
+      "warehouse riyadh": 817
     }
   },
   {
@@ -127725,7 +127518,7 @@ const data = [
     "alias": "9006-10",
     "name": "BOTTEL WATER SOLID NAVY WM LEAK PROOF 20 OZ",
     "price": 29,
-    "stock": 709,
+    "stock": 673,
     "sales": 362,
     "branches": {
       "00-GIFTS": 1,
@@ -127783,8 +127576,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1799,
-      "warehouse riyadh": 709
+      "Warehouse": 1787,
+      "warehouse riyadh": 673
     }
   },
   {
@@ -127794,7 +127587,7 @@ const data = [
     "alias": "9006-12",
     "name": "BOTTEL WATER PRINT BLUE WM LEAK PROOF  20 OZ",
     "price": 29,
-    "stock": 636,
+    "stock": 624,
     "sales": 142,
     "branches": {
       "00-GIFTS": 3,
@@ -127853,7 +127646,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 3368,
-      "warehouse riyadh": 636
+      "warehouse riyadh": 624
     }
   },
   {
@@ -127863,7 +127656,7 @@ const data = [
     "alias": "9006-13",
     "name": "BOTTEL WATER PRINT RAINBOW WM LEAK PROOF 20 OZ",
     "price": 29,
-    "stock": 1776,
+    "stock": 1764,
     "sales": 88,
     "branches": {
       "00-GIFTS": 2,
@@ -127922,7 +127715,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 49,
       "Warehouse": 4731,
-      "warehouse riyadh": 1776
+      "warehouse riyadh": 1764
     }
   },
   {
@@ -127938,7 +127731,7 @@ const data = [
       "00-GIFTS": 4,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 7,
+      "04-Andalos Mall": 19,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 39,
       "07-Arab Mall": 27,
@@ -127990,7 +127783,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 5350,
+      "Warehouse": 5338,
       "warehouse riyadh": 2076
     }
   },
@@ -128070,7 +127863,7 @@ const data = [
     "alias": "9005-13",
     "name": "TUMBER WITH STRAW PRINT RAINBOW WM 24 OZ",
     "price": 29,
-    "stock": 408,
+    "stock": 396,
     "sales": 48,
     "branches": {
       "00-GIFTS": 2,
@@ -128129,7 +127922,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 15,
       "Warehouse": 1063,
-      "warehouse riyadh": 408
+      "warehouse riyadh": 396
     }
   },
   {
@@ -131038,7 +130831,7 @@ const data = [
     "name": "BE-78 MAN SLIPPER WHITE 44/45",
     "price": 29,
     "stock": 1,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -131057,7 +130850,7 @@ const data = [
       "16-Ehsa Othaim Mall": 1,
       "17-Arar Othaim Mall": 0,
       "18-Al_Khayyat Center": 0,
-      "19-Hail Othaim Mall": 6,
+      "19-Hail Othaim Mall": 5,
       "20-Sitten Street Makkah": 0,
       "21-Abha Al_Rashid Mall New": 0,
       "22-Tabuk Park": 0,
@@ -131934,8 +131727,8 @@ const data = [
     "alias": "95629140",
     "name": "BE-83 MAN SLIPPER YELLOW 40/41",
     "price": 19,
-    "stock": 28,
-    "sales": 3,
+    "stock": 26,
+    "sales": 4,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 2,
@@ -131966,7 +131759,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 1,
       "29-Al Nakheel Mall Riyadh": 0,
       "30-Tala Mall Riyadh": 0,
-      "32-Atyaf Mall Riyadh": 2,
+      "32-Atyaf Mall Riyadh": 1,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 0,
       "38-Al_Riyadh Park": 1,
@@ -131993,7 +131786,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 28
+      "warehouse riyadh": 26
     }
   },
   {
@@ -132003,7 +131796,7 @@ const data = [
     "alias": "95629142",
     "name": "BE-83 MAN SLIPPER YELLOW 42/43",
     "price": 19,
-    "stock": 112,
+    "stock": 104,
     "sales": 9,
     "branches": {
       "00-GIFTS": 0,
@@ -132062,7 +131855,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 112
+      "warehouse riyadh": 104
     }
   },
   {
@@ -132072,7 +131865,7 @@ const data = [
     "alias": "95629144",
     "name": "BE-83 MAN SLIPPER YELLOW 44/45",
     "price": 19,
-    "stock": 112,
+    "stock": 104,
     "sales": 8,
     "branches": {
       "00-GIFTS": 0,
@@ -132131,7 +131924,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 112
+      "warehouse riyadh": 104
     }
   },
   {
@@ -140893,7 +140686,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 352,
+      "Warehouse": 336,
       "warehouse riyadh": 352
     }
   },
@@ -140962,7 +140755,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 352,
+      "Warehouse": 336,
       "warehouse riyadh": 352
     }
   },
@@ -141031,7 +140824,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 176,
+      "Warehouse": 168,
       "warehouse riyadh": 176
     }
   },
@@ -143664,7 +143457,7 @@ const data = [
     "alias": "926228",
     "name": "SUPER SOFT OIL PAINTING FLORA THROW",
     "price": 39,
-    "stock": 50,
+    "stock": 30,
     "sales": 37,
     "branches": {
       "00-GIFTS": 0,
@@ -143706,7 +143499,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 3,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 10,
       "46-Khaleej Mall Riyadh": 6,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 0,
@@ -143723,7 +143516,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 34,
       "Warehouse": 0,
-      "warehouse riyadh": 50
+      "warehouse riyadh": 30
     }
   },
   {
@@ -143733,7 +143526,7 @@ const data = [
     "alias": "926229",
     "name": "THROW SUPER SOFT COLOERFUL BOWS",
     "price": 39,
-    "stock": 1290,
+    "stock": 1280,
     "sales": 35,
     "branches": {
       "00-GIFTS": 1,
@@ -143791,8 +143584,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 48,
-      "Warehouse": 1007,
-      "warehouse riyadh": 1290
+      "Warehouse": 997,
+      "warehouse riyadh": 1280
     }
   },
   {
@@ -143871,7 +143664,7 @@ const data = [
     "alias": "926234",
     "name": "SUPER SOFT MARBLING THROW",
     "price": 39,
-    "stock": 400,
+    "stock": 390,
     "sales": 82,
     "branches": {
       "00-GIFTS": 0,
@@ -143930,7 +143723,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 51,
       "Warehouse": 136,
-      "warehouse riyadh": 400
+      "warehouse riyadh": 390
     }
   },
   {
@@ -143998,7 +143791,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 49,
-      "Warehouse": 942,
+      "Warehouse": 932,
       "warehouse riyadh": 1060
     }
   },
@@ -144009,7 +143802,7 @@ const data = [
     "alias": "926236",
     "name": "THROW SUPER SOFT CHERRY",
     "price": 39,
-    "stock": 1230,
+    "stock": 1210,
     "sales": 60,
     "branches": {
       "00-GIFTS": 0,
@@ -144051,7 +143844,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 8,
       "44-Al-Jouf Center": 2,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 10,
       "46-Khaleej Mall Riyadh": 8,
       "47-Al-Nakheel Plaza": 1,
       "48 - Jeddah Park": 9,
@@ -144068,7 +143861,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
       "Warehouse": 871,
-      "warehouse riyadh": 1230
+      "warehouse riyadh": 1210
     }
   },
   {
@@ -144274,7 +144067,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1474,
+      "Warehouse": 1464,
       "warehouse riyadh": 1700
     }
   },
@@ -144285,7 +144078,7 @@ const data = [
     "alias": "989115",
     "name": "THROW SOLID VELVETLOFT ORCHID BLOOM 60*70",
     "price": 39,
-    "stock": 2910,
+    "stock": 2900,
     "sales": 35,
     "branches": {
       "00-GIFTS": 0,
@@ -144344,7 +144137,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 3618,
-      "warehouse riyadh": 2910
+      "warehouse riyadh": 2900
     }
   },
   {
@@ -144354,7 +144147,7 @@ const data = [
     "alias": "989112",
     "name": "THROW SOLID VELVETLOFT STARGAZER 60*70",
     "price": 39,
-    "stock": 2400,
+    "stock": 2390,
     "sales": 85,
     "branches": {
       "00-GIFTS": 1,
@@ -144412,8 +144205,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2752,
-      "warehouse riyadh": 2400
+      "Warehouse": 2742,
+      "warehouse riyadh": 2390
     }
   },
   {
@@ -144429,7 +144222,7 @@ const data = [
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 5,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 14,
       "07-Arab Mall": 22,
@@ -144481,7 +144274,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 3193,
+      "Warehouse": 3173,
       "warehouse riyadh": 2570
     }
   },
@@ -144498,7 +144291,7 @@ const data = [
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 5,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 13,
       "07-Arab Mall": 10,
@@ -144550,7 +144343,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2334,
+      "Warehouse": 2304,
       "warehouse riyadh": 2140
     }
   },
@@ -144630,7 +144423,7 @@ const data = [
     "alias": "926239",
     "name": "THROW SUPER SOFT FOOTBALL STRIPE",
     "price": 39,
-    "stock": 1650,
+    "stock": 1620,
     "sales": 182,
     "branches": {
       "00-GIFTS": 0,
@@ -144688,8 +144481,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1191,
-      "warehouse riyadh": 1650
+      "Warehouse": 1161,
+      "warehouse riyadh": 1620
     }
   },
   {
@@ -144700,7 +144493,7 @@ const data = [
     "name": "THROW SUPER SOFT DOT STRIPE",
     "price": 39,
     "stock": 2050,
-    "sales": 90,
+    "sales": 91,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -144757,7 +144550,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1761,
+      "Warehouse": 1750,
       "warehouse riyadh": 2050
     }
   },
@@ -144826,7 +144619,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1885,
+      "Warehouse": 1875,
       "warehouse riyadh": 2160
     }
   },
@@ -144837,7 +144630,7 @@ const data = [
     "alias": "926257",
     "name": "THROW SUPER SOFT PINK STRIPE",
     "price": 39,
-    "stock": 2080,
+    "stock": 2070,
     "sales": 71,
     "branches": {
       "00-GIFTS": 0,
@@ -144895,8 +144688,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1840,
-      "warehouse riyadh": 2080
+      "Warehouse": 1830,
+      "warehouse riyadh": 2070
     }
   },
   {
@@ -144975,7 +144768,7 @@ const data = [
     "alias": "926252",
     "name": "THROW SUPER SOFT CARTOON CARNATION STRIPE",
     "price": 39,
-    "stock": 1920,
+    "stock": 1900,
     "sales": 151,
     "branches": {
       "00-GIFTS": 0,
@@ -145033,8 +144826,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1414,
-      "warehouse riyadh": 1920
+      "Warehouse": 1404,
+      "warehouse riyadh": 1900
     }
   },
   {
@@ -145044,7 +144837,7 @@ const data = [
     "alias": "926244",
     "name": "THROW SUPER SOFT MORDEN STRIPE",
     "price": 39,
-    "stock": 2050,
+    "stock": 2040,
     "sales": 128,
     "branches": {
       "00-GIFTS": 0,
@@ -145103,7 +144896,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1512,
-      "warehouse riyadh": 2050
+      "warehouse riyadh": 2040
     }
   },
   {
@@ -145113,7 +144906,7 @@ const data = [
     "alias": "926245",
     "name": "THROW SUPER SOFT PURPLE FLORA-2 STRIPE",
     "price": 39,
-    "stock": 1890,
+    "stock": 1880,
     "sales": 132,
     "branches": {
       "00-GIFTS": 0,
@@ -145172,7 +144965,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1536,
-      "warehouse riyadh": 1890
+      "warehouse riyadh": 1880
     }
   },
   {
@@ -145182,7 +144975,7 @@ const data = [
     "alias": "926246",
     "name": "THROW SUPER SOFT BROW BEAR STRIPE",
     "price": 39,
-    "stock": 1610,
+    "stock": 1590,
     "sales": 181,
     "branches": {
       "00-GIFTS": 0,
@@ -145197,7 +144990,7 @@ const data = [
       "11-Jouri Mall": 11,
       "12-Al_Hamra Mall": 11,
       "13-Al-Yasmin Mall": 10,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 10,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 1,
@@ -145240,8 +145033,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1042,
-      "warehouse riyadh": 1610
+      "Warehouse": 1032,
+      "warehouse riyadh": 1590
     }
   },
   {
@@ -145251,7 +145044,7 @@ const data = [
     "alias": "926247",
     "name": "THROW SUPER SOFT WATERCOLOR ROSE-2 STRIPE",
     "price": 39,
-    "stock": 1830,
+    "stock": 1810,
     "sales": 165,
     "branches": {
       "00-GIFTS": 0,
@@ -145310,7 +145103,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1409,
-      "warehouse riyadh": 1830
+      "warehouse riyadh": 1810
     }
   },
   {
@@ -145320,13 +145113,13 @@ const data = [
     "alias": "926248",
     "name": "THROW SUPER SOFT TADDY BEAR STRIPE",
     "price": 39,
-    "stock": 1530,
+    "stock": 1510,
     "sales": 193,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 5,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 11,
       "06-Red Sea Mall": 20,
       "07-Arab Mall": 4,
@@ -145335,7 +145128,7 @@ const data = [
       "11-Jouri Mall": 8,
       "12-Al_Hamra Mall": 5,
       "13-Al-Yasmin Mall": 2,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 10,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 1,
       "17-Arar Othaim Mall": 0,
@@ -145378,8 +145171,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1076,
-      "warehouse riyadh": 1530
+      "Warehouse": 1036,
+      "warehouse riyadh": 1510
     }
   },
   {
@@ -145389,13 +145182,13 @@ const data = [
     "alias": "926249",
     "name": "THROW SUPER SOFT WHITE FLORA-2 STRIPE",
     "price": 39,
-    "stock": 2121,
+    "stock": 2101,
     "sales": 61,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 6,
+      "04-Andalos Mall": 16,
       "05-Haifa Mall": 9,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 9,
@@ -145431,7 +145224,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 7,
       "44-Al-Jouf Center": 9,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 11,
       "46-Khaleej Mall Riyadh": 11,
       "47-Al-Nakheel Plaza": 18,
       "48 - Jeddah Park": 15,
@@ -145447,8 +145240,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1967,
-      "warehouse riyadh": 2121
+      "Warehouse": 1957,
+      "warehouse riyadh": 2101
     }
   },
   {
@@ -145458,7 +145251,7 @@ const data = [
     "alias": "926251",
     "name": "THROW SUPER SOFT CHARCAL CARTOON STRIPE",
     "price": 39,
-    "stock": 2050,
+    "stock": 2030,
     "sales": 106,
     "branches": {
       "00-GIFTS": 0,
@@ -145500,7 +145293,7 @@ const data = [
       "42-Dareen Mall Dammam": 6,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 10,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 10,
       "46-Khaleej Mall Riyadh": 8,
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 4,
@@ -145517,7 +145310,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1653,
-      "warehouse riyadh": 2050
+      "warehouse riyadh": 2030
     }
   },
   {
@@ -145527,8 +145320,8 @@ const data = [
     "alias": "926253",
     "name": "THROW SUPER SOFT WASHED STRIPE",
     "price": 39,
-    "stock": 2180,
-    "sales": 96,
+    "stock": 2170,
+    "sales": 97,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -145585,8 +145378,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1728,
-      "warehouse riyadh": 2180
+      "Warehouse": 1727,
+      "warehouse riyadh": 2170
     }
   },
   {
@@ -145597,12 +145390,12 @@ const data = [
     "name": "THROW SUPER SOFT NAVY WEAVE STRIPE",
     "price": 39,
     "stock": 1990,
-    "sales": 104,
+    "sales": 105,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 10,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 5,
       "07-Arab Mall": 4,
@@ -145654,7 +145447,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1634,
+      "Warehouse": 1603,
       "warehouse riyadh": 1990
     }
   },
@@ -145665,7 +145458,7 @@ const data = [
     "alias": "926255",
     "name": "THROW SUPER SOFT BOWKNOT STRIPE",
     "price": 39,
-    "stock": 2020,
+    "stock": 2000,
     "sales": 95,
     "branches": {
       "00-GIFTS": 0,
@@ -145724,7 +145517,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1803,
-      "warehouse riyadh": 2020
+      "warehouse riyadh": 2000
     }
   },
   {
@@ -145734,8 +145527,8 @@ const data = [
     "alias": "926256",
     "name": "THROW SUPER SOFT PINK WATERMELON STRIPE",
     "price": 39,
-    "stock": 1670,
-    "sales": 181,
+    "stock": 1650,
+    "sales": 182,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -145743,7 +145536,7 @@ const data = [
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 18,
-      "07-Arab Mall": 7,
+      "07-Arab Mall": 6,
       "08-Makkah Mall": 10,
       "09-Al-Salam Mall": 1,
       "11-Jouri Mall": 5,
@@ -145776,7 +145569,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 10,
       "44-Al-Jouf Center": 3,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 11,
       "46-Khaleej Mall Riyadh": 10,
       "47-Al-Nakheel Plaza": 14,
       "48 - Jeddah Park": 13,
@@ -145793,7 +145586,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1186,
-      "warehouse riyadh": 1670
+      "warehouse riyadh": 1650
     }
   },
   {
@@ -145803,7 +145596,7 @@ const data = [
     "alias": "926242",
     "name": "THROW SUPER SOFT BROWN STIPE",
     "price": 39,
-    "stock": 2070,
+    "stock": 2050,
     "sales": 154,
     "branches": {
       "00-GIFTS": 0,
@@ -145862,7 +145655,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1900,
-      "warehouse riyadh": 2070
+      "warehouse riyadh": 2050
     }
   },
   {
@@ -146148,7 +145941,7 @@ const data = [
     "alias": "607601",
     "name": "SHEET KING WHITE 300 STITCH 4PCS",
     "price": 219,
-    "stock": 3586,
+    "stock": 3582,
     "sales": 64,
     "branches": {
       "00-GIFTS": 9,
@@ -146207,7 +146000,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 21,
       "Warehouse": 3338,
-      "warehouse riyadh": 3586
+      "warehouse riyadh": 3582
     }
   },
   {
@@ -146286,7 +146079,7 @@ const data = [
     "alias": "607701",
     "name": "SHEET KING WHITE 300 STITCH 3PCS",
     "price": 129,
-    "stock": 18748,
+    "stock": 18718,
     "sales": 189,
     "branches": {
       "00-GIFTS": 19,
@@ -146333,7 +146126,7 @@ const data = [
       "47-Al-Nakheel Plaza": 11,
       "48 - Jeddah Park": 42,
       "49-AlAhsa Mall": 14,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 23,
       "51-Park Avenue Riyadh": 13,
       "52-Al_Baha Mall": 12,
       "53-Al Basateen Mall": 4,
@@ -146344,8 +146137,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
-      "Warehouse": 24233,
-      "warehouse riyadh": 18748
+      "Warehouse": 24223,
+      "warehouse riyadh": 18718
     }
   },
   {
@@ -146355,7 +146148,7 @@ const data = [
     "alias": "607709",
     "name": "SHEET KING PINK 300 STITCH 3PCS",
     "price": 129,
-    "stock": 1430,
+    "stock": 1410,
     "sales": 91,
     "branches": {
       "00-GIFTS": 0,
@@ -146413,8 +146206,8 @@ const data = [
       "Abha Al_Rashid Mall": 10,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 48,
-      "Warehouse": 1310,
-      "warehouse riyadh": 1430
+      "Warehouse": 1300,
+      "warehouse riyadh": 1410
     }
   },
   {
@@ -146562,7 +146355,7 @@ const data = [
     "alias": "607723",
     "name": "SHEET KING STERLNG BLUE 300 STITCH 3PCS",
     "price": 129,
-    "stock": 1730,
+    "stock": 1720,
     "sales": 56,
     "branches": {
       "00-GIFTS": 1,
@@ -146620,8 +146413,8 @@ const data = [
       "Abha Al_Rashid Mall": 34,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 47,
-      "Warehouse": 1398,
-      "warehouse riyadh": 1730
+      "Warehouse": 1388,
+      "warehouse riyadh": 1720
     }
   },
   {
@@ -146700,7 +146493,7 @@ const data = [
     "alias": "607729",
     "name": "SHEET KING GREY 300 STITCH 3PCS",
     "price": 129,
-    "stock": 6560,
+    "stock": 6550,
     "sales": 62,
     "branches": {
       "00-GIFTS": 0,
@@ -146758,8 +146551,8 @@ const data = [
       "Abha Al_Rashid Mall": 22,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
-      "Warehouse": 2663,
-      "warehouse riyadh": 6560
+      "Warehouse": 2653,
+      "warehouse riyadh": 6550
     }
   },
   {
@@ -146769,7 +146562,7 @@ const data = [
     "alias": "607725",
     "name": "SHEET KING L. MARBLE 300 STITCH 3PCS",
     "price": 129,
-    "stock": 2220,
+    "stock": 2210,
     "sales": 88,
     "branches": {
       "00-GIFTS": 1,
@@ -146828,7 +146621,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 47,
       "Warehouse": 622,
-      "warehouse riyadh": 2220
+      "warehouse riyadh": 2210
     }
   },
   {
@@ -146838,7 +146631,7 @@ const data = [
     "alias": "607730",
     "name": "SHEET KING PLATINUM GREY 300 STITCH 3PCS",
     "price": 129,
-    "stock": 2830,
+    "stock": 2820,
     "sales": 156,
     "branches": {
       "00-GIFTS": 1,
@@ -146896,8 +146689,8 @@ const data = [
       "Abha Al_Rashid Mall": 66,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 44,
-      "Warehouse": 2481,
-      "warehouse riyadh": 2830
+      "Warehouse": 2471,
+      "warehouse riyadh": 2820
     }
   },
   {
@@ -146907,7 +146700,7 @@ const data = [
     "alias": "607732",
     "name": "SHEET KING OFF WHITE 300 STITCH 3PCS",
     "price": 129,
-    "stock": 3016,
+    "stock": 2978,
     "sales": 111,
     "branches": {
       "00-GIFTS": 1,
@@ -146965,8 +146758,8 @@ const data = [
       "Abha Al_Rashid Mall": 14,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 39,
-      "Warehouse": 12235,
-      "warehouse riyadh": 3016
+      "Warehouse": 12225,
+      "warehouse riyadh": 2978
     }
   },
   {
@@ -146976,7 +146769,7 @@ const data = [
     "alias": "607733",
     "name": "SHEET KING HEATHER GREY 300 STITCH 3PCS",
     "price": 129,
-    "stock": 1370,
+    "stock": 1360,
     "sales": 83,
     "branches": {
       "00-GIFTS": 0,
@@ -147018,7 +146811,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 9,
       "44-Al-Jouf Center": 10,
-      "45- Riyadh Gallery Mall": 3,
+      "45- Riyadh Gallery Mall": 13,
       "46-Khaleej Mall Riyadh": 19,
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 14,
@@ -147035,7 +146828,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
       "Warehouse": 927,
-      "warehouse riyadh": 1370
+      "warehouse riyadh": 1360
     }
   },
   {
@@ -147172,7 +146965,7 @@ const data = [
       "Abha Al_Rashid Mall": 16,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 19,
-      "Warehouse": 1470,
+      "Warehouse": 1460,
       "warehouse riyadh": 1726
     }
   },
@@ -147459,7 +147252,7 @@ const data = [
     "alias": "607611",
     "name": "SHEET KING HEATHER 300 STITCH 4PCS",
     "price": 219,
-    "stock": 92,
+    "stock": 88,
     "sales": 6,
     "branches": {
       "00-GIFTS": 0,
@@ -147518,7 +147311,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 21,
       "Warehouse": 3,
-      "warehouse riyadh": 92
+      "warehouse riyadh": 88
     }
   },
   {
@@ -147597,7 +147390,7 @@ const data = [
     "alias": "607614",
     "name": "SHEET KING GREY 300 STITCH 4PCS",
     "price": 219,
-    "stock": 1576,
+    "stock": 1572,
     "sales": 8,
     "branches": {
       "00-GIFTS": 1,
@@ -147656,7 +147449,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 47,
       "Warehouse": 1360,
-      "warehouse riyadh": 1576
+      "warehouse riyadh": 1572
     }
   },
   {
@@ -147666,7 +147459,7 @@ const data = [
     "alias": "607616",
     "name": "SHEET KING BURGANDY 300 STITCH 4PCS",
     "price": 219,
-    "stock": 340,
+    "stock": 336,
     "sales": 7,
     "branches": {
       "00-GIFTS": 0,
@@ -147725,7 +147518,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 21,
       "Warehouse": 90,
-      "warehouse riyadh": 340
+      "warehouse riyadh": 336
     }
   },
   {
@@ -147942,7 +147735,7 @@ const data = [
     "alias": "607622",
     "name": "SHEET KING MARSHMALLOW 300 STITCH 4PCS",
     "price": 219,
-    "stock": 1292,
+    "stock": 1288,
     "sales": 13,
     "branches": {
       "00-GIFTS": 0,
@@ -148001,7 +147794,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 1000,
-      "warehouse riyadh": 1292
+      "warehouse riyadh": 1288
     }
   },
   {
@@ -148011,7 +147804,7 @@ const data = [
     "alias": "619404",
     "name": "SHEET QUEEN MARSHMELLOW 300 STITCH 3PCS",
     "price": 89,
-    "stock": 1188,
+    "stock": 1182,
     "sales": 43,
     "branches": {
       "00-GIFTS": 0,
@@ -148069,8 +147862,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 23,
-      "Warehouse": 691,
-      "warehouse riyadh": 1188
+      "Warehouse": 679,
+      "warehouse riyadh": 1182
     }
   },
   {
@@ -148080,7 +147873,7 @@ const data = [
     "alias": "608909",
     "name": "SHEET FULL PINK 300 STITCH 3PCS",
     "price": 89,
-    "stock": 433,
+    "stock": 427,
     "sales": 39,
     "branches": {
       "00-GIFTS": 0,
@@ -148139,7 +147932,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 12,
       "Warehouse": 9,
-      "warehouse riyadh": 433
+      "warehouse riyadh": 427
     }
   },
   {
@@ -148287,7 +148080,7 @@ const data = [
     "alias": "608902",
     "name": "SHEET FULL OFF WHITE 300 STITCH 3PCS",
     "price": 89,
-    "stock": 1612,
+    "stock": 1594,
     "sales": 231,
     "branches": {
       "00-GIFTS": 1,
@@ -148334,7 +148127,7 @@ const data = [
       "47-Al-Nakheel Plaza": 9,
       "48 - Jeddah Park": 4,
       "49-AlAhsa Mall": 14,
-      "50-Meem Plaza Riyadh": 9,
+      "50-Meem Plaza Riyadh": 21,
       "51-Park Avenue Riyadh": 9,
       "52-Al_Baha Mall": 10,
       "53-Al Basateen Mall": 8,
@@ -148346,7 +148139,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 0,
-      "warehouse riyadh": 1612
+      "warehouse riyadh": 1594
     }
   },
   {
@@ -148770,7 +148563,7 @@ const data = [
     "alias": "622701",
     "name": "SHEET KING JACQUARD 300 STITCH 4PCS WHITE STYLE1",
     "price": 245,
-    "stock": 84,
+    "stock": 72,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
@@ -148812,7 +148605,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 3,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 8,
       "46-Khaleej Mall Riyadh": 5,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 0,
@@ -148828,8 +148621,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 76,
-      "warehouse riyadh": 84
+      "Warehouse": 72,
+      "warehouse riyadh": 72
     }
   },
   {
@@ -148839,7 +148632,7 @@ const data = [
     "alias": "622705",
     "name": "SHEET KING JACQUARD 300 STITCH 4PCS WHITE STYLE5",
     "price": 245,
-    "stock": 116,
+    "stock": 108,
     "sales": 1,
     "branches": {
       "00-GIFTS": 0,
@@ -148881,7 +148674,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 5,
@@ -148897,8 +148690,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 112,
-      "warehouse riyadh": 116
+      "Warehouse": 108,
+      "warehouse riyadh": 108
     }
   },
   {
@@ -148908,7 +148701,7 @@ const data = [
     "alias": "622801",
     "name": "SHEET KING SATEEN SOLID 300 STITCH 4PCS WHITE STYLE6",
     "price": 245,
-    "stock": 820,
+    "stock": 812,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
@@ -148950,7 +148743,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 0,
@@ -148967,7 +148760,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 852,
-      "warehouse riyadh": 820
+      "warehouse riyadh": 812
     }
   },
   {
@@ -148977,7 +148770,7 @@ const data = [
     "alias": "622602",
     "name": "SHEET KING SATEEN STRIPE 300 STITCH 4PCS WHITE STYLE9",
     "price": 245,
-    "stock": 124,
+    "stock": 116,
     "sales": 1,
     "branches": {
       "00-GIFTS": 0,
@@ -149019,7 +148812,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 6,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 5,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 4,
@@ -149035,8 +148828,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 144,
-      "warehouse riyadh": 124
+      "Warehouse": 140,
+      "warehouse riyadh": 116
     }
   },
   {
@@ -149046,7 +148839,7 @@ const data = [
     "alias": "622604",
     "name": "SHEET KING SATEEN STRIPE 300 STITCH 4PCS WHITE STYLE12",
     "price": 245,
-    "stock": 392,
+    "stock": 384,
     "sales": 1,
     "branches": {
       "00-GIFTS": 0,
@@ -149088,7 +148881,7 @@ const data = [
       "42-Dareen Mall Dammam": 0,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 3,
@@ -149105,7 +148898,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 364,
-      "warehouse riyadh": 392
+      "warehouse riyadh": 384
     }
   },
   {
@@ -149391,7 +149184,7 @@ const data = [
     "alias": "623503",
     "name": "SHEET KING DITSY FLORAL GREEN ALLOVER 400 STITCH 4PCS",
     "price": 249,
-    "stock": 48,
+    "stock": 39,
     "sales": 8,
     "branches": {
       "00-GIFTS": 1,
@@ -149450,7 +149243,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 48
+      "warehouse riyadh": 39
     }
   },
   {
@@ -149736,7 +149529,7 @@ const data = [
     "alias": "624805",
     "name": "SHEET TWIN KIDS UNICORN BUSTS 3PCS",
     "price": 49,
-    "stock": 540,
+    "stock": 528,
     "sales": 14,
     "branches": {
       "00-GIFTS": 0,
@@ -149795,7 +149588,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 52,
       "Warehouse": 393,
-      "warehouse riyadh": 540
+      "warehouse riyadh": 528
     }
   },
   {
@@ -149805,7 +149598,7 @@ const data = [
     "alias": "607623",
     "name": "SHEET KING PRISTINE OFF WHITE 300 STITCH 4PCS",
     "price": 219,
-    "stock": 1704,
+    "stock": 1700,
     "sales": 18,
     "branches": {
       "00-GIFTS": 0,
@@ -149864,7 +149657,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 52,
       "Warehouse": 1599,
-      "warehouse riyadh": 1704
+      "warehouse riyadh": 1700
     }
   },
   {
@@ -149874,7 +149667,7 @@ const data = [
     "alias": "607624",
     "name": "SHEET KING SPEED PEARL LINEN 300 STITCH 4PCS",
     "price": 219,
-    "stock": 544,
+    "stock": 532,
     "sales": 13,
     "branches": {
       "00-GIFTS": 0,
@@ -149921,7 +149714,7 @@ const data = [
       "47-Al-Nakheel Plaza": 1,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 2,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 3,
@@ -149933,7 +149726,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 372,
-      "warehouse riyadh": 544
+      "warehouse riyadh": 532
     }
   },
   {
@@ -150081,7 +149874,7 @@ const data = [
     "alias": "607740",
     "name": "SHEET KING SPEED PEARL LINEN 300 STITCH 3PCS",
     "price": 129,
-    "stock": 1220,
+    "stock": 1200,
     "sales": 87,
     "branches": {
       "00-GIFTS": 0,
@@ -150140,7 +149933,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 942,
-      "warehouse riyadh": 1220
+      "warehouse riyadh": 1200
     }
   },
   {
@@ -150357,7 +150150,7 @@ const data = [
     "alias": "620601",
     "name": "SHEET KING WHITE 800 STITCH 4PCS",
     "price": 495,
-    "stock": 88,
+    "stock": 80,
     "sales": 25,
     "branches": {
       "00-GIFTS": 1,
@@ -150399,12 +150192,12 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 3,
+      "45- Riyadh Gallery Mall": 7,
       "46-Khaleej Mall Riyadh": 2,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 12,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 25,
+      "50-Meem Plaza Riyadh": 29,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 11,
@@ -150416,7 +150209,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 52,
       "Warehouse": 596,
-      "warehouse riyadh": 88
+      "warehouse riyadh": 80
     }
   },
   {
@@ -151185,7 +150978,7 @@ const data = [
     "alias": "441102",
     "name": "*COMFORTER KING BAROCK GOLD 11 PCS KIT",
     "price": 895,
-    "stock": 112,
+    "stock": 110,
     "sales": 31,
     "branches": {
       "00-GIFTS": 0,
@@ -151243,8 +151036,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 32,
-      "warehouse riyadh": 112
+      "Warehouse": 28,
+      "warehouse riyadh": 110
     }
   },
   {
@@ -151392,7 +151185,7 @@ const data = [
     "alias": "9607",
     "name": "PILLOW ALERNATIVE DOWN SHAM EURO",
     "price": 99,
-    "stock": 1380,
+    "stock": 1368,
     "sales": 262,
     "branches": {
       "00-GIFTS": 0,
@@ -151439,7 +151232,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 13,
       "49-AlAhsa Mall": 16,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 16,
       "51-Park Avenue Riyadh": 18,
       "52-Al_Baha Mall": 12,
       "53-Al Basateen Mall": 11,
@@ -151451,7 +151244,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1236,
-      "warehouse riyadh": 1380
+      "warehouse riyadh": 1368
     }
   },
   {
@@ -151461,13 +151254,13 @@ const data = [
     "alias": "502608",
     "name": "BLANKET FULL PORCINI 66*90",
     "price": 79,
-    "stock": 1636,
+    "stock": 1632,
     "sales": 68,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 11,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 4,
       "07-Arab Mall": 9,
@@ -151476,7 +151269,7 @@ const data = [
       "11-Jouri Mall": 2,
       "12-Al_Hamra Mall": 12,
       "13-Al-Yasmin Mall": 2,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 5,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 3,
       "17-Arar Othaim Mall": 4,
@@ -151503,7 +151296,7 @@ const data = [
       "42-Dareen Mall Dammam": 4,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 3,
+      "45- Riyadh Gallery Mall": 7,
       "46-Khaleej Mall Riyadh": 3,
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 9,
@@ -151519,8 +151312,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1584,
-      "warehouse riyadh": 1636
+      "Warehouse": 1576,
+      "warehouse riyadh": 1632
     }
   },
   {
@@ -151530,13 +151323,13 @@ const data = [
     "alias": "502609",
     "name": "BLANKET FULL FIRE PIT COMFY 66*90",
     "price": 79,
-    "stock": 1644,
+    "stock": 1640,
     "sales": 97,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 10,
+      "04-Andalos Mall": 14,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 4,
@@ -151545,7 +151338,7 @@ const data = [
       "11-Jouri Mall": 4,
       "12-Al_Hamra Mall": 6,
       "13-Al-Yasmin Mall": 2,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 5,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 6,
       "17-Arar Othaim Mall": 4,
@@ -151572,7 +151365,7 @@ const data = [
       "42-Dareen Mall Dammam": 4,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 2,
+      "45- Riyadh Gallery Mall": 6,
       "46-Khaleej Mall Riyadh": 1,
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 6,
@@ -151588,8 +151381,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1568,
-      "warehouse riyadh": 1644
+      "Warehouse": 1556,
+      "warehouse riyadh": 1640
     }
   },
   {
@@ -151599,13 +151392,13 @@ const data = [
     "alias": "502610",
     "name": "BLANKET FULL LAMENT BLUE COMFY 66*90",
     "price": 79,
-    "stock": 1648,
+    "stock": 1644,
     "sales": 46,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 10,
+      "04-Andalos Mall": 14,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 10,
@@ -151614,7 +151407,7 @@ const data = [
       "11-Jouri Mall": 3,
       "12-Al_Hamra Mall": 7,
       "13-Al-Yasmin Mall": 2,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 6,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 7,
       "17-Arar Othaim Mall": 4,
@@ -151646,7 +151439,7 @@ const data = [
       "47-Al-Nakheel Plaza": 8,
       "48 - Jeddah Park": 10,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 8,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 4,
       "53-Al Basateen Mall": 3,
@@ -151657,8 +151450,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1575,
-      "warehouse riyadh": 1648
+      "Warehouse": 1559,
+      "warehouse riyadh": 1644
     }
   },
   {
@@ -153807,13 +153600,13 @@ const data = [
     "alias": "502611",
     "name": "BLANKET FULL FARMHOUSE SAGE COMFY 66*90",
     "price": 79,
-    "stock": 1644,
+    "stock": 1636,
     "sales": 105,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 8,
+      "04-Andalos Mall": 12,
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 6,
@@ -153849,12 +153642,12 @@ const data = [
       "42-Dareen Mall Dammam": 4,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 5,
       "46-Khaleej Mall Riyadh": 0,
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 2,
@@ -153865,8 +153658,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 529,
-      "warehouse riyadh": 1644
+      "Warehouse": 525,
+      "warehouse riyadh": 1636
     }
   },
   {
@@ -153876,7 +153669,7 @@ const data = [
     "alias": "958231",
     "name": "BATH ROBE PINK ROSE XS/S",
     "price": 99,
-    "stock": 156,
+    "stock": 120,
     "sales": 4,
     "branches": {
       "00-GIFTS": 0,
@@ -153923,7 +153716,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -153935,7 +153728,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 90,
-      "warehouse riyadh": 156
+      "warehouse riyadh": 120
     }
   },
   {
@@ -153945,7 +153738,7 @@ const data = [
     "alias": "958232",
     "name": "BATH ROBE BLUE LIGHT XS/S",
     "price": 99,
-    "stock": 246,
+    "stock": 210,
     "sales": 1,
     "branches": {
       "00-GIFTS": 0,
@@ -153992,7 +153785,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -154004,7 +153797,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 180,
-      "warehouse riyadh": 246
+      "warehouse riyadh": 210
     }
   },
   {
@@ -154014,7 +153807,7 @@ const data = [
     "alias": "958233",
     "name": "BATH ROBE BLACK RICH XS/S",
     "price": 99,
-    "stock": 150,
+    "stock": 119,
     "sales": 1,
     "branches": {
       "00-GIFTS": 0,
@@ -154061,7 +153854,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -154073,7 +153866,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 90,
-      "warehouse riyadh": 150
+      "warehouse riyadh": 119
     }
   },
   {
@@ -154083,7 +153876,7 @@ const data = [
     "alias": "916831",
     "name": "BATH ROBE ROSE PINK S/M",
     "price": 99,
-    "stock": 174,
+    "stock": 138,
     "sales": 18,
     "branches": {
       "00-GIFTS": 0,
@@ -154130,7 +153923,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 10,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 3,
@@ -154142,7 +153935,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 84,
-      "warehouse riyadh": 174
+      "warehouse riyadh": 138
     }
   },
   {
@@ -154152,7 +153945,7 @@ const data = [
     "alias": "916833",
     "name": "BATH ROBE BLACK RICH S/M",
     "price": 99,
-    "stock": 186,
+    "stock": 138,
     "sales": 10,
     "branches": {
       "00-GIFTS": 0,
@@ -154199,7 +153992,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 11,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 3,
@@ -154211,7 +154004,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 84,
-      "warehouse riyadh": 186
+      "warehouse riyadh": 138
     }
   },
   {
@@ -154221,7 +154014,7 @@ const data = [
     "alias": "916832",
     "name": "BATH ROBE BLUE LIGHT S/M",
     "price": 99,
-    "stock": 606,
+    "stock": 576,
     "sales": 19,
     "branches": {
       "00-GIFTS": 0,
@@ -154268,7 +154061,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 13,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 3,
@@ -154280,7 +154073,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 510,
-      "warehouse riyadh": 606
+      "warehouse riyadh": 576
     }
   },
   {
@@ -154290,13 +154083,13 @@ const data = [
     "alias": "817302",
     "name": "BATH MAT TUFTED LT.GREY",
     "price": 19,
-    "stock": 1076,
+    "stock": 1048,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 24,
       "07-Arab Mall": 0,
@@ -154305,7 +154098,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 8,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -154337,7 +154130,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -154348,8 +154141,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1536,
-      "warehouse riyadh": 1076
+      "Warehouse": 1340,
+      "warehouse riyadh": 1048
     }
   },
   {
@@ -154359,13 +154152,13 @@ const data = [
     "alias": "817303",
     "name": "BATH MAT TUFTED BEIGE",
     "price": 19,
-    "stock": 1076,
+    "stock": 1048,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 24,
       "07-Arab Mall": 0,
@@ -154374,7 +154167,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 8,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -154406,7 +154199,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -154417,8 +154210,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1536,
-      "warehouse riyadh": 1076
+      "Warehouse": 1340,
+      "warehouse riyadh": 1048
     }
   },
   {
@@ -154428,13 +154221,13 @@ const data = [
     "alias": "817304",
     "name": "BATH MAT TUFTED GREEN",
     "price": 19,
-    "stock": 476,
+    "stock": 448,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 24,
       "07-Arab Mall": 0,
@@ -154443,7 +154236,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 8,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -154475,7 +154268,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -154486,8 +154279,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2136,
-      "warehouse riyadh": 476
+      "Warehouse": 1940,
+      "warehouse riyadh": 448
     }
   },
   {
@@ -154497,13 +154290,13 @@ const data = [
     "alias": "817306",
     "name": "BATH MAT TUFTED DK.GREY",
     "price": 19,
-    "stock": 1076,
+    "stock": 1048,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 24,
       "07-Arab Mall": 0,
@@ -154512,7 +154305,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 8,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -154544,7 +154337,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -154555,8 +154348,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1536,
-      "warehouse riyadh": 1076
+      "Warehouse": 1340,
+      "warehouse riyadh": 1048
     }
   },
   {
@@ -154773,7 +154566,7 @@ const data = [
     "alias": "958302",
     "name": "FRESHENER APRIL BREEZE BLACK 500 ML",
     "price": 79,
-    "stock": 336,
+    "stock": 328,
     "sales": 27,
     "branches": {
       "00-GIFTS": 5,
@@ -154832,7 +154625,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 336
+      "warehouse riyadh": 328
     }
   },
   {
@@ -154842,7 +154635,7 @@ const data = [
     "alias": "958303",
     "name": "FRESHENER GARDEN LAVENDER BLACK 500 ML",
     "price": 79,
-    "stock": 208,
+    "stock": 200,
     "sales": 49,
     "branches": {
       "00-GIFTS": 11,
@@ -154901,7 +154694,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 800,
-      "warehouse riyadh": 208
+      "warehouse riyadh": 200
     }
   },
   {
@@ -154980,7 +154773,7 @@ const data = [
     "alias": "959301",
     "name": "FRESHENER PINK SAND WHITE 200 ML",
     "price": 39,
-    "stock": 555,
+    "stock": 540,
     "sales": 15,
     "branches": {
       "00-GIFTS": 9,
@@ -155039,7 +154832,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 343,
-      "warehouse riyadh": 555
+      "warehouse riyadh": 540
     }
   },
   {
@@ -155049,7 +154842,7 @@ const data = [
     "alias": "959801",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER BLACK CHERRY",
     "price": 39,
-    "stock": 2370,
+    "stock": 2340,
     "sales": 107,
     "branches": {
       "00-GIFTS": 37,
@@ -155108,7 +154901,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 58,
-      "warehouse riyadh": 2370
+      "warehouse riyadh": 2340
     }
   },
   {
@@ -155176,7 +154969,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 529,
+      "Warehouse": 514,
       "warehouse riyadh": 1545
     }
   },
@@ -155187,7 +154980,7 @@ const data = [
     "alias": "959803",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER VANILLA AND SANDALWOOD",
     "price": 39,
-    "stock": 840,
+    "stock": 810,
     "sales": 29,
     "branches": {
       "00-GIFTS": 36,
@@ -155234,7 +155027,7 @@ const data = [
       "47-Al-Nakheel Plaza": 6,
       "48 - Jeddah Park": 4,
       "49-AlAhsa Mall": 5,
-      "50-Meem Plaza Riyadh": 11,
+      "50-Meem Plaza Riyadh": 26,
       "51-Park Avenue Riyadh": 15,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 1,
@@ -155246,7 +155039,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 4,
-      "warehouse riyadh": 840
+      "warehouse riyadh": 810
     }
   },
   {
@@ -155256,7 +155049,7 @@ const data = [
     "alias": "959805",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER WHITE MUSK",
     "price": 39,
-    "stock": 1230,
+    "stock": 1215,
     "sales": 65,
     "branches": {
       "00-GIFTS": 26,
@@ -155315,7 +155108,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 623,
-      "warehouse riyadh": 1230
+      "warehouse riyadh": 1215
     }
   },
   {
@@ -155325,7 +155118,7 @@ const data = [
     "alias": "958305",
     "name": "FRESHENER WHITE JASMINE BLACK 500 ML",
     "price": 79,
-    "stock": 800,
+    "stock": 784,
     "sales": 55,
     "branches": {
       "00-GIFTS": 15,
@@ -155384,7 +155177,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
       "Warehouse": 39,
-      "warehouse riyadh": 800
+      "warehouse riyadh": 784
     }
   },
   {
@@ -155394,7 +155187,7 @@ const data = [
     "alias": "958306",
     "name": "FRESHENER DARK VANILLA & SANDALWOOD BLACK 500 ML",
     "price": 79,
-    "stock": 40,
+    "stock": 32,
     "sales": 50,
     "branches": {
       "00-GIFTS": 14,
@@ -155441,7 +155234,7 @@ const data = [
       "47-Al-Nakheel Plaza": 16,
       "48 - Jeddah Park": 18,
       "49-AlAhsa Mall": 8,
-      "50-Meem Plaza Riyadh": 20,
+      "50-Meem Plaza Riyadh": 28,
       "51-Park Avenue Riyadh": 11,
       "52-Al_Baha Mall": 8,
       "53-Al Basateen Mall": 7,
@@ -155453,7 +155246,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
       "Warehouse": 873,
-      "warehouse riyadh": 40
+      "warehouse riyadh": 32
     }
   },
   {
@@ -155463,7 +155256,7 @@ const data = [
     "alias": "958307",
     "name": "FRESHENER WHITE MUSK BLACK 500 ML",
     "price": 79,
-    "stock": 896,
+    "stock": 880,
     "sales": 44,
     "branches": {
       "00-GIFTS": 13,
@@ -155522,7 +155315,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
       "Warehouse": 128,
-      "warehouse riyadh": 896
+      "warehouse riyadh": 880
     }
   },
   {
@@ -155532,7 +155325,7 @@ const data = [
     "alias": "960205",
     "name": "COCODOR 500 ML ROOM SPRAY CHERRY BLOSSOM",
     "price": 39,
-    "stock": 6696,
+    "stock": 6624,
     "sales": 396,
     "branches": {
       "00-GIFTS": 24,
@@ -155574,7 +155367,7 @@ const data = [
       "42-Dareen Mall Dammam": 59,
       "43-Mujan Park": 18,
       "44-Al-Jouf Center": 18,
-      "45- Riyadh Gallery Mall": 46,
+      "45- Riyadh Gallery Mall": 64,
       "46-Khaleej Mall Riyadh": 73,
       "47-Al-Nakheel Plaza": 44,
       "48 - Jeddah Park": 3,
@@ -155591,7 +155384,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 15,
       "Warehouse": 0,
-      "warehouse riyadh": 6696
+      "warehouse riyadh": 6624
     }
   },
   {
@@ -155601,8 +155394,8 @@ const data = [
     "alias": "960203",
     "name": "COCODOR 500 ML ROOM SPRAY CLEAN COTTON",
     "price": 39,
-    "stock": 8370,
-    "sales": 513,
+    "stock": 8244,
+    "sales": 515,
     "branches": {
       "00-GIFTS": 35,
       "01-Jeddah INT Market": 23,
@@ -155633,7 +155426,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 54,
       "29-Al Nakheel Mall Riyadh": 70,
       "30-Tala Mall Riyadh": 19,
-      "32-Atyaf Mall Riyadh": 63,
+      "32-Atyaf Mall Riyadh": 61,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 11,
       "38-Al_Riyadh Park": 35,
@@ -155643,7 +155436,7 @@ const data = [
       "42-Dareen Mall Dammam": 53,
       "43-Mujan Park": 11,
       "44-Al-Jouf Center": 23,
-      "45- Riyadh Gallery Mall": 54,
+      "45- Riyadh Gallery Mall": 72,
       "46-Khaleej Mall Riyadh": 63,
       "47-Al-Nakheel Plaza": 31,
       "48 - Jeddah Park": 2,
@@ -155660,7 +155453,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 8370
+      "warehouse riyadh": 8244
     }
   },
   {
@@ -155670,7 +155463,7 @@ const data = [
     "alias": "959806",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER BALSEM AND CEDAR",
     "price": 39,
-    "stock": 60,
+    "stock": 45,
     "sales": 22,
     "branches": {
       "00-GIFTS": 17,
@@ -155729,7 +155522,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 60
+      "warehouse riyadh": 45
     }
   },
   {
@@ -155808,7 +155601,7 @@ const data = [
     "alias": "959807",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER WHITE JASMINE",
     "price": 39,
-    "stock": 135,
+    "stock": 120,
     "sales": 36,
     "branches": {
       "00-GIFTS": 7,
@@ -155867,7 +155660,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 8,
-      "warehouse riyadh": 135
+      "warehouse riyadh": 120
     }
   },
   {
@@ -155877,7 +155670,7 @@ const data = [
     "alias": "960207",
     "name": "COCODOR 500 ML ROOM SPRAY ROSE BOUQUET",
     "price": 39,
-    "stock": 2844,
+    "stock": 2808,
     "sales": 128,
     "branches": {
       "00-GIFTS": 2,
@@ -155936,7 +155729,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 3132,
-      "warehouse riyadh": 2844
+      "warehouse riyadh": 2808
     }
   },
   {
@@ -155946,7 +155739,7 @@ const data = [
     "alias": "960208",
     "name": "COCODOR 500 ML ROOM SPRAY FIG TREE",
     "price": 39,
-    "stock": 2592,
+    "stock": 2556,
     "sales": 204,
     "branches": {
       "00-GIFTS": 1,
@@ -156005,7 +155798,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 2572,
-      "warehouse riyadh": 2592
+      "warehouse riyadh": 2556
     }
   },
   {
@@ -156015,7 +155808,7 @@ const data = [
     "alias": "960209",
     "name": "COCODOR 500 ML ROOM SPRAY FRENCH LAVENDER",
     "price": 39,
-    "stock": 882,
+    "stock": 846,
     "sales": 345,
     "branches": {
       "00-GIFTS": 3,
@@ -156074,7 +155867,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 448,
-      "warehouse riyadh": 882
+      "warehouse riyadh": 846
     }
   },
   {
@@ -156084,7 +155877,7 @@ const data = [
     "alias": "959808",
     "name": "COCODOR WHITE FLOWER 200 ML DIFFUSER BOUQUET ROSE",
     "price": 39,
-    "stock": 2841,
+    "stock": 2826,
     "sales": 23,
     "branches": {
       "00-GIFTS": 0,
@@ -156143,7 +155936,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 2296,
-      "warehouse riyadh": 2841
+      "warehouse riyadh": 2826
     }
   },
   {
@@ -156153,7 +155946,7 @@ const data = [
     "alias": "989001",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML BOUQUEST ROSE",
     "price": 39,
-    "stock": 2535,
+    "stock": 2520,
     "sales": 31,
     "branches": {
       "00-GIFTS": 0,
@@ -156212,7 +156005,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1108,
-      "warehouse riyadh": 2535
+      "warehouse riyadh": 2520
     }
   },
   {
@@ -156291,8 +156084,8 @@ const data = [
     "alias": "989004",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML SAND PINK",
     "price": 39,
-    "stock": 135,
-    "sales": 42,
+    "stock": 120,
+    "sales": 43,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 0,
@@ -156311,7 +156104,7 @@ const data = [
       "16-Ehsa Othaim Mall": 9,
       "17-Arar Othaim Mall": 12,
       "18-Al_Khayyat Center": 1,
-      "19-Hail Othaim Mall": 21,
+      "19-Hail Othaim Mall": 20,
       "20-Sitten Street Makkah": 3,
       "21-Abha Al_Rashid Mall New": 4,
       "22-Tabuk Park": 4,
@@ -156350,7 +156143,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 135
+      "warehouse riyadh": 120
     }
   },
   {
@@ -156429,7 +156222,7 @@ const data = [
     "alias": "989007",
     "name": "COCODOR DIFFUSER DAFFODILS 200 ML JASMINE WHITE",
     "price": 39,
-    "stock": 300,
+    "stock": 285,
     "sales": 46,
     "branches": {
       "00-GIFTS": 0,
@@ -156488,7 +156281,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 155,
-      "warehouse riyadh": 300
+      "warehouse riyadh": 285
     }
   },
   {
@@ -156912,8 +156705,8 @@ const data = [
     "alias": "542539",
     "name": "BIG ONE FULL SWAN PRINCESS 2PCS",
     "price": 79,
-    "stock": 246,
-    "sales": 54,
+    "stock": 228,
+    "sales": 56,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -156942,7 +156735,7 @@ const data = [
       "26-Al-Noor Mall Madinah": 1,
       "27-Dhahran Mall khobar": 2,
       "28-Al Nakheel Mall Dammam": 7,
-      "29-Al Nakheel Mall Riyadh": 11,
+      "29-Al Nakheel Mall Riyadh": 9,
       "30-Tala Mall Riyadh": 2,
       "32-Atyaf Mall Riyadh": 3,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
@@ -156971,7 +156764,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 246
+      "warehouse riyadh": 228
     }
   },
   {
@@ -157108,7 +156901,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 37,
-      "Warehouse": 184,
+      "Warehouse": 178,
       "warehouse riyadh": 6
     }
   },
@@ -157177,7 +156970,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
-      "Warehouse": 340,
+      "Warehouse": 334,
       "warehouse riyadh": 168
     }
   },
@@ -157257,7 +157050,7 @@ const data = [
     "alias": "542541",
     "name": "BIG ONE FULL MULTI BALLS 2PCS",
     "price": 79,
-    "stock": 900,
+    "stock": 888,
     "sales": 44,
     "branches": {
       "00-GIFTS": 0,
@@ -157315,8 +157108,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 31,
-      "Warehouse": 1,
-      "warehouse riyadh": 900
+      "Warehouse": 0,
+      "warehouse riyadh": 888
     }
   },
   {
@@ -157326,7 +157119,7 @@ const data = [
     "alias": "542543",
     "name": "BIG ONE FULL MULTI COLOR STRIPES 2PCS",
     "price": 79,
-    "stock": 552,
+    "stock": 540,
     "sales": 69,
     "branches": {
       "00-GIFTS": 0,
@@ -157385,7 +157178,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 7,
-      "warehouse riyadh": 552
+      "warehouse riyadh": 540
     }
   },
   {
@@ -157464,7 +157257,7 @@ const data = [
     "alias": "542535",
     "name": "BIG ONE FULL BUTTERFLY MULTI 2PCS",
     "price": 79,
-    "stock": 456,
+    "stock": 444,
     "sales": 80,
     "branches": {
       "00-GIFTS": 0,
@@ -157523,7 +157316,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
       "Warehouse": 0,
-      "warehouse riyadh": 456
+      "warehouse riyadh": 444
     }
   },
   {
@@ -157533,13 +157326,13 @@ const data = [
     "alias": "9300",
     "name": "MATRESSPAD KING JUST RELAX 200*200",
     "price": 199,
-    "stock": 12149,
+    "stock": 12123,
     "sales": 449,
     "branches": {
       "00-GIFTS": 30,
       "01-Jeddah INT Market": 1,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 15,
+      "04-Andalos Mall": 23,
       "05-Haifa Mall": 13,
       "06-Red Sea Mall": 19,
       "07-Arab Mall": 38,
@@ -157548,7 +157341,7 @@ const data = [
       "11-Jouri Mall": 19,
       "12-Al_Hamra Mall": 28,
       "13-Al-Yasmin Mall": 8,
-      "14-Al Kamal Mall": 5,
+      "14-Al Kamal Mall": 11,
       "15-Riyadh Othaim Mall": 6,
       "16-Ehsa Othaim Mall": 12,
       "17-Arar Othaim Mall": 8,
@@ -157575,12 +157368,12 @@ const data = [
       "42-Dareen Mall Dammam": 17,
       "43-Mujan Park": 21,
       "44-Al-Jouf Center": 8,
-      "45- Riyadh Gallery Mall": 8,
+      "45- Riyadh Gallery Mall": 10,
       "46-Khaleej Mall Riyadh": 18,
       "47-Al-Nakheel Plaza": 12,
       "48 - Jeddah Park": 19,
       "49-AlAhsa Mall": 15,
-      "50-Meem Plaza Riyadh": 6,
+      "50-Meem Plaza Riyadh": 12,
       "51-Park Avenue Riyadh": 7,
       "52-Al_Baha Mall": 11,
       "53-Al Basateen Mall": 5,
@@ -157591,8 +157384,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 52,
-      "Warehouse": 5195,
-      "warehouse riyadh": 12149
+      "Warehouse": 5167,
+      "warehouse riyadh": 12123
     }
   },
   {
@@ -157671,7 +157464,7 @@ const data = [
     "alias": "9417",
     "name": "MATRESSPAD QUEEN DREAM GUARD WATERPROOF",
     "price": 49,
-    "stock": 1032,
+    "stock": 1020,
     "sales": 156,
     "branches": {
       "00-GIFTS": 3,
@@ -157718,7 +157511,7 @@ const data = [
       "47-Al-Nakheel Plaza": 7,
       "48 - Jeddah Park": 9,
       "49-AlAhsa Mall": 10,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 16,
       "51-Park Avenue Riyadh": 19,
       "52-Al_Baha Mall": 22,
       "53-Al Basateen Mall": 1,
@@ -157729,8 +157522,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 40,
-      "Warehouse": 1294,
-      "warehouse riyadh": 1032
+      "Warehouse": 1282,
+      "warehouse riyadh": 1020
     }
   },
   {
@@ -157867,7 +157660,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 44,
-      "Warehouse": 87,
+      "Warehouse": 85,
       "warehouse riyadh": 148
     }
   },
@@ -157879,7 +157672,7 @@ const data = [
     "name": "(SPECIAL OFFER) MATRESSPAD QUEEN NAUTICA LUXURY 400 STITCH 105",
     "price": 69,
     "stock": 198,
-    "sales": 32,
+    "sales": 35,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 5,
@@ -157936,7 +157729,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 63,
+      "Warehouse": 58,
       "warehouse riyadh": 198
     }
   },
@@ -157947,7 +157740,7 @@ const data = [
     "alias": "9421",
     "name": "(SPECIAL OFFER) MATRESSPAD KING FIBER BED TANCEL 500 STITCH",
     "price": 94,
-    "stock": 514,
+    "stock": 510,
     "sales": 47,
     "branches": {
       "00-GIFTS": 3,
@@ -158005,8 +157798,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 31,
-      "Warehouse": 17,
-      "warehouse riyadh": 514
+      "Warehouse": 15,
+      "warehouse riyadh": 510
     }
   },
   {
@@ -158074,7 +157867,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 107,
+      "Warehouse": 105,
       "warehouse riyadh": 426
     }
   },
@@ -158085,7 +157878,7 @@ const data = [
     "alias": "9308",
     "name": "DUVET KING JUST RELAX 274*22",
     "price": 299,
-    "stock": 650,
+    "stock": 648,
     "sales": 45,
     "branches": {
       "00-GIFTS": 1,
@@ -158132,7 +157925,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 18,
       "49-AlAhsa Mall": 3,
-      "50-Meem Plaza Riyadh": 5,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 5,
       "52-Al_Baha Mall": 1,
       "53-Al Basateen Mall": 4,
@@ -158144,7 +157937,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 51,
       "Warehouse": 72,
-      "warehouse riyadh": 650
+      "warehouse riyadh": 648
     }
   },
   {
@@ -158154,8 +157947,8 @@ const data = [
     "alias": "9605",
     "name": "MATRESSPAD KING GEL FOAM",
     "price": 194,
-    "stock": 513,
-    "sales": 159,
+    "stock": 498,
+    "sales": 160,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 1,
@@ -158186,7 +157979,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 1,
       "29-Al Nakheel Mall Riyadh": 19,
       "30-Tala Mall Riyadh": 1,
-      "32-Atyaf Mall Riyadh": 5,
+      "32-Atyaf Mall Riyadh": 4,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 3,
       "38-Al_Riyadh Park": 10,
@@ -158213,7 +158006,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 6,
-      "warehouse riyadh": 513
+      "warehouse riyadh": 498
     }
   },
   {
@@ -158430,7 +158223,7 @@ const data = [
     "alias": "624802",
     "name": "SHEET TWIN KIDS HEARTS DIM 3PCS",
     "price": 49,
-    "stock": 428,
+    "stock": 422,
     "sales": 27,
     "branches": {
       "00-GIFTS": 0,
@@ -158489,7 +158282,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
       "Warehouse": 345,
-      "warehouse riyadh": 428
+      "warehouse riyadh": 422
     }
   },
   {
@@ -158499,7 +158292,7 @@ const data = [
     "alias": "624803",
     "name": "SHEET TWIN KIDS RAINBOWS DIM 3PCS",
     "price": 49,
-    "stock": 224,
+    "stock": 218,
     "sales": 10,
     "branches": {
       "00-GIFTS": 0,
@@ -158558,7 +158351,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 21,
       "Warehouse": 10,
-      "warehouse riyadh": 224
+      "warehouse riyadh": 218
     }
   },
   {
@@ -158637,13 +158430,13 @@ const data = [
     "alias": "100411",
     "name": "COMFORTER TWIN FLOWER LACE HG JUVI 6PCS",
     "price": 149,
-    "stock": 536,
-    "sales": 139,
+    "stock": 528,
+    "sales": 140,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 2,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 14,
+      "04-Andalos Mall": 22,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 12,
       "07-Arab Mall": 10,
@@ -158652,7 +158445,7 @@ const data = [
       "11-Jouri Mall": 5,
       "12-Al_Hamra Mall": 12,
       "13-Al-Yasmin Mall": 6,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 3,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 4,
       "17-Arar Othaim Mall": 7,
@@ -158695,8 +158488,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 237,
-      "warehouse riyadh": 536
+      "Warehouse": 220,
+      "warehouse riyadh": 528
     }
   },
   {
@@ -158706,7 +158499,7 @@ const data = [
     "alias": "100412",
     "name": "COMFORTER TWIN HAILEY HG JUVI 6PCS",
     "price": 149,
-    "stock": 89,
+    "stock": 73,
     "sales": 112,
     "branches": {
       "00-GIFTS": 0,
@@ -158765,7 +158558,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 45,
       "Warehouse": 4,
-      "warehouse riyadh": 89
+      "warehouse riyadh": 73
     }
   },
   {
@@ -158775,7 +158568,7 @@ const data = [
     "alias": "100413",
     "name": "COMFORTER TWIN HEART CHEVRON HG JUVI 6PCS",
     "price": 149,
-    "stock": 200,
+    "stock": 178,
     "sales": 127,
     "branches": {
       "00-GIFTS": 0,
@@ -158817,7 +158610,7 @@ const data = [
       "42-Dareen Mall Dammam": 10,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 2,
+      "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 8,
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 2,
@@ -158834,7 +158627,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 28,
       "Warehouse": 0,
-      "warehouse riyadh": 200
+      "warehouse riyadh": 178
     }
   },
   {
@@ -158844,13 +158637,13 @@ const data = [
     "alias": "100414",
     "name": "COMFORTER TWIN EXCAVATOR HG JUVI 6PCS",
     "price": 149,
-    "stock": 357,
+    "stock": 353,
     "sales": 95,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 1,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 16,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 10,
       "06-Red Sea Mall": 14,
       "07-Arab Mall": 10,
@@ -158902,8 +158695,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
-      "Warehouse": 119,
-      "warehouse riyadh": 357
+      "Warehouse": 107,
+      "warehouse riyadh": 353
     }
   },
   {
@@ -158913,13 +158706,13 @@ const data = [
     "alias": "100415",
     "name": "COMFORTER TWIN FLYING MODEL HG JUVI 6PCS",
     "price": 149,
-    "stock": 365,
+    "stock": 355,
     "sales": 137,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 2,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 16,
+      "04-Andalos Mall": 23,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 13,
       "07-Arab Mall": 9,
@@ -158971,8 +158764,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 47,
-      "Warehouse": 11,
-      "warehouse riyadh": 365
+      "Warehouse": 0,
+      "warehouse riyadh": 355
     }
   },
   {
@@ -158982,13 +158775,13 @@ const data = [
     "alias": "100416",
     "name": "COMFORTER TWIN ROBERT HG JUVI 6PCS",
     "price": 149,
-    "stock": 506,
-    "sales": 103,
+    "stock": 498,
+    "sales": 104,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 14,
+      "04-Andalos Mall": 22,
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 14,
       "07-Arab Mall": 8,
@@ -159006,7 +158799,7 @@ const data = [
       "20-Sitten Street Makkah": 3,
       "21-Abha Al_Rashid Mall New": 5,
       "22-Tabuk Park": 9,
-      "23-Alia Mall Madinah": 8,
+      "23-Alia Mall Madinah": 7,
       "24-Yanbu Dana Mall": 6,
       "25-Rabwa Othaim Mall": 1,
       "26-Al-Noor Mall Madinah": 10,
@@ -159040,8 +158833,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 47,
-      "Warehouse": 299,
-      "warehouse riyadh": 506
+      "Warehouse": 281,
+      "warehouse riyadh": 498
     }
   },
   {
@@ -159051,7 +158844,7 @@ const data = [
     "alias": "100607",
     "name": "COMFORTER TWIN ALPACA PLANET NAVY YELLOW 5PCS",
     "price": 139,
-    "stock": 192,
+    "stock": 184,
     "sales": 32,
     "branches": {
       "00-GIFTS": 0,
@@ -159110,7 +158903,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 7,
       "Warehouse": 3,
-      "warehouse riyadh": 192
+      "warehouse riyadh": 184
     }
   },
   {
@@ -159178,7 +158971,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 40,
+      "Warehouse": 36,
       "warehouse riyadh": 812
     }
   },
@@ -159247,7 +159040,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 31,
-      "Warehouse": 282,
+      "Warehouse": 278,
       "warehouse riyadh": 504
     }
   },
@@ -159454,7 +159247,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 128,
+      "Warehouse": 126,
       "warehouse riyadh": 248
     }
   },
@@ -159465,7 +159258,7 @@ const data = [
     "alias": "239906",
     "name": "COMFORTER FULL DAMASK SILVER 500TC 4PCS",
     "price": 499,
-    "stock": 134,
+    "stock": 132,
     "sales": 22,
     "branches": {
       "00-GIFTS": 0,
@@ -159523,8 +159316,8 @@ const data = [
       "Abha Al_Rashid Mall": 2,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 41,
-      "Warehouse": 19,
-      "warehouse riyadh": 134
+      "Warehouse": 11,
+      "warehouse riyadh": 132
     }
   },
   {
@@ -159603,7 +159396,7 @@ const data = [
     "alias": "239901",
     "name": "COMFORTER FULL DAMASK WHITE 500TC 4PCS",
     "price": 499,
-    "stock": 248,
+    "stock": 246,
     "sales": 21,
     "branches": {
       "00-GIFTS": 7,
@@ -159662,7 +159455,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
       "Warehouse": 165,
-      "warehouse riyadh": 248
+      "warehouse riyadh": 246
     }
   },
   {
@@ -160155,7 +159948,7 @@ const data = [
     "alias": "2268201",
     "name": "*COMFORTER FULL WAMSUTTA WHITE 9PCS KIT",
     "price": 599,
-    "stock": 90,
+    "stock": 86,
     "sales": 5,
     "branches": {
       "00-GIFTS": 1,
@@ -160214,7 +160007,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 90
+      "warehouse riyadh": 86
     }
   },
   {
@@ -160224,7 +160017,7 @@ const data = [
     "alias": "2268203",
     "name": "*COMFORTER FULL WAMSUTTA HONEY 9PCS KIT",
     "price": 599,
-    "stock": 52,
+    "stock": 50,
     "sales": 18,
     "branches": {
       "00-GIFTS": 0,
@@ -160283,7 +160076,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1,
-      "warehouse riyadh": 52
+      "warehouse riyadh": 50
     }
   },
   {
@@ -160638,7 +160431,7 @@ const data = [
     "alias": "22720",
     "name": "*COMFORTER FULL AURA PURPLE 5PCS KIT",
     "price": 249,
-    "stock": 36,
+    "stock": 34,
     "sales": 7,
     "branches": {
       "00-GIFTS": 0,
@@ -160697,7 +160490,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 16,
       "Warehouse": 14,
-      "warehouse riyadh": 36
+      "warehouse riyadh": 34
     }
   },
   {
@@ -160776,7 +160569,7 @@ const data = [
     "alias": "269209",
     "name": "COMFORTER FULL FLOWER LACE HG JUVI 8PCS",
     "price": 194,
-    "stock": 100,
+    "stock": 96,
     "sales": 38,
     "branches": {
       "00-GIFTS": 1,
@@ -160835,7 +160628,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
       "Warehouse": 9,
-      "warehouse riyadh": 100
+      "warehouse riyadh": 96
     }
   },
   {
@@ -160914,7 +160707,7 @@ const data = [
     "alias": "269212",
     "name": "COMFORTER FULL EXCAVATOR HG JUVI 8PCS",
     "price": 194,
-    "stock": 64,
+    "stock": 62,
     "sales": 42,
     "branches": {
       "00-GIFTS": 0,
@@ -160972,8 +160765,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 4,
-      "warehouse riyadh": 64
+      "Warehouse": 2,
+      "warehouse riyadh": 62
     }
   },
   {
@@ -160983,7 +160776,7 @@ const data = [
     "alias": "269213",
     "name": "COMFORTER FULL FLYING MODEL HG JUVI 8PCS",
     "price": 194,
-    "stock": 26,
+    "stock": 24,
     "sales": 29,
     "branches": {
       "00-GIFTS": 1,
@@ -161042,7 +160835,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 4,
       "Warehouse": 2,
-      "warehouse riyadh": 26
+      "warehouse riyadh": 24
     }
   },
   {
@@ -161052,7 +160845,7 @@ const data = [
     "alias": "269214",
     "name": "COMFORTER FULL ROBERT HG JUVI 8PCS",
     "price": 194,
-    "stock": 122,
+    "stock": 120,
     "sales": 46,
     "branches": {
       "00-GIFTS": 0,
@@ -161094,7 +160887,7 @@ const data = [
       "42-Dareen Mall Dammam": 16,
       "43-Mujan Park": 7,
       "44-Al-Jouf Center": 2,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 6,
       "48 - Jeddah Park": 5,
@@ -161110,8 +160903,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 13,
-      "warehouse riyadh": 122
+      "Warehouse": 11,
+      "warehouse riyadh": 120
     }
   },
   {
@@ -161328,7 +161121,7 @@ const data = [
     "alias": "200107",
     "name": "COMFORTER FULL BOW HOTEL LAVENDER 8PCS",
     "price": 349,
-    "stock": 23,
+    "stock": 19,
     "sales": 16,
     "branches": {
       "00-GIFTS": 4,
@@ -161387,7 +161180,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 6,
       "Warehouse": 0,
-      "warehouse riyadh": 23
+      "warehouse riyadh": 19
     }
   },
   {
@@ -161466,7 +161259,7 @@ const data = [
     "alias": "200111",
     "name": "COMFORTER FULL STRAWBERRY WHITE 8PCS",
     "price": 349,
-    "stock": 132,
+    "stock": 128,
     "sales": 14,
     "branches": {
       "00-GIFTS": 0,
@@ -161525,7 +161318,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 8,
       "Warehouse": 8,
-      "warehouse riyadh": 132
+      "warehouse riyadh": 128
     }
   },
   {
@@ -161949,7 +161742,7 @@ const data = [
     "alias": "2730",
     "name": "COMFORTER FULL PRINTED BLUSH PAVLA 8PCS",
     "price": 249,
-    "stock": 54,
+    "stock": 50,
     "sales": 46,
     "branches": {
       "00-GIFTS": 0,
@@ -162008,7 +161801,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 54
+      "warehouse riyadh": 50
     }
   },
   {
@@ -162018,7 +161811,7 @@ const data = [
     "alias": "2731",
     "name": "COMFORTER FULL PAVLA WHITE/MULTI PRINTED 8PCS",
     "price": 249,
-    "stock": 94,
+    "stock": 88,
     "sales": 58,
     "branches": {
       "00-GIFTS": 0,
@@ -162077,7 +161870,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
       "Warehouse": 2,
-      "warehouse riyadh": 94
+      "warehouse riyadh": 88
     }
   },
   {
@@ -162087,7 +161880,7 @@ const data = [
     "alias": "2738",
     "name": "COMFORTER FULL CONTROLLER GAMING FAVORITE 8PCS",
     "price": 249,
-    "stock": 126,
+    "stock": 122,
     "sales": 42,
     "branches": {
       "00-GIFTS": 1,
@@ -162134,7 +161927,7 @@ const data = [
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 3,
       "49-AlAhsa Mall": 6,
-      "50-Meem Plaza Riyadh": 1,
+      "50-Meem Plaza Riyadh": 3,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 12,
       "53-Al Basateen Mall": 3,
@@ -162146,7 +161939,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 43,
       "Warehouse": 8,
-      "warehouse riyadh": 126
+      "warehouse riyadh": 122
     }
   },
   {
@@ -162225,7 +162018,7 @@ const data = [
     "alias": "2737",
     "name": "COMFORTER FULL ORVAL NAVY 8PCS",
     "price": 249,
-    "stock": 42,
+    "stock": 34,
     "sales": 64,
     "branches": {
       "00-GIFTS": 0,
@@ -162272,7 +162065,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 7,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 2,
       "51-Park Avenue Riyadh": 1,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 2,
@@ -162283,8 +162076,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 14,
-      "Warehouse": 14,
-      "warehouse riyadh": 42
+      "Warehouse": 10,
+      "warehouse riyadh": 34
     }
   },
   {
@@ -162352,7 +162145,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 45,
-      "Warehouse": 178,
+      "Warehouse": 174,
       "warehouse riyadh": 228
     }
   },
@@ -162501,13 +162294,13 @@ const data = [
     "alias": "2739",
     "name": "COMFORTER FULL CHEETAH SELVA 8PCS",
     "price": 249,
-    "stock": 142,
+    "stock": 138,
     "sales": 55,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 8,
+      "04-Andalos Mall": 9,
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 1,
       "07-Arab Mall": 8,
@@ -162516,7 +162309,7 @@ const data = [
       "11-Jouri Mall": 3,
       "12-Al_Hamra Mall": 11,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 4,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 5,
       "17-Arar Othaim Mall": 1,
@@ -162559,8 +162352,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 27,
-      "Warehouse": 11,
-      "warehouse riyadh": 142
+      "Warehouse": 0,
+      "warehouse riyadh": 138
     }
   },
   {
@@ -162576,7 +162369,7 @@ const data = [
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 13,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 9,
@@ -162585,7 +162378,7 @@ const data = [
       "11-Jouri Mall": 6,
       "12-Al_Hamra Mall": 7,
       "13-Al-Yasmin Mall": 9,
-      "14-Al Kamal Mall": 3,
+      "14-Al Kamal Mall": 5,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 13,
       "17-Arar Othaim Mall": 4,
@@ -162628,7 +162421,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 162,
+      "Warehouse": 146,
       "warehouse riyadh": 582
     }
   },
@@ -162639,7 +162432,7 @@ const data = [
     "alias": "2741",
     "name": "COMFORTER FULL BOW GIMINY BLUE 5PCS",
     "price": 299,
-    "stock": 296,
+    "stock": 292,
     "sales": 65,
     "branches": {
       "00-GIFTS": 0,
@@ -162681,7 +162474,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 5,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 3,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 5,
@@ -162697,8 +162490,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 49,
-      "Warehouse": 279,
-      "warehouse riyadh": 296
+      "Warehouse": 275,
+      "warehouse riyadh": 292
     }
   },
   {
@@ -162708,7 +162501,7 @@ const data = [
     "alias": "2743",
     "name": "COMFORTER FULL BOW GIMINY LAVENDER 5PCS",
     "price": 299,
-    "stock": 326,
+    "stock": 322,
     "sales": 47,
     "branches": {
       "00-GIFTS": 0,
@@ -162750,7 +162543,7 @@ const data = [
       "42-Dareen Mall Dammam": 6,
       "43-Mujan Park": 3,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 3,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 6,
@@ -162766,8 +162559,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 35,
-      "Warehouse": 347,
-      "warehouse riyadh": 326
+      "Warehouse": 343,
+      "warehouse riyadh": 322
     }
   },
   {
@@ -162984,8 +162777,8 @@ const data = [
     "alias": "2269401",
     "name": "*COMFORTER FULL HUTTON STRIPE BLUE 11PCS KIT",
     "price": 499,
-    "stock": 90,
-    "sales": 11,
+    "stock": 88,
+    "sales": 12,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -163031,7 +162824,7 @@ const data = [
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 5,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 4,
@@ -163042,8 +162835,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 64,
-      "warehouse riyadh": 90
+      "Warehouse": 63,
+      "warehouse riyadh": 88
     }
   },
   {
@@ -163122,7 +162915,7 @@ const data = [
     "alias": "2269404",
     "name": "*COMFORTER FULL WALLIS TAUPE 11PCS KIT",
     "price": 499,
-    "stock": 44,
+    "stock": 42,
     "sales": 44,
     "branches": {
       "00-GIFTS": 0,
@@ -163169,7 +162962,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 7,
       "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 4,
@@ -163181,7 +162974,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 52,
-      "warehouse riyadh": 44
+      "warehouse riyadh": 42
     }
   },
   {
@@ -163261,7 +163054,7 @@ const data = [
     "name": "*COMFORTER FULL SPRING BORDER LILAC 11PCS KIT",
     "price": 499,
     "stock": 42,
-    "sales": 75,
+    "sales": 76,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -163318,7 +163111,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 77,
+      "Warehouse": 72,
       "warehouse riyadh": 42
     }
   },
@@ -163674,7 +163467,7 @@ const data = [
     "alias": "2269402",
     "name": "*COMFORTER FULL WARDEN STRIPE GREY 11PCS KIT",
     "price": 499,
-    "stock": 24,
+    "stock": 22,
     "sales": 92,
     "branches": {
       "00-GIFTS": 0,
@@ -163689,7 +163482,7 @@ const data = [
       "11-Jouri Mall": 3,
       "12-Al_Hamra Mall": 10,
       "13-Al-Yasmin Mall": 10,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 3,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 6,
       "17-Arar Othaim Mall": 2,
@@ -163732,8 +163525,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 46,
-      "warehouse riyadh": 24
+      "Warehouse": 38,
+      "warehouse riyadh": 22
     }
   },
   {
@@ -163812,7 +163605,7 @@ const data = [
     "alias": "408501",
     "name": "COMFORTER KING DAMASK WHITE 500TC 6PCS",
     "price": 699,
-    "stock": 624,
+    "stock": 621,
     "sales": 38,
     "branches": {
       "00-GIFTS": 9,
@@ -163827,7 +163620,7 @@ const data = [
       "11-Jouri Mall": 3,
       "12-Al_Hamra Mall": 5,
       "13-Al-Yasmin Mall": 5,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 2,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 2,
       "17-Arar Othaim Mall": 2,
@@ -163870,8 +163663,8 @@ const data = [
       "Abha Al_Rashid Mall": 6,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 547,
-      "warehouse riyadh": 624
+      "Warehouse": 544,
+      "warehouse riyadh": 621
     }
   },
   {
@@ -163939,7 +163732,7 @@ const data = [
       "Abha Al_Rashid Mall": 2,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 201,
+      "Warehouse": 199,
       "warehouse riyadh": 332
     }
   },
@@ -163950,7 +163743,7 @@ const data = [
     "alias": "408507",
     "name": "COMFORTER KING DAMASK SILVER 500TC 6PCS",
     "price": 699,
-    "stock": 512,
+    "stock": 510,
     "sales": 15,
     "branches": {
       "00-GIFTS": 8,
@@ -164008,8 +163801,8 @@ const data = [
       "Abha Al_Rashid Mall": 6,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 422,
-      "warehouse riyadh": 512
+      "Warehouse": 421,
+      "warehouse riyadh": 510
     }
   },
   {
@@ -164019,7 +163812,7 @@ const data = [
     "alias": "408509",
     "name": "COMFORTER KING DAMASK HUSHED VIOLET 500TC 6PCS",
     "price": 699,
-    "stock": 403,
+    "stock": 402,
     "sales": 7,
     "branches": {
       "00-GIFTS": 10,
@@ -164078,7 +163871,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
       "Warehouse": 11,
-      "warehouse riyadh": 403
+      "warehouse riyadh": 402
     }
   },
   {
@@ -164088,7 +163881,7 @@ const data = [
     "alias": "408511",
     "name": "COMFORTER KING DAMASK LT.BLUE  500TC 6PCS",
     "price": 699,
-    "stock": 293,
+    "stock": 292,
     "sales": 7,
     "branches": {
       "00-GIFTS": 3,
@@ -164146,8 +163939,8 @@ const data = [
       "Abha Al_Rashid Mall": 3,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 35,
-      "warehouse riyadh": 293
+      "Warehouse": 34,
+      "warehouse riyadh": 292
     }
   },
   {
@@ -164157,7 +163950,7 @@ const data = [
     "alias": "408514",
     "name": "COMFORTER KING DAMASK IVORY 500TC 6PCS",
     "price": 699,
-    "stock": 1065,
+    "stock": 1061,
     "sales": 18,
     "branches": {
       "00-GIFTS": 7,
@@ -164216,7 +164009,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
       "Warehouse": 694,
-      "warehouse riyadh": 1065
+      "warehouse riyadh": 1061
     }
   },
   {
@@ -164433,7 +164226,7 @@ const data = [
     "alias": "44076",
     "name": "*(SPECIAL OFFER) COMFORTER KING KAYA GOLD 11PCS_KIT",
     "price": 796,
-    "stock": 85,
+    "stock": 83,
     "sales": 4,
     "branches": {
       "00-GIFTS": 3,
@@ -164480,7 +164273,7 @@ const data = [
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 4,
+      "50-Meem Plaza Riyadh": 6,
       "51-Park Avenue Riyadh": 2,
       "52-Al_Baha Mall": 1,
       "53-Al Basateen Mall": 0,
@@ -164492,7 +164285,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 3,
       "Warehouse": 0,
-      "warehouse riyadh": 85
+      "warehouse riyadh": 83
     }
   },
   {
@@ -164571,7 +164364,7 @@ const data = [
     "alias": "44160",
     "name": "*COMFORTER KING BETSY 11PCS KIT",
     "price": 799,
-    "stock": 12,
+    "stock": 8,
     "sales": 53,
     "branches": {
       "00-GIFTS": 4,
@@ -164618,7 +164411,7 @@ const data = [
       "47-Al-Nakheel Plaza": 6,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 10,
+      "50-Meem Plaza Riyadh": 14,
       "51-Park Avenue Riyadh": 5,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 3,
@@ -164629,8 +164422,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 86,
-      "warehouse riyadh": 12
+      "Warehouse": 84,
+      "warehouse riyadh": 8
     }
   },
   {
@@ -164778,7 +164571,7 @@ const data = [
     "alias": "440114",
     "name": "*COMFORTER KING LEXY BLUSH 8PCS KIT",
     "price": 495,
-    "stock": 171,
+    "stock": 169,
     "sales": 37,
     "branches": {
       "00-GIFTS": 4,
@@ -164793,7 +164586,7 @@ const data = [
       "11-Jouri Mall": 3,
       "12-Al_Hamra Mall": 5,
       "13-Al-Yasmin Mall": 6,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 2,
       "15-Riyadh Othaim Mall": 3,
       "16-Ehsa Othaim Mall": 1,
       "17-Arar Othaim Mall": 2,
@@ -164825,7 +164618,7 @@ const data = [
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 2,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 1,
@@ -164836,8 +164629,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 25,
-      "Warehouse": 10,
-      "warehouse riyadh": 171
+      "Warehouse": 5,
+      "warehouse riyadh": 169
     }
   },
   {
@@ -164916,7 +164709,7 @@ const data = [
     "alias": "440123",
     "name": "*COMFORTER KING ZAHA RAIN BLUE 8PCS KIT",
     "price": 595,
-    "stock": 30,
+    "stock": 26,
     "sales": 20,
     "branches": {
       "00-GIFTS": 3,
@@ -164963,7 +164756,7 @@ const data = [
       "47-Al-Nakheel Plaza": 10,
       "48 - Jeddah Park": 3,
       "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 3,
+      "50-Meem Plaza Riyadh": 5,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 2,
@@ -164975,7 +164768,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 36,
       "Warehouse": 80,
-      "warehouse riyadh": 30
+      "warehouse riyadh": 26
     }
   },
   {
@@ -165054,13 +164847,13 @@ const data = [
     "alias": "44049",
     "name": "*COMFORTER KING SHANGIA SAFRON 8PCS KIT",
     "price": 495,
-    "stock": 27,
+    "stock": 23,
     "sales": 39,
     "branches": {
       "00-GIFTS": 7,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 4,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 8,
@@ -165112,8 +164905,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 36,
-      "Warehouse": 21,
-      "warehouse riyadh": 27
+      "Warehouse": 20,
+      "warehouse riyadh": 23
     }
   },
   {
@@ -165261,7 +165054,7 @@ const data = [
     "alias": "440429",
     "name": "*COMFORTER KING ESTELLE 8PCS KIT",
     "price": 795,
-    "stock": 47,
+    "stock": 44,
     "sales": 20,
     "branches": {
       "00-GIFTS": 3,
@@ -165320,7 +165113,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 27,
       "Warehouse": 75,
-      "warehouse riyadh": 47
+      "warehouse riyadh": 44
     }
   },
   {
@@ -165468,7 +165261,7 @@ const data = [
     "alias": "44050103",
     "name": "*COMFORTER KING  WAMSUTTA HONEY 9PCS KIT",
     "price": 799,
-    "stock": 64,
+    "stock": 58,
     "sales": 50,
     "branches": {
       "00-GIFTS": 0,
@@ -165527,7 +165320,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 17,
       "Warehouse": 0,
-      "warehouse riyadh": 64
+      "warehouse riyadh": 58
     }
   },
   {
@@ -165537,7 +165330,7 @@ const data = [
     "alias": "4001770",
     "name": "COMFORTER KING BIG MAJESTIC PEACOCK 9PCS",
     "price": 249,
-    "stock": 56,
+    "stock": 52,
     "sales": 0,
     "branches": {
       "00-GIFTS": 0,
@@ -165596,7 +165389,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 32,
-      "warehouse riyadh": 56
+      "warehouse riyadh": 52
     }
   },
   {
@@ -166089,7 +165882,7 @@ const data = [
     "alias": "4001779",
     "name": "COMFORTER KING BIG HEXAGON GEO 9PCS",
     "price": 294,
-    "stock": 142,
+    "stock": 130,
     "sales": 2,
     "branches": {
       "00-GIFTS": 0,
@@ -166131,12 +165924,12 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 2,
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 2,
       "51-Park Avenue Riyadh": 0,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -166148,7 +165941,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 37,
       "Warehouse": 98,
-      "warehouse riyadh": 142
+      "warehouse riyadh": 130
     }
   },
   {
@@ -166227,7 +166020,7 @@ const data = [
     "alias": "44372",
     "name": "*COMFORTER KING ISABELLA BAIGE 11PCS KIT",
     "price": 995,
-    "stock": 76,
+    "stock": 70,
     "sales": 73,
     "branches": {
       "00-GIFTS": 0,
@@ -166285,8 +166078,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 5,
-      "Warehouse": 28,
-      "warehouse riyadh": 76
+      "Warehouse": 26,
+      "warehouse riyadh": 70
     }
   },
   {
@@ -166296,13 +166089,13 @@ const data = [
     "alias": "4052123",
     "name": "COMFORTER KING COSTCO GRAPHIC GEO GREY 6PCS",
     "price": 229,
-    "stock": 404,
+    "stock": 392,
     "sales": 26,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 1,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 5,
+      "04-Andalos Mall": 11,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 1,
       "07-Arab Mall": 5,
@@ -166338,12 +166131,12 @@ const data = [
       "42-Dareen Mall Dammam": 10,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 1,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 6,
       "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 4,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -166354,8 +166147,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 51,
-      "Warehouse": 58,
-      "warehouse riyadh": 404
+      "Warehouse": 44,
+      "warehouse riyadh": 392
     }
   },
   {
@@ -166503,7 +166296,7 @@ const data = [
     "alias": "4001784",
     "name": "(SPECIAL OFFER) COMFORTER KING BIG ARAN 9PCS",
     "price": 249,
-    "stock": 114,
+    "stock": 104,
     "sales": 13,
     "branches": {
       "00-GIFTS": 0,
@@ -166545,7 +166338,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 3,
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 0,
@@ -166562,7 +166355,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
       "Warehouse": 10,
-      "warehouse riyadh": 114
+      "warehouse riyadh": 104
     }
   },
   {
@@ -166572,7 +166365,7 @@ const data = [
     "alias": "4001786",
     "name": "COMFORTER KING BIG EMILIY 9PCS",
     "price": 249,
-    "stock": 34,
+    "stock": 32,
     "sales": 8,
     "branches": {
       "00-GIFTS": 0,
@@ -166614,7 +166407,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 2,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 4,
@@ -166631,7 +166424,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 34
+      "warehouse riyadh": 32
     }
   },
   {
@@ -166641,7 +166434,7 @@ const data = [
     "alias": "4001787",
     "name": "COMFORTER KING BIG EMMA 9PCS",
     "price": 249,
-    "stock": 178,
+    "stock": 174,
     "sales": 3,
     "branches": {
       "00-GIFTS": 3,
@@ -166683,7 +166476,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 2,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 3,
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 3,
@@ -166699,8 +166492,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 28,
-      "Warehouse": 127,
-      "warehouse riyadh": 178
+      "Warehouse": 123,
+      "warehouse riyadh": 174
     }
   },
   {
@@ -166710,7 +166503,7 @@ const data = [
     "alias": "4001788",
     "name": "COMFORTER KING BIG MARBLE INK 9PCS",
     "price": 249,
-    "stock": 40,
+    "stock": 38,
     "sales": 4,
     "branches": {
       "00-GIFTS": 0,
@@ -166769,7 +166562,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 2,
-      "warehouse riyadh": 40
+      "warehouse riyadh": 38
     }
   },
   {
@@ -166779,7 +166572,7 @@ const data = [
     "alias": "4001789",
     "name": "COMFORTER KING BIG VINE SPRING 9PCS",
     "price": 249,
-    "stock": 26,
+    "stock": 16,
     "sales": 12,
     "branches": {
       "00-GIFTS": 1,
@@ -166838,7 +166631,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 9,
       "Warehouse": 0,
-      "warehouse riyadh": 26
+      "warehouse riyadh": 16
     }
   },
   {
@@ -166848,7 +166641,7 @@ const data = [
     "alias": "4001790",
     "name": "COMFORTER KING BIG JASON 9PCS",
     "price": 249,
-    "stock": 22,
+    "stock": 18,
     "sales": 6,
     "branches": {
       "00-GIFTS": 0,
@@ -166907,7 +166700,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 1,
-      "warehouse riyadh": 22
+      "warehouse riyadh": 18
     }
   },
   {
@@ -166917,7 +166710,7 @@ const data = [
     "alias": "440621",
     "name": "*(SPECIAL OFFER) COMFORTER KING LAVENDAR EVELYN 6PCS KIT",
     "price": 499,
-    "stock": 154,
+    "stock": 152,
     "sales": 11,
     "branches": {
       "00-GIFTS": 1,
@@ -166959,7 +166752,7 @@ const data = [
       "42-Dareen Mall Dammam": 8,
       "43-Mujan Park": 8,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 2,
+      "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 5,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 3,
@@ -166976,7 +166769,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 17,
-      "warehouse riyadh": 154
+      "warehouse riyadh": 152
     }
   },
   {
@@ -166986,7 +166779,7 @@ const data = [
     "alias": "4052124",
     "name": "COMFORTER KING COSTCO EMILIA BLUE 6PCS",
     "price": 229,
-    "stock": 52,
+    "stock": 46,
     "sales": 10,
     "branches": {
       "00-GIFTS": 0,
@@ -167028,7 +166821,7 @@ const data = [
       "42-Dareen Mall Dammam": 1,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 2,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 0,
@@ -167045,76 +166838,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 32,
       "Warehouse": 20,
-      "warehouse riyadh": 52
-    }
-  },
-  {
-    "outlet": "warehouse riyadh",
-    "category": "لحافات كينغ",
-    "code": "23385",
-    "alias": "4052125",
-    "name": "COMFORTER KING COSTCO RACQUEL NEUTRAL 6PCS",
-    "price": 229,
-    "stock": 4,
-    "sales": 14,
-    "branches": {
-      "00-GIFTS": 4,
-      "01-Jeddah INT Market": 0,
-      "02-Serafi Mall": 0,
-      "04-Andalos Mall": 1,
-      "05-Haifa Mall": 0,
-      "06-Red Sea Mall": 0,
-      "07-Arab Mall": 0,
-      "08-Makkah Mall": 1,
-      "09-Al-Salam Mall": 0,
-      "11-Jouri Mall": 0,
-      "12-Al_Hamra Mall": 2,
-      "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
-      "15-Riyadh Othaim Mall": 1,
-      "16-Ehsa Othaim Mall": 3,
-      "17-Arar Othaim Mall": 0,
-      "18-Al_Khayyat Center": 0,
-      "19-Hail Othaim Mall": 1,
-      "20-Sitten Street Makkah": 0,
-      "21-Abha Al_Rashid Mall New": 0,
-      "22-Tabuk Park": 0,
-      "23-Alia Mall Madinah": 0,
-      "24-Yanbu Dana Mall": 0,
-      "25-Rabwa Othaim Mall": 1,
-      "26-Al-Noor Mall Madinah": 0,
-      "27-Dhahran Mall khobar": 4,
-      "28-Al Nakheel Mall Dammam": 3,
-      "29-Al Nakheel Mall Riyadh": 1,
-      "30-Tala Mall Riyadh": 2,
-      "32-Atyaf Mall Riyadh": 1,
-      "33-Othaim Mall Rabwa2 Riyadh": 0,
-      "36-Al jubail Mall": 0,
-      "38-Al_Riyadh Park": 2,
-      "39-Salam Mall Riyadh": 2,
-      "40-Hayat Mall Riyad": 9,
-      "41-Khamis Avenue": 0,
-      "42-Dareen Mall Dammam": 2,
-      "43-Mujan Park": 0,
-      "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
-      "46-Khaleej Mall Riyadh": 0,
-      "47-Al-Nakheel Plaza": 3,
-      "48 - Jeddah Park": 0,
-      "49-AlAhsa Mall": 2,
-      "50-Meem Plaza Riyadh": 3,
-      "51-Park Avenue Riyadh": 1,
-      "52-Al_Baha Mall": 0,
-      "53-Al Basateen Mall": 0,
-      "54-THE VILLAGE": 0,
-      "55- Jabl Omar": 0,
-      "56- Aziz Mall 2": 0,
-      "57-Sauq7": 0,
-      "Abha Al_Rashid Mall": 0,
-      "Al Manar Mall Madinah": 0,
-      "PLATFORMS": 18,
-      "Warehouse": 15,
-      "warehouse riyadh": 4
+      "warehouse riyadh": 46
     }
   },
   {
@@ -167182,7 +166906,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 1,
-      "Warehouse": 72,
+      "Warehouse": 70,
       "warehouse riyadh": 97
     }
   },
@@ -167331,7 +167055,7 @@ const data = [
     "alias": "488806",
     "name": "COMFORTER KING WISLEY TAUPE 10PCS",
     "price": 299,
-    "stock": 114,
+    "stock": 106,
     "sales": 19,
     "branches": {
       "00-GIFTS": 0,
@@ -167378,7 +167102,7 @@ const data = [
       "47-Al-Nakheel Plaza": 1,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 2,
       "51-Park Avenue Riyadh": 2,
       "52-Al_Baha Mall": 1,
       "53-Al Basateen Mall": 0,
@@ -167390,7 +167114,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 6,
       "Warehouse": 0,
-      "warehouse riyadh": 114
+      "warehouse riyadh": 106
     }
   },
   {
@@ -167538,7 +167262,7 @@ const data = [
     "alias": "40632",
     "name": "COMFORTER KING KAROU BLUE 8PCS",
     "price": 299,
-    "stock": 128,
+    "stock": 120,
     "sales": 10,
     "branches": {
       "00-GIFTS": 0,
@@ -167585,7 +167309,7 @@ const data = [
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 4,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 2,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -167597,7 +167321,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 3,
       "Warehouse": 0,
-      "warehouse riyadh": 128
+      "warehouse riyadh": 120
     }
   },
   {
@@ -167607,7 +167331,7 @@ const data = [
     "alias": "40631",
     "name": "COMFORTER KING DOMBRG BLUE 8PCS",
     "price": 299,
-    "stock": 11,
+    "stock": 5,
     "sales": 6,
     "branches": {
       "00-GIFTS": 0,
@@ -167654,7 +167378,7 @@ const data = [
       "47-Al-Nakheel Plaza": 0,
       "48 - Jeddah Park": 3,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 2,
       "51-Park Avenue Riyadh": 2,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -167666,7 +167390,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 17,
       "Warehouse": 5,
-      "warehouse riyadh": 11
+      "warehouse riyadh": 5
     }
   },
   {
@@ -167676,13 +167400,13 @@ const data = [
     "alias": "48803",
     "name": "COMFORTER KING BLUE ICE ROSELINE 12PCS",
     "price": 399,
-    "stock": 518,
-    "sales": 111,
+    "stock": 512,
+    "sales": 112,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 11,
+      "04-Andalos Mall": 15,
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 5,
       "07-Arab Mall": 9,
@@ -167716,7 +167440,7 @@ const data = [
       "40-Hayat Mall Riyad": 3,
       "41-Khamis Avenue": 2,
       "42-Dareen Mall Dammam": 3,
-      "43-Mujan Park": 5,
+      "43-Mujan Park": 4,
       "44-Al-Jouf Center": 2,
       "45- Riyadh Gallery Mall": 4,
       "46-Khaleej Mall Riyadh": 5,
@@ -167734,8 +167458,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 162,
-      "Warehouse": 110,
-      "warehouse riyadh": 518
+      "Warehouse": 96,
+      "warehouse riyadh": 512
     }
   },
   {
@@ -167745,13 +167469,13 @@ const data = [
     "alias": "48801",
     "name": "COMFORTER KING LEILANI SILVER 12PCS",
     "price": 399,
-    "stock": 1449,
+    "stock": 1445,
     "sales": 100,
     "branches": {
       "00-GIFTS": 3,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 13,
+      "04-Andalos Mall": 17,
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 4,
       "07-Arab Mall": 8,
@@ -167803,8 +167527,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 345,
-      "Warehouse": 1262,
-      "warehouse riyadh": 1449
+      "Warehouse": 1244,
+      "warehouse riyadh": 1445
     }
   },
   {
@@ -167814,13 +167538,13 @@ const data = [
     "alias": "48802",
     "name": "COMFORTER KING VERDEIRE SOFT BLUSH 12PCS",
     "price": 399,
-    "stock": 1212,
+    "stock": 1198,
     "sales": 114,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 19,
+      "04-Andalos Mall": 23,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 3,
       "07-Arab Mall": 8,
@@ -167829,7 +167553,7 @@ const data = [
       "11-Jouri Mall": 5,
       "12-Al_Hamra Mall": 2,
       "13-Al-Yasmin Mall": 4,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 2,
       "15-Riyadh Othaim Mall": 3,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 2,
@@ -167872,8 +167596,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 326,
-      "Warehouse": 72,
-      "warehouse riyadh": 1212
+      "Warehouse": 52,
+      "warehouse riyadh": 1198
     }
   },
   {
@@ -167952,7 +167676,7 @@ const data = [
     "alias": "440901",
     "name": "*COMFORTER KING RAINY WITH SCALLOP 8PCS KIT",
     "price": 595,
-    "stock": 123,
+    "stock": 121,
     "sales": 37,
     "branches": {
       "00-GIFTS": 0,
@@ -168010,8 +167734,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 32,
-      "Warehouse": 73,
-      "warehouse riyadh": 123
+      "Warehouse": 71,
+      "warehouse riyadh": 121
     }
   },
   {
@@ -168090,7 +167814,7 @@ const data = [
     "alias": "440902",
     "name": "*COMFORTER KING MARGOUT BLUE 8PCS KIT",
     "price": 595,
-    "stock": 138,
+    "stock": 137,
     "sales": 20,
     "branches": {
       "00-GIFTS": 0,
@@ -168149,7 +167873,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 36,
       "Warehouse": 22,
-      "warehouse riyadh": 138
+      "warehouse riyadh": 137
     }
   },
   {
@@ -168159,7 +167883,7 @@ const data = [
     "alias": "448904",
     "name": "*COMFORTER KING SHANGAI OLIVE TUSCAN 8PCS KIT",
     "price": 499,
-    "stock": 49,
+    "stock": 45,
     "sales": 8,
     "branches": {
       "00-GIFTS": 0,
@@ -168218,7 +167942,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 28,
       "Warehouse": 0,
-      "warehouse riyadh": 49
+      "warehouse riyadh": 45
     }
   },
   {
@@ -168228,7 +167952,7 @@ const data = [
     "alias": "448901",
     "name": "*COMFORTER KING SHANGAI NATURAL 8PCS KIT",
     "price": 499,
-    "stock": 117,
+    "stock": 115,
     "sales": 16,
     "branches": {
       "00-GIFTS": 1,
@@ -168287,7 +168011,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 11,
       "Warehouse": 11,
-      "warehouse riyadh": 117
+      "warehouse riyadh": 115
     }
   },
   {
@@ -168366,13 +168090,13 @@ const data = [
     "alias": "4488903",
     "name": "*COMFORTER KING LEXY CREAM GREY 8PCS KIT",
     "price": 499,
-    "stock": 218,
+    "stock": 214,
     "sales": 9,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 1,
+      "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 11,
       "07-Arab Mall": 5,
@@ -168424,8 +168148,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 24,
-      "Warehouse": 75,
-      "warehouse riyadh": 218
+      "Warehouse": 71,
+      "warehouse riyadh": 214
     }
   },
   {
@@ -168435,7 +168159,7 @@ const data = [
     "alias": "4488902",
     "name": "*COMFORTER KING LEXY FEROZI 8PCS KIT",
     "price": 499,
-    "stock": 65,
+    "stock": 64,
     "sales": 11,
     "branches": {
       "00-GIFTS": 0,
@@ -168482,7 +168206,7 @@ const data = [
       "47-Al-Nakheel Plaza": 10,
       "48 - Jeddah Park": 3,
       "49-AlAhsa Mall": 3,
-      "50-Meem Plaza Riyadh": 2,
+      "50-Meem Plaza Riyadh": 3,
       "51-Park Avenue Riyadh": 2,
       "52-Al_Baha Mall": 3,
       "53-Al Basateen Mall": 1,
@@ -168494,7 +168218,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
       "Warehouse": 83,
-      "warehouse riyadh": 65
+      "warehouse riyadh": 64
     }
   },
   {
@@ -168504,7 +168228,7 @@ const data = [
     "alias": "4488901",
     "name": "*COMFORTER KING LEXY YELLOW CHARCOAL 8PCS KIT",
     "price": 499,
-    "stock": 102,
+    "stock": 100,
     "sales": 20,
     "branches": {
       "00-GIFTS": 0,
@@ -168563,7 +168287,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 37,
       "Warehouse": 10,
-      "warehouse riyadh": 102
+      "warehouse riyadh": 100
     }
   },
   {
@@ -168780,7 +168504,7 @@ const data = [
     "alias": "440905",
     "name": "*COMFORTER KING JEWEL VATALIA PURPLE 11PCS KIT",
     "price": 399,
-    "stock": 29,
+    "stock": 20,
     "sales": 118,
     "branches": {
       "00-GIFTS": 0,
@@ -168827,7 +168551,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 4,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 2,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 1,
@@ -168838,8 +168562,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 63,
-      "warehouse riyadh": 29
+      "Warehouse": 56,
+      "warehouse riyadh": 20
     }
   },
   {
@@ -169401,7 +169125,7 @@ const data = [
     "alias": "449910",
     "name": "*COMFORTER KING TONAL SAGE VILETTE 11PCS KIT",
     "price": 695,
-    "stock": 44,
+    "stock": 40,
     "sales": 13,
     "branches": {
       "00-GIFTS": 0,
@@ -169460,7 +169184,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 42,
       "Warehouse": 9,
-      "warehouse riyadh": 44
+      "warehouse riyadh": 40
     }
   },
   {
@@ -169470,7 +169194,7 @@ const data = [
     "alias": "449909",
     "name": "*COMFORTER KING VILETTE MULTI SAGE CASCADE 11PCS KIT",
     "price": 695,
-    "stock": 82,
+    "stock": 78,
     "sales": 32,
     "branches": {
       "00-GIFTS": 0,
@@ -169528,8 +169252,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 34,
-      "Warehouse": 42,
-      "warehouse riyadh": 82
+      "Warehouse": 41,
+      "warehouse riyadh": 78
     }
   },
   {
@@ -169815,7 +169539,7 @@ const data = [
     "alias": "440911",
     "name": "*COMFORTER KING ELEEN BLUSH 8PCS KIT",
     "price": 499,
-    "stock": 116,
+    "stock": 114,
     "sales": 17,
     "branches": {
       "00-GIFTS": 1,
@@ -169874,7 +169598,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 41,
       "Warehouse": 71,
-      "warehouse riyadh": 116
+      "warehouse riyadh": 114
     }
   },
   {
@@ -169953,13 +169677,13 @@ const data = [
     "alias": "440912",
     "name": "*COMFORTER KING LUXE GREY MITALLIC 8PCS KIT",
     "price": 499,
-    "stock": 81,
+    "stock": 59,
     "sales": 199,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 4,
+      "04-Andalos Mall": 8,
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 13,
       "07-Arab Mall": 10,
@@ -169968,7 +169692,7 @@ const data = [
       "11-Jouri Mall": 9,
       "12-Al_Hamra Mall": 12,
       "13-Al-Yasmin Mall": 10,
-      "14-Al Kamal Mall": 5,
+      "14-Al Kamal Mall": 6,
       "15-Riyadh Othaim Mall": 3,
       "16-Ehsa Othaim Mall": 7,
       "17-Arar Othaim Mall": 3,
@@ -169995,12 +169719,12 @@ const data = [
       "42-Dareen Mall Dammam": 8,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 3,
-      "45- Riyadh Gallery Mall": 4,
+      "45- Riyadh Gallery Mall": 8,
       "46-Khaleej Mall Riyadh": 6,
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 10,
       "49-AlAhsa Mall": 13,
-      "50-Meem Plaza Riyadh": 6,
+      "50-Meem Plaza Riyadh": 7,
       "51-Park Avenue Riyadh": 6,
       "52-Al_Baha Mall": 2,
       "53-Al Basateen Mall": 1,
@@ -170011,8 +169735,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 101,
-      "warehouse riyadh": 81
+      "Warehouse": 92,
+      "warehouse riyadh": 59
     }
   },
   {
@@ -170091,7 +169815,7 @@ const data = [
     "alias": "440913",
     "name": "*COMFORTER KING CYNTHIA FLORAL BIEGE 8PCS KIT",
     "price": 499,
-    "stock": 88,
+    "stock": 86,
     "sales": 45,
     "branches": {
       "00-GIFTS": 0,
@@ -170106,7 +169830,7 @@ const data = [
       "11-Jouri Mall": 4,
       "12-Al_Hamra Mall": 3,
       "13-Al-Yasmin Mall": 4,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 3,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 3,
       "17-Arar Othaim Mall": 2,
@@ -170149,8 +169873,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 38,
-      "Warehouse": 68,
-      "warehouse riyadh": 88
+      "Warehouse": 67,
+      "warehouse riyadh": 86
     }
   },
   {
@@ -170298,13 +170022,13 @@ const data = [
     "alias": "440916",
     "name": "*COMFORTER KING ROME MEDALLION 8PCS KIT",
     "price": 599,
-    "stock": 95,
+    "stock": 93,
     "sales": 42,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 2,
+      "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 4,
       "07-Arab Mall": 5,
@@ -170356,8 +170080,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 35,
-      "Warehouse": 73,
-      "warehouse riyadh": 95
+      "Warehouse": 67,
+      "warehouse riyadh": 93
     }
   },
   {
@@ -170494,7 +170218,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 40,
-      "Warehouse": 95,
+      "Warehouse": 85,
       "warehouse riyadh": 8
     }
   },
@@ -170643,7 +170367,7 @@ const data = [
     "alias": "49911",
     "name": "COMFORTER KING PRINTED WHITE/MULTI VINE FLORAL 8PCS",
     "price": 299,
-    "stock": 670,
+    "stock": 664,
     "sales": 10,
     "branches": {
       "00-GIFTS": 0,
@@ -170690,7 +170414,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 2,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 2,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 1,
@@ -170702,7 +170426,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 78,
       "Warehouse": 592,
-      "warehouse riyadh": 670
+      "warehouse riyadh": 664
     }
   },
   {
@@ -170712,7 +170436,7 @@ const data = [
     "alias": "49912",
     "name": "COMFORTER KING PRINTED BLUSH DOMBURG 8PCS",
     "price": 299,
-    "stock": 1312,
+    "stock": 1306,
     "sales": 50,
     "branches": {
       "00-GIFTS": 1,
@@ -170770,8 +170494,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 245,
-      "Warehouse": 752,
-      "warehouse riyadh": 1312
+      "Warehouse": 750,
+      "warehouse riyadh": 1306
     }
   },
   {
@@ -170856,7 +170580,7 @@ const data = [
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 4,
+      "04-Andalos Mall": 6,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 5,
       "07-Arab Mall": 5,
@@ -170908,7 +170632,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 24,
-      "Warehouse": 71,
+      "Warehouse": 66,
       "warehouse riyadh": 60
     }
   },
@@ -170994,7 +170718,7 @@ const data = [
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 7,
@@ -171046,77 +170770,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 32,
-      "Warehouse": 64,
+      "Warehouse": 59,
       "warehouse riyadh": 99
-    }
-  },
-  {
-    "outlet": "warehouse riyadh",
-    "category": "لحافات كينغ",
-    "code": "23985",
-    "alias": "4092200",
-    "name": "*COMFORTER KING FLORAL PEACOCK SEA FOAM 5PCS",
-    "price": 599,
-    "stock": 28,
-    "sales": 0,
-    "branches": {
-      "00-GIFTS": 0,
-      "01-Jeddah INT Market": 0,
-      "02-Serafi Mall": 0,
-      "04-Andalos Mall": 0,
-      "05-Haifa Mall": 0,
-      "06-Red Sea Mall": 0,
-      "07-Arab Mall": 0,
-      "08-Makkah Mall": 0,
-      "09-Al-Salam Mall": 0,
-      "11-Jouri Mall": 0,
-      "12-Al_Hamra Mall": 0,
-      "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 0,
-      "15-Riyadh Othaim Mall": 0,
-      "16-Ehsa Othaim Mall": 0,
-      "17-Arar Othaim Mall": 0,
-      "18-Al_Khayyat Center": 0,
-      "19-Hail Othaim Mall": 0,
-      "20-Sitten Street Makkah": 0,
-      "21-Abha Al_Rashid Mall New": 0,
-      "22-Tabuk Park": 0,
-      "23-Alia Mall Madinah": 0,
-      "24-Yanbu Dana Mall": 0,
-      "25-Rabwa Othaim Mall": 0,
-      "26-Al-Noor Mall Madinah": 0,
-      "27-Dhahran Mall khobar": 0,
-      "28-Al Nakheel Mall Dammam": 0,
-      "29-Al Nakheel Mall Riyadh": 0,
-      "30-Tala Mall Riyadh": 0,
-      "32-Atyaf Mall Riyadh": 0,
-      "33-Othaim Mall Rabwa2 Riyadh": 0,
-      "36-Al jubail Mall": 0,
-      "38-Al_Riyadh Park": 0,
-      "39-Salam Mall Riyadh": 0,
-      "40-Hayat Mall Riyad": 0,
-      "41-Khamis Avenue": 0,
-      "42-Dareen Mall Dammam": 0,
-      "43-Mujan Park": 0,
-      "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 0,
-      "46-Khaleej Mall Riyadh": 0,
-      "47-Al-Nakheel Plaza": 0,
-      "48 - Jeddah Park": 0,
-      "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
-      "51-Park Avenue Riyadh": 0,
-      "52-Al_Baha Mall": 0,
-      "53-Al Basateen Mall": 0,
-      "54-THE VILLAGE": 0,
-      "55- Jabl Omar": 0,
-      "56- Aziz Mall 2": 0,
-      "57-Sauq7": 0,
-      "Abha Al_Rashid Mall": 0,
-      "Al Manar Mall Madinah": 0,
-      "PLATFORMS": 0,
-      "Warehouse": 0,
-      "warehouse riyadh": 28
     }
   },
   {
@@ -171126,8 +170781,8 @@ const data = [
     "alias": "440922",
     "name": "*COMFORTER KING FLORAL SEA FOAM 8PCS KIT",
     "price": 599,
-    "stock": 35,
-    "sales": 144,
+    "stock": 34,
+    "sales": 145,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -171146,7 +170801,7 @@ const data = [
       "16-Ehsa Othaim Mall": 10,
       "17-Arar Othaim Mall": 2,
       "18-Al_Khayyat Center": 0,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 1,
       "20-Sitten Street Makkah": 0,
       "21-Abha Al_Rashid Mall New": 0,
       "22-Tabuk Park": 0,
@@ -171168,12 +170823,12 @@ const data = [
       "42-Dareen Mall Dammam": 6,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 5,
+      "45- Riyadh Gallery Mall": 8,
       "46-Khaleej Mall Riyadh": 9,
       "47-Al-Nakheel Plaza": 1,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 11,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 8,
       "51-Park Avenue Riyadh": 1,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -171185,7 +170840,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 9,
-      "warehouse riyadh": 35
+      "warehouse riyadh": 34
     }
   },
   {
@@ -171264,13 +170919,13 @@ const data = [
     "alias": "4489100",
     "name": "*COMFORTER KING BLOOMING PINK 10PCS KIT",
     "price": 499,
-    "stock": 58,
+    "stock": 54,
     "sales": 72,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 4,
+      "04-Andalos Mall": 8,
       "05-Haifa Mall": 3,
       "06-Red Sea Mall": 8,
       "07-Arab Mall": 2,
@@ -171306,7 +170961,7 @@ const data = [
       "42-Dareen Mall Dammam": 7,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 2,
-      "45- Riyadh Gallery Mall": 4,
+      "45- Riyadh Gallery Mall": 6,
       "46-Khaleej Mall Riyadh": 2,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 4,
@@ -171322,8 +170977,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 19,
-      "Warehouse": 65,
-      "warehouse riyadh": 58
+      "Warehouse": 51,
+      "warehouse riyadh": 54
     }
   },
   {
@@ -171339,7 +170994,7 @@ const data = [
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 3,
@@ -171391,7 +171046,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
-      "Warehouse": 90,
+      "Warehouse": 88,
       "warehouse riyadh": 118
     }
   },
@@ -171402,7 +171057,7 @@ const data = [
     "alias": "49913",
     "name": "COMFORTER KING MULTI MEADOW FLORAL 8PCS",
     "price": 299,
-    "stock": 1400,
+    "stock": 1390,
     "sales": 32,
     "branches": {
       "00-GIFTS": 1,
@@ -171444,12 +171099,12 @@ const data = [
       "42-Dareen Mall Dammam": 4,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 3,
-      "45- Riyadh Gallery Mall": 1,
+      "45- Riyadh Gallery Mall": 3,
       "46-Khaleej Mall Riyadh": 4,
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 4,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 2,
       "51-Park Avenue Riyadh": 5,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 2,
@@ -171460,8 +171115,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 63,
-      "Warehouse": 1139,
-      "warehouse riyadh": 1400
+      "Warehouse": 1137,
+      "warehouse riyadh": 1390
     }
   },
   {
@@ -171598,7 +171253,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 24,
-      "Warehouse": 84,
+      "Warehouse": 82,
       "warehouse riyadh": 157
     }
   },
@@ -171678,7 +171333,7 @@ const data = [
     "alias": "440924",
     "name": "*COMFORTER KING TONAL FLORAL TAUPE 8PCS KIT",
     "price": 599,
-    "stock": 123,
+    "stock": 121,
     "sales": 72,
     "branches": {
       "00-GIFTS": 1,
@@ -171693,7 +171348,7 @@ const data = [
       "11-Jouri Mall": 3,
       "12-Al_Hamra Mall": 9,
       "13-Al-Yasmin Mall": 0,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 3,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 3,
       "17-Arar Othaim Mall": 2,
@@ -171736,8 +171391,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 22,
-      "Warehouse": 75,
-      "warehouse riyadh": 123
+      "Warehouse": 70,
+      "warehouse riyadh": 121
     }
   },
   {
@@ -171747,13 +171402,13 @@ const data = [
     "alias": "49916",
     "name": "COMFORTER KING PAVLA GREY 8PCS",
     "price": 299,
-    "stock": 1460,
+    "stock": 1452,
     "sales": 23,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 6,
+      "04-Andalos Mall": 8,
       "05-Haifa Mall": 3,
       "06-Red Sea Mall": 8,
       "07-Arab Mall": 2,
@@ -171762,7 +171417,7 @@ const data = [
       "11-Jouri Mall": 5,
       "12-Al_Hamra Mall": 2,
       "13-Al-Yasmin Mall": 2,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 3,
       "15-Riyadh Othaim Mall": 1,
       "16-Ehsa Othaim Mall": 4,
       "17-Arar Othaim Mall": 0,
@@ -171794,7 +171449,7 @@ const data = [
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 2,
       "49-AlAhsa Mall": 1,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 2,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -171805,8 +171460,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 35,
-      "Warehouse": 1301,
-      "warehouse riyadh": 1460
+      "Warehouse": 1293,
+      "warehouse riyadh": 1452
     }
   },
   {
@@ -171816,13 +171471,13 @@ const data = [
     "alias": "49917",
     "name": "COMFORTER KING PAVLA BLUSH 8PCS",
     "price": 299,
-    "stock": 1496,
+    "stock": 1488,
     "sales": 19,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 3,
+      "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 7,
       "07-Arab Mall": 7,
@@ -171863,7 +171518,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 7,
       "49-AlAhsa Mall": 0,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 5,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -171874,8 +171529,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 5,
-      "Warehouse": 1383,
-      "warehouse riyadh": 1496
+      "Warehouse": 1379,
+      "warehouse riyadh": 1488
     }
   },
   {
@@ -171885,7 +171540,7 @@ const data = [
     "alias": "49918",
     "name": "COMFORTER KING PRSSIA 8PCS",
     "price": 299,
-    "stock": 5,
+    "stock": 1,
     "sales": 8,
     "branches": {
       "00-GIFTS": 0,
@@ -171944,7 +171599,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 4,
       "Warehouse": 8,
-      "warehouse riyadh": 5
+      "warehouse riyadh": 1
     }
   },
   {
@@ -171954,7 +171609,7 @@ const data = [
     "alias": "49919",
     "name": "COMFORTER KING ARDICE GRAY ECRU 8PCS",
     "price": 299,
-    "stock": 970,
+    "stock": 960,
     "sales": 83,
     "branches": {
       "00-GIFTS": 1,
@@ -171969,7 +171624,7 @@ const data = [
       "11-Jouri Mall": 4,
       "12-Al_Hamra Mall": 5,
       "13-Al-Yasmin Mall": 6,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 4,
       "15-Riyadh Othaim Mall": 3,
       "16-Ehsa Othaim Mall": 6,
       "17-Arar Othaim Mall": 3,
@@ -171996,7 +171651,7 @@ const data = [
       "42-Dareen Mall Dammam": 4,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 3,
+      "45- Riyadh Gallery Mall": 5,
       "46-Khaleej Mall Riyadh": 6,
       "47-Al-Nakheel Plaza": 5,
       "48 - Jeddah Park": 0,
@@ -172012,8 +171667,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 84,
-      "Warehouse": 168,
-      "warehouse riyadh": 970
+      "Warehouse": 154,
+      "warehouse riyadh": 960
     }
   },
   {
@@ -172644,7 +172299,7 @@ const data = [
     "alias": "440929",
     "name": "*COMFORTER KING PATIA GRAY 11PCS KIT",
     "price": 399,
-    "stock": 32,
+    "stock": 30,
     "sales": 34,
     "branches": {
       "00-GIFTS": 0,
@@ -172702,8 +172357,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 33,
-      "Warehouse": 63,
-      "warehouse riyadh": 32
+      "Warehouse": 61,
+      "warehouse riyadh": 30
     }
   },
   {
@@ -172713,7 +172368,7 @@ const data = [
     "alias": "49914",
     "name": "COMFORTER KING BOW GIMINY BLUE 5PCS",
     "price": 299,
-    "stock": 372,
+    "stock": 368,
     "sales": 40,
     "branches": {
       "00-GIFTS": 0,
@@ -172728,7 +172383,7 @@ const data = [
       "11-Jouri Mall": 2,
       "12-Al_Hamra Mall": 2,
       "13-Al-Yasmin Mall": 5,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 4,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 2,
       "17-Arar Othaim Mall": 2,
@@ -172755,7 +172410,7 @@ const data = [
       "42-Dareen Mall Dammam": 3,
       "43-Mujan Park": 2,
       "44-Al-Jouf Center": 2,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 3,
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 6,
@@ -172771,8 +172426,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 85,
-      "Warehouse": 402,
-      "warehouse riyadh": 372
+      "Warehouse": 400,
+      "warehouse riyadh": 368
     }
   },
   {
@@ -172782,7 +172437,7 @@ const data = [
     "alias": "49915",
     "name": "COMFORTER KING BOW GIMINY LAVENDER 5PCS",
     "price": 299,
-    "stock": 380,
+    "stock": 376,
     "sales": 22,
     "branches": {
       "00-GIFTS": 0,
@@ -172824,7 +172479,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 4,
       "44-Al-Jouf Center": 4,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 2,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 7,
@@ -172841,7 +172496,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
       "Warehouse": 530,
-      "warehouse riyadh": 380
+      "warehouse riyadh": 376
     }
   },
   {
@@ -172851,7 +172506,7 @@ const data = [
     "alias": "49921",
     "name": "COMFORTER KING GAVOTTE SAGE 8PCS",
     "price": 299,
-    "stock": 1946,
+    "stock": 1936,
     "sales": 188,
     "branches": {
       "00-GIFTS": 0,
@@ -172866,7 +172521,7 @@ const data = [
       "11-Jouri Mall": 7,
       "12-Al_Hamra Mall": 3,
       "13-Al-Yasmin Mall": 4,
-      "14-Al Kamal Mall": 3,
+      "14-Al Kamal Mall": 5,
       "15-Riyadh Othaim Mall": 2,
       "16-Ehsa Othaim Mall": 6,
       "17-Arar Othaim Mall": 0,
@@ -172898,7 +172553,7 @@ const data = [
       "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 4,
       "49-AlAhsa Mall": 8,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 1,
@@ -172909,8 +172564,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 216,
-      "Warehouse": 335,
-      "warehouse riyadh": 1946
+      "Warehouse": 329,
+      "warehouse riyadh": 1936
     }
   },
   {
@@ -172920,7 +172575,7 @@ const data = [
     "alias": "49922",
     "name": "COMFORTER KING ABELIA CORAL 8PCS",
     "price": 299,
-    "stock": 1969,
+    "stock": 1949,
     "sales": 69,
     "branches": {
       "00-GIFTS": 0,
@@ -172935,7 +172590,7 @@ const data = [
       "11-Jouri Mall": 4,
       "12-Al_Hamra Mall": 2,
       "13-Al-Yasmin Mall": 7,
-      "14-Al Kamal Mall": 3,
+      "14-Al Kamal Mall": 7,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 8,
       "17-Arar Othaim Mall": 0,
@@ -172962,12 +172617,12 @@ const data = [
       "42-Dareen Mall Dammam": 4,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 4,
+      "45- Riyadh Gallery Mall": 8,
       "46-Khaleej Mall Riyadh": 5,
       "47-Al-Nakheel Plaza": 1,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 7,
-      "50-Meem Plaza Riyadh": 0,
+      "50-Meem Plaza Riyadh": 4,
       "51-Park Avenue Riyadh": 3,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 0,
@@ -172978,8 +172633,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 86,
-      "Warehouse": 1198,
-      "warehouse riyadh": 1969
+      "Warehouse": 1186,
+      "warehouse riyadh": 1949
     }
   },
   {
@@ -172989,13 +172644,13 @@ const data = [
     "alias": "49923",
     "name": "COMFORTER KING ROSEL VERNAZZA 8PCS",
     "price": 299,
-    "stock": 2170,
+    "stock": 2160,
     "sales": 32,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 4,
+      "04-Andalos Mall": 6,
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 6,
       "07-Arab Mall": 3,
@@ -173036,7 +172691,7 @@ const data = [
       "47-Al-Nakheel Plaza": 3,
       "48 - Jeddah Park": 1,
       "49-AlAhsa Mall": 6,
-      "50-Meem Plaza Riyadh": 1,
+      "50-Meem Plaza Riyadh": 5,
       "51-Park Avenue Riyadh": 1,
       "52-Al_Baha Mall": 1,
       "53-Al Basateen Mall": 0,
@@ -173047,8 +172702,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 83,
-      "Warehouse": 1839,
-      "warehouse riyadh": 2170
+      "Warehouse": 1835,
+      "warehouse riyadh": 2160
     }
   },
   {
@@ -173058,7 +172713,7 @@ const data = [
     "alias": "49920",
     "name": "COMFORTER KING BOW GIMINY BLUSH 5PCS",
     "price": 299,
-    "stock": 318,
+    "stock": 308,
     "sales": 97,
     "branches": {
       "00-GIFTS": 0,
@@ -173100,7 +172755,7 @@ const data = [
       "42-Dareen Mall Dammam": 2,
       "43-Mujan Park": 3,
       "44-Al-Jouf Center": 2,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 2,
       "46-Khaleej Mall Riyadh": 6,
       "47-Al-Nakheel Plaza": 4,
       "48 - Jeddah Park": 6,
@@ -173116,8 +172771,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 78,
-      "Warehouse": 196,
-      "warehouse riyadh": 318
+      "Warehouse": 186,
+      "warehouse riyadh": 308
     }
   },
   {
@@ -173127,7 +172782,7 @@ const data = [
     "alias": "443720",
     "name": "*COMFORTER KING ISABELLA WHITE 11 PCS KIT",
     "price": 995,
-    "stock": 94,
+    "stock": 92,
     "sales": 24,
     "branches": {
       "00-GIFTS": 0,
@@ -173186,7 +172841,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 5,
       "Warehouse": 86,
-      "warehouse riyadh": 94
+      "warehouse riyadh": 92
     }
   },
   {
@@ -173610,7 +173265,7 @@ const data = [
     "alias": "9563",
     "name": "PILLOW KING DREAM COMFORT",
     "price": 99,
-    "stock": 1602,
+    "stock": 1572,
     "sales": 438,
     "branches": {
       "00-GIFTS": 1,
@@ -173657,7 +173312,7 @@ const data = [
       "47-Al-Nakheel Plaza": 56,
       "48 - Jeddah Park": 17,
       "49-AlAhsa Mall": 33,
-      "50-Meem Plaza Riyadh": 45,
+      "50-Meem Plaza Riyadh": 57,
       "51-Park Avenue Riyadh": 42,
       "52-Al_Baha Mall": 0,
       "53-Al Basateen Mall": 4,
@@ -173669,7 +173324,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 43,
       "Warehouse": 926,
-      "warehouse riyadh": 1602
+      "warehouse riyadh": 1572
     }
   },
   {
@@ -173817,8 +173472,8 @@ const data = [
     "alias": "9312",
     "name": "PILLOW KING ADJUSTABLE",
     "price": 139,
-    "stock": 852,
-    "sales": 340,
+    "stock": 840,
+    "sales": 343,
     "branches": {
       "00-GIFTS": 22,
       "01-Jeddah INT Market": 6,
@@ -173875,8 +173530,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 58,
-      "Warehouse": 7540,
-      "warehouse riyadh": 852
+      "Warehouse": 7513,
+      "warehouse riyadh": 840
     }
   },
   {
@@ -173886,7 +173541,7 @@ const data = [
     "alias": "9575",
     "name": "PILLOW STANDARD FRESH LAVENDER MEMORY FOAM",
     "price": 99,
-    "stock": 2086,
+    "stock": 2076,
     "sales": 255,
     "branches": {
       "00-GIFTS": 11,
@@ -173901,7 +173556,7 @@ const data = [
       "11-Jouri Mall": 6,
       "12-Al_Hamra Mall": 13,
       "13-Al-Yasmin Mall": 9,
-      "14-Al Kamal Mall": 4,
+      "14-Al Kamal Mall": 14,
       "15-Riyadh Othaim Mall": 14,
       "16-Ehsa Othaim Mall": 24,
       "17-Arar Othaim Mall": 11,
@@ -173944,8 +173599,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 30,
-      "Warehouse": 400,
-      "warehouse riyadh": 2086
+      "Warehouse": 370,
+      "warehouse riyadh": 2076
     }
   },
   {
@@ -173955,7 +173610,7 @@ const data = [
     "alias": "9576",
     "name": "PILLOW STANDARD FRESH LINEN MEMORY FOAM",
     "price": 99,
-    "stock": 740,
+    "stock": 736,
     "sales": 108,
     "branches": {
       "00-GIFTS": 4,
@@ -173970,7 +173625,7 @@ const data = [
       "11-Jouri Mall": 10,
       "12-Al_Hamra Mall": 11,
       "13-Al-Yasmin Mall": 5,
-      "14-Al Kamal Mall": 4,
+      "14-Al Kamal Mall": 8,
       "15-Riyadh Othaim Mall": 8,
       "16-Ehsa Othaim Mall": 20,
       "17-Arar Othaim Mall": 5,
@@ -174013,8 +173668,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 33,
-      "Warehouse": 138,
-      "warehouse riyadh": 740
+      "Warehouse": 126,
+      "warehouse riyadh": 736
     }
   },
   {
@@ -174024,7 +173679,7 @@ const data = [
     "alias": "959407",
     "name": "PILLOW KING COOLING MEMORY FIBER",
     "price": 94,
-    "stock": 2286,
+    "stock": 2268,
     "sales": 190,
     "branches": {
       "00-GIFTS": 2,
@@ -174071,7 +173726,7 @@ const data = [
       "47-Al-Nakheel Plaza": 25,
       "48 - Jeddah Park": 17,
       "49-AlAhsa Mall": 20,
-      "50-Meem Plaza Riyadh": 9,
+      "50-Meem Plaza Riyadh": 15,
       "51-Park Avenue Riyadh": 21,
       "52-Al_Baha Mall": 15,
       "53-Al Basateen Mall": 1,
@@ -174082,8 +173737,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
-      "Warehouse": 2859,
-      "warehouse riyadh": 2286
+      "Warehouse": 2847,
+      "warehouse riyadh": 2268
     }
   },
   {
@@ -174093,7 +173748,7 @@ const data = [
     "alias": "9192",
     "name": "PILLOW KING SUB-0 TRIPLE COOLING",
     "price": 159,
-    "stock": 4072,
+    "stock": 4048,
     "sales": 221,
     "branches": {
       "00-GIFTS": 5,
@@ -174140,7 +173795,7 @@ const data = [
       "47-Al-Nakheel Plaza": 17,
       "48 - Jeddah Park": 16,
       "49-AlAhsa Mall": 34,
-      "50-Meem Plaza Riyadh": 10,
+      "50-Meem Plaza Riyadh": 18,
       "51-Park Avenue Riyadh": 17,
       "52-Al_Baha Mall": 32,
       "53-Al Basateen Mall": 6,
@@ -174151,8 +173806,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 53,
-      "Warehouse": 1338,
-      "warehouse riyadh": 4072
+      "Warehouse": 1330,
+      "warehouse riyadh": 4048
     }
   },
   {
@@ -174162,7 +173817,7 @@ const data = [
     "alias": "9244",
     "name": "PILLOW KING FEATHER WHITE DOWN",
     "price": 395,
-    "stock": 2556,
+    "stock": 2544,
     "sales": 102,
     "branches": {
       "00-GIFTS": 0,
@@ -174177,7 +173832,7 @@ const data = [
       "11-Jouri Mall": 16,
       "12-Al_Hamra Mall": 16,
       "13-Al-Yasmin Mall": 18,
-      "14-Al Kamal Mall": 1,
+      "14-Al Kamal Mall": 5,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 19,
       "17-Arar Othaim Mall": 4,
@@ -174220,8 +173875,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 48,
-      "Warehouse": 1285,
-      "warehouse riyadh": 2556
+      "Warehouse": 1281,
+      "warehouse riyadh": 2544
     }
   },
   {
@@ -174289,7 +173944,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 61,
-      "Warehouse": 692,
+      "Warehouse": 680,
       "warehouse riyadh": 4062
     }
   },
@@ -174300,13 +173955,13 @@ const data = [
     "alias": "959413",
     "name": "PILLOW KING THERMO PERFORMANCE COOL-0",
     "price": 249,
-    "stock": 1251,
+    "stock": 1239,
     "sales": 189,
     "branches": {
       "00-GIFTS": 5,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 12,
       "05-Haifa Mall": 19,
       "06-Red Sea Mall": 19,
       "07-Arab Mall": 8,
@@ -174358,8 +174013,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 20,
-      "warehouse riyadh": 1251
+      "Warehouse": 11,
+      "warehouse riyadh": 1239
     }
   },
   {
@@ -174369,13 +174024,13 @@ const data = [
     "alias": "959412",
     "name": "PILLOW SIDE SLEEPER TPE COVER",
     "price": 199,
-    "stock": 3588,
+    "stock": 3556,
     "sales": 311,
     "branches": {
       "00-GIFTS": 6,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 20,
+      "04-Andalos Mall": 24,
       "05-Haifa Mall": 24,
       "06-Red Sea Mall": 47,
       "07-Arab Mall": 19,
@@ -174416,7 +174071,7 @@ const data = [
       "47-Al-Nakheel Plaza": 20,
       "48 - Jeddah Park": 27,
       "49-AlAhsa Mall": 21,
-      "50-Meem Plaza Riyadh": 12,
+      "50-Meem Plaza Riyadh": 20,
       "51-Park Avenue Riyadh": 13,
       "52-Al_Baha Mall": 18,
       "53-Al Basateen Mall": 12,
@@ -174427,8 +174082,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 41,
-      "Warehouse": 1897,
-      "warehouse riyadh": 3588
+      "Warehouse": 1889,
+      "warehouse riyadh": 3556
     }
   },
   {
@@ -174714,13 +174369,13 @@ const data = [
     "alias": "91544",
     "name": "PILLOW STANDARD EXTRA FIRM",
     "price": 39,
-    "stock": 20564,
-    "sales": 3444,
+    "stock": 20270,
+    "sales": 3459,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 41,
+      "04-Andalos Mall": 71,
       "05-Haifa Mall": 30,
       "06-Red Sea Mall": 58,
       "07-Arab Mall": 80,
@@ -174729,8 +174384,8 @@ const data = [
       "11-Jouri Mall": 37,
       "12-Al_Hamra Mall": 112,
       "13-Al-Yasmin Mall": 3,
-      "14-Al Kamal Mall": 1,
-      "15-Riyadh Othaim Mall": 19,
+      "14-Al Kamal Mall": 31,
+      "15-Riyadh Othaim Mall": 10,
       "16-Ehsa Othaim Mall": 51,
       "17-Arar Othaim Mall": 20,
       "18-Al_Khayyat Center": 12,
@@ -174738,7 +174393,7 @@ const data = [
       "20-Sitten Street Makkah": 61,
       "21-Abha Al_Rashid Mall New": 66,
       "22-Tabuk Park": 88,
-      "23-Alia Mall Madinah": 113,
+      "23-Alia Mall Madinah": 112,
       "24-Yanbu Dana Mall": 37,
       "25-Rabwa Othaim Mall": 57,
       "26-Al-Noor Mall Madinah": 110,
@@ -174746,7 +174401,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 9,
       "29-Al Nakheel Mall Riyadh": 106,
       "30-Tala Mall Riyadh": 55,
-      "32-Atyaf Mall Riyadh": 20,
+      "32-Atyaf Mall Riyadh": 18,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 0,
       "38-Al_Riyadh Park": 21,
@@ -174756,12 +174411,12 @@ const data = [
       "42-Dareen Mall Dammam": 39,
       "43-Mujan Park": 60,
       "44-Al-Jouf Center": 18,
-      "45- Riyadh Gallery Mall": 0,
+      "45- Riyadh Gallery Mall": 66,
       "46-Khaleej Mall Riyadh": 72,
       "47-Al-Nakheel Plaza": 46,
       "48 - Jeddah Park": 54,
       "49-AlAhsa Mall": 68,
-      "50-Meem Plaza Riyadh": 35,
+      "50-Meem Plaza Riyadh": 47,
       "51-Park Avenue Riyadh": 39,
       "52-Al_Baha Mall": 29,
       "53-Al Basateen Mall": 7,
@@ -174772,8 +174427,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 9466,
-      "warehouse riyadh": 20564
+      "Warehouse": 9181,
+      "warehouse riyadh": 20270
     }
   },
   {
@@ -174783,13 +174438,13 @@ const data = [
     "alias": "91144",
     "name": "PILLOW KING EXTRA FIRM",
     "price": 69,
-    "stock": 11334,
+    "stock": 11226,
     "sales": 935,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 42,
+      "04-Andalos Mall": 54,
       "05-Haifa Mall": 18,
       "06-Red Sea Mall": 28,
       "07-Arab Mall": 68,
@@ -174825,12 +174480,12 @@ const data = [
       "42-Dareen Mall Dammam": 65,
       "43-Mujan Park": 61,
       "44-Al-Jouf Center": 1,
-      "45- Riyadh Gallery Mall": 21,
+      "45- Riyadh Gallery Mall": 27,
       "46-Khaleej Mall Riyadh": 58,
       "47-Al-Nakheel Plaza": 39,
       "48 - Jeddah Park": 19,
       "49-AlAhsa Mall": 46,
-      "50-Meem Plaza Riyadh": 35,
+      "50-Meem Plaza Riyadh": 47,
       "51-Park Avenue Riyadh": 25,
       "52-Al_Baha Mall": 33,
       "53-Al Basateen Mall": 10,
@@ -174841,8 +174496,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 7484,
-      "warehouse riyadh": 11334
+      "Warehouse": 7364,
+      "warehouse riyadh": 11226
     }
   },
   {
@@ -174852,7 +174507,7 @@ const data = [
     "alias": "95644",
     "name": "PILLOW STANDARD COMFORT DREAM",
     "price": 69,
-    "stock": 8562,
+    "stock": 8538,
     "sales": 618,
     "branches": {
       "00-GIFTS": 0,
@@ -174899,7 +174554,7 @@ const data = [
       "47-Al-Nakheel Plaza": 31,
       "48 - Jeddah Park": 26,
       "49-AlAhsa Mall": 48,
-      "50-Meem Plaza Riyadh": 13,
+      "50-Meem Plaza Riyadh": 31,
       "51-Park Avenue Riyadh": 33,
       "52-Al_Baha Mall": 51,
       "53-Al Basateen Mall": 11,
@@ -174910,8 +174565,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 7279,
-      "warehouse riyadh": 8562
+      "Warehouse": 7249,
+      "warehouse riyadh": 8538
     }
   },
   {
@@ -174927,7 +174582,7 @@ const data = [
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 19,
+      "04-Andalos Mall": 31,
       "05-Haifa Mall": 0,
       "06-Red Sea Mall": 25,
       "07-Arab Mall": 18,
@@ -174979,7 +174634,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 6489,
+      "Warehouse": 6465,
       "warehouse riyadh": 7794
     }
   },
@@ -174990,7 +174645,7 @@ const data = [
     "alias": "9928001",
     "name": "PILLOW EURO SHAM CUSHION WHITE KIT",
     "price": 59,
-    "stock": 683,
+    "stock": 668,
     "sales": 78,
     "branches": {
       "00-GIFTS": 0,
@@ -175049,7 +174704,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 7,
-      "warehouse riyadh": 683
+      "warehouse riyadh": 668
     }
   },
   {
@@ -175128,7 +174783,7 @@ const data = [
     "alias": "9928002",
     "name": "PILLOW EURO SHAM CASHION MARSHMALLOW IVORY KIT",
     "price": 59,
-    "stock": 441,
+    "stock": 431,
     "sales": 50,
     "branches": {
       "00-GIFTS": 0,
@@ -175187,7 +174842,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 441
+      "warehouse riyadh": 431
     }
   },
   {
@@ -175335,7 +174990,7 @@ const data = [
     "alias": "710802",
     "name": "TOWEL SQUARE AIR-RICH WHITE",
     "price": 5,
-    "stock": 4392,
+    "stock": 4296,
     "sales": 269,
     "branches": {
       "00-GIFTS": 0,
@@ -175394,7 +175049,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
       "Warehouse": 2884,
-      "warehouse riyadh": 4392
+      "warehouse riyadh": 4296
     }
   },
   {
@@ -175680,8 +175335,8 @@ const data = [
     "alias": "710601",
     "name": "BATH SHEET AIR-RICH IVORY",
     "price": 69,
-    "stock": 5244,
-    "sales": 94,
+    "stock": 5232,
+    "sales": 95,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 12,
@@ -175700,7 +175355,7 @@ const data = [
       "16-Ehsa Othaim Mall": 10,
       "17-Arar Othaim Mall": 17,
       "18-Al_Khayyat Center": 15,
-      "19-Hail Othaim Mall": 13,
+      "19-Hail Othaim Mall": 12,
       "20-Sitten Street Makkah": 17,
       "21-Abha Al_Rashid Mall New": 10,
       "22-Tabuk Park": 7,
@@ -175739,7 +175394,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 29,
       "Warehouse": 8626,
-      "warehouse riyadh": 5244
+      "warehouse riyadh": 5232
     }
   },
   {
@@ -175749,7 +175404,7 @@ const data = [
     "alias": "710602",
     "name": "BATH SHEET AIR-RICH WHITE",
     "price": 69,
-    "stock": 5817,
+    "stock": 5805,
     "sales": 82,
     "branches": {
       "00-GIFTS": 4,
@@ -175808,7 +175463,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 38,
       "Warehouse": 7533,
-      "warehouse riyadh": 5817
+      "warehouse riyadh": 5805
     }
   },
   {
@@ -175876,7 +175531,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 44,
-      "Warehouse": 2775,
+      "Warehouse": 2757,
       "warehouse riyadh": 3456
     }
   },
@@ -176094,8 +175749,8 @@ const data = [
     "alias": "710701",
     "name": "TOWEL EUR AIR-RICH IVORY",
     "price": 25,
-    "stock": 2628,
-    "sales": 193,
+    "stock": 2604,
+    "sales": 194,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 21,
@@ -176114,7 +175769,7 @@ const data = [
       "16-Ehsa Othaim Mall": 5,
       "17-Arar Othaim Mall": 14,
       "18-Al_Khayyat Center": 16,
-      "19-Hail Othaim Mall": 8,
+      "19-Hail Othaim Mall": 7,
       "20-Sitten Street Makkah": 6,
       "21-Abha Al_Rashid Mall New": 14,
       "22-Tabuk Park": 14,
@@ -176153,7 +175808,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
       "Warehouse": 7982,
-      "warehouse riyadh": 2628
+      "warehouse riyadh": 2604
     }
   },
   {
@@ -176163,7 +175818,7 @@ const data = [
     "alias": "710702",
     "name": "TOWEL EUR AIR-RICH WHITE",
     "price": 25,
-    "stock": 2844,
+    "stock": 2808,
     "sales": 179,
     "branches": {
       "00-GIFTS": 4,
@@ -176205,7 +175860,7 @@ const data = [
       "42-Dareen Mall Dammam": 27,
       "43-Mujan Park": 8,
       "44-Al-Jouf Center": 9,
-      "45- Riyadh Gallery Mall": 5,
+      "45- Riyadh Gallery Mall": 17,
       "46-Khaleej Mall Riyadh": 18,
       "47-Al-Nakheel Plaza": 13,
       "48 - Jeddah Park": 20,
@@ -176221,8 +175876,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 8090,
-      "warehouse riyadh": 2844
+      "Warehouse": 8078,
+      "warehouse riyadh": 2808
     }
   },
   {
@@ -176232,7 +175887,7 @@ const data = [
     "alias": "710703",
     "name": "TOWEL EUR AIR-RICH LINEN",
     "price": 25,
-    "stock": 4248,
+    "stock": 4212,
     "sales": 145,
     "branches": {
       "00-GIFTS": 0,
@@ -176247,7 +175902,7 @@ const data = [
       "11-Jouri Mall": 15,
       "12-Al_Hamra Mall": 16,
       "13-Al-Yasmin Mall": 7,
-      "14-Al Kamal Mall": 5,
+      "14-Al Kamal Mall": 17,
       "15-Riyadh Othaim Mall": 4,
       "16-Ehsa Othaim Mall": 11,
       "17-Arar Othaim Mall": 12,
@@ -176290,8 +175945,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 4252,
-      "warehouse riyadh": 4248
+      "Warehouse": 4228,
+      "warehouse riyadh": 4212
     }
   },
   {
@@ -176301,13 +175956,13 @@ const data = [
     "alias": "710709",
     "name": "TOWEL EUR AIR-RICH PINK",
     "price": 25,
-    "stock": 2808,
+    "stock": 2784,
     "sales": 248,
     "branches": {
       "00-GIFTS": 1,
       "01-Jeddah INT Market": 11,
       "02-Serafi Mall": 0,
-      "04-Andalos Mall": 9,
+      "04-Andalos Mall": 21,
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 30,
       "07-Arab Mall": 16,
@@ -176359,8 +176014,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 2131,
-      "warehouse riyadh": 2808
+      "Warehouse": 2107,
+      "warehouse riyadh": 2784
     }
   },
   {
@@ -176370,7 +176025,7 @@ const data = [
     "alias": "710712",
     "name": "TOWEL EUR  AIR-RICH TITANIUM",
     "price": 25,
-    "stock": 204,
+    "stock": 192,
     "sales": 77,
     "branches": {
       "00-GIFTS": 0,
@@ -176428,8 +176083,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 656,
-      "warehouse riyadh": 204
+      "Warehouse": 644,
+      "warehouse riyadh": 192
     }
   },
   {
@@ -176646,7 +176301,7 @@ const data = [
     "alias": "714401",
     "name": "BATH TOWEL AIR-RICH IVORY 70X140",
     "price": 49,
-    "stock": 4812,
+    "stock": 4800,
     "sales": 145,
     "branches": {
       "00-GIFTS": 0,
@@ -176704,8 +176359,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 2865,
-      "warehouse riyadh": 4812
+      "Warehouse": 2859,
+      "warehouse riyadh": 4800
     }
   },
   {
@@ -176715,7 +176370,7 @@ const data = [
     "alias": "714403",
     "name": "BATH TOWEL AIR-RICH LINEN 70X140",
     "price": 49,
-    "stock": 3348,
+    "stock": 3324,
     "sales": 138,
     "branches": {
       "00-GIFTS": 0,
@@ -176773,8 +176428,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 1795,
-      "warehouse riyadh": 3348
+      "Warehouse": 1783,
+      "warehouse riyadh": 3324
     }
   },
   {
@@ -176784,7 +176439,7 @@ const data = [
     "alias": "714412",
     "name": "BATH TOWEL AIR-RICH TITANIUM 70X140",
     "price": 49,
-    "stock": 2394,
+    "stock": 2382,
     "sales": 32,
     "branches": {
       "00-GIFTS": 0,
@@ -176826,7 +176481,7 @@ const data = [
       "42-Dareen Mall Dammam": 6,
       "43-Mujan Park": 0,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 3,
+      "45- Riyadh Gallery Mall": 15,
       "46-Khaleej Mall Riyadh": 21,
       "47-Al-Nakheel Plaza": 8,
       "48 - Jeddah Park": 0,
@@ -176843,7 +176498,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 2394
+      "warehouse riyadh": 2382
     }
   },
   {
@@ -176980,7 +176635,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 914,
+      "Warehouse": 896,
       "warehouse riyadh": 4932
     }
   },
@@ -176991,7 +176646,7 @@ const data = [
     "alias": "714409",
     "name": "BATH TOWEL AIR-RICH PINK 70X140",
     "price": 49,
-    "stock": 1421,
+    "stock": 1397,
     "sales": 156,
     "branches": {
       "00-GIFTS": 3,
@@ -177049,8 +176704,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
-      "Warehouse": 2560,
-      "warehouse riyadh": 1421
+      "Warehouse": 2554,
+      "warehouse riyadh": 1397
     }
   },
   {
@@ -177060,7 +176715,7 @@ const data = [
     "alias": "714402",
     "name": "BATH TOWEL AIR-RICH WHITE 70X140",
     "price": 49,
-    "stock": 3051,
+    "stock": 3039,
     "sales": 133,
     "branches": {
       "00-GIFTS": 7,
@@ -177119,7 +176774,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 20,
       "Warehouse": 6931,
-      "warehouse riyadh": 3051
+      "warehouse riyadh": 3039
     }
   },
   {
@@ -177129,7 +176784,7 @@ const data = [
     "alias": "710724",
     "name": "TOWEL EUR AIR-RICH NAVY",
     "price": 25,
-    "stock": 1404,
+    "stock": 1380,
     "sales": 86,
     "branches": {
       "00-GIFTS": 0,
@@ -177187,8 +176842,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1637,
-      "warehouse riyadh": 1404
+      "Warehouse": 1625,
+      "warehouse riyadh": 1380
     }
   },
   {
@@ -177198,7 +176853,7 @@ const data = [
     "alias": "714424",
     "name": "BATH TOWEL AIR-RICH NAVY 70X140",
     "price": 49,
-    "stock": 1332,
+    "stock": 1308,
     "sales": 37,
     "branches": {
       "00-GIFTS": 0,
@@ -177257,7 +176912,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 1332
+      "warehouse riyadh": 1308
     }
   },
   {
@@ -177267,7 +176922,7 @@ const data = [
     "alias": "710624",
     "name": "BATH SHEET AIR-RICH NAVY",
     "price": 69,
-    "stock": 780,
+    "stock": 768,
     "sales": 79,
     "branches": {
       "00-GIFTS": 1,
@@ -177325,8 +176980,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 477,
-      "warehouse riyadh": 780
+      "Warehouse": 471,
+      "warehouse riyadh": 768
     }
   },
   {
@@ -177405,7 +177060,7 @@ const data = [
     "alias": "7148",
     "name": "KITCHEN TOWEL ENVOGUE PRINTED 15X25 INCH",
     "price": 14,
-    "stock": 570,
+    "stock": 510,
     "sales": 349,
     "branches": {
       "00-GIFTS": 1,
@@ -177463,8 +177118,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 6504,
-      "warehouse riyadh": 570
+      "Warehouse": 6474,
+      "warehouse riyadh": 510
     }
   },
   {
@@ -177819,7 +177474,7 @@ const data = [
     "alias": "710729",
     "name": "TOWEL EUR AIR-RICH 50X100 CM TERRA COTTA",
     "price": 25,
-    "stock": 1380,
+    "stock": 1368,
     "sales": 17,
     "branches": {
       "00-GIFTS": 0,
@@ -177878,7 +177533,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 1380
+      "warehouse riyadh": 1368
     }
   },
   {
@@ -177888,7 +177543,7 @@ const data = [
     "alias": "714429",
     "name": "BATH TOWE AIR-RICH TERRA COTTA 70X140 L",
     "price": 49,
-    "stock": 1236,
+    "stock": 1212,
     "sales": 14,
     "branches": {
       "00-GIFTS": 0,
@@ -177947,7 +177602,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 1236
+      "warehouse riyadh": 1212
     }
   },
   {
@@ -177957,7 +177612,7 @@ const data = [
     "alias": "710629",
     "name": "BATH SHEET AIR-RICH 86X172 CM TERRA COTTA",
     "price": 69,
-    "stock": 1080,
+    "stock": 1056,
     "sales": 5,
     "branches": {
       "00-GIFTS": 0,
@@ -178016,7 +177671,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 1080
+      "warehouse riyadh": 1056
     }
   },
   {
@@ -178164,7 +177819,7 @@ const data = [
     "alias": "714812",
     "name": "BEACH TOWEL RED BLUE CABANA 101.6X182 CM",
     "price": 59,
-    "stock": 120,
+    "stock": 84,
     "sales": 360,
     "branches": {
       "00-GIFTS": 6,
@@ -178206,7 +177861,7 @@ const data = [
       "42-Dareen Mall Dammam": 14,
       "43-Mujan Park": 11,
       "44-Al-Jouf Center": 9,
-      "45- Riyadh Gallery Mall": 12,
+      "45- Riyadh Gallery Mall": 24,
       "46-Khaleej Mall Riyadh": 28,
       "47-Al-Nakheel Plaza": 12,
       "48 - Jeddah Park": 43,
@@ -178223,7 +177878,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 50,
       "Warehouse": 2753,
-      "warehouse riyadh": 120
+      "warehouse riyadh": 84
     }
   },
   {
@@ -178233,7 +177888,7 @@ const data = [
     "alias": "714807",
     "name": "BEACH TOWEL BATIK PINEAPPLE 101X183 CM",
     "price": 59,
-    "stock": 600,
+    "stock": 564,
     "sales": 155,
     "branches": {
       "00-GIFTS": 1,
@@ -178275,7 +177930,7 @@ const data = [
       "42-Dareen Mall Dammam": 13,
       "43-Mujan Park": 1,
       "44-Al-Jouf Center": 0,
-      "45- Riyadh Gallery Mall": 19,
+      "45- Riyadh Gallery Mall": 31,
       "46-Khaleej Mall Riyadh": 20,
       "47-Al-Nakheel Plaza": 19,
       "48 - Jeddah Park": 0,
@@ -178292,7 +177947,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 12,
-      "warehouse riyadh": 600
+      "warehouse riyadh": 564
     }
   },
   {
@@ -178302,8 +177957,8 @@ const data = [
     "alias": "711304",
     "name": "KITCH TOWEL 90*50 BTP-248",
     "price": 9,
-    "stock": 6912,
-    "sales": 189,
+    "stock": 6576,
+    "sales": 192,
     "branches": {
       "00-GIFTS": 2,
       "01-Jeddah INT Market": 0,
@@ -178346,7 +178001,7 @@ const data = [
       "44-Al-Jouf Center": 0,
       "45- Riyadh Gallery Mall": 96,
       "46-Khaleej Mall Riyadh": 50,
-      "47-Al-Nakheel Plaza": 5,
+      "47-Al-Nakheel Plaza": 2,
       "48 - Jeddah Park": 0,
       "49-AlAhsa Mall": 25,
       "50-Meem Plaza Riyadh": 49,
@@ -178361,7 +178016,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 6912
+      "warehouse riyadh": 6576
     }
   },
   {
@@ -178371,7 +178026,7 @@ const data = [
     "alias": "710631",
     "name": "BATH SHEET AIR-RICH 86X172 CM LAVENDER BLUE",
     "price": 69,
-    "stock": 1752,
+    "stock": 1728,
     "sales": 51,
     "branches": {
       "00-GIFTS": 0,
@@ -178430,7 +178085,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 36,
-      "warehouse riyadh": 1752
+      "warehouse riyadh": 1728
     }
   },
   {
@@ -178440,7 +178095,7 @@ const data = [
     "alias": "714431",
     "name": "BATH TOWEL AIR-RICH 70X140 CM LAVENDER BLUE",
     "price": 49,
-    "stock": 1764,
+    "stock": 1752,
     "sales": 65,
     "branches": {
       "00-GIFTS": 0,
@@ -178499,7 +178154,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 1764
+      "warehouse riyadh": 1752
     }
   },
   {
@@ -178992,7 +178647,7 @@ const data = [
     "alias": "714902",
     "name": "BEACH TOWEL JAQUARD 100*180 CM",
     "price": 39,
-    "stock": 768,
+    "stock": 720,
     "sales": 372,
     "branches": {
       "00-GIFTS": 4,
@@ -179051,7 +178706,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 768
+      "warehouse riyadh": 720
     }
   },
   {
@@ -179061,7 +178716,7 @@ const data = [
     "alias": "71132801",
     "name": "BTP-857 KITCHEN TOWEL WHITE 50*90",
     "price": 9,
-    "stock": 1060,
+    "stock": 1020,
     "sales": 59,
     "branches": {
       "00-GIFTS": 1,
@@ -179120,7 +178775,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 1060
+      "warehouse riyadh": 1020
     }
   },
   {
@@ -179130,7 +178785,7 @@ const data = [
     "alias": "71132802",
     "name": "BTP-857 KITCHEN TOWEL SILVER 50*90",
     "price": 9,
-    "stock": 1060,
+    "stock": 1020,
     "sales": 33,
     "branches": {
       "00-GIFTS": 0,
@@ -179189,7 +178844,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 15,
-      "warehouse riyadh": 1060
+      "warehouse riyadh": 1020
     }
   },
   {
@@ -179199,7 +178854,7 @@ const data = [
     "alias": "71132803",
     "name": "BTP-857 KITCHEN TOWEL BEIGE 50*90",
     "price": 9,
-    "stock": 848,
+    "stock": 816,
     "sales": 19,
     "branches": {
       "00-GIFTS": 0,
@@ -179258,7 +178913,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 60,
-      "warehouse riyadh": 848
+      "warehouse riyadh": 816
     }
   },
   {
@@ -179268,7 +178923,7 @@ const data = [
     "alias": "71132804",
     "name": "BTP-857 KITCHEN TOWEL DARK GREY 50*90",
     "price": 9,
-    "stock": 848,
+    "stock": 816,
     "sales": 20,
     "branches": {
       "00-GIFTS": 0,
@@ -179327,7 +178982,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 28,
-      "warehouse riyadh": 848
+      "warehouse riyadh": 816
     }
   },
   {
@@ -179337,7 +178992,7 @@ const data = [
     "alias": "71132805",
     "name": "BTP-857 KITCHEN TOWEL ORANGE 50*90",
     "price": 9,
-    "stock": 636,
+    "stock": 612,
     "sales": 26,
     "branches": {
       "00-GIFTS": 0,
@@ -179396,7 +179051,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 36,
-      "warehouse riyadh": 636
+      "warehouse riyadh": 612
     }
   },
   {
@@ -179406,7 +179061,7 @@ const data = [
     "alias": "71132806",
     "name": "BTP-857 KITCHEN TOWEL BLACK 50*90",
     "price": 9,
-    "stock": 636,
+    "stock": 612,
     "sales": 25,
     "branches": {
       "00-GIFTS": 0,
@@ -179465,7 +179120,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 45,
-      "warehouse riyadh": 636
+      "warehouse riyadh": 612
     }
   },
   {
@@ -179475,8 +179130,8 @@ const data = [
     "alias": "71132901",
     "name": "BTP-862 KITCHEN TOWEL DUSTY PINK 50*90",
     "price": 9,
-    "stock": 1060,
-    "sales": 75,
+    "stock": 1020,
+    "sales": 77,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -179507,7 +179162,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 9,
       "29-Al Nakheel Mall Riyadh": 20,
       "30-Tala Mall Riyadh": 13,
-      "32-Atyaf Mall Riyadh": 2,
+      "32-Atyaf Mall Riyadh": 0,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 10,
       "38-Al_Riyadh Park": 1,
@@ -179534,7 +179189,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 43,
-      "warehouse riyadh": 1060
+      "warehouse riyadh": 1020
     }
   },
   {
@@ -179544,8 +179199,8 @@ const data = [
     "alias": "71132902",
     "name": "BTP-862 KITCHEN TOWEL VOILET 50*90",
     "price": 9,
-    "stock": 848,
-    "sales": 75,
+    "stock": 816,
+    "sales": 76,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -179576,7 +179231,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 0,
       "29-Al Nakheel Mall Riyadh": 17,
       "30-Tala Mall Riyadh": 14,
-      "32-Atyaf Mall Riyadh": 8,
+      "32-Atyaf Mall Riyadh": 7,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 4,
       "38-Al_Riyadh Park": 0,
@@ -179603,7 +179258,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 20,
-      "warehouse riyadh": 848
+      "warehouse riyadh": 816
     }
   },
   {
@@ -179613,8 +179268,8 @@ const data = [
     "alias": "71132903",
     "name": "BTP-862 KITCHEN TOWEL TAUPE 50*90",
     "price": 9,
-    "stock": 848,
-    "sales": 74,
+    "stock": 816,
+    "sales": 75,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 0,
@@ -179645,7 +179300,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 2,
       "29-Al Nakheel Mall Riyadh": 16,
       "30-Tala Mall Riyadh": 8,
-      "32-Atyaf Mall Riyadh": 7,
+      "32-Atyaf Mall Riyadh": 6,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 4,
       "38-Al_Riyadh Park": 2,
@@ -179672,7 +179327,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 21,
-      "warehouse riyadh": 848
+      "warehouse riyadh": 816
     }
   },
   {
@@ -179682,7 +179337,7 @@ const data = [
     "alias": "71132904",
     "name": "BTP-862 KITCHEN TOWEL DUSTY ROSE 50*90",
     "price": 9,
-    "stock": 1060,
+    "stock": 1020,
     "sales": 47,
     "branches": {
       "00-GIFTS": 0,
@@ -179741,7 +179396,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 100,
-      "warehouse riyadh": 1060
+      "warehouse riyadh": 1020
     }
   },
   {
@@ -179751,7 +179406,7 @@ const data = [
     "alias": "71132905",
     "name": "BTP-862 KITCHEN TOWEL BLUE 50*90",
     "price": 9,
-    "stock": 636,
+    "stock": 612,
     "sales": 19,
     "branches": {
       "00-GIFTS": 0,
@@ -179810,7 +179465,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 636
+      "warehouse riyadh": 612
     }
   },
   {
@@ -179820,7 +179475,7 @@ const data = [
     "alias": "71132906",
     "name": "BTP-862 KITCHEN TOWEL SLATE 50*90",
     "price": 9,
-    "stock": 636,
+    "stock": 612,
     "sales": 37,
     "branches": {
       "00-GIFTS": 0,
@@ -179879,7 +179534,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 5,
-      "warehouse riyadh": 636
+      "warehouse riyadh": 612
     }
   },
   {
@@ -179889,7 +179544,7 @@ const data = [
     "alias": "71133001",
     "name": "BTP-870 KITCHEN TOWEL SAND 50*90",
     "price": 9,
-    "stock": 1792,
+    "stock": 1744,
     "sales": 95,
     "branches": {
       "00-GIFTS": 0,
@@ -179948,7 +179603,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 128,
-      "warehouse riyadh": 1792
+      "warehouse riyadh": 1744
     }
   },
   {
@@ -179958,7 +179613,7 @@ const data = [
     "alias": "71133002",
     "name": "BTP-870 KITCHEN TOWEL RUST 50*90",
     "price": 9,
-    "stock": 672,
+    "stock": 654,
     "sales": 27,
     "branches": {
       "00-GIFTS": 0,
@@ -180017,7 +179672,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 39,
-      "warehouse riyadh": 672
+      "warehouse riyadh": 654
     }
   },
   {
@@ -180027,7 +179682,7 @@ const data = [
     "alias": "71133003",
     "name": "BTP-870 KITCHEN TOWEL ROSE PINK 50*90",
     "price": 9,
-    "stock": 672,
+    "stock": 654,
     "sales": 18,
     "branches": {
       "00-GIFTS": 0,
@@ -180086,7 +179741,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 672
+      "warehouse riyadh": 654
     }
   },
   {
@@ -180096,7 +179751,7 @@ const data = [
     "alias": "71133004",
     "name": "BTP-870 KITCHEN TOWEL DEEP PERIWINKLE 50*90",
     "price": 9,
-    "stock": 672,
+    "stock": 654,
     "sales": 30,
     "branches": {
       "00-GIFTS": 0,
@@ -180155,7 +179810,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 36,
-      "warehouse riyadh": 672
+      "warehouse riyadh": 654
     }
   },
   {
@@ -180165,7 +179820,7 @@ const data = [
     "alias": "71133005",
     "name": "BTP-870 KITCHEN TOWEL SAGE 50*90",
     "price": 9,
-    "stock": 896,
+    "stock": 872,
     "sales": 60,
     "branches": {
       "00-GIFTS": 0,
@@ -180224,7 +179879,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 23,
-      "warehouse riyadh": 896
+      "warehouse riyadh": 872
     }
   },
   {
@@ -180234,7 +179889,7 @@ const data = [
     "alias": "71133006",
     "name": "BTP-870 KITCHEN TOWEL ROYAL BLUE 50*90",
     "price": 9,
-    "stock": 672,
+    "stock": 654,
     "sales": 20,
     "branches": {
       "00-GIFTS": 0,
@@ -180293,7 +179948,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 672
+      "warehouse riyadh": 654
     }
   },
   {
@@ -180303,7 +179958,7 @@ const data = [
     "alias": "71133101",
     "name": "BTP-839 KITCHEN TOWEL WHITE 50*90",
     "price": 9,
-    "stock": 1792,
+    "stock": 1712,
     "sales": 105,
     "branches": {
       "00-GIFTS": 0,
@@ -180362,7 +180017,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 215,
-      "warehouse riyadh": 1792
+      "warehouse riyadh": 1712
     }
   },
   {
@@ -180372,7 +180027,7 @@ const data = [
     "alias": "71133102",
     "name": "BTP-839 KITCHEN TOWEL IVORY 50*90",
     "price": 9,
-    "stock": 896,
+    "stock": 856,
     "sales": 63,
     "branches": {
       "00-GIFTS": 0,
@@ -180431,7 +180086,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 35,
-      "warehouse riyadh": 896
+      "warehouse riyadh": 856
     }
   },
   {
@@ -180441,7 +180096,7 @@ const data = [
     "alias": "71133103",
     "name": "BTP-839 KITCHEN TOWEL NAVY 50*90",
     "price": 9,
-    "stock": 675,
+    "stock": 651,
     "sales": 38,
     "branches": {
       "00-GIFTS": 0,
@@ -180500,7 +180155,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 68,
-      "warehouse riyadh": 675
+      "warehouse riyadh": 651
     }
   },
   {
@@ -180510,7 +180165,7 @@ const data = [
     "alias": "71133104",
     "name": "BTP-839 KITCHEN TOWEL AQUA 50*90",
     "price": 9,
-    "stock": 675,
+    "stock": 651,
     "sales": 35,
     "branches": {
       "00-GIFTS": 0,
@@ -180569,7 +180224,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 37,
-      "warehouse riyadh": 675
+      "warehouse riyadh": 651
     }
   },
   {
@@ -180579,7 +180234,7 @@ const data = [
     "alias": "71133105",
     "name": "BTP-839 KITCHEN TOWEL LAVENDER BLUE 50*90",
     "price": 9,
-    "stock": 672,
+    "stock": 648,
     "sales": 37,
     "branches": {
       "00-GIFTS": 0,
@@ -180638,7 +180293,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 51,
-      "warehouse riyadh": 672
+      "warehouse riyadh": 648
     }
   },
   {
@@ -180648,7 +180303,7 @@ const data = [
     "alias": "71133106",
     "name": "BTP-839 KITCHEN TOWEL POWDER PINK 50*90",
     "price": 9,
-    "stock": 672,
+    "stock": 648,
     "sales": 20,
     "branches": {
       "00-GIFTS": 0,
@@ -180707,7 +180362,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 9,
-      "warehouse riyadh": 672
+      "warehouse riyadh": 648
     }
   },
   {
@@ -180717,7 +180372,7 @@ const data = [
     "alias": "71133201",
     "name": "BTP-840 KITCHEN TOWEL IVORY 50*90",
     "price": 9,
-    "stock": 1130,
+    "stock": 1070,
     "sales": 67,
     "branches": {
       "00-GIFTS": 0,
@@ -180776,7 +180431,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 40,
-      "warehouse riyadh": 1130
+      "warehouse riyadh": 1070
     }
   },
   {
@@ -180786,7 +180441,7 @@ const data = [
     "alias": "71133202",
     "name": "BTP-840 KITCHEN TOWEL GRANET ROSE 50*90",
     "price": 9,
-    "stock": 678,
+    "stock": 642,
     "sales": 22,
     "branches": {
       "00-GIFTS": 0,
@@ -180845,7 +180500,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 24,
-      "warehouse riyadh": 678
+      "warehouse riyadh": 642
     }
   },
   {
@@ -180855,7 +180510,7 @@ const data = [
     "alias": "71133203",
     "name": "BTP-840 KITCHEN TOWEL LT.BLUE 50*90",
     "price": 9,
-    "stock": 678,
+    "stock": 642,
     "sales": 33,
     "branches": {
       "00-GIFTS": 0,
@@ -180914,7 +180569,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 24,
-      "warehouse riyadh": 678
+      "warehouse riyadh": 642
     }
   },
   {
@@ -180924,7 +180579,7 @@ const data = [
     "alias": "71133204",
     "name": "BTP-840 KITCHEN TOWEL BABY PINK 50*90",
     "price": 9,
-    "stock": 904,
+    "stock": 856,
     "sales": 67,
     "branches": {
       "00-GIFTS": 0,
@@ -180983,7 +180638,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 32,
-      "warehouse riyadh": 904
+      "warehouse riyadh": 856
     }
   },
   {
@@ -180993,7 +180648,7 @@ const data = [
     "alias": "71133205",
     "name": "BTP-840 KITCHEN TOWEL DISCUT 50*90",
     "price": 9,
-    "stock": 1130,
+    "stock": 1070,
     "sales": 68,
     "branches": {
       "00-GIFTS": 1,
@@ -181052,7 +180707,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 40,
-      "warehouse riyadh": 1130
+      "warehouse riyadh": 1070
     }
   },
   {
@@ -181062,7 +180717,7 @@ const data = [
     "alias": "71133206",
     "name": "BTP-840 KITCHEN TOWEL MOVE 50*90",
     "price": 9,
-    "stock": 906,
+    "stock": 858,
     "sales": 53,
     "branches": {
       "00-GIFTS": 0,
@@ -181121,7 +180776,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 32,
-      "warehouse riyadh": 906
+      "warehouse riyadh": 858
     }
   },
   {
@@ -181200,7 +180855,7 @@ const data = [
     "alias": "710634",
     "name": "BATH SHEET AIR-RICH 86X172 CM RICH BLACK",
     "price": 69,
-    "stock": 396,
+    "stock": 384,
     "sales": 58,
     "branches": {
       "00-GIFTS": 0,
@@ -181258,8 +180913,8 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 158,
-      "warehouse riyadh": 396
+      "Warehouse": 152,
+      "warehouse riyadh": 384
     }
   },
   {
@@ -181338,7 +180993,7 @@ const data = [
     "alias": "714433",
     "name": "BATH TOWEL AIR-RICH 70X140 CM ROSE PINK",
     "price": 49,
-    "stock": 348,
+    "stock": 336,
     "sales": 62,
     "branches": {
       "00-GIFTS": 0,
@@ -181397,7 +181052,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 24,
-      "warehouse riyadh": 348
+      "warehouse riyadh": 336
     }
   },
   {
@@ -181407,7 +181062,7 @@ const data = [
     "alias": "714434",
     "name": "BATH TOWEL AIR-RICH 70X140 CM RICH BLACK",
     "price": 49,
-    "stock": 396,
+    "stock": 384,
     "sales": 70,
     "branches": {
       "00-GIFTS": 0,
@@ -181466,7 +181121,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 6,
-      "warehouse riyadh": 396
+      "warehouse riyadh": 384
     }
   },
   {
@@ -181476,7 +181131,7 @@ const data = [
     "alias": "714435",
     "name": "BATH TOWEL AIR-RICH 70X140 CM LIGHT BLUE",
     "price": 49,
-    "stock": 156,
+    "stock": 132,
     "sales": 43,
     "branches": {
       "00-GIFTS": 0,
@@ -181535,7 +181190,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 156
+      "warehouse riyadh": 132
     }
   },
   {
@@ -181603,7 +181258,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 177,
+      "Warehouse": 165,
       "warehouse riyadh": 324
     }
   },
@@ -181614,7 +181269,7 @@ const data = [
     "alias": "710734",
     "name": "TOWEL EUR AIR-RICH 50X100 CM RICH BLACK",
     "price": 25,
-    "stock": 528,
+    "stock": 516,
     "sales": 90,
     "branches": {
       "00-GIFTS": 0,
@@ -181673,7 +181328,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 285,
-      "warehouse riyadh": 528
+      "warehouse riyadh": 516
     }
   },
   {
@@ -181683,7 +181338,7 @@ const data = [
     "alias": "710735",
     "name": "EUR TOWEL AIR-RICH 50X100 CM LIGHT BLUE",
     "price": 25,
-    "stock": 288,
+    "stock": 276,
     "sales": 66,
     "branches": {
       "00-GIFTS": 0,
@@ -181742,7 +181397,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 73,
-      "warehouse riyadh": 288
+      "warehouse riyadh": 276
     }
   },
   {
@@ -181890,7 +181545,7 @@ const data = [
     "alias": "711324-1",
     "name": "90*50 KITCH TOWEL LUSTROUS WHITE BTP-802",
     "price": 9,
-    "stock": 32,
+    "stock": 16,
     "sales": 22,
     "branches": {
       "00-GIFTS": 0,
@@ -181949,7 +181604,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 32
+      "warehouse riyadh": 16
     }
   },
   {
@@ -181959,7 +181614,7 @@ const data = [
     "alias": "711324-2",
     "name": "90*50 KITCH TOWEL LUSTROUS BLUE BTP-802",
     "price": 9,
-    "stock": 32,
+    "stock": 16,
     "sales": 22,
     "branches": {
       "00-GIFTS": 0,
@@ -182018,7 +181673,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 32
+      "warehouse riyadh": 16
     }
   },
   {
@@ -182028,7 +181683,7 @@ const data = [
     "alias": "711324-3",
     "name": "90*50 KITCH TOWEL LUSTROUS GREY BTP-802",
     "price": 9,
-    "stock": 32,
+    "stock": 16,
     "sales": 16,
     "branches": {
       "00-GIFTS": 0,
@@ -182087,7 +181742,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 32
+      "warehouse riyadh": 16
     }
   },
   {
@@ -182097,7 +181752,7 @@ const data = [
     "alias": "711324-4",
     "name": "90*50 KITCH TOWEL LUSTROUS LAVENDER BTP-802",
     "price": 9,
-    "stock": 32,
+    "stock": 16,
     "sales": 15,
     "branches": {
       "00-GIFTS": 0,
@@ -182156,7 +181811,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 32
+      "warehouse riyadh": 16
     }
   },
   {
@@ -182166,7 +181821,7 @@ const data = [
     "alias": "711324-5",
     "name": "90*50 KITCH TOWEL LUSTROUS IVORY BTP-802",
     "price": 9,
-    "stock": 32,
+    "stock": 16,
     "sales": 30,
     "branches": {
       "00-GIFTS": 0,
@@ -182225,7 +181880,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 32
+      "warehouse riyadh": 16
     }
   },
   {
@@ -182235,7 +181890,7 @@ const data = [
     "alias": "711324-6",
     "name": "90*50 KITCH TOWEL LUSTROUS PINK BTP-802",
     "price": 9,
-    "stock": 32,
+    "stock": 16,
     "sales": 32,
     "branches": {
       "00-GIFTS": 0,
@@ -182294,7 +181949,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 32
+      "warehouse riyadh": 16
     }
   },
   {
@@ -182304,8 +181959,8 @@ const data = [
     "alias": "711325-1",
     "name": "90*50 KITCH TOWEL CHAMBRAY GREY BTP-781",
     "price": 9,
-    "stock": 64,
-    "sales": 17,
+    "stock": 48,
+    "sales": 18,
     "branches": {
       "00-GIFTS": 0,
       "01-Jeddah INT Market": 18,
@@ -182336,7 +181991,7 @@ const data = [
       "28-Al Nakheel Mall Dammam": 8,
       "29-Al Nakheel Mall Riyadh": 17,
       "30-Tala Mall Riyadh": 1,
-      "32-Atyaf Mall Riyadh": 3,
+      "32-Atyaf Mall Riyadh": 2,
       "33-Othaim Mall Rabwa2 Riyadh": 0,
       "36-Al jubail Mall": 0,
       "38-Al_Riyadh Park": 7,
@@ -182363,7 +182018,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 64
+      "warehouse riyadh": 48
     }
   },
   {
@@ -182373,7 +182028,7 @@ const data = [
     "alias": "711325-2",
     "name": "90*50 KITCH TOWEL CHAMBRAY RED BTP-781",
     "price": 9,
-    "stock": 64,
+    "stock": 48,
     "sales": 14,
     "branches": {
       "00-GIFTS": 1,
@@ -182432,7 +182087,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 64
+      "warehouse riyadh": 48
     }
   },
   {
@@ -182442,7 +182097,7 @@ const data = [
     "alias": "711325-3",
     "name": "90*50 KITCH TOWEL CHAMBRAY NAVY BTP-781",
     "price": 9,
-    "stock": 64,
+    "stock": 48,
     "sales": 26,
     "branches": {
       "00-GIFTS": 0,
@@ -182501,7 +182156,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 64
+      "warehouse riyadh": 48
     }
   },
   {
@@ -182511,7 +182166,7 @@ const data = [
     "alias": "711325-4",
     "name": "90*50 KITCH TOWEL CHAMBRAY BROWN BTP-781",
     "price": 9,
-    "stock": 64,
+    "stock": 48,
     "sales": 23,
     "branches": {
       "00-GIFTS": 0,
@@ -182570,7 +182225,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 64
+      "warehouse riyadh": 48
     }
   },
   {
@@ -182580,7 +182235,7 @@ const data = [
     "alias": "711325-5",
     "name": "90*50 KITCH TOWEL CHAMBRAY BLUE BTP-781",
     "price": 9,
-    "stock": 64,
+    "stock": 48,
     "sales": 23,
     "branches": {
       "00-GIFTS": 0,
@@ -182639,7 +182294,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 64
+      "warehouse riyadh": 48
     }
   },
   {
@@ -182649,7 +182304,7 @@ const data = [
     "alias": "711325-6",
     "name": "90*50 KITCH TOWEL CHAMBRAY IVORY BTP-781",
     "price": 9,
-    "stock": 64,
+    "stock": 48,
     "sales": 22,
     "branches": {
       "00-GIFTS": 0,
@@ -182708,7 +182363,7 @@ const data = [
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
       "Warehouse": 0,
-      "warehouse riyadh": 64
+      "warehouse riyadh": 48
     }
   },
   {
@@ -182733,7 +182388,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 44,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -182776,7 +182431,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -182802,7 +182457,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 38,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -182845,7 +182500,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -182871,7 +182526,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 47,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -182914,7 +182569,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -182940,7 +182595,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 27,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 12,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -182983,7 +182638,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 822,
+      "Warehouse": 792,
       "warehouse riyadh": 1116
     }
   },
@@ -183009,7 +182664,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 26,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 12,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183052,7 +182707,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 822,
+      "Warehouse": 792,
       "warehouse riyadh": 1116
     }
   },
@@ -183078,7 +182733,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 30,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 12,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183121,7 +182776,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 822,
+      "Warehouse": 792,
       "warehouse riyadh": 1116
     }
   },
@@ -183147,7 +182802,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 37,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183190,7 +182845,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -183216,7 +182871,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 35,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183259,7 +182914,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -183285,7 +182940,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 44,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183328,7 +182983,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -183354,7 +183009,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 47,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183397,7 +183052,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -183423,7 +183078,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 30,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 12,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183466,7 +183121,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 822,
+      "Warehouse": 792,
       "warehouse riyadh": 1116
     }
   },
@@ -183492,7 +183147,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 21,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 12,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183535,7 +183190,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 822,
+      "Warehouse": 792,
       "warehouse riyadh": 1116
     }
   },
@@ -183561,7 +183216,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 32,
-      "14-Al Kamal Mall": 6,
+      "14-Al Kamal Mall": 22,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183604,7 +183259,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1088,
+      "Warehouse": 1048,
       "warehouse riyadh": 1488
     }
   },
@@ -183630,7 +183285,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 31,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 18,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183673,7 +183328,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1088,
+      "Warehouse": 1048,
       "warehouse riyadh": 1488
     }
   },
@@ -183699,7 +183354,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 34,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 18,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183742,7 +183397,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1088,
+      "Warehouse": 1048,
       "warehouse riyadh": 1488
     }
   },
@@ -183768,7 +183423,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 37,
-      "14-Al Kamal Mall": 2,
+      "14-Al Kamal Mall": 18,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183811,7 +183466,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1088,
+      "Warehouse": 1048,
       "warehouse riyadh": 1488
     }
   },
@@ -183837,7 +183492,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 43,
-      "14-Al Kamal Mall": 4,
+      "14-Al Kamal Mall": 24,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183880,7 +183535,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1360,
+      "Warehouse": 1310,
       "warehouse riyadh": 1860
     }
   },
@@ -183906,7 +183561,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 28,
-      "14-Al Kamal Mall": 3,
+      "14-Al Kamal Mall": 15,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -183949,7 +183604,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 816,
+      "Warehouse": 786,
       "warehouse riyadh": 1116
     }
   },
@@ -183975,7 +183630,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 39,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -184018,7 +183673,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -184044,7 +183699,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 28,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -184087,7 +183742,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -184113,7 +183768,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 31,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -184156,7 +183811,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -184182,7 +183837,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 31,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -184225,7 +183880,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -184251,7 +183906,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 36,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -184294,7 +183949,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -184320,7 +183975,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 31,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 16,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -184363,7 +184018,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1096,
+      "Warehouse": 1056,
       "warehouse riyadh": 1488
     }
   },
@@ -184389,7 +184044,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 68,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 36,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -184432,7 +184087,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 2466,
+      "Warehouse": 2376,
       "warehouse riyadh": 3348
     }
   },
@@ -184458,7 +184113,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 40,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -184501,7 +184156,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -184527,7 +184182,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 42,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -184570,7 +184225,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   },
@@ -184596,7 +184251,7 @@ const data = [
       "11-Jouri Mall": 0,
       "12-Al_Hamra Mall": 0,
       "13-Al-Yasmin Mall": 46,
-      "14-Al Kamal Mall": 0,
+      "14-Al Kamal Mall": 20,
       "15-Riyadh Othaim Mall": 0,
       "16-Ehsa Othaim Mall": 0,
       "17-Arar Othaim Mall": 0,
@@ -184639,7 +184294,7 @@ const data = [
       "Abha Al_Rashid Mall": 0,
       "Al Manar Mall Madinah": 0,
       "PLATFORMS": 0,
-      "Warehouse": 1370,
+      "Warehouse": 1320,
       "warehouse riyadh": 1860
     }
   }
