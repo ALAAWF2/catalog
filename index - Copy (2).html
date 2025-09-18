@@ -254,8 +254,7 @@
     <input type="text" id="searchInput" placeholder="ابحث بالـ Alias..." oninput="renderProducts()" autocomplete="off" />
     <input type="text" id="barcodeInput" placeholder="امسح الباركود..." onkeypress="handleBarcodeInput(event)" autocomplete="off" name="no-autofill-barcode" />
     <button id="sendOrderBtn" onclick="openOrderModal()" style="display:none;">ارسال الطلبية</button>
-	 <button id="crossOutletSearchBtn" onclick="location.href='cross-outlet-search.html'" style="display:none;">بحث متعدد الفروع</button>
-        <button onclick="openCustomProductModal()" style="background:#999;">إضافة منتج غير موجود</button>
+	<button onclick="openCustomProductModal()" style="background:#999;">إضافة منتج غير موجود</button>
 <a href="old-products.html">
   <button style="padding: 10px 20px; background: #e67e22; color: white; border: none; border-radius: 5px;">
     عرض المنتجات القديمة
@@ -334,7 +333,6 @@
     auth.onAuthStateChanged(async user => {
     currentUser = user;
     document.getElementById('sendOrderBtn').style.display = user ? 'inline-block' : 'none';
-	 document.getElementById('crossOutletSearchBtn').style.display = user ? 'inline-block' : 'none';
     document.getElementById('loginBtn').textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
 
     if (user) {
