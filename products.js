@@ -3,7 +3,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أخرى",
     "code": "23038",
-    "alias": "0100002",
+    "alias": "100002",
     "name": "SET 5 PIECE SUPER BRIM PLUSH (0100002)",
     "price": 94,
     "stock": 233,
@@ -63,7 +63,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أخرى",
     "code": "23039",
-    "alias": "0100003",
+    "alias": "100003",
     "name": "SET OF 5 PIECES OF CHINESE TULLE BRIM (0100003)",
     "price": 94,
     "stock": 423,
@@ -123,7 +123,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أخرى",
     "code": "23040",
-    "alias": "0100004",
+    "alias": "100004",
     "name": "SQUARE PRIME PLUSH 100*100 CM SUPER (0100004)",
     "price": 79,
     "stock": 120,
@@ -183,11 +183,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أخرى",
     "code": "23776",
-    "alias": "0100233",
+    "alias": "100233",
     "name": "RAWDAH MADINA ASSORTED 8MM (70*110)",
     "price": 99,
     "stock": 730,
-    "sales": 55,
+    "sales": 33,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -427,7 +427,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL LADY FROG",
     "price": 69,
     "stock": 796,
-    "sales": 15,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 25,
       "05-Haifa Mall": 4,
@@ -607,7 +607,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL FROG2",
     "price": 69,
     "stock": 3,
-    "sales": 4,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -727,7 +727,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL FROG4",
     "price": 69,
     "stock": 1,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -787,7 +787,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL COW",
     "price": 69,
     "stock": 1008,
-    "sales": 22,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 25,
       "05-Haifa Mall": 13,
@@ -907,7 +907,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL HIPPO4",
     "price": 69,
     "stock": 1,
-    "sales": 26,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -1027,7 +1027,7 @@ const data = [
     "name": "COW KIDS HOODED TOWEL BATH ROBE WEBSITE 6-8",
     "price": 69,
     "stock": 22,
-    "sales": 1,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -1087,7 +1087,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL COW WEBSITE 10-12",
     "price": 69,
     "stock": 26,
-    "sales": 3,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -1147,7 +1147,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL COW WEBSITE 14-16",
     "price": 69,
     "stock": 39,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -1207,7 +1207,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL RABBIT CREAM",
     "price": 69,
     "stock": 866,
-    "sales": 45,
+    "sales": 34,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 3,
@@ -1267,7 +1267,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL BABY BEAR PINK",
     "price": 69,
     "stock": 13,
-    "sales": 63,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -1327,7 +1327,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL LION PEACH",
     "price": 69,
     "stock": 1271,
-    "sales": 28,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 9,
@@ -1387,7 +1387,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL UNICORN LILAC",
     "price": 69,
     "stock": 646,
-    "sales": 97,
+    "sales": 44,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 1,
@@ -1447,7 +1447,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL BUNNY LILAC",
     "price": 69,
     "stock": 18,
-    "sales": 3,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -1507,7 +1507,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL SHARK SEA BLUE",
     "price": 69,
     "stock": 13,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -1567,7 +1567,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL RINO ORANGE",
     "price": 69,
     "stock": 5,
-    "sales": 111,
+    "sales": 77,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 23,
@@ -1627,7 +1627,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL DINO GREEN",
     "price": 69,
     "stock": 57,
-    "sales": 100,
+    "sales": 56,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 5,
@@ -1687,7 +1687,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL ELEPHANT BLUE",
     "price": 69,
     "stock": 13,
-    "sales": 24,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -1747,7 +1747,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL WHALE BLUE",
     "price": 69,
     "stock": 1380,
-    "sales": 38,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 1,
@@ -1807,7 +1807,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL UNICORN WHITE",
     "price": 69,
     "stock": 44,
-    "sales": 93,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 16,
@@ -1867,7 +1867,7 @@ const data = [
     "name": "(SPECIAL OFFER) BATH ROBE KIDS PONCHO DINO",
     "price": 49,
     "stock": 15,
-    "sales": 24,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -1927,7 +1927,7 @@ const data = [
     "name": "(SPECIAL OFFER) BATH ROBE KIDS PONCHO KOALA",
     "price": 49,
     "stock": 7,
-    "sales": 19,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -1987,7 +1987,7 @@ const data = [
     "name": "(SPECIAL OFFER) BATH ROBE KIDS PONCHO LION",
     "price": 49,
     "stock": 26,
-    "sales": 16,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -2047,7 +2047,7 @@ const data = [
     "name": "(SPECIAL OFFER) BATH ROBE KIDS PONCHO ALLIGATOR",
     "price": 49,
     "stock": 12,
-    "sales": 55,
+    "sales": 49,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -2107,7 +2107,7 @@ const data = [
     "name": "(SPECIAL OFFER) BATH ROBE KIDS PONCHO PINK DINO",
     "price": 49,
     "stock": 20,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -2167,7 +2167,7 @@ const data = [
     "name": "(SPECIAL OFFER) BATH ROBE KIDS PONCHO SHARK",
     "price": 49,
     "stock": 8,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -2227,7 +2227,7 @@ const data = [
     "name": "(SPECIAL OFFER) BATH ROBE KIDS PONCHO UNICORN",
     "price": 49,
     "stock": 21,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -2287,7 +2287,7 @@ const data = [
     "name": "(SPECIAL OFFER) BATH ROBE KIDS PONCHO DOG",
     "price": 49,
     "stock": 20,
-    "sales": 40,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -2347,7 +2347,7 @@ const data = [
     "name": "(SPECIAL OFFER) BATH ROBE KIDS PONCHO CHEETAH",
     "price": 49,
     "stock": 5,
-    "sales": 32,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -3067,7 +3067,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL LION PEACH 14",
     "price": 69,
     "stock": 13,
-    "sales": 9,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -3127,7 +3127,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL LION PEACH 10",
     "price": 69,
     "stock": 21,
-    "sales": 8,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -3187,7 +3187,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL LION PEACH 6",
     "price": 69,
     "stock": 6,
-    "sales": 9,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -3247,7 +3247,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL ELEOHANT L.BLUE",
     "price": 69,
     "stock": 1125,
-    "sales": 54,
+    "sales": 38,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 23,
@@ -3307,7 +3307,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL PINEAPPLE YELLOW",
     "price": 69,
     "stock": 1427,
-    "sales": 36,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 9,
@@ -3367,7 +3367,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL  FLOWER LEMON",
     "price": 69,
     "stock": 1640,
-    "sales": 22,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 4,
@@ -3427,7 +3427,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL BUNNY L.PINK",
     "price": 69,
     "stock": 750,
-    "sales": 59,
+    "sales": 41,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 7,
@@ -3487,7 +3487,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL CUTE OWL D.PINK",
     "price": 69,
     "stock": 48,
-    "sales": 97,
+    "sales": 44,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 5,
@@ -3547,7 +3547,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL OWL2 BEIGE",
     "price": 69,
     "stock": 485,
-    "sales": 108,
+    "sales": 63,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 14,
@@ -3607,7 +3607,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL DINO2 L.GREEN",
     "price": 69,
     "stock": 1386,
-    "sales": 62,
+    "sales": 35,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 0,
@@ -3667,7 +3667,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL OWL1 D.GREEN",
     "price": 69,
     "stock": 774,
-    "sales": 127,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 9,
@@ -3727,7 +3727,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL DINO1 GREEN",
     "price": 69,
     "stock": 1102,
-    "sales": 108,
+    "sales": 73,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 0,
@@ -3787,7 +3787,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL MONSTER D.BLUE",
     "price": 69,
     "stock": 271,
-    "sales": 158,
+    "sales": 78,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 14,
@@ -3847,7 +3847,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL SHARK GREY",
     "price": 69,
     "stock": 12,
-    "sales": 136,
+    "sales": 96,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 9,
@@ -3907,7 +3907,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL BUTTERFLY L.BLUE",
     "price": 69,
     "stock": 1158,
-    "sales": 71,
+    "sales": 57,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 2,
@@ -3967,7 +3967,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL ELEOHANT L.BLUE WEBSITE 6",
     "price": 69,
     "stock": 7,
-    "sales": 1,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -4027,7 +4027,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL ELEOHANT L.BLUE WEBSITE 10",
     "price": 69,
     "stock": 5,
-    "sales": 6,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -4087,7 +4087,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL PINEAPPLE YELLOW  WEBSITE 6",
     "price": 69,
     "stock": 22,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -4147,7 +4147,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL PINEAPPLE YELLOW  WEBSITE 10",
     "price": 69,
     "stock": 26,
-    "sales": 4,
+    "sales": -1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -4207,7 +4207,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL PINEAPPLE YELLOW  WEBSITE 14",
     "price": 69,
     "stock": 32,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -4267,7 +4267,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL FLOWER LEMON WEBSITE 6",
     "price": 69,
     "stock": 8,
-    "sales": 3,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -4327,7 +4327,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL FLOWER LEMON WEBSITE 10",
     "price": 69,
     "stock": 12,
-    "sales": 1,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -4387,7 +4387,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL FLOWER LEMON WEBSITE 14",
     "price": 69,
     "stock": 7,
-    "sales": 3,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -4687,7 +4687,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL DINO2 L.GREEN WEBSITE 6",
     "price": 69,
     "stock": 22,
-    "sales": 3,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -4807,7 +4807,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL DINO2 L.GREEN WEBSITE 14",
     "price": 69,
     "stock": 29,
-    "sales": 5,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -4867,7 +4867,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL OWL1 D.GREEN WEBSITE 6",
     "price": 69,
     "stock": 18,
-    "sales": 4,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -4987,7 +4987,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL OWL1 D.GREEN WEBSITE 14",
     "price": 69,
     "stock": 35,
-    "sales": 6,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -5047,7 +5047,7 @@ const data = [
     "name": "BATH ROBE KIDS HOODED TOWEL DINO1 GREEN WEBSITE 6",
     "price": 69,
     "stock": 13,
-    "sales": 6,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -5467,7 +5467,7 @@ const data = [
     "name": "HOOD PONCHO KIDS SHARK",
     "price": 32,
     "stock": 1004,
-    "sales": 121,
+    "sales": 44,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 2,
@@ -5527,7 +5527,7 @@ const data = [
     "name": "HOOD PONCHO KIDS PIRATE",
     "price": 32,
     "stock": 1229,
-    "sales": 65,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 11,
@@ -5587,7 +5587,7 @@ const data = [
     "name": "HOOD PONCHO KIDS OCTOPUS",
     "price": 32,
     "stock": 1036,
-    "sales": 108,
+    "sales": 42,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 4,
@@ -5647,7 +5647,7 @@ const data = [
     "name": "HOOD PONCHO KIDS PENGUIN",
     "price": 32,
     "stock": 1050,
-    "sales": 112,
+    "sales": 45,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 3,
@@ -5707,7 +5707,7 @@ const data = [
     "name": "HOOD PONCHO KIDS MERMAID",
     "price": 32,
     "stock": 1067,
-    "sales": 107,
+    "sales": 48,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 6,
@@ -5767,7 +5767,7 @@ const data = [
     "name": "HOOD PONCHO KIDS FLOWER",
     "price": 32,
     "stock": 1171,
-    "sales": 101,
+    "sales": 55,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 10,
@@ -5827,7 +5827,7 @@ const data = [
     "name": "HOOD PONCHO KIDS UNICORN",
     "price": 32,
     "stock": 779,
-    "sales": 156,
+    "sales": 73,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 16,
@@ -5887,7 +5887,7 @@ const data = [
     "name": "HOOD PONCHO KIDS LADYBUG",
     "price": 32,
     "stock": 1260,
-    "sales": 67,
+    "sales": 26,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 10,
@@ -5947,7 +5947,7 @@ const data = [
     "name": "BATH ROBE BOYS KIDS DUK 6/8",
     "price": 69,
     "stock": 225,
-    "sales": 31,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 0,
@@ -6007,7 +6007,7 @@ const data = [
     "name": "BATH ROBE BOYS KIDS DUK 10/12",
     "price": 69,
     "stock": 552,
-    "sales": 28,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 7,
@@ -6067,7 +6067,7 @@ const data = [
     "name": "BATH ROBE BOYS KIDS DUK 14/16",
     "price": 69,
     "stock": 170,
-    "sales": 31,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -6127,7 +6127,7 @@ const data = [
     "name": "BATH ROBE BOYS KIDS TIGER 6/8",
     "price": 69,
     "stock": 225,
-    "sales": 49,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -6187,7 +6187,7 @@ const data = [
     "name": "BATH ROBE BOYS KIDS TIGER 10/12",
     "price": 69,
     "stock": 549,
-    "sales": 29,
+    "sales": 12,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 6,
@@ -6247,7 +6247,7 @@ const data = [
     "name": "BATH ROBE BOYS KIDS TIGER 14/16",
     "price": 69,
     "stock": 170,
-    "sales": 40,
+    "sales": 25,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -6307,7 +6307,7 @@ const data = [
     "name": "BATH ROBE BOYS KIDS BUNNY 6/8",
     "price": 69,
     "stock": 228,
-    "sales": 32,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -6367,7 +6367,7 @@ const data = [
     "name": "BATH ROBE BOYS KIDS BUNNY 10/12",
     "price": 69,
     "stock": 550,
-    "sales": 33,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -6427,7 +6427,7 @@ const data = [
     "name": "BATH ROBE BOYS KIDS BUNNY 14/16",
     "price": 69,
     "stock": 94,
-    "sales": 55,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 1,
@@ -6487,7 +6487,7 @@ const data = [
     "name": "BATH ROBE BOYS KIDS TURTLE 6/8",
     "price": 69,
     "stock": 222,
-    "sales": 52,
+    "sales": 25,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 0,
@@ -6547,7 +6547,7 @@ const data = [
     "name": "BATH ROBE BOYS KIDS TURTLE 10/12",
     "price": 69,
     "stock": 552,
-    "sales": 23,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 6,
@@ -6607,7 +6607,7 @@ const data = [
     "name": "BATH ROBE BOYS KIDS TURTLE 14/16",
     "price": 69,
     "stock": 86,
-    "sales": 50,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 0,
@@ -6667,7 +6667,7 @@ const data = [
     "name": "BATH ROBE GIRLS KIDS SHEEP 6/8",
     "price": 69,
     "stock": 123,
-    "sales": 71,
+    "sales": 43,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 5,
@@ -6727,7 +6727,7 @@ const data = [
     "name": "BATH ROBE GIRLS KIDS SHEEP 10/12",
     "price": 69,
     "stock": 430,
-    "sales": 39,
+    "sales": 24,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 8,
@@ -6787,7 +6787,7 @@ const data = [
     "name": "BATH ROBE GIRLS KIDS SHEEP 14/16",
     "price": 69,
     "stock": 130,
-    "sales": 44,
+    "sales": 28,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 5,
@@ -6847,7 +6847,7 @@ const data = [
     "name": "BATH ROBE GIRLS KIDS PENGUIN 6/8",
     "price": 69,
     "stock": 129,
-    "sales": 47,
+    "sales": 28,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 4,
@@ -6907,7 +6907,7 @@ const data = [
     "name": "BATH ROBE GIRLS KIDS PENGUIN 10/12",
     "price": 69,
     "stock": 429,
-    "sales": 52,
+    "sales": 28,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 7,
@@ -6967,7 +6967,7 @@ const data = [
     "name": "BATH ROBE GIRLS KIDS PENGUIN 14/16",
     "price": 69,
     "stock": 130,
-    "sales": 49,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 8,
@@ -7027,7 +7027,7 @@ const data = [
     "name": "BATH ROBE GIRLS KIDS PRINCESS 6/8",
     "price": 69,
     "stock": 126,
-    "sales": 71,
+    "sales": 41,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 0,
@@ -7087,7 +7087,7 @@ const data = [
     "name": "BATH ROBE GIRLS KIDS PRINCESS 10/12",
     "price": 69,
     "stock": 430,
-    "sales": 51,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 3,
@@ -7147,7 +7147,7 @@ const data = [
     "name": "BATH ROBE GIRLS KIDS PRINCESS 14/16",
     "price": 69,
     "stock": 4,
-    "sales": 44,
+    "sales": 30,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 3,
@@ -7207,7 +7207,7 @@ const data = [
     "name": "BATH ROBE GIRLS KIDS BUNNY 6/8",
     "price": 69,
     "stock": 126,
-    "sales": 59,
+    "sales": 37,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 0,
@@ -7267,7 +7267,7 @@ const data = [
     "name": "BATH ROBE GIRLS KIDS BUNNY 10/12",
     "price": 69,
     "stock": 427,
-    "sales": 65,
+    "sales": 42,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -8767,7 +8767,7 @@ const data = [
     "name": "BATH ROBE IVORY S/M",
     "price": 99,
     "stock": 2947,
-    "sales": 344,
+    "sales": 195,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 7,
@@ -8827,7 +8827,7 @@ const data = [
     "name": "BATH ROBE WHITE S/M",
     "price": 99,
     "stock": 193,
-    "sales": 542,
+    "sales": 165,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 22,
@@ -8887,7 +8887,7 @@ const data = [
     "name": "BATH ROBE LINEN S/M.",
     "price": 99,
     "stock": 3786,
-    "sales": 221,
+    "sales": 131,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 9,
@@ -8947,7 +8947,7 @@ const data = [
     "name": "BATH ROBE P.BLUE S/M",
     "price": 99,
     "stock": 242,
-    "sales": 261,
+    "sales": 128,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 8,
@@ -9007,7 +9007,7 @@ const data = [
     "name": "BATH ROBE IVORY L/XL",
     "price": 99,
     "stock": 1545,
-    "sales": 325,
+    "sales": 157,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 9,
@@ -9067,7 +9067,7 @@ const data = [
     "name": "BATH ROBE WHITE L/XL",
     "price": 99,
     "stock": 2065,
-    "sales": 301,
+    "sales": 145,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 9,
@@ -9127,7 +9127,7 @@ const data = [
     "name": "BATH ROBE LINEN L/XL",
     "price": 99,
     "stock": 1029,
-    "sales": 388,
+    "sales": 199,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 5,
@@ -9187,7 +9187,7 @@ const data = [
     "name": "BATH ROBE PINK L/XL",
     "price": 99,
     "stock": 230,
-    "sales": 366,
+    "sales": 185,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 10,
@@ -9247,7 +9247,7 @@ const data = [
     "name": "BATH ROBE P.BLUE L/XL",
     "price": 99,
     "stock": 517,
-    "sales": 389,
+    "sales": 198,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 1,
@@ -9367,7 +9367,7 @@ const data = [
     "name": "BATH ROBE LAVENDER L/XL",
     "price": 99,
     "stock": 100,
-    "sales": 407,
+    "sales": 208,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 6,
@@ -9427,7 +9427,7 @@ const data = [
     "name": "BATH ROBE OYSTER MUSHROOM S/M",
     "price": 99,
     "stock": 660,
-    "sales": 322,
+    "sales": 160,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 5,
@@ -9487,7 +9487,7 @@ const data = [
     "name": "BATH ROBE OYSTER MUSHROOM L/XL",
     "price": 99,
     "stock": 1407,
-    "sales": 524,
+    "sales": 299,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 5,
@@ -9547,7 +9547,7 @@ const data = [
     "name": "BATH ROBE IVORY XS/S",
     "price": 99,
     "stock": 1666,
-    "sales": 57,
+    "sales": 34,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 1,
@@ -9607,7 +9607,7 @@ const data = [
     "name": "BATH ROBE WHITE XS/S",
     "price": 99,
     "stock": 1532,
-    "sales": 54,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -9667,7 +9667,7 @@ const data = [
     "name": "BATH ROBE LINEN XS/S",
     "price": 99,
     "stock": 1800,
-    "sales": 32,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 3,
@@ -9727,7 +9727,7 @@ const data = [
     "name": "BATH ROBE PINK XS/S",
     "price": 99,
     "stock": 409,
-    "sales": 168,
+    "sales": 79,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 0,
@@ -9787,7 +9787,7 @@ const data = [
     "name": "BATH ROBE P.BLUE XS/S",
     "price": 99,
     "stock": 707,
-    "sales": 53,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 5,
@@ -9847,7 +9847,7 @@ const data = [
     "name": "BATH ROBE TITANIUM XS/S",
     "price": 99,
     "stock": 6,
-    "sales": 6,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -9907,7 +9907,7 @@ const data = [
     "name": "BATH ROBE SKY BLUE XS/S",
     "price": 99,
     "stock": 1,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -9967,7 +9967,7 @@ const data = [
     "name": "BATH ROBE LAVENDER XS/S",
     "price": 99,
     "stock": 206,
-    "sales": 112,
+    "sales": 55,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 5,
@@ -10027,7 +10027,7 @@ const data = [
     "name": "BATH ROBE OYSTER MUSHROOM XS/S",
     "price": 99,
     "stock": 1525,
-    "sales": 50,
+    "sales": 35,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 4,
@@ -10087,7 +10087,7 @@ const data = [
     "name": "BATH ROBE NAVY XS/S",
     "price": 99,
     "stock": 32,
-    "sales": 19,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 0,
@@ -10147,7 +10147,7 @@ const data = [
     "name": "ROOM SPRAY BLACK CHERRY 500ML",
     "price": 79,
     "stock": 327,
-    "sales": 214,
+    "sales": 70,
     "branches": {
       "04-Andalos Mall": 26,
       "05-Haifa Mall": 19,
@@ -10207,7 +10207,7 @@ const data = [
     "name": "BATH ROBE HOOD IVORY X/S",
     "price": 99,
     "stock": 52,
-    "sales": 7,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -10267,7 +10267,7 @@ const data = [
     "name": "BATH ROBE HOOD NAVY S/M",
     "price": 99,
     "stock": 6,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -10387,7 +10387,7 @@ const data = [
     "name": "BATH ROBE HOOD WHITE X/S",
     "price": 99,
     "stock": 34,
-    "sales": 10,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -10567,7 +10567,7 @@ const data = [
     "name": "BATH ROBE WAFFLE PIPING NAVY X/S",
     "price": 99,
     "stock": 18,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -10627,7 +10627,7 @@ const data = [
     "name": "BATH ROBE SHAWL JACQUARD TITANIUM XS",
     "price": 99,
     "stock": 29,
-    "sales": 3,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 0,
@@ -10687,7 +10687,7 @@ const data = [
     "name": "BATH ROBE SHAWL JACQUARD P.BLUE XS",
     "price": 99,
     "stock": 21,
-    "sales": 3,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -10747,7 +10747,7 @@ const data = [
     "name": "BATH ROBE SHAWL JACQUARD NAVY XS",
     "price": 99,
     "stock": 69,
-    "sales": 3,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -10807,7 +10807,7 @@ const data = [
     "name": "BATH ROBE SHAWL JACQUARD LINEN XS",
     "price": 99,
     "stock": 6,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 0,
@@ -10927,7 +10927,7 @@ const data = [
     "name": "BATH ROBE INFINITY XS/S",
     "price": 99,
     "stock": 4,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -10987,7 +10987,7 @@ const data = [
     "name": "BATH ROBE L.WREATH XS/S",
     "price": 99,
     "stock": 17,
-    "sales": 15,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 0,
@@ -11047,7 +11047,7 @@ const data = [
     "name": "BATH ROBE P.R.YELLOW XS/S",
     "price": 99,
     "stock": 309,
-    "sales": 23,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 4,
@@ -11227,7 +11227,7 @@ const data = [
     "name": "BATH ROBE P.R.YELLOW L/XL",
     "price": 99,
     "stock": 26,
-    "sales": 20,
+    "sales": 12,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -11287,7 +11287,7 @@ const data = [
     "name": "BATH ROBE TERRA COTTA XS/S",
     "price": 99,
     "stock": 18,
-    "sales": 9,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 6,
@@ -11707,7 +11707,7 @@ const data = [
     "name": "BATH ROBE HOOD LINEN X/S",
     "price": 99,
     "stock": 55,
-    "sales": 24,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 0,
@@ -12007,7 +12007,7 @@ const data = [
     "name": "BATH ROBE LAVENDER BLUE XS/S",
     "price": 99,
     "stock": 6,
-    "sales": 3,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 0,
@@ -12187,7 +12187,7 @@ const data = [
     "name": "BATH ROBE ZERO TWIST WHITE S/M",
     "price": 129,
     "stock": 439,
-    "sales": 31,
+    "sales": 28,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 6,
@@ -12247,7 +12247,7 @@ const data = [
     "name": "BATH ROBE ZERO TWIST IVORY S/M",
     "price": 129,
     "stock": 367,
-    "sales": 53,
+    "sales": 31,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 4,
@@ -12307,7 +12307,7 @@ const data = [
     "name": "BATH ROBE ZERO TWIST OYSTER MUSHROOM S/M",
     "price": 129,
     "stock": 21,
-    "sales": 25,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 4,
@@ -12367,7 +12367,7 @@ const data = [
     "name": "BATH ROBE ZERO TWIST WHITE L/XL",
     "price": 129,
     "stock": 9,
-    "sales": 25,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 3,
@@ -12427,7 +12427,7 @@ const data = [
     "name": "BATH ROBE ZERO TWIST IVORY L/XL",
     "price": 129,
     "stock": 6,
-    "sales": 24,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 6,
@@ -12487,7 +12487,7 @@ const data = [
     "name": "BATH ROBE ZERO TWIST ROSE L/XL",
     "price": 129,
     "stock": 18,
-    "sales": 5,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -12547,7 +12547,7 @@ const data = [
     "name": "BATH ROBE ZERO TWIST OYSTER MUSHROOM L/XL",
     "price": 129,
     "stock": 8,
-    "sales": 35,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 1,
@@ -12607,7 +12607,7 @@ const data = [
     "name": "BATH ROBE ZERO TWIST NAVY L/XL",
     "price": 129,
     "stock": 17,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -12667,7 +12667,7 @@ const data = [
     "name": "BATH ROBE ROSE PINK L/XL",
     "price": 99,
     "stock": 6,
-    "sales": 104,
+    "sales": 28,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 5,
@@ -12727,7 +12727,7 @@ const data = [
     "name": "BATH ROBE PINK ROSE XS/S",
     "price": 99,
     "stock": 204,
-    "sales": 81,
+    "sales": 40,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -12787,7 +12787,7 @@ const data = [
     "name": "BATH ROBE BLUE LIGHT XS/S",
     "price": 99,
     "stock": 162,
-    "sales": 75,
+    "sales": 38,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 5,
@@ -12847,7 +12847,7 @@ const data = [
     "name": "BATH ROBE BLACK RICH XS/S",
     "price": 99,
     "stock": 246,
-    "sales": 25,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 5,
@@ -12907,7 +12907,7 @@ const data = [
     "name": "BATH ROBE BLACK RICH S/M",
     "price": 99,
     "stock": 12,
-    "sales": 153,
+    "sales": 82,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 9,
@@ -12967,7 +12967,7 @@ const data = [
     "name": "BATH MAT TUFTED BYRGANDY",
     "price": 19,
     "stock": 2270,
-    "sales": 39,
+    "sales": 37,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 9,
@@ -13027,7 +13027,7 @@ const data = [
     "name": "BATH MAT TUFTED LT.GREY",
     "price": 19,
     "stock": 754,
-    "sales": 227,
+    "sales": 142,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 4,
@@ -13087,7 +13087,7 @@ const data = [
     "name": "BATH MAT TUFTED BEIGE",
     "price": 19,
     "stock": 784,
-    "sales": 184,
+    "sales": 108,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 21,
@@ -13147,7 +13147,7 @@ const data = [
     "name": "BATH MAT TUFTED GREEN",
     "price": 19,
     "stock": 1697,
-    "sales": 28,
+    "sales": 25,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 12,
@@ -13207,7 +13207,7 @@ const data = [
     "name": "BATH MAT TUFTED TEAL",
     "price": 19,
     "stock": 2327,
-    "sales": 14,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 5,
@@ -13267,7 +13267,7 @@ const data = [
     "name": "BATH MAT TUFTED DK.GREY",
     "price": 19,
     "stock": 1085,
-    "sales": 36,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 9,
@@ -13323,7 +13323,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أرواب حمام عرائسي",
     "code": "21681",
-    "alias": "001002",
+    "alias": "1002",
     "name": "BATH ROBE BRIDE TUAL GRAY-POWDER 7PCS",
     "price": 299,
     "stock": 1,
@@ -13383,7 +13383,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أرواب حمام عرائسي",
     "code": "21840",
-    "alias": "001015",
+    "alias": "1015",
     "name": "BATH ROBE BRIDE LABELYA CREAM-LIGHT POWDER 6PCS",
     "price": 299,
     "stock": 1,
@@ -13443,7 +13443,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أرواب حمام عرائسي",
     "code": "23173",
-    "alias": "001023",
+    "alias": "1023",
     "name": "BATH ROBE BRID GIZEM CREAM-CREAM 6PCS",
     "price": 299,
     "stock": 10,
@@ -13503,7 +13503,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أرواب حمام عرائسي",
     "code": "23174",
-    "alias": "001024",
+    "alias": "1024",
     "name": "BATH ROBE BRID GIZEM BEIGE-CREAM 6PCS",
     "price": 299,
     "stock": 5,
@@ -13567,7 +13567,7 @@ const data = [
     "name": "BATH MAT SET IVORY 2PCS",
     "price": 99,
     "stock": 3964,
-    "sales": 77,
+    "sales": 43,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 9,
@@ -13627,7 +13627,7 @@ const data = [
     "name": "BATH MAT SET CHINO GREEN 2PCS",
     "price": 99,
     "stock": 326,
-    "sales": 75,
+    "sales": 35,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 6,
@@ -13747,7 +13747,7 @@ const data = [
     "name": "BATH MAT SET BURGUNDY 2PCS",
     "price": 99,
     "stock": 5,
-    "sales": 1,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -13807,7 +13807,7 @@ const data = [
     "name": "BATH MAT SET WHITE 2PCS",
     "price": 99,
     "stock": 562,
-    "sales": 39,
+    "sales": 24,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 6,
@@ -13927,7 +13927,7 @@ const data = [
     "name": "BATH MAT SET OYESTER MUSHROOM 2PCS",
     "price": 99,
     "stock": 324,
-    "sales": 92,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 8,
@@ -14047,7 +14047,7 @@ const data = [
     "name": "BATH MAT SET PINK 2PCS",
     "price": 99,
     "stock": 1508,
-    "sales": 32,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 0,
@@ -14107,7 +14107,7 @@ const data = [
     "name": "BATH MAT SET ROSE 2PCS",
     "price": 99,
     "stock": 16,
-    "sales": 6,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -14167,7 +14167,7 @@ const data = [
     "name": "BATH MAT SET DARKER LILAC 2PCS",
     "price": 99,
     "stock": 690,
-    "sales": 71,
+    "sales": 30,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 4,
@@ -14227,7 +14227,7 @@ const data = [
     "name": "BATH MAT SET NAVY 2PCS",
     "price": 99,
     "stock": 1911,
-    "sales": 51,
+    "sales": 24,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 2,
@@ -14283,11 +14283,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم سفرة",
     "code": "17958",
-    "alias": "002520",
+    "alias": "2520",
     "name": "OBB DS 20 ROUND DINNER SET 28 PCS",
     "price": 196,
     "stock": 10,
-    "sales": 3,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -14343,7 +14343,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم سفرة",
     "code": "17959",
-    "alias": "002521",
+    "alias": "2521",
     "name": "OBB DS 21 ROUND DINNER SET 28 PCS",
     "price": 199,
     "stock": 6,
@@ -14403,7 +14403,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم سفرة",
     "code": "17961",
-    "alias": "002523",
+    "alias": "2523",
     "name": "OBB DS 23 ROUND DINNER SET 28 PCS",
     "price": 294,
     "stock": 1,
@@ -14463,7 +14463,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم سفرة",
     "code": "20288",
-    "alias": "009502",
+    "alias": "9502",
     "name": "OBB DS 37 LUXE DINNER SET 28 PCS",
     "price": 199,
     "stock": 4,
@@ -14523,7 +14523,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم سفرة",
     "code": "20289",
-    "alias": "009503",
+    "alias": "9503",
     "name": "OBB DS 36 VENT DINNER SET 28 PCS",
     "price": 199,
     "stock": 10,
@@ -14583,7 +14583,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم سفرة",
     "code": "20290",
-    "alias": "009504",
+    "alias": "9504",
     "name": "OBB DS 35 ZIMMER DINNER SET 28 PCS",
     "price": 199,
     "stock": 3,
@@ -14643,7 +14643,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم سفرة",
     "code": "20291",
-    "alias": "009505",
+    "alias": "9505",
     "name": "OBB DS 33 LAYLA DINNER SET 28 PCS",
     "price": 199,
     "stock": 5,
@@ -14703,11 +14703,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم سفرة",
     "code": "20345",
-    "alias": "009506",
+    "alias": "9506",
     "name": "OBB DS 34 DAMIER DINNER SET 28 PCS",
     "price": 199,
     "stock": 20,
-    "sales": 6,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -14763,7 +14763,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم سفرة",
     "code": "20350",
-    "alias": "009511",
+    "alias": "9511",
     "name": "OBB DS 38 DAISY DINNER SET 28 PCS",
     "price": 279,
     "stock": 1,
@@ -14823,7 +14823,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم سفرة",
     "code": "20351",
-    "alias": "009512",
+    "alias": "9512",
     "name": "OBB DS 40 TAYLOR DINNER SET 28 PCS",
     "price": 199,
     "stock": 1,
@@ -14883,7 +14883,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم سفرة",
     "code": "20352",
-    "alias": "009513",
+    "alias": "9513",
     "name": "OBB DS 32 MAYA DINNER SET 28 PCS",
     "price": 226,
     "stock": 3,
@@ -14943,7 +14943,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم ملاعق",
     "code": "20354",
-    "alias": "009702",
+    "alias": "9702",
     "name": "SPOONS BAG 30 PCS SILVER DC-002",
     "price": 99,
     "stock": 4,
@@ -15003,7 +15003,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم ملاعق",
     "code": "20355",
-    "alias": "009703",
+    "alias": "9703",
     "name": "SPOONS BAG 18 PCS DC-003",
     "price": 99,
     "stock": 10,
@@ -15063,7 +15063,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم ملاعق",
     "code": "20356",
-    "alias": "009704",
+    "alias": "9704",
     "name": "SPOONS BAG 30 PCS DC-004",
     "price": 99,
     "stock": 4,
@@ -15123,11 +15123,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم ملاعق",
     "code": "20357",
-    "alias": "009705",
+    "alias": "9705",
     "name": "SPOONS BAG 18 PCS DC-005",
     "price": 99,
     "stock": 6,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -15183,11 +15183,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم ملاعق",
     "code": "20359",
-    "alias": "009707",
+    "alias": "9707",
     "name": "SPOONS BAG 18 PCS GOLD DC-007",
     "price": 99,
     "stock": 2,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -15243,7 +15243,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم ملاعق",
     "code": "20361",
-    "alias": "009709",
+    "alias": "9709",
     "name": "SPOONS BAG 18 PCS DC-009",
     "price": 99,
     "stock": 8,
@@ -15303,7 +15303,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم ملاعق",
     "code": "20362",
-    "alias": "009710",
+    "alias": "9710",
     "name": "SPOONS BAG 30 PCS DC-010",
     "price": 99,
     "stock": 7,
@@ -15363,11 +15363,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم ملاعق",
     "code": "20363",
-    "alias": "009711",
+    "alias": "9711",
     "name": "SPOONS BAG 18 PCS GOLD DC-011",
     "price": 149,
     "stock": 20,
-    "sales": 5,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -15423,7 +15423,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أطقم ملاعق",
     "code": "20364",
-    "alias": "009712",
+    "alias": "9712",
     "name": "SPOONS BAG 30 PCS GOLD DC-012",
     "price": 199,
     "stock": 8,
@@ -15547,7 +15547,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED IVORY 3PCS G",
     "price": 99,
     "stock": 85,
-    "sales": 3,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -15667,7 +15667,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED IVORY 3PCS J",
     "price": 99,
     "stock": 17,
-    "sales": 2,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -15727,7 +15727,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED IVORY 3PCS K",
     "price": 99,
     "stock": 15,
-    "sales": 7,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 0,
@@ -15787,7 +15787,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED IVORY 3PCS L",
     "price": 99,
     "stock": 9,
-    "sales": 4,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -15847,7 +15847,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED IVORY 3PCS T",
     "price": 99,
     "stock": 53,
-    "sales": 7,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 3,
@@ -15967,7 +15967,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED IVORY 3PCS N",
     "price": 99,
     "stock": 17,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -16027,7 +16027,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED IVORY 3PCS O",
     "price": 99,
     "stock": 41,
-    "sales": 7,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 2,
@@ -16087,7 +16087,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED IVORY 3PCS D",
     "price": 99,
     "stock": 104,
-    "sales": 6,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -16207,7 +16207,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED WHITE 3PCS G",
     "price": 99,
     "stock": 4,
-    "sales": 3,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -16687,7 +16687,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED IVORY 3PCS E",
     "price": 99,
     "stock": 11,
-    "sales": 12,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 1,
@@ -16987,7 +16987,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED GREY 3PCS B",
     "price": 99,
     "stock": 2,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -17107,7 +17107,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED GREY 3PCS G",
     "price": 99,
     "stock": 42,
-    "sales": 11,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 2,
@@ -17167,7 +17167,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED GREY 3PCS W",
     "price": 99,
     "stock": 2,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -17287,7 +17287,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED GREY 3PCS J",
     "price": 99,
     "stock": 17,
-    "sales": 4,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 0,
@@ -17407,7 +17407,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED GREY 3PCS D",
     "price": 99,
     "stock": 2,
-    "sales": 5,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -17527,7 +17527,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED GREY 3PCS O",
     "price": 99,
     "stock": 10,
-    "sales": 1,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -17587,7 +17587,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED GREY 3PCS E",
     "price": 99,
     "stock": 16,
-    "sales": 1,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -17827,7 +17827,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED 3PCS DESIGN 10",
     "price": 99,
     "stock": 1,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -17947,7 +17947,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED 3PCS D1",
     "price": 99,
     "stock": 8,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -18007,7 +18007,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED 3PCS D3",
     "price": 99,
     "stock": 1,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -18067,7 +18067,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED 3PCS D5",
     "price": 99,
     "stock": 19,
-    "sales": 0,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -18187,7 +18187,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED 3PCS D8",
     "price": 99,
     "stock": 10,
-    "sales": 3,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -18247,7 +18247,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED 3PCS D9",
     "price": 99,
     "stock": 3,
-    "sales": 1,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -18367,7 +18367,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED 3PCS D11",
     "price": 99,
     "stock": 13,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 0,
@@ -18427,7 +18427,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED IVORY 3PCS Y",
     "price": 99,
     "stock": 42,
-    "sales": 1,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -18487,7 +18487,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED IVORY 3PCS Z",
     "price": 99,
     "stock": 66,
-    "sales": 5,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -18607,7 +18607,7 @@ const data = [
     "name": "TOWEL SET WAVES EMBROIDERED GREY 3PCS Z",
     "price": 99,
     "stock": 13,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -18667,7 +18667,7 @@ const data = [
     "name": "TOWEL KITCS SET ODESSA 4PCS",
     "price": 52,
     "stock": 3,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -18787,7 +18787,7 @@ const data = [
     "name": "TOWEL KITCS SET DOG COMMANDS 4PCS",
     "price": 51,
     "stock": 15,
-    "sales": 4,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -19027,7 +19027,7 @@ const data = [
     "name": "TOWEL KITCS SET RAINBOW CATS 4PCS",
     "price": 52,
     "stock": 13,
-    "sales": 11,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -19087,7 +19087,7 @@ const data = [
     "name": "TOWEL KITCS SET BEE HAPPY KIND  4PCS",
     "price": 49,
     "stock": 2,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -19147,7 +19147,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED 3PCS D#1",
     "price": 99,
     "stock": 7,
-    "sales": 2,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 4,
@@ -19207,7 +19207,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED 3PCS D#3",
     "price": 99,
     "stock": 5,
-    "sales": 44,
+    "sales": 26,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 6,
@@ -19267,7 +19267,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED 3PCS D#6",
     "price": 99,
     "stock": 22,
-    "sales": 14,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -19327,7 +19327,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED NASSAU WAVE 3PCS",
     "price": 99,
     "stock": 5,
-    "sales": 2,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -19387,7 +19387,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED OMBRE LEAVES WAVE 3PCS",
     "price": 99,
     "stock": 6,
-    "sales": 0,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -19627,7 +19627,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED BIRD WAVE 3PCS",
     "price": 99,
     "stock": 2,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -19687,7 +19687,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED PLANTS WAVE 3PCS",
     "price": 99,
     "stock": 1,
-    "sales": 3,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -19747,7 +19747,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED MULTIPLE CIRCLES WAVE 3PCS",
     "price": 99,
     "stock": 4,
-    "sales": 4,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -19807,7 +19807,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED LEAF WAVE 3PCS",
     "price": 99,
     "stock": 1,
-    "sales": 9,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -19867,7 +19867,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED LEAF 2 WAVE 3PCS",
     "price": 99,
     "stock": 9,
-    "sales": 1,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -19927,7 +19927,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED FLOWER WAVE 3PCS",
     "price": 99,
     "stock": 7,
-    "sales": 24,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 9,
@@ -19987,7 +19987,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED SHELL3 WAVE 3PCS",
     "price": 99,
     "stock": 5,
-    "sales": 14,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -20047,7 +20047,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED BIRDS GILDED WAVE 3PCS",
     "price": 99,
     "stock": 10,
-    "sales": 41,
+    "sales": 35,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -20107,7 +20107,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED ZAG ZIAG WAVE 3PCS",
     "price": 99,
     "stock": 19,
-    "sales": 3,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -20167,7 +20167,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED FLOWER&LEAF WAVE 3PCS",
     "price": 99,
     "stock": 13,
-    "sales": 32,
+    "sales": 45,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -20227,7 +20227,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED LEAF3 WAVE 3PCS",
     "price": 99,
     "stock": 29,
-    "sales": 63,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -20287,7 +20287,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED PLAM TREE WAVE 3PCS",
     "price": 99,
     "stock": 18,
-    "sales": 35,
+    "sales": 57,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 27,
@@ -20407,7 +20407,7 @@ const data = [
     "name": "TOWEL SET EMBROIDERED PARIS BOTANIQUE IVORY  WAVE 3PCS",
     "price": 99,
     "stock": 1,
-    "sales": 24,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -20587,7 +20587,7 @@ const data = [
     "name": "TOWEL KITC SET DOUBLE DOTS 3PCS",
     "price": 49,
     "stock": 10,
-    "sales": 9,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 1,
@@ -20647,7 +20647,7 @@ const data = [
     "name": "TOWEL KITC SET MANI OCHRE 3PCS",
     "price": 49,
     "stock": 165,
-    "sales": 13,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 5,
@@ -20707,7 +20707,7 @@ const data = [
     "name": "TOWEL KITC SET MATRY BLUE 3PCS",
     "price": 49,
     "stock": 11,
-    "sales": 7,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 7,
@@ -20767,7 +20767,7 @@ const data = [
     "name": "TOWEL KITC SET LUNA NATURAL 3PCS",
     "price": 49,
     "stock": 19,
-    "sales": 7,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 5,
@@ -20827,7 +20827,7 @@ const data = [
     "name": "TOTE BAGS FABRIC",
     "price": 19,
     "stock": 3839,
-    "sales": 96,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -21667,7 +21667,7 @@ const data = [
     "name": "FABRIC TOTE BAGS - 22",
     "price": 19,
     "stock": 63,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -21787,7 +21787,7 @@ const data = [
     "name": "FABRIC TOTE BAGS - 25",
     "price": 19,
     "stock": 33,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -21907,7 +21907,7 @@ const data = [
     "name": "FABRIC TOTE BAGS - 27",
     "price": 19,
     "stock": 14,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -21967,7 +21967,7 @@ const data = [
     "name": "FABRIC TOTE BAGS - 28",
     "price": 19,
     "stock": 8,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -22027,7 +22027,7 @@ const data = [
     "name": "FABRIC TOTE BAGS - 29",
     "price": 19,
     "stock": 5,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -22267,7 +22267,7 @@ const data = [
     "name": "FABRIC TOTE BAGS - 33",
     "price": 19,
     "stock": 47,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -22447,7 +22447,7 @@ const data = [
     "name": "TOTE BAG GIULIETA",
     "price": 19,
     "stock": 6,
-    "sales": 28,
+    "sales": 12,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -22507,7 +22507,7 @@ const data = [
     "name": "TOTE BAG BOWS ROSE",
     "price": 19,
     "stock": 315,
-    "sales": 9,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -22567,7 +22567,7 @@ const data = [
     "name": "TOTE BAG YANTINA",
     "price": 19,
     "stock": 57,
-    "sales": 24,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -22687,7 +22687,7 @@ const data = [
     "name": "TOTE BAG BEETLE BUTTERFLY INSECT",
     "price": 19,
     "stock": 19,
-    "sales": 23,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -22747,7 +22747,7 @@ const data = [
     "name": "TOTE BAG SAGE CHECKERED WAVY",
     "price": 19,
     "stock": 176,
-    "sales": 23,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 6,
@@ -22807,7 +22807,7 @@ const data = [
     "name": "TOTE BAG HEARTS AVOCADO",
     "price": 19,
     "stock": 395,
-    "sales": 5,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 5,
@@ -22867,7 +22867,7 @@ const data = [
     "name": "TOTE BAG LEMONS BLUE MOJETO",
     "price": 19,
     "stock": 112,
-    "sales": 15,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 3,
@@ -22927,7 +22927,7 @@ const data = [
     "name": "TOTE BAG FOOD GIRL PARTY",
     "price": 19,
     "stock": 80,
-    "sales": 22,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 1,
@@ -22987,7 +22987,7 @@ const data = [
     "name": "TOTE BAG BOWS",
     "price": 19,
     "stock": 308,
-    "sales": 14,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 0,
@@ -23047,7 +23047,7 @@ const data = [
     "name": "TOTE BAG FRUIT LE",
     "price": 19,
     "stock": 23,
-    "sales": 18,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -23107,7 +23107,7 @@ const data = [
     "name": "TOTE BAG MATCH TENNIS SPORTS TOSS FUN",
     "price": 19,
     "stock": 300,
-    "sales": 19,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -23167,7 +23167,7 @@ const data = [
     "name": "TOTE BAG CAKES RETRO FOOD",
     "price": 19,
     "stock": 252,
-    "sales": 21,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -23227,7 +23227,7 @@ const data = [
     "name": "TOTE BAG STAMPS DESTINATION",
     "price": 19,
     "stock": 277,
-    "sales": 14,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 1,
@@ -23287,7 +23287,7 @@ const data = [
     "name": "TOTE BAG SPORTS PICKLES PLAYING",
     "price": 19,
     "stock": 185,
-    "sales": 16,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 7,
@@ -23347,7 +23347,7 @@ const data = [
     "name": "TOTE BAG FLORAL WILDFLOWER",
     "price": 19,
     "stock": 273,
-    "sales": 16,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 2,
@@ -23407,7 +23407,7 @@ const data = [
     "name": "TOTE BAG DRINKS TEA TIME",
     "price": 19,
     "stock": 269,
-    "sales": 14,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 4,
@@ -23467,7 +23467,7 @@ const data = [
     "name": "TOTE BAG JUNK FOOD LOVE",
     "price": 19,
     "stock": 124,
-    "sales": 20,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -23527,7 +23527,7 @@ const data = [
     "name": "TOTE BAG FRUIT RIFLE",
     "price": 19,
     "stock": 350,
-    "sales": 14,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 5,
@@ -23587,7 +23587,7 @@ const data = [
     "name": "TOTE BAG NEON GAME CONTROLLER",
     "price": 19,
     "stock": 125,
-    "sales": 20,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -23707,7 +23707,7 @@ const data = [
     "name": "BLUE ANCHOR TOTE BAG BEACH",
     "price": 99,
     "stock": 14,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -24067,7 +24067,7 @@ const data = [
     "name": "SMOOSHIE TOY",
     "price": 59,
     "stock": 1404,
-    "sales": 53,
+    "sales": 31,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 2,
@@ -24367,7 +24367,7 @@ const data = [
     "name": "SMOOSHIE TOY DOG WEBSITE",
     "price": 69,
     "stock": 20,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -24727,7 +24727,7 @@ const data = [
     "name": "SMOOSHIE TOY DINO2 WEBSITE",
     "price": 69,
     "stock": 28,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -25027,7 +25027,7 @@ const data = [
     "name": "SMOOSHIE TOY FROG GREEN O422",
     "price": 69,
     "stock": 623,
-    "sales": 18,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 0,
@@ -25087,7 +25087,7 @@ const data = [
     "name": "SMOOSHIE TOY CUTTLEFISH FUSHIA T425",
     "price": 69,
     "stock": 126,
-    "sales": 20,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -25147,7 +25147,7 @@ const data = [
     "name": "SMOOSHIE TOY CRAB PINK A426",
     "price": 69,
     "stock": 12,
-    "sales": 15,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -25207,7 +25207,7 @@ const data = [
     "name": "SMOOSHIE TOY DINO GRASS N427",
     "price": 69,
     "stock": 929,
-    "sales": 9,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -25267,7 +25267,7 @@ const data = [
     "name": "SMOOSHIE TOY DEER WHITE/RED A428",
     "price": 69,
     "stock": 644,
-    "sales": 15,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -25327,7 +25327,7 @@ const data = [
     "name": "SMOOSHIE TOY CUTTLEFISH RED T429",
     "price": 69,
     "stock": 485,
-    "sales": 22,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -25447,7 +25447,7 @@ const data = [
     "name": "SMOOSHIE TOY CAT LT.PINK/FUSHIA T432",
     "price": 69,
     "stock": 13,
-    "sales": 31,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -25507,7 +25507,7 @@ const data = [
     "name": "SMOOSHIE TOY DEER PEACH R433",
     "price": 69,
     "stock": 430,
-    "sales": 22,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -25567,7 +25567,7 @@ const data = [
     "name": "SMOOSHIE TOY DINO LT.BLUE N434",
     "price": 69,
     "stock": 938,
-    "sales": 12,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -25687,7 +25687,7 @@ const data = [
     "name": "SMOOSHIE TOY LITTLE MONSTER TURQ N453",
     "price": 69,
     "stock": 1062,
-    "sales": 24,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -25747,7 +25747,7 @@ const data = [
     "name": "SMOOSHIE TOY CRAB LT.LAVENDER/PEACH A455",
     "price": 69,
     "stock": 739,
-    "sales": 10,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 2,
@@ -25807,7 +25807,7 @@ const data = [
     "name": "SMOOSHIE TOY BEE PURPLE E438",
     "price": 69,
     "stock": 235,
-    "sales": 36,
+    "sales": 28,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -25867,7 +25867,7 @@ const data = [
     "name": "SMOOSHIE TOY RABBIT IVORY B423",
     "price": 69,
     "stock": 616,
-    "sales": 50,
+    "sales": 35,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -25927,7 +25927,7 @@ const data = [
     "name": "SMOOSHIE TOY RABBIT SKY BLUE B424",
     "price": 69,
     "stock": 566,
-    "sales": 51,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -25987,7 +25987,7 @@ const data = [
     "name": "SMOOSHIE TOY UNICORN COLORFUL I430",
     "price": 69,
     "stock": 309,
-    "sales": 55,
+    "sales": 32,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 4,
@@ -26047,7 +26047,7 @@ const data = [
     "name": "SMOOSHIE TOY CUUTOPIA ORANGE GREEN U435",
     "price": 69,
     "stock": 10,
-    "sales": 5,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -26107,7 +26107,7 @@ const data = [
     "name": "SMOOSHIE TOY YAK LT.TURQ K437",
     "price": 69,
     "stock": 823,
-    "sales": 40,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -26167,7 +26167,7 @@ const data = [
     "name": "SMOOSHIE TOY PENGUIN LAVANDER MULTI N439",
     "price": 69,
     "stock": 608,
-    "sales": 54,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -26227,7 +26227,7 @@ const data = [
     "name": "SMOOSHIE TOY STRAWBERRY TEA PEACH PING A450",
     "price": 69,
     "stock": 306,
-    "sales": 78,
+    "sales": 45,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -26287,7 +26287,7 @@ const data = [
     "name": "SMOOSHIE TOY CREAM TEA LT.PINK A451",
     "price": 69,
     "stock": 672,
-    "sales": 59,
+    "sales": 44,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -26347,7 +26347,7 @@ const data = [
     "name": "SMOOSHIE TOY SHEEP COLORFUL E452",
     "price": 69,
     "stock": 834,
-    "sales": 33,
+    "sales": 35,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -26407,7 +26407,7 @@ const data = [
     "name": "TEDDY BEAR BEIGE CURLY 45CM BTY-1",
     "price": 69,
     "stock": 16,
-    "sales": 53,
+    "sales": 30,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 4,
@@ -26467,7 +26467,7 @@ const data = [
     "name": "TEDDY BEAR WHITE CURLY 30CM BTY-4",
     "price": 39,
     "stock": 9,
-    "sales": 21,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -26527,7 +26527,7 @@ const data = [
     "name": "TEDDY BEAR BEIGE CURLY 30CM BTY-4",
     "price": 39,
     "stock": 30,
-    "sales": 4,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 7,
@@ -26587,7 +26587,7 @@ const data = [
     "name": "TEDDY BEAR PINK CURLY 30CM BTY-4",
     "price": 39,
     "stock": 27,
-    "sales": 6,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -26647,7 +26647,7 @@ const data = [
     "name": "TEDDY BEAR BEIGE STRAIGHT 30CM BTY-5",
     "price": 39,
     "stock": 15,
-    "sales": 2,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -26707,7 +26707,7 @@ const data = [
     "name": "TEDDY BEAR PINK STRAIGHT 30CM BTY-5",
     "price": 39,
     "stock": 16,
-    "sales": 17,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -26827,7 +26827,7 @@ const data = [
     "name": "TEDDY BEAR BROWN STRAIGHT 70CM BTY-8",
     "price": 199,
     "stock": 5,
-    "sales": 18,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -26887,7 +26887,7 @@ const data = [
     "name": "SMOOSHIE TOY FIRES FRENCE 0153",
     "price": 69,
     "stock": 439,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -27007,7 +27007,7 @@ const data = [
     "name": "SMOOSHIE TOY TEA MILK 0177",
     "price": 69,
     "stock": 419,
-    "sales": 3,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -27067,7 +27067,7 @@ const data = [
     "name": "SMOOSHIE TOY ROCKET 0184",
     "price": 69,
     "stock": 333,
-    "sales": 26,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 3,
@@ -27127,7 +27127,7 @@ const data = [
     "name": "SMOOSHIE TOY BEE PINK 0191",
     "price": 69,
     "stock": 297,
-    "sales": 57,
+    "sales": 24,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 6,
@@ -27247,7 +27247,7 @@ const data = [
     "name": "SMOOSHIE TOY DONUT 0214",
     "price": 69,
     "stock": 431,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -27367,7 +27367,7 @@ const data = [
     "name": "SMOOSHIE TOY UNICORN RED 0238",
     "price": 69,
     "stock": 329,
-    "sales": 40,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 2,
@@ -27427,7 +27427,7 @@ const data = [
     "name": "SMOOSHIE TOY COLORFUL UNICORN 0245",
     "price": 69,
     "stock": 311,
-    "sales": 33,
+    "sales": 30,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -27607,7 +27607,7 @@ const data = [
     "name": "SMOOSHIE TOY CHOST 0276",
     "price": 69,
     "stock": 320,
-    "sales": 26,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -27667,7 +27667,7 @@ const data = [
     "name": "SMOOSHIE TOY MONSTER 0283",
     "price": 69,
     "stock": 288,
-    "sales": 33,
+    "sales": 28,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 0,
@@ -27787,7 +27787,7 @@ const data = [
     "name": "SMOOSHIE TOY COOKIE 0306",
     "price": 69,
     "stock": 440,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -27847,7 +27847,7 @@ const data = [
     "name": "SMOOSHIE TOY STRAWBERRY 0313",
     "price": 69,
     "stock": 275,
-    "sales": 43,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 1,
@@ -27967,7 +27967,7 @@ const data = [
     "name": "SMOOSHIE TOY SHARK 0337",
     "price": 69,
     "stock": 259,
-    "sales": 58,
+    "sales": 26,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -28087,7 +28087,7 @@ const data = [
     "name": "SMOOSHIE TOY BOWL 0351",
     "price": 69,
     "stock": 308,
-    "sales": 35,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -28207,7 +28207,7 @@ const data = [
     "name": "SMOOSHIE TOY LOVE UNICORN 0375",
     "price": 69,
     "stock": 310,
-    "sales": 31,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
@@ -28267,7 +28267,7 @@ const data = [
     "name": "SMOOSHIE TOY SNOWMAN 0382",
     "price": 69,
     "stock": 303,
-    "sales": 36,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 1,
@@ -28327,7 +28327,7 @@ const data = [
     "name": "SMOOSHIE TOY PIRATE 0399",
     "price": 69,
     "stock": 310,
-    "sales": 41,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -28447,7 +28447,7 @@ const data = [
     "name": "SMOOSHIE TOY DINO3 0412",
     "price": 69,
     "stock": 325,
-    "sales": 20,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 0,
@@ -28507,7 +28507,7 @@ const data = [
     "name": "SMOOSHIE TOY GAMER DARK GREY 0429",
     "price": 69,
     "stock": 407,
-    "sales": 15,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -28623,7 +28623,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "13565",
-    "alias": "6281135100111",
+    "alias": "6.28114E+12",
     "name": "DINNER SET 28 PCS (G4)",
     "price": 219,
     "stock": 14,
@@ -28683,7 +28683,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "13566",
-    "alias": "6281135100110",
+    "alias": "6.28114E+12",
     "name": "@DINNER SET 28 PCS ( G5 )",
     "price": 99,
     "stock": 2,
@@ -28803,7 +28803,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "18205",
-    "alias": "00753",
+    "alias": "753",
     "name": "CAW-1019",
     "price": 39,
     "stock": 4,
@@ -28863,7 +28863,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "18207",
-    "alias": "00755",
+    "alias": "755",
     "name": "CAW-1002",
     "price": 39,
     "stock": 6,
@@ -28923,7 +28923,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "18208",
-    "alias": "00756",
+    "alias": "756",
     "name": "CAW-1003",
     "price": 39,
     "stock": 7,
@@ -28983,7 +28983,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "18210",
-    "alias": "00758",
+    "alias": "758",
     "name": "CAW-1006",
     "price": 39,
     "stock": 6,
@@ -29043,7 +29043,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "18211",
-    "alias": "00759",
+    "alias": "759",
     "name": "CAW-1027",
     "price": 39,
     "stock": 8,
@@ -29103,7 +29103,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "18214",
-    "alias": "00762",
+    "alias": "762",
     "name": "CAW-1010",
     "price": 39,
     "stock": 16,
@@ -29163,7 +29163,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "19136",
-    "alias": "0019947",
+    "alias": "19947",
     "name": "JY3350-BL",
     "price": 179,
     "stock": 2,
@@ -29223,7 +29223,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "19137",
-    "alias": "0019948",
+    "alias": "19948",
     "name": "JY3350-GRE",
     "price": 179,
     "stock": 9,
@@ -29283,7 +29283,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "19138",
-    "alias": "0019949",
+    "alias": "19949",
     "name": "JY3350-GRY",
     "price": 179,
     "stock": 3,
@@ -29343,7 +29343,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "19729",
-    "alias": "0902",
+    "alias": "902",
     "name": "TURKISH COFFE SET WITH JUNGLE ANIMALS",
     "price": 94,
     "stock": 4,
@@ -29403,11 +29403,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "19899",
-    "alias": "009304",
+    "alias": "9304",
     "name": "ARK DINING SET 40 PCS P758/40",
     "price": 149,
     "stock": 2,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -29463,7 +29463,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "20616",
-    "alias": "009721",
+    "alias": "9721",
     "name": "PORCELAIN ARABIC COFFE SET 6 PCS C013-PP",
     "price": 39,
     "stock": 2,
@@ -29523,7 +29523,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "20677",
-    "alias": "00999",
+    "alias": "999",
     "name": "CERAMIC MUG.",
     "price": 6,
     "stock": 20,
@@ -29583,11 +29583,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "20805",
-    "alias": "00991",
+    "alias": "991",
     "name": "PORCELAIN TEA CUP",
     "price": 9,
     "stock": 7,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -29643,11 +29643,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "20806",
-    "alias": "00992",
+    "alias": "992",
     "name": "PORCELAIN CUP.",
     "price": 9,
     "stock": 2,
-    "sales": 4,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -29703,11 +29703,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21105",
-    "alias": "009309",
+    "alias": "9309",
     "name": "CERAMIC PLATE 8 INCH",
     "price": 5,
     "stock": 1,
-    "sales": 16,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -29763,7 +29763,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21356",
-    "alias": "009806",
+    "alias": "9806",
     "name": "ARABIC COFFEE GOLDEN INSCRIPTION 6 PCS",
     "price": 10,
     "stock": 52,
@@ -29823,7 +29823,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21358",
-    "alias": "009808",
+    "alias": "9808",
     "name": "MARBLE AND WOOD DESSERT STAND SMALL",
     "price": 10,
     "stock": 8,
@@ -29883,7 +29883,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21359",
-    "alias": "009809",
+    "alias": "9809",
     "name": "MARBLE AND WOOD DESSERT STAND LARGE",
     "price": 10,
     "stock": 10,
@@ -29943,7 +29943,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21360",
-    "alias": "009810",
+    "alias": "9810",
     "name": "MARBLE AND WOOD DESSERT STAND MEDIUM",
     "price": 10,
     "stock": 11,
@@ -30003,7 +30003,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21361",
-    "alias": "009811",
+    "alias": "9811",
     "name": "MARBLE AND WOOD DESSERT STAND CIRCULAR",
     "price": 10,
     "stock": 4,
@@ -30063,11 +30063,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21363",
-    "alias": "009812",
+    "alias": "9812",
     "name": "(SPECIAL OFFER) BOWL GLASS FRUIT",
     "price": 10,
     "stock": 660,
-    "sales": 19,
+    "sales": 25,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 12,
@@ -30123,11 +30123,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21665",
-    "alias": "009901",
+    "alias": "9901",
     "name": "TURKISH COFFE 4 PCS",
     "price": 10,
     "stock": 361,
-    "sales": 8,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 18,
@@ -30183,7 +30183,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21666",
-    "alias": "009902",
+    "alias": "9902",
     "name": "ARABIC COFFE 6 PCS.",
     "price": 10,
     "stock": 122,
@@ -30243,7 +30243,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21709",
-    "alias": "09001",
+    "alias": "9001",
     "name": "BLOOM TURKISH COFFEE SET 6 PCS 90 ML CS-011",
     "price": 79,
     "stock": 11,
@@ -30303,7 +30303,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21710",
-    "alias": "09002",
+    "alias": "9002",
     "name": "LORA TURKISH COFFEE SET 6 PCS 90 ML CS-012",
     "price": 79,
     "stock": 14,
@@ -30363,11 +30363,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21711",
-    "alias": "09003",
+    "alias": "9003",
     "name": "LUMIRE TURKISH COFFEE SET 6 PCS 90 ML CS-013",
     "price": 79,
     "stock": 7,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -30423,11 +30423,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21712",
-    "alias": "09004",
+    "alias": "9004",
     "name": "DIANA TURKISH COFFEE SET 6 PCS 90 ML CS-016",
     "price": 79,
     "stock": 13,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -30483,11 +30483,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21713",
-    "alias": "09005",
+    "alias": "9005",
     "name": "ADLER TURKISH COFFEE SET 6 PCS 90 ML CS-017",
     "price": 79,
     "stock": 18,
-    "sales": 4,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -30543,7 +30543,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21714",
-    "alias": "09006",
+    "alias": "9006",
     "name": "MARIYE TURKISH COFFEE SET 6 PCS 90 ML CS-018",
     "price": 79,
     "stock": 6,
@@ -30603,7 +30603,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21715",
-    "alias": "09007",
+    "alias": "9007",
     "name": "VICTORIA TURKISH COFFEE SET 6 PCS 90 ML CS-020",
     "price": 79,
     "stock": 13,
@@ -30663,7 +30663,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21716",
-    "alias": "09008",
+    "alias": "9008",
     "name": "BLACK BLOSSOM TURKISH COFFEE SET 6 PCS 90 ML CS-024",
     "price": 79,
     "stock": 8,
@@ -30723,11 +30723,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21717",
-    "alias": "09009",
+    "alias": "9009",
     "name": "MARIAN TURKISH COFFEE SET 6 PCS 90 ML CS-025",
     "price": 79,
     "stock": 20,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 12,
@@ -30783,11 +30783,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21718",
-    "alias": "09010",
+    "alias": "9010",
     "name": "VIKI TURKISH COFFEE SET 6 PCS 90 ML CS-014",
     "price": 79,
     "stock": 23,
-    "sales": 4,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 11,
@@ -30843,11 +30843,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21719",
-    "alias": "09011",
+    "alias": "9011",
     "name": "PALU TURKISH COFFEE SET 6 PCS 90 ML CS-015",
     "price": 79,
     "stock": 19,
-    "sales": 3,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -30903,11 +30903,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21720",
-    "alias": "09012",
+    "alias": "9012",
     "name": "MIGAN TURKISH COFFEE SET 6 PCS 90 ML CS-019",
     "price": 79,
     "stock": 45,
-    "sales": 10,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 12,
@@ -30963,7 +30963,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21721",
-    "alias": "09013",
+    "alias": "9013",
     "name": "CHEVAL TURKISH COFFEE SET 6 PCS 90 ML CS-021",
     "price": 79,
     "stock": 115,
@@ -31023,11 +31023,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21722",
-    "alias": "09014",
+    "alias": "9014",
     "name": "MARRAKESH TURKISH COFFEE SET 6 PCS 90 ML CS-022",
     "price": 79,
     "stock": 79,
-    "sales": 5,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 12,
@@ -31083,11 +31083,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21723",
-    "alias": "09015",
+    "alias": "9015",
     "name": "SOPHIA TURKISH COFFEE SET 6 PCS 90 ML CS-023",
     "price": 79,
     "stock": 158,
-    "sales": 3,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 11,
@@ -31143,7 +31143,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21727",
-    "alias": "09019",
+    "alias": "9019",
     "name": "ARABIC COFFEE SET 6 PCS 90 ML CS-029",
     "price": 49,
     "stock": 2,
@@ -31203,11 +31203,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21729",
-    "alias": "09021",
+    "alias": "9021",
     "name": "ARABIC COFFEE SET 6 PCS 90 ML CS-031",
     "price": 49,
     "stock": 7,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -31263,7 +31263,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "أواني منزلية",
     "code": "21730",
-    "alias": "09022",
+    "alias": "9022",
     "name": "ARABIC COFFEE SET 6 PCS 90 ML CS-032",
     "price": 49,
     "stock": 5,
@@ -31387,7 +31387,7 @@ const data = [
     "name": "HEAD ACCESSORIES SLUMBER CREAM 4PCS",
     "price": 39,
     "stock": 25,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -31447,7 +31447,7 @@ const data = [
     "name": "HEAD ACCESSORIES SLUMBER BURGUNDY 4PCS",
     "price": 94,
     "stock": 4,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -31507,7 +31507,7 @@ const data = [
     "name": "HEAD ACCESSORIES SLUMBER DARK GREEN 4PCS",
     "price": 39,
     "stock": 1,
-    "sales": 12,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -31567,7 +31567,7 @@ const data = [
     "name": "HEAD ACCESSORIES SLUMBER BLACK 4PCS",
     "price": 39,
     "stock": 2,
-    "sales": 5,
+    "sales": 12,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -31867,7 +31867,7 @@ const data = [
     "name": "BATH ACCESS LUSSO GREY 5PCS",
     "price": 249,
     "stock": 2,
-    "sales": 0,
+    "sales": -1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -31927,7 +31927,7 @@ const data = [
     "name": "BATH ACCESS SCALIA 5PCS",
     "price": 294,
     "stock": 8,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -32167,7 +32167,7 @@ const data = [
     "name": "BATH ACCESS BERMUDA 5PCS",
     "price": 294,
     "stock": 3,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -32587,7 +32587,7 @@ const data = [
     "name": "BATH ACCESS CALLIE GREEN 3PCS",
     "price": 59,
     "stock": 6,
-    "sales": 1,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -32647,7 +32647,7 @@ const data = [
     "name": "BATH ACCESS NOUR METALLIC 3PCS",
     "price": 59,
     "stock": 6,
-    "sales": 4,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -32707,7 +32707,7 @@ const data = [
     "name": "BATH ACCESS MARCEL WHITE-GOLD 3PCS",
     "price": 59,
     "stock": 10,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -32767,7 +32767,7 @@ const data = [
     "name": "BATH ACCESS CYPRESS COPPER 3PCS",
     "price": 59,
     "stock": 2,
-    "sales": 0,
+    "sales": -1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -32887,7 +32887,7 @@ const data = [
     "name": "BATH ACCESS KNIT WHITE 3PCS",
     "price": 59,
     "stock": 2,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -32947,7 +32947,7 @@ const data = [
     "name": "(SPECIAL OFFER) BLANKET ULTRA LUXURY SEAFOAM",
     "price": 299,
     "stock": 1,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -33007,7 +33007,7 @@ const data = [
     "name": "BLANKET FULL MARSHMALLOW COMFY 66*90",
     "price": 79,
     "stock": 1725,
-    "sales": 380,
+    "sales": 253,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 12,
@@ -33067,7 +33067,7 @@ const data = [
     "name": "BLANKET FULL GREY COMFY 66*90",
     "price": 79,
     "stock": 1073,
-    "sales": 655,
+    "sales": 476,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 10,
@@ -33127,7 +33127,7 @@ const data = [
     "name": "BLANKET FULL DOE SKIN COMFY 66*90",
     "price": 79,
     "stock": 1346,
-    "sales": 788,
+    "sales": 550,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 10,
@@ -33187,7 +33187,7 @@ const data = [
     "name": "BLANKET FULL NAVY COMFY 66*90",
     "price": 79,
     "stock": 1234,
-    "sales": 336,
+    "sales": 207,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -33247,7 +33247,7 @@ const data = [
     "name": "BLANKET KING MARSHMALLOW COMFY 104*90",
     "price": 99,
     "stock": 2020,
-    "sales": 271,
+    "sales": 155,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 5,
@@ -33307,7 +33307,7 @@ const data = [
     "name": "BLANKET KING GREY COMFY 104*90",
     "price": 99,
     "stock": 1392,
-    "sales": 311,
+    "sales": 149,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 11,
@@ -33367,7 +33367,7 @@ const data = [
     "name": "BLANKET KING DOE SKIN COMFY 104*90",
     "price": 99,
     "stock": 677,
-    "sales": 514,
+    "sales": 248,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 10,
@@ -33427,7 +33427,7 @@ const data = [
     "name": "BLANKET KING ROSE PINK COMFY 104*90",
     "price": 99,
     "stock": 630,
-    "sales": 218,
+    "sales": 83,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 5,
@@ -33487,7 +33487,7 @@ const data = [
     "name": "BLANKET KING CRIMSON COMFY 104*90",
     "price": 99,
     "stock": 619,
-    "sales": 216,
+    "sales": 105,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 7,
@@ -33547,7 +33547,7 @@ const data = [
     "name": "BLANKET KING NAVY COMFY 104*90",
     "price": 99,
     "stock": 845,
-    "sales": 332,
+    "sales": 138,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 10,
@@ -33607,7 +33607,7 @@ const data = [
     "name": "BLANKET KING COMFY PLUM",
     "price": 99,
     "stock": 18,
-    "sales": 3,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 2,
@@ -33787,7 +33787,7 @@ const data = [
     "name": "BLANKET KING BLACK CORDUROY",
     "price": 194,
     "stock": 8,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -33967,7 +33967,7 @@ const data = [
     "name": "BLANKET KING COMFY PORCINI 17K",
     "price": 99,
     "stock": 319,
-    "sales": 285,
+    "sales": 147,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 12,
@@ -34027,7 +34027,7 @@ const data = [
     "name": "BLANKET KING COMFY LAMENT BLUE 82N",
     "price": 99,
     "stock": 658,
-    "sales": 149,
+    "sales": 57,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 4,
@@ -34087,7 +34087,7 @@ const data = [
     "name": "BLANKET KING COMFY FARMHOUSE SAGE 92H",
     "price": 99,
     "stock": 38,
-    "sales": 406,
+    "sales": 178,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 9,
@@ -34147,7 +34147,7 @@ const data = [
     "name": "BLANKET FULL COMFY PORCINI 66*90",
     "price": 79,
     "stock": 603,
-    "sales": 529,
+    "sales": 398,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 8,
@@ -34207,7 +34207,7 @@ const data = [
     "name": "BLANKET FULL COMFY FIRE PIT 66*90",
     "price": 79,
     "stock": 31,
-    "sales": 825,
+    "sales": 612,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 18,
@@ -34267,7 +34267,7 @@ const data = [
     "name": "BLANKET FULL COMFY LAMENT BLUE 66*90",
     "price": 79,
     "stock": 895,
-    "sales": 370,
+    "sales": 249,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 14,
@@ -34327,7 +34327,7 @@ const data = [
     "name": "BLANKET FULL COMFY FARMHOUSE SAGE 66*90",
     "price": 79,
     "stock": 1048,
-    "sales": 381,
+    "sales": 240,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 2,
@@ -34447,7 +34447,7 @@ const data = [
     "name": "DUVET COVER KING DAMASK SILVER 500 STITCH 4PCS",
     "price": 495,
     "stock": 369,
-    "sales": 27,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 7,
@@ -34507,7 +34507,7 @@ const data = [
     "name": "DUVET COVER KING DAMASK LT.BLUE 500 STITCH 4PCS",
     "price": 495,
     "stock": 65,
-    "sales": 10,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 4,
@@ -34567,7 +34567,7 @@ const data = [
     "name": "DUVET COVER KING DAMASK IVORY 500 STITCH 4PCS",
     "price": 495,
     "stock": 469,
-    "sales": 24,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 4,
@@ -34627,7 +34627,7 @@ const data = [
     "name": "DUVET COVER KING DAMASK WHITE 500 STITCH 4PCS",
     "price": 495,
     "stock": 589,
-    "sales": 68,
+    "sales": 31,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 8,
@@ -34747,7 +34747,7 @@ const data = [
     "name": "DUVET COVER TETBURY 3PCS",
     "price": 294,
     "stock": 12,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -35107,7 +35107,7 @@ const data = [
     "name": "DUVET COVER KING DAMASK HUSHED V 500 STITCH 4PCS",
     "price": 495,
     "stock": 37,
-    "sales": 18,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 8,
@@ -35707,7 +35707,7 @@ const data = [
     "name": "DUVET COVER KING HOTEL CROSSILL WHITE 3PCS A1",
     "price": 294,
     "stock": 1,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -36007,7 +36007,7 @@ const data = [
     "name": "DUVET COVER FULL PRINTED SANNA 3PCS",
     "price": 194,
     "stock": 10,
-    "sales": 5,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -36067,7 +36067,7 @@ const data = [
     "name": "DUVET COVER FULL PRINTED BOTANICAL GARDEN 3PCS",
     "price": 194,
     "stock": 1,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -36127,7 +36127,7 @@ const data = [
     "name": "DUVET COVER FULL PRINTED TETBURY 3PCS",
     "price": 194,
     "stock": 9,
-    "sales": 3,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -36187,7 +36187,7 @@ const data = [
     "name": "DUVET COVER FULL PRINTED LOCHABER 3PCS",
     "price": 194,
     "stock": 16,
-    "sales": 1,
+    "sales": -1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -36247,7 +36247,7 @@ const data = [
     "name": "DUVET COVER KING PRINTED FOX GLOVE 3PCS",
     "price": 294,
     "stock": 17,
-    "sales": 0,
+    "sales": -1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -36307,7 +36307,7 @@ const data = [
     "name": "DUVET COVER KING PRINTED LOCHABER 3PCS",
     "price": 294,
     "stock": 17,
-    "sales": 5,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 3,
@@ -36367,7 +36367,7 @@ const data = [
     "name": "DUVET COVER KING PRINTED SANNA 3PCS",
     "price": 294,
     "stock": 1,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -36427,7 +36427,7 @@ const data = [
     "name": "DUVET COVER FULL DAMASK WHITE 500 STITCH 4PCS",
     "price": 295,
     "stock": 7,
-    "sales": 36,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 8,
@@ -36487,7 +36487,7 @@ const data = [
     "name": "DUVET COVER FULL DAMASK SILVER 500 STITCH 4PCS",
     "price": 295,
     "stock": 170,
-    "sales": 24,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 7,
@@ -36607,7 +36607,7 @@ const data = [
     "name": "DUVET COVER FULL DAMASK H-VOILD 500 STITCH 4PCS",
     "price": 295,
     "stock": 29,
-    "sales": 24,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 5,
@@ -36667,7 +36667,7 @@ const data = [
     "name": "DUVET COVER FULL DAMASK LT-BLUE 500 STITCH 4PCS",
     "price": 295,
     "stock": 78,
-    "sales": 12,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 7,
@@ -36727,7 +36727,7 @@ const data = [
     "name": "DUVET COVER FULL DAMASK NAVY 500 STITCH 4PCS",
     "price": 295,
     "stock": 4,
-    "sales": 12,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -36787,7 +36787,7 @@ const data = [
     "name": "DUVET COVER KING DAMASK NAVY 500 STITCH 4PCS",
     "price": 495,
     "stock": 6,
-    "sales": 8,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -36847,7 +36847,7 @@ const data = [
     "name": "PILLOW CASES KING PLATINUM GREY 2PCS",
     "price": 35,
     "stock": 585,
-    "sales": 60,
+    "sales": 56,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 7,
@@ -36907,7 +36907,7 @@ const data = [
     "name": "PILLOW CASES KING WHITE 2PCS",
     "price": 35,
     "stock": 3153,
-    "sales": 108,
+    "sales": 72,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 8,
@@ -36967,7 +36967,7 @@ const data = [
     "name": "PILLOW CASES KING OFF WHITE 2PCS",
     "price": 35,
     "stock": 2045,
-    "sales": 40,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 16,
@@ -37027,7 +37027,7 @@ const data = [
     "name": "PILLOW CASES KING STERLING BLUW 2PCS",
     "price": 35,
     "stock": 293,
-    "sales": 11,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 16,
@@ -37087,7 +37087,7 @@ const data = [
     "name": "PILLOW CASES KING LINEN 2PCS",
     "price": 35,
     "stock": 220,
-    "sales": 82,
+    "sales": 62,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 11,
@@ -37147,7 +37147,7 @@ const data = [
     "name": "PILLOW CASES KING PINK 2PCS",
     "price": 35,
     "stock": 276,
-    "sales": 37,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 8,
@@ -37207,7 +37207,7 @@ const data = [
     "name": "PILLOW CASES KING LILAC MARBLE 2PCS",
     "price": 35,
     "stock": 12,
-    "sales": 55,
+    "sales": 42,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 13,
@@ -37267,7 +37267,7 @@ const data = [
     "name": "PILLOW CASES KING HEATHER 2PCS",
     "price": 35,
     "stock": 17,
-    "sales": 42,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -37327,7 +37327,7 @@ const data = [
     "name": "PILLOW CASES KING GREY 2PCS",
     "price": 35,
     "stock": 306,
-    "sales": 75,
+    "sales": 52,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 14,
@@ -37387,7 +37387,7 @@ const data = [
     "name": "PILLOW CASES KING NEW BURGANDY 2PCS",
     "price": 35,
     "stock": 5,
-    "sales": 29,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 8,
@@ -37447,7 +37447,7 @@ const data = [
     "name": "PILLOW CASES KING SLIT 2PCS",
     "price": 35,
     "stock": 17,
-    "sales": 38,
+    "sales": 26,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 20,
@@ -37507,7 +37507,7 @@ const data = [
     "name": "PILLOW CASES STANDARD GREY",
     "price": 35,
     "stock": 2,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -37567,7 +37567,7 @@ const data = [
     "name": "PILLOW CASES STANDARD LILAC MARBLE",
     "price": 35,
     "stock": 334,
-    "sales": 40,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 33,
@@ -37627,7 +37627,7 @@ const data = [
     "name": "PILLOW CASES STANDARD OFF WHITE",
     "price": 35,
     "stock": 503,
-    "sales": 103,
+    "sales": 66,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 6,
@@ -37687,7 +37687,7 @@ const data = [
     "name": "PILLOW CASES STANDARD P.BLUE",
     "price": 35,
     "stock": 16,
-    "sales": 8,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -37747,7 +37747,7 @@ const data = [
     "name": "PILLOW CASES STANDARD PINK",
     "price": 35,
     "stock": 15,
-    "sales": 63,
+    "sales": 45,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 14,
@@ -37807,7 +37807,7 @@ const data = [
     "name": "PILLOW CASES STANDARD PLATINUM GREY",
     "price": 35,
     "stock": 223,
-    "sales": 80,
+    "sales": 40,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 23,
@@ -37867,7 +37867,7 @@ const data = [
     "name": "PILLOW CASES STANDARD STRING BLUE",
     "price": 35,
     "stock": 324,
-    "sales": 67,
+    "sales": 30,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 22,
@@ -37927,7 +37927,7 @@ const data = [
     "name": "PILLOW CASES STANDARD WHITE",
     "price": 35,
     "stock": 1462,
-    "sales": 134,
+    "sales": 95,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 14,
@@ -38107,7 +38107,7 @@ const data = [
     "name": "PILLOW CASE FULL SATIN WHITE 2PCS",
     "price": 29,
     "stock": 1000,
-    "sales": 67,
+    "sales": 48,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -38167,7 +38167,7 @@ const data = [
     "name": "PILLOW CASE FULL SATIN CREAM 2PCS",
     "price": 29,
     "stock": 1000,
-    "sales": 50,
+    "sales": 39,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -38227,7 +38227,7 @@ const data = [
     "name": "PILLOW CASE FULL SATIN PINK 2PCS",
     "price": 29,
     "stock": 880,
-    "sales": 27,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -38287,7 +38287,7 @@ const data = [
     "name": "PILLOW CASE FULL SATIN BURGANDY 2PCS",
     "price": 29,
     "stock": 370,
-    "sales": 26,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -38347,7 +38347,7 @@ const data = [
     "name": "PILLOW CASE KING SATIN WHITE 2PCS",
     "price": 39,
     "stock": 1000,
-    "sales": 67,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -38407,7 +38407,7 @@ const data = [
     "name": "PILLOW CASE KING SATIN CREAM 2PCS",
     "price": 39,
     "stock": 1000,
-    "sales": 41,
+    "sales": 35,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -38467,7 +38467,7 @@ const data = [
     "name": "PILLOW CASE KING SATIN PINK 2PCS",
     "price": 39,
     "stock": 880,
-    "sales": 21,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -38527,7 +38527,7 @@ const data = [
     "name": "PILLOW CASE KING SATIN BURGANDY 2PCS",
     "price": 39,
     "stock": 370,
-    "sales": 10,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -38587,7 +38587,7 @@ const data = [
     "name": "DUVET FULL JUST RELAX 203*218",
     "price": 194,
     "stock": 124,
-    "sales": 87,
+    "sales": 40,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 4,
@@ -38647,7 +38647,7 @@ const data = [
     "name": "DUVET KING THERMO PERFORMACE",
     "price": 799,
     "stock": 7,
-    "sales": 29,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 3,
@@ -39127,7 +39127,7 @@ const data = [
     "name": "MAT WAVE VIOLET SKY  51*86",
     "price": 49,
     "stock": 15,
-    "sales": 5,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -39367,7 +39367,7 @@ const data = [
     "name": "MAT MICRO CHANNEL DARK RED SILKY 91*61",
     "price": 69,
     "stock": 6,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -39547,7 +39547,7 @@ const data = [
     "name": "MAT FAUX RABBIT FUR HEATHER 50*85",
     "price": 59,
     "stock": 61,
-    "sales": 6,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 13,
@@ -39607,7 +39607,7 @@ const data = [
     "name": "MAT FAUX RABBIT FUR SILVER 50*85",
     "price": 59,
     "stock": 19,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 0,
@@ -39667,7 +39667,7 @@ const data = [
     "name": "MAT FAUX RABBIT FUR WHITE 50*85",
     "price": 59,
     "stock": 14,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 0,
@@ -39727,7 +39727,7 @@ const data = [
     "name": "MAT FAUX RABBIT FUR CHARCOAL 50*85",
     "price": 59,
     "stock": 148,
-    "sales": 4,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 7,
@@ -40447,7 +40447,7 @@ const data = [
     "name": "BATH MAT WHITE 24*60",
     "price": 129,
     "stock": 7,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -40627,7 +40627,7 @@ const data = [
     "name": "BATH MAT LIGHT YELLOW 21*34",
     "price": 59,
     "stock": 103,
-    "sales": 69,
+    "sales": 46,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 5,
@@ -40687,7 +40687,7 @@ const data = [
     "name": "BATH MAT CHINO GREEN 21*34",
     "price": 59,
     "stock": 1592,
-    "sales": 86,
+    "sales": 46,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 5,
@@ -40747,7 +40747,7 @@ const data = [
     "name": "BATH MAT BURGUNDY 21*34",
     "price": 59,
     "stock": 16,
-    "sales": 15,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -40807,7 +40807,7 @@ const data = [
     "name": "BATH MAT WHITE 21*34",
     "price": 59,
     "stock": 246,
-    "sales": 36,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 5,
@@ -40927,7 +40927,7 @@ const data = [
     "name": "BATH MAT DARKER LIGHT GREY 21*34",
     "price": 59,
     "stock": 168,
-    "sales": 86,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 3,
@@ -41047,7 +41047,7 @@ const data = [
     "name": "BATH MAT LIGHT ROSE 21*34",
     "price": 59,
     "stock": 869,
-    "sales": 14,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 7,
@@ -41107,7 +41107,7 @@ const data = [
     "name": "BATH MAT ROSE 21*34",
     "price": 59,
     "stock": 347,
-    "sales": 20,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 7,
@@ -41167,7 +41167,7 @@ const data = [
     "name": "BATH MAT LIGHT YELLOW 17*24",
     "price": 39,
     "stock": 1512,
-    "sales": 31,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 8,
@@ -41227,7 +41227,7 @@ const data = [
     "name": "BATH MAT CHINO GREEN 17*24",
     "price": 39,
     "stock": 1591,
-    "sales": 60,
+    "sales": 35,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 7,
@@ -41347,7 +41347,7 @@ const data = [
     "name": "BATH MAT BURGUNDY 17*24",
     "price": 39,
     "stock": 125,
-    "sales": 6,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 5,
@@ -41407,7 +41407,7 @@ const data = [
     "name": "BATH MAT WHITE 17*24",
     "price": 39,
     "stock": 404,
-    "sales": 22,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 8,
@@ -41527,7 +41527,7 @@ const data = [
     "name": "BATH MAT DARKER LIGHT GREY 17*24",
     "price": 39,
     "stock": 506,
-    "sales": 92,
+    "sales": 44,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 9,
@@ -41587,7 +41587,7 @@ const data = [
     "name": "BATH MAT P.BLUE 17*24",
     "price": 39,
     "stock": 7,
-    "sales": 9,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -41647,7 +41647,7 @@ const data = [
     "name": "BATH MAT PINK 17*24",
     "price": 39,
     "stock": 1359,
-    "sales": 12,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 9,
@@ -41707,7 +41707,7 @@ const data = [
     "name": "BATH MAT ROSE 17*24",
     "price": 39,
     "stock": 1428,
-    "sales": 16,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 5,
@@ -41827,7 +41827,7 @@ const data = [
     "name": "BATH MAT NAVY 24*60",
     "price": 129,
     "stock": 54,
-    "sales": 7,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 8,
@@ -41887,7 +41887,7 @@ const data = [
     "name": "BATH MAT NAVY 21*34",
     "price": 59,
     "stock": 211,
-    "sales": 39,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 7,
@@ -41947,7 +41947,7 @@ const data = [
     "name": "BATH MAT DARK LILAC 17*24",
     "price": 39,
     "stock": 1047,
-    "sales": 46,
+    "sales": 32,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 6,
@@ -42007,7 +42007,7 @@ const data = [
     "name": "BATH MAT DARKER LILAC 21*34",
     "price": 59,
     "stock": 558,
-    "sales": 72,
+    "sales": 26,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 5,
@@ -42067,7 +42067,7 @@ const data = [
     "name": "BATH MAT NAVY 17*24",
     "price": 39,
     "stock": 336,
-    "sales": 29,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 6,
@@ -42127,7 +42127,7 @@ const data = [
     "name": "BATH MAT WHITE 30*50",
     "price": 129,
     "stock": 180,
-    "sales": 14,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 5,
@@ -42187,7 +42187,7 @@ const data = [
     "name": "BATH MAT IVORY 30*50",
     "price": 129,
     "stock": 198,
-    "sales": 35,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 4,
@@ -42247,7 +42247,7 @@ const data = [
     "name": "BATH MAT (4525) 30*50",
     "price": 129,
     "stock": 408,
-    "sales": 27,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 5,
@@ -42307,7 +42307,7 @@ const data = [
     "name": "BATH MAT DARKER LILAC 30*50",
     "price": 129,
     "stock": 249,
-    "sales": 31,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 4,
@@ -42367,7 +42367,7 @@ const data = [
     "name": "BATH MAT PINK 30*50",
     "price": 129,
     "stock": 273,
-    "sales": 13,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 6,
@@ -42427,7 +42427,7 @@ const data = [
     "name": "BATH MAT NAVY 30*50",
     "price": 129,
     "stock": 186,
-    "sales": 26,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 4,
@@ -42487,7 +42487,7 @@ const data = [
     "name": "BATH MAT BLACK 21*34",
     "price": 59,
     "stock": 498,
-    "sales": 35,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 17,
@@ -42547,7 +42547,7 @@ const data = [
     "name": "BATH MAT SET BLACK 2PCS",
     "price": 99,
     "stock": 360,
-    "sales": 22,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 7,
@@ -42607,7 +42607,7 @@ const data = [
     "name": "BATH MAT BLACK 17*24",
     "price": 39,
     "stock": 684,
-    "sales": 16,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 5,
@@ -42667,7 +42667,7 @@ const data = [
     "name": "BATH MAT DARKER LIGHT GRAY 30*50",
     "price": 129,
     "stock": 390,
-    "sales": 25,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 4,
@@ -42727,7 +42727,7 @@ const data = [
     "name": "BATH MAT BLACK 30*50",
     "price": 129,
     "stock": 210,
-    "sales": 16,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -42847,7 +42847,7 @@ const data = [
     "name": "BOTTEL WATER SOLID LEAK PROOF BLACK 20OZ",
     "price": 29,
     "stock": 36,
-    "sales": 65,
+    "sales": 33,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -42967,7 +42967,7 @@ const data = [
     "name": "BOTTEL WATER SOLID LEAK PROOF WHITE 20OZ",
     "price": 29,
     "stock": 1970,
-    "sales": 302,
+    "sales": 146,
     "branches": {
       "04-Andalos Mall": 27,
       "05-Haifa Mall": 1,
@@ -43027,7 +43027,7 @@ const data = [
     "name": "BOTTEL WATER OMBRE LEAK PROOF BLUE 20OZ",
     "price": 29,
     "stock": 466,
-    "sales": 379,
+    "sales": 164,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 16,
@@ -43087,7 +43087,7 @@ const data = [
     "name": "BOTTEL WATER OMBRE LEAK PROOF ORANGE 20OZ",
     "price": 29,
     "stock": 1971,
-    "sales": 156,
+    "sales": 86,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 8,
@@ -43147,7 +43147,7 @@ const data = [
     "name": "BOTTEL WATER OMBRE LEAK PROOF PURPLE 20OZ",
     "price": 29,
     "stock": 821,
-    "sales": 457,
+    "sales": 180,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 9,
@@ -43207,7 +43207,7 @@ const data = [
     "name": "BOTTEL WATER OMBRE LEAK PROOF TEAL 20OZ",
     "price": 29,
     "stock": 1004,
-    "sales": 413,
+    "sales": 225,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 4,
@@ -43267,7 +43267,7 @@ const data = [
     "name": "TUMBER SOLID WITH STRAW BLACK 24OZ",
     "price": 29,
     "stock": 2,
-    "sales": 135,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 8,
@@ -43327,7 +43327,7 @@ const data = [
     "name": "TUMBER SOLID WITH STRAW ORANGE 24OZ",
     "price": 29,
     "stock": 1,
-    "sales": 3,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 0,
@@ -43387,7 +43387,7 @@ const data = [
     "name": "TUMBER SOLID WITH STRAW WHITE 24OZ",
     "price": 29,
     "stock": 776,
-    "sales": 172,
+    "sales": 123,
     "branches": {
       "04-Andalos Mall": 39,
       "05-Haifa Mall": 5,
@@ -43447,7 +43447,7 @@ const data = [
     "name": "TUMBER WITH STRAW OMBRE BLUE 24OZ",
     "price": 29,
     "stock": 238,
-    "sales": 216,
+    "sales": 105,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 5,
@@ -43507,7 +43507,7 @@ const data = [
     "name": "TUMBER WITH STRAW OMBRE ORANGE 24OZ",
     "price": 29,
     "stock": 674,
-    "sales": 108,
+    "sales": 87,
     "branches": {
       "04-Andalos Mall": 29,
       "05-Haifa Mall": 13,
@@ -43567,7 +43567,7 @@ const data = [
     "name": "TUMBER WITH STRAW OMBRE PURPLE 24OZ",
     "price": 29,
     "stock": 3,
-    "sales": 155,
+    "sales": 72,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 8,
@@ -43627,7 +43627,7 @@ const data = [
     "name": "TUMBER WITH STRAW OMBRE TEAL 24OZ",
     "price": 29,
     "stock": 198,
-    "sales": 196,
+    "sales": 125,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 16,
@@ -43687,7 +43687,7 @@ const data = [
     "name": "TUMBER SOLID WITH STRAW NAVY 24OZ",
     "price": 29,
     "stock": 1,
-    "sales": 93,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 9,
@@ -43807,7 +43807,7 @@ const data = [
     "name": "TUMBLER ORANGE 24OZ",
     "price": 39,
     "stock": 2,
-    "sales": 1,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -43867,7 +43867,7 @@ const data = [
     "name": "TUMBLER PINK 24OZ",
     "price": 39,
     "stock": 15,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -43927,7 +43927,7 @@ const data = [
     "name": "TUMBLER ROYAL ANIMAL 14OZ",
     "price": 29,
     "stock": 3,
-    "sales": 0,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -43987,7 +43987,7 @@ const data = [
     "name": "TUMBLER WHITE  40OZ",
     "price": 49,
     "stock": 2457,
-    "sales": 168,
+    "sales": 92,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 18,
@@ -44047,7 +44047,7 @@ const data = [
     "name": "TUMBLER BLACK 40OZ",
     "price": 49,
     "stock": 935,
-    "sales": 165,
+    "sales": 81,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 1,
@@ -44107,7 +44107,7 @@ const data = [
     "name": "TUMBLER PINK 40OZ",
     "price": 49,
     "stock": 887,
-    "sales": 157,
+    "sales": 95,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 13,
@@ -44167,7 +44167,7 @@ const data = [
     "name": "TUMBLER LIGHT BLUE 40OZ",
     "price": 49,
     "stock": 2381,
-    "sales": 207,
+    "sales": 118,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 13,
@@ -44227,7 +44227,7 @@ const data = [
     "name": "TUMBLER CHRISTMAS RED 40OZ",
     "price": 49,
     "stock": 1444,
-    "sales": 119,
+    "sales": 54,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 17,
@@ -44287,7 +44287,7 @@ const data = [
     "name": "TUMBLER YELLOW 40OZ",
     "price": 49,
     "stock": 239,
-    "sales": 133,
+    "sales": 61,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 13,
@@ -44347,7 +44347,7 @@ const data = [
     "name": "TUMBLER ORANGE 40OZ",
     "price": 49,
     "stock": 1318,
-    "sales": 132,
+    "sales": 78,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 14,
@@ -44407,7 +44407,7 @@ const data = [
     "name": "BOTTEL WATER SOLID LEAK PROOF PINK 20OZ",
     "price": 29,
     "stock": 806,
-    "sales": 458,
+    "sales": 270,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 17,
@@ -44467,7 +44467,7 @@ const data = [
     "name": "BOTTEL WATER SOLID LEAK PROOF NAVY 20OZ",
     "price": 29,
     "stock": 726,
-    "sales": 332,
+    "sales": 166,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 4,
@@ -44527,7 +44527,7 @@ const data = [
     "name": "BOTTEL WATER SOLID LEAK PROOF GOLD 20OZ",
     "price": 29,
     "stock": 15,
-    "sales": 52,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
@@ -44587,7 +44587,7 @@ const data = [
     "name": "BOTTEL WATER PRINT LEAK PROOF BLUE  20OZ",
     "price": 29,
     "stock": 3097,
-    "sales": 146,
+    "sales": 75,
     "branches": {
       "04-Andalos Mall": 26,
       "05-Haifa Mall": 10,
@@ -44647,7 +44647,7 @@ const data = [
     "name": "BOTTEL WATER PRINT LEAK PROOF RAINBOW 20OZ",
     "price": 29,
     "stock": 4538,
-    "sales": 111,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 6,
@@ -44707,7 +44707,7 @@ const data = [
     "name": "BOTTEL WATER PRINT LEAK PROOF RAINBOW&WHITE 20OZ",
     "price": 29,
     "stock": 5190,
-    "sales": 85,
+    "sales": 41,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 13,
@@ -44767,7 +44767,7 @@ const data = [
     "name": "BOTTEL WATER LEAK PROOF CHRISTMAS RED 20OZ",
     "price": 29,
     "stock": 283,
-    "sales": 78,
+    "sales": 32,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 18,
@@ -44827,7 +44827,7 @@ const data = [
     "name": "TUMBLER WITH STRAW PRINT BLUE 24OZ",
     "price": 29,
     "stock": 793,
-    "sales": 64,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 8,
@@ -44887,7 +44887,7 @@ const data = [
     "name": "TUMBLER PRINT WITH STRAW RAINBOW 24OZ",
     "price": 29,
     "stock": 949,
-    "sales": 58,
+    "sales": 33,
     "branches": {
       "04-Andalos Mall": 38,
       "05-Haifa Mall": 10,
@@ -44947,7 +44947,7 @@ const data = [
     "name": "TUMBLER PRINT WITH STRAW RAINBOW&WHITE 24OZ",
     "price": 29,
     "stock": 1705,
-    "sales": 47,
+    "sales": 34,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 12,
@@ -45003,11 +45003,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "سجادات صلاة",
     "code": "23085",
-    "alias": "0100019",
+    "alias": "100019",
     "name": "PRAYER RUG PLAIN CHINESE",
     "price": 10,
     "stock": 2705,
-    "sales": 451,
+    "sales": 240,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -45063,11 +45063,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "سجادات صلاة",
     "code": "23086",
-    "alias": "0100020",
+    "alias": "100020",
     "name": "PRAYER SET WITH QURAN BOX",
     "price": 99,
     "stock": 234,
-    "sales": 16,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -45123,11 +45123,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "سجادات صلاة",
     "code": "23198",
-    "alias": "0100052",
+    "alias": "100052",
     "name": "EMBROIDERED PRAYER SHEET 402331",
     "price": 99,
     "stock": 870,
-    "sales": 8,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -45183,7 +45183,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "سجادات صلاة",
     "code": "23333",
-    "alias": "0100074",
+    "alias": "100074",
     "name": "CHINESE WHITE PRAYER RUG 2785",
     "price": 19,
     "stock": 650,
@@ -45243,7 +45243,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "سجادات صلاة",
     "code": "23334",
-    "alias": "0100075",
+    "alias": "100075",
     "name": "PRAYER RUG CHINESE PRINTED 2513",
     "price": 19,
     "stock": 3800,
@@ -45303,11 +45303,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "سجادات صلاة",
     "code": "23666",
-    "alias": "0100133",
+    "alias": "100133",
     "name": "MEMORY FOAM CHENILLE PRAYER MAT",
     "price": 149,
     "stock": 160,
-    "sales": 4,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -45363,11 +45363,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "سجادات صلاة",
     "code": "23851",
-    "alias": "0100257",
+    "alias": "100257",
     "name": "A WATANI PRAYER MAT MADE OF FELT 2644",
     "price": 39,
     "stock": 260,
-    "sales": 14,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -45423,11 +45423,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "سجادات صلاة",
     "code": "23852",
-    "alias": "0100258",
+    "alias": "100258",
     "name": "VELVET PRAYER MAT WITH A QURAN CASE. 2967",
     "price": 59,
     "stock": 80,
-    "sales": 3,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -45487,7 +45487,7 @@ const data = [
     "name": "SLIPPER WOMEN YELLOW 36/37 BE-78",
     "price": 29,
     "stock": 2,
-    "sales": 7,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -45547,7 +45547,7 @@ const data = [
     "name": "SLIPPER WOMEN YELLOW 38/39 BE-78",
     "price": 29,
     "stock": 2,
-    "sales": 19,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -45607,7 +45607,7 @@ const data = [
     "name": "SLIPPER WOMEN YELLOW 40/41 BE-78",
     "price": 29,
     "stock": 3,
-    "sales": 15,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -45667,7 +45667,7 @@ const data = [
     "name": "SLIPPER WOMEN PINK 36/37 BE-78",
     "price": 29,
     "stock": 16,
-    "sales": 25,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 14,
@@ -45727,7 +45727,7 @@ const data = [
     "name": "SLIPPER WOMEN PINK 38/39 BE-78",
     "price": 29,
     "stock": 15,
-    "sales": 39,
+    "sales": 31,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 24,
@@ -45787,7 +45787,7 @@ const data = [
     "name": "SLIPPER WOMEN PINK 40/41 BE-78",
     "price": 29,
     "stock": 29,
-    "sales": 36,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 6,
@@ -45847,7 +45847,7 @@ const data = [
     "name": "SLIPPER WOMEN BLUE 36/37 BE-78",
     "price": 29,
     "stock": 24,
-    "sales": 28,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 6,
@@ -45907,7 +45907,7 @@ const data = [
     "name": "SLIPPER WOMEN BLUE 38/39 BE-78",
     "price": 29,
     "stock": 41,
-    "sales": 58,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 15,
@@ -45967,7 +45967,7 @@ const data = [
     "name": "SLIPPER WOMEN WHITE 36/37 BE-78",
     "price": 29,
     "stock": 17,
-    "sales": 17,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46027,7 +46027,7 @@ const data = [
     "name": "SLIPPER WOMEN WHITE 38/39 BE-78",
     "price": 29,
     "stock": 3,
-    "sales": 19,
+    "sales": 12,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46087,7 +46087,7 @@ const data = [
     "name": "SLIPPER MAN GREY 42/43 BE-78",
     "price": 29,
     "stock": 3,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -46147,7 +46147,7 @@ const data = [
     "name": "SLIPPER MAN GREY 44/45 BE-78",
     "price": 29,
     "stock": 9,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46207,7 +46207,7 @@ const data = [
     "name": "SLIPPER MAN NAVY BLU 42/43 BE-78",
     "price": 29,
     "stock": 4,
-    "sales": 19,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -46267,7 +46267,7 @@ const data = [
     "name": "SLIPPER MAN NAVY BLU 44/45 BE-78",
     "price": 29,
     "stock": 15,
-    "sales": 16,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46327,7 +46327,7 @@ const data = [
     "name": "SLIPPER WOMEN YELLOW 36/37 BE-83",
     "price": 19,
     "stock": 1,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46387,7 +46387,7 @@ const data = [
     "name": "SLIPPER WOMEN YELLOW 38/39 BE-83",
     "price": 19,
     "stock": 1,
-    "sales": 1,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46447,7 +46447,7 @@ const data = [
     "name": "SLIPPER MAN YELLOW 42/43 BE-83",
     "price": 19,
     "stock": 3,
-    "sales": 17,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46507,7 +46507,7 @@ const data = [
     "name": "SLIPPER MAN BRIGHT GREEN 40/41 BE-83",
     "price": 19,
     "stock": 2,
-    "sales": 2,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46567,7 +46567,7 @@ const data = [
     "name": "SLIPPER MAN BRIGHT GREEN 42/43 BE-83",
     "price": 19,
     "stock": 13,
-    "sales": 6,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46627,7 +46627,7 @@ const data = [
     "name": "SLIPPER MAN BRIGHT GREEN 44/45 BE-83",
     "price": 19,
     "stock": 9,
-    "sales": 4,
+    "sales": 12,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46687,7 +46687,7 @@ const data = [
     "name": "SLIPPER WOMEN ORANGE 36/37 BE-83",
     "price": 19,
     "stock": 11,
-    "sales": 7,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46747,7 +46747,7 @@ const data = [
     "name": "SLIPPER WOMEN ORANGE 38/39 BE-83",
     "price": 19,
     "stock": 1,
-    "sales": 9,
+    "sales": 24,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46807,7 +46807,7 @@ const data = [
     "name": "SLIPPER WOMEN ORANGE 40/41 BE-83",
     "price": 19,
     "stock": 7,
-    "sales": 11,
+    "sales": 24,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46867,7 +46867,7 @@ const data = [
     "name": "SLIPPER WOMEN BLUE 38/39 BE-83",
     "price": 19,
     "stock": 2,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -46987,7 +46987,7 @@ const data = [
     "name": "SLIPPER WOMEN PINK 36/37 BE-84",
     "price": 29,
     "stock": 6,
-    "sales": 46,
+    "sales": 89,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47047,7 +47047,7 @@ const data = [
     "name": "SLIPPER WOMEN PINK 38/39 BE-84",
     "price": 29,
     "stock": 2,
-    "sales": 46,
+    "sales": 112,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47107,7 +47107,7 @@ const data = [
     "name": "SLIPPER WOMEN PINK 40/41 BE-84",
     "price": 29,
     "stock": 12,
-    "sales": 31,
+    "sales": 73,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47167,7 +47167,7 @@ const data = [
     "name": "SLIPPER MAN NAVY 42/43 BE-84",
     "price": 29,
     "stock": 3,
-    "sales": 55,
+    "sales": 77,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47227,7 +47227,7 @@ const data = [
     "name": "SLIPPER MAN IVORY 40/41 BE-84",
     "price": 29,
     "stock": 2,
-    "sales": 62,
+    "sales": 83,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47287,7 +47287,7 @@ const data = [
     "name": "SLIPPER MAN IVORY 42/43 BE-84",
     "price": 29,
     "stock": 9,
-    "sales": 40,
+    "sales": 75,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47347,7 +47347,7 @@ const data = [
     "name": "SLIPPER MAN IVORY 44/45 BE-84",
     "price": 29,
     "stock": 4,
-    "sales": 38,
+    "sales": 64,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47407,7 +47407,7 @@ const data = [
     "name": "SLIPPER MAN WHIE&BLUE 40/41 BE-85",
     "price": 59,
     "stock": 6,
-    "sales": 5,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47527,7 +47527,7 @@ const data = [
     "name": "SLIPPER MAN WHIE&BLUE 44/45 BE-85",
     "price": 59,
     "stock": 3,
-    "sales": 6,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47587,7 +47587,7 @@ const data = [
     "name": "SLIPPER MAN ORANGE&WHITE 40/41 BE-85",
     "price": 59,
     "stock": 12,
-    "sales": 11,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47647,7 +47647,7 @@ const data = [
     "name": "SLIPPER MAN ORANGE&WHITE 42/43 BE-85",
     "price": 59,
     "stock": 19,
-    "sales": 9,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47707,7 +47707,7 @@ const data = [
     "name": "SLIPPER MAN ORANGE&WHITE 44/45 BE-85",
     "price": 59,
     "stock": 13,
-    "sales": 5,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47827,7 +47827,7 @@ const data = [
     "name": "SLIPPER MAN WHITE&YELLOW 42/43 BE-85",
     "price": 59,
     "stock": 9,
-    "sales": 12,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47887,7 +47887,7 @@ const data = [
     "name": "SLIPPER MAN WHITE&YELLOW 44/45 BE-85",
     "price": 59,
     "stock": 14,
-    "sales": 5,
+    "sales": 25,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -47947,7 +47947,7 @@ const data = [
     "name": "SLIPPER WOMEN BLACK 36/37 BE-86",
     "price": 59,
     "stock": 4,
-    "sales": 3,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -48007,7 +48007,7 @@ const data = [
     "name": "SLIPPER WOMEN BLACK 38/39 BE-86",
     "price": 59,
     "stock": 2,
-    "sales": 4,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -48247,7 +48247,7 @@ const data = [
     "name": "SLIPPER MAN BLACK 44/45 BE-86",
     "price": 59,
     "stock": 13,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -48367,7 +48367,7 @@ const data = [
     "name": "SLIPPER WOMEN NAVY 38/39 BE-86",
     "price": 59,
     "stock": 6,
-    "sales": 0,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -48487,7 +48487,7 @@ const data = [
     "name": "SLIPPER MAN BIEGE 40/41 BE-86",
     "price": 59,
     "stock": 1,
-    "sales": 0,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -48547,7 +48547,7 @@ const data = [
     "name": "SLIPPER MAN BIEGE 42/43 BE-86",
     "price": 59,
     "stock": 5,
-    "sales": 0,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -48607,7 +48607,7 @@ const data = [
     "name": "SLIPPER MAN BIEGE 44/45 BE-86",
     "price": 59,
     "stock": 12,
-    "sales": 6,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -48667,7 +48667,7 @@ const data = [
     "name": "SLIPPER WOMEN GREY 38/39 BE-79",
     "price": 19,
     "stock": 5,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49087,7 +49087,7 @@ const data = [
     "name": "SLIPPER MAN GREY 44/45 BE-79",
     "price": 19,
     "stock": 4,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49207,7 +49207,7 @@ const data = [
     "name": "SLIPPER MAN LIGHT BROWN 42/43 BE-79",
     "price": 19,
     "stock": 4,
-    "sales": 4,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49267,7 +49267,7 @@ const data = [
     "name": "SLIPPER MAN LIGHT BROWN 44/45 BE-79",
     "price": 19,
     "stock": 9,
-    "sales": 3,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49327,7 +49327,7 @@ const data = [
     "name": "SLIPPER WOMEN BLACK 36/37 BE-80",
     "price": 29,
     "stock": 9,
-    "sales": 14,
+    "sales": 34,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49387,7 +49387,7 @@ const data = [
     "name": "SLIPPER WOMEN BLACK 38/39 BE-80",
     "price": 29,
     "stock": 2,
-    "sales": 8,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49447,7 +49447,7 @@ const data = [
     "name": "SLIPPER  WOMEN BLACK 40/41 BE-80",
     "price": 29,
     "stock": 3,
-    "sales": 6,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49507,7 +49507,7 @@ const data = [
     "name": "SLIPPER WOMEN IVORY 36/37 BE-80",
     "price": 29,
     "stock": 7,
-    "sales": 4,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49567,7 +49567,7 @@ const data = [
     "name": "SLIPPER WOMEN IVORY 38/39 BE-80",
     "price": 29,
     "stock": 9,
-    "sales": 0,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49627,7 +49627,7 @@ const data = [
     "name": "SLIPPER WOMEN IVORY 40/41 BE-80",
     "price": 29,
     "stock": 3,
-    "sales": 8,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49687,7 +49687,7 @@ const data = [
     "name": "SLIPPER WOMEN LIGHT PINK 36/37 BE-80",
     "price": 29,
     "stock": 7,
-    "sales": 10,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49747,7 +49747,7 @@ const data = [
     "name": "SLIPPER WOMEN LIGHT PINK 38/39 BE-80",
     "price": 29,
     "stock": 4,
-    "sales": 3,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49807,7 +49807,7 @@ const data = [
     "name": "SLIPPER WOMEN LIGHT PINK 40/41 BE-80",
     "price": 29,
     "stock": 6,
-    "sales": 15,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49867,7 +49867,7 @@ const data = [
     "name": "SLIPPER WOMEN NAVY 36/37 BE-80",
     "price": 29,
     "stock": 10,
-    "sales": 20,
+    "sales": 34,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49927,7 +49927,7 @@ const data = [
     "name": "SLIPPER WOMEN NAVY 38/39 BE-80",
     "price": 29,
     "stock": 10,
-    "sales": 17,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -49987,7 +49987,7 @@ const data = [
     "name": "SLIPPER WOMEN NAVY 40/41 BE-80",
     "price": 29,
     "stock": 4,
-    "sales": 2,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -50107,7 +50107,7 @@ const data = [
     "name": "SLIPPER WOMEN LIGHT ORANGE 36/37 BE-86",
     "price": 59,
     "stock": 12,
-    "sales": 10,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -50167,7 +50167,7 @@ const data = [
     "name": "SLIPPER WOMEN LIGHT ORANGE 38/39 BE-86",
     "price": 59,
     "stock": 12,
-    "sales": 2,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -50227,7 +50227,7 @@ const data = [
     "name": "SLIPPER WOMEN LIGHT ORANGE 40/41 BE-86",
     "price": 59,
     "stock": 7,
-    "sales": 0,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -50287,7 +50287,7 @@ const data = [
     "name": "SLIPPER WOMEN GREEN ORANGE 36/37 BE-86",
     "price": 59,
     "stock": 13,
-    "sales": 3,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -50347,7 +50347,7 @@ const data = [
     "name": "SLIPPER WOMEN GREEN ORANGE 38/39 BE-86",
     "price": 59,
     "stock": 12,
-    "sales": 2,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -50647,7 +50647,7 @@ const data = [
     "name": "SLIPPER MAN NAVY 42/43 BE-89",
     "price": 19,
     "stock": 16,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -50767,7 +50767,7 @@ const data = [
     "name": "SLIPPER MAN NAVY 42/43 BE-87",
     "price": 19,
     "stock": 10,
-    "sales": 9,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -51067,7 +51067,7 @@ const data = [
     "name": "SLIPPER MAN CAMEL 42/43 BE-89",
     "price": 19,
     "stock": 11,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -51247,7 +51247,7 @@ const data = [
     "name": "SLIPPER WOMEN PURPLE 36/37 BE-96",
     "price": 19,
     "stock": 4,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -51427,7 +51427,7 @@ const data = [
     "name": "SLIPPER WOMEN PURPLE 40/41 BE-91",
     "price": 29,
     "stock": 3,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 0,
@@ -51547,7 +51547,7 @@ const data = [
     "name": "SLIPPER WOMEN PINK 36/37 BE-91",
     "price": 19,
     "stock": 15,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -51607,7 +51607,7 @@ const data = [
     "name": "SLIPPER WOMAN PINK 38/39 BE-91",
     "price": 19,
     "stock": 4,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -52747,7 +52747,7 @@ const data = [
     "name": "SLIPPER WOMEN GREEN 36/37 BE-94",
     "price": 19,
     "stock": 11,
-    "sales": 4,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -52807,7 +52807,7 @@ const data = [
     "name": "SLIPPER WOMEN GREEN 38/39 BE-94",
     "price": 19,
     "stock": 8,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -54127,7 +54127,7 @@ const data = [
     "name": "SLIPPER WOMEN BEIGE 36/37 BE-95",
     "price": 19,
     "stock": 8,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -54427,7 +54427,7 @@ const data = [
     "name": "SLIPPER WOMEN PINK 36/37 BE-92",
     "price": 19,
     "stock": 16,
-    "sales": 53,
+    "sales": 101,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 0,
@@ -54487,7 +54487,7 @@ const data = [
     "name": "SLIPPER WOMEN PINK 38/39 BE-92",
     "price": 19,
     "stock": 16,
-    "sales": 39,
+    "sales": 110,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 0,
@@ -54547,7 +54547,7 @@ const data = [
     "name": "SLIPPER WOMEN PINK 40/41 BE-92",
     "price": 19,
     "stock": 8,
-    "sales": 26,
+    "sales": 54,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 2,
@@ -55147,7 +55147,7 @@ const data = [
     "name": "SLIPPER WOMEN BLACK 36/37 BE-95",
     "price": 19,
     "stock": 9,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -55567,7 +55567,7 @@ const data = [
     "name": "SLIPPER WOMEN LILAC 36/37 BE-78",
     "price": 29,
     "stock": 176,
-    "sales": 34,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 16,
@@ -55627,7 +55627,7 @@ const data = [
     "name": "SLIPPER WOMEN LILAC 38/39 BE-78",
     "price": 29,
     "stock": 193,
-    "sales": 33,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 21,
       "05-Haifa Mall": 18,
@@ -55687,7 +55687,7 @@ const data = [
     "name": "SLIPPER WOMEN LILAC 40/41 BE-78",
     "price": 29,
     "stock": 172,
-    "sales": 26,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 10,
@@ -55747,7 +55747,7 @@ const data = [
     "name": "SLIPPER WOMEN BROWN 36/37 BE-78",
     "price": 29,
     "stock": 18,
-    "sales": 7,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -55807,7 +55807,7 @@ const data = [
     "name": "SLIPPER WOMEN BROWN 38/39 BE-78",
     "price": 29,
     "stock": 12,
-    "sales": 29,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -55867,7 +55867,7 @@ const data = [
     "name": "SLIPPER WOMEN GREEN 36/37 BE-78",
     "price": 29,
     "stock": 13,
-    "sales": 12,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -55927,7 +55927,7 @@ const data = [
     "name": "SLIPPER WOMEN GREEN 38/39 BE-78",
     "price": 29,
     "stock": 10,
-    "sales": 43,
+    "sales": 12,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -55987,7 +55987,7 @@ const data = [
     "name": "SLIPPER WOMEN GREEN 40/41 BE-78",
     "price": 29,
     "stock": 9,
-    "sales": 17,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -56347,7 +56347,7 @@ const data = [
     "name": "THROW PONCHO DENSE ROSES SOFT ROSE",
     "price": 39,
     "stock": 3,
-    "sales": 3,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -56467,7 +56467,7 @@ const data = [
     "name": "THROW CHENILLE CHUNKY GREY",
     "price": 294,
     "stock": 4,
-    "sales": 3,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -56527,7 +56527,7 @@ const data = [
     "name": "THROW CHENILLE CHUNKY BLUSH",
     "price": 294,
     "stock": 3,
-    "sales": 5,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -57427,7 +57427,7 @@ const data = [
     "name": "THROW SUPER SOFT OIL PAINTING FLORA",
     "price": 39,
     "stock": 1,
-    "sales": 7,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -57487,7 +57487,7 @@ const data = [
     "name": "THROW SUPER SOFT COLOERFUL BOWS",
     "price": 39,
     "stock": 504,
-    "sales": 222,
+    "sales": 143,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 6,
@@ -57547,7 +57547,7 @@ const data = [
     "name": "THROW SUPER SOFT GAMING",
     "price": 39,
     "stock": 20,
-    "sales": 7,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -57607,7 +57607,7 @@ const data = [
     "name": "THROW SUPER SOFT SUNFLOWER",
     "price": 39,
     "stock": 1249,
-    "sales": 150,
+    "sales": 92,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 11,
@@ -57667,7 +57667,7 @@ const data = [
     "name": "THROW SUPER SOFT MARBLING",
     "price": 39,
     "stock": 16,
-    "sales": 189,
+    "sales": 84,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -57727,7 +57727,7 @@ const data = [
     "name": "THROW SUPER SOFT STRAWBERRY",
     "price": 39,
     "stock": 406,
-    "sales": 218,
+    "sales": 156,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 11,
@@ -57787,7 +57787,7 @@ const data = [
     "name": "THROW SUPER SOFT CHERRY",
     "price": 39,
     "stock": 424,
-    "sales": 199,
+    "sales": 125,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 9,
@@ -57847,7 +57847,7 @@ const data = [
     "name": "THROW SUPER SOFT BOWS AND HEARTS",
     "price": 39,
     "stock": 10,
-    "sales": 116,
+    "sales": 93,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -57907,7 +57907,7 @@ const data = [
     "name": "THROW SUPER SOFT GUARD STRIPE",
     "price": 39,
     "stock": 1018,
-    "sales": 180,
+    "sales": 94,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -57967,7 +57967,7 @@ const data = [
     "name": "THROW SOLID VELVETLOFT PUMICE STONE",
     "price": 39,
     "stock": 394,
-    "sales": 510,
+    "sales": 393,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 4,
@@ -58027,7 +58027,7 @@ const data = [
     "name": "THROW SOLID VELVET LOFT ORCHID BLOOM",
     "price": 39,
     "stock": 3312,
-    "sales": 124,
+    "sales": 92,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 0,
@@ -58087,7 +58087,7 @@ const data = [
     "name": "THROW SOLID VELVETLOFT STARGAZER",
     "price": 39,
     "stock": 2019,
-    "sales": 345,
+    "sales": 258,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 7,
@@ -58147,7 +58147,7 @@ const data = [
     "name": "THROW SOLID VELVETLOFT PINK LADY",
     "price": 39,
     "stock": 2720,
-    "sales": 238,
+    "sales": 163,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 3,
@@ -58207,7 +58207,7 @@ const data = [
     "name": "THROW SOLID VELVETLOFT JADEITE",
     "price": 39,
     "stock": 1694,
-    "sales": 286,
+    "sales": 196,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 3,
@@ -58267,7 +58267,7 @@ const data = [
     "name": "THROW SOLID VELVETLOFT BURGHADY",
     "price": 39,
     "stock": 2262,
-    "sales": 127,
+    "sales": 80,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 0,
@@ -58327,7 +58327,7 @@ const data = [
     "name": "THROW SUPER SOFT DOT STRIPE",
     "price": 39,
     "stock": 1137,
-    "sales": 339,
+    "sales": 240,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 12,
@@ -58387,7 +58387,7 @@ const data = [
     "name": "THROW SUPER SOFT MAZE STRIPE",
     "price": 39,
     "stock": 1381,
-    "sales": 298,
+    "sales": 177,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 5,
@@ -58447,7 +58447,7 @@ const data = [
     "name": "THROW SUPER SOFT PINK STRIPE",
     "price": 39,
     "stock": 1291,
-    "sales": 293,
+    "sales": 205,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 10,
@@ -58507,7 +58507,7 @@ const data = [
     "name": "THROW SUPER SOFT PINK HEART STRIPE",
     "price": 39,
     "stock": 1294,
-    "sales": 317,
+    "sales": 197,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 9,
@@ -58567,7 +58567,7 @@ const data = [
     "name": "THROW SUPER SOFT CARTOON CARNATION STRIPE",
     "price": 39,
     "stock": 603,
-    "sales": 449,
+    "sales": 306,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 3,
@@ -58627,7 +58627,7 @@ const data = [
     "name": "THROW SUPER SOFT MORDEN STRIPE",
     "price": 39,
     "stock": 623,
-    "sales": 408,
+    "sales": 294,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 9,
@@ -58687,7 +58687,7 @@ const data = [
     "name": "THROW SUPER SOFT PURPLE FLORA-2 STRIPE",
     "price": 39,
     "stock": 751,
-    "sales": 401,
+    "sales": 262,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 1,
@@ -58747,7 +58747,7 @@ const data = [
     "name": "THROW SUPER SOFT BROW BEAR STRIPE",
     "price": 39,
     "stock": 7,
-    "sales": 590,
+    "sales": 222,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -58807,7 +58807,7 @@ const data = [
     "name": "THROW SUPER SOFT WATERCOLOR ROSE-2 STRIPE",
     "price": 39,
     "stock": 554,
-    "sales": 466,
+    "sales": 277,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 10,
@@ -58867,7 +58867,7 @@ const data = [
     "name": "THROW SUPER SOFT WHITE FLORA-2 STRIPE",
     "price": 39,
     "stock": 1567,
-    "sales": 280,
+    "sales": 194,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -58927,7 +58927,7 @@ const data = [
     "name": "THROW SUPER SOFT CHARCAL CARTOON STRIPE",
     "price": 39,
     "stock": 909,
-    "sales": 353,
+    "sales": 284,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 11,
@@ -58987,7 +58987,7 @@ const data = [
     "name": "THROW SUPER SOFT WASHED STRIPE",
     "price": 39,
     "stock": 1110,
-    "sales": 304,
+    "sales": 259,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 1,
@@ -59047,7 +59047,7 @@ const data = [
     "name": "THROW SUPER SOFT NAVY WEAVE STRIPE",
     "price": 39,
     "stock": 948,
-    "sales": 352,
+    "sales": 270,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -59107,7 +59107,7 @@ const data = [
     "name": "THROW SUPER SOFT BOWKNOT STRIPE",
     "price": 39,
     "stock": 1413,
-    "sales": 243,
+    "sales": 119,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 3,
@@ -59167,7 +59167,7 @@ const data = [
     "name": "THROW SUPER SOFT PINK WATERMELON STRIPE",
     "price": 39,
     "stock": 230,
-    "sales": 406,
+    "sales": 266,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 12,
@@ -59227,7 +59227,7 @@ const data = [
     "name": "THROW SUPER SOFT BROWN STIPE",
     "price": 39,
     "stock": 1070,
-    "sales": 503,
+    "sales": 316,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 9,
@@ -59287,7 +59287,7 @@ const data = [
     "name": "THROW SUPER SOFT BLUE STRIPE",
     "price": 39,
     "stock": 1554,
-    "sales": 349,
+    "sales": 256,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 1,
@@ -59647,7 +59647,7 @@ const data = [
     "name": "SHEET FULL WHITE SET 3PCS",
     "price": 79,
     "stock": 10670,
-    "sales": 19,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 8,
@@ -59707,7 +59707,7 @@ const data = [
     "name": "SHEET FULL SILVER 3PCS",
     "price": 79,
     "stock": 288,
-    "sales": 3,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -59767,7 +59767,7 @@ const data = [
     "name": "SHEET FULL MARSHMALLOW SET 3PCS",
     "price": 79,
     "stock": 5448,
-    "sales": 4,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -59827,7 +59827,7 @@ const data = [
     "name": "SHEET KING WHITE 300 STITCH 4PCS",
     "price": 219,
     "stock": 3242,
-    "sales": 57,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 10,
@@ -59887,7 +59887,7 @@ const data = [
     "name": "SHEET KING PINK 300 STITCH 4PCS",
     "price": 219,
     "stock": 15,
-    "sales": 6,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -59947,7 +59947,7 @@ const data = [
     "name": "SHEET KING WHITE 300 STITCH 3PCS",
     "price": 129,
     "stock": 29526,
-    "sales": 451,
+    "sales": 342,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 3,
@@ -60007,7 +60007,7 @@ const data = [
     "name": "SHEET KING PINK 300 STITCH 3PCS",
     "price": 129,
     "stock": 893,
-    "sales": 150,
+    "sales": 96,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 9,
@@ -60427,7 +60427,7 @@ const data = [
     "name": "SHEET KING STERLNG BLUE 300 STITCH 3PCS",
     "price": 129,
     "stock": 1065,
-    "sales": 171,
+    "sales": 114,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 22,
@@ -60547,7 +60547,7 @@ const data = [
     "name": "SHEET KING BURGUNDY 300 STITCH 3PCS",
     "price": 129,
     "stock": 1487,
-    "sales": 94,
+    "sales": 65,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 16,
@@ -60607,7 +60607,7 @@ const data = [
     "name": "SHEET KING PURPLE 300 STITCH 3PCS",
     "price": 129,
     "stock": 16,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -60667,7 +60667,7 @@ const data = [
     "name": "SHEET KING GREY 300 STITCH 3PCS",
     "price": 129,
     "stock": 2126,
-    "sales": 133,
+    "sales": 92,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 16,
@@ -60727,7 +60727,7 @@ const data = [
     "name": "SHEET KING L. MARBLE 300 STITCH 3PCS",
     "price": 129,
     "stock": 294,
-    "sales": 159,
+    "sales": 96,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 13,
@@ -60787,7 +60787,7 @@ const data = [
     "name": "SHEET KING PLATINUM GREY 300 STITCH 3PCS",
     "price": 129,
     "stock": 1514,
-    "sales": 353,
+    "sales": 217,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 15,
@@ -60847,7 +60847,7 @@ const data = [
     "name": "SHEET KING OFF WHITE 300 STITCH 3PCS",
     "price": 129,
     "stock": 1145,
-    "sales": 159,
+    "sales": 88,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 10,
@@ -60907,7 +60907,7 @@ const data = [
     "name": "SHEET KING HEATHER GREY 300 STITCH 3PCS",
     "price": 129,
     "stock": 500,
-    "sales": 152,
+    "sales": 74,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 13,
@@ -61087,7 +61087,7 @@ const data = [
     "name": "SHEET KING LINEN 300 STITCH 3PCS",
     "price": 129,
     "stock": 1612,
-    "sales": 212,
+    "sales": 116,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 16,
@@ -61147,7 +61147,7 @@ const data = [
     "name": "SHEET KING SLIT GREY 300 STITCH 3PCS",
     "price": 129,
     "stock": 1232,
-    "sales": 105,
+    "sales": 69,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 12,
@@ -61267,7 +61267,7 @@ const data = [
     "name": "SHEET FULL PLATINUM GREY 3PCS",
     "price": 79,
     "stock": 3161,
-    "sales": 4,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -61327,7 +61327,7 @@ const data = [
     "name": "SHEET FULL PINK SET 3PCS",
     "price": 79,
     "stock": 1186,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -61507,7 +61507,7 @@ const data = [
     "name": "SHEET QUEEN PINK 3PCS",
     "price": 89,
     "stock": 6,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -61567,7 +61567,7 @@ const data = [
     "name": "SHEET FULL WINTER MARSHMALLOW  2PCS",
     "price": 69,
     "stock": 3636,
-    "sales": 6,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 4,
@@ -61687,7 +61687,7 @@ const data = [
     "name": "SHEET FULL WINTER HAS SKY 2PCS",
     "price": 69,
     "stock": 1420,
-    "sales": 9,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 5,
@@ -61747,7 +61747,7 @@ const data = [
     "name": "SHEET FULL WINTER LINEN 2PCS",
     "price": 69,
     "stock": 1400,
-    "sales": 1,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 4,
@@ -61807,7 +61807,7 @@ const data = [
     "name": "SHEET FULL WINTER SILVER 2PCS",
     "price": 69,
     "stock": 1400,
-    "sales": 0,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 4,
@@ -61867,7 +61867,7 @@ const data = [
     "name": "SHEET FULL WINTER ROSE PINK 2PCS",
     "price": 69,
     "stock": 1752,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -61927,7 +61927,7 @@ const data = [
     "name": "SHEET KING WINTER MARSHMALLOW 3PCS",
     "price": 99,
     "stock": 1624,
-    "sales": 0,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 4,
@@ -61987,7 +61987,7 @@ const data = [
     "name": "SHEET KING WINTER HAS SKY 3PCS",
     "price": 99,
     "stock": 332,
-    "sales": 44,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 3,
@@ -62167,7 +62167,7 @@ const data = [
     "name": "SHEET KING WINTER SILVER 3PCS",
     "price": 99,
     "stock": 1276,
-    "sales": 3,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 4,
@@ -62227,7 +62227,7 @@ const data = [
     "name": "SHEET KING HEATHER 300 STITCH 4PCS",
     "price": 219,
     "stock": 4,
-    "sales": 9,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -62287,7 +62287,7 @@ const data = [
     "name": "SHEET KING PLATINUM 300 STITCH 4PCS",
     "price": 219,
     "stock": 8,
-    "sales": 28,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 7,
@@ -62347,7 +62347,7 @@ const data = [
     "name": "SHEET KING GREY 300 STITCH 4PCS",
     "price": 219,
     "stock": 1335,
-    "sales": 11,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 5,
@@ -62407,7 +62407,7 @@ const data = [
     "name": "SHEET KING BURGANDY 300 STITCH 4PCS",
     "price": 219,
     "stock": 64,
-    "sales": 5,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 4,
@@ -62467,7 +62467,7 @@ const data = [
     "name": "SHEET KING P.BLUE 300 STITCH 4PCS",
     "price": 219,
     "stock": 1,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -62527,7 +62527,7 @@ const data = [
     "name": "SHEET KING SLIT 300 STITCH 4PCS",
     "price": 219,
     "stock": 15,
-    "sales": 8,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 4,
@@ -62587,7 +62587,7 @@ const data = [
     "name": "SHEET KING LILAC MARBLE 300 STITCH 4PCS",
     "price": 219,
     "stock": 19,
-    "sales": 3,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -62647,7 +62647,7 @@ const data = [
     "name": "SHEET KING MARSHMALLOW 300 STITCH 4PCS",
     "price": 219,
     "stock": 964,
-    "sales": 24,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 4,
@@ -62947,7 +62947,7 @@ const data = [
     "name": "SHEET QUEEN MARSHMELLOW 300 STITCH 3PCS",
     "price": 89,
     "stock": 366,
-    "sales": 133,
+    "sales": 84,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 6,
@@ -63007,7 +63007,7 @@ const data = [
     "name": "SHEET QUEEN WHITE 300 STITCH 3PCS",
     "price": 89,
     "stock": 5,
-    "sales": 4,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -63067,7 +63067,7 @@ const data = [
     "name": "SHEET QUEEN PINK 300 STITCH 3PCS",
     "price": 89,
     "stock": 1,
-    "sales": 3,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -63127,7 +63127,7 @@ const data = [
     "name": "SHEET FULL PINK 300 STITCH 3PCS",
     "price": 89,
     "stock": 857,
-    "sales": 83,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 6,
@@ -63187,7 +63187,7 @@ const data = [
     "name": "SHEET FULL STERLING BLUE 300 STITCH 3PCS",
     "price": 89,
     "stock": 852,
-    "sales": 86,
+    "sales": 54,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 6,
@@ -63247,7 +63247,7 @@ const data = [
     "name": "SHEET FULL WHITE 300 STITCH 3PCS",
     "price": 89,
     "stock": 5329,
-    "sales": 85,
+    "sales": 83,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 6,
@@ -63307,7 +63307,7 @@ const data = [
     "name": "SHEET FULL PLATINUM GREY 300 STITCH 3PCS",
     "price": 89,
     "stock": 1853,
-    "sales": 3,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 6,
@@ -63487,7 +63487,7 @@ const data = [
     "name": "SHEET KING SILKY DOVE 400 STITCH 4PCS",
     "price": 349,
     "stock": 2,
-    "sales": -1,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -63787,7 +63787,7 @@ const data = [
     "name": "SHEET KING STRIPE DAMASK WHITE 500 STITCH 4PCS",
     "price": 395,
     "stock": 995,
-    "sales": 16,
+    "sales": 12,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -63847,7 +63847,7 @@ const data = [
     "name": "SHEET KING STRIPE DAMASK IVORY 500 STITCH 4PCS",
     "price": 395,
     "stock": 5,
-    "sales": 17,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -63967,7 +63967,7 @@ const data = [
     "name": "SHEET KING STRIPE DAMASK GREY 500 STITCH 4PCS",
     "price": 395,
     "stock": 12,
-    "sales": 5,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -64087,7 +64087,7 @@ const data = [
     "name": "SHEET KING STRIPE DAMASK AQUA 500 STITCH 4PCS",
     "price": 395,
     "stock": 1,
-    "sales": 3,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -64147,7 +64147,7 @@ const data = [
     "name": "SHEET KING STRIPE DAMASK C.STONE 500 STITCH 4PCS",
     "price": 395,
     "stock": 6,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -64327,7 +64327,7 @@ const data = [
     "name": "SHEET KING SOLID DAMASK HUSHED VIOLET 500 STITCH 4PCS",
     "price": 395,
     "stock": 4,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -64567,7 +64567,7 @@ const data = [
     "name": "SHEET KING SOLID DAMASK AQUA 500 STITCH 4PCS",
     "price": 395,
     "stock": 4,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -64627,7 +64627,7 @@ const data = [
     "name": "SHEET KING SOLID DAMASK C.STONE 500 STITCH 4PCS",
     "price": 395,
     "stock": 2,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -64687,7 +64687,7 @@ const data = [
     "name": "SHEET KING JACQUARD 300 STITCH 4PCS WHITE STYLE1",
     "price": 245,
     "stock": 57,
-    "sales": 12,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -64867,7 +64867,7 @@ const data = [
     "name": "SHEET KING SATEEN SOLID 300 STITCH 4PCS WHITE STYLE6",
     "price": 245,
     "stock": 850,
-    "sales": 2,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -64927,7 +64927,7 @@ const data = [
     "name": "SHEET KING SATEEN STRIPE 300 STITCH 4PCS WHITE STYLE7",
     "price": 245,
     "stock": 1,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 4,
@@ -64987,7 +64987,7 @@ const data = [
     "name": "SHEET KING SATEEN STRIPE 300 STITCH 4PCS WHITE STYLE9",
     "price": 245,
     "stock": 139,
-    "sales": 8,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 0,
@@ -65047,7 +65047,7 @@ const data = [
     "name": "SHEET KING SATEEN STRIPE 300 STITCH 4PCS WHITE STYLE10",
     "price": 245,
     "stock": 38,
-    "sales": 3,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -65287,7 +65287,7 @@ const data = [
     "name": "SHEET KING PEDRO 220 STITCH 3PCS",
     "price": 299,
     "stock": 2,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -65407,7 +65407,7 @@ const data = [
     "name": "SHEET KING JERSEY STRIPE BLACK 4PCS",
     "price": 99,
     "stock": 1,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -65467,7 +65467,7 @@ const data = [
     "name": "SHEET KING JERSEY HEATHER GREY 4PCS",
     "price": 99,
     "stock": 3,
-    "sales": 5,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -65587,7 +65587,7 @@ const data = [
     "name": "SHEET KING COOL LUNAR ROCK 400 STITCH 4PCS",
     "price": 349,
     "stock": 18,
-    "sales": 4,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 2,
@@ -65647,7 +65647,7 @@ const data = [
     "name": "SHEET KING COOL ILLUSION BLUE 400 STITCH 4PCS",
     "price": 349,
     "stock": 16,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -65707,7 +65707,7 @@ const data = [
     "name": "SHEET FULL COTON WFORD 220 STITCH 4PCS",
     "price": 49,
     "stock": 46,
-    "sales": 82,
+    "sales": 24,
     "branches": {
       "04-Andalos Mall": 22,
       "05-Haifa Mall": 9,
@@ -65827,7 +65827,7 @@ const data = [
     "name": "SHEET TODDLER COTON WFORD 220 STITCH 4PCS",
     "price": 49,
     "stock": 10,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 0,
@@ -66067,7 +66067,7 @@ const data = [
     "name": "SHEET KING WHITE BLEACHED 4PCS",
     "price": 199,
     "stock": 1810,
-    "sales": 12,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -66187,7 +66187,7 @@ const data = [
     "name": "SHEET TWIN KIDS DINO TRACKS 3PCS",
     "price": 49,
     "stock": 1,
-    "sales": 3,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -66247,7 +66247,7 @@ const data = [
     "name": "SHEET TWIN KIDS UNICORN BUSTS 3PCS",
     "price": 49,
     "stock": 254,
-    "sales": 48,
+    "sales": 12,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 11,
@@ -66487,7 +66487,7 @@ const data = [
     "name": "SHEET KING PRISTINE OFF WHITE 300 STITCH 4PCS",
     "price": 219,
     "stock": 1565,
-    "sales": 16,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 7,
@@ -66547,7 +66547,7 @@ const data = [
     "name": "SHEET KING SPEED PEARL LINEN 300 STITCH 4PCS",
     "price": 219,
     "stock": 336,
-    "sales": 5,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 7,
@@ -66607,7 +66607,7 @@ const data = [
     "name": "SHEET QUEEN OFF WHITE 300 STITCH 3PCS",
     "price": 89,
     "stock": 2392,
-    "sales": 121,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 14,
@@ -66667,7 +66667,7 @@ const data = [
     "name": "SHEET QUEEN LINEN 300 STITCH 3PCS",
     "price": 89,
     "stock": 138,
-    "sales": 51,
+    "sales": 39,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 34,
@@ -66727,7 +66727,7 @@ const data = [
     "name": "SHEET KING PRISTINE OFF WHITE GREY 300 STITCH 3PCS",
     "price": 129,
     "stock": 2,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -66787,7 +66787,7 @@ const data = [
     "name": "SHEET KING SPEED PEARL LINEN 300 STITCH 3PCS",
     "price": 129,
     "stock": 522,
-    "sales": 164,
+    "sales": 138,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 3,
@@ -66847,7 +66847,7 @@ const data = [
     "name": "SHEET FULL SILVER GREY 300 STITCH 3PCS",
     "price": 89,
     "stock": 858,
-    "sales": 13,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 6,
@@ -66907,7 +66907,7 @@ const data = [
     "name": "SHEET FULL LILAC MARBLE 300 STITCH 3PCS",
     "price": 89,
     "stock": 360,
-    "sales": 50,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 6,
@@ -66967,7 +66967,7 @@ const data = [
     "name": "SHEET KING WHITE 800 STITCH 4PCS",
     "price": 495,
     "stock": 530,
-    "sales": 45,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 9,
@@ -67027,7 +67027,7 @@ const data = [
     "name": "SHEET KING MARSHMALLOW 800 STITCH 4PCS",
     "price": 495,
     "stock": 284,
-    "sales": 28,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 7,
@@ -67087,7 +67087,7 @@ const data = [
     "name": "SHEET KING PLATINUM GREY 800 STITCH 4PCS",
     "price": 495,
     "stock": 400,
-    "sales": 15,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 6,
@@ -67143,11 +67143,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "شرشف صلاة",
     "code": "23087",
-    "alias": "0100021",
+    "alias": "100021",
     "name": "PLAIN PRAYER SHEETS.",
     "price": 59,
     "stock": 600,
-    "sales": 10,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -67203,11 +67203,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "شرشف صلاة",
     "code": "23088",
-    "alias": "0100022",
+    "alias": "100022",
     "name": "PRAYER SHEETS EMBROIDERED",
     "price": 59,
     "stock": 1600,
-    "sales": 50,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -67263,11 +67263,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "شنط سفر",
     "code": "23686",
-    "alias": "0100143",
+    "alias": "100143",
     "name": "24033 TROLLEY BAG S SIZE",
     "price": 99,
     "stock": 36,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -67323,11 +67323,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "شنط سفر",
     "code": "23687",
-    "alias": "0100144",
+    "alias": "100144",
     "name": "24033 TROLLEY BAG M SIZE",
     "price": 149,
     "stock": 36,
-    "sales": 3,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -67383,11 +67383,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "شنط سفر",
     "code": "23688",
-    "alias": "0100145",
+    "alias": "100145",
     "name": "24033 TROLLEY BAG L SIZE",
     "price": 199,
     "stock": 36,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -67443,11 +67443,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "شنط سفر",
     "code": "23689",
-    "alias": "0100146",
+    "alias": "100146",
     "name": "24033 TROLLEY BAG XL SIZE",
     "price": 249,
     "stock": 36,
-    "sales": 4,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -67503,7 +67503,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "شنط سفر",
     "code": "23690",
-    "alias": "0100147",
+    "alias": "100147",
     "name": "24034 TROLLEY BAG S SIZE",
     "price": 99,
     "stock": 22,
@@ -67563,11 +67563,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "شنط سفر",
     "code": "23691",
-    "alias": "0100148",
+    "alias": "100148",
     "name": "24034 TROLLEY BAG M SIZE",
     "price": 139,
     "stock": 22,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -67623,7 +67623,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "شنط سفر",
     "code": "23692",
-    "alias": "0100149",
+    "alias": "100149",
     "name": "24034 TROLLEY BAG L SIZE",
     "price": 189,
     "stock": 22,
@@ -67683,11 +67683,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "شنط سفر",
     "code": "23693",
-    "alias": "0100150",
+    "alias": "100150",
     "name": "24034 TROLLEY BAG XL SIZE",
     "price": 239,
     "stock": 22,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -67747,7 +67747,7 @@ const data = [
     "name": "BOTTEL WATER LEAK PROOF GREEN 20OZ",
     "price": 19,
     "stock": 206,
-    "sales": 2818,
+    "sales": 491,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 3,
@@ -67807,7 +67807,7 @@ const data = [
     "name": "TUMBER WITH STRAW GREEN 24OZ",
     "price": 19,
     "stock": 286,
-    "sales": 1485,
+    "sales": 62,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -67927,7 +67927,7 @@ const data = [
     "name": "TEDDY BEAR BEIGE 30CM BTY-9",
     "price": 39,
     "stock": 426,
-    "sales": 23,
+    "sales": 44,
     "branches": {
       "04-Andalos Mall": 22,
       "05-Haifa Mall": 23,
@@ -67987,7 +67987,7 @@ const data = [
     "name": "TEDDY BEAR BROWN 30CM BTY-10",
     "price": 39,
     "stock": 396,
-    "sales": 70,
+    "sales": 80,
     "branches": {
       "04-Andalos Mall": 21,
       "05-Haifa Mall": 20,
@@ -68047,7 +68047,7 @@ const data = [
     "name": "TEDDY BEAR BEIGE WITH BLUE 25CM BTY-11",
     "price": 29,
     "stock": 852,
-    "sales": 59,
+    "sales": 85,
     "branches": {
       "04-Andalos Mall": 29,
       "05-Haifa Mall": 36,
@@ -68107,7 +68107,7 @@ const data = [
     "name": "TEDDY BEAR BEIGE WITH PINK 25CM BTY-11",
     "price": 29,
     "stock": 822,
-    "sales": 67,
+    "sales": 87,
     "branches": {
       "04-Andalos Mall": 34,
       "05-Haifa Mall": 30,
@@ -68167,7 +68167,7 @@ const data = [
     "name": "TEDDY BEAR GREY 25CM BTY-12",
     "price": 29,
     "stock": 780,
-    "sales": 102,
+    "sales": 107,
     "branches": {
       "04-Andalos Mall": 28,
       "05-Haifa Mall": 34,
@@ -68227,7 +68227,7 @@ const data = [
     "name": "TEDDY BEAR BEIGE 25CM BTY-13",
     "price": 29,
     "stock": 852,
-    "sales": 50,
+    "sales": 85,
     "branches": {
       "04-Andalos Mall": 34,
       "05-Haifa Mall": 36,
@@ -68287,7 +68287,7 @@ const data = [
     "name": "TEDDY BEAR BEIGE 25CM BTY-14",
     "price": 29,
     "stock": 858,
-    "sales": 265,
+    "sales": 174,
     "branches": {
       "04-Andalos Mall": 20,
       "05-Haifa Mall": 34,
@@ -68347,7 +68347,7 @@ const data = [
     "name": "TEDDY BEAR BROWN 25CM BTY-14",
     "price": 29,
     "stock": 858,
-    "sales": 109,
+    "sales": 148,
     "branches": {
       "04-Andalos Mall": 22,
       "05-Haifa Mall": 35,
@@ -68467,7 +68467,7 @@ const data = [
     "name": "DUVET KING VALLET HIGH VANY 3PCS",
     "price": 299,
     "stock": 51,
-    "sales": 6,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 2,
@@ -68527,7 +68527,7 @@ const data = [
     "name": "DUVET KING NLIE STRIPE GREY 3PCS",
     "price": 299,
     "stock": 38,
-    "sales": 9,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 1,
@@ -68587,7 +68587,7 @@ const data = [
     "name": "DUVET KING EXETER BEIGE 3PCS",
     "price": 299,
     "stock": 43,
-    "sales": 13,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 2,
@@ -68647,7 +68647,7 @@ const data = [
     "name": "DUVET KING SOPHIA TOILE BLUSH 3PCS",
     "price": 299,
     "stock": 48,
-    "sales": 15,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 1,
@@ -68707,7 +68707,7 @@ const data = [
     "name": "DUVET KING BLOOMS WHITE 3PCS",
     "price": 299,
     "stock": 52,
-    "sales": 8,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 2,
@@ -68827,7 +68827,7 @@ const data = [
     "name": "*COMFORTER FULL CABANA STRIPE GREY 8PCS KIT",
     "price": 399,
     "stock": 68,
-    "sales": 60,
+    "sales": 44,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 4,
@@ -68947,7 +68947,7 @@ const data = [
     "name": "*COMFORTER KING EXETER BEIGE 8PCS KIT",
     "price": 599,
     "stock": 68,
-    "sales": 152,
+    "sales": 117,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 8,
@@ -69067,7 +69067,7 @@ const data = [
     "name": "*COMFORTER KING NLIE STRIPE GREY 8PCS KIT",
     "price": 499,
     "stock": 95,
-    "sales": 61,
+    "sales": 55,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 4,
@@ -69187,7 +69187,7 @@ const data = [
     "name": "*COMFORTER KING HAWLING STRIPE GRAPE PURPLE 8PCS KIT",
     "price": 599,
     "stock": 87,
-    "sales": 77,
+    "sales": 68,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 4,
@@ -69307,7 +69307,7 @@ const data = [
     "name": "*COMFORTER KING BOUQUET SPRING 8PCS KIT",
     "price": 599,
     "stock": 86,
-    "sales": 8,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 4,
@@ -69427,7 +69427,7 @@ const data = [
     "name": "*COMFORTER KING SOPHIA TOILE BLUSH 8PCS KIT",
     "price": 499,
     "stock": 94,
-    "sales": 55,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 5,
@@ -69547,7 +69547,7 @@ const data = [
     "name": "*COMFORTER KING BLOOMS WHITE 8PCS KIT",
     "price": 599,
     "stock": 94,
-    "sales": 10,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 3,
@@ -69667,7 +69667,7 @@ const data = [
     "name": "*COMFORTER KING JACOBEAN DYED 8PCS KIT",
     "price": 499,
     "stock": 92,
-    "sales": 65,
+    "sales": 57,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 4,
@@ -69787,7 +69787,7 @@ const data = [
     "name": "*COMFORTER KING SCALLOP EDGE-HIMALYAN SALT NAVY 8PCS KIT",
     "price": 499,
     "stock": 66,
-    "sales": 37,
+    "sales": 30,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 4,
@@ -70027,7 +70027,7 @@ const data = [
     "name": "*COMFORTER FULL WAMSUTTA ORANGE 9PCS KIT",
     "price": 599,
     "stock": 100,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 4,
@@ -70087,7 +70087,7 @@ const data = [
     "name": "THROW CHENILE IVORY 004TH",
     "price": 59,
     "stock": 2082,
-    "sales": 0,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 6,
@@ -70147,7 +70147,7 @@ const data = [
     "name": "THROW CHENILE STONE 004TH",
     "price": 59,
     "stock": 1908,
-    "sales": 0,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 3,
@@ -70207,7 +70207,7 @@ const data = [
     "name": "THROW CHENILE BLUSH 004TH",
     "price": 59,
     "stock": 1914,
-    "sales": 0,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 4,
@@ -70267,7 +70267,7 @@ const data = [
     "name": "THROW CHENILE NAVY 004TH",
     "price": 59,
     "stock": 1962,
-    "sales": 0,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 6,
@@ -70327,7 +70327,7 @@ const data = [
     "name": "THROW CHENILE OATMEAL 081TH",
     "price": 59,
     "stock": 1902,
-    "sales": 0,
+    "sales": 34,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 4,
@@ -70387,7 +70387,7 @@ const data = [
     "name": "THROW CHENILE DARK GREY 081TH",
     "price": 59,
     "stock": 2028,
-    "sales": 0,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 6,
@@ -70447,7 +70447,7 @@ const data = [
     "name": "THROW CHENILE ROSE WOOD 081TH",
     "price": 59,
     "stock": 1944,
-    "sales": 0,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 6,
@@ -70507,7 +70507,7 @@ const data = [
     "name": "COMFORTER FULL WINTER GREY 2PCS",
     "price": 299,
     "stock": 4,
-    "sales": 0,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 2,
@@ -70747,7 +70747,7 @@ const data = [
     "name": "*COMFORTER KING WINTER TILE CHESTNUT 6PCS B02 KIT",
     "price": 499,
     "stock": 144,
-    "sales": 0,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -70867,7 +70867,7 @@ const data = [
     "name": "*COMFORTER KING WINTER BUBBLE GRAIN 6PCS C03 KIT",
     "price": 499,
     "stock": 192,
-    "sales": 0,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -70987,7 +70987,7 @@ const data = [
     "name": "*COMFORTER KING WINTER TILE CREAM 6PCS B08 KIT",
     "price": 499,
     "stock": 150,
-    "sales": 0,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -71107,7 +71107,7 @@ const data = [
     "name": "*COMFORTER KING WINTER BEBBLE ROSE SOMKE 6PCS B04 KIT",
     "price": 499,
     "stock": 64,
-    "sales": 0,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -71227,7 +71227,7 @@ const data = [
     "name": "*COMFORTER KING WINTER BEBBLE LIGHT GREY 6PCS B05 KIT",
     "price": 499,
     "stock": 156,
-    "sales": 0,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -71287,7 +71287,7 @@ const data = [
     "name": "COMFORTER KING WINTER TAN 3PCS",
     "price": 399,
     "stock": 946,
-    "sales": 0,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 3,
@@ -71347,7 +71347,7 @@ const data = [
     "name": "COMFORTER KING WINTER GREY 3PCS",
     "price": 399,
     "stock": 746,
-    "sales": 0,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -73807,7 +73807,7 @@ const data = [
     "name": "BOTTEL WATER LEAK PROOF FUSHIA 20OZ",
     "price": 29,
     "stock": 1439,
-    "sales": 0,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 12,
@@ -73867,7 +73867,7 @@ const data = [
     "name": "BOTTEL WATER LEAK PROOF SKY BLUE 20OZ",
     "price": 29,
     "stock": 1703,
-    "sales": 0,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 12,
@@ -73927,7 +73927,7 @@ const data = [
     "name": "BOTTEL WATER LEAK PROOF YELLOW 20OZ",
     "price": 29,
     "stock": 1198,
-    "sales": 0,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 12,
@@ -73987,7 +73987,7 @@ const data = [
     "name": "BOTTEL WATER LEAK PROOF PEACH 20OZ",
     "price": 29,
     "stock": 1212,
-    "sales": 0,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 12,
@@ -74047,7 +74047,7 @@ const data = [
     "name": "BOTTEL WATER LEAK PROOF RED 20OZ",
     "price": 29,
     "stock": 960,
-    "sales": 0,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 12,
@@ -74107,7 +74107,7 @@ const data = [
     "name": "BOTTEL WATER LEAK PROOF BROWN 20OZ",
     "price": 29,
     "stock": 1200,
-    "sales": 0,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 12,
@@ -74167,7 +74167,7 @@ const data = [
     "name": "BOTTEL WATER LEAK PROOF PURPLE 20OZ",
     "price": 29,
     "stock": 1188,
-    "sales": 0,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 11,
@@ -74227,7 +74227,7 @@ const data = [
     "name": "BOTTEL WATER LEAK PROOF OMBLER PINK 20OZ",
     "price": 29,
     "stock": 1690,
-    "sales": 0,
+    "sales": 43,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 11,
@@ -74287,7 +74287,7 @@ const data = [
     "name": "BOTTEL WATER LEAK PROOF OMBLER BLACK 20OZ",
     "price": 29,
     "stock": 1691,
-    "sales": 0,
+    "sales": 64,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 8,
@@ -74347,7 +74347,7 @@ const data = [
     "name": "TUMBER WITH STRAW FUSHIA 24OZ",
     "price": 29,
     "stock": 929,
-    "sales": 0,
+    "sales": 57,
     "branches": {
       "04-Andalos Mall": 22,
       "05-Haifa Mall": 10,
@@ -74407,7 +74407,7 @@ const data = [
     "name": "TUMBER WITH STRAW BLUE 24OZ",
     "price": 29,
     "stock": 1188,
-    "sales": 0,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 24,
       "05-Haifa Mall": 12,
@@ -74467,7 +74467,7 @@ const data = [
     "name": "TUMBER WITH STRAW YELLOW 24OZ",
     "price": 29,
     "stock": 827,
-    "sales": 0,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 23,
       "05-Haifa Mall": 12,
@@ -74527,7 +74527,7 @@ const data = [
     "name": "TUMBER WITH STRAW PEACH 24OZ",
     "price": 29,
     "stock": 827,
-    "sales": 0,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 24,
       "05-Haifa Mall": 12,
@@ -74587,7 +74587,7 @@ const data = [
     "name": "TUMBER WITH STRAW RED 24OZ",
     "price": 29,
     "stock": 696,
-    "sales": 0,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 24,
       "05-Haifa Mall": 12,
@@ -74647,7 +74647,7 @@ const data = [
     "name": "TUMBER WITH STRAW BROWN 24OZ",
     "price": 29,
     "stock": 948,
-    "sales": 0,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 23,
       "05-Haifa Mall": 10,
@@ -74707,7 +74707,7 @@ const data = [
     "name": "TUMBER WITH STRAW PURPLE 24OZ",
     "price": 29,
     "stock": 946,
-    "sales": 0,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 12,
@@ -74767,7 +74767,7 @@ const data = [
     "name": "TUMBER WITH STRAW OMBLER PINK 24OZ",
     "price": 29,
     "stock": 1452,
-    "sales": 0,
+    "sales": 51,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 10,
@@ -74827,7 +74827,7 @@ const data = [
     "name": "TUMBER WITH STRAW OMBLER BLACK 24OZ",
     "price": 29,
     "stock": 1425,
-    "sales": 0,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 23,
       "05-Haifa Mall": 12,
@@ -74947,7 +74947,7 @@ const data = [
     "name": "*COMFORTER KING HALSEY COTTON 11PCS KIT",
     "price": 695,
     "stock": 107,
-    "sales": 0,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 1,
@@ -75067,7 +75067,7 @@ const data = [
     "name": "*COMFORTER KING CASCADE CAIRA COTTON 11PCS KIT",
     "price": 695,
     "stock": 86,
-    "sales": 0,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 2,
@@ -75963,7 +75963,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فناجين قهوة",
     "code": "20335",
-    "alias": "009602",
+    "alias": "9602",
     "name": "COFFEE SET 6 PCS 90 ML CS 02",
     "price": 94,
     "stock": 11,
@@ -76023,7 +76023,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فناجين قهوة",
     "code": "20336",
-    "alias": "009603",
+    "alias": "9603",
     "name": "COFFEE SET 6 PCS 90 ML CS 03",
     "price": 94,
     "stock": 7,
@@ -76083,7 +76083,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فناجين قهوة",
     "code": "20337",
-    "alias": "009604",
+    "alias": "9604",
     "name": "COFFEE SET 6 PCS 90 ML CS 04",
     "price": 94,
     "stock": 41,
@@ -76143,11 +76143,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "فناجين قهوة",
     "code": "20338",
-    "alias": "009605",
+    "alias": "9605",
     "name": "COFFEE SET 6 PCS 90 ML CS 05",
     "price": 94,
     "stock": 19,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -76203,11 +76203,11 @@ const data = [
     "outlet": "Warehouse",
     "category": "فناجين قهوة",
     "code": "20339",
-    "alias": "009606",
+    "alias": "9606",
     "name": "COFFEE SET 6 PCS 90 ML CS 06",
     "price": 94,
     "stock": 31,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 0,
@@ -76263,7 +76263,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فناجين قهوة",
     "code": "20340",
-    "alias": "009607",
+    "alias": "9607",
     "name": "COFFEE SET 6 PCS 90 ML CS 07",
     "price": 94,
     "stock": 1,
@@ -76387,7 +76387,7 @@ const data = [
     "name": "FRESHENER HERBARIUM APRIL BREEZE 220ML",
     "price": 39,
     "stock": 12,
-    "sales": 4,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -76507,7 +76507,7 @@ const data = [
     "name": "FRESHENER HERBARIUM PURE COTTON220ML",
     "price": 69,
     "stock": 2,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -76567,7 +76567,7 @@ const data = [
     "name": "FRESHENER RAIN ROSE 500ML",
     "price": 39,
     "stock": 2,
-    "sales": 1,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -76627,7 +76627,7 @@ const data = [
     "name": "ROOM SPRAY BABY POWDER 500ML",
     "price": 39,
     "stock": 13,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -76927,7 +76927,7 @@ const data = [
     "name": "ROOM SPRAY GARDEN LAVENDER BLACK 500ML",
     "price": 79,
     "stock": 536,
-    "sales": 82,
+    "sales": 44,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 9,
@@ -76987,7 +76987,7 @@ const data = [
     "name": "FRESHENER BALSAM&CEDAR BLACK ESITION 200ML",
     "price": 39,
     "stock": 1,
-    "sales": 4,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -77047,7 +77047,7 @@ const data = [
     "name": "ROOM SPRAY JASMIN WOOD 500ML",
     "price": 39,
     "stock": 571,
-    "sales": 221,
+    "sales": 167,
     "branches": {
       "04-Andalos Mall": 74,
       "05-Haifa Mall": 11,
@@ -77107,7 +77107,7 @@ const data = [
     "name": "ROOM SPRAY OSMANTHUS 500ML",
     "price": 19,
     "stock": 596,
-    "sales": 51,
+    "sales": 30,
     "branches": {
       "04-Andalos Mall": 23,
       "05-Haifa Mall": 32,
@@ -77227,7 +77227,7 @@ const data = [
     "name": "FRESHENER PINK SAND WHITE 200 ML",
     "price": 39,
     "stock": 321,
-    "sales": 85,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -77287,7 +77287,7 @@ const data = [
     "name": "FRESHENER WHITE FLOWER 200ML GARDEN LAVENDER",
     "price": 39,
     "stock": 92,
-    "sales": 178,
+    "sales": 139,
     "branches": {
       "04-Andalos Mall": 42,
       "05-Haifa Mall": 17,
@@ -77347,7 +77347,7 @@ const data = [
     "name": "FRESHENER WHITE FLOWER 200ML VANILLA&SANDALWOOD",
     "price": 39,
     "stock": 4,
-    "sales": 92,
+    "sales": 72,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -77407,7 +77407,7 @@ const data = [
     "name": "FRESHENER WHITE FLOWER 200ML WHITE MUSK",
     "price": 39,
     "stock": 217,
-    "sales": 214,
+    "sales": 141,
     "branches": {
       "04-Andalos Mall": 35,
       "05-Haifa Mall": 20,
@@ -77527,7 +77527,7 @@ const data = [
     "name": "FRESHENER WHITE JASMINE 500ML",
     "price": 79,
     "stock": 5,
-    "sales": 87,
+    "sales": 51,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 2,
@@ -77587,7 +77587,7 @@ const data = [
     "name": "FRESHENER DARK BLACK VANILLA&SANDALWOOD 500ML",
     "price": 79,
     "stock": 560,
-    "sales": 92,
+    "sales": 41,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 6,
@@ -77647,7 +77647,7 @@ const data = [
     "name": "FRESHENER BLACK WHITE MUSK 500ML",
     "price": 79,
     "stock": 15,
-    "sales": 71,
+    "sales": 54,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 13,
@@ -77707,7 +77707,7 @@ const data = [
     "name": "ROOM SPRAY CHERRY BLOSSOM 500ML",
     "price": 39,
     "stock": 5310,
-    "sales": 595,
+    "sales": 481,
     "branches": {
       "04-Andalos Mall": 38,
       "05-Haifa Mall": 33,
@@ -77767,7 +77767,7 @@ const data = [
     "name": "ROOM SPRAY CLEAN COTTON 500ML",
     "price": 39,
     "stock": 8823,
-    "sales": 992,
+    "sales": 701,
     "branches": {
       "04-Andalos Mall": 46,
       "05-Haifa Mall": 24,
@@ -77827,7 +77827,7 @@ const data = [
     "name": "ROOM SPRAY  FOREST DAWN 500ML",
     "price": 39,
     "stock": 2856,
-    "sales": 713,
+    "sales": 542,
     "branches": {
       "04-Andalos Mall": 42,
       "05-Haifa Mall": 24,
@@ -77887,7 +77887,7 @@ const data = [
     "name": "FRESHENER WHITE FLOWER BALSEM&CEDAR 200ML",
     "price": 39,
     "stock": 9,
-    "sales": 28,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 4,
@@ -77947,7 +77947,7 @@ const data = [
     "name": "ROOM SPRAY  BOMB SHELL 500ML",
     "price": 39,
     "stock": 1155,
-    "sales": 1441,
+    "sales": 1003,
     "branches": {
       "04-Andalos Mall": 43,
       "05-Haifa Mall": 31,
@@ -78007,7 +78007,7 @@ const data = [
     "name": "FRESHENER ROSE FLOWER BALSEM&CEDAR 200ML",
     "price": 39,
     "stock": 8,
-    "sales": 25,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -78127,7 +78127,7 @@ const data = [
     "name": "ROOM SPRAY RAIN ROSE 500ML",
     "price": 39,
     "stock": 5462,
-    "sales": 667,
+    "sales": 562,
     "branches": {
       "04-Andalos Mall": 53,
       "05-Haifa Mall": 23,
@@ -78187,7 +78187,7 @@ const data = [
     "name": "ROOM SPRAY BLACK CHERRY 200ML",
     "price": 39,
     "stock": 3030,
-    "sales": 175,
+    "sales": 99,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 7,
@@ -78247,7 +78247,7 @@ const data = [
     "name": "ROOM SPRAY GARDEN LAVENDER 200ML",
     "price": 39,
     "stock": 3980,
-    "sales": 59,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 6,
@@ -78307,7 +78307,7 @@ const data = [
     "name": "ROOM SPRAY WHITE JASMINE 200ML",
     "price": 39,
     "stock": 4091,
-    "sales": 39,
+    "sales": 33,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 4,
@@ -78367,7 +78367,7 @@ const data = [
     "name": "ROOM SPRAY DARK VANILLA 200ML",
     "price": 39,
     "stock": 1601,
-    "sales": 67,
+    "sales": 63,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 3,
@@ -78427,7 +78427,7 @@ const data = [
     "name": "ROOM SPRAY FORREST DAWN 200ML",
     "price": 39,
     "stock": 869,
-    "sales": 146,
+    "sales": 93,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 12,
@@ -78487,7 +78487,7 @@ const data = [
     "name": "ROOM SPRAY PINK SAND 200ML",
     "price": 39,
     "stock": 2342,
-    "sales": 71,
+    "sales": 56,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 10,
@@ -78547,7 +78547,7 @@ const data = [
     "name": "ROOM SPRAY WHITE FLOWER WHITE JASMINE 200ML",
     "price": 39,
     "stock": 8,
-    "sales": 73,
+    "sales": 50,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 1,
@@ -78607,7 +78607,7 @@ const data = [
     "name": "ROOM SPRAY ROSE BOUQUET 500ML",
     "price": 39,
     "stock": 2988,
-    "sales": 101,
+    "sales": 62,
     "branches": {
       "04-Andalos Mall": 30,
       "05-Haifa Mall": 18,
@@ -78667,7 +78667,7 @@ const data = [
     "name": "ROOM SPRAY FIG TREE 500ML",
     "price": 39,
     "stock": 2157,
-    "sales": 174,
+    "sales": 141,
     "branches": {
       "04-Andalos Mall": 52,
       "05-Haifa Mall": 13,
@@ -78727,7 +78727,7 @@ const data = [
     "name": "ROOM SPRAY FRENCH LAVENDER 500ML",
     "price": 39,
     "stock": 4,
-    "sales": 229,
+    "sales": 162,
     "branches": {
       "04-Andalos Mall": 23,
       "05-Haifa Mall": 15,
@@ -78787,7 +78787,7 @@ const data = [
     "name": "FRESHENER WHITE FLOWER BOUQUEST ROSE 200ML",
     "price": 39,
     "stock": 2131,
-    "sales": 83,
+    "sales": 72,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 7,
@@ -78847,7 +78847,7 @@ const data = [
     "name": "FRESHENER DAFFODILS BOUQUEST ROSE 200ML",
     "price": 39,
     "stock": 918,
-    "sales": 73,
+    "sales": 60,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 6,
@@ -78907,7 +78907,7 @@ const data = [
     "name": "FRESHENER DAFFODILS MASK WHITE 200ML",
     "price": 39,
     "stock": 770,
-    "sales": 100,
+    "sales": 52,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 25,
@@ -78967,7 +78967,7 @@ const data = [
     "name": "FRESHENER DAFFODILS WOOD SANDAL&VANILLA",
     "price": 39,
     "stock": 7,
-    "sales": 54,
+    "sales": 40,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 1,
@@ -79027,7 +79027,7 @@ const data = [
     "name": "FRESHENER DAFFODILS CHERRY BLACK 200ML",
     "price": 39,
     "stock": 1653,
-    "sales": 299,
+    "sales": 202,
     "branches": {
       "04-Andalos Mall": 41,
       "05-Haifa Mall": 20,
@@ -79087,7 +79087,7 @@ const data = [
     "name": "FRESHENER DAFFODILS LAVENDER GARDEN 200ML",
     "price": 39,
     "stock": 806,
-    "sales": 143,
+    "sales": 69,
     "branches": {
       "04-Andalos Mall": 32,
       "05-Haifa Mall": 17,
@@ -79147,7 +79147,7 @@ const data = [
     "name": "FRESHENER DAFFODILS WHITE JASMINE 200ML",
     "price": 39,
     "stock": 11,
-    "sales": 154,
+    "sales": 108,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 10,
@@ -79203,7 +79203,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "22979",
-    "alias": "00601",
+    "alias": "601",
     "name": "RAMADAN LANTERN STEEL L (DYXL191001-S/3)",
     "price": 29,
     "stock": 6,
@@ -79263,7 +79263,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "22980",
-    "alias": "00602",
+    "alias": "602",
     "name": "RAMADAN LANTERN STEEL M (DYXL191001-S/3)",
     "price": 25,
     "stock": 6,
@@ -79323,7 +79323,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "22981",
-    "alias": "00603",
+    "alias": "603",
     "name": "RAMADAN LANTERN STEEL S (DYXL191001-S/3)",
     "price": 15,
     "stock": 6,
@@ -79383,7 +79383,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "22982",
-    "alias": "00604",
+    "alias": "604",
     "name": "RAMADAN LANTERN GOLDEN L (DYXL191002-S/3)",
     "price": 29,
     "stock": 2,
@@ -79443,7 +79443,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "22986",
-    "alias": "00608",
+    "alias": "608",
     "name": "RAMADAN LANTERN GOLDEN M (DYXL191003-S3)",
     "price": 25,
     "stock": 1,
@@ -79503,7 +79503,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "22987",
-    "alias": "00609",
+    "alias": "609",
     "name": "RAMADAN LANTERN GOLDEN S (DYXL191003-S3)",
     "price": 15,
     "stock": 1,
@@ -79563,7 +79563,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "22988",
-    "alias": "00610",
+    "alias": "610",
     "name": "RAMADAN LANTERN GOLDEN L (DYXL19004-S/3)",
     "price": 29,
     "stock": 1,
@@ -79623,7 +79623,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "22989",
-    "alias": "00611",
+    "alias": "611",
     "name": "RAMADAN LANTERN GOLDEN M (DYXL19004-S/3)",
     "price": 25,
     "stock": 1,
@@ -79683,7 +79683,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "22991",
-    "alias": "00613",
+    "alias": "613",
     "name": "RAMADAN LANTERN STEEL PY066",
     "price": 25,
     "stock": 1,
@@ -79743,7 +79743,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "22994",
-    "alias": "00616",
+    "alias": "616",
     "name": "RAMADAN LANTERN RECTANGLE STEEL PY077-L",
     "price": 29,
     "stock": 1,
@@ -79803,7 +79803,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "23000",
-    "alias": "00622",
+    "alias": "622",
     "name": "RAMADAN LANTERN CIRCULAR STEEL PY084-S",
     "price": 15,
     "stock": 1,
@@ -79863,7 +79863,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "23002",
-    "alias": "00624",
+    "alias": "624",
     "name": "RAMADAN LANTERN B3429",
     "price": 15,
     "stock": 22,
@@ -79923,7 +79923,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "23004",
-    "alias": "00626",
+    "alias": "626",
     "name": "RAMADAN LANTERN B5243",
     "price": 25,
     "stock": 1,
@@ -79983,7 +79983,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "23008",
-    "alias": "00630",
+    "alias": "630",
     "name": "RAMADAN LANTERN B6381",
     "price": 15,
     "stock": 2,
@@ -80043,7 +80043,7 @@ const data = [
     "outlet": "Warehouse",
     "category": "فوانيس رمضان",
     "code": "23009",
-    "alias": "00631",
+    "alias": "631",
     "name": "RAMADAN LANTERN GOLDEN STAR L (DYTF1285-S/2)",
     "price": 29,
     "stock": 1,
@@ -80107,7 +80107,7 @@ const data = [
     "name": "STATIONERY BOX SET OWL",
     "price": 59,
     "stock": 1,
-    "sales": 15,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -80467,7 +80467,7 @@ const data = [
     "name": "BIG ONE KING MALLORY 3PCS",
     "price": 99,
     "stock": 17,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -80587,7 +80587,7 @@ const data = [
     "name": "BIG ONE KING CASELLI 3PCS",
     "price": 99,
     "stock": 2,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -81067,7 +81067,7 @@ const data = [
     "name": "QUILT KING NAKIA YELLOW COTON 3PCS",
     "price": 349,
     "stock": 3,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -81127,7 +81127,7 @@ const data = [
     "name": "QUILT KING NAKIA CHAKI COTON 3PCS",
     "price": 349,
     "stock": 1,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -81187,7 +81187,7 @@ const data = [
     "name": "QUILT KING NAKIA ZURI 3PCS",
     "price": 349,
     "stock": 1,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -81307,7 +81307,7 @@ const data = [
     "name": "BIG ONE KING LATTICE 3PCS",
     "price": 99,
     "stock": 16,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -81607,7 +81607,7 @@ const data = [
     "name": "BIG ONE FULL PARTY ANIMALSF 2PCS",
     "price": 79,
     "stock": 3,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -81667,7 +81667,7 @@ const data = [
     "name": "QUILT KING HONEY BEE 3PCS",
     "price": 299,
     "stock": 16,
-    "sales": 68,
+    "sales": 28,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 8,
@@ -82327,7 +82327,7 @@ const data = [
     "name": "BIG ONE KING DESHAWN 3PCS",
     "price": 99,
     "stock": 12,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -82507,7 +82507,7 @@ const data = [
     "name": "QUILT KING TRUMPET FLOWER PURPLE 3PCS",
     "price": 299,
     "stock": 38,
-    "sales": 44,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 12,
@@ -82567,7 +82567,7 @@ const data = [
     "name": "QUILT KING RED ROSE 3PCS",
     "price": 299,
     "stock": 10,
-    "sales": 39,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -82687,7 +82687,7 @@ const data = [
     "name": "BIG ONE FULL BOTANICAL SALLOP 2PCS",
     "price": 79,
     "stock": 6,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -83947,7 +83947,7 @@ const data = [
     "name": "BIG ONE KING RAINY INK 3PCS",
     "price": 99,
     "stock": 1,
-    "sales": 6,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -84007,7 +84007,7 @@ const data = [
     "name": "QUILT KING BELLFLOWER WHITE 3PCS",
     "price": 299,
     "stock": 16,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -84067,7 +84067,7 @@ const data = [
     "name": "BIG ONE FULL ATHENA MEDALLION 2PCS",
     "price": 79,
     "stock": 3,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -84187,7 +84187,7 @@ const data = [
     "name": "BIG ONE FULL TRAINS 2PCS",
     "price": 79,
     "stock": 1,
-    "sales": 89,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 5,
@@ -84247,7 +84247,7 @@ const data = [
     "name": "BIG ONE FULL BALLERINA GIRLS 2PCS",
     "price": 79,
     "stock": 7,
-    "sales": 147,
+    "sales": 93,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 9,
@@ -84307,7 +84307,7 @@ const data = [
     "name": "BIG ONE KING ATHENA MEDALLION 3PCS",
     "price": 102,
     "stock": 15,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -84367,7 +84367,7 @@ const data = [
     "name": "BIG ONE FULL COLORFUL CARS 2PCS",
     "price": 79,
     "stock": 5,
-    "sales": 46,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -84427,7 +84427,7 @@ const data = [
     "name": "BIG ONE FULL MULTI COLOR STRIPES 2PCS",
     "price": 79,
     "stock": 7,
-    "sales": 93,
+    "sales": 38,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -84487,7 +84487,7 @@ const data = [
     "name": "BIG ONE FULL MULTI DINOSAURS 2PCS",
     "price": 79,
     "stock": 1012,
-    "sales": 68,
+    "sales": 28,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 7,
@@ -84547,7 +84547,7 @@ const data = [
     "name": "BIG ONE FULL MULTI VEHICLES 2PCS",
     "price": 79,
     "stock": 989,
-    "sales": 84,
+    "sales": 34,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 14,
@@ -84667,7 +84667,7 @@ const data = [
     "name": "QUILT KING ARABESQUE GREY 3PCS",
     "price": 299,
     "stock": 3,
-    "sales": 13,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -84727,7 +84727,7 @@ const data = [
     "name": "QUILT KING BABY BREATH MULTI 3PCS",
     "price": 299,
     "stock": 19,
-    "sales": 4,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -84787,7 +84787,7 @@ const data = [
     "name": "GOOD ONE FULL BOY SPORT 2PCS",
     "price": 99,
     "stock": 64,
-    "sales": 159,
+    "sales": 82,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 14,
@@ -84847,7 +84847,7 @@ const data = [
     "name": "GOOD ONE KING TRELLS SCROLL 3PCS",
     "price": 149,
     "stock": 69,
-    "sales": 103,
+    "sales": 49,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 14,
@@ -84907,7 +84907,7 @@ const data = [
     "name": "GOOD ONE KING FLOWER FRESH 3PCS",
     "price": 149,
     "stock": 4,
-    "sales": 288,
+    "sales": 114,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 12,
@@ -84967,7 +84967,7 @@ const data = [
     "name": "GOOD ONE KING MEDINA 3PCS",
     "price": 149,
     "stock": 39,
-    "sales": 305,
+    "sales": 131,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 10,
@@ -85027,7 +85027,7 @@ const data = [
     "name": "MATRESSPAD KING JUST RELAX 200*200",
     "price": 199,
     "stock": 2596,
-    "sales": 1179,
+    "sales": 654,
     "branches": {
       "04-Andalos Mall": 21,
       "05-Haifa Mall": 17,
@@ -85087,7 +85087,7 @@ const data = [
     "name": "MATRESSPAD FULL JUST RELAX 122*191",
     "price": 189,
     "stock": 2,
-    "sales": 9,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -85147,7 +85147,7 @@ const data = [
     "name": "MATRESSPAD QUEEN JUST RELAX 163*203",
     "price": 199,
     "stock": 2,
-    "sales": 1,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -85207,7 +85207,7 @@ const data = [
     "name": "MATRESSPAD QUEEN DREAM GUARD WATERPROOF",
     "price": 50,
     "stock": 673,
-    "sales": 235,
+    "sales": 169,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 17,
@@ -85267,7 +85267,7 @@ const data = [
     "name": "(SPECIAL OFFER) MATRESSPAD QUEEN NAUTICA ANCHOR 200 STITCH 146",
     "price": 69,
     "stock": 2,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -85387,7 +85387,7 @@ const data = [
     "name": "(SPECIAL OFFER) MATRESSPAD QUEEN NAUTICA LUXURY 400 STITCH 105",
     "price": 69,
     "stock": 4,
-    "sales": 14,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -85447,7 +85447,7 @@ const data = [
     "name": "(SPECIAL OFFER) MATRESSPAD KING FIBER BED TANCEL 500 STITCH",
     "price": 94,
     "stock": 1,
-    "sales": 33,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -85507,7 +85507,7 @@ const data = [
     "name": "MATRESSPAD KING(SMALL) SHARPER IMAGE",
     "price": 249,
     "stock": 2,
-    "sales": 55,
+    "sales": 34,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -85567,7 +85567,7 @@ const data = [
     "name": "DUVET KING JUST RELAX 274*22",
     "price": 299,
     "stock": 1,
-    "sales": 72,
+    "sales": 43,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 4,
@@ -85627,7 +85627,7 @@ const data = [
     "name": "MATRESSPAD KING GEL FOAM",
     "price": 194,
     "stock": 6,
-    "sales": 67,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -85687,7 +85687,7 @@ const data = [
     "name": "COMFORTER TWIN JASON CHECK BIGONE 1PCS",
     "price": 69,
     "stock": 1,
-    "sales": 0,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -85927,7 +85927,7 @@ const data = [
     "name": "COMFORTER TWIN DYE BIGONE 1PCS",
     "price": 69,
     "stock": 4,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -85987,7 +85987,7 @@ const data = [
     "name": "SHEET TWIN KIDS HEARTS DIM 3PCS",
     "price": 49,
     "stock": 170,
-    "sales": 52,
+    "sales": 40,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 14,
@@ -86047,7 +86047,7 @@ const data = [
     "name": "SHEET TWIN KIDS RAINBOWS DIM 3PCS",
     "price": 49,
     "stock": 10,
-    "sales": 33,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -86107,7 +86107,7 @@ const data = [
     "name": "COMFORTER TWIN LOVE THE EARTH 5PCS",
     "price": 139,
     "stock": 10,
-    "sales": 4,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -86167,7 +86167,7 @@ const data = [
     "name": "COMFORTER TWIN HAILEY HG JUVI 6PCS",
     "price": 149,
     "stock": 2,
-    "sales": 20,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -86227,7 +86227,7 @@ const data = [
     "name": "COMFORTER TWIN HEART CHEVRON HG JUVI 6PCS",
     "price": 149,
     "stock": 1,
-    "sales": 43,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -86287,7 +86287,7 @@ const data = [
     "name": "COMFORTER TWIN FLYING MODEL HG JUVI 6PCS",
     "price": 149,
     "stock": 1,
-    "sales": 94,
+    "sales": 64,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 7,
@@ -86347,7 +86347,7 @@ const data = [
     "name": "COMFORTER TWIN ROBERT HG JUVI 6PCS",
     "price": 149,
     "stock": 64,
-    "sales": 138,
+    "sales": 77,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 8,
@@ -86407,7 +86407,7 @@ const data = [
     "name": "COMFORTER TWIN ALPACA PLANET NAVY YELLOW 5PCS",
     "price": 139,
     "stock": 13,
-    "sales": 73,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 6,
@@ -86467,7 +86467,7 @@ const data = [
     "name": "COMFORTER TWIN DINO RED BLUE 5PCS",
     "price": 139,
     "stock": 116,
-    "sales": 64,
+    "sales": 51,
     "branches": {
       "04-Andalos Mall": 28,
       "05-Haifa Mall": 7,
@@ -86527,7 +86527,7 @@ const data = [
     "name": "COMFORTER TWIN LILI FLORAL PURPLE BLUE 5PCS",
     "price": 139,
     "stock": 1,
-    "sales": 78,
+    "sales": 37,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -86587,7 +86587,7 @@ const data = [
     "name": "COMFORTER TWIN PONY SHINE LILAC 5PCS",
     "price": 139,
     "stock": 3,
-    "sales": 28,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -86707,7 +86707,7 @@ const data = [
     "name": "COMFORTER FULL DAMASK HUSH VIOLT 500TC 4PCS",
     "price": 499,
     "stock": 13,
-    "sales": 36,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 5,
@@ -86767,7 +86767,7 @@ const data = [
     "name": "COMFORTER FULL DAMASK SILVER 500TC 4PCS",
     "price": 499,
     "stock": 24,
-    "sales": 43,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -86827,7 +86827,7 @@ const data = [
     "name": "COMFORTER FULL DAMASK IVORY 500TC 4PCS",
     "price": 499,
     "stock": 33,
-    "sales": 26,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 6,
@@ -86887,7 +86887,7 @@ const data = [
     "name": "COMFORTER FULL DAMASK WHITE 500TC 4PCS",
     "price": 499,
     "stock": 45,
-    "sales": 58,
+    "sales": 31,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -86947,7 +86947,7 @@ const data = [
     "name": "COMFORTER FULL DAMASK COUBLESTONE 500TC 4PCS",
     "price": 499,
     "stock": 14,
-    "sales": 31,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 3,
@@ -87007,7 +87007,7 @@ const data = [
     "name": "COMFORTER FULL DAMASK LT BLUE 500TC 4PCS",
     "price": 499,
     "stock": 15,
-    "sales": 32,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 4,
@@ -87367,7 +87367,7 @@ const data = [
     "name": "*COMFORTER FULL WAMSUTTA WHITE 9PCS KIT",
     "price": 599,
     "stock": 50,
-    "sales": 15,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -87427,7 +87427,7 @@ const data = [
     "name": "*COMFORTER FULL WAMSUTTA SILVER 9PCS KIT",
     "price": 599,
     "stock": 50,
-    "sales": 31,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 7,
@@ -87487,7 +87487,7 @@ const data = [
     "name": "*COMFORTER FULL WAMSUTTA HONEY 9PCS KIT",
     "price": 599,
     "stock": 1,
-    "sales": 21,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -87547,7 +87547,7 @@ const data = [
     "name": "*COMFORTER FULL WAMSUTTA NAVY 9PCS KIT",
     "price": 599,
     "stock": 84,
-    "sales": 11,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -87727,7 +87727,7 @@ const data = [
     "name": "*COMFORTER FULL TERRA 8PCS KIT",
     "price": 249,
     "stock": 1,
-    "sales": 3,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -87787,7 +87787,7 @@ const data = [
     "name": "*COMFORTER FULL ARDEN MULTI 8PCS KIT",
     "price": 399,
     "stock": 3,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -87967,7 +87967,7 @@ const data = [
     "name": "*COMFORTER FULL AURA PURPLE 5PCS KIT",
     "price": 249,
     "stock": 7,
-    "sales": 8,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -88087,7 +88087,7 @@ const data = [
     "name": "COMFORTER FULL UNICORN LT.PINK 7PCS",
     "price": 169,
     "stock": 4,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -88147,7 +88147,7 @@ const data = [
     "name": "(SPECIAL OFFER) COMFORTER FULL BIG DANDELION CLOCK OMBER 9PCS",
     "price": 139,
     "stock": 2,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -88267,7 +88267,7 @@ const data = [
     "name": "COMFORTER FULL BIG EMMA 9PCS",
     "price": 249,
     "stock": 4,
-    "sales": 13,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -88327,7 +88327,7 @@ const data = [
     "name": "COMFORTER FULL FLOWER LACE HG JUVI 8PCS",
     "price": 215,
     "stock": 5,
-    "sales": 42,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -88387,7 +88387,7 @@ const data = [
     "name": "COMFORTER FULL EXCAVATOR HG JUVI 8PCS",
     "price": 194,
     "stock": 2,
-    "sales": 28,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -88447,7 +88447,7 @@ const data = [
     "name": "COMFORTER FULL FLYING MODEL HG JUVI 8PCS",
     "price": 194,
     "stock": 4,
-    "sales": 27,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -88507,7 +88507,7 @@ const data = [
     "name": "COMFORTER FULL ROBERT HG JUVI 8PCS",
     "price": 194,
     "stock": 9,
-    "sales": 55,
+    "sales": 28,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -88567,7 +88567,7 @@ const data = [
     "name": "COMFORTER FULL BUTTERFLY YELLOW BLUE 7PCS",
     "price": 169,
     "stock": 4,
-    "sales": 16,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -88627,7 +88627,7 @@ const data = [
     "name": "COMFORTER FULL LILY AQUA PINK 7PCS",
     "price": 169,
     "stock": 3,
-    "sales": 5,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -88687,7 +88687,7 @@ const data = [
     "name": "COMFORTER FULL SAIL ORANGE MINT 7PCS",
     "price": 169,
     "stock": 16,
-    "sales": 20,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 5,
@@ -88747,7 +88747,7 @@ const data = [
     "name": "COMFORTER FULL SPORTS GREY GREEN 7PCS",
     "price": 169,
     "stock": 6,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -88807,7 +88807,7 @@ const data = [
     "name": "COMFORTER FULL ASHER PLAI NAVY 8PCS",
     "price": 299,
     "stock": 1,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -89047,7 +89047,7 @@ const data = [
     "name": "COMFORTER FULL BOW HOTEL LAVENDER 8PCS",
     "price": 349,
     "stock": 6,
-    "sales": 12,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -89107,7 +89107,7 @@ const data = [
     "name": "COMFORTER FULL JULIETTE SPARKLE WHITE 8PCS",
     "price": 349,
     "stock": 2,
-    "sales": 39,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 4,
@@ -89167,7 +89167,7 @@ const data = [
     "name": "COMFORTER FULL STRAWBERRY WHITE 8PCS",
     "price": 349,
     "stock": 14,
-    "sales": 31,
+    "sales": 25,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -89407,7 +89407,7 @@ const data = [
     "name": "COMFORTER FULL COOLING NAVY 1PCS",
     "price": 229,
     "stock": 3,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -89467,7 +89467,7 @@ const data = [
     "name": "COMFORTER FULL PRINTED GREY PAVLA 8PCS",
     "price": 249,
     "stock": 1,
-    "sales": 6,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -89527,7 +89527,7 @@ const data = [
     "name": "COMFORTER FULL CONTROLLER GAMING FAVORITE 8PCS",
     "price": 249,
     "stock": 16,
-    "sales": 69,
+    "sales": 26,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -89587,7 +89587,7 @@ const data = [
     "name": "COMFORTER FULL TOSS BOTANICAL SPRING PINK 8PCS",
     "price": 249,
     "stock": 2,
-    "sales": 15,
+    "sales": -1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -89647,7 +89647,7 @@ const data = [
     "name": "COMFORTER FULL MEADOW FLORAL MULTI 8PCS",
     "price": 249,
     "stock": 4,
-    "sales": 110,
+    "sales": 56,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 4,
@@ -89707,7 +89707,7 @@ const data = [
     "name": "COMOFRTER FULL CHERRIES KATIE BLUE 8PCS",
     "price": 249,
     "stock": 2,
-    "sales": 7,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -89767,7 +89767,7 @@ const data = [
     "name": "COMFORTER FULL CHEETAH SELVA 8PCS",
     "price": 249,
     "stock": 2,
-    "sales": 60,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -89827,7 +89827,7 @@ const data = [
     "name": "COMFORTER FULL GREEN CAMO JACK 8PCS",
     "price": 249,
     "stock": 83,
-    "sales": 81,
+    "sales": 61,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 5,
@@ -89887,7 +89887,7 @@ const data = [
     "name": "COMFORTER FULL BOW GIMINY BLUE 5PCS",
     "price": 299,
     "stock": 9,
-    "sales": 146,
+    "sales": 62,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 2,
@@ -89947,7 +89947,7 @@ const data = [
     "name": "COMFORTER FULL BOW GIMINY BLUSH 5PCS",
     "price": 299,
     "stock": 1,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -90067,7 +90067,7 @@ const data = [
     "name": "*COMFORTER FULL HUTTON STRIPE BLUE 11PCS KIT",
     "price": 499,
     "stock": 56,
-    "sales": 38,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 4,
@@ -90127,7 +90127,7 @@ const data = [
     "name": "*COMFORTER FULL SPRING BORDER LILAC 11PCS KIT",
     "price": 499,
     "stock": 1,
-    "sales": 74,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -90247,7 +90247,7 @@ const data = [
     "name": "*COMFORTER FULL WARDEN STRIPE GREEN/VANY 11PCS KIT",
     "price": 499,
     "stock": 50,
-    "sales": 47,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 3,
@@ -90367,7 +90367,7 @@ const data = [
     "name": "SHEET QUEEN DIM BERRY 6PCS",
     "price": 129,
     "stock": 9,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -90607,7 +90607,7 @@ const data = [
     "name": "COMFORTER KING  SO-SOFT IVORY 3PCS",
     "price": 299,
     "stock": 12,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -90667,7 +90667,7 @@ const data = [
     "name": "*COMFORTER KING KAYA GOLD 11PCS",
     "price": 796,
     "stock": 101,
-    "sales": 26,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 0,
@@ -90727,7 +90727,7 @@ const data = [
     "name": "COMFORTER KING DAMASK WHITE 500TC 6PCS",
     "price": 699,
     "stock": 386,
-    "sales": 80,
+    "sales": 53,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 5,
@@ -90787,7 +90787,7 @@ const data = [
     "name": "COMFORTER KING DAMASK COUBLESTONE 500TC 6PCS",
     "price": 699,
     "stock": 71,
-    "sales": 42,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 6,
@@ -90847,7 +90847,7 @@ const data = [
     "name": "COMFORTER KING DAMASK SILVER 500TC 6PCS",
     "price": 699,
     "stock": 280,
-    "sales": 48,
+    "sales": 25,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 7,
@@ -90907,7 +90907,7 @@ const data = [
     "name": "COMFORTER KING DAMASK HUSHED VIOLET 500TC 6PCS",
     "price": 699,
     "stock": 124,
-    "sales": 20,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 7,
@@ -90967,7 +90967,7 @@ const data = [
     "name": "COMFORTER KING DAMASK LT.BLUE  500TC 6PCS",
     "price": 699,
     "stock": 8,
-    "sales": 9,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -91027,7 +91027,7 @@ const data = [
     "name": "COMFORTER KING DAMASK IVORY 500TC 6PCS",
     "price": 699,
     "stock": 595,
-    "sales": 39,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 7,
@@ -91147,7 +91147,7 @@ const data = [
     "name": "*(SPECIAL OFFER) COMFORTER KING KAYA GOLD 11PCS_KIT",
     "price": 796,
     "stock": 3,
-    "sales": 8,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -91267,7 +91267,7 @@ const data = [
     "name": "*COMFORTER KING ROPE EMBRODERY 11PCS KIT",
     "price": 1299,
     "stock": 74,
-    "sales": 101,
+    "sales": 68,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 4,
@@ -91327,7 +91327,7 @@ const data = [
     "name": "*COMFORTER KING MHEA 11PCS KIT",
     "price": 895,
     "stock": 4,
-    "sales": 8,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -91387,7 +91387,7 @@ const data = [
     "name": "COMFORTER KING ROYAL EMB 12PCS",
     "price": 599,
     "stock": 3,
-    "sales": 6,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -91507,7 +91507,7 @@ const data = [
     "name": "*COMFORTER KING LEXY BLUSH 8PCS KIT",
     "price": 495,
     "stock": 98,
-    "sales": 87,
+    "sales": 43,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 3,
@@ -91627,7 +91627,7 @@ const data = [
     "name": "*COMFORTER KING ZAHA RAIN BLUE 8PCS KIT",
     "price": 595,
     "stock": 74,
-    "sales": 51,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 3,
@@ -91687,7 +91687,7 @@ const data = [
     "name": "*COMFORTER KING ZAHA WHITE 8PCS KIT",
     "price": 595,
     "stock": 1,
-    "sales": 3,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -91807,7 +91807,7 @@ const data = [
     "name": "*COMFORTER KING SHANGIA SAFRON 8PCS KIT",
     "price": 495,
     "stock": 80,
-    "sales": 79,
+    "sales": 40,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 6,
@@ -91867,7 +91867,7 @@ const data = [
     "name": "(SPECIAL OFFER) COMFORTER KING ATLANTIC BEACH 10PCS",
     "price": 199,
     "stock": 1,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -91987,7 +91987,7 @@ const data = [
     "name": "*COMFORTER KING ESTELLE 8PCS KIT",
     "price": 795,
     "stock": 88,
-    "sales": 67,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -92587,7 +92587,7 @@ const data = [
     "name": "*COMFORTER KING WAMSUTTA WHITE 9PCS KIT",
     "price": 799,
     "stock": 62,
-    "sales": 51,
+    "sales": 32,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 4,
@@ -92647,7 +92647,7 @@ const data = [
     "name": "*COMFORTER KING WAMSUTTA SILVER 9PCS KIT",
     "price": 799,
     "stock": 94,
-    "sales": 43,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 3,
@@ -92707,7 +92707,7 @@ const data = [
     "name": "*COMFORTER KING  WAMSUTTA HONEY 9PCS KIT",
     "price": 794,
     "stock": 78,
-    "sales": 53,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -92767,7 +92767,7 @@ const data = [
     "name": "*COMFORTER KING WAMSUTTA NAVY 9PCS KIT",
     "price": 794,
     "stock": 52,
-    "sales": 22,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 3,
@@ -92827,7 +92827,7 @@ const data = [
     "name": "*COMFORTER KING WAMSUTTA NAVY 9PCS KIT",
     "price": 799,
     "stock": 35,
-    "sales": 22,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 3,
@@ -92887,7 +92887,7 @@ const data = [
     "name": "*COMFORTER KING ARIELLE 6PCS KIT",
     "price": 429,
     "stock": 11,
-    "sales": 2,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 4,
@@ -92947,7 +92947,7 @@ const data = [
     "name": "COMFORTER KING BIG MAJESTIC PEACOCK 9PCS",
     "price": 249,
     "stock": 3,
-    "sales": 13,
+    "sales": 25,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -93127,7 +93127,7 @@ const data = [
     "name": "(SPECIAL OFFER) COMFORTER KING FOREST STRIPE BIGONE WINTER 1PCS",
     "price": 99,
     "stock": 1,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -93367,7 +93367,7 @@ const data = [
     "name": "COMFORTER KING MAUVE LOUSE SO-SOFT 3PCS",
     "price": 299,
     "stock": 11,
-    "sales": 6,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -93727,7 +93727,7 @@ const data = [
     "name": "*(SPECIAL OFFER) COMFORTER KING AVON WHITE 8PCS KIT",
     "price": 499,
     "stock": 5,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -93787,7 +93787,7 @@ const data = [
     "name": "COMFORTER KING SO SOFT OMBRE FROM WHITE TO YELLOW 3PCS",
     "price": 299,
     "stock": 17,
-    "sales": 1,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -93907,7 +93907,7 @@ const data = [
     "name": "COMFORTER KING SO SOFT OMBRE FROM LIGHT PINK TO PINK 3PCS",
     "price": 299,
     "stock": 15,
-    "sales": 14,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -93967,7 +93967,7 @@ const data = [
     "name": "COMFORTER KING SO SOFT OMBRE FROM LIGHT BLUE TO BLUE 3PCS",
     "price": 299,
     "stock": 11,
-    "sales": 7,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -94147,7 +94147,7 @@ const data = [
     "name": "COMFORTER KING BIG DANDELION CLOCK OMBER 9PCS",
     "price": 249,
     "stock": 1,
-    "sales": 17,
+    "sales": 24,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -94207,7 +94207,7 @@ const data = [
     "name": "COMFORTER KING BIG HEXAGON GEO 9PCS",
     "price": 249,
     "stock": 9,
-    "sales": 49,
+    "sales": 100,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -94267,7 +94267,7 @@ const data = [
     "name": "COMFORTER KING COSTCO CAMILE TEAL 6PCS",
     "price": 229,
     "stock": 5,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -94327,7 +94327,7 @@ const data = [
     "name": "*COMFORTER KING ISABELLA BAIGE 11PCS KIT",
     "price": 995,
     "stock": 1,
-    "sales": 246,
+    "sales": 45,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -94447,7 +94447,7 @@ const data = [
     "name": "COMFORTER KING COSTCO GRAPHIC GEO GREY 6PCS",
     "price": 229,
     "stock": 21,
-    "sales": 97,
+    "sales": 43,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 6,
@@ -94507,7 +94507,7 @@ const data = [
     "name": "(SPECIAL OFFER) COMFORTER KING VALENTINA WHITE 9PCS",
     "price": 399,
     "stock": 16,
-    "sales": 15,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -94627,7 +94627,7 @@ const data = [
     "name": "COMFORTER KING BIG MARBLE INK 9PCS",
     "price": 249,
     "stock": 2,
-    "sales": 23,
+    "sales": 38,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -94747,7 +94747,7 @@ const data = [
     "name": "COMFORTER KING BIG JASON 9PCS",
     "price": 249,
     "stock": 1,
-    "sales": 27,
+    "sales": 25,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -94807,7 +94807,7 @@ const data = [
     "name": "*(SPECIAL OFFER) COMFORTER KING MULTI TARINA 5PCS KIT",
     "price": 499,
     "stock": 4,
-    "sales": 4,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -94867,7 +94867,7 @@ const data = [
     "name": "*(SPECIAL OFFER) COMFORTER KING LAVENDAR EVELYN 6PCS KIT",
     "price": 499,
     "stock": 3,
-    "sales": 15,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 0,
@@ -94927,7 +94927,7 @@ const data = [
     "name": "COMFORTER KING COSTCO EMILIA BLUE 6PCS",
     "price": 229,
     "stock": 10,
-    "sales": 5,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 0,
@@ -94987,7 +94987,7 @@ const data = [
     "name": "COMFORTER KING COSTCO RACQUEL NEUTRAL 6PCS",
     "price": 299,
     "stock": 5,
-    "sales": 5,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -95107,7 +95107,7 @@ const data = [
     "name": "COMFORTER KING CABARNET TAORMINA 9PCS",
     "price": 299,
     "stock": 15,
-    "sales": 9,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -95167,7 +95167,7 @@ const data = [
     "name": "*COMFORTER KING COZY STRIPE GREY PRINTED 6PCS KIT",
     "price": 399,
     "stock": 63,
-    "sales": 70,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 3,
@@ -95287,7 +95287,7 @@ const data = [
     "name": "COMFORTER KING COSTCO ANNALISE TAN 6PCS",
     "price": 229,
     "stock": 9,
-    "sales": 4,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -95347,7 +95347,7 @@ const data = [
     "name": "COMFORTER KING COSTCO LEAFAGE TURQUOISE 6PCS",
     "price": 229,
     "stock": 2,
-    "sales": 7,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -95407,7 +95407,7 @@ const data = [
     "name": "COMFORTER KING COSTCO FLORE NAVY BLUE 6PCS",
     "price": 229,
     "stock": 1,
-    "sales": 9,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -95527,7 +95527,7 @@ const data = [
     "name": "COMFORTER KING COSTCO THOMAS COOL 6PCS",
     "price": 229,
     "stock": 4,
-    "sales": 2,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -95587,7 +95587,7 @@ const data = [
     "name": "*COMFORTER KING ZAHA ECRU 8PCS KIT",
     "price": 595,
     "stock": 3,
-    "sales": 4,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -95647,7 +95647,7 @@ const data = [
     "name": "COMFORTER KING INO ADEL BLUE 10PCS",
     "price": 299,
     "stock": 31,
-    "sales": 25,
+    "sales": 12,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 2,
@@ -95827,7 +95827,7 @@ const data = [
     "name": "COMFORTER KING WISLEY TAUPE 10PCS",
     "price": 299,
     "stock": 3,
-    "sales": 23,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -95947,7 +95947,7 @@ const data = [
     "name": "COMFORTER KING VERNAZZA YELLOW 8PCS",
     "price": 299,
     "stock": 5,
-    "sales": 5,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -96067,7 +96067,7 @@ const data = [
     "name": "COMFORTER KING KAROU BLUE 8PCS",
     "price": 299,
     "stock": 2,
-    "sales": 15,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -96127,7 +96127,7 @@ const data = [
     "name": "COMFORTER KING DOMBRG BLUE 8PCS",
     "price": 299,
     "stock": 5,
-    "sales": 10,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -96187,7 +96187,7 @@ const data = [
     "name": "COMFORTER KING BLUE ICE ROSELINE 12PCS",
     "price": 399,
     "stock": 4,
-    "sales": 52,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -96247,7 +96247,7 @@ const data = [
     "name": "COMFORTER KING LEILANI SILVER 12PCS",
     "price": 399,
     "stock": 852,
-    "sales": 106,
+    "sales": 91,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 2,
@@ -96307,7 +96307,7 @@ const data = [
     "name": "COMFORTER KING VERDEIRE SOFT BLUSH 12PCS",
     "price": 399,
     "stock": 4,
-    "sales": 77,
+    "sales": 62,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -96367,7 +96367,7 @@ const data = [
     "name": "*COMFORTER KING RAINY WITH SCALLOP 8PCS KIT",
     "price": 595,
     "stock": 40,
-    "sales": 62,
+    "sales": 54,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -96487,7 +96487,7 @@ const data = [
     "name": "*COMFORTER KING MARGOUT BLUE 8PCS KIT",
     "price": 595,
     "stock": 78,
-    "sales": 33,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -96547,7 +96547,7 @@ const data = [
     "name": "*COMFORTER KING SHANGAI NATURAL 8PCS KIT",
     "price": 499,
     "stock": 4,
-    "sales": 32,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -96607,7 +96607,7 @@ const data = [
     "name": "*COMFORTER KING LEXY CREAM GREY 8PCS KIT",
     "price": 499,
     "stock": 62,
-    "sales": 27,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -96667,7 +96667,7 @@ const data = [
     "name": "*COMFORTER KING LEXY FEROZI 8PCS KIT",
     "price": 499,
     "stock": 36,
-    "sales": 35,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 4,
@@ -96727,7 +96727,7 @@ const data = [
     "name": "*COMFORTER KING LEXY YELLOW CHARCOAL 8PCS KIT",
     "price": 499,
     "stock": 6,
-    "sales": 22,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 3,
@@ -96787,7 +96787,7 @@ const data = [
     "name": "*COMFORTER KING JEWEL SILVER 11PCS KIT",
     "price": 399,
     "stock": 2,
-    "sales": 3,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -96907,7 +96907,7 @@ const data = [
     "name": "*COMFORTER KING JEWEL AQUA 11PCS KIT",
     "price": 399,
     "stock": 60,
-    "sales": 173,
+    "sales": 142,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 3,
@@ -96967,7 +96967,7 @@ const data = [
     "name": "*COMFORTER KING JEWEL VATALIA PURPLE 11PCS KIT",
     "price": 399,
     "stock": 1,
-    "sales": 125,
+    "sales": 94,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 3,
@@ -97027,7 +97027,7 @@ const data = [
     "name": "*COMFORTER KING GALILEO IVORY 11PCS KIT",
     "price": 695,
     "stock": 20,
-    "sales": 7,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -97087,7 +97087,7 @@ const data = [
     "name": "*COMFORTER KING GALILEO CREAM 11PCS KIT",
     "price": 695,
     "stock": 4,
-    "sales": 55,
+    "sales": 33,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -97207,7 +97207,7 @@ const data = [
     "name": "*COMFORTER KING HOTEL ATHENA WILD DOVE 11PCS KIT",
     "price": 595,
     "stock": 66,
-    "sales": 97,
+    "sales": 55,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -97327,7 +97327,7 @@ const data = [
     "name": "*COMFORTER KING EVELYN WHITE 11PCS KIT",
     "price": 695,
     "stock": 8,
-    "sales": 1,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -97387,7 +97387,7 @@ const data = [
     "name": "*COMFORTER KING DAMASK PAINTED GREY 11PCS KIT",
     "price": 695,
     "stock": 4,
-    "sales": 18,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -97447,7 +97447,7 @@ const data = [
     "name": "*COMFORTER KING MANVE BLUE SKY WHISTLEY 11PCS KIT",
     "price": 695,
     "stock": 3,
-    "sales": 26,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -97507,7 +97507,7 @@ const data = [
     "name": "*COMFORTER KING TONAL SAGE VILETTE 11PCS KIT",
     "price": 695,
     "stock": 15,
-    "sales": 39,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -97567,7 +97567,7 @@ const data = [
     "name": "*COMFORTER KING STRAWBERRY WHITE CASCADE 11PCS KIT",
     "price": 695,
     "stock": 2,
-    "sales": 10,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -97627,7 +97627,7 @@ const data = [
     "name": "*COMFORTER KING CASCADE BIRD WALLIS MULTI WHITE 11PCS KIT",
     "price": 695,
     "stock": 1,
-    "sales": 24,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -97687,7 +97687,7 @@ const data = [
     "name": "COMFORTER KING COOLING WHITE 1PCS",
     "price": 299,
     "stock": 9,
-    "sales": 17,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -97747,7 +97747,7 @@ const data = [
     "name": "COMFORTER KING COOLING GRAY 1PCS",
     "price": 299,
     "stock": 3,
-    "sales": 3,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -97807,7 +97807,7 @@ const data = [
     "name": "COMFORTER KING COOLING NAVY 1PCS",
     "price": 299,
     "stock": 2,
-    "sales": 3,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -97927,7 +97927,7 @@ const data = [
     "name": "*COMFORTER KING LUXE GREY MITALLIC 8PCS KIT",
     "price": 499,
     "stock": 1,
-    "sales": 174,
+    "sales": 26,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -97987,7 +97987,7 @@ const data = [
     "name": "*COMFORTER KING CYNTHIA FLORAL BIEGE 8PCS KIT",
     "price": 499,
     "stock": 7,
-    "sales": 87,
+    "sales": 42,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -98107,7 +98107,7 @@ const data = [
     "name": "*COMFORTER KING QUINCY BEIGE 8PCS KIT",
     "price": 499,
     "stock": 1,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -98227,7 +98227,7 @@ const data = [
     "name": "*COMFORTER KING ROME MEDALLION 8PCS KIT",
     "price": 599,
     "stock": 63,
-    "sales": 74,
+    "sales": 58,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -98347,7 +98347,7 @@ const data = [
     "name": "COMFORTER KING PRINTED WHITE/MULTI VINE FLORAL 8PCS",
     "price": 299,
     "stock": 261,
-    "sales": 117,
+    "sales": 81,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -98407,7 +98407,7 @@ const data = [
     "name": "COMFORTER KING PRINTED BLUSH DOMBURG 8PCS",
     "price": 299,
     "stock": 591,
-    "sales": 83,
+    "sales": 33,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 2,
@@ -98527,7 +98527,7 @@ const data = [
     "name": "*COMFORTER KING PALLINGTON PINK 8PCS KIT",
     "price": 599,
     "stock": 72,
-    "sales": 125,
+    "sales": 63,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 2,
@@ -98587,7 +98587,7 @@ const data = [
     "name": "*COMFORTER KING PALLINGTON RUBY 8PCS KIT",
     "price": 599,
     "stock": 7,
-    "sales": 109,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -98767,7 +98767,7 @@ const data = [
     "name": "*COMFORTER KING BLOOMING PINK 10PCS KIT",
     "price": 499,
     "stock": 79,
-    "sales": 214,
+    "sales": 97,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -98887,7 +98887,7 @@ const data = [
     "name": "*COMFORTER KING BLOOMING WHITE 10PCS KIT",
     "price": 499,
     "stock": 62,
-    "sales": 146,
+    "sales": 69,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 2,
@@ -98947,7 +98947,7 @@ const data = [
     "name": "COMFORTER KING MULTI MEADOW FLORAL 8PCS",
     "price": 299,
     "stock": 130,
-    "sales": 227,
+    "sales": 200,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -99007,7 +99007,7 @@ const data = [
     "name": "*COMFORTER KING TONAL FLORAL TAUPE 8PCS KIT",
     "price": 599,
     "stock": 1,
-    "sales": 47,
+    "sales": 31,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -99067,7 +99067,7 @@ const data = [
     "name": "COMFORTER KING PAVLA GREY 8PCS",
     "price": 299,
     "stock": 83,
-    "sales": 257,
+    "sales": 277,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 7,
@@ -99127,7 +99127,7 @@ const data = [
     "name": "COMFORTER KING PAVLA BLUSH 8PCS",
     "price": 299,
     "stock": 218,
-    "sales": 229,
+    "sales": 228,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 6,
@@ -99187,7 +99187,7 @@ const data = [
     "name": "COMFORTER KING PRSSIA 8PCS",
     "price": 299,
     "stock": 7,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -99247,7 +99247,7 @@ const data = [
     "name": "COMFORTER KING ARDICE GRAY ECRU 8PCS",
     "price": 299,
     "stock": 5,
-    "sales": 53,
+    "sales": 33,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 3,
@@ -99367,7 +99367,7 @@ const data = [
     "name": "*COMFORTER KING ROYCE TAUPE 11PCS KIT",
     "price": 599,
     "stock": 70,
-    "sales": 103,
+    "sales": 61,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 0,
@@ -99487,7 +99487,7 @@ const data = [
     "name": "*COMFORTER KING ROYCE GRAY 11PCS KIT",
     "price": 599,
     "stock": 88,
-    "sales": 12,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 1,
@@ -99607,7 +99607,7 @@ const data = [
     "name": "*COMFORTER KING ROYCE IVORY 11PCS KIT",
     "price": 599,
     "stock": 60,
-    "sales": 182,
+    "sales": 115,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
@@ -99727,7 +99727,7 @@ const data = [
     "name": "*COMFORTER KING PATIA INDIGO 11PCS KIT",
     "price": 399,
     "stock": 68,
-    "sales": 38,
+    "sales": 30,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
@@ -99847,7 +99847,7 @@ const data = [
     "name": "*COMFORTER KING PATIA GRAY 11PCS KIT",
     "price": 399,
     "stock": 63,
-    "sales": 59,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 2,
@@ -99907,7 +99907,7 @@ const data = [
     "name": "COMFORTER KING BOW GIMINY BLUE 5PCS",
     "price": 299,
     "stock": 190,
-    "sales": 102,
+    "sales": 63,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 4,
@@ -99967,7 +99967,7 @@ const data = [
     "name": "COMFORTER KING BOW GIMINY LAVENDER 5PCS",
     "price": 299,
     "stock": 308,
-    "sales": 112,
+    "sales": 55,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 2,
@@ -100027,7 +100027,7 @@ const data = [
     "name": "COMFORTER KING GAVOTTE SAGE 8PCS",
     "price": 299,
     "stock": 8,
-    "sales": 61,
+    "sales": 32,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 6,
@@ -100087,7 +100087,7 @@ const data = [
     "name": "COMFORTER KING ABELIA CORAL 8PCS",
     "price": 299,
     "stock": 701,
-    "sales": 209,
+    "sales": 137,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 4,
@@ -100147,7 +100147,7 @@ const data = [
     "name": "COMFORTER KING ROSEL VERNAZZA 8PCS",
     "price": 299,
     "stock": 1517,
-    "sales": 130,
+    "sales": 62,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 2,
@@ -100267,7 +100267,7 @@ const data = [
     "name": "*COMFORTER KING ISABELLA WHITE 11PCS KIT",
     "price": 995,
     "stock": 61,
-    "sales": 63,
+    "sales": 34,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 3,
@@ -100387,7 +100387,7 @@ const data = [
     "name": "*COMFORTER KING ISABELLA SILVER 11PCS KIT",
     "price": 995,
     "stock": 66,
-    "sales": 21,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 1,
@@ -100507,7 +100507,7 @@ const data = [
     "name": "*COMFORTER KING ISABELLA GREY 11PCS KIT",
     "price": 995,
     "stock": 82,
-    "sales": 8,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 3,
@@ -100627,7 +100627,7 @@ const data = [
     "name": "*COMFORTER KING LOKI GOLD 11PCS KIT",
     "price": 895,
     "stock": 82,
-    "sales": 44,
+    "sales": 31,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -100747,7 +100747,7 @@ const data = [
     "name": "*COMFORTER KING BAROCK GOLD 11PCS KIT",
     "price": 895,
     "stock": 74,
-    "sales": 103,
+    "sales": 55,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 5,
@@ -100867,7 +100867,7 @@ const data = [
     "name": "*COMFORTER KING VANLOO GOLD 11PCS KIT",
     "price": 895,
     "stock": 73,
-    "sales": 6,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -100927,7 +100927,7 @@ const data = [
     "name": "*COMFORTER KING LUXE BROWN MITALLIC 8PCS KIT",
     "price": 599,
     "stock": 68,
-    "sales": 171,
+    "sales": 81,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -100987,7 +100987,7 @@ const data = [
     "name": "PILLOW EURO SHAM",
     "price": 39,
     "stock": 718,
-    "sales": 13,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 20,
       "05-Haifa Mall": 0,
@@ -101047,7 +101047,7 @@ const data = [
     "name": "PILLOW KING MARAM",
     "price": 99,
     "stock": 541,
-    "sales": 124,
+    "sales": 68,
     "branches": {
       "04-Andalos Mall": 35,
       "05-Haifa Mall": 14,
@@ -101107,7 +101107,7 @@ const data = [
     "name": "PILLOW KING DOWN ALT EXTRA FIRM",
     "price": 69,
     "stock": 5232,
-    "sales": 217,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 6,
@@ -101167,7 +101167,7 @@ const data = [
     "name": "(SPECIAL OFFER) PILLOW STANDARD DOWN ALT FIRM",
     "price": 39,
     "stock": 3985,
-    "sales": 190,
+    "sales": 860,
     "branches": {
       "04-Andalos Mall": 50,
       "05-Haifa Mall": 33,
@@ -101227,7 +101227,7 @@ const data = [
     "name": "PILLOW KING DREAM COMFORT",
     "price": 99,
     "stock": 921,
-    "sales": 594,
+    "sales": 248,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 13,
@@ -101287,7 +101287,7 @@ const data = [
     "name": "PILLOW STANDARD DREAM COMFORT",
     "price": 69,
     "stock": 26,
-    "sales": 33,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -101347,7 +101347,7 @@ const data = [
     "name": "PILLOW EURO SHAM DOWN ALT FIRM ( PAIRE )",
     "price": 99,
     "stock": 8,
-    "sales": 3,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -101467,7 +101467,7 @@ const data = [
     "name": "PILLOW KING ADJUSTABLE",
     "price": 139,
     "stock": 5821,
-    "sales": 675,
+    "sales": 469,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 15,
@@ -101527,7 +101527,7 @@ const data = [
     "name": "(SPECIAL OFFER) PILLOW KING CLIMA TALAY LATEX",
     "price": 299,
     "stock": 5,
-    "sales": 4,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -101647,7 +101647,7 @@ const data = [
     "name": "PILLOW KING COOLING MEMORY FIBER",
     "price": 94,
     "stock": 2239,
-    "sales": 365,
+    "sales": 189,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 0,
@@ -101707,7 +101707,7 @@ const data = [
     "name": "PILLOW KING SUB-0 TRIPLE COOLING",
     "price": 159,
     "stock": 342,
-    "sales": 384,
+    "sales": 212,
     "branches": {
       "04-Andalos Mall": 22,
       "05-Haifa Mall": 2,
@@ -101767,7 +101767,7 @@ const data = [
     "name": "PILLOW KING FEATHER WHITE DOWN",
     "price": 395,
     "stock": 931,
-    "sales": 134,
+    "sales": 89,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 16,
@@ -101887,7 +101887,7 @@ const data = [
     "name": "(SPECIAL OFFER) PILLOW STANDARD FIBER WITH EXTRA FILL",
     "price": 59,
     "stock": 2149,
-    "sales": 230,
+    "sales": 147,
     "branches": {
       "04-Andalos Mall": 57,
       "05-Haifa Mall": 33,
@@ -101947,7 +101947,7 @@ const data = [
     "name": "PILLOW SIDE SLEEPER TPE COVER",
     "price": 199,
     "stock": 470,
-    "sales": 575,
+    "sales": 313,
     "branches": {
       "04-Andalos Mall": 22,
       "05-Haifa Mall": 23,
@@ -102007,7 +102007,7 @@ const data = [
     "name": "PILLOW CUSHION SEAT BLACK 35.5*48*48.5",
     "price": 49,
     "stock": 3451,
-    "sales": 122,
+    "sales": 55,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 20,
@@ -102067,7 +102067,7 @@ const data = [
     "name": "PILLOW CUSHION SEAT NAVY 41.5*50*50",
     "price": 49,
     "stock": 920,
-    "sales": 187,
+    "sales": 129,
     "branches": {
       "04-Andalos Mall": 22,
       "05-Haifa Mall": 13,
@@ -102127,7 +102127,7 @@ const data = [
     "name": "PILLOW NECK BLACK 33*49*49",
     "price": 29,
     "stock": 3826,
-    "sales": 62,
+    "sales": 39,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -102247,7 +102247,7 @@ const data = [
     "name": "PILLOW NECK GREY LIGHT 33*49*49",
     "price": 29,
     "stock": 6826,
-    "sales": 17,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -102307,7 +102307,7 @@ const data = [
     "name": "PILLOW STANDARD FOAM MEMORY COOLLING 44.5*40*40",
     "price": 94,
     "stock": 19,
-    "sales": 6,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -102367,7 +102367,7 @@ const data = [
     "name": "PILLOW CUSHION SEAT GREY 41.5*50*50",
     "price": 49,
     "stock": 16,
-    "sales": 123,
+    "sales": 68,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -102427,7 +102427,7 @@ const data = [
     "name": "PILLOW CUSHION SEAT BLACK 41.5*50*50",
     "price": 49,
     "stock": 14,
-    "sales": 99,
+    "sales": 68,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -102487,7 +102487,7 @@ const data = [
     "name": "PILLOW STANDARD EXTRA FIRM",
     "price": 39,
     "stock": 4,
-    "sales": 3182,
+    "sales": 1794,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 1,
@@ -102547,7 +102547,7 @@ const data = [
     "name": "PILLOW KING EXTRA FIRM",
     "price": 69,
     "stock": 1901,
-    "sales": 2234,
+    "sales": 1821,
     "branches": {
       "04-Andalos Mall": 54,
       "05-Haifa Mall": 33,
@@ -102607,7 +102607,7 @@ const data = [
     "name": "PILLOW STANDARD COMFORT DREAM",
     "price": 69,
     "stock": 3478,
-    "sales": 1748,
+    "sales": 770,
     "branches": {
       "04-Andalos Mall": 44,
       "05-Haifa Mall": 56,
@@ -102667,7 +102667,7 @@ const data = [
     "name": "PILLOW KING COMFORT DREAM",
     "price": 99,
     "stock": 3976,
-    "sales": 619,
+    "sales": 340,
     "branches": {
       "04-Andalos Mall": 41,
       "05-Haifa Mall": 38,
@@ -102727,7 +102727,7 @@ const data = [
     "name": "PILLOW EURO SHAM CUSHION WHITE KIT",
     "price": 59,
     "stock": 4,
-    "sales": 56,
+    "sales": 32,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -102787,7 +102787,7 @@ const data = [
     "name": "PILLOW EURO SHAM CASHION SLIVER GREY KIT",
     "price": 59,
     "stock": 4,
-    "sales": 76,
+    "sales": 50,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 4,
@@ -102847,7 +102847,7 @@ const data = [
     "name": "PILLOW ALERNATIVE DOWN SHAM EURO",
     "price": 99,
     "stock": 240,
-    "sales": 588,
+    "sales": 346,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 10,
@@ -102907,7 +102907,7 @@ const data = [
     "name": "MAKEUP WIPERS SET",
     "price": 49,
     "stock": 9,
-    "sales": 9,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -102967,7 +102967,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH IVORY 30*30",
     "price": 5,
     "stock": 5181,
-    "sales": 430,
+    "sales": 241,
     "branches": {
       "04-Andalos Mall": 22,
       "05-Haifa Mall": 0,
@@ -103027,7 +103027,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH WHITE 30*30",
     "price": 5,
     "stock": 1417,
-    "sales": 1013,
+    "sales": 492,
     "branches": {
       "04-Andalos Mall": 24,
       "05-Haifa Mall": 10,
@@ -103087,7 +103087,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH LINEN 30*30",
     "price": 5,
     "stock": 4859,
-    "sales": 329,
+    "sales": 196,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 19,
@@ -103147,7 +103147,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH PINK 30*30",
     "price": 5,
     "stock": 3029,
-    "sales": 314,
+    "sales": 187,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -103207,7 +103207,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH BURGUNDY 30*30",
     "price": 5,
     "stock": 9,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -103267,7 +103267,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH P.BLUE 30*30",
     "price": 5,
     "stock": 111,
-    "sales": 41,
+    "sales": 35,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -103327,7 +103327,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH IVORY",
     "price": 69,
     "stock": 8177,
-    "sales": 223,
+    "sales": 121,
     "branches": {
       "04-Andalos Mall": 23,
       "05-Haifa Mall": 14,
@@ -103387,7 +103387,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH WHITE",
     "price": 69,
     "stock": 7025,
-    "sales": 264,
+    "sales": 235,
     "branches": {
       "04-Andalos Mall": 21,
       "05-Haifa Mall": 10,
@@ -103447,7 +103447,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH LINEN",
     "price": 69,
     "stock": 2154,
-    "sales": 273,
+    "sales": 127,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 17,
@@ -103507,7 +103507,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH PINK",
     "price": 69,
     "stock": 4841,
-    "sales": 157,
+    "sales": 80,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 12,
@@ -103567,7 +103567,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH BURGANDY",
     "price": 69,
     "stock": 12,
-    "sales": 9,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -103627,7 +103627,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH P.BLUE",
     "price": 69,
     "stock": 19,
-    "sales": 7,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -103687,7 +103687,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH TITANIUM",
     "price": 69,
     "stock": 7,
-    "sales": 16,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -103747,7 +103747,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH ROSE",
     "price": 69,
     "stock": 26,
-    "sales": 94,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 14,
@@ -103807,7 +103807,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH IVORY 50*100",
     "price": 25,
     "stock": 6905,
-    "sales": 530,
+    "sales": 271,
     "branches": {
       "04-Andalos Mall": 21,
       "05-Haifa Mall": 13,
@@ -103867,7 +103867,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH WHITE 50*100",
     "price": 25,
     "stock": 6748,
-    "sales": 825,
+    "sales": 316,
     "branches": {
       "04-Andalos Mall": 23,
       "05-Haifa Mall": 27,
@@ -103927,7 +103927,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH LINEN 50*100",
     "price": 25,
     "stock": 3265,
-    "sales": 456,
+    "sales": 249,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 17,
@@ -103987,7 +103987,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH PINK 50*100",
     "price": 25,
     "stock": 836,
-    "sales": 578,
+    "sales": 291,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 17,
@@ -104107,7 +104107,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH P.BLUE 50*100",
     "price": 25,
     "stock": 9,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -104167,7 +104167,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH TITANIUM 50*100",
     "price": 25,
     "stock": 201,
-    "sales": 252,
+    "sales": 125,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 23,
@@ -104227,7 +104227,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH ROSE 50*100",
     "price": 25,
     "stock": 9,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -104287,7 +104287,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH LAVENDER",
     "price": 69,
     "stock": 8,
-    "sales": 3,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -104347,7 +104347,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH LAVENDE 30*30",
     "price": 5,
     "stock": 4,
-    "sales": 1,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -104407,7 +104407,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH OYSTER MUSHROOM 50*100",
     "price": 25,
     "stock": 2870,
-    "sales": 471,
+    "sales": 312,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 12,
@@ -104467,7 +104467,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH OYSTER MUSHROOM 30*30",
     "price": 5,
     "stock": 4765,
-    "sales": 370,
+    "sales": 202,
     "branches": {
       "04-Andalos Mall": 52,
       "05-Haifa Mall": 43,
@@ -104527,7 +104527,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH OYSTER MUSHROOM",
     "price": 69,
     "stock": 3158,
-    "sales": 313,
+    "sales": 171,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 8,
@@ -104647,7 +104647,7 @@ const data = [
     "name": "BATH TOWEL AIR-RICH IVORY 70*140",
     "price": 49,
     "stock": 1894,
-    "sales": 358,
+    "sales": 199,
     "branches": {
       "04-Andalos Mall": 24,
       "05-Haifa Mall": 17,
@@ -104707,7 +104707,7 @@ const data = [
     "name": "BATH TOWEL AIR-RICH LINEN 70*140",
     "price": 49,
     "stock": 786,
-    "sales": 423,
+    "sales": 261,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 22,
@@ -104827,7 +104827,7 @@ const data = [
     "name": "BATH TOWEL AIR-RICH PINK 70*140",
     "price": 49,
     "stock": 1556,
-    "sales": 360,
+    "sales": 164,
     "branches": {
       "04-Andalos Mall": 25,
       "05-Haifa Mall": 18,
@@ -104887,7 +104887,7 @@ const data = [
     "name": "BATH TOWEL AIR-RICH WHITE 70*140",
     "price": 49,
     "stock": 6033,
-    "sales": 602,
+    "sales": 151,
     "branches": {
       "04-Andalos Mall": 22,
       "05-Haifa Mall": 17,
@@ -104947,7 +104947,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH NAVY 50*100",
     "price": 25,
     "stock": 1251,
-    "sales": 245,
+    "sales": 129,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 14,
@@ -105007,7 +105007,7 @@ const data = [
     "name": "BATH TOWEL AIR-RICH NAVY 70*140",
     "price": 49,
     "stock": 2,
-    "sales": 87,
+    "sales": 69,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -105067,7 +105067,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH NAVY",
     "price": 69,
     "stock": 61,
-    "sales": 211,
+    "sales": 131,
     "branches": {
       "04-Andalos Mall": 29,
       "05-Haifa Mall": 22,
@@ -105127,7 +105127,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH NAVY 30*30",
     "price": 5,
     "stock": 1248,
-    "sales": 328,
+    "sales": 132,
     "branches": {
       "04-Andalos Mall": 49,
       "05-Haifa Mall": 63,
@@ -105187,7 +105187,7 @@ const data = [
     "name": "TOWEL KITC ENVOGUE HERS 5PCS",
     "price": 49,
     "stock": 7,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -105247,7 +105247,7 @@ const data = [
     "name": "TOWEL KITC ENVOGUE PRINTED",
     "price": 14,
     "stock": 5216,
-    "sales": 538,
+    "sales": 311,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 36,
@@ -105607,7 +105607,7 @@ const data = [
     "name": "BEACH TOWEL PINEAPPLE 90*170",
     "price": 49,
     "stock": 269,
-    "sales": 20,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -105847,7 +105847,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH LAUREL WREATH 86*172",
     "price": 69,
     "stock": 1,
-    "sales": 10,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -105967,7 +105967,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH LAUREL WREATH 50*100",
     "price": 25,
     "stock": 41,
-    "sales": 131,
+    "sales": 57,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -106027,7 +106027,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH PRIM ROSE 50*100",
     "price": 25,
     "stock": 40,
-    "sales": 107,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 0,
@@ -106087,7 +106087,7 @@ const data = [
     "name": "BATH TOWEL AIR-RICH LAUREL WREATH 70*140",
     "price": 49,
     "stock": 6,
-    "sales": 33,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -106147,7 +106147,7 @@ const data = [
     "name": "BATH TOWEL AIR-RICH PRIM ROSE 70*140",
     "price": 49,
     "stock": 19,
-    "sales": 89,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -106207,7 +106207,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH LAUREL WREATH 30*30",
     "price": 5,
     "stock": 16,
-    "sales": 65,
+    "sales": 60,
     "branches": {
       "04-Andalos Mall": 26,
       "05-Haifa Mall": 3,
@@ -106267,7 +106267,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH TERRA COTTA 86*172",
     "price": 69,
     "stock": 1,
-    "sales": 22,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 0,
@@ -106447,7 +106447,7 @@ const data = [
     "name": "BEACH TOWEL CABANA RED BLUE 101*183",
     "price": 59,
     "stock": 2133,
-    "sales": 172,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -106507,7 +106507,7 @@ const data = [
     "name": "BEACH TOWEL TURTLE CORAL SWI 101*183",
     "price": 66,
     "stock": 4,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -106687,7 +106687,7 @@ const data = [
     "name": "BEACH TOWEL BATIK PINEAPPLE 101*183",
     "price": 59,
     "stock": 12,
-    "sales": 108,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -106927,7 +106927,7 @@ const data = [
     "name": "BATH TOWEL TERRY 70*140",
     "price": 14,
     "stock": 28,
-    "sales": 2,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -106987,7 +106987,7 @@ const data = [
     "name": "BATH TOWEL SOLID WHITE 76*137",
     "price": 15,
     "stock": 9,
-    "sales": 3,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -107047,7 +107047,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH PINK CARN 86*172",
     "price": 69,
     "stock": 32,
-    "sales": 12,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 5,
@@ -107107,7 +107107,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH LAVENDER BLUE 86*172",
     "price": 69,
     "stock": 4,
-    "sales": 124,
+    "sales": 68,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -107167,7 +107167,7 @@ const data = [
     "name": "BATH TOWEL AIR-RICH LAVENDER BLUE 70*140",
     "price": 49,
     "stock": 14,
-    "sales": 99,
+    "sales": 50,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 1,
@@ -107227,7 +107227,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH PINK CARN 50*100",
     "price": 25,
     "stock": 5,
-    "sales": 1,
+    "sales": 0,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -107287,7 +107287,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH LAVENDER BLUE 50*100",
     "price": 25,
     "stock": 8,
-    "sales": 206,
+    "sales": 91,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 19,
@@ -107407,7 +107407,7 @@ const data = [
     "name": "HAND TOWEL TERRY 5PCS",
     "price": 94,
     "stock": 608,
-    "sales": 120,
+    "sales": 97,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 27,
@@ -107467,7 +107467,7 @@ const data = [
     "name": "BEACH TOWEL JAQUARD 86*160",
     "price": 29,
     "stock": 141,
-    "sales": 25,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -107527,7 +107527,7 @@ const data = [
     "name": "BEACH TOWEL JAQUARD 100*180",
     "price": 39,
     "stock": 60,
-    "sales": 158,
+    "sales": 87,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 19,
@@ -107827,7 +107827,7 @@ const data = [
     "name": "TOWEL KITC BEIGE BTP-857",
     "price": 9,
     "stock": 28,
-    "sales": 29,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 4,
@@ -107887,7 +107887,7 @@ const data = [
     "name": "TOWEL KITC DARK GREY BTP-857",
     "price": 9,
     "stock": 3,
-    "sales": 24,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 6,
@@ -107947,7 +107947,7 @@ const data = [
     "name": "TOWEL KITC ORANGE BTP-857",
     "price": 9,
     "stock": 10,
-    "sales": 27,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 4,
@@ -108007,7 +108007,7 @@ const data = [
     "name": "TOWEL KITC BLACK BTP-857",
     "price": 9,
     "stock": 33,
-    "sales": 26,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 9,
@@ -108067,7 +108067,7 @@ const data = [
     "name": "TOWEL KITC DUSTY PINK BTP-862",
     "price": 9,
     "stock": 14,
-    "sales": 41,
+    "sales": 14,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 4,
@@ -108127,7 +108127,7 @@ const data = [
     "name": "TOWEL KITC DUSTY ROSE BTP-862",
     "price": 9,
     "stock": 95,
-    "sales": 47,
+    "sales": 39,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 0,
@@ -108187,7 +108187,7 @@ const data = [
     "name": "TOWEL KITC SLATE BTP-862",
     "price": 9,
     "stock": 5,
-    "sales": 26,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -108247,7 +108247,7 @@ const data = [
     "name": "TOWEL KITC SAND BTP-870",
     "price": 9,
     "stock": 105,
-    "sales": 91,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -108307,7 +108307,7 @@ const data = [
     "name": "TOWEL KITC RUST BTP-870",
     "price": 9,
     "stock": 15,
-    "sales": 35,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -108367,7 +108367,7 @@ const data = [
     "name": "TOWEL KITC ROSE PINK BTP-870",
     "price": 9,
     "stock": 2,
-    "sales": 24,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -108427,7 +108427,7 @@ const data = [
     "name": "TOWEL KITC DEEP PERIWINKLE BTP-870",
     "price": 9,
     "stock": 19,
-    "sales": 27,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -108487,7 +108487,7 @@ const data = [
     "name": "TOWEL KITC SAGE BTP-870",
     "price": 9,
     "stock": 4,
-    "sales": 26,
+    "sales": 25,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -108547,7 +108547,7 @@ const data = [
     "name": "TOWEL KITC WHITE BTP-839",
     "price": 9,
     "stock": 143,
-    "sales": 113,
+    "sales": 110,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -108607,7 +108607,7 @@ const data = [
     "name": "TOWEL KITC IVORY BTP-839",
     "price": 9,
     "stock": 27,
-    "sales": 58,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -108667,7 +108667,7 @@ const data = [
     "name": "TOWEL KITC NAVY BTP-839",
     "price": 9,
     "stock": 44,
-    "sales": 23,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -108727,7 +108727,7 @@ const data = [
     "name": "TOWEL KITC AQUA BTP-839",
     "price": 9,
     "stock": 28,
-    "sales": 21,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -108787,7 +108787,7 @@ const data = [
     "name": "TOWEL KITC LAVENDER BLUE BTP-839",
     "price": 9,
     "stock": 29,
-    "sales": 46,
+    "sales": 22,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -108847,7 +108847,7 @@ const data = [
     "name": "TOWEL KITC POWDER PINK BTP-839",
     "price": 9,
     "stock": 10,
-    "sales": 20,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -108907,7 +108907,7 @@ const data = [
     "name": "TOWEL KITC IVORY BTP-840",
     "price": 9,
     "stock": 6,
-    "sales": 57,
+    "sales": 37,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -108967,7 +108967,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH ROSE PINK 86*172",
     "price": 69,
     "stock": 224,
-    "sales": 90,
+    "sales": 39,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 9,
@@ -109027,7 +109027,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH RICH BLACK 86*172",
     "price": 69,
     "stock": 6,
-    "sales": 108,
+    "sales": 73,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 12,
@@ -109087,7 +109087,7 @@ const data = [
     "name": "BATH SHEET AIR-RICH LIGHT BLUE 86*172",
     "price": 69,
     "stock": 5,
-    "sales": 33,
+    "sales": 24,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -109147,7 +109147,7 @@ const data = [
     "name": "BATH TOWEL AIR-RICH ROSE PINK 70*140",
     "price": 49,
     "stock": 30,
-    "sales": 73,
+    "sales": 51,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -109207,7 +109207,7 @@ const data = [
     "name": "BATH TOWEL AIR-RICH RICH BLACK 70*140",
     "price": 49,
     "stock": 7,
-    "sales": 71,
+    "sales": 49,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 3,
@@ -109267,7 +109267,7 @@ const data = [
     "name": "BATH TOWEL AIR-RICH LIGHT BLUE 70*140",
     "price": 49,
     "stock": 6,
-    "sales": 59,
+    "sales": 33,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 0,
@@ -109327,7 +109327,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH ROSE PINK 50*100",
     "price": 25,
     "stock": 2,
-    "sales": 150,
+    "sales": 58,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -109387,7 +109387,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH BLACK 50*100",
     "price": 25,
     "stock": 5,
-    "sales": 183,
+    "sales": 112,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 14,
@@ -109447,7 +109447,7 @@ const data = [
     "name": "TOWEL EUR AIR-RICH LIGHT BLUE 50*100",
     "price": 25,
     "stock": 8,
-    "sales": 134,
+    "sales": 49,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 6,
@@ -109507,7 +109507,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH ROSE PINK 30*30",
     "price": 5,
     "stock": 8,
-    "sales": 114,
+    "sales": 83,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 1,
@@ -109567,7 +109567,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH BLACK 30*30",
     "price": 5,
     "stock": 1,
-    "sales": 109,
+    "sales": 106,
     "branches": {
       "04-Andalos Mall": 31,
       "05-Haifa Mall": 24,
@@ -109627,7 +109627,7 @@ const data = [
     "name": "TOWEL SQUARE AIR-RICH LIGHT BLUE 30*30",
     "price": 5,
     "stock": 4,
-    "sales": 84,
+    "sales": 43,
     "branches": {
       "04-Andalos Mall": 29,
       "05-Haifa Mall": 3,
@@ -109687,7 +109687,7 @@ const data = [
     "name": "BEACH TOWEL TOUR FRUIT 101*183",
     "price": 59,
     "stock": 1845,
-    "sales": 392,
+    "sales": 71,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -109747,7 +109747,7 @@ const data = [
     "name": "BEACH TOWEL BLUE PALM 101*183",
     "price": 59,
     "stock": 1097,
-    "sales": 473,
+    "sales": 56,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -109807,7 +109807,7 @@ const data = [
     "name": "BEACH TOWEL PALMS SUNSET 101*183",
     "price": 59,
     "stock": 441,
-    "sales": 374,
+    "sales": 73,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 16,
@@ -109867,7 +109867,7 @@ const data = [
     "name": "BEACH TOWEL AMERICANA 101*183",
     "price": 59,
     "stock": 1357,
-    "sales": 325,
+    "sales": 49,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -109927,7 +109927,7 @@ const data = [
     "name": "BEACH TOWEL DAY THE SEA 101*183",
     "price": 59,
     "stock": 1524,
-    "sales": 224,
+    "sales": 30,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -109987,7 +109987,7 @@ const data = [
     "name": "TOWEL KITC IVORY BTP-660",
     "price": 9,
     "stock": 920,
-    "sales": 192,
+    "sales": 99,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -110047,7 +110047,7 @@ const data = [
     "name": "TOWEL KITC SAGE BTP-660",
     "price": 9,
     "stock": 920,
-    "sales": 160,
+    "sales": 81,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 0,
@@ -110107,7 +110107,7 @@ const data = [
     "name": "TOWEL KITC GREY BTP-660",
     "price": 9,
     "stock": 920,
-    "sales": 156,
+    "sales": 87,
     "branches": {
       "04-Andalos Mall": 22,
       "05-Haifa Mall": 0,
@@ -110167,7 +110167,7 @@ const data = [
     "name": "TOWEL KITC GREEN BTP-660",
     "price": 9,
     "stock": 552,
-    "sales": 106,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -110227,7 +110227,7 @@ const data = [
     "name": "TOWEL KITC MUSTARD BTP-660",
     "price": 9,
     "stock": 552,
-    "sales": 105,
+    "sales": 33,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 0,
@@ -110287,7 +110287,7 @@ const data = [
     "name": "TOWEL KITC CHARCOAL BTP-660",
     "price": 9,
     "stock": 552,
-    "sales": 82,
+    "sales": 46,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 0,
@@ -110347,7 +110347,7 @@ const data = [
     "name": "TOWEL KITC WHITE BTP-668",
     "price": 9,
     "stock": 704,
-    "sales": 120,
+    "sales": 109,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 2,
@@ -110407,7 +110407,7 @@ const data = [
     "name": "TOWEL KITC SKY BTP-668",
     "price": 9,
     "stock": 704,
-    "sales": 129,
+    "sales": 92,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 0,
@@ -110467,7 +110467,7 @@ const data = [
     "name": "TOWEL KITC BLUSH PINK BTP-668",
     "price": 9,
     "stock": 880,
-    "sales": 180,
+    "sales": 76,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 8,
@@ -110527,7 +110527,7 @@ const data = [
     "name": "TOWEL KITC SHADOW GREY BTP-668",
     "price": 9,
     "stock": 880,
-    "sales": 153,
+    "sales": 73,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 0,
@@ -110587,7 +110587,7 @@ const data = [
     "name": "TOWEL KITC TEAL BTP-668",
     "price": 9,
     "stock": 528,
-    "sales": 91,
+    "sales": 53,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 1,
@@ -110647,7 +110647,7 @@ const data = [
     "name": "TOWEL KITC BLACK BTP-668",
     "price": 9,
     "stock": 528,
-    "sales": 77,
+    "sales": 61,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 0,
@@ -110707,7 +110707,7 @@ const data = [
     "name": "TOWEL KITC PINK BTP-861",
     "price": 9,
     "stock": 728,
-    "sales": 102,
+    "sales": 66,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 2,
@@ -110767,7 +110767,7 @@ const data = [
     "name": "TOWEL KITC AQUA BTP-861",
     "price": 9,
     "stock": 728,
-    "sales": 111,
+    "sales": 65,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 4,
@@ -110827,7 +110827,7 @@ const data = [
     "name": "TOWEL KITC DK.PEACH BTP-861",
     "price": 9,
     "stock": 728,
-    "sales": 113,
+    "sales": 61,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 4,
@@ -110887,7 +110887,7 @@ const data = [
     "name": "TOWEL KITC DENIM BTP-861",
     "price": 9,
     "stock": 728,
-    "sales": 117,
+    "sales": 62,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 0,
@@ -110947,7 +110947,7 @@ const data = [
     "name": "TOWEL KITC LT.GREY BTP-861",
     "price": 9,
     "stock": 910,
-    "sales": 89,
+    "sales": 67,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 13,
@@ -111007,7 +111007,7 @@ const data = [
     "name": "TOWEL KITC COBALT BTP-861",
     "price": 9,
     "stock": 546,
-    "sales": 66,
+    "sales": 44,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 1,
@@ -111067,7 +111067,7 @@ const data = [
     "name": "TOWEL KITC GOLD BTP-867",
     "price": 9,
     "stock": 816,
-    "sales": 106,
+    "sales": 52,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 0,
@@ -111127,7 +111127,7 @@ const data = [
     "name": "TOWEL KITC MAGENTA BTP-867",
     "price": 9,
     "stock": 816,
-    "sales": 105,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 0,
@@ -111187,7 +111187,7 @@ const data = [
     "name": "TOWEL KITC BRIGHT PINK BTP-867",
     "price": 9,
     "stock": 816,
-    "sales": 101,
+    "sales": 53,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 0,
@@ -111247,7 +111247,7 @@ const data = [
     "name": "TOWEL KITC DK.MAGENT BTP-867",
     "price": 9,
     "stock": 816,
-    "sales": 117,
+    "sales": 49,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 0,
@@ -111307,7 +111307,7 @@ const data = [
     "name": "TOWEL KITC BRIGHT AQUA BTP-867",
     "price": 9,
     "stock": 816,
-    "sales": 104,
+    "sales": 54,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 14,
@@ -111367,7 +111367,7 @@ const data = [
     "name": "TOWEL KITC ROYAL BLUE BTP-867",
     "price": 9,
     "stock": 816,
-    "sales": 102,
+    "sales": 44,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 0,
@@ -111427,7 +111427,7 @@ const data = [
     "name": "TOWEL KITC PINTEREST ROSE",
     "price": 9,
     "stock": 1602,
-    "sales": 304,
+    "sales": 144,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 22,
@@ -111487,7 +111487,7 @@ const data = [
     "name": "TOWEL KITC PINTEREST YELLOW",
     "price": 9,
     "stock": 890,
-    "sales": 119,
+    "sales": 51,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 8,
@@ -111547,7 +111547,7 @@ const data = [
     "name": "TOWEL KITC PINTEREST LT.BLUE",
     "price": 9,
     "stock": 890,
-    "sales": 129,
+    "sales": 71,
     "branches": {
       "04-Andalos Mall": 0,
       "05-Haifa Mall": 10,
@@ -111607,7 +111607,7 @@ const data = [
     "name": "TOWEL KITC PINTEREST DUSTY AQUA",
     "price": 9,
     "stock": 890,
-    "sales": 189,
+    "sales": 85,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 0,
