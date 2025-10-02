@@ -309,15 +309,11 @@
     </div>
   </div>
 
- <!-- ملفات ناتجة من الـ Cloud Function بصيغة global -->
-<script src="https://storage.googleapis.com/catalog-cdn-catalog-system-473906/products.js"></script>
-<script src="https://storage.googleapis.com/catalog-cdn-catalog-system-473906/sales_by_outlet.js"></script>
-
-<!-- ثبّت اسم المتغير اللي يستخدمه كودك (data) على ما تولده الدالة (window.products) -->
-<script>
-  const data = Array.isArray(window.products) ? window.products : [];
-</script>
-
+  <script src="products.js"></script>
+  <script type="module">
+    import { SALES_BY_OUTLET } from './sales_by_outlet.js';
+    window.SALES_BY_OUTLET = SALES_BY_OUTLET;
+  </script>
   <script src="https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js"></script>
   <script>
     const firebaseConfig = { apiKey: "AIzaSyDBhsMvDPwECDlFNYNkmFXDVq4nWrEejJc", authDomain: "orders-fb3bf.firebaseapp.com", projectId: "orders-fb3bf", storageBucket: "orders-fb3bf.firebasestorage.app", messagingSenderId: "970674722848", appId: "1:970674722848:web:e2e17f7a62bf59e51f0445" };
