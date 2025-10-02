@@ -134,35 +134,92 @@
   <script src="https://storage.googleapis.com/catalog-cdn-catalog-system-473906/products.js"></script>
   <script src="https://storage.googleapis.com/catalog-cdn-catalog-system-473906/sales_by_outlet.js"></script>
 
-  <!-- ثبّت اسم المتغير اللي يستخدمه كودك (data) على ما تولده الدالة (window.products) -->
+  <!-- توحيد اسم المتغير للمنتجات -->
   <script>
     const data = Array.isArray(window.products) ? window.products : [];
   </script>
 
   <script src="https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js"></script>
-  <script>
-    // ====== تحديث تلقائي لتاريخ آخر تحديث من CDN ======
-    (function loadLastUpdate() {
-      const url = "https://storage.googleapis.com/catalog-cdn-catalog-system-473906/last_update.json?_=" + Date.now();
-      fetch(url)
-        .then(r => r.ok ? r.json() : null)
-        .then(j => {
-          if (j && j.updated_at) {
-            const dt = new Date(j.updated_at);
-            const opts = { year: 'numeric', month: '2-digit', day: '2-digit',
-                           hour: '2-digit', minute: '2-digit' };
-            document.getElementById('lastUpdated').textContent =
-              'آخر تحديث: ' + dt.toLocaleString('ar-EG', opts);
-          } else {
-            document.getElementById('lastUpdated').textContent = 'آخر تحديث: غير متوفر';
-          }
-        })
-        .catch(() => {
-          document.getElementById('lastUpdated').textContent = 'آخر تحديث: غير متوفر';
-        });
-    })();
 
-    // ====== Firebase + بقية منطق الصفحة كما هو ======
+  <!-- ====== سكربت “آخر تحديث” المُحسَّن (بتوقيت الرياض وصيغة عربية، مع قصّ microseconds) ====== -->
+  <!-- ====== سكربت “آخر تحديث” (وقت بالإنجليزية، بلا إحصاءات) ====== -->
+<script>
+(function(){
+  const LAST_UPDATE_URL = "https://storage.googleapis.com/catalog-cdn-catalog-system-473906/last_update.json";
+  function $(id){ return document.getElementById(id); }
+
+  // قصّ أي microseconds إلى 3 خانات وضمان وجود المنطقة الزمنية
+  function parseISOCompat(iso) {
+    if (typeof iso !== "string") return null;
+    const m = iso.match(/^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})(\.\d+)?(?:\s*)?(Z|[+-]\d{2}:\d{2})?$/);
+    if (!m) {
+      const d = new Date(iso);
+      return isNaN(d) ? null : d;
+    }
+    const head = m[1];
+    const fracRaw = (m[2] || "");
+    const tz = m[3] || "Z";
+    let milliPart = "";
+    if (fracRaw) {
+      const digits = fracRaw.slice(1);                 // مثل "243880"
+      const three  = (digits.slice(0,3) || "").padEnd(3,"0");
+      milliPart = "." + three;
+    }
+    const d = new Date(head + milliPart + tz);
+    return isNaN(d) ? null : d;
+  }
+
+  function pickTimeField(meta){
+    return meta?.last_update ?? meta?.updated_at ?? meta?.updatedAt ?? meta?.lastUpdated ?? null;
+  }
+
+  // مخرجات إنجليزية مع توقيت الرياض
+  function formatEnglishRiyadh(dt) {
+    return dt.toLocaleString("en", {
+      timeZone: "Asia/Riyadh",
+      year:   "numeric",
+      month:  "2-digit",
+      day:    "2-digit",
+      hour:   "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: false
+    });
+  }
+
+  async function refreshLastUpdated() {
+    const el = $("lastUpdated");
+    if (!el) return;
+    try {
+      const url = `${LAST_UPDATE_URL}?_=${Date.now()}`;
+      const res = await fetch(url, { method: "GET", cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      const meta = await res.json();
+      const timeStr = pickTimeField(meta);
+      const dt = parseISOCompat(timeStr);
+      if (!dt) throw new Error("Invalid or missing timestamp");
+
+      const when = formatEnglishRiyadh(dt);
+      // بدون أي إحصاءات إضافية
+      el.textContent = `آخر تحديث: ${when}`;
+    } catch (e) {
+      console.error("فشل جلب آخر تحديث:", e);
+      $("lastUpdated").textContent = "آخر تحديث: غير متوفر";
+    }
+  }
+
+  refreshLastUpdated();
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) refreshLastUpdated();
+  });
+})();
+</script>
+<!-- ====== نهاية سكربت “آخر تحديث” ====== -->
+
+
+  <!-- ====== Firebase + منطق الصفحة ====== -->
+  <script>
     const firebaseConfig = { apiKey: "AIzaSyDBhsMvDPwECDlFNYNkmFXDVq4nWrEejJc", authDomain: "orders-fb3bf.firebaseapp.com", projectId: "orders-fb3bf", storageBucket: "orders-fb3bf.firebasestorage.app", messagingSenderId: "970674722848", appId: "1:970674722848:web:e2e17f7a62bf59e51f0445" };
     firebase.initializeApp(firebaseConfig);
     const db = firebase.firestore();
