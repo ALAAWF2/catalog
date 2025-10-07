@@ -9,7 +9,23 @@
   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
   <!-- نحمل المنتجات مبكراً بدون defer ليكون data مُعرّفاً قبل سكربت الصفحة -->
-  <script src="products.js"></script>
+  
+  <!-- Load products from CDN (no-store) -->
+  <script src="https://storage.googleapis.com/catalog-cdn-catalog-system-473906/products.js"></script>
+  <script>
+    // Normalize to window.data and legacy global var data
+    (function(){
+      if (Array.isArray(window.products)) {
+        window.data = window.products;
+      } else if (Array.isArray(window.data)) {
+        // already set
+      } else {
+        window.data = [];
+      }
+      try { window.eval('var data = window.data;'); } catch(_) {}
+    })();
+  </script>
+    
 
   <style>
     body {
@@ -249,7 +265,7 @@
       if (!q || q.length < 4) {
         resultsBody.innerHTML = '';
         resultsTable.classList.add('hidden');
-        toggleStatus('اكتب اسم الايتم او رقم الباركود او alias');
+        toggleStatus('اكتب 4 أحرف على الأقل من الاسم أو الكود أو الـ alias');
         return;
       }
 
