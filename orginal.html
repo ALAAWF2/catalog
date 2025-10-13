@@ -31,8 +31,6 @@
     .loading-spinner { display: none; text-align: center; margin: 20px 0; }
     .loading-spinner.active { display: block; }
     .image-container { position: relative; overflow: hidden; border-radius: 8px; }
-    .badge-new{ position:absolute; top:8px; left:8px; background:#27ae60; color:#fff; padding:4px 8px; border-radius:6px; font-size:12px; font-weight:bold; box-shadow:0 2px 6px rgba(0,0,0,0.15); z-index: 2; }
-    .card-wrap{ position:relative; }
     .product-overlay { position: absolute; top: 10px; right: 10px; display: flex; gap: 5px; opacity: 0; transition: opacity 0.3s ease; }
     .product:hover .product-overlay { opacity: 1; }
     .favorite-btn, .share-btn { background: white; border: none; border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: transform 0.2s ease; }
@@ -78,12 +76,6 @@
         <option value="alias-asc">ترتيب بحسب شجرة المنتج</option>
       </select>
     </label>
-
-    <label style="margin-inline-start:10px;">
-      <input type="checkbox" id="newOnly" onchange="renderProducts()">
-      عرض البضاعة الواصلة جديد فقط
-    </label>
-
     <input type="text" id="searchInput" placeholder="ابحث بالـ Alias..." oninput="renderProducts()" autocomplete="off" />
     <input type="text" id="barcodeInput" placeholder="امسح الباركود..." onkeypress="handleBarcodeInput(event)" autocomplete="off" name="no-autofill-barcode" />
     <button id="sendOrderBtn" onclick="openOrderModal()" style="display:none;">ارسال الطلبية</button>
@@ -138,191 +130,95 @@
     </div>
   </div>
 
-  <!-- ملفات ناتجة من الـ Cloud Function -->
+  <!-- ملفات ناتجة من الـ Cloud Function (مع Cache-Control:no-store من السيرفر) -->
   <script src="https://storage.googleapis.com/catalog-cdn-catalog-system-473906/products.js"></script>
   <script src="https://storage.googleapis.com/catalog-cdn-catalog-system-473906/sales_by_outlet.js"></script>
 
-  <!-- first_seen.json + منطق "جديد" -->
+  <!-- توحيد اسم المتغير للمنتجات -->
   <script>
-    const FIRST_SEEN_URL = "https://storage.googleapis.com/catalog-cdn-catalog-system-473906/first_seen.json";
-    const NEW_WINDOW_DAYS = 14;
-    let FIRST_SEEN = {};
-
-    async function loadFirstSeen() {
-      try {
-        const res = await fetch(FIRST_SEEN_URL + "?_=" + Date.now(), {cache: "no-store"});
-        if (!res.ok) throw new Error("HTTP " + res.status);
-        FIRST_SEEN = await res.json();
-      } catch (e) {
-        console.warn("تعذر تحميل first_seen.json:", e);
-        FIRST_SEEN = {};
-      }
-    }
-    function isNewArrival(code) {
-      const fs = FIRST_SEEN?.[String(code)];
-      if (!fs) return false;
-      const fsDt = new Date(fs);
-      const lastIso = document.getElementById("lastUpdated")?.dataset?.iso;
-      const lastDt = lastIso ? new Date(lastIso) : new Date();
-      const diffMs = lastDt - fsDt;
-      const diffDays = diffMs / (1000*60*60*24);
-      return diffDays >= 0 && diffDays <= NEW_WINDOW_DAYS;
-    }
-  </script>
-
-  <!-- ✅ تجميع المنتجات: نعرض نسخة الكِت فقط ونجمع المخزون والفروع -->
-  <script>
-    // 1) تعريف أنماط الكِت
-  const KIT_PATTERNS = [
-    /\bkit\b/i,
-    /\bwith\s*sheets?\b/i,
-    /\b\d+\s*pcs?\s*kit\b/i,
-    /طقم/i,
-    /مع\s*(الشراشف|شرشف|ملاية|ملايات)/i
-  ];
-  function isKitProduct(p){
-    const n = String(p?.name || "");
-    return KIT_PATTERNS.some(rx => rx.test(n));
-  }
-
-  function canonicalizeName(name){
-    let s = String(name || "");
-    if (s.normalize) s = s.normalize("NFKD");
-    s = s.toUpperCase();
-    s = s.replace(/\bEMB\w*DERY\b/g, "EMBROIDERY");
-    s = s.replace(/\bWITH\s*SHEETS?\b/g, " ");
-    s = s.replace(/\b(KIT|SET)\b/g, " ");
-    s = s.replace(/\bP(?:IECE)?S?\b/g, " ");
-    s = s.replace(/(?:\b|^)(?:طقم|مع\s*(?:الشراشف|شرشف|ملاية|ملايات))(?:\b|$)/g, " ");
-    s = s.replace(/\b\d+\s*PCS?\s*KIT\b/g, " ");
-    s = s.replace(/[0-9]+/g, " ");
-    s = s.replace(/[٠-٩]+/g, " ");
-    s = s.replace(/[^\p{L}\s]+/gu, " ");
-    s = s.replace(/\s+/g, " ").trim();
-    return s.replace(/\s+/g, "");
-  }
-
-  // ⬅️ كل المنتجات الخام كما هي
-  const RAW = Array.isArray(window.products) ? window.products : [];
-
-  // ⬅️ نبني data حسب المستودع الحالي فقط
-  function rebuildDataForWarehouse(warehouse){
-    if (!warehouse) { window.data = []; return; }
-
-    // 1) قَيِّد البيانات على المستودع الحالي فقط
-    const src = RAW.filter(p => p.outlet === warehouse);
-
-    // 2) تجميع حسب الاسم الأساسي
-    const groups = new Map();
-    for (const p of src){
-      const key = canonicalizeName(p.name);
-      if (!groups.has(key)) groups.set(key, []);
-      groups.get(key).push(p);
-    }
-
-    // 3) إخراج:
-    //   - إذا بالمجموعة كِت => اعرض الكِت فقط + اجمع المخزون/الفروع/المبيعات
-    //   - إذا ما فيها كِت => اعرض العناصر كما هي (بدون دمج)
-    const out = [];
-    for (const arr of groups.values()){
-      const kits = arr.filter(isKitProduct);
-
-      if (kits.length > 0){
-        const rep = kits[0];
-        const totalStock = arr.reduce((s,p)=> s + (Number(p.stock)||0), 0);
-        const totalSales = arr.reduce((s,p)=> s + (Number(p.sales)||0), 0);
-        const mergedBranches = {};
-        for (const p of arr){
-          const br = p.branches || {};
-          for (const mall in br){
-            mergedBranches[mall] = (mergedBranches[mall]||0) + (Number(br[mall])||0);
-          }
-        }
-        out.push({ ...rep, stock: totalStock, branches: mergedBranches, sales: totalSales });
-      } else {
-        out.push(...arr);
-      }
-    }
-
-    window.data = out; // ← المتغيّر الوحيد المستخدم لاحقًا
-	}
+    const data = Array.isArray(window.products) ? window.products : [];
   </script>
 
   <script src="https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js"></script>
 
-  <!-- سكربت “آخر تحديث” -->
-  <script>
-  (function(){
-    const LAST_UPDATE_URL = "https://storage.googleapis.com/catalog-cdn-catalog-system-473906/last_update.json";
-    function $(id){ return document.getElementById(id); }
+  <!-- ====== سكربت “آخر تحديث” المُحسَّن (بتوقيت الرياض وصيغة عربية، مع قصّ microseconds) ====== -->
+  <!-- ====== سكربت “آخر تحديث” (وقت بالإنجليزية، بلا إحصاءات) ====== -->
+<script>
+(function(){
+  const LAST_UPDATE_URL = "https://storage.googleapis.com/catalog-cdn-catalog-system-473906/last_update.json";
+  function $(id){ return document.getElementById(id); }
 
-    function parseISOCompat(iso) {
-      if (typeof iso !== "string") return null;
-      const m = iso.match(/^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})(\.\d+)?(?:\s*)?(Z|[+-]\d{2}:\d{2})?$/);
-      if (!m) {
-        const d = new Date(iso);
-        return isNaN(d) ? null : d;
-      }
-      const head = m[1];
-      const fracRaw = (m[2] || "");
-      const tz = m[3] || "Z";
-      let milliPart = "";
-      if (fracRaw) {
-        const digits = fracRaw.slice(1);
-        const three  = (digits.slice(0,3) || "").padEnd(3,"0");
-        milliPart = "." + three;
-      }
-      const d = new Date(head + milliPart + tz);
+  // قصّ أي microseconds إلى 3 خانات وضمان وجود المنطقة الزمنية
+  function parseISOCompat(iso) {
+    if (typeof iso !== "string") return null;
+    const m = iso.match(/^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})(\.\d+)?(?:\s*)?(Z|[+-]\d{2}:\d{2})?$/);
+    if (!m) {
+      const d = new Date(iso);
       return isNaN(d) ? null : d;
     }
-
-    function pickTimeField(meta){
-      return meta?.last_update ?? meta?.updated_at ?? meta?.updatedAt ?? meta?.lastUpdated ?? null;
+    const head = m[1];
+    const fracRaw = (m[2] || "");
+    const tz = m[3] || "Z";
+    let milliPart = "";
+    if (fracRaw) {
+      const digits = fracRaw.slice(1);                 // مثل "243880"
+      const three  = (digits.slice(0,3) || "").padEnd(3,"0");
+      milliPart = "." + three;
     }
+    const d = new Date(head + milliPart + tz);
+    return isNaN(d) ? null : d;
+  }
 
-    function formatEnglishRiyadh(dt) {
-      return dt.toLocaleString("en", {
-        timeZone: "Asia/Riyadh",
-        year:   "numeric",
-        month:  "2-digit",
-        day:    "2-digit",
-        hour:   "2-digit",
-        minute: "2-digit",
-        second: "2-digit",
-        hour12: false
-      });
-    }
+  function pickTimeField(meta){
+    return meta?.last_update ?? meta?.updated_at ?? meta?.updatedAt ?? meta?.lastUpdated ?? null;
+  }
 
-    async function refreshLastUpdated() {
-      const el = $("lastUpdated");
-      if (!el) return;
-      try {
-        const url = `${LAST_UPDATE_URL}?_=${Date.now()}`;
-        const res = await fetch(url, { method: "GET", cache: "no-store" });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
-        const meta = await res.json();
-        const timeStr = pickTimeField(meta);
-        const dt = parseISOCompat(timeStr);
-        if (!dt) throw new Error("Invalid or missing timestamp");
-
-        const when = formatEnglishRiyadh(dt);
-        el.textContent = `آخر تحديث: ${when}`;
-        el.dataset.iso = dt.toISOString();
-      } catch (e) {
-        console.error("فشل جلب آخر تحديث:", e);
-        $("lastUpdated").textContent = "آخر تحديث: غير متوفر";
-      }
-    }
-
-    refreshLastUpdated();
-    document.addEventListener("visibilitychange", () => {
-      if (!document.hidden) refreshLastUpdated();
+  // مخرجات إنجليزية مع توقيت الرياض
+  function formatEnglishRiyadh(dt) {
+    return dt.toLocaleString("en", {
+      timeZone: "Asia/Riyadh",
+      year:   "numeric",
+      month:  "2-digit",
+      day:    "2-digit",
+      hour:   "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: false
     });
-  })();
-  </script>
+  }
 
-  <!-- Firebase + منطق الصفحة -->
+  async function refreshLastUpdated() {
+    const el = $("lastUpdated");
+    if (!el) return;
+    try {
+      const url = `${LAST_UPDATE_URL}?_=${Date.now()}`;
+      const res = await fetch(url, { method: "GET", cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      const meta = await res.json();
+      const timeStr = pickTimeField(meta);
+      const dt = parseISOCompat(timeStr);
+      if (!dt) throw new Error("Invalid or missing timestamp");
+
+      const when = formatEnglishRiyadh(dt);
+      // بدون أي إحصاءات إضافية
+      el.textContent = `آخر تحديث: ${when}`;
+    } catch (e) {
+      console.error("فشل جلب آخر تحديث:", e);
+      $("lastUpdated").textContent = "آخر تحديث: غير متوفر";
+    }
+  }
+
+  refreshLastUpdated();
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) refreshLastUpdated();
+  });
+})();
+</script>
+<!-- ====== نهاية سكربت “آخر تحديث” ====== -->
+
+
+  <!-- ====== Firebase + منطق الصفحة ====== -->
   <script>
     const firebaseConfig = { apiKey: "AIzaSyDBhsMvDPwECDlFNYNkmFXDVq4nWrEejJc", authDomain: "orders-fb3bf.firebaseapp.com", projectId: "orders-fb3bf", storageBucket: "orders-fb3bf.firebasestorage.app", messagingSenderId: "970674722848", appId: "1:970674722848:web:e2e17f7a62bf59e51f0445" };
     firebase.initializeApp(firebaseConfig);
@@ -339,37 +235,28 @@
     const productsPerPage = 40;
     let filteredProducts = [], currentPage = 1;
 
-auth.onAuthStateChanged(async user => {
-  currentUser = user;
-  document.getElementById('sendOrderBtn').style.display = user ? 'inline-block' : 'none';
-  document.getElementById('crossOutletSearchBtn').style.display = user ? 'inline-block' : 'none';
-  document.getElementById('loginBtn').textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
+    auth.onAuthStateChanged(async user => {
+      currentUser = user;
+      document.getElementById('sendOrderBtn').style.display = user ? 'inline-block' : 'none';
+      document.getElementById('crossOutletSearchBtn').style.display = user ? 'inline-block' : 'none';
+      document.getElementById('loginBtn').textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
 
-  if (user) {
-    const doc = await db.collection("users").doc(user.uid).get();
-    userWarehouse = doc.data()?.warehouse ?? "";
-    userMall      = doc.data()?.mall ?? "";
+      if (user) {
+        const doc = await db.collection("users").doc(user.uid).get();
+        userWarehouse = doc.data()?.warehouse ?? "";
+        userMall = doc.data()?.mall ?? "";
+        document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
+        populateFilters();
+        renderProducts();
+        resetLogoutTimer();
+      } else {
+        cart = {};
+        userWarehouse = "";
+        document.getElementById('userInfo').textContent = '';
+        renderProducts();
+      }
+    });
 
-    document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
-
-    // ⬅️ مهم: ابنِ data من مستودع المستخدم فقط
-    rebuildDataForWarehouse(userWarehouse);
-
-    // بعدها فعّل الفلاتر والرندر
-    populateFilters();
-    await loadFirstSeen();
-    renderProducts();
-    resetLogoutTimer();
-  } else {
-    cart = {};
-    userWarehouse = "";
-    userMall = "";
-    // ⬅️ امسح البيانات المعروضة
-    window.data = [];
-    document.getElementById('userInfo').textContent = '';
-    renderProducts();
-  }
-});
     function resetLogoutTimer() {
       clearTimeout(logoutTimer);
       logoutTimer = setTimeout(() => {
@@ -418,53 +305,45 @@ auth.onAuthStateChanged(async user => {
     function closeOrderModal() { document.getElementById('orderModal').style.display = 'none'; }
 
     async function submitOrder() {
-  if (submitting) return;
+      if (submitting) return;
+      submitting = true;
+      const confirmBtn = document.getElementById("confirmOrderBtn");
+      confirmBtn.disabled = true;
+      confirmBtn.textContent = "جاري الإرسال...";
 
-  // ✅ تحققات قبل تعطيل الزر
-  if (!currentUser) { alert("يجب تسجيل الدخول."); return; }
-  if (!userWarehouse || !userMall) { alert("تعذر تحديد بيانات المستخدم."); return; }
-  if (Object.keys(cart).length === 0) { alert("🚫 لا يمكن إرسال طلبية بدون منتجات"); return; }
+      if (!currentUser) return alert("يجب تسجيل الدخول.");
+      if (!userWarehouse || !userMall) return alert("تعذر تحديد بيانات المستخدم.");
+      if (Object.keys(cart).length === 0) return alert("🚫 لا يمكن إرسال طلبية بدون منتجات");
 
-  const confirmBtn = document.getElementById("confirmOrderBtn");
-  submitting = true;
-  confirmBtn.disabled = true;
-  confirmBtn.textContent = "جاري الإرسال...";
+      const hasExtras = document.getElementById("extraItemsCheckbox").checked;
 
-  try {
-    const hasExtras = document.getElementById("extraItemsCheckbox").checked;
-    const catalog = window.data || [];
-
-    const ordersPayload = Object.entries(cart).map(([code, d]) => {
-      const p = catalog.find(x => x.code === code);
-      if (p) {
-        return { code: p.code, name: p.name, alias: d.alias ?? '', qty: Number(d.qty) || 0 };
-      }
-      // في حالة منتج مخصص بالـ Alias فقط
-      return { alias: d.alias ?? '', qty: Number(d.qty) || 0 };
-    });
-
-    await db.collection("orders").add({
-      mall: userMall,
-      warehouse: userWarehouse,
-      hasExtras,
-      userId: currentUser.uid,
-      orders: ordersPayload,
-      timestamp: firebase.firestore.FieldValue.serverTimestamp()
-    });
-
-    showSuccessModal("✅ تم إرسال الطلبية بنجاح");
-    cart = {};
-    closeOrderModal();
-    renderProducts();
-  } catch (err) {
-    alert("❌ حدث خطأ أثناء الحفظ");
-    console.error(err);
-  } finally {
-    submitting = false;
-    confirmBtn.disabled = false;
-    confirmBtn.textContent = "تأكيد الطلبية";
-  }
-}
+      db.collection("orders").add({
+        mall: userMall,
+        warehouse: userWarehouse,
+        hasExtras,
+        userId: currentUser.uid,
+        orders: Object.entries(cart).map(([code, d]) => {
+          const product = data.find(p => p.code === code);
+          if (product) {
+            return { code: product.code, name: product.name, alias: d.alias ?? '', qty: d.qty };
+          }
+          return { alias: d.alias ?? '', qty: d.qty };
+        }),
+        timestamp: firebase.firestore.FieldValue.serverTimestamp()
+      }).then(() => {
+        showSuccessModal("✅ تم إرسال الطلبية بنجاح");
+        cart = {};
+        closeOrderModal();
+        renderProducts();
+      }).catch(err => {
+        alert("❌ حدث خطأ أثناء الحفظ");
+        console.error(err);
+      }).finally(() => {
+        submitting = false;
+        confirmBtn.disabled = false;
+        confirmBtn.textContent = "تأكيد الطلبية";
+      });
+    }
 
     function showSuccessModal(message) {
       const modal = document.createElement('div');
@@ -475,40 +354,33 @@ auth.onAuthStateChanged(async user => {
     }
 
     function populateFilters() {
-  const categories = [...new Set((window.data || []).map(d => d.category))];
-  document.getElementById('categoryFilter').innerHTML =
-    '<option value="">الكل</option>' + categories.map(c => `<option value="${c}">${c}</option>`).join('');
-}
+      const categories = [...new Set(data.map(d => d.category))];
+      document.getElementById('categoryFilter').innerHTML =
+        '<option value="">الكل</option>' + categories.map(c => `<option value="${c}">${c}</option>`).join('');
+    }
 
-    // ✅ الدالة بعد التعديل (شرط outlet/الفروع + توسيع البحث)
-  function renderProducts() {
-  document.getElementById('loadingSpinner').classList.add('active');
+    function renderProducts() {
+      document.getElementById('loadingSpinner').classList.add('active');
 
-  const category   = document.getElementById('categoryFilter').value;
-  const priceRange = document.getElementById('priceFilter').value;
-  const sortBy     = document.getElementById('sortFilter').value;
-  const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
-  const newOnly    = document.getElementById('newOnly')?.checked;
+      const category = document.getElementById('categoryFilter').value;
+      const priceRange = document.getElementById('priceFilter').value;
+      const sortBy = document.getElementById('sortFilter').value;
+      const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
 
-  filteredProducts = (window.data || []).filter(d =>
-    d.stock > 20 &&
-    (!category || d.category === category) &&
-    (!searchTerm
-      || (d.alias && d.alias.toLowerCase().includes(searchTerm))
-      || String(d.code).toLowerCase().includes(searchTerm)
-      || String(d.name).toLowerCase().includes(searchTerm)) &&
-    filterByPrice(d.price, priceRange) &&
-    (!newOnly || isNewArrival(d.code))
-  );
+      filteredProducts = data.filter(d =>
+        d.stock > 20 &&
+        d.outlet === userWarehouse &&
+        (!category || d.category === category) &&
+        (!searchTerm || (d.alias && d.alias.toLowerCase().includes(searchTerm))) &&
+        filterByPrice(d.price, priceRange)
+      );
 
-  sortProducts(sortBy);
-  renderPage(1);
-  updateTotalSales();
+      sortProducts(sortBy);
+      renderPage(1);
+      updateTotalSales();
 
-  setTimeout(() => { 
-    document.getElementById('loadingSpinner').classList.remove('active'); 
-  }, 500);
-}
+      setTimeout(() => { document.getElementById('loadingSpinner').classList.remove('active'); }, 500);
+    }
 
     function filterByPrice(price, range) {
       if (!range) return true;
@@ -552,8 +424,7 @@ auth.onAuthStateChanged(async user => {
       const end = start + productsPerPage;
       const productsToShow = filteredProducts.slice(start, end);
       document.getElementById('productContainer').innerHTML = productsToShow.map(d => `
-        <div class="product card-wrap">
-          ${isNewArrival(d.code) ? '<div class="badge-new">جديد</div>' : ''}
+        <div class="product">
           <img loading="lazy"
                src="images/${d.code}.jpg"
                alt="${d.name}"
@@ -588,14 +459,15 @@ auth.onAuthStateChanged(async user => {
     function changePage(page) { if (page > 0 && page <= Math.ceil(filteredProducts.length / productsPerPage)) renderPage(page); }
     function goToPage(page) { renderPage(Number(page)); }
 
- function addToCart(code, name, qty) {
-  const product = (window.data || []).find(p => p.code === code);
-  if (qty && parseInt(qty) > 0) {
-    cart[code] = { name, alias: product?.alias ?? '', qty };
-  } else {
-    delete cart[code];
-  }
-}
+    function addToCart(code, name, qty) {
+      const product = data.find(p => p.code === code);
+      if (qty && parseInt(qty) > 0) {
+        cart[code] = { name, alias: product?.alias ?? '', qty };
+      } else {
+        delete cart[code];
+      }
+    }
+
     function updateTotalSales() {
       const total = filteredProducts.reduce((sum, p) => {
         const outletSales = window.SALES_BY_OUTLET?.[p.code]?.[userMall] || 0;
@@ -608,8 +480,8 @@ auth.onAuthStateChanged(async user => {
     }
 
     function showProductDetails(code) {
-  const product = (window.data || []).find(p => p.code === code);
-  if (!product) return;
+      const product = data.find(p => p.code === code);
+      if (!product) return;
 
       const modal = document.getElementById('productModal');
       const modalImage = document.getElementById('modalProductImage');
@@ -683,8 +555,8 @@ auth.onAuthStateChanged(async user => {
     function isFavorite(code) { const favorites = JSON.parse(localStorage.getItem('favorites') || '[]'); return favorites.includes(code); }
 
     function shareProduct(code) {
-  const product = (window.data || []).find(p => p.code === code);
-  if (!product) return;
+      const product = data.find(p => p.code === code);
+      if (!product) return;
       const shareText = `منتج: ${product.name}\nالسعر: ${product.price} ريال\nالكود: ${product.code}`;
       if (navigator.share) {
         navigator.share({ title: product.name, text: shareText }).catch(console.error);
