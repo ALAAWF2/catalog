@@ -494,17 +494,26 @@
   </script>
 
   <script>
-   function rebuildDataForWarehouse(warehouse) {
-    if (!warehouse) {
-      window.data = [];
-      return;
-    }
-
-    const RAW = Array.isArray(window.products) ? window.products : [];
-
-    // ✅ بدون KIT، بدون دمج، بدون لعب
-    window.data = RAW.filter(p => p.outlet === warehouse);
+function rebuildDataForWarehouse(warehouse) {
+  if (!warehouse) {
+    window.data = [];
+    return;
   }
+
+  const RAW = Array.isArray(window.products) ? window.products : [];
+  const target = normalizeKey(warehouse);
+
+  window.data = RAW.filter(p => {
+    if (!p.branches) return false;
+
+    for (const branch in p.branches) {
+      if (normalizeKey(branch) === target) {
+        return Number(p.branches[branch]) > 0;
+      }
+    }
+    return false;
+  });
+}
 
   </script>
 
