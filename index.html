@@ -503,16 +503,26 @@ function rebuildDataForWarehouse(warehouse) {
   const RAW = Array.isArray(window.products) ? window.products : [];
   const target = normalizeKey(warehouse);
 
-  window.data = RAW.filter(p => {
-    if (!p.branches) return false;
+  window.data = RAW
+    .map(p => {
+      if (!p.branches) return null;
 
-    for (const branch in p.branches) {
-      if (normalizeKey(branch) === target) {
-        return Number(p.branches[branch]) > 0;
+      let warehouseStock = 0;
+
+      for (const branch in p.branches) {
+        if (normalizeKey(branch) === target) {
+          warehouseStock = Number(p.branches[branch]) || 0;
+        }
       }
-    }
-    return false;
-  });
+
+      if (warehouseStock <= 0) return null;
+
+      return {
+        ...p,
+        stock: warehouseStock // ✅ هنا الإصلاح
+      };
+    })
+    .filter(Boolean);
 }
 
   </script>
