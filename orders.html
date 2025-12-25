@@ -502,13 +502,15 @@
         </div>
         <table id="itemsTable" class="items-table">
           <thead>
-            <tr>
-              <th>الكود</th>
-              <th>الاسم</th>
-              <th>Alias</th>
-              <th>الكمية</th>
-            </tr>
-          </thead>
+  <tr>
+    <th>الكود</th>
+    <th>الاسم (عربي)</th>
+    <th>الاسم (English)</th>
+    <th>Alias</th>
+    <th>الكمية</th>
+  </tr>
+</thead>
+
           <tbody></tbody>
         </table>
       </div>
@@ -528,6 +530,20 @@
       </div>
     </div>
   </div>
+
+<script>
+  function splitName(fullName) {
+    if (!fullName) return ["", ""];
+    const parts = fullName.split(" - ");
+    if (parts.length === 2) {
+      return [parts[0], parts[1]];
+    }
+    return [fullName, ""];
+  }
+</script>
+
+
+
 
   <script>
     const firebaseConfig = {
@@ -675,8 +691,12 @@
           ["المستودع", data.warehouse],
           ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
           [],
-          ["الكود", "الاسم", "Alias", "الكمية"],
-          ...data.orders.map(item => [item.code, item.name, item.alias ?? '', item.qty])
+         ["الكود", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"],
+...data.orders.map(item => {
+  const [nameAr, nameEn] = splitName(item.name);
+  return [item.code, nameAr, nameEn, item.alias ?? '', item.qty];
+})
+
         ];
         const ws = XLSX.utils.aoa_to_sheet(wsData);
         XLSX.utils.book_append_sheet(wb, ws, data.mall.substring(0, 31));
@@ -693,8 +713,12 @@
           ["المستودع", data.warehouse],
           ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
           [],
-          ["الكود", "الاسم", "Alias", "الكمية"],
-          ...data.orders.map(item => [item.code, item.name, item.alias ?? '', item.qty])
+          ["الكود", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"],
+...data.orders.map(item => {
+  const [nameAr, nameEn] = splitName(item.name);
+  return [item.code, nameAr, nameEn, item.alias ?? '', item.qty];
+})
+
         ];
         const ws = XLSX.utils.aoa_to_sheet(wsData);
         XLSX.utils.book_append_sheet(wb, ws, data.mall.substring(0, 31));
@@ -733,13 +757,22 @@
       tbody.innerHTML = "";
       if (!data.orders || !Array.isArray(data.orders)) {
         tbody.innerHTML = "<tr><td colspan='4'>لا توجد تفاصيل</td></tr>";
-      } else {
-        data.orders.forEach(item => {
-          const row = document.createElement("tr");
-          row.innerHTML = `<td>${item.code}</td><td>${item.name}</td><td>${item.alias ?? ''}</td><td>${item.qty}</td>`;
-          tbody.appendChild(row);
-        });
-      }
+     } else {
+  data.orders.forEach(item => {
+    const [nameAr, nameEn] = splitName(item.name);
+
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>${item.code}</td>
+      <td>${nameAr}</td>
+      <td>${nameEn}</td>
+      <td>${item.alias ?? ''}</td>
+      <td>${item.qty}</td>
+    `;
+    tbody.appendChild(row);
+  });
+}
+
       document.getElementById("modal").style.display = "flex";
     }
 
@@ -747,46 +780,56 @@
       document.getElementById("modal").style.display = "none";
     }
 
-    function downloadExcel() {
-      if (!currentOrder) return;
-      const wb = XLSX.utils.book_new();
-      const wsData = [
-        ["اسم المعرض", currentOrder.mall],
-        ["المستودع", currentOrder.warehouse],
-        ["مستلزمات إضافية", currentOrder.hasExtras ? "نعم" : "لا"],
-        [],
-        ["الكود", "الاسم", "Alias", "الكمية"]
-      ];
-      if (Array.isArray(currentOrder.orders)) {
-        currentOrder.orders.forEach(item => wsData.push([
-          item.code, item.name, item.alias ?? '', item.qty
-        ]));
-      }
-      const ws = XLSX.utils.aoa_to_sheet(wsData);
-      XLSX.utils.book_append_sheet(wb, ws, "طلبية");
-      XLSX.writeFile(wb, `طلبية ${currentOrder.mall}.xlsx`);
-    }
+function downloadExcel() {
+  if (!currentOrder) return;
 
-    function downloadExcelDirect(docId) {
-      const data = orderMap.get(docId);
-      if (!data) return;
-      const wb = XLSX.utils.book_new();
-      const wsData = [
-        ["اسم المعرض", data.mall],
-        ["المستودع", data.warehouse],
-        ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
-        [],
-        ["الكود", "الاسم", "Alias", "الكمية"]
-      ];
-      if (Array.isArray(data.orders)) {
-        data.orders.forEach(item => wsData.push([
-          item.code, item.name, item.alias ?? '', item.qty
-        ]));
-      }
-      const ws = XLSX.utils.aoa_to_sheet(wsData);
-      XLSX.utils.book_append_sheet(wb, ws, "طلبية");
-      XLSX.writeFile(wb, `طلبية ${data.mall}.xlsx`);
-    }
+  const wb = XLSX.utils.book_new();
+  const wsData = [
+    ["اسم المعرض", currentOrder.mall],
+    ["المستودع", currentOrder.warehouse],
+    ["مستلزمات إضافية", currentOrder.hasExtras ? "نعم" : "لا"],
+    [],
+    ["الكود", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"]
+  ];
+
+  if (Array.isArray(currentOrder.orders)) {
+    currentOrder.orders.forEach(item => {
+      const [nameAr, nameEn] = splitName(item.name);
+      wsData.push([item.code, nameAr, nameEn, item.alias ?? "", item.qty]);
+    });
+  }
+
+  const ws = XLSX.utils.aoa_to_sheet(wsData);
+  XLSX.utils.book_append_sheet(wb, ws, "طلبية");
+  XLSX.writeFile(wb, `طلبية ${currentOrder.mall}.xlsx`);
+}
+
+
+ function downloadExcelDirect(docId) {
+  const data = orderMap.get(docId);
+  if (!data) return;
+
+  const wb = XLSX.utils.book_new();
+  const wsData = [
+    ["اسم المعرض", data.mall],
+    ["المستودع", data.warehouse],
+    ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
+    [],
+    ["الكود", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"]
+  ];
+
+  if (Array.isArray(data.orders)) {
+    data.orders.forEach(item => {
+      const [nameAr, nameEn] = splitName(item.name);
+      wsData.push([item.code, nameAr, nameEn, item.alias ?? "", item.qty]);
+    });
+  }
+
+  const ws = XLSX.utils.aoa_to_sheet(wsData);
+  XLSX.utils.book_append_sheet(wb, ws, "طلبية");
+  XLSX.writeFile(wb, `طلبية ${data.mall}.xlsx`);
+}
+
 
     function updateStatus(docId) {
       db.collection("orders").doc(docId).update({ status: "تم الإرسال" })
