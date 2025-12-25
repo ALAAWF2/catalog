@@ -654,7 +654,14 @@ function rebuildDataForWarehouse(warehouse) {
         const ordersPayload = Object.entries(cart).map(([code, d]) => {
           const p = catalog.find(x => x.code === code);
           if (p) {
-            return { code: p.code, name: p.name, alias: d.alias ?? '', qty: Number(d.qty) || 0 };
+            return { 
+  code: p.code,
+  gofrugal_code: p.gofrugal_code ?? "",   // ✅ هذا هو السطر المطلوب
+  name: p.name,
+  alias: d.alias ?? '',
+  qty: Number(d.qty) || 0
+};
+
           }
           return { alias: d.alias ?? '', qty: Number(d.qty) || 0 };
         });
