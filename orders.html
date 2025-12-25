@@ -691,10 +691,18 @@
           ["المستودع", data.warehouse],
           ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
           [],
-         ["الكود", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"],
+         ["كود Dynamics", "كود GoFrugal", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"],
 ...data.orders.map(item => {
   const [nameAr, nameEn] = splitName(item.name);
-  return [item.code, nameAr, nameEn, item.alias ?? '', item.qty];
+  return [
+  item.code,
+  String(item.gofrugal_code ?? ""),
+  nameAr,
+  nameEn,
+  item.alias ?? "",
+  item.qty
+];
+
 })
 
         ];
@@ -713,10 +721,18 @@
           ["المستودع", data.warehouse],
           ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
           [],
-          ["الكود", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"],
+          ["كود Dynamics", "كود GoFrugal", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"],
 ...data.orders.map(item => {
   const [nameAr, nameEn] = splitName(item.name);
-  return [item.code, nameAr, nameEn, item.alias ?? '', item.qty];
+  return [
+  item.code,
+  String(item.gofrugal_code ?? ""),
+  nameAr,
+  nameEn,
+  item.alias ?? "",
+  item.qty
+];
+
 })
 
         ];
@@ -789,13 +805,22 @@ function downloadExcel() {
     ["المستودع", currentOrder.warehouse],
     ["مستلزمات إضافية", currentOrder.hasExtras ? "نعم" : "لا"],
     [],
-    ["الكود", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"]
+    ["كود Dynamics", "كود GoFrugal", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"]
+
   ];
 
   if (Array.isArray(currentOrder.orders)) {
     currentOrder.orders.forEach(item => {
       const [nameAr, nameEn] = splitName(item.name);
-      wsData.push([item.code, nameAr, nameEn, item.alias ?? "", item.qty]);
+      wsData.push([
+  item.code,
+  String(item.gofrugal_code ?? ""),
+  nameAr,
+  nameEn,
+  item.alias ?? "",
+  item.qty
+]);
+
     });
   }
 
@@ -815,13 +840,21 @@ function downloadExcel() {
     ["المستودع", data.warehouse],
     ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
     [],
-    ["الكود", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"]
+    ["كود Dynamics", "كود GoFrugal", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"]
   ];
 
   if (Array.isArray(data.orders)) {
     data.orders.forEach(item => {
       const [nameAr, nameEn] = splitName(item.name);
-      wsData.push([item.code, nameAr, nameEn, item.alias ?? "", item.qty]);
+      wsData.push([
+  item.code,
+  String(item.gofrugal_code ?? ""),
+  nameAr,
+  nameEn,
+  item.alias ?? "",
+  item.qty
+]);
+
     });
   }
 
