@@ -778,6 +778,7 @@ function rebuildDataForWarehouse(warehouse) {
           loading="lazy"
           data-code="${d.code}"
           data-alias="${d.alias ?? ''}"
+          data-gofrugal="${d.gofrugal_code ?? ''}"
           src=""
           alt="${d.name}"
           class="loading"
@@ -857,6 +858,7 @@ function rebuildDataForWarehouse(warehouse) {
       modalImage.className = 'modal-image loading';
       modalImage.dataset.code = product.code;
       modalImage.dataset.alias = product.alias ?? '';
+      modalImage.dataset.gofrugal = product.gofrugal_code ?? '';
       modalImage.src = 'images/placeholder.png';
 
       modalImage.onload = () => modalImage.classList.remove('loading');
@@ -967,12 +969,18 @@ function rebuildDataForWarehouse(warehouse) {
 
       const alias = (img.dataset.alias || "").trim();
       const code = (img.dataset.code || "").trim();
+      const gofrugal = (img.dataset.gofrugal || "").trim();
 
       const attempts = [];
 
       if (code) {
         attempts.push(`images/${code}.jpg`);
         attempts.push(`images/${code}.jpeg`);
+      }
+
+      if (gofrugal) {
+        attempts.push(`images/${gofrugal}.jpg`);
+        attempts.push(`images/${gofrugal}.jpeg`);
       }
 
       if (alias) {
