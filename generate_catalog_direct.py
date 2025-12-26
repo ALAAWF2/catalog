@@ -4,7 +4,8 @@ import requests
 import pandas as pd
 import msal
 from dotenv import load_dotenv
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 # =========================
 # CONFIG
@@ -120,7 +121,7 @@ def main():
 
     # Sales (Last 7 Days) - Server Side Filter (Date Only for Safety)
     print("⏳ calculating date filter...")
-    now_utc = datetime.now(datetime.UTC)
+    now_utc = datetime.now(timezone.utc)
     seven_days_ago = (now_utc - timedelta(days=7)).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # Relaxed filter: Only filter by date on server to avoid 400 errors with Enums/Quantity
