@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +9,27 @@
   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
-  <!-- نحمل المنتجات مبكراً بدون defer ليكون data مُعرّفاً قبل سكربت الصفحة -->
-  
-  <!-- Load products from CDN (no-store) -->
-  <script src="https://storage.googleapis.com/catalog-cdn-catalog-system-473906/products.js"></script>
+  <!-- Load products from local JSON -->
   <script>
-    // Normalize to window.data and legacy global var data
-    (function(){
-      if (Array.isArray(window.products)) {
-        window.data = window.products;
-      } else if (Array.isArray(window.data)) {
-        // already set
-      } else {
+    async function loadLocalCatalog() {
+      try {
+        const productsRes = await fetch("products.json?_=" + Date.now(), { cache: "no-store" });
+        if (!productsRes.ok) throw new Error("Failed to load products.json");
+        window.data = await productsRes.json();
+        console.log("✅ products.json loaded:", window.data.length);
+      } catch (e) {
+        console.error("❌ Catalog load failed:", e);
         window.data = [];
+        document.getElementById('statusMessage').textContent = 'تعذر تحميل بيانات المنتجات.';
+        document.getElementById('statusMessage').classList.remove('hidden');
+        document.getElementById('statusMessage').style.color = '#c0392b';
       }
-      try { window.eval('var data = window.data;'); } catch(_) {}
-    })();
+    }
+
+    // Start loading immediately
+    loadLocalCatalog();
   </script>
-    
+
 
   <style>
     body {
@@ -101,7 +105,7 @@
       font-size: 16px;
       border: 1px solid #f2a365;
       border-radius: 10px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
       transition: border-color 0.3s ease, box-shadow 0.3s ease;
     }
 
@@ -111,7 +115,8 @@
       box-shadow: 0 4px 12px rgba(230, 126, 34, 0.25);
     }
 
-    .status, .outlet-info {
+    .status,
+    .outlet-info {
       margin-bottom: 15px;
       padding: 12px 16px;
       border-radius: 10px;
@@ -126,7 +131,7 @@
       background: #fff;
       border-radius: 12px;
       overflow: hidden;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
 
     thead {
@@ -152,7 +157,9 @@
       border-bottom: none;
     }
 
-    .hidden { display: none !important; }
+    .hidden {
+      display: none !important;
+    }
 
     .loader {
       text-align: center;
@@ -169,6 +176,7 @@
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>البحث عن مخزون المعارض الأخرى</h1>
@@ -201,7 +209,7 @@
     </table>
   </main>
 
-  
+
 
   <script>
     // ===== Firebase =====
@@ -219,21 +227,21 @@
     const auth = firebase.auth();
 
     // ===== DOM refs =====
-    const searchInput  = document.getElementById('searchInput');
-    const resultsBody  = document.getElementById('resultsBody');
+    const searchInput = document.getElementById('searchInput');
+    const resultsBody = document.getElementById('resultsBody');
     const resultsTable = document.getElementById('resultsTable');
-    const statusMessage= document.getElementById('statusMessage');
-    const outletInfo   = document.getElementById('outletInfo');
-    const loader       = document.getElementById('loader');
+    const statusMessage = document.getElementById('statusMessage');
+    const outletInfo = document.getElementById('outletInfo');
+    const loader = document.getElementById('loader');
 
     let currentOutletName = '';
     let userChecked = false;
 
     // ===== Helpers =====
-    function normalize(v){ return (v || '').toString().trim().toLowerCase(); }
+    function normalize(v) { return (v || '').toString().trim().toLowerCase(); }
 
-    function getUserOutletName(userData){
-      if(!userData) return '';
+    function getUserOutletName(userData) {
+      if (!userData) return '';
       return userData.mall || userData.branch || userData.outlet || userData.warehouse || '';
     }
 
@@ -251,12 +259,20 @@
 
     // ===== Rendering (Lazy) =====
     function renderResults(query = '') {
-      const src = (typeof data !== 'undefined') ? data : (window.data || []);
-      if (!Array.isArray(src)) {
-        resultsBody.innerHTML = '';
-        resultsTable.classList.add('hidden');
-        toggleStatus('تعذر تحميل بيانات المنتجات.', 'error');
-        return;
+      const src = window.data || [];
+      if (!Array.isArray(src) || src.length === 0) {
+        // If data is not loaded yet, or empty
+        if (!window.data) {
+          // data is undefined, meaning still loading or failed (if not initialized to empty)
+          // But we initialized it to [] in catch, or it is undefined initially.
+          // Let's just return silently or show loading if query is present?
+          // Since we have specific status messages, let's just wait.
+        }
+        // If it's truly empty after load, that's another case.
+        // For now, let's just stick to the safe empty array.
+        // If the user searches while loading, they just get no results.
+        // Ideally we should show a spinner, but the user asked for simple fix.
+        // The existing code handles empty array by showing status later.
       }
 
       const q = normalize(query);
@@ -366,4 +382,5 @@
     }, 3000);
   </script>
 </body>
+
 </html>
