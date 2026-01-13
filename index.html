@@ -971,27 +971,32 @@ function rebuildDataForWarehouse(warehouse) {
       const code = (img.dataset.code || "").trim();
       const gofrugal = (img.dataset.gofrugal || "").trim();
 
+      // Build candidates list: code -> alias -> gofrugal
+      let candidates = [];
+      [code, alias, gofrugal].forEach(c => {
+        if (c) {
+          candidates.push(c);
+          if (c.toUpperCase().startsWith("KIT-")) {
+            candidates.push(c.substring(4));
+          }
+        }
+      });
+      
+      // Deduplicate
+      candidates = [...new Set(candidates)];
+
+      const extensions = [".jpg", ".jpeg", ".png", ".webp", ".JPG", ".JPEG", ".PNG", ".WEBP"];
       const attempts = [];
 
-      if (code) {
-        attempts.push(`images/${code}.jpg`);
-        attempts.push(`images/${code}.jpeg`);
-      }
-
-      if (gofrugal) {
-        attempts.push(`images/${gofrugal}.jpg`);
-        attempts.push(`images/${gofrugal}.jpeg`);
-      }
-
-      if (alias) {
-        attempts.push(`images/${alias}.jpg`);
-        attempts.push(`images/${alias}.jpeg`);
-      }
+      candidates.forEach(c => {
+        extensions.forEach(ext => {
+           attempts.push(`images/${c}${ext}`);
+        });
+      });
 
       attempts.push("noimage.png");
 
       let index = 0;
-
       const tryNext = () => {
         if (index >= attempts.length) {
           img.classList.add("error");
