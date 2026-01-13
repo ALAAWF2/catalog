@@ -307,7 +307,7 @@
 
 <body>
   <h1>جدول البضاعة</h1>
-  
+
 
   <div id="userInfo"
     style="text-align:center; margin-bottom: 15px; font-size: 18px; color: #e67e22; font-weight: bold;"></div>
@@ -489,48 +489,106 @@
 
   <!-- ✅ تجميع المنتجات: نعرض نسخة الكِت فقط ونجمع المخزون والفروع -->
   <script>
- 
+    function mergeKitData() {
+      if (!Array.isArray(window.products)) return;
 
+      console.log("🔄 Starting KIT Aggregation...");
+
+      // 1. Map all items by code for fast lookup
+      const map = new Map();
+      window.products.forEach(p => map.set(String(p.code), p));
+
+      // 2. Identify KIT items and find their base
+      const itemsToRemove = new Set();
+
+      window.products.forEach(p => {
+        const code = String(p.code);
+
+        // Check if this is a KIT item
+        if (code.toUpperCase().startsWith("KIT-")) {
+          const baseCode = code.replace(/^KIT-/i, ""); // Remove KIT- prefix
+
+          const baseItem = map.get(baseCode);
+
+          if (baseItem) {
+            // console.log(`🔗 Merging Base ${baseCode} into KIT ${code}`);
+
+            // Merge Sales (Global)
+            p.sales = (Number(p.sales) || 0) + (Number(baseItem.sales) || 0);
+
+            // Merge Branches (Stock)
+            if (baseItem.branches) {
+              if (!p.branches) p.branches = {};
+              for (const [branch, qty] of Object.entries(baseItem.branches)) {
+                p.branches[branch] = (Number(p.branches[branch]) || 0) + (Number(qty) || 0);
+              }
+            }
+
+            // Merge Sales By Outlet
+            // We need to update window.SALES_BY_OUTLET for the KIT code
+            if (window.SALES_BY_OUTLET) {
+              const baseSales = window.SALES_BY_OUTLET[baseCode] || {};
+              const kitSales = window.SALES_BY_OUTLET[code] || {};
+
+              for (const [outlet, qty] of Object.entries(baseSales)) {
+                kitSales[outlet] = (Number(kitSales[outlet]) || 0) + (Number(qty) || 0);
+              }
+
+              window.SALES_BY_OUTLET[code] = kitSales;
+            }
+
+            // Mark base item for removal
+            itemsToRemove.add(baseCode);
+          }
+        }
+      });
+
+      // 3. Remove base items
+      if (itemsToRemove.size > 0) {
+        window.products = window.products.filter(p => !itemsToRemove.has(String(p.code)));
+        console.log(`✅ Removed ${itemsToRemove.size} base items merged into KITs.`);
+      }
+    }
   </script>
 
   <script>
-function rebuildDataForWarehouse(warehouse) {
-  if (!warehouse) {
-    window.data = [];
-    return;
-  }
-
-  const RAW = Array.isArray(window.products) ? window.products : [];
-  const target = normalizeKey(warehouse);
-
-  window.data = RAW
-    .map(p => {
-      if (!p.branches) return null;
-
-      let warehouseStock = 0;
-
-      for (const branch in p.branches) {
-        if (normalizeKey(branch) === target) {
-          warehouseStock = Number(p.branches[branch]) || 0;
-        }
+    function rebuildDataForWarehouse(warehouse) {
+      if (!warehouse) {
+        window.data = [];
+        return;
       }
 
-      if (warehouseStock <= 0) return null;
+      const RAW = Array.isArray(window.products) ? window.products : [];
+      const target = normalizeKey(warehouse);
 
-      return {
-        ...p,
-        stock: warehouseStock // ✅ هنا الإصلاح
-      };
-    })
-    .filter(Boolean);
-}
+      window.data = RAW
+        .map(p => {
+          if (!p.branches) return null;
+
+          let warehouseStock = 0;
+
+          for (const branch in p.branches) {
+            if (normalizeKey(branch) === target) {
+              warehouseStock = Number(p.branches[branch]) || 0;
+            }
+          }
+
+          if (warehouseStock <= 0) return null;
+
+          return {
+            ...p,
+            stock: warehouseStock // ✅ هنا الإصلاح
+          };
+        })
+        .filter(Boolean);
+    }
 
   </script>
 
   <script src="https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js"></script>
 
   <!-- سكربت “آخر تحديث” -->
-  
+
 
   <!-- Firebase + منطق الصفحة -->
   <script>
@@ -572,6 +630,7 @@ function rebuildDataForWarehouse(warehouse) {
         // ✅ ترتيب التحميل الصحيح
         await loadLocalCatalog();
         await loadSalesByOutlet();   // ✅ الجديد
+        mergeKitData(); // ✅ دمج بيانات الـ KIT
         rebuildDataForWarehouse(userWarehouse);
 
         populateFilters();
@@ -654,13 +713,13 @@ function rebuildDataForWarehouse(warehouse) {
         const ordersPayload = Object.entries(cart).map(([code, d]) => {
           const p = catalog.find(x => x.code === code);
           if (p) {
-            return { 
-  code: p.code,
-  gofrugal_code: p.gofrugal_code ?? "",   // ✅ هذا هو السطر المطلوب
-  name: p.name,
-  alias: d.alias ?? '',
-  qty: Number(d.qty) || 0
-};
+            return {
+              code: p.code,
+              gofrugal_code: p.gofrugal_code ?? "",   // ✅ هذا هو السطر المطلوب
+              name: p.name,
+              alias: d.alias ?? '',
+              qty: Number(d.qty) || 0
+            };
 
           }
           return { alias: d.alias ?? '', qty: Number(d.qty) || 0 };
@@ -981,7 +1040,7 @@ function rebuildDataForWarehouse(warehouse) {
           }
         }
       });
-      
+
       // Deduplicate
       candidates = [...new Set(candidates)];
 
@@ -990,7 +1049,7 @@ function rebuildDataForWarehouse(warehouse) {
 
       candidates.forEach(c => {
         extensions.forEach(ext => {
-           attempts.push(`images/${c}${ext}`);
+          attempts.push(`images/${c}${ext}`);
         });
       });
 
