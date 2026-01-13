@@ -40,6 +40,11 @@ def main():
     report_data = []
 
     for p in products:
+        stock = p.get("stock", 0)
+        # Filter: Only include items with stock > 0
+        if stock <= 0:
+             continue
+
         code = str(p.get("code", "")).strip()
         name = p.get("name", "")
         category = p.get("category", "")
@@ -64,8 +69,6 @@ def main():
             if s.upper().startswith("KIT-"):
                 # Add version without "KIT-" (e.g. KIT-123 -> 123)
                 candidates.append(s[4:])
-                # Also try replacing with nothing if it was loosely typed?
-                # Actually user said "without this word", so stripping substring is correct.
         
         for cand in candidates:
             match = check_image_exists(cand)
@@ -79,6 +82,7 @@ def main():
             "Alias": p.get("alias", ""),
             "Gofrugal Code": p.get("gofrugal_code", ""),
             "Category": category_status,
+            "Stock": stock,
             "Image Available": "YES" if found_path else "NO",
             "Matched Image Name": found_path.name if found_path else "",
             "Image Path": str(found_path) if found_path else "" 
