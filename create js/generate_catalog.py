@@ -147,12 +147,33 @@ def main():
     # Fix: Normalize OldItem for mapping (strip whitespace, handle nan)
     df_items_raw["OldItem"] = df_items_raw["OldItem"].astype(str).str.strip().replace("nan", "")
 
+    # Unified Mapping: alias + Item code + dynamic code
+    def get_map(col):
+        if col not in df_table6.columns: return pd.DataFrame()
+        # Include 'english name' if present, else empty
+        cols = [col, "Category"]
+        if "english name" in df_table6.columns:
+            cols.append("english name")
+        
+        d = df_table6[cols].copy()
+        d.rename(columns={col: "key"}, inplace=True)
+        d["key"] = d["key"].astype(str).str.strip().replace("nan", "")
+        
+        if "english name" not in d.columns:
+             d["english name"] = ""
+             
+        return d[d["key"] != ""]
+
+    df_map = pd.concat([get_map("alias"), get_map("Item code"), get_map("dynamic code")])
+    # Drop duplicates by key, keeping the first occurrence (priority: alias -> item code -> dynamic)
+    df_map = df_map.drop_duplicates("key")
+
     df_items = (
         df_items_raw
         .sort_values("SalesPriceDate", ascending=False)
         .drop_duplicates("ItemNumber")
         .merge(df_barcode, left_on="ItemNumber", right_on="itemId", how="left")
-        .merge(df_table6, left_on="OldItem", right_on="alias", how="left")
+        .merge(df_map, left_on="OldItem", right_on="key", how="left")
     )
 
     # =====================
