@@ -26,6 +26,48 @@ WAREHOUSE_NAMES = {"warehouse", "warehouse riyadh"}
 
 DAYS_BACK = 7
 
+CATEGORY_FILE = "category2026.xlsx"
+
+# =========================
+# CATEGORY LOGIC
+# =========================
+def load_category_rules():
+    path = BASE_DIR / CATEGORY_FILE
+    if not path.exists():
+        print(f"WARNING: Category file not found at {path}")
+        return []
+    
+    try:
+        df = pd.read_excel(path)
+        # Ensure cols exist
+        if "Item Starts With" not in df.columns or "Category" not in df.columns:
+            print("WARNING: Category file missing required columns")
+            return []
+            
+        df["Item Starts With"] = df["Item Starts With"].astype(str).str.strip()
+        df["Category"] = df["Category"].astype(str).str.strip()
+        
+        rules = list(zip(df["Item Starts With"], df["Category"]))
+        # Sort by length desc
+        rules.sort(key=lambda x: len(x[0]), reverse=True)
+        return rules
+    except Exception as e:
+        print(f"Error loading categories: {e}")
+        return []
+
+def get_category(item_number, rules):
+    item_str = str(item_number).strip()
+    clean_str = item_str
+    
+    if clean_str.lower().startswith("kit-"):
+        clean_str = clean_str[4:]
+        
+    for prefix, cat in rules:
+        if clean_str.startswith(prefix):
+            return cat
+            
+    return "UNCATEGORIZED"
+
 # =========================
 # AUTH
 # =========================
@@ -96,7 +138,11 @@ def main():
 
     print("Loading mappings...")
     df_table5 = load_mapping(TABLE5_SHEET, ["store number", "outlet"])
-    df_table6 = load_mapping(TABLE6_SHEET, ["alias", "Category", "english name", "Item code"])
+    # Removed "Category" from table6 loading
+    df_table6 = load_mapping(TABLE6_SHEET, ["alias", "english name", "Item code"])
+
+    print("Loading Category Rules...")
+    category_rules = load_category_rules()
 
     # =====================
     # ONHAND
@@ -151,7 +197,7 @@ def main():
     def get_map(col):
         if col not in df_table6.columns: return pd.DataFrame()
         # Include 'english name' if present, else empty
-        cols = [col, "Category"]
+        cols = [col]
         if "english name" in df_table6.columns:
             cols.append("english name")
         
@@ -275,7 +321,7 @@ def main():
 
         products.append({
             "outlet": "Warehouse",
-            "category": r["Category"] if pd.notna(r["Category"]) else "UNCATEGORIZED",
+            "category": get_category(item_number, category_rules),
             "code": item_number,
             "gofrugal_code": gf,
             "alias": r["OldItem"] if pd.notna(r["OldItem"]) else "",
