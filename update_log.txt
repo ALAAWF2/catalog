@@ -350,3 +350,132 @@ Loading items from C:\Users\ALAA-ORANGE\Desktop\catalog\products.json...
 Checking images for 5960 products...
 Saving report to C:\Users\ALAA-ORANGE\Desktop\catalog\products_images_report.xlsx...
 Report generated successfully.
+warning: in the working copy of 'update_log.txt', LF will be replaced by CRLF the next time Git touches it
+[main f0e47ed] Auto-update: Daily catalog refresh Fri 01/16/2026
+ 4 files changed, 21894 insertions(+), 22401 deletions(-)
+To https://github.com/ALAAWF2/catalog.git
+   88148d4..f0e47ed  main -> main
+[Fri 01/16/2026 22:01:59.07] Update completed. 
+[Sat 01/17/2026 22:00:02.54] Starting daily catalog update... 
+Loading mappings...
+Loading Category Rules...
+[ONHAND] Starting fetch...
+   [ONHAND] Page 1 | Rows so far: 10,000
+   [ONHAND] Page 2 | Rows so far: 20,000
+   [ONHAND] Page 3 | Rows so far: 30,000
+   [ONHAND] Page 4 | Rows so far: 40,000
+   [ONHAND] Page 5 | Rows so far: 50,000
+Traceback (most recent call last):
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\urllib3\connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='orangepax.operations.eu.dynamics.com', port=443): Failed to resolve 'orangepax.operations.eu.dynamics.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='orangepax.operations.eu.dynamics.com', port=443): Max retries exceeded with url: /data/WarehousesOnHandV2?$select=ItemNumber%2CInventoryWarehouseId%2CProductName%2CTotalAvailableQuantity&$skip=50000&$top=10000 (Caused by NameResolutionError("HTTPSConnection(host='orangepax.operations.eu.dynamics.com', port=443): Failed to resolve 'orangepax.operations.eu.dynamics.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ALAA-ORANGE\Desktop\catalog\create js\generate_catalog.py", line 351, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ALAA-ORANGE\Desktop\catalog\create js\generate_catalog.py", line 150, in main
+    df_onhand_raw = fetch_all(
+        token,
+        f"{BASE_URL}/WarehousesOnHandV2?$select=ItemNumber,InventoryWarehouseId,ProductName,TotalAvailableQuantity",
+        "ONHAND"
+    )
+  File "C:\Users\ALAA-ORANGE\Desktop\catalog\create js\generate_catalog.py", line 110, in fetch_all
+    r = requests.get(url, headers=headers, timeout=TIMEOUT)
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ALAA-ORANGE\AppData\Roaming\Python\Python314\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='orangepax.operations.eu.dynamics.com', port=443): Max retries exceeded with url: /data/WarehousesOnHandV2?$select=ItemNumber%2CInventoryWarehouseId%2CProductName%2CTotalAvailableQuantity&$skip=50000&$top=10000 (Caused by NameResolutionError("HTTPSConnection(host='orangepax.operations.eu.dynamics.com', port=443): Failed to resolve 'orangepax.operations.eu.dynamics.com' ([Errno 11001] getaddrinfo failed)"))
+Error running python script 
+[Sun 01/18/2026 22:00:02.21] Starting daily catalog update... 
+Loading mappings...
+Loading Category Rules...
+[ONHAND] Starting fetch...
+   [ONHAND] Page 1 | Rows so far: 10,000
+   [ONHAND] Page 2 | Rows so far: 20,000
+   [ONHAND] Page 3 | Rows so far: 30,000
+   [ONHAND] Page 4 | Rows so far: 40,000
+   [ONHAND] Page 5 | Rows so far: 50,000
+   [ONHAND] Page 6 | Rows so far: 50,816
+[BARCODE] Starting fetch...
+   [BARCODE] Page 1 | Rows so far: 10,000
+   [BARCODE] Page 2 | Rows so far: 20,000
+   [BARCODE] Page 3 | Rows so far: 21,133
+[ITEM_MASTER] Starting fetch...
+   [ITEM_MASTER] Page 1 | Rows so far: 6,185
+Calculating date filter...
+[SALES] Starting fetch...
+   [SALES] Page 1 | Rows so far: 10,000
+   [SALES] Page 2 | Rows so far: 20,000
+   [SALES] Page 3 | Rows so far: 30,000
+   [SALES] Page 4 | Rows so far: 40,000
+   [SALES] Page 5 | Rows so far: 50,000
+   [SALES] Page 6 | Rows so far: 51,230
+Writing 5977 products...
+DONE
+Loading items from C:\Users\ALAA-ORANGE\Desktop\catalog\products.json...
+Checking images for 5977 products...
+Saving report to C:\Users\ALAA-ORANGE\Desktop\catalog\products_images_report.xlsx...
+Report generated successfully.
