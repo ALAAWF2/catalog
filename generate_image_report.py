@@ -60,7 +60,10 @@ def main():
         # Filter out empty candidates
         candidates = []
         for c in raw_candidates:
-            s = str(c).strip()
+            # Pattern: 22xxxxx -> 2xxxxx
+            if len(s) == 7 and s.startswith("22"):
+                candidates.append(s[1:])
+
             if not s:
                 continue
             candidates.append(s)

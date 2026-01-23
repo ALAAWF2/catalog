@@ -1035,6 +1035,12 @@
       [code, alias, gofrugal].forEach(c => {
         if (c) {
           candidates.push(c);
+
+          // Pattern: 22xxxxx -> 2xxxxx (Remove leading 2 if 7 digits)
+          if (c.length === 7 && c.startsWith("22")) {
+            candidates.push(c.substring(1));
+          }
+
           if (c.toUpperCase().startsWith("KIT-")) {
             candidates.push(c.substring(4));
           }
