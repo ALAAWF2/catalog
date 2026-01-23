@@ -625,6 +625,7 @@
       <!-- Sort Filter -->
       <select id="sortFilter" onchange="renderProducts()" class="styled-select">
         <option value="sales-desc">الأكثر مبيعاً</option>
+        <option value="alias-asc">ترتيب الشجرة</option>
         <option value="price-asc">الأقل سعراً</option>
         <option value="price-desc">الأعلى سعراً</option>
         <option value="stock-desc">الأعلى مخزوناً</option>
@@ -1245,7 +1246,9 @@
       const category = document.getElementById('categoryFilter').value;
       const priceRange = document.getElementById('priceFilter').value;
       const sortBy = document.getElementById('sortFilter').value;
-      const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
+      const searchBarVal = document.getElementById('searchBar')?.value || '';
+      const searchInputVal = document.getElementById('searchInput')?.value || '';
+      const searchTerm = (searchBarVal || searchInputVal).trim().toLowerCase();
       const newOnly = document.getElementById('newOnly')?.checked;
 
       // Guest Mode Filter
