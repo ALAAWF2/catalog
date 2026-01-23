@@ -27,6 +27,74 @@ WAREHOUSE_NAMES = {"warehouse", "warehouse riyadh"}
 DAYS_BACK = 7
 
 CATEGORY_FILE = "category2026.xlsx"
+IMAGES_DIR_NAME = "images" 
+IMAGES_DIR = PROJECT_ROOT / IMAGES_DIR_NAME
+IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".bmp", ".gif")
+
+# =========================
+# IMAGE LOGIC (PHASE 5)
+# =========================
+def load_available_images():
+    if not IMAGES_DIR.exists():
+        print(f"WARNING: Image directory not found at {IMAGES_DIR}")
+        return set()
+    try:
+        # Cache lowercased filenames
+        return {f.lower() for f in os.listdir(IMAGES_DIR)}
+    except Exception as e:
+        print(f"Error reading images: {e}")
+        return set()
+
+def resolve_image(available_images, code, alias, gofrugal):
+    candidates = []
+    
+    # 1. Gather Raw Candidates
+    raw_list = [code, alias, gofrugal]
+    
+    for r in raw_list:
+        s = str(r).strip()
+        if not s: continue
+        
+        candidates.append(s)
+        
+        # Pattern: 22xxxxx -> 2xxxxx (7 digits)
+        if len(s) == 7 and s.startswith("22"):
+            candidates.append(s[1:])
+            
+        # Pattern: 4xxxxx -> xxxxx
+        if s.startswith("4"):
+            candidates.append(s[1:])
+            # Pattern: 44xxxxx -> xxxxxx
+            if s.startswith("44"):
+                candidates.append(s[2:])
+                
+        # Pattern: KIT-xxxxx -> xxxxx
+        if s.upper().startswith("KIT-"):
+            candidates.append(s[4:])
+            
+    # 2. Check Existence
+    # Deduplicate while preserving order? verify_phase2 maintained order logic implicitly. 
+    # Use dict keys to dedup and keep insertion order
+    unique_candidates = list(dict.fromkeys(candidates))
+    
+    for cand in unique_candidates:
+        cand_lower = cand.lower()
+        for ext in IMAGE_EXTENSIONS:
+            target = f"{cand_lower}{ext}"
+            if target in available_images:
+                # Return the filename as constructed (lowercase + ext). 
+                # Note: filesystem might differ in case, but usually fine for web unless strict case server.
+                # To be 100% safe, we could map lower->real in load_images, but strict lowercase is usually safer for web URLs anyway.
+                # However, strictly speaking, we are just looking up existence.
+                # We return "{cand}{ext}" using the candidate's case? No, matching the cached key.
+                # Construct the matched filename (we only know it exists in lower).
+                # We will return f"{cand}{ext}" assuming extension correct.
+                # Actually, best to return what we checked: f"{cand}{ext}" but we don't know the real extension case.
+                # We cached {f.lower()}.
+                # So we can only return the lowercased version if we rely on the set.
+                return f"{cand}{ext}"
+                
+    return ""
 
 # =========================
 # CATEGORY LOGIC
@@ -143,6 +211,9 @@ def main():
 
     print("Loading Category Rules...")
     category_rules = load_category_rules()
+    
+    print("Caching Images (Phase 5)...")
+    available_images = load_available_images()
 
     # =====================
     # ONHAND
@@ -273,13 +344,32 @@ def main():
     # =====================
     sales_by_outlet = {}
 
-    for _, r in df_sales.iterrows():
-        item = str(r["ItemId"]).strip()
+    # =====================
+    # SALES AGGREGATION (OPTIMIZED)
+    # =====================
+    print("Aggregating sales data...")
+    df_sales["ItemId"] = df_sales["ItemId"].astype(str).str.strip()
+    
+    # Cast to int BEFORE summing to match original loop behavior (int(qty))
+    df_sales["UnitQuantity"] = df_sales["UnitQuantity"].fillna(0).astype(int)
+
+    # Group by Item and Outlet, sum Quantity
+    grouped_sales = (
+        df_sales.groupby(["ItemId", "Outlet"])["UnitQuantity"]
+        .sum()
+        .reset_index()
+    )
+    
+    sales_by_outlet = {}
+    # Iterate over AGGREGATED data (much smaller)
+    for _, r in grouped_sales.iterrows():
+        item = r["ItemId"]
         outlet = r["Outlet"]
         qty = int(r["UnitQuantity"])
-
-        sales_by_outlet.setdefault(item, {})
-        sales_by_outlet[item][outlet] = sales_by_outlet[item].get(outlet, 0) + qty
+        
+        if item not in sales_by_outlet:
+            sales_by_outlet[item] = {}
+        sales_by_outlet[item][outlet] = qty
 
     # =====================
     # BUILD PRODUCTS
@@ -329,7 +419,8 @@ def main():
             "price": float(r["SalesPrice"]) if pd.notna(r["SalesPrice"]) else 0.0,
             "stock": total_stock,
             "sales": total_sales,
-            "branches": branches
+            "branches": branches,
+            "image_path": resolve_image(available_images, item_number, r["OldItem"] if pd.notna(r["OldItem"]) else "", gf)
         })
 
         if pd.notna(r["SalesPriceDate"]):

@@ -10,7 +10,7 @@ PRODUCTS_FILE = BASE_DIR / "products.json"
 IMAGES_DIR = BASE_DIR / "images"
 OUTPUT_FILE = BASE_DIR / "products_images_report.xlsx"
 
-IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".gif"}
+IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".bmp", ".gif")
 
 def check_image_exists(code):
     # Check for exact match with extensions
@@ -35,9 +35,26 @@ def main():
         print(f"Error loading products.json: {e}")
         return
 
-    print(f"Checking images for {len(products)} products...")
+# Optimization: Load all image names into a set for O(1) lookup
+    print("Caching image directory...")
+    # Store lowercased filenames to handle case-insensitivity on Windows logic emulation
+    # We use a dict to map lower -> actual_name if we wanted to preserve case, 
+    # but original script returned constructed path. We will stick to set for existence check.
+    try:
+        available_images = {f.lower() for f in os.listdir(IMAGES_DIR)}
+    except Exception as e:
+        print(f"Error reading image directory: {e}")
+        available_images = set()
 
-    report_data = []
+    def check_image_exists_optimized(code):
+        # Check for exact match with extensions using cached set
+        for ext in IMAGE_EXTENSIONS:
+            target_file = f"{code}{ext}"
+            if target_file.lower() in available_images:
+                return IMAGES_DIR / target_file
+        return None
+
+    report_data = [] # Restore missing initialization
 
     for p in products:
         stock = p.get("stock", 0)
@@ -60,6 +77,8 @@ def main():
         # Filter out empty candidates
         candidates = []
         for c in raw_candidates:
+            s = str(c).strip()
+            
             # Pattern: 22xxxxx -> 2xxxxx
             if len(s) == 7 and s.startswith("22"):
                 candidates.append(s[1:])
@@ -80,7 +99,8 @@ def main():
                 candidates.append(s[4:])
         
         for cand in candidates:
-            match = check_image_exists(cand)
+            # Use Optimized Check
+            match = check_image_exists_optimized(cand)
             if match:
                 found_path = match
                 break

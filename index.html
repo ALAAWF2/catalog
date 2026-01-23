@@ -835,15 +835,10 @@
         ${isNewArrival(d.code) ? '<div class="badge-new">جديد</div>' : ''}
         <img
           loading="lazy"
-          data-code="${d.code}"
-          data-alias="${d.alias ?? ''}"
-          data-gofrugal="${d.gofrugal_code ?? ''}"
-          src=""
+          src="${d.image_path ? 'images/' + d.image_path : 'noimage.png'}"
           alt="${d.name}"
-          class="loading"
           onclick="showProductDetails('${d.code}')"
-          onload="this.classList.remove('loading')"
-          onerror="handleSmartImageFallback(this)"
+          onerror="this.src='noimage.png';this.onerror=null;"
         >
 
         <h4>${d.name}</h4>
@@ -864,12 +859,6 @@
     `).join('');
 
       renderPagination();
-
-      setTimeout(() => {
-        document.querySelectorAll('img[data-alias]').forEach(img => {
-          handleSmartImageFallback(img);
-        });
-      }, 0);
     }
 
     function renderPagination() {
@@ -914,14 +903,9 @@
 
       modalName.textContent = product.name;
 
-      modalImage.className = 'modal-image loading';
-      modalImage.dataset.code = product.code;
-      modalImage.dataset.alias = product.alias ?? '';
-      modalImage.dataset.gofrugal = product.gofrugal_code ?? '';
-      modalImage.src = 'images/placeholder.png';
-
-      modalImage.onload = () => modalImage.classList.remove('loading');
-      modalImage.onerror = () => handleSmartImageFallback(modalImage);
+      modalImage.className = 'modal-image';
+      modalImage.src = product.image_path ? 'images/' + product.image_path : 'noimage.png';
+      modalImage.onerror = () => { modalImage.src = 'noimage.png'; };
 
       modalDetails.innerHTML = `
     <p><strong>السعر:</strong> ${product.price} ريال</p>
@@ -1021,67 +1005,6 @@
     }
   </script>
 
-  <script>
-    function handleSmartImageFallback(img) {
-      if (img.dataset.tried === "1") return;
-      img.dataset.tried = "1";
-
-      const alias = (img.dataset.alias || "").trim();
-      const code = (img.dataset.code || "").trim();
-      const gofrugal = (img.dataset.gofrugal || "").trim();
-
-      // Build candidates list: code -> alias -> gofrugal
-      let candidates = [];
-      [code, alias, gofrugal].forEach(c => {
-        if (c) {
-          candidates.push(c);
-
-          // Pattern: 22xxxxx -> 2xxxxx (Remove leading 2 if 7 digits)
-          if (c.length === 7 && c.startsWith("22")) {
-            candidates.push(c.substring(1));
-          }
-
-          // Pattern: 4xxxxx -> xxxxx OR 44xxxxx -> 4xxxxx / xxxxx
-          if (c.startsWith("4")) {
-            candidates.push(c.substring(1));
-            if (c.startsWith("44")) {
-              candidates.push(c.substring(2));
-            }
-          }
-
-          if (c.toUpperCase().startsWith("KIT-")) {
-            candidates.push(c.substring(4));
-          }
-        }
-      });
-
-      // Deduplicate
-      candidates = [...new Set(candidates)];
-
-      const extensions = [".jpg", ".jpeg", ".png", ".webp", ".JPG", ".JPEG", ".PNG", ".WEBP"];
-      const attempts = [];
-
-      candidates.forEach(c => {
-        extensions.forEach(ext => {
-          attempts.push(`images/${c}${ext}`);
-        });
-      });
-
-      attempts.push("noimage.png");
-
-      let index = 0;
-      const tryNext = () => {
-        if (index >= attempts.length) {
-          img.classList.add("error");
-          img.title = "الصورة غير متوفرة";
-          return;
-        }
-        img.src = attempts[index++];
-      };
-
-      img.onerror = tryNext;
-      tryNext();
-    }
   </script>
 
   <!-- نافذة تسجيل الدخول -->
