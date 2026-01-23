@@ -1041,6 +1041,14 @@
             candidates.push(c.substring(1));
           }
 
+          // Pattern: 4xxxxx -> xxxxx OR 44xxxxx -> 4xxxxx / xxxxx
+          if (c.startsWith("4")) {
+            candidates.push(c.substring(1));
+            if (c.startsWith("44")) {
+              candidates.push(c.substring(2));
+            }
+          }
+
           if (c.toUpperCase().startsWith("KIT-")) {
             candidates.push(c.substring(4));
           }

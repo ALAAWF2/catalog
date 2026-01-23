@@ -63,6 +63,12 @@ def main():
             # Pattern: 22xxxxx -> 2xxxxx
             if len(s) == 7 and s.startswith("22"):
                 candidates.append(s[1:])
+            
+            # Pattern: 4xxxxx -> xxxxx OR 44xxxxx -> 4xxxxx / xxxxx
+            if s.startswith("4"):
+                candidates.append(s[1:])
+                if s.startswith("44"):
+                    candidates.append(s[2:])
 
             if not s:
                 continue
