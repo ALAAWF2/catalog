@@ -7,11 +7,36 @@
   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --primary: #e67e22;
+      --primary-dark: #d35400;
+      --bg-color: #fff8f0;
+      --card-bg: #ffffff;
+      --text-main: #2c3e50;
+      --text-muted: #444;
+      --border-radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+      --font-family: 'Tajawal', sans-serif;
+    }
+
     body {
-      font-family: Arial;
-      background: #fff8f0;
+      font-family: var(--font-family);
+      background: var(--bg-color);
       padding: 20px;
+      color: var(--text-main);
+      margin: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: var(--font-family);
     }
 
     h1 {
@@ -27,8 +52,9 @@
       padding: 8px;
       font-size: 14px;
       border-radius: 5px;
-      border: 1px solid #ccc;
-      transition: all 0.3s ease;
+      border: 1px solid #ddd;
+      transition: all 0.2s ease;
+      font-family: var(--font-family);
     }
 
     select:hover,
@@ -62,18 +88,21 @@
     }
 
     .product {
-      background: white;
+      background: var(--card-bg);
       padding: 15px;
-      border-radius: 10px;
-      border: 1px solid #f0c79b;
-      box-shadow: 0 2px 5px rgba(230, 126, 34, 0.1);
+      border-radius: var(--border-radius);
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      box-shadow: var(--shadow-sm);
       text-align: center;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
 
     .product:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 15px rgba(230, 126, 34, 0.2);
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
     }
 
     .product img {
@@ -96,19 +125,67 @@
     }
 
     .product h4 {
-      color: #2c3e50;
-      margin: 10px 0;
+      color: var(--text-main);
+      margin: 8px 0;
+      font-weight: 700;
+      font-size: 1em;
+      line-height: 1.4;
+      min-height: 2.8em;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      direction: rtl;
+      /* Force RTL */
+      unicode-bidi: plaintext;
     }
 
-    .product p {
-      color: #7f8c8d;
+    .product-meta {
+      display: flex;
+      justify-content: space-between;
+      color: var(--text-main);
+      /* Darker text */
+      font-size: 0.95em;
+      /* Slightly larger */
+      font-weight: 600;
+      /* Bold */
       margin: 5px 0;
+      border-bottom: 1px dashed #eee;
+      padding-bottom: 3px;
+    }
+
+    .product-meta strong {
+      color: var(--text-main);
+      font-weight: 800;
+      /* Extra bold for values */
+    }
+
+    /* Remove old p styles if mostly replaced by product-meta, but keep for fallback */
+    .product p {
+      display: none;
+      /* Hide old paragraphs if any remain */
     }
 
     .product input[type='number'] {
-      width: 80px;
+      width: 100%;
+      box-sizing: border-box;
+      /* Fixes padding overflow issue */
       text-align: center;
+      padding: 10px;
+      margin-top: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      /* Match card radius style */
+      font-family: var(--font-family);
+      font-size: 1em;
+      outline: none;
+      transition: border-color 0.2s;
     }
+
+    .product input[type='number']:focus {
+      border-color: var(--primary);
+    }
+
 
     .pagination {
       text-align: center;
@@ -302,61 +379,285 @@
     .modal-details strong {
       color: #e67e22;
     }
+
+    /* Redesign Phase: Sticky Header & Chips */
+    .top-notice {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 6px;
+      font-size: 0.85em;
+      font-weight: 500;
+    }
+
+    .sticky-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: var(--bg-color);
+      padding: 0 0 10px 0;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 10px 0;
+    }
+
+    .search-container {
+      flex: 1;
+      position: relative;
+    }
+
+    .search-container input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px 40px 12px 15px;
+      border-radius: 25px;
+      border: 1px solid #e0e0e0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+      margin: 0;
+      /* Override generic input margin */
+    }
+
+    .menu-icon,
+    .user-icon {
+      font-size: 1.4em;
+      cursor: pointer;
+      color: var(--text-main);
+      padding: 5px;
+    }
+
+    .filter-chips {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      padding: 5px 2px;
+      scrollbar-width: none;
+      /* Firefox */
+      -ms-overflow-style: none;
+      /* IE */
+    }
+
+    .filter-chips::-webkit-scrollbar {
+      display: none;
+    }
+
+    .chip {
+      background: white;
+      border: 1px solid #eee;
+      padding: 8px 16px;
+      border-radius: 20px;
+      white-space: nowrap;
+      cursor: pointer;
+      font-size: 0.9em;
+      color: var(--text-muted);
+      transition: all 0.2s;
+    }
+
+    .chip.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+      font-weight: bold;
+    }
+
+    /* Side Menu */
+    .side-menu {
+      position: fixed;
+      top: 0;
+      right: -300px;
+      width: 280px;
+      height: 100%;
+      background: white;
+      z-index: 2000;
+      transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: -5px 0 20px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      overflow-y: auto;
+    }
+
+    .side-menu.open {
+      right: 0;
+    }
+
+    .side-menu-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1999;
+      display: none;
+      backdrop-filter: blur(2px);
+    }
+
+    .side-menu h3 {
+      margin-top: 0;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 15px;
+    }
+
+    .side-menu button {
+      width: 100%;
+      text-align: right;
+      padding: 12px;
+      background: transparent;
+      color: var(--text-main);
+      border: 1px solid #eee;
+      border-radius: 8px;
+    }
+
+    .side-menu button:hover {
+      background: #f8f9fa;
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    /* Restored Filters Styles */
+    .styled-select {
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      font-family: var(--font-family);
+      font-size: 0.9em;
+      outline: none;
+      background: #f8f9fa;
+      cursor: pointer;
+    }
+
+    .styled-select:hover {
+      border-color: var(--primary);
+    }
+
+    .styled-checkbox-label {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.9em;
+      cursor: pointer;
+      user-select: none;
+      padding: 5px 10px;
+      background: #f1f1f1;
+      border-radius: 20px;
+    }
+
+    .styled-checkbox-label input {
+      margin: 0;
+    }
+
+    /* Controls Bar Buttons */
+    .controls-bar button {
+      padding: 8px 15px;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      /* Rounded pill buttons */
+      cursor: pointer;
+      font-family: var(--font-family);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.9em;
+      transition: opacity 0.2s;
+    }
+
+    .controls-bar button:hover {
+      opacity: 0.9;
+    }
   </style>
 </head>
 
 <body>
-  <h1>جدول البضاعة</h1>
 
+  <!-- Notices & Header -->
+  <div class="top-notice">سيتم تحديث جدول البضاعة يومياً الساعة 10 مساءً</div>
 
-  <div id="userInfo"
-    style="text-align:center; margin-bottom: 15px; font-size: 18px; color: #e67e22; font-weight: bold;"></div>
+  <header class="sticky-header">
+    <div class="header-content" style="justify-content: center;">
+      <!-- Search Centered -->
+      <div class="search-container" style="max-width: 600px;">
+        <input type="text" id="searchBar" placeholder="ابحث عن منتج، كود، أو Alias..." oninput="renderProducts()">
+        <span
+          style="position:absolute; right:15px; top:50%; transform:translateY(-50%); color:#999; pointer-events:none;">🔍</span>
+      </div>
+      <!-- User icon removed as per request -->
+    </div>
 
-  <div class="filters">
-    <label>اختر التصنيف:
-      <select id="categoryFilter" onchange="renderProducts()"></select>
-    </label>
-    <label>السعر:
-      <select id="priceFilter" onchange="renderProducts()">
-        <option value="">الكل</option>
-        <option value="0-50">0 - 50 ريال</option>
-        <option value="50-100">50 - 100 ريال</option>
-        <option value="100-200">100 - 200 ريال</option>
-        <option value="200+">200+ ريال</option>
+    <!-- Filters Bar (Restored as a secondary sticky bar or static) -->
+    <div class="filters-bar"
+      style="background: white; padding: 10px; border-bottom: 1px solid #eee; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; align-items: center;">
+
+      <!-- Warehouse Filter (shown only in Guest Mode) -->
+      <select id="warehouseFilter" onchange="renderProducts()" class="styled-select" style="display:none;">
+        <option value="">عرض الكل</option>
+        <option value="Riyadh">منتجات مستودع الرياض</option>
+        <option value="Jeddah">منتجات مستودع جدة</option>
       </select>
-    </label>
-    <label>الترتيب:
-      <select id="sortFilter" onchange="renderProducts()">
+
+      <!-- Category Filter -->
+      <select id="categoryFilter" onchange="renderProducts()" class="styled-select">
+        <!-- Populated by JS -->
+      </select>
+
+      <!-- Price Filter -->
+      <select id="priceFilter" onchange="renderProducts()" class="styled-select">
+        <option value="">كل الأسعار</option>
+        <option value="1-100">1 - 100 ريال</option>
+        <option value="100-199">100 - 199 ريال</option>
+        <option value="200-299">200 - 299 ريال</option>
+        <option value="300-399">300 - 399 ريال</option>
+        <option value="400-499">400 - 499 ريال</option>
+        <option value="500-599">500 - 599 ريال</option>
+        <option value="600-699">600 - 699 ريال</option>
+        <option value="700-799">700 - 799 ريال</option>
+        <option value="800-899">800 - 899 ريال</option>
+        <option value="900-999">900 - 999 ريال</option>
+        <option value="1000+">1000+ ريال</option>
+      </select>
+
+      <!-- Sort Filter -->
+      <select id="sortFilter" onchange="renderProducts()" class="styled-select">
         <option value="sales-desc">الأكثر مبيعاً</option>
-        <option value="price-asc">السعر: من الأقل للأعلى</option>
-        <option value="price-desc">السعر: من الأعلى للأقل</option>
+        <option value="price-asc">الأقل سعراً</option>
+        <option value="price-desc">الأعلى سعراً</option>
         <option value="stock-desc">الأعلى مخزوناً</option>
-        <option value="alias-asc">ترتيب بحسب شجرة المنتج</option>
       </select>
-    </label>
 
-    <label style="margin-inline-start:10px;">
-      <input type="checkbox" id="newOnly" onchange="renderProducts()">
-      عرض البضاعة الواصلة جديد فقط
-    </label>
+      <!-- New Only Checkbox -->
+      <label class="styled-checkbox-label">
+        <input type="checkbox" id="newOnly" onchange="renderProducts()">
+        <span>✨ عرض الجديد فقط</span>
+      </label>
+    </div>
 
-    <input type="text" id="searchInput" placeholder="ابحث بالـ Alias..." oninput="renderProducts()"
-      autocomplete="off" />
-    <input type="text" id="barcodeInput" placeholder="امسح الباركود..." onkeypress="handleBarcodeInput(event)"
-      autocomplete="off" name="no-autofill-barcode" />
-    <button id="sendOrderBtn" onclick="openOrderModal()" style="display:none;">ارسال الطلبية</button>
-    <button id="crossOutletSearchBtn" onclick="location.href='cross-outlet-search.html'" style="display:none;">بحث متعدد
-      الفروع</button>
-    <button onclick="openCustomProductModal()" style="background:#999;">إضافة منتج غير موجود</button>
+    <!-- Controls / Action Buttons (Restored) -->
+    <div class="controls-bar"
+      style="background: #f8f9fa; padding: 10px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+      <button id="sendOrderBtn" onclick="openOrderModal()" style="display:none; background:var(--primary);">🛒 ارسال
+        الطلبية</button>
+      <button id="crossOutletSearchBtn" onclick="location.href='cross-outlet-search.html'"
+        style="display:none; background:#3498db;">🌐 بحث متعدد الفروع</button>
+      <button id="customProductBtn" onclick="openCustomProductModal()" style="background:#7f8c8d;">➕ منتج غير
+        موجود</button>
+      <a id="myOrdersBtn" href="outlet-orders.html" style="text-decoration:none;"><button style="background:#2980b9;">�
+          طلباتي
+          السابقة</button></a>
+      <button id="loginBtn" onclick="login()">🔑 تسجيل الدخول</button>
+    </div>
+  </header>
 
-    <a href="old-products.html">
-      <button style="padding: 10px 20px; background: #e67e22; color: white; border: none; border-radius: 5px;">
-        عرض المنتجات القديمة
-      </button>
-    </a>
-    <a href="outlet-orders.html"><button style="background:#2980b9;">عرض طلباتي</button></a>
-    <button id="loginBtn" onclick="login()">تسجيل الدخول</button>
-  </div>
+  <!-- Removed Side Menu & Chips -->
+  <div id="userInfo" style="display:none;"></div>
+
+  <!-- Hidden elements for logic compatibility if referenced by legacy ID -->
+  <input type="text" id="searchInput" style="display:none;" oninput="renderProducts()">
 
   <!-- مودال إضافة منتج مخصص -->
   <div id="customProductModal"
@@ -381,16 +682,27 @@
   <div class="pagination" id="pagination"></div>
 
   <div id="orderModal"
-    style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); align-items:center; justify-content:center;">
-    <div style="background:white; padding:20px; border-radius:10px; text-align:center;">
-      <h3>تأكيد الطلبية</h3>
-      <label>
+    style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); align-items:center; justify-content:center; z-index:10001;">
+    <div style="background:white; padding:20px; border-radius:10px; width: 400px; max-width: 90%; text-align:center;">
+      <h3 style="margin-top:0; color:var(--primary);">مراجعة الطلبية</h3>
+
+      <div id="orderSummaryContainer"
+        style="max-height: 300px; overflow-y: auto; text-align: right; margin: 15px 0; border: 1px solid #eee; border-radius: 8px; padding: 10px;">
+        <!-- Cart Summary Injected Here -->
+      </div>
+
+      <label style="display:block; text-align:right; margin:10px 0; font-size:0.9em;">
         <input type="checkbox" id="extraItemsCheckbox" />
-        يوجد مستلزمات إضافية مع الطلبية
+        يوجد مستلزمات إضافية (أكياس/فواتير...)
       </label>
-      <br><br>
-      <button id="confirmOrderBtn" onclick="submitOrder()">تأكيد الطلبية</button>
-      <button onclick="closeOrderModal()" style="background:grey;">إلغاء</button>
+
+      <div style="display:flex; gap:10px; justify-content:center; margin-top:20px;">
+        <button id="confirmOrderBtn" onclick="submitOrder()"
+          style="background:var(--primary); color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer; flex:1;">تأكيد
+          وإرسال</button>
+        <button onclick="closeOrderModal()"
+          style="background:#ecf0f1; color:#333; padding:10px 20px; border:none; border-radius:5px; cursor:pointer; flex:1;">إلغاء</button>
+      </div>
     </div>
   </div>
 
@@ -563,6 +875,11 @@
 
       window.data = RAW
         .map(p => {
+          // In Guest Mode (or Show All), preserve all items but fetch stock info
+          if (warehouse === 'SHOW_ALL') {
+            return { ...p, stock: 0 };
+          }
+
           if (!p.branches) return null;
 
           let warehouseStock = 0;
@@ -577,11 +894,28 @@
 
           return {
             ...p,
-            stock: warehouseStock // ✅ هنا الإصلاح
+            stock: warehouseStock
           };
         })
         .filter(Boolean);
     }
+
+    // Helper to get stock by fuzzy key - handles multiple name variations
+    function getStockForWarehouse(p, key) {
+      if (!p || !p.branches) return 0;
+
+      const keyLower = (key || '').toLowerCase();
+
+      // Determine which warehouse to look for based on key
+      if (keyLower.includes('riyadh') || keyLower.includes('الرياض')) {
+        // Riyadh warehouse - key is "warehouse riyadh"
+        return Number(p.branches['warehouse riyadh']) || 0;
+      } else {
+        // Jeddah warehouse - key is "Warehouse"
+        return Number(p.branches['Warehouse']) || 0;
+      }
+    }
+
 
   </script>
 
@@ -607,6 +941,7 @@
     let currentUser = null;
     let userWarehouse = "";
     let userMall = "";
+    let isGuestMode = false;
     let cart = {};
     let logoutTimer;
     let submitting = false;
@@ -616,9 +951,15 @@
 
     auth.onAuthStateChanged(async user => {
       currentUser = user;
-      document.getElementById('sendOrderBtn').style.display = user ? 'inline-block' : 'none';
-      document.getElementById('crossOutletSearchBtn').style.display = user ? 'inline-block' : 'none';
-      document.getElementById('loginBtn').textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
+
+      // Restore toggling of buttons now that they exist in DOM again
+      const sendBtn = document.getElementById('sendOrderBtn');
+      const crossBtn = document.getElementById('crossOutletSearchBtn');
+      const loginBtn = document.getElementById('loginBtn');
+
+      if (sendBtn) sendBtn.style.display = user ? 'inline-block' : 'none';
+      if (crossBtn) crossBtn.style.display = user ? 'inline-block' : 'none';
+      if (loginBtn) loginBtn.textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
 
       if (user) {
         const doc = await db.collection("users").doc(user.uid).get();
@@ -626,6 +967,8 @@
         userMall = doc.data()?.mall ?? "";
 
         document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
+
+        // updateSidebarUserInfo(); // Deprecated
 
         // ✅ ترتيب التحميل الصحيح
         await loadLocalCatalog();
@@ -691,7 +1034,73 @@
       }
     }
 
-    function openOrderModal() { if (!currentUser) return alert("يرجى تسجيل الدخول أولاً."); document.getElementById('orderModal').style.display = 'flex'; }
+    // Guest Browse Logic
+    function browseAsGuest() {
+      isGuestMode = true;
+      currentUser = null; // Ensure no user
+      closeLoginModal();
+
+      // UI Updates (with null checks)
+      const whFilter = document.getElementById('warehouseFilter');
+      const loginBtn = document.getElementById('loginBtn');
+      const userInfo = document.getElementById('userInfo');
+
+      if (whFilter) whFilter.style.display = 'inline-block';
+      if (loginBtn) loginBtn.textContent = '🔑 تسجيل الدخول';
+      if (userInfo) userInfo.textContent = 'وضع التصفح (زائر)';
+
+      // Hide User Controls
+      const hideIds = ['sendOrderBtn', 'crossOutletSearchBtn', 'customProductBtn', 'myOrdersBtn'];
+      hideIds.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.style.display = 'none';
+      });
+
+      // Load Data (with null checks)
+      const spinner = document.getElementById('loadingSpinner');
+      if (spinner) spinner.classList.add('active');
+
+      loadLocalCatalog().then(() => {
+        rebuildDataForWarehouse('SHOW_ALL');
+        populateFilters();
+        renderProducts();
+        if (spinner) spinner.classList.remove('active');
+      }).catch(err => {
+        console.error('Error loading catalog:', err);
+        if (spinner) spinner.classList.remove('active');
+      });
+    }
+
+    function openOrderModal() {
+      if (!currentUser) return alert("يرجى تسجيل الدخول أولاً.");
+
+      const codes = Object.keys(cart);
+      if (codes.length === 0) return alert("السلة فارغة!");
+
+      let html = '<table style="width:100%; border-collapse: collapse; font-size:0.9em;">';
+      html += '<thead style="background:#f8f9fa; color:var(--text-muted);"><tr><th style="padding:8px; text-align:right;">المنتج</th><th style="padding:8px; text-align:center; width:60px;">الكمية</th></tr></thead>';
+      html += '<tbody>';
+
+      let totalQty = 0;
+      codes.forEach(code => {
+        const item = cart[code];
+        const pName = item.name || `منتج مخصص (${item.alias})`;
+        html += `<tr style="border-bottom:1px solid #eee;">
+          <td style="padding:8px; text-align:right;">
+            <div style="font-weight:bold; color:var(--text-main);">${pName}</div>
+            <div style="font-size:0.8em; color:var(--text-muted);">Code: ${code}</div>
+          </td>
+          <td style="padding:8px; text-align:center; font-weight:bold; color:var(--primary);">${item.qty}</td>
+        </tr>`;
+        totalQty += Number(item.qty);
+      });
+
+      html += '</tbody></table>';
+      html += `<div style="text-align:center; margin-top:10px; font-weight:bold; color:var(--text-main);">الإجمالي: ${totalQty} قطعة</div>`;
+
+      document.getElementById('orderSummaryContainer').innerHTML = html;
+      document.getElementById('orderModal').style.display = 'flex';
+    }
     function closeOrderModal() { document.getElementById('orderModal').style.display = 'none'; }
 
     async function submitOrder() {
@@ -756,11 +1165,79 @@
       setTimeout(() => modal.remove(), 3000);
     }
 
+    // Restored Populate Filters for Select Dropdown
     function populateFilters() {
-      const categories = [...new Set((window.data || []).map(d => d.category))];
-      document.getElementById('categoryFilter').innerHTML =
-        '<option value="">الكل</option>' + categories.map(c => `<option value="${c}">${c}</option>`).join('');
+      const categories = [...new Set((window.data || []).map(d => d.category))].filter(Boolean).sort();
+      const select = document.getElementById('categoryFilter');
+      if (select) {
+        select.innerHTML = '<option value="">الكل</option>' + categories.map(c => `<option value="${c}">${c}</option>`).join('');
+      }
     }
+
+    // --- Header & Chip Logic ---
+    function setCategoryFilter(category, chip) {
+      document.getElementById('categoryFilter').value = category;
+
+      // Update Active State
+      document.querySelectorAll('.filter-chips .chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+
+      renderProducts();
+    }
+
+    function setNewArrivalsFilter(chip) {
+      const chk = document.getElementById('newOnly');
+      chk.checked = !chk.checked;
+
+      if (chk.checked) {
+        chip.classList.add('active');
+        // Reset category to All if clicking New? Or allow combining?
+        // Let's allow combining. But usually users expect "New" to be a category-like filter.
+        // User asked for "chips", usually mutually exclusive or toggleable.
+        // Let's toggle style.
+      } else {
+        chip.classList.remove('active');
+      }
+      renderProducts();
+    }
+
+    // Search Handler (debounced if needed, but here direct is fine for now)
+    function handleSearch(val) {
+      document.getElementById('searchInput').value = val;
+      renderProducts();
+    }
+
+    // --- Side Menu Logic (with null checks since menu was removed) ---
+    function openSideMenu() {
+      const menu = document.getElementById('sideMenu');
+      const overlay = document.getElementById('sideMenuOverlay');
+      if (menu) menu.classList.add('open');
+      if (overlay) overlay.style.display = 'block';
+    }
+    function closeSideMenu() {
+      const menu = document.getElementById('sideMenu');
+      const overlay = document.getElementById('sideMenuOverlay');
+      if (menu) menu.classList.remove('open');
+      if (overlay) overlay.style.display = 'none';
+    }
+
+    function handleUserIconClick() {
+      // If logged in -> show user menu or just open sidebar?
+      // For simplicity, open sidebar where login/user info is.
+      openSideMenu();
+    }
+
+    function openLoginOverlayOrMenu() {
+      openSideMenu(); // Simple unified action
+    }
+
+    // Update User Info in Sidebar
+    // function updateSidebarUserInfo() { ... } // Removed
+
+    // Hook into auth listener
+    // Note: We need to call updateSidebarUserInfo() inside auth.onAuthStateChanged
+    // I will add a call to it in the next step or assume user refreshes. 
+    // Actually, I should insert the call inside existing auth listener.
 
     function renderProducts() {
       document.getElementById('loadingSpinner').classList.add('active');
@@ -771,8 +1248,30 @@
       const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
       const newOnly = document.getElementById('newOnly')?.checked;
 
-      filteredProducts = (window.data || []).filter(d =>
-        d.stock > 20 &&
+      // Guest Mode Filter
+      const whFilter = document.getElementById('warehouseFilter');
+      let selectedWarehouse = '';
+      if (isGuestMode && whFilter) {
+        whFilter.style.display = 'inline-block';
+        selectedWarehouse = whFilter.value; // 'Riyadh', 'Jeddah', or ''
+      } else if (whFilter) {
+        // Normal Mode
+        whFilter.style.display = 'none';
+      }
+
+      filteredProducts = (window.data || []).filter(d => {
+        // Warehouse filter for Guest Mode
+        if (isGuestMode && selectedWarehouse) {
+          const warehouseKey = selectedWarehouse === 'Riyadh' ? 'warehouse riyadh' : 'Warehouse';
+          const stockInWarehouse = Number(d.branches?.[warehouseKey]) || 0;
+          if (stockInWarehouse <= 0) return false;
+        }
+
+        // Stock check (skip for Guest Mode)
+        if (!isGuestMode && d.stock <= 20) return false;
+
+        return true;
+      }).filter(d =>
         (!category || d.category === category) &&
         (!searchTerm
           || (d.alias && String(d.alias).toLowerCase().includes(searchTerm))
@@ -793,9 +1292,14 @@
 
     function filterByPrice(price, range) {
       if (!range) return true;
-      if (range === '200+') return price >= 200;
+      if (range.endsWith('+')) {
+        const min = Number(range.replace('+', ''));
+        return price >= min;
+      }
       const [min, max] = range.split('-').map(Number);
-      return price >= min && price < max;
+      return price >= min && price <= max; // Inclusive of upper bound for ranges like 0-100? or 0-99? 
+      // User said 100-199 so standard max inclusive is fine, or < max if next starts at max.
+      // User said 100-199, then 200-299. So 199 is max. <= is correct.
     }
 
     function sortProducts(sortBy) {
@@ -841,20 +1345,32 @@
           onerror="this.src='noimage.png';this.onerror=null;"
         >
 
-        <h4>${d.name}</h4>
-        <p>السعر: ${d.price} ريال</p>
-        <p><strong>الكود:</strong> ${d.code}</p>
-        <p><strong>Alias:</strong> ${d.alias ?? '—'}</p>
-        <p style="color:#e67e22;font-weight:bold;">المبيعات الإجمالية: ${d.sales || 0}</p>
-
-        <!-- ✅ هنا الإصلاح الحقيقي -->
-        <p style="color:#27ae60;font-weight:bold;">المبيعات في هذا المعرض: ${getSalesInMall(d.code)}</p>
-
-        <p><strong>الكمية المتوفرة في المستودع:</strong> ${d.stock ?? '—'}</p>
-        <p><strong>الكمية الموجودة في المعرض:</strong> ${d.branches?.[userMall] ?? 0}</p>
-        <input type="number" min="1" placeholder="الكمية المطلوبة"
+        <h4 title="${d.name}">${d.name}</h4>
+        
+        <div class="product-meta"><span>السعر:</span> <strong>${d.price} ريال</strong></div>
+        <div class="product-meta"><span>الكود:</span> <span>${d.code}</span></div>
+        <div class="product-meta"><span>Alias:</span> <span>${d.alias ?? '—'}</span></div>
+        
+        ${isGuestMode ? `
+             <div class="product-meta"><span>الكمية في مستودع الرياض:</span> <span style="font-weight:bold;">${getStockForWarehouse(d, 'Riyadh Warehouse')}</span></div>
+             <div class="product-meta"><span>الكمية في مستودع جدة:</span> <span style="font-weight:bold; color:#27ae60;">${getStockForWarehouse(d, 'Jeddah Warehouse')}</span></div>
+        ` : `
+             <div class="product-meta"><span>المبيعات توتال:</span> <span style="color:#e67e22;font-weight:bold;">${d.sales || 0}</span></div>
+             <div class="product-meta"><span>مبيعات المعرض:</span> <span style="color:#27ae60;font-weight:bold;">${getSalesInMall(d.code)}</span></div>
+             
+             <div class="product-meta"><span>الكمية في المستودع:</span> <span>${d.stock ?? '—'}</span></div>
+             <div class="product-meta">
+                <span>الكمية في المعرض:</span> 
+                <span style="${getSalesInMall(d.code) > (d.branches?.[userMall] ?? 0) ? 'color:red; font-weight:900;' : ''}">
+                  ${d.branches?.[userMall] ?? 0}
+                </span>
+             </div>
+             
+             <input type="number" min="1" placeholder="الكمية المطلوبة"
+               style="width:100%; margin-top:10px;"
                value="${cart[d.code]?.qty ?? ''}"
                onchange="addToCart('${d.code}', '${d.name}', this.value)">
+        `}
       </div>
     `).join('');
 
@@ -913,18 +1429,25 @@
     <p><strong>Alias:</strong> ${product.alias || '—'}</p>
     <p style="color:#e67e22;font-weight:bold;">المبيعات الإجمالية: ${product.sales || 0}</p>
 
-    <!-- ✅ هنا الإصلاح -->
-    <p style="color:#27ae60;font-weight:bold;">المبيعات في هذا المعرض: ${getSalesInMall(product.code)}</p>
+    ${isGuestMode ? `
+        <p style="color:#27ae60;font-weight:bold;">الكمية في مستودع جدة: ${getStockForWarehouse(product, 'Jeddah Warehouse')}</p>
+        <p style="font-weight:bold;">الكمية في مستودع الرياض: ${getStockForWarehouse(product, 'Riyadh Warehouse')}</p>
+    ` : `
+        <p style="color:#27ae60;font-weight:bold;">المبيعات في هذا المعرض: ${getSalesInMall(product.code)}</p>
+        <p><strong>الكمية في المستودع:</strong> ${product.stock}</p>
+        <p><strong>الكمية في المعرض:</strong> ${product.branches?.[userMall] ?? 0}</p>
+    `}
 
-    <p><strong>الكمية في المستودع:</strong> ${product.stock}</p>
-    <p><strong>الكمية في المعرض:</strong> ${product.branches?.[userMall] ?? 0}</p>
     <p><strong>التصنيف:</strong> ${product.category}</p>
-    <div style="margin-top:15px;">
-      <input id="modalQtyInput" type="number" min="1" placeholder="الكمية المطلوبة">
-      <button onclick="addModalQtyToCart('${product.code}','${product.name}','${product.alias ?? ''}')">
-        إضافة للسلة
-      </button>
-    </div>
+    
+    ${isGuestMode ? '' : `
+      <div style="margin-top:15px;">
+        <input id="modalQtyInput" type="number" min="1" placeholder="الكمية المطلوبة">
+        <button onclick="addModalQtyToCart('${product.code}','${product.name}','${product.alias ?? ''}')">
+          إضافة للسلة
+        </button>
+      </div>
+    `}
   `;
 
       modal.style.display = 'flex';
@@ -1019,8 +1542,11 @@
         style="width:90%; padding:8px; margin:8px 0; border:1px solid #ccc; border-radius:5px;"><br>
       <button onclick="confirmLogin()"
         style="background:#e67e22; color:white; padding:8px 16px; border:none; border-radius:5px;">دخول</button>
+      <button onclick="browseAsGuest()"
+        style="background:#27ae60; color:white; padding:8px 16px; border:none; border-radius:5px; margin-inline-start:5px;">تصفح
+        كزائر</button>
       <button onclick="closeLoginModal()"
-        style="background:gray; color:white; padding:8px 16px; border:none; border-radius:5px; margin-top:5px;">إلغاء</button>
+        style="background:gray; color:white; padding:8px 16px; border:none; border-radius:5px; margin-top:5px; display:block; margin:5px auto 0;">إلغاء</button>
     </div>
   </div>
 </body>
