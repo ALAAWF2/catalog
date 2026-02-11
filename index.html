@@ -996,10 +996,10 @@
       clearTimeout(logoutTimer);
       logoutTimer = setTimeout(() => {
         if (currentUser) {
-          alert("تم تسجيل الخروج تلقائيًا بعد 15 دقيقة من عدم التفاعل.");
+          alert("تم تسجيل الخروج تلقائيًا بعد 8 ساعات من عدم التفاعل.");
           auth.signOut();
         }
-      }, 15 * 60 * 1000);
+      }, 8 * 60 * 60 * 1000);
     }
     ['click', 'mousemove', 'keydown', 'scroll', 'touchstart'].forEach(ev => document.addEventListener(ev, resetLogoutTimer));
 
