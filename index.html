@@ -1265,10 +1265,18 @@
 
       filteredProducts = (window.data || []).filter(d => {
         // Warehouse filter for Guest Mode
-        if (isGuestMode && selectedWarehouse) {
-          const warehouseKey = selectedWarehouse === 'Riyadh' ? 'warehouse riyadh' : 'Warehouse';
-          const stockInWarehouse = Number(d.branches?.[warehouseKey]) || 0;
-          if (stockInWarehouse <= 0) return false;
+        if (isGuestMode) {
+          if (selectedWarehouse) {
+            // If a specific warehouse is selected, check its stock
+            const warehouseKey = selectedWarehouse === 'Riyadh' ? 'warehouse riyadh' : 'Warehouse';
+            const stockInWarehouse = Number(d.branches?.[warehouseKey]) || 0;
+            if (stockInWarehouse <= 0) return false;
+          } else {
+            // If "Show All" is selected, hide if BOTH warehouses are empty
+            const stockRiyadh = Number(d.branches?.['warehouse riyadh']) || 0;
+            const stockJeddah = Number(d.branches?.['Warehouse']) || 0;
+            if (stockRiyadh <= 0 && stockJeddah <= 0) return false;
+          }
         }
 
         // Stock check (skip for Guest Mode)
