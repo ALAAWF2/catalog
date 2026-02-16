@@ -1062,7 +1062,8 @@
       const spinner = document.getElementById('loadingSpinner');
       if (spinner) spinner.classList.add('active');
 
-      loadLocalCatalog().then(() => {
+      Promise.all([loadLocalCatalog(), loadFirstSeen(), loadSalesByOutlet()]).then(() => {
+        mergeKitData();
         rebuildDataForWarehouse('SHOW_ALL');
         populateFilters();
         renderProducts();
