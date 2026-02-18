@@ -117,9 +117,11 @@
     "alias": "4489626",
     "name": "طقم لحاف كينغ | 11 قطعة LIWANE COTTON WHITE",
     "price": 895.0,
-    "stock": 0,
+    "stock": 100,
     "sales": 0,
-    "branches": {},
+    "branches": {
+      "Warehouse": 100
+    },
     "image_path": ""
   },
   {
@@ -541,9 +543,11 @@
     "alias": "4489623",
     "name": "طقم لحاف كينغ | 11 قطعة DESERT COTTON BLUE FLOWER",
     "price": 895.0,
-    "stock": 0,
+    "stock": 100,
     "sales": 1,
-    "branches": {},
+    "branches": {
+      "Warehouse": 100
+    },
     "image_path": ""
   },
   {
@@ -554,9 +558,11 @@
     "alias": "4489624",
     "name": "طقم لحاف كينغ | 11 قطعة AMORSA COTTON WHITE ON WHITE",
     "price": 895.0,
-    "stock": 0,
+    "stock": 100,
     "sales": 0,
-    "branches": {},
+    "branches": {
+      "Warehouse": 100
+    },
     "image_path": ""
   },
   {
@@ -567,10 +573,10 @@
     "alias": "48962600",
     "name": "طقم لحاف كينغ | 8 قطع LIWANE COTTON WHITE",
     "price": 895.0,
-    "stock": 498,
+    "stock": 398,
     "sales": 0,
     "branches": {
-      "Warehouse": 249,
+      "Warehouse": 149,
       "warehouse riyadh": 249
     },
     "image_path": ""
@@ -583,10 +589,10 @@
     "alias": "48962300",
     "name": "طقم لحاف كينغ | 8 قطع DESERT COTTON BLUE FLOWER",
     "price": 895.0,
-    "stock": 498,
+    "stock": 398,
     "sales": 0,
     "branches": {
-      "Warehouse": 249,
+      "Warehouse": 149,
       "warehouse riyadh": 249
     },
     "image_path": ""
@@ -599,10 +605,10 @@
     "alias": "48962400",
     "name": "طقم لحاف كينغ | 8 قطع AMORSA COTTON WHITE ON WHITE",
     "price": 895.0,
-    "stock": 646,
+    "stock": 546,
     "sales": 0,
     "branches": {
-      "Warehouse": 323,
+      "Warehouse": 223,
       "warehouse riyadh": 323
     },
     "image_path": ""
@@ -1525,7 +1531,7 @@
     "name": "مخدة ستاندرد | PERFECT",
     "price": 49.0,
     "stock": 9786,
-    "sales": 365,
+    "sales": 367,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 10,
@@ -9057,7 +9063,7 @@
     "name": "طقم لحاف توين | 4 قطع STRIPE GRAY",
     "price": 99.0,
     "stock": 1221,
-    "sales": 145,
+    "sales": 146,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 3,
@@ -11539,7 +11545,7 @@
     "name": "بطانية فل |  DOE SKIN COMFY - BLANKET FULL DOE SKIN COMFY 66*90",
     "price": 89.0,
     "stock": 4952,
-    "sales": 86,
+    "sales": 87,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 2,
@@ -12463,7 +12469,7 @@
     "name": "طقم لحاف كينغ | 8 قطع AMARA",
     "price": 299.0,
     "stock": 1493,
-    "sales": 109,
+    "sales": 110,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 3,
@@ -15468,7 +15474,7 @@
     "name": "طقم غطاء سرير فل | 2 قطعة GOOD ONE TAUPE STRIPE - GOOD ONE FULL TAUPE STRIPE 2PCS",
     "price": 99.0,
     "stock": 1073,
-    "sales": 264,
+    "sales": 266,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 4,
@@ -16356,7 +16362,7 @@
     "name": "طقم لحاف توين | 4 قطع RAINBOW - COMFORTER TWIN RAINBOW 4PCS",
     "price": 99.0,
     "stock": 606,
-    "sales": 111,
+    "sales": 112,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 3,
@@ -16602,7 +16608,7 @@
     "name": "طقم لحاف فل | 6 قطع COSMIC PLANETS - COMFORTER FULL COSMIC PLANETS 6PCS",
     "price": 129.0,
     "stock": 650,
-    "sales": 54,
+    "sales": 55,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 3,
@@ -31987,7 +31993,7 @@
     "stock": 246,
     "sales": 7,
     "branches": {
-      "04-Andalos Mall": 4,
+      "04-Andalos Mall": 8,
       "05-Haifa Mall": 5,
       "06-Red Sea Mall": 13,
       "07-Arab Mall": 6,
@@ -32300,7 +32306,7 @@
     "name": "طقم سفرة | 28 ق OBB DS 36 VEN",
     "price": 199.0,
     "stock": 12,
-    "sales": 0,
+    "sales": 2,
     "branches": {
       "00-GIFTS": 12,
       "50-Meem Plaza Riyadh": 2,
@@ -35043,7 +35049,7 @@
     "name": "أكواب حرارية | 20 SOLID WHITE LEAK PROOF WATER OZ - BOTTEL WATER SOLID LEAK PROOF WHITE 20OZ",
     "price": 29.0,
     "stock": 1489,
-    "sales": 39,
+    "sales": 40,
     "branches": {
       "04-Andalos Mall": 16,
       "06-Red Sea Mall": 17,
@@ -54412,7 +54418,7 @@
     "name": "*RAINY WITH SCALLOP EDGE/EITHER COMF K 8 PCS KIT - *COMFORTER KING RAINY WITH SCALLOP 8PCS KIT",
     "price": 595.0,
     "stock": 40,
-    "sales": 19,
+    "sales": 21,
     "branches": {
       "05-Haifa Mall": 1,
       "07-Arab Mall": 4,
@@ -57620,7 +57626,7 @@
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
-      "06-Red Sea Mall": 7,
+      "06-Red Sea Mall": 6,
       "07-Arab Mall": 7,
       "09-Al-Salam Mall": 2,
       "13-Al-Yasmin Mall": 6,
@@ -62291,7 +62297,7 @@
     "name": "طقم لحاف فل | 8 قطع GEOMTRIC GREY - *COMFORTER FULL GEOMTRIC GREY COTTON 11PCS KIT",
     "price": 599.0,
     "stock": 38,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "05-Haifa Mall": 1,
       "07-Arab Mall": 2,
@@ -62332,7 +62338,7 @@
     "name": "طقم لحاف كينغ | 11 قطع GEOMETRIC GREY - *COMFORTER KING GEOMETRIC GREY COTTON 11PCS KIT",
     "price": 799.0,
     "stock": 159,
-    "sales": 6,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -79371,7 +79377,7 @@
     "name": "فواحة | 200 مل WHITE MUSK COCODOR WHITE FLOWER - FRESHENER WHITE FLOWER 200ML WHITE MUSK",
     "price": 39.0,
     "stock": 64,
-    "sales": 96,
+    "sales": 97,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -79588,7 +79594,7 @@
     "name": "فواحة | 200 مل BLACK CHERRY SIMPLE DIFFUSER - ROOM SPRAY BLACK CHERRY 200ML",
     "price": 39.0,
     "stock": 2138,
-    "sales": 120,
+    "sales": 121,
     "branches": {
       "04-Andalos Mall": 21,
       "05-Haifa Mall": 9,
@@ -79640,7 +79646,7 @@
     "name": "فواحة | 200 مل GARDEN LAVENDER SIMPLE DIFFUSER - ROOM SPRAY GARDEN LAVENDER 200ML",
     "price": 39.0,
     "stock": 3567,
-    "sales": 30,
+    "sales": 31,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 6,
@@ -82499,7 +82505,7 @@
     "name": "فواحة | 200 مل FORREST DAWN SIMPLE DIFFUSER - ROOM SPRAY FORREST DAWN 200ML",
     "price": 39.0,
     "stock": 73,
-    "sales": 76,
+    "sales": 77,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 4,
@@ -90203,7 +90209,7 @@
     "name": "طقم شراشف كوين | 3 ق 300 غرزة MARSHMELLOW - SHEET QUEEN MARSHMELLOW 300 STITCH 3PCS",
     "price": 89.0,
     "stock": 745,
-    "sales": 57,
+    "sales": 58,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 5,
@@ -91201,7 +91207,7 @@
     "name": "طقم شراشف فل | 3 ق 300 غرزة WHITE - SHEET FULL WHITE 300 STITCH 3PCS",
     "price": 89.0,
     "stock": 9979,
-    "sales": 179,
+    "sales": 181,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 6,
@@ -93635,7 +93641,7 @@
     "name": "مخدة ستاندرد | COMFORT DREAM STANDARD - PILLOW STANDARD COMFORT DREAM",
     "price": 69.0,
     "stock": 8734,
-    "sales": 663,
+    "sales": 665,
     "branches": {
       "04-Andalos Mall": 24,
       "05-Haifa Mall": 16,
@@ -132717,8 +132723,8 @@
     "alias": "607701",
     "name": "طقم شراشف كينغ | 3 ق 300 غرزة WHITE - SHEET KING WHITE 300 STITCH 3PCS",
     "price": 129.0,
-    "stock": 12075,
-    "sales": 220,
+    "stock": 11775,
+    "sales": 222,
     "branches": {
       "04-Andalos Mall": 23,
       "05-Haifa Mall": 16,
@@ -132769,7 +132775,7 @@
       "36-Al jubail Mall": 22,
       "44-Al-Jouf Center": 20,
       "47-Al-Nakheel Plaza": 33,
-      "Warehouse": 8977,
+      "Warehouse": 8677,
       "warehouse riyadh": 3098
     },
     "image_path": "607701.jpg"
@@ -133253,7 +133259,7 @@
     "name": "طقم شراشف كينغ | 3 ق 300 غرزة OFF WHITE - SHEET KING OFF WHITE 300 STITCH 3PCS",
     "price": 129.0,
     "stock": -468,
-    "sales": 136,
+    "sales": 137,
     "branches": {
       "04-Andalos Mall": -1,
       "05-Haifa Mall": 10,
@@ -137870,7 +137876,7 @@
     "name": "طقم لحاف كينغ | 5 قطع BOUQUET SPRING - *COMFORTER KING BOUQUET SPRING 5PCS",
     "price": 599.0,
     "stock": 609,
-    "sales": 133,
+    "sales": 134,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 3,
