@@ -642,6 +642,8 @@
     <!-- Controls / Action Buttons (Restored) -->
     <div class="controls-bar"
       style="background: #f8f9fa; padding: 10px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+      <button id="exportGuestBtn" onclick="openGuestExportModal()" style="display:none; background:#27ae60;">📥 تصدير
+        البضاعة</button>
       <button id="sendOrderBtn" onclick="openOrderModal()" style="display:none; background:var(--primary);">🛒 ارسال
         الطلبية</button>
       <button id="crossOutletSearchBtn" onclick="location.href='cross-outlet-search.html'"
@@ -709,6 +711,24 @@
   </div>
 
   <div id="loadingSpinner" class="loading-spinner"></div>
+
+  <!-- مودال تصدير الزوار -->
+  <div id="guestExportModal"
+    style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center; z-index:10000;">
+    <div
+      style="background:white; padding:20px; border-radius:10px; width:320px; text-align:center; box-shadow: 0 0 15px rgba(0,0,0,0.3);">
+      <h3 style="color:#e67e22;">تصدير المنتجات إلى إكسيل</h3>
+      <p style="margin-bottom:15px; color:#444;">هل تريد تضمين الصور في ملف الإكسيل؟ (قد يستغرق بعض الوقت)</p>
+      <button onclick="exportGuestExcel(true)"
+        style="background:#27ae60; color:white; padding:8px 16px; border:none; border-radius:5px; margin:5px;">مع صور
+        🖼️</button>
+      <button onclick="exportGuestExcel(false)"
+        style="background:#3498db; color:white; padding:8px 16px; border:none; border-radius:5px; margin:5px;">بدون صور
+        📊</button>
+      <button onclick="closeGuestExportModal()"
+        style="background:gray; color:white; padding:8px 16px; border:none; border-radius:5px; margin-top:10px; display:block; width:100%;">إلغاء</button>
+    </div>
+  </div>
 
   <div id="productModal" class="modal-overlay">
     <div class="modal-content">
@@ -922,6 +942,8 @@
   </script>
 
   <script src="https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.3.0/exceljs.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 
   <!-- سكربت “آخر تحديث” -->
 
@@ -962,6 +984,9 @@
       if (sendBtn) sendBtn.style.display = user ? 'inline-block' : 'none';
       if (crossBtn) crossBtn.style.display = user ? 'inline-block' : 'none';
       if (loginBtn) loginBtn.textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
+
+      const guestExportBtn = document.getElementById('exportGuestBtn');
+      if (guestExportBtn) guestExportBtn.style.display = 'none';
 
       if (user) {
         const doc = await db.collection("users").doc(user.uid).get();
@@ -1057,6 +1082,10 @@
         const el = document.getElementById(id);
         if (el) el.style.display = 'none';
       });
+
+      // Show Export Button for Guest
+      const guestExportBtn = document.getElementById('exportGuestBtn');
+      if (guestExportBtn) guestExportBtn.style.display = 'inline-block';
 
       // Load Data (with null checks)
       const spinner = document.getElementById('loadingSpinner');
@@ -1484,6 +1513,114 @@
       const wb = XLSX.utils.book_new();
       XLSX.utils.book_append_sheet(wb, ws, "المنتجات");
       XLSX.writeFile(wb, "المنتجات.xlsx");
+    }
+
+    function openGuestExportModal() { document.getElementById('guestExportModal').style.display = 'flex'; }
+    function closeGuestExportModal() { document.getElementById('guestExportModal').style.display = 'none'; }
+
+    async function exportGuestExcel(withImages) {
+      closeGuestExportModal();
+      document.getElementById('loadingSpinner').classList.add('active');
+
+      try {
+        const workbook = new ExcelJS.Workbook();
+        const sheet = workbook.addWorksheet('المنتجات');
+
+        // Define Columns
+        const columns = [];
+        if (withImages) {
+          columns.push({ header: 'الصورة', key: 'image', width: 15 });
+        }
+        columns.push(
+          { header: 'اسم المنتج', key: 'name', width: 40 },
+          { header: 'السعر', key: 'price', width: 10 },
+          { header: 'الكود', key: 'code', width: 15 },
+          { header: 'Alias', key: 'alias', width: 10 },
+          { header: 'الكمية في الرياض', key: 'riyadh', width: 18 },
+          { header: 'الكمية في جدة', key: 'jeddah', width: 18 },
+          { header: 'التصنيف', key: 'category', width: 20 }
+        );
+        sheet.columns = columns;
+
+        if (withImages) {
+          sheet.getRow(1).height = 30; // Header row height
+        }
+
+        // Add Data Rows
+        for (let i = 0; i < filteredProducts.length; i++) {
+          const p = filteredProducts[i];
+          const rowData = {
+            name: p.name,
+            price: p.price,
+            code: String(p.code),
+            alias: p.alias || '',
+            riyadh: getStockForWarehouse(p, 'Riyadh Warehouse'),
+            jeddah: getStockForWarehouse(p, 'Jeddah Warehouse'),
+            category: p.category
+          };
+
+          const row = sheet.addRow(rowData);
+
+          if (withImages) {
+            row.height = 60; // Make row tall for images
+            if (p.image_path) {
+              try {
+                // Fetch image and convert to Base64
+                const response = await fetch('images/' + p.image_path);
+                if (response.ok) {
+                  const blob = await response.blob();
+                  const arrayBuffer = await blob.arrayBuffer();
+
+                  // Add image to workbook
+                  const imageId = workbook.addImage({
+                    buffer: arrayBuffer,
+                    extension: p.image_path.split('.').pop().toLowerCase() === 'png' ? 'png' : 'jpeg',
+                  });
+
+                  // Insert image to cell
+                  sheet.addImage(imageId, {
+                    tl: { col: 0, row: row.number - 1 },
+                    ext: { width: 50, height: 50 },
+                    editAs: 'oneCell'
+                  });
+                }
+              } catch (err) {
+                console.warn('Could not load image for ' + p.code, err);
+              }
+            }
+          }
+        }
+
+        // Styling the header
+        sheet.getRow(1).eachCell((cell) => {
+          cell.font = { bold: true };
+          cell.alignment = { horizontal: 'center', vertical: 'middle' };
+          cell.fill = {
+            type: 'pattern',
+            pattern: 'solid',
+            fgColor: { argb: 'FFE67E22' } // primary color
+          };
+        });
+
+        // Alignment for all cells
+        sheet.eachRow((row, rowNumber) => {
+          if (rowNumber > 1) {
+            row.eachCell({ includeEmpty: true }, (cell, colNumber) => {
+              cell.alignment = { horizontal: 'center', vertical: 'middle', wrapText: true };
+            });
+          }
+        });
+
+        // Export Buffer
+        const buffer = await workbook.xlsx.writeBuffer();
+        saveAs(new Blob([buffer], { type: 'application/octet-stream' }), `Products_${new Date().toISOString().slice(0, 10)}.xlsx`);
+
+      } catch (e) {
+        console.error("Export Error: ", e);
+        alert("حدث خطأ أثناء التصدير.");
+      } finally {
+        document.getElementById('loadingSpinner').classList.remove('active');
+      }
     }
 
     function shareProduct(code) {
