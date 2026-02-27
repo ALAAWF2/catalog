@@ -1734,6 +1734,17 @@
       const { code, name, alias, price } = pendingPrintData;
       closePrintQuantityModal(); // Hide modal immediately
 
+      // --- LOGIC: Handle KIT items ---
+      let barcodeValue = code;
+      const upperCode = String(code).toUpperCase();
+      if (upperCode.startsWith('KIT-')) {
+        if (alias && String(alias).trim() !== '') {
+          barcodeValue = alias; // Use alias if it exists
+        } else {
+          barcodeValue = code.substring(4); // Otherwise just remove 'KIT-'
+        }
+      }
+
       const printWindow = window.open('', '_blank', 'width=600,height=400');
       let labelsHtml = "";
       for (let i = 0; i < qty; i++) {
@@ -1802,7 +1813,7 @@
           ${labelsHtml}
           <script>
             for (let i = 0; i < ${qty}; i++) {
-              JsBarcode("#barcode-" + i, "${code}", {
+              JsBarcode("#barcode-" + i, "${barcodeValue}", {
                 format: "CODE128",
                 width: 1.5,
                 height: 20,
