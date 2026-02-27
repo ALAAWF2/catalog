@@ -672,11 +672,11 @@
         الطلبية</button>
       <button id="crossOutletSearchBtn" onclick="location.href='cross-outlet-search.html'"
         style="display:none; background:#3498db;">🌐 بحث متعدد الفروع</button>
-      <button id="printBarcodeBtn" onclick="openPrintBarcodeModal()" style="background:#8e44ad;">🖨️ طباعة
-        الباركود</button>
+      <button id="printBarcodeBtn" onclick="openPrintBarcodeModal()"
+        style="background:#8e44ad; display:flex; align-items:center; gap:5px;">🖨️ طباعة الباركود</button>
       <button id="customProductBtn" onclick="openCustomProductModal()" style="background:#7f8c8d;">➕ منتج غير
         موجود</button>
-      <a id="myOrdersBtn" href="outlet-orders.html" style="text-decoration:none;"><button style="background:#2980b9;">�
+      <a id="myOrdersBtn" href="outlet-orders.html" style="text-decoration:none;"><button style="background:#2980b9;">
           طلباتي
           السابقة</button></a>
       <button id="loginBtn" onclick="login()">🔑 تسجيل الدخول</button>
@@ -1863,13 +1863,13 @@
 
       listContainer.innerHTML = matched.map(p => {
         const safeName = String(p.name || '').replace(/'/g, "&#39;").replace(/"/g, "&quot;");
-        return `< div style = "padding: 10px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;" >
-          <div style="text-align: right;">
-            <div style="font-weight: bold; font-size: 0.9em;">${p.name}</div>
-            <div style="font-size: 0.8em; color: gray;">Alias: ${p.alias || '-'} | Code: ${p.code} | ${p.price} SAR</div>
+        return `<div style="padding: 12px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+          <div style="text-align: right; flex: 1; min-width: 0;">
+            <div style="font-weight: bold; font-size: 0.9em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="${p.name}">${p.name}</div>
+            <div style="font-size: 0.8em; color: gray;" dir="ltr">Alias: ${p.alias || '-'} | Code: ${p.code} | ${p.price} SAR</div>
           </div>
-          <button onclick="printItemBarcode('${p.code}', '${safeName}', '${p.alias || ''}', '${p.price}')" style="background:#8e44ad; color:white; padding:5px 10px; border:none; border-radius:5px; cursor:pointer;">طباعة</button>
-        </div >`;
+          <button onclick="printItemBarcode('${p.code}', '${safeName}', '${p.alias || ''}', '${p.price}')" style="background:#8e44ad; color:white; padding:6px 15px; border:none; border-radius:5px; cursor:pointer; flex-shrink: 0;">طباعة</button>
+        </div>`;
       }).join('');
     }
   </script>
