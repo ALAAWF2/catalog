@@ -1708,52 +1708,24 @@
 
     // --- Barcode Printing Logic ---
     function printItemBarcode(code, name, alias, price) {
+      let qty = prompt("كم عدد النسخ التي تريد طباعتها؟", "1");
+      if (qty === null) return; // User cancelled
+      qty = parseInt(qty);
+      if (isNaN(qty) || qty <= 0) {
+        alert("يرجى إدخال عدد صحيح أكبر من صفر.");
+        return;
+      }
+
       const printWindow = window.open('', '_blank', 'width=600,height=400');
-      const html = `
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-          <meta charset="UTF-8">
-          <style>
-            @page { size: auto; margin: 0; }
-            body { 
-              font-family: Arial, sans-serif; 
-              margin: 0; 
-              padding: 5px; 
-              text-align: center; 
-              width: 50mm;
-            }
-            .label-container {
-              width: 100%;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-              box-sizing: border-box;
-            }
-            .brand { font-size: 16px; font-weight: 900; letter-spacing: 3px; margin: 0; text-transform: uppercase; }
-            .sub-brand { font-size: 11px; font-weight: bold; letter-spacing: 2px; margin-bottom: 5px; }
-            .item-name { font-size: 11px; font-weight: 900; margin-bottom: 5px; text-transform: uppercase; line-height: 1.2; text-align: center; max-height: 2.4em; overflow: hidden; }
-            .barcode-container { margin: 2px 0; width: 100%; display: flex; justify-content: center; }
-            .barcode-container svg { max-width: 100%; height: 40px; }
-            .footer { 
-              display: flex; 
-              justify-content: space-between; 
-              width: 100%; 
-              font-size: 13px; 
-              font-weight: 900;
-              margin-top: 3px;
-            }
-          </style>
-          <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"><\/script>
-        </head>
-        <body>
-          <div class="label-container">
+      let labelsHtml = "";
+      for (let i = 0; i < qty; i++) {
+        labelsHtml += `
+          <div class="label-container" ${i < qty - 1 ? 'style="page-break-after: always;"' : ''}>
             <div class="brand">ORANGE</div>
             <div class="sub-brand">BED&BATH</div>
             <div class="item-name">${name.replace(/&#39;/g, "'").replace(/&quot;/g, '"')}</div>
             <div class="barcode-container">
-              <svg id="barcode"></svg>
+              <svg id="barcode-${i}"></svg>
             </div>
             <div class="footer">
               <span>${alias}</span>
@@ -1761,14 +1733,65 @@
               <span>${Number(price).toFixed(2)}</span>
             </div>
           </div>
+        `;
+      }
+
+      const html = `
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <style>
+            @page { size: 50mm 25mm; margin: 0; }
+            body { 
+              font-family: Arial, sans-serif; 
+              margin: 0; 
+              padding: 0; 
+              text-align: center;
+              width: 50mm;
+            }
+            .label-container {
+              width: 50mm;
+              height: 25mm;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              box-sizing: border-box;
+              overflow: hidden;
+              padding: 1mm;
+            }
+            .brand { font-size: 11px; font-weight: 900; letter-spacing: 2px; margin: 0; text-transform: uppercase; line-height: 1; }
+            .sub-brand { font-size: 8px; font-weight: bold; letter-spacing: 1px; margin-bottom: 1px; line-height: 1; }
+            .item-name { font-size: 8px; font-weight: 900; margin-bottom: 2px; text-transform: uppercase; line-height: 1; text-align: center; max-height: 2em; overflow: hidden; width: 100%; white-space: nowrap; text-overflow: ellipsis; }
+            .barcode-container { margin: 1px 0; width: 100%; display: flex; justify-content: center; }
+            .barcode-container svg { max-width: 100%; height: 20px; }
+            .footer { 
+              display: flex; 
+              justify-content: space-between; 
+              width: 100%; 
+              font-size: 9px; 
+              font-weight: 900;
+              margin-top: 1px;
+              line-height: 1;
+              padding: 0 1mm;
+              box-sizing: border-box;
+            }
+          </style>
+          <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"><\/script>
+        </head>
+        <body>
+          ${labelsHtml}
           <script>
-            JsBarcode("#barcode", "${code}", {
-              format: "CODE128",
-              width: 2,
-              height: 40,
-              displayValue: false,
-              margin: 0
-            });
+            for (let i = 0; i < ${qty}; i++) {
+              JsBarcode("#barcode-" + i, "${code}", {
+                format: "CODE128",
+                width: 1.5,
+                height: 20,
+                displayValue: false,
+                margin: 0
+              });
+            }
             window.onload = function() {
               setTimeout(() => {
                 window.print();
@@ -1811,13 +1834,13 @@
 
       listContainer.innerHTML = matched.map(p => {
         const safeName = String(p.name || '').replace(/'/g, "&#39;").replace(/"/g, "&quot;");
-        return `<div style="padding: 10px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;">
+        return `< div style = "padding: 10px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;" >
           <div style="text-align: right;">
             <div style="font-weight: bold; font-size: 0.9em;">${p.name}</div>
             <div style="font-size: 0.8em; color: gray;">Alias: ${p.alias || '-'} | Code: ${p.code} | ${p.price} SAR</div>
           </div>
           <button onclick="printItemBarcode('${p.code}', '${safeName}', '${p.alias || ''}', '${p.price}')" style="background:#8e44ad; color:white; padding:5px 10px; border:none; border-radius:5px; cursor:pointer;">طباعة</button>
-        </div>`;
+        </div >`;
       }).join('');
     }
   </script>
