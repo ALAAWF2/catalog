@@ -1706,63 +1706,92 @@
       renderProducts();
     }
 
-    // --- Barcode Printing Logic ---
-    let pendingPrintData = null;
+    // --- Barcode Printing Logic (Batch Mode) ---
+    let batchPrintItems = [];
 
     function printItemBarcode(code, name, alias, price) {
-      pendingPrintData = { code, name, alias, price };
-      document.getElementById('printQtyInput').value = '1';
-      document.getElementById('printQuantityModal').style.display = 'flex';
-      setTimeout(() => document.getElementById('printQtyInput').focus(), 100);
+      // Add a single item to the batch and open the modal
+      addManualBarcodeItem(code, name, alias, price, 1);
+      openPrintBarcodeModal();
     }
 
-    function closePrintQuantityModal() {
-      document.getElementById('printQuantityModal').style.display = 'none';
-      pendingPrintData = null;
+    function removeBatchPrintItem(index) {
+      batchPrintItems.splice(index, 1);
+      renderBatchPrintList();
     }
 
-    function confirmPrintBarcode() {
-      if (!pendingPrintData) return;
-
-      let qty = document.getElementById('printQtyInput').value;
+    function addManualBarcodeItem(code, name, alias, price, qty) {
       qty = parseInt(qty);
-      if (isNaN(qty) || qty <= 0) {
-        alert("يرجى إدخال عدد صحيح أكبر من صفر.");
+      if (isNaN(qty) || qty <= 0) qty = 1;
+
+      const existing = batchPrintItems.find(item => item.code === code || (item.alias && item.alias === code));
+
+      if (existing) {
+        existing.qty += qty;
+      } else {
+        // If name and price are not provided, try to find them in the data
+        if (!name || typeof price === 'undefined') {
+          const product = (window.data || []).find(p => p.code === code || p.alias === code);
+          if (product) {
+            code = product.code;
+            name = product.name;
+            alias = product.alias || '';
+            price = product.price || 0;
+          } else {
+            // If product is not found, we can still add it but without name/price
+            name = name || "منتج غير معروف";
+            alias = alias || "";
+            price = price || 0;
+          }
+        }
+        batchPrintItems.push({ code, name, alias, price, qty });
+      }
+    }
+
+    function confirmBatchPrint() {
+      if (batchPrintItems.length === 0) {
+        alert("الرجاء إضافة منتجات للطباعة.");
         return;
       }
-
-      const { code, name, alias, price } = pendingPrintData;
-      closePrintQuantityModal(); // Hide modal immediately
-
-      // --- LOGIC: Handle KIT items ---
-      let barcodeValue = code;
-      const upperCode = String(code).toUpperCase();
-      if (upperCode.startsWith('KIT-')) {
-        if (alias && String(alias).trim() !== '') {
-          barcodeValue = alias; // Use alias if it exists
-        } else {
-          barcodeValue = code.substring(4); // Otherwise just remove 'KIT-'
-        }
-      }
-
+      // --- LOGIC: Handle KIT items for all in batch ---
       const printWindow = window.open('', '_blank', 'width=600,height=400');
       let labelsHtml = "";
-      for (let i = 0; i < qty; i++) {
-        labelsHtml += `
-          <div class="label-container" ${i < qty - 1 ? 'style="page-break-after: always;"' : ''}>
-            <div class="brand">ORANGE</div>
-            <div class="sub-brand">BED&BATH</div>
-            <div class="item-name">${name.replace(/&#39;/g, "'").replace(/&quot;/g, '"')}</div>
-            <div class="barcode-container">
-              <svg id="barcode-${i}"></svg>
+      let totalLabels = 0;
+
+      // First pass to calculate total labels for page breaks
+      batchPrintItems.forEach(item => { totalLabels += item.qty; });
+      let currentLabelCount = 0;
+
+      for (const item of batchPrintItems) {
+        let barcodeValue = item.code;
+        const upperCode = String(item.code).toUpperCase();
+        if (upperCode.startsWith('KIT-')) {
+          if (item.alias && String(item.alias).trim() !== '') {
+            barcodeValue = item.alias; // Use alias if it exists
+          } else {
+            barcodeValue = item.code.substring(4); // Otherwise just remove 'KIT-'
+          }
+        }
+
+        for (let i = 0; i < item.qty; i++) {
+          currentLabelCount++;
+          const isLastLabel = currentLabelCount === totalLabels;
+          labelsHtml += `
+            <div class="label-container" ${!isLastLabel ? 'style="page-break-after: always;"' : ''}>
+              <div class="brand">ORANGE</div>
+              <div class="sub-brand">BED&BATH</div>
+              <div class="item-name">${String(item.name).replace(/&#39;/g, "'").replace(/&quot;/g, '"')}</div>
+              <div class="barcode-container">
+                <svg class="barcode-svg" data-value="${barcodeValue}"></svg>
+              </div>
+              <div class="footer">
+                <span>${item.alias || ''}</span>
+                <span>${item.code}</span>
+                <span>${Number(item.price).toFixed(2)}</span>
+              </div>
             </div>
-            <div class="footer">
-              <span>${alias}</span>
-              <span>${code}</span>
-              <span>${Number(price).toFixed(2)}</span>
-            </div>
-          </div>
-        `;
+          `;
+        }
       }
 
       const html = `
@@ -1812,21 +1841,24 @@
         <body>
           ${labelsHtml}
           <script>
-            for (let i = 0; i < ${qty}; i++) {
-              JsBarcode("#barcode-" + i, "${barcodeValue}", {
-                format: "CODE128",
-                width: 1.5,
-                height: 20,
-                displayValue: false,
-                margin: 0
+            document.addEventListener("DOMContentLoaded", function() {
+              const svgs = document.querySelectorAll('.barcode-svg');
+              svgs.forEach(svg => {
+                const value = svg.getAttribute('data-value');
+                JsBarcode(svg, value, {
+                  format: "CODE128",
+                  width: 1.5,
+                  height: 20,
+                  displayValue: false,
+                  margin: 0
+                });
               });
-            }
-            window.onload = function() {
+              
               setTimeout(() => {
                 window.print();
                 window.close();
               }, 500);
-            };
+            });
           <\/script>
         </body>
         </html>
@@ -1837,77 +1869,149 @@
 
     function openPrintBarcodeModal() {
       document.getElementById('printBarcodeModal').style.display = 'flex';
-      document.getElementById('printBarcodeSearchInput').value = '';
-      filterPrintBarcodeList();
+      renderBatchPrintList();
     }
 
     function closePrintBarcodeModal() {
       document.getElementById('printBarcodeModal').style.display = 'none';
+      // We do not clear batchPrintItems here, so the user can come back to their list.
     }
 
-    function filterPrintBarcodeList() {
-      const term = document.getElementById('printBarcodeSearchInput').value.toLowerCase();
-      const listContainer = document.getElementById('printBarcodeList');
-      const allItems = window.data || [];
+    function renderBatchPrintList() {
+      const listContainer = document.getElementById('printBatchList');
 
-      let matched = allItems.filter(p =>
-        (p.alias && String(p.alias).toLowerCase().includes(term)) ||
-        (p.code && String(p.code).toLowerCase().includes(term)) ||
-        (p.name && p.name.toLowerCase().includes(term))
-      ).slice(0, 50);
-
-      if (matched.length === 0) {
-        listContainer.innerHTML = '<div style="padding: 10px; text-align: center; color: gray;">لا يوجد نتائج</div>';
+      if (batchPrintItems.length === 0) {
+        listContainer.innerHTML = '<div style="padding: 20px; text-align: center; color: gray;">القائمة فارغة. أضف منتجات أو الصق من إكسيل.</div>';
         return;
       }
 
-      listContainer.innerHTML = matched.map(p => {
-        const safeName = String(p.name || '').replace(/'/g, "&#39;").replace(/"/g, "&quot;");
-        return `<div style="padding: 12px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+      listContainer.innerHTML = batchPrintItems.map((item, index) => `
+        <div style="padding: 10px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; gap: 10px; background: #fafafa; margin-bottom: 5px; border-radius: 5px;">
           <div style="text-align: right; flex: 1; min-width: 0;">
-            <div style="font-weight: bold; font-size: 0.9em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="${p.name}">${p.name}</div>
-            <div style="font-size: 0.8em; color: gray;" dir="ltr">Alias: ${p.alias || '-'} | Code: ${p.code} | ${p.price} SAR</div>
+            <div style="font-weight: bold; font-size: 0.9em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="${item.name}">${item.name}</div>
+            <div style="font-size: 0.8em; color: gray;" dir="ltr">Code: ${item.code} | Alias: ${item.alias || '-'} | Qty: ${item.qty}</div>
           </div>
-          <button onclick="printItemBarcode('${p.code}', '${safeName}', '${p.alias || ''}', '${p.price}')" style="background:#8e44ad; color:white; padding:6px 15px; border:none; border-radius:5px; cursor:pointer; flex-shrink: 0;">طباعة</button>
-        </div>`;
-      }).join('');
+          <div style="display:flex; align-items:center; gap: 10px;">
+            <input type="number" min="1" value="${item.qty}" style="width: 60px; padding: 5px; text-align: center; border: 1px solid #ccc; border-radius: 5px;" onchange="updateBatchItemQty(${index}, this.value)">
+            <button onclick="removeBatchPrintItem(${index})" style="background:#e74c3c; color:white; padding:5px 10px; border:none; border-radius:5px; cursor:pointer;" title="إزالة">🗑️</button>
+          </div>
+        </div>
+      `).join('');
     }
+
+    function updateBatchItemQty(index, newQty) {
+      newQty = parseInt(newQty);
+      if (isNaN(newQty) || newQty <= 0) newQty = 1;
+      batchPrintItems[index].qty = newQty;
+    }
+
+    function handleAddManualToBatch() {
+      const inputStr = document.getElementById('manualBarcodeAddInput').value.trim();
+      const qtyStr = document.getElementById('manualBarcodeQtyInput').value;
+      const qty = parseInt(qtyStr) || 1;
+
+      if (!inputStr) {
+        alert('يرجى إدخال الكود أو Alias');
+        return;
+      }
+
+      addManualBarcodeItem(inputStr, null, null, undefined, qty);
+      document.getElementById('manualBarcodeAddInput').value = '';
+      document.getElementById('manualBarcodeQtyInput').value = '1';
+      renderBatchPrintList();
+    }
+
+    function handleExcelPasteToBatch(event) {
+      // Prevent default paste so we can handle it instead of putting it all in the textarea (or just read from textarea)
+      // Here we'll read from the textarea on a slight delay, or handle the event directly
+      event.preventDefault();
+
+      let clipboardData = event.clipboardData || window.clipboardData;
+      let pastedData = clipboardData.getData('Text');
+
+      if (!pastedData) return;
+
+      processPasteData(pastedData);
+    }
+
+    function processPasteData(pastedData) {
+      const rows = pastedData.split(/\r?\n/);
+      let addedCount = 0;
+
+      rows.forEach(row => {
+        const cols = row.split(/\t/); // Excel columns are tab-separated when pasted
+        if (cols.length > 0 && cols[0].trim() !== '') {
+          const codeOrAlias = cols[0].trim();
+          let qty = 1;
+
+          // If there's a second column, treat it as quantity
+          if (cols.length > 1 && cols[1].trim() !== '') {
+            qty = parseInt(cols[1].replace(/,/g, '').trim());
+            if (isNaN(qty) || qty <= 0) qty = 1;
+          }
+
+          addManualBarcodeItem(codeOrAlias, null, null, undefined, qty);
+          addedCount++;
+        }
+      });
+
+      if (addedCount > 0) {
+        renderBatchPrintList();
+        // Clear the textarea after processing
+        document.getElementById('excelPasteInput').value = '';
+      }
+    }
+
   </script>
 
-  <!-- نافذة طباعة باركود منتج -->
+  <!-- نافذة طباعة الباركود (مجمعة) -->
   <div id="printBarcodeModal"
     style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center; z-index:10002;">
     <div
-      style="background:white; padding:20px; border-radius:10px; width:450px; max-width:90%; text-align:center; box-shadow: 0 0 15px rgba(0,0,0,0.3);">
-      <h3 style="color:#e67e22;">طباعة باركود منتج</h3>
-      <input type="text" id="printBarcodeSearchInput" placeholder="ابحث بالاسم، الكود، او Alias..."
-        style="width:90%; padding:8px; margin:8px 0; border:1px solid #ccc; border-radius:5px;"
-        oninput="filterPrintBarcodeList()">
-      <div id="printBarcodeList"
-        style="max-height: 200px; overflow-y: auto; text-align: right; border: 1px solid #eee; border-radius: 5px; margin-bottom: 10px;">
+      style="background:white; padding:20px; border-radius:10px; width:600px; max-width:95%; text-align:center; box-shadow: 0 0 20px rgba(0,0,0,0.3); display: flex; flex-direction: column; max-height: 90vh;">
+
+      <h3 style="color:#e67e22; margin-top:0;">طباعة باركود (قائمة مجمعة)</h3>
+
+      <!-- إدخال يدوي -->
+      <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; margin-bottom: 15px; border: 1px solid #eee;">
+        <h4 style="margin-top:0; color:#34495e; text-align: right; font-size: 14px;">إضافة يدوية</h4>
+        <div style="display: flex; gap: 10px;">
+          <input type="text" id="manualBarcodeAddInput" placeholder="أدخل كود أو Alias المنتج"
+            style="flex: 2; padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+          <input type="number" id="manualBarcodeQtyInput" placeholder="الكمية" value="1" min="1"
+            style="flex: 1; padding: 8px; border: 1px solid #ccc; border-radius: 5px; text-align: center;">
+          <button onclick="handleAddManualToBatch()"
+            style="background:#3498db; color:white; padding:8px 20px; border:none; border-radius:5px; cursor:pointer;">إضافة</button>
+        </div>
+      </div>
+
+      <!-- لصق من الإكسيل -->
+      <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; margin-bottom: 15px; border: 1px solid #eee;">
+        <h4 style="margin-top:0; color:#34495e; text-align: right; font-size: 14px;">لصق من Excel (النسخ من خلايا
+          الإكسيل، العمود الأول: الكود، الثاني: الكمية)</h4>
+        <textarea id="excelPasteInput" placeholder="الصق هنا خلايا الإكسيل (كود المنتج    الكمية)..."
+          style="width: 100%; height: 60px; padding: 8px; box-sizing: border-box; border: 1px dashed #3498db; border-radius: 5px; resize: none;"
+          onpaste="handleExcelPasteToBatch(event)"></textarea>
+      </div>
+
+      <!-- قائمة المنتجات المضافة للطباعة -->
+      <div style="text-align: right; margin-bottom: 5px; font-weight: bold; color: #2c3e50;">المنتجات الجاهزة للطباعة:
+      </div>
+      <div id="printBatchList"
+        style="flex: 1; overflow-y: auto; text-align: right; border: 1px solid #e0e0e0; border-radius: 5px; margin-bottom: 15px; padding: 10px; background: #fff;">
         <!-- Injected List -->
       </div>
-      <button onclick="closePrintBarcodeModal()"
-        style="background:gray; color:white; padding:8px 16px; border:none; border-radius:5px; width:100%;">إغلاق</button>
-    </div>
-  </div>
 
-  <!-- نافذة تحديد كمية الطباعة -->
-  <div id="printQuantityModal"
-    style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center; z-index:10003;">
-    <div
-      style="background:white; padding:20px; border-radius:10px; width:300px; text-align:center; box-shadow: 0 0 15px rgba(0,0,0,0.3);">
-      <h3 style="color:#8e44ad; margin-top:0;">عدد النسخ</h3>
-      <p style="margin-bottom:15px; color:#444;">كم عدد النسخ التي تريد طباعتها؟</p>
-      <input type="number" id="printQtyInput" min="1" value="1"
-        style="width:80%; padding:10px; text-align:center; font-size:16px; border:1px solid #ccc; border-radius:5px; margin-bottom:15px;"
-        onkeydown="if(event.key === 'Enter') confirmPrintBarcode()">
-      <div style="display:flex; gap:10px; justify-content:center;">
-        <button onclick="confirmPrintBarcode()"
-          style="background:#27ae60; color:white; padding:10px; border:none; border-radius:5px; flex:1; cursor:pointer;">تأكيد
-          وطباعة 🖨️</button>
-        <button onclick="closePrintQuantityModal()"
-          style="background:#e74c3c; color:white; padding:10px; border:none; border-radius:5px; flex:1; cursor:pointer;">إلغاء</button>
+      <!-- أزرار الإجراءات -->
+      <div style="display:flex; gap:10px; justify-content:center; margin-top: auto;">
+        <button onclick="confirmBatchPrint()"
+          style="background:#27ae60; color:white; padding:12px; font-size: 16px; font-weight: bold; border:none; border-radius:5px; flex:2; cursor:pointer; display: flex; align-items: center; justify-content: center; gap: 10px;">طباعة
+          الكل 🖨️</button>
+        <button onclick="batchPrintItems = []; renderBatchPrintList();"
+          style="background:#f39c12; color:white; padding:12px; border:none; border-radius:5px; flex:1; cursor:pointer;">مسح
+          القائمة</button>
+        <button onclick="closePrintBarcodeModal()"
+          style="background:#e74c3c; color:white; padding:12px; border:none; border-radius:5px; flex:1; cursor:pointer;">إغلاق</button>
       </div>
     </div>
   </div>
