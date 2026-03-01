@@ -1800,13 +1800,17 @@
         <head>
           <meta charset="UTF-8">
           <style>
-            @page { size: 50mm 25mm; margin: 0; }
+            @page { 
+              size: 50mm 25mm; 
+              margin: 0; 
+            }
             body { 
               font-family: Arial, sans-serif; 
-              margin: 0; 
-              padding: 0; 
+              margin: 0 !important; 
+              padding: 0 !important; 
               text-align: center;
               width: 50mm;
+              height: 25mm; /* Important to avoid overflow adding extra pages */
             }
             .label-container {
               width: 50mm;
