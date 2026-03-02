@@ -1710,9 +1710,10 @@
     let batchPrintItems = [];
 
     function printItemBarcode(code, name, alias, price) {
-      // Add a single item to the batch and open the modal
+      // Add a single item to the batch silently
       addManualBarcodeItem(code, name, alias, price, 1);
-      openPrintBarcodeModal();
+      // Optional: show a small toast/alert so the user knows it was added
+      showSuccessModal('تمت إضافة المنتج إلى قائمة الطباعة');
     }
 
     function removeBatchPrintItem(index) {
