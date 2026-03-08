@@ -1725,14 +1725,21 @@
       qty = parseInt(qty);
       if (isNaN(qty) || qty <= 0) qty = 1;
 
-      const existing = batchPrintItems.find(item => item.code === code || (item.alias && item.alias === code));
+      const searchKeyword = String(code).trim().toLowerCase();
+      const existing = batchPrintItems.find(item =>
+        String(item.code).trim().toLowerCase() === searchKeyword ||
+        (item.alias && String(item.alias).trim().toLowerCase() === searchKeyword)
+      );
 
       if (existing) {
         existing.qty += qty;
       } else {
         // If name and price are not provided, try to find them in the data
         if (!name || typeof price === 'undefined') {
-          const product = (window.data || []).find(p => p.code === code || p.alias === code);
+          const product = (window.data || []).find(p =>
+            String(p.code).trim().toLowerCase() === searchKeyword ||
+            (p.alias && String(p.alias).trim().toLowerCase() === searchKeyword)
+          );
           if (product) {
             code = product.code;
             name = product.name;
