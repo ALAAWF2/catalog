@@ -1736,10 +1736,21 @@
       } else {
         // If name and price are not provided, try to find them in the data
         if (!name || typeof price === 'undefined') {
-          const product = (window.data || []).find(p =>
+          // Find in window.data first, then fallback to window.products
+          const dataSource = (window.data && window.data.length > 0) ? window.data : (window.products || []);
+          let product = dataSource.find(p =>
             String(p.code).trim().toLowerCase() === searchKeyword ||
             (p.alias && String(p.alias).trim().toLowerCase() === searchKeyword)
           );
+
+          // Fallback to window.products if not found in window.data (due to warehouse stock filtering)
+          if (!product && window.products) {
+            product = window.products.find(p =>
+              String(p.code).trim().toLowerCase() === searchKeyword ||
+              (p.alias && String(p.alias).trim().toLowerCase() === searchKeyword)
+            );
+          }
+
           if (product) {
             code = product.code;
             name = product.name;

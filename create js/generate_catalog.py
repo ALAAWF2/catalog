@@ -220,7 +220,7 @@ def main():
     # =====================
     df_onhand_raw = fetch_all(
         token,
-        f"{BASE_URL}/WarehousesOnHandV2?$select=ItemNumber,InventoryWarehouseId,ProductName,TotalAvailableQuantity",
+        f"{BASE_URL}/WarehousesOnHandV2?$select=ItemNumber,InventoryWarehouseId,ProductName,OnHandQuantity",
         "ONHAND"
     )
 
@@ -402,7 +402,7 @@ def main():
         if item_number in onhand_grouped.groups:
             for _, s in onhand_grouped.get_group(item_number).iterrows():
                 o = s["Outlet"]
-                q = int(s["TotalAvailableQuantity"])
+                q = int(s["OnHandQuantity"])
                 branches[o] = branches.get(o, 0) + q
                 if o.lower() in WAREHOUSE_NAMES:
                     total_stock += q
