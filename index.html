@@ -801,8 +801,8 @@
         window.products = await productsRes.json();
 
         // Filter out disabled pillows
-        const blockedAliases = ["91144", "9114", "91544", "9154"];
-        window.products = window.products.filter(p => !blockedAliases.includes(String(p.alias)));
+        const blockedAliases = ["91144", "9114", "91544", "9154", "9618", "9619"];
+        window.products = window.products.filter(p => !blockedAliases.includes(String(p.alias)) && !blockedAliases.includes(String(p.code)));
 
         console.log("✅ products.json loaded:", window.products.length);
       } catch (e) {
