@@ -1415,7 +1415,7 @@
         ${isNewArrival(d.code) ? '<div class="badge-new">جديد</div>' : ''}
         <img
           loading="lazy"
-          src="${d.image_path ? 'images/' + d.image_path : 'noimage.png'}"
+          src="https://res.cloudinary.com/dsp8ysswh/image/upload/w_500,q_auto,f_auto,d_noimage.png/${(d.alias && String(d.alias).trim() !== '') ? d.alias : d.code}.jpg"
           alt="${d.name}"
           onclick="showProductDetails('${d.code}')"
           onerror="this.src='noimage.png';this.onerror=null;"
@@ -1496,7 +1496,8 @@
       modalName.textContent = product.name;
 
       modalImage.className = 'modal-image';
-      modalImage.src = product.image_path ? 'images/' + product.image_path : 'noimage.png';
+      const imageId = (product.alias && String(product.alias).trim() !== '') ? product.alias : product.code;
+      modalImage.src = `https://res.cloudinary.com/dsp8ysswh/image/upload/w_600,q_auto,f_auto,d_noimage.png/${imageId}.jpg`;
       modalImage.onerror = () => { modalImage.src = 'noimage.png'; };
 
       modalDetails.innerHTML = `
