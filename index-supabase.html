@@ -1071,9 +1071,11 @@
           await supabaseClient.auth.signOut();
           localStorage.removeItem('savedEmail');
           localStorage.removeItem('savedPassword');
-          // State handled by onAuthStateChange
+          // Force a reload to clear all states and restart auth flow cleanly
+          window.location.reload();
         } catch (e) {
           console.error("Logout failed:", e);
+          alert("حدث خطأ أثناء تسجيل الخروج. يرجى تحديث الصفحة.");
         }
       } else {
         document.getElementById('loginModal').style.display = 'flex';
