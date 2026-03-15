@@ -1358,8 +1358,16 @@
           }
         } else {
           // Stock check for logged-in users (show if stock in their branch > 0)
-          // The stock previously checked was the warehouse stock which might be <= 20
-          const branchStock = Number(d.branches?.[userMall]) || 0;
+          let branchStock = 0;
+          if (d.branches) {
+            const targetMall = normalizeKey(userMall);
+            for (const branchName in d.branches) {
+              if (normalizeKey(branchName) === targetMall) {
+                branchStock = Number(d.branches[branchName]) || 0;
+                break;
+              }
+            }
+          }
           if (branchStock <= 0) return false;
         }
 
