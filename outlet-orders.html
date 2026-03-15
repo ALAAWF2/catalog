@@ -1,9 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <title>طلباتي السابقة</title>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <style>
     body { font-family: Arial; background: #fdf6f0; padding: 20px; }
     h1 { text-align: center; color: #e67e22; font-size: 28px; margin-bottom: 20px; }
@@ -26,7 +29,10 @@
       font-size: 20px;
       margin-bottom: 10px;
     }
-    .order p { margin: 6px 0; color: #555; }
+    .order p {
+      margin: 6px 0;
+      color: #555;
+    }
     input[type="date"] {
       padding: 6px;
       font-size: 14px;
@@ -44,7 +50,9 @@
       transition: background 0.3s ease;
       margin-top: 10px;
     }
-    button:hover { background: #d35400; }
+    button:hover {
+      background: #d35400;
+    }
     #modal {
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
@@ -55,10 +63,11 @@
       z-index: 1000;
     }
     #modalContent {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
       background: white;
       padding: 25px;
       border-radius: 15px;
@@ -66,7 +75,8 @@
       width: 90%;
       max-height: 90vh;
       overflow-y: auto;
-    }
+    
+}
     #modalContent h2 { color: #e67e22; margin-top: 0; }
     .modal-footer { text-align: center; margin-top: 20px; }
     table { width: 100%; border-collapse: collapse; margin-top: 20px; }
@@ -77,17 +87,15 @@
 <body>
   <h1>الطلبيات السابقة للمعرض</h1>
   <div style="text-align: center; margin-bottom: 20px;">
-    <a href="index-supabase.html">
+    <a href="index.html">
       <button>الرجوع إلى جدول البضاعة</button>
     </a>
   </div>
-
   <div id="filters">
     <label>من: <input type="date" id="fromDate"></label>
     <label>إلى: <input type="date" id="toDate"></label>
     <button onclick="loadOrders()">تطبيق الفلتر</button>
   </div>
-
   <div id="ordersList">جارٍ التحميل...</div>
 
   <div id="modal">
@@ -95,90 +103,57 @@
   </div>
 
   <script>
-    const SUPABASE_URL = "https://sufeqdvooqkolghflhta.supabase.co";
-    const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1ZmVxZHZvb3Frb2xnaGZsaHRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0MTY5OTIsImV4cCI6MjA4ODk5Mjk5Mn0.ody4a53OtJqzLIoTvJ3S6Igdue-Sy4HsUQ_Cz7MUSjY";
-    const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    const firebaseConfig = {
+      apiKey: "AIzaSyDBhsMvDPwECDlFNYNkmFXDVq4nWrEejJc",
+      authDomain: "orders-fb3bf.firebaseapp.com",
+      projectId: "orders-fb3bf",
+    };
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    const auth = firebase.auth();
 
     let currentUser = null;
 
-    async function handleAuthState(user) {
-      currentUser = user || null;
-      if (!currentUser) {
-        document.getElementById('ordersList').innerHTML = '<p style="color:red; text-align:center">يرجى تسجيل الدخول أولاً من صفحة catalog</p>';
-        return;
+    auth.onAuthStateChanged(async user => {
+      if (user) {
+        currentUser = user;
+        loadOrders();
+      } else {
+        document.getElementById('ordersList').innerHTML = '<p style="color:red; text-align:center">يرجى تسجيل الدخول أولاً</p>';
       }
-      await loadOrders();
-    }
-
-    supabaseClient.auth.onAuthStateChange(async (_event, session) => {
-      await handleAuthState(session?.user);
     });
-
-    (async () => {
-      const { data, error } = await supabaseClient.auth.getSession();
-      if (error) {
-        console.error(error);
-      }
-      await handleAuthState(data?.session?.user);
-    })();
 
     async function loadOrders() {
       const container = document.getElementById('ordersList');
       container.innerHTML = '';
 
-      if (!currentUser) {
-        container.innerHTML = '<p style="color:red; text-align:center">يرجى تسجيل الدخول أولاً</p>';
-        return;
-      }
-
       const fromDate = document.getElementById('fromDate').value;
       const toDate = document.getElementById('toDate').value;
 
       try {
-        let query = supabaseClient
-          .from('orders')
-          .select('mall,warehouse,has_extras,items,created_at')
-          .eq('user_id', currentUser.id);
-
-        if (fromDate) {
-          const fromIso = new Date(`${fromDate}T00:00:00`).toISOString();
-          query = query.gte('created_at', fromIso);
-        }
-
+        let query = db.collection("orders").where("userId", "==", currentUser.uid);
+        if (fromDate) query = query.where("timestamp", ">=", new Date(fromDate));
         if (toDate) {
-          const toIso = new Date(`${toDate}T23:59:59.999`).toISOString();
-          query = query.lte('created_at', toIso);
+          const to = new Date(toDate);
+          to.setHours(23,59,59,999);
+          query = query.where("timestamp", "<=", to);
         }
+        query = query.orderBy("timestamp", "desc");
+        const snapshot = await query.get();
+        if (snapshot.empty) return container.innerHTML = '<p style="text-align:center">لا توجد طلبيات ضمن الفترة المحددة</p>';
 
-        const { data: rows, error } = await query.order('created_at', { ascending: false });
-        if (error) throw error;
-
-        if (!rows || rows.length === 0) {
-          container.innerHTML = '<p style="text-align:center">لا توجد طلبيات ضمن الفترة المحددة</p>';
-          return;
-        }
-
-        rows.forEach(order => {
-          const date = order.created_at
-            ? new Date(order.created_at).toLocaleString('en-GB', { dateStyle: 'short', timeStyle: 'short' })
-            : '—';
-
-          const items = Array.isArray(order.items) ? order.items : [];
-
+        snapshot.forEach(doc => {
+          const data = doc.data();
+          const date = data.timestamp?.toDate().toLocaleString('en-GB', { dateStyle: 'short', timeStyle: 'short' }) ?? "—";
           const card = document.createElement('div');
           card.className = 'order';
           card.innerHTML = `
             <h3>طلبية بتاريخ ${date}</h3>
-            <p>المعرض: <strong>${order.mall || ''}</strong></p>
-            <p>المستودع: <strong>${order.warehouse || ''}</strong></p>
-            <p>مستلزمات إضافية؟ <strong>${order.has_extras ? 'نعم' : 'لا'}</strong></p>
-            <button class="details-btn">عرض التفاصيل</button>
+            <p>المعرض: <strong>${data.mall}</strong></p>
+            <p>المستودع: <strong>${data.warehouse}</strong></p>
+            <p>مستلزمات إضافية؟ <strong>${data.hasExtras ? 'نعم' : 'لا'}</strong></p>
+            <button onclick='showDetails(${JSON.stringify(data.orders)}, "${data.mall}", "${data.warehouse}", "${date}")'>عرض التفاصيل</button>
           `;
-
-          card.querySelector('.details-btn').addEventListener('click', () => {
-            showDetails(items, order.mall || '', order.warehouse || '', date);
-          });
-
           container.appendChild(card);
         });
       } catch (err) {
@@ -197,11 +172,9 @@
         <p><strong>التاريخ:</strong> ${date}</p>
         <table><thead><tr><th>الكمية</th><th>Alias</th><th>الاسم</th><th>الكود</th></tr></thead><tbody>
       `;
-
       orders.forEach(item => {
-        html += `<tr><td>${item?.qty ?? ''}</td><td>${item?.alias ?? ''}</td><td>${item?.name ?? ''}</td><td>${item?.code ?? ''}</td></tr>`;
+        html += `<tr><td>${item.qty}</td><td>${item.alias ?? ''}</td><td>${item.name}</td><td>${item.code}</td></tr>`;
       });
-
       html += '</tbody></table>';
       html += '<div class="modal-footer" style="position: sticky; bottom: 0; background: white; padding-top: 10px; border-top: 1px solid #eee;"><button onclick="closeModal()">إغلاق</button></div>';
       modalContent.innerHTML = html;
