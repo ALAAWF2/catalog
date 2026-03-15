@@ -1210,6 +1210,7 @@
         const { error: insertError } = await supabaseClient
           .from('orders')
           .insert({
+            id: crypto.randomUUID(), // Generate UUID client-side to satisfy non-null constraint
             mall: userMall,
             warehouse: userWarehouse,
             has_extras: hasExtras,
