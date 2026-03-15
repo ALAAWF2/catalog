@@ -1003,6 +1003,7 @@
       if (guestExportBtn) guestExportBtn.style.display = 'none';
 
       if (user) {
+        isGuestMode = false; // Add this to reset guest mode on refresh/login
         const { data: profile, error: profileError } = await supabaseClient
           .from('profiles')
           .select('warehouse,mall')
@@ -1116,35 +1117,29 @@
       const loginBtn = document.getElementById('loginBtn');
       const userInfo = document.getElementById('userInfo');
 
-      if (whFilter) whFilter.style.display = 'inline-block';
+      if (whFilter) whFilter.style.display = 'none'; // Don't show filter for guests anymore
       if (loginBtn) loginBtn.textContent = '🔑 تسجيل الدخول';
-      if (userInfo) userInfo.textContent = 'وضع التصفح (زائر)';
+      if (userInfo) userInfo.textContent = 'يرجى تسجيل الدخول لرؤية المنتجات المتاحة';
+      if (userInfo) userInfo.style.display = 'block';
 
       // Hide User Controls
-      const hideIds = ['sendOrderBtn', 'crossOutletSearchBtn', 'customProductBtn', 'myOrdersBtn'];
+      const hideIds = ['sendOrderBtn', 'crossOutletSearchBtn', 'customProductBtn', 'myOrdersBtn', 'exportGuestBtn'];
       hideIds.forEach(id => {
         const el = document.getElementById(id);
         if (el) el.style.display = 'none';
       });
 
-      // Show Export Button for Guest
-      const guestExportBtn = document.getElementById('exportGuestBtn');
-      if (guestExportBtn) guestExportBtn.style.display = 'inline-block';
-
-      // Load Data (with null checks)
-      const spinner = document.getElementById('loadingSpinner');
-      if (spinner) spinner.classList.add('active');
-
-      Promise.all([loadLocalCatalog(), loadFirstSeen(), loadSalesByOutlet()]).then(() => {
-        mergeKitData();
-        rebuildDataForWarehouse('SHOW_ALL');
-        populateFilters();
-        renderProducts();
-        if (spinner) spinner.classList.remove('active');
-      }).catch(err => {
-        console.error('Error loading catalog:', err);
-        if (spinner) spinner.classList.remove('active');
-      });
+      // Clear the products
+      window.data = [];
+      filteredProducts = [];
+      document.getElementById('productContainer').innerHTML = `
+        <div style="text-align:center; width: 100%; grid-column: 1 / -1; padding: 40px; color: #888; font-size: 1.2em;">
+          🔒 يرجى <strong>تسجيل الدخول</strong> ليتم عرض المنتجات المخصصة لمعرضك.
+        </div>
+      `;
+      document.getElementById('pagination').innerHTML = '';
+      document.getElementById('totalSales').textContent = '';
+      document.getElementById('loadingSpinner').classList.remove('active');
     }
 
     function openOrderModal() {
