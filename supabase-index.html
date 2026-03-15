@@ -1022,7 +1022,7 @@
           // Fetch profile from Supabase profiles table
           const { data: profile, error } = await supabaseClient
             .from('profiles')
-            .select('warehouse, mail')
+            .select('warehouse, mall')
             .eq('id', user.id)
             .single();
 
@@ -1031,7 +1031,7 @@
             // Try matching by email as fallback
             const { data: profileByEmail, error: err2 } = await supabaseClient
               .from('profiles')
-              .select('warehouse, mail')
+              .select('warehouse, mall')
               .eq('email', user.email)
               .single();
 
@@ -1042,12 +1042,12 @@
             } else {
               console.log("✅ Profile found by email:", profileByEmail);
               userWarehouse = profileByEmail?.warehouse ?? "";
-              userMall = profileByEmail?.mail ?? "";
+              userMall = profileByEmail?.mall ?? "";
             }
           } else {
             console.log("✅ Profile loaded:", profile);
             userWarehouse = profile?.warehouse ?? "";
-            userMall = profile?.mail ?? "";
+            userMall = profile?.mall ?? "";
           }
 
           document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
