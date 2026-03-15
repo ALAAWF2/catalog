@@ -922,7 +922,6 @@
       }
 
       const RAW = Array.isArray(window.products) ? window.products : [];
-      const target = normalizeKey(warehouse);
 
       window.data = RAW
         .map(p => {
@@ -933,13 +932,7 @@
 
           if (!p.branches) return null;
 
-          let warehouseStock = 0;
-
-          for (const branch in p.branches) {
-            if (normalizeKey(branch) === target) {
-              warehouseStock = Number(p.branches[branch]) || 0;
-            }
-          }
+          let warehouseStock = getStockForWarehouse(p, warehouse);
 
           if (warehouseStock <= 0) return null;
 
