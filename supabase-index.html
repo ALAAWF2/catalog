@@ -994,68 +994,101 @@
     const productsPerPage = 40;
     let filteredProducts = [], currentPage = 1;
 
+    let _authBusy = false;
+    let _authReady = false;
+
     async function handleAuthUser(user) {
-      currentUser = user;
+      if (_authBusy) return;
+      _authBusy = true;
 
-      const sendBtn = document.getElementById('sendOrderBtn');
-      const crossBtn = document.getElementById('crossOutletSearchBtn');
-      const loginBtn = document.getElementById('loginBtn');
+      try {
+        currentUser = user;
+        isGuestMode = false;
 
-      if (sendBtn) sendBtn.style.display = user ? 'inline-block' : 'none';
-      if (crossBtn) crossBtn.style.display = user ? 'inline-block' : 'none';
-      if (loginBtn) loginBtn.textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
+        const sendBtn = document.getElementById('sendOrderBtn');
+        const crossBtn = document.getElementById('crossOutletSearchBtn');
+        const loginBtn = document.getElementById('loginBtn');
 
-      const guestExportBtn = document.getElementById('exportGuestBtn');
-      if (guestExportBtn) guestExportBtn.style.display = 'none';
+        if (sendBtn) sendBtn.style.display = user ? 'inline-block' : 'none';
+        if (crossBtn) crossBtn.style.display = user ? 'inline-block' : 'none';
+        if (loginBtn) loginBtn.textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
 
-      if (user) {
-        // Fetch profile from Supabase profiles table
-        const { data: profile, error } = await supabaseClient
-          .from('profiles')
-          .select('warehouse, mall')
-          .eq('id', user.id)
-          .single();
+        const guestExportBtn = document.getElementById('exportGuestBtn');
+        if (guestExportBtn) guestExportBtn.style.display = 'none';
 
-        if (error) {
-          console.error("❌ Failed to load profile:", error);
+        if (user) {
+          console.log("✅ Auth user found:", user.email, "id:", user.id);
+
+          // Fetch profile from Supabase profiles table
+          const { data: profile, error } = await supabaseClient
+            .from('profiles')
+            .select('warehouse, mail')
+            .eq('id', user.id)
+            .single();
+
+          if (error) {
+            console.error("❌ Failed to load profile:", error);
+            // Try matching by email as fallback
+            const { data: profileByEmail, error: err2 } = await supabaseClient
+              .from('profiles')
+              .select('warehouse, mail')
+              .eq('email', user.email)
+              .single();
+
+            if (err2) {
+              console.error("❌ Fallback by email also failed:", err2);
+              userWarehouse = "";
+              userMall = "";
+            } else {
+              console.log("✅ Profile found by email:", profileByEmail);
+              userWarehouse = profileByEmail?.warehouse ?? "";
+              userMall = profileByEmail?.mail ?? "";
+            }
+          } else {
+            console.log("✅ Profile loaded:", profile);
+            userWarehouse = profile?.warehouse ?? "";
+            userMall = profile?.mail ?? "";
+          }
+
+          document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
+
+          // ✅ ترتيب التحميل الصحيح
+          await loadLocalCatalog();
+          await loadSalesByOutlet();
+          mergeKitData();
+          rebuildDataForWarehouse(userWarehouse);
+
+          populateFilters();
+          await loadFirstSeen();
+          renderProducts();
+          resetLogoutTimer();
+        } else {
+          cart = {};
           userWarehouse = "";
           userMall = "";
-        } else {
-          userWarehouse = profile?.warehouse ?? "";
-          userMall = profile?.mall ?? "";
+          window.data = [];
+          document.getElementById('userInfo').textContent = '';
+          renderProducts();
         }
-
-        document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
-
-        // ✅ ترتيب التحميل الصحيح
-        await loadLocalCatalog();
-        await loadSalesByOutlet();
-        mergeKitData();
-        rebuildDataForWarehouse(userWarehouse);
-
-        populateFilters();
-        await loadFirstSeen();
-        renderProducts();
-        resetLogoutTimer();
-      } else {
-        cart = {};
-        userWarehouse = "";
-        userMall = "";
-        window.data = [];
-        document.getElementById('userInfo').textContent = '';
-        renderProducts();
+      } finally {
+        _authBusy = false;
       }
     }
 
-    // Listen for auth state changes
+    // Listen for auth state changes (SIGNED_IN, SIGNED_OUT, TOKEN_REFRESHED, etc.)
     supabaseClient.auth.onAuthStateChange(async (event, session) => {
+      console.log("🔄 Auth event:", event);
+      // Skip INITIAL_SESSION - we handle that with getSession() below
+      if (event === 'INITIAL_SESSION') return;
       await handleAuthUser(session?.user || null);
     });
 
     // Check initial session on page load
     (async () => {
       const { data: { session } } = await supabaseClient.auth.getSession();
+      console.log("🔑 Initial session:", session ? session.user.email : "none");
       await handleAuthUser(session?.user || null);
+      _authReady = true;
     })();
 
     function resetLogoutTimer() {
