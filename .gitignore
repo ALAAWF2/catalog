@@ -1,9 +1,45 @@
 .env
 .env.*
+firebase-service-account.json
+firebase_users_export.json
+service-account.json
+import_to_supabase.js
+supabase_users_import.csv
 
+# Local backups / temp env
+*.bak
+.env.utf16.bak
 
+# Node / Python caches
+node_modules/
+__pycache__/
+*.pyc
 
+# Supabase/Firebase migration generated outputs
+*_orders_part.sql
+0_schema_and_profiles.sql
+supabase_migration.sql
+supabase_import_errors.log
+supabase_import_progress.json
 
+# Generated CSV chunks/exports
+orders_import*.csv
+csv_chunks_half2/
 
+# Generated JSON exports
+supabase_orders.json
+supabase_users.json
 
+# Local reports / inspection outputs
+missing_users_report.txt
+mapping_inspection.txt
+excel_inspection.txt
+incremental_migration_date.txt
+migration_cutoff_date.txt
+supabase_migration_cutoff.txt
 
+# Local spreadsheets containing credentials/source data
+usersssss-*.xlsx
+
+# Nested repo (added by mistake as embedded repository)
+firebase-to-supabase/
