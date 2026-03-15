@@ -1356,10 +1356,12 @@
             const stockJeddah = Number(d.branches?.['Warehouse']) || 0;
             if (stockRiyadh <= 0 && stockJeddah <= 0) return false;
           }
+        } else {
+          // Stock check for logged-in users (show if stock in their branch > 0)
+          // The stock previously checked was the warehouse stock which might be <= 20
+          const branchStock = Number(d.branches?.[userMall]) || 0;
+          if (branchStock <= 0) return false;
         }
-
-        // Stock check (skip for Guest Mode)
-        if (!isGuestMode && d.stock <= 20) return false;
 
         return true;
       }).filter(d =>
