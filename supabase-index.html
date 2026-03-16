@@ -916,18 +916,13 @@
 
   <script>
     function rebuildDataForWarehouse(warehouse) {
-      if (!warehouse) {
-        window.data = [];
-        return;
-      }
-
       const RAW = Array.isArray(window.products) ? window.products : [];
-      const target = normalizeKey(warehouse);
+      let target = warehouse ? normalizeKey(warehouse) : '';
 
       window.data = RAW
         .map(p => {
-          // In Guest Mode (or Show All), preserve all items but fetch stock info
-          if (warehouse === 'SHOW_ALL') {
+          // If no warehouse defined or guest mode, preserve all items but fetch stock info
+          if (!warehouse || warehouse === 'SHOW_ALL') {
             return { ...p, stock: 0 };
           }
 
