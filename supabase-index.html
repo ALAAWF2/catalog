@@ -1075,21 +1075,14 @@
       }
     }
 
-    // Listen for auth state changes (SIGNED_IN, SIGNED_OUT, TOKEN_REFRESHED, etc.)
+    // Listen for auth state changes (SIGNED_IN, SIGNED_OUT, TOKEN_REFRESHED, INITIAL_SESSION, etc.)
     supabaseClient.auth.onAuthStateChange(async (event, session) => {
       console.log("🔄 Auth event:", event);
-      // Skip INITIAL_SESSION - we handle that with getSession() below
-      if (event === 'INITIAL_SESSION') return;
       await handleAuthUser(session?.user || null);
+      if (event === 'INITIAL_SESSION') {
+         _authReady = true;
+      }
     });
-
-    // Check initial session on page load
-    (async () => {
-      const { data: { session } } = await supabaseClient.auth.getSession();
-      console.log("🔑 Initial session:", session ? session.user.email : "none");
-      await handleAuthUser(session?.user || null);
-      _authReady = true;
-    })();
 
     function resetLogoutTimer() {
       clearTimeout(logoutTimer);
