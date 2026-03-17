@@ -1069,10 +1069,22 @@
           console.log("Profile mall:", userMall);
 
           if (!userWarehouse || !userMall) {
-            console.error("Profile failed to load");
+            console.error("Profile failed to load or is missing in Supabase.");
             window.data = [];
             filteredProducts = [];
-            document.getElementById('productContainer').innerHTML = "<h3 style='text-align:center; color:#e74c3c; width:100%;'>تعذر التحقق من التخويل والمستودع.</h3>";
+            
+            let errorHtml = `
+              <div style='text-align:center; padding: 40px;'>
+                <h3 style='color:#e74c3c; margin-bottom: 15px;'>تعذر التحقق من التخويل والمستودع.</h3>
+                <p style='color:#555; background:#fff3f3; padding:15px; border-radius:8px; border:1px solid #ffcdd2; display:inline-block; text-align:right;'>
+                   <strong>سبب المشكلة:</strong><br>
+                   المستخدم (${user.email}) قام بتسجيل الدخول بنجاح، ولكن لا يوجد له ملف شخصي (Profile) في جدول <code>profiles</code> في قاعدة بيانات Supabase، أو توجد قيود حماية (RLS) تمنع قراءة بياناته.<br><br>
+                   <strong>الحل المدرج:</strong><br>
+                   تأكد من وجود صف في جدول <code>profiles</code> يحتوي على <code>id</code> أو <code>email</code> لهذا المستخدم، وأنه يحتوي على قيم صالحة في أعمدة <code>warehouse</code> و <code>mall</code>.
+                </p>
+              </div>
+            `;
+            document.getElementById('productContainer').innerHTML = errorHtml;
             return;
           }
 
