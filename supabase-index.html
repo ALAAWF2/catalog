@@ -1019,24 +1019,32 @@
 
           console.log("Fetching profile for user ID:", user.id);
           try {
-            // Fetch profile from Supabase profiles table
-            const { data: profile, error } = await supabaseClient
+            // Fetch profile with a 5-second timeout to prevent silent hangs
+            const fetchProfileTask = supabaseClient
               .from('profiles')
               .select('warehouse, mall')
               .eq('id', user.id)
               .single();
+
+            const timeoutTask = new Promise((_, reject) => 
+                setTimeout(() => reject(new Error("Profile fetch timeout elapsed (5s)")), 5000)
+            );
+
+            const { data: profile, error } = await Promise.race([fetchProfileTask, timeoutTask]);
 
             console.log("Profile fetch result:", { profile, error: error?.message });
 
             if (error) {
               console.error("❌ Failed to load profile:", error.message, error);
               console.log("Attempting fallback by email:", user.email);
-              // Try matching by email as fallback
-              const { data: profileByEmail, error: err2 } = await supabaseClient
+              
+              const fetchFallbackTask = supabaseClient
                 .from('profiles')
                 .select('warehouse, mall')
                 .eq('email', user.email)
                 .single();
+              
+              const { data: profileByEmail, error: err2 } = await Promise.race([fetchFallbackTask, timeoutTask]);
 
               console.log("Fallback fetch result:", { profileByEmail, err2: err2?.message });
 
