@@ -995,6 +995,9 @@
     let _authBusy = false;
     let _authReady = false;
 
+    // Cache profile fetch promises to prevent race conditions and duplicate network requests
+    let _profileFetchPromises = {};
+
     async function handleAuthUser(user) {
       if (_authBusy) return;
       _authBusy = true;
@@ -1015,45 +1018,46 @@
         if (guestExportBtn) guestExportBtn.style.display = 'none';
 
         if (user) {
-          console.log("✅ Auth user found:", user.email, "id:", user.id);
-
           console.log("Fetching profile for user ID:", user.id);
           try {
-            // Fetch profile directly
-            const { data: profile, error } = await supabaseClient
-              .from('profiles')
-              .select('*') // Select ALL columns to debug what is actually returning
-              .eq('id', user.id)
-              .single();
+            // Use singleton promise pattern to prevent multiple concurrent fetches for the same user locking up Supabase
+            if (!_profileFetchPromises[user.id]) {
+                _profileFetchPromises[user.id] = supabaseClient
+                  .from('profiles')
+                  .select('*')
+                  .eq('id', user.id)
+                  .single()
+                  .then(async (res) => {
+                      // If ID fetch fails, try fallback by email inside the same cached promise
+                      if (res.error) {
+                          console.error("❌ Failed to load profile by ID:", res.error.message);
+                          console.log("Attempting fallback by email:", user.email);
+                          const fallbackRes = await supabaseClient
+                            .from('profiles')
+                            .select('*')
+                            .eq('email', user.email)
+                            .single();
+                          return { data: fallbackRes.data, error: fallbackRes.error, byEmail: true };
+                      }
+                      return { data: res.data, error: res.error, byEmail: false };
+                  });
+            }
 
-            console.log("Profile fetch result (raw):", JSON.stringify({ profile, error }));
+            const fetchResult = await _profileFetchPromises[user.id];
+            
+            console.log("Profile fetch result (raw):", JSON.stringify(fetchResult));
+            const profile = fetchResult.data;
+            const error = fetchResult.error;
 
             if (error) {
-              console.error("❌ Failed to load profile:", error.message);
-              console.log("Attempting fallback by email:", user.email);
-              
-              const { data: profileByEmail, error: err2 } = await supabaseClient
-                .from('profiles')
-                .select('*')
-                .eq('email', user.email)
-                .single();
-
-              console.log("Fallback fetch result (raw):", JSON.stringify({ profileByEmail, err2 }));
-
-              if (err2) {
-                console.error("❌ Fallback by email also failed:", err2.message);
-                userWarehouse = "";
-                userMall = "";
-              } else {
-              console.log("✅ Profile found by email:", JSON.stringify(profileByEmail));
-              userWarehouse = profileByEmail?.warehouse ?? "";
-              userMall = profileByEmail?.mall ?? "";
+              console.error("❌ Profile fetch definitively failed:", error.message);
+              userWarehouse = "";
+              userMall = "";
+            } else {
+              console.log(`✅ Profile found by ${fetchResult.byEmail ? 'email' : 'ID'}:`, JSON.stringify(profile));
+              userWarehouse = profile?.warehouse ?? "";
+              userMall = profile?.mall ?? "";
             }
-          } else {
-            console.log("✅ Profile found by ID:", JSON.stringify(profile));
-            userWarehouse = profile?.warehouse ?? "";
-            userMall = profile?.mall ?? "";
-          }
           } catch (fetchErr) {
             console.error("Exception during profile fetch:", fetchErr);
             userWarehouse = "";
