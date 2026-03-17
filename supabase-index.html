@@ -979,7 +979,15 @@
   <script>
     const SUPABASE_URL = "https://sufeqdvooqkolghflhta.supabase.co";
     const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1ZmVxZHZvb3Frb2xnaGZsaHRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0MTY5OTIsImV4cCI6MjA4ODk5Mjk5Mn0.ody4a53OtJqzLIoTvJ3S6Igdue-Sy4HsUQ_Cz7MUSjY";
-    const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    
+    // Initialize Supabase with specific auth settings to prevent deadlock on reload
+    const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+      auth: {
+        persistSession: true,
+        autoRefreshToken: true,
+        detectSessionInUrl: false
+      }
+    });
 
     let currentUser = null;
     let userWarehouse = "";
@@ -1120,41 +1128,45 @@
     // Ensure we handle auth only once concurrently
     let _activeAuthHandling = false;
 
-    // Listen for auth state changes (SIGNED_IN, SIGNED_OUT, TOKEN_REFRESHED, etc.)
-    supabaseClient.auth.onAuthStateChange(async (event, session) => {
-      console.log("Auth event:", event);
-      console.log("User session:", session?.user?.email);
-      
-      if (event === 'INITIAL_SESSION') {
-         _authReady = true;
-         if (!session && currentUser) return;
-      }
-      
-      // Prevent rapid duplicate auth handling
-      if (_activeAuthHandling) return;
-      _activeAuthHandling = true;
-      try {
-        await handleAuthUser(session?.user || null);
-      } finally {
-        _activeAuthHandling = false;
-      }
-    });
-
-    // Handle initial session check safely
+    // Handle initial session first
     (async () => {
       try {
         const { data: { session }, error } = await supabaseClient.auth.getSession();
-        console.log("🔑 Initial session check:", session ? session.user.email : "none");
+        console.log("🔑 Initial session loaded:", session ? session.user.email : "none");
         
-        if (!_authReady || (session?.user && !currentUser)) {
-           if (_activeAuthHandling) return;
+        if (session?.user) {
            _activeAuthHandling = true;
-           await handleAuthUser(session?.user || null);
+           await handleAuthUser(session.user);
            _activeAuthHandling = false;
-           _authReady = true;
+        } else {
+           await handleAuthUser(null);
         }
+        _authReady = true;
+
+        // ONLY subscribe to changes AFTER initial session is processed to prevent race conditions
+        supabaseClient.auth.onAuthStateChange(async (event, newSession) => {
+          console.log("Auth event fired:", event, "User:", newSession?.user?.email);
+          
+          if (event === 'INITIAL_SESSION') return; // Handled manually
+          
+          if (_activeAuthHandling) {
+             console.log("Skipping auth change - already handling auth");
+             return; 
+          }
+          
+          // Only process meaningful state changes
+          if (event === 'SIGNED_IN' || event === 'SIGNED_OUT' || event === 'USER_DELETED') {
+            _activeAuthHandling = true;
+            try {
+              await handleAuthUser(newSession?.user || null);
+            } finally {
+              _activeAuthHandling = false;
+            }
+          }
+        });
+
       } catch (e) {
-        console.error("Error during initial session check:", e);
+        console.error("Error during initial auth setup:", e);
       }
     })();
 
