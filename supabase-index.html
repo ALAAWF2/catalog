@@ -1118,28 +1118,44 @@
       }
     }
 
+    // Ensure we handle auth only once concurrently
+    let _activeAuthHandling = false;
+
     // Listen for auth state changes (SIGNED_IN, SIGNED_OUT, TOKEN_REFRESHED, etc.)
     supabaseClient.auth.onAuthStateChange(async (event, session) => {
       console.log("Auth event:", event);
       console.log("User session:", session?.user?.email);
+      
       if (event === 'INITIAL_SESSION') {
          _authReady = true;
-         // Prevent null INITIAL_SESSION from overriding a valid session caught by getSession
          if (!session && currentUser) return;
       }
-      await handleAuthUser(session?.user || null);
+      
+      // Prevent rapid duplicate auth handling
+      if (_activeAuthHandling) return;
+      _activeAuthHandling = true;
+      try {
+        await handleAuthUser(session?.user || null);
+      } finally {
+        _activeAuthHandling = false;
+      }
     });
 
-    // We MUST check initial session on page load because Supabase v2 sometimes 
-    // does not fire INITIAL_SESSION automatically if the session is already restored synchronously.
+    // Handle initial session check safely
     (async () => {
-      const { data: { session } } = await supabaseClient.auth.getSession();
-      console.log("🔑 Initial session check:", session ? session.user.email : "none");
-      
-      // If _authReady is false, OR if getSession found a user but onAuthStateChange missed it/gave null
-      if (!_authReady || (session?.user && !currentUser)) {
-         await handleAuthUser(session?.user || null);
-         _authReady = true;
+      try {
+        const { data: { session }, error } = await supabaseClient.auth.getSession();
+        console.log("🔑 Initial session check:", session ? session.user.email : "none");
+        
+        if (!_authReady || (session?.user && !currentUser)) {
+           if (_activeAuthHandling) return;
+           _activeAuthHandling = true;
+           await handleAuthUser(session?.user || null);
+           _activeAuthHandling = false;
+           _authReady = true;
+        }
+      } catch (e) {
+        console.error("Error during initial session check:", e);
       }
     })();
 
