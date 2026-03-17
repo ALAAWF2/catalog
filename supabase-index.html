@@ -944,6 +944,9 @@
           };
         })
         .filter(Boolean);
+
+      console.log("Products after rebuild:", window.data?.length);
+      console.log("Sample product:", window.data?.[0]);
     }
 
     // Helper to get stock by fuzzy key - handles multiple name variations
@@ -1045,6 +1048,17 @@
             userMall = profile?.mall ?? "";
           }
 
+          console.log("Profile warehouse:", userWarehouse);
+          console.log("Profile mall:", userMall);
+
+          if (!userWarehouse || !userMall) {
+            console.error("Profile failed to load");
+            window.data = [];
+            filteredProducts = [];
+            document.getElementById('productContainer').innerHTML = "<h3 style='text-align:center; color:#e74c3c; width:100%;'>تعذر التحقق من التخويل والمستودع.</h3>";
+            return;
+          }
+
           document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
 
           // ✅ ترتيب التحميل الصحيح
@@ -1063,7 +1077,12 @@
           userMall = "";
           window.data = [];
           document.getElementById('userInfo').textContent = '';
-          renderProducts();
+          if (!isGuestMode) {
+              console.log("No user session. Stopping product rendering.");
+              document.getElementById('productContainer').innerHTML = "";
+          } else {
+              renderProducts();
+          }
         }
       } finally {
         _authBusy = false;
@@ -1072,7 +1091,8 @@
 
     // Listen for auth state changes (SIGNED_IN, SIGNED_OUT, TOKEN_REFRESHED, etc.)
     supabaseClient.auth.onAuthStateChange(async (event, session) => {
-      console.log("🔄 Auth event:", event);
+      console.log("Auth event:", event);
+      console.log("User session:", session?.user?.email);
       if (event === 'INITIAL_SESSION') {
          _authReady = true;
          // Prevent null INITIAL_SESSION from overriding a valid session caught by getSession
@@ -1353,6 +1373,19 @@
     // Actually, I should insert the call inside existing auth listener.
 
     function renderProducts() {
+      console.log("Render start", {
+        user: currentUser?.email,
+        warehouse: userWarehouse,
+        dataCount: window.data?.length
+      });
+
+      if (!isGuestMode && (!currentUser || !userWarehouse)) {
+         console.error("Unauthorized render attempt intercepted.");
+         document.getElementById('productContainer').innerHTML = "<h3 style='text-align:center; color:#e74c3c; width:100%;'>الرجاء تسجيل الدخول وعرض الملف الشخصي.</h3>";
+         document.getElementById('loadingSpinner').classList.remove('active');
+         return;
+      }
+
       document.getElementById('loadingSpinner').classList.add('active');
 
       const category = document.getElementById('categoryFilter').value;
@@ -1403,6 +1436,8 @@
         filterByPrice(d.price, priceRange) &&
         (!newOnly || isNewArrival(d.code))
       );
+
+      console.log("Filtered products:", filteredProducts.length);
 
       sortProducts(sortBy);
       renderPage(1);
