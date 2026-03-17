@@ -1019,46 +1019,41 @@
 
           console.log("Fetching profile for user ID:", user.id);
           try {
-            // Fetch profile with a 5-second timeout to prevent silent hangs
-            const fetchProfileTask = supabaseClient
+            // Fetch profile directly
+            const { data: profile, error } = await supabaseClient
               .from('profiles')
-              .select('warehouse, mall')
+              .select('*') // Select ALL columns to debug what is actually returning
               .eq('id', user.id)
               .single();
 
-            const timeoutTask = new Promise((_, reject) => 
-                setTimeout(() => reject(new Error("Profile fetch timeout elapsed (5s)")), 5000)
-            );
-
-            const { data: profile, error } = await Promise.race([fetchProfileTask, timeoutTask]);
-
-            console.log("Profile fetch result:", { profile, error: error?.message });
+            console.log("Profile fetch result (raw):", JSON.stringify({ profile, error }));
 
             if (error) {
-              console.error("❌ Failed to load profile:", error.message, error);
+              console.error("❌ Failed to load profile:", error.message);
               console.log("Attempting fallback by email:", user.email);
               
-              const fetchFallbackTask = supabaseClient
+              const { data: profileByEmail, error: err2 } = await supabaseClient
                 .from('profiles')
-                .select('warehouse, mall')
+                .select('*')
                 .eq('email', user.email)
                 .single();
-              
-              const { data: profileByEmail, error: err2 } = await Promise.race([fetchFallbackTask, timeoutTask]);
 
-              console.log("Fallback fetch result:", { profileByEmail, err2: err2?.message });
+              console.log("Fallback fetch result (raw):", JSON.stringify({ profileByEmail, err2 }));
 
               if (err2) {
-                console.error("❌ Fallback by email also failed:", err2.message, err2);
+                console.error("❌ Fallback by email also failed:", err2.message);
                 userWarehouse = "";
                 userMall = "";
               } else {
-              console.log("✅ Profile found by email:", profileByEmail);
+              console.log("✅ Profile found by email:", JSON.stringify(profileByEmail));
               userWarehouse = profileByEmail?.warehouse ?? "";
               userMall = profileByEmail?.mall ?? "";
             }
           } else {
-            }
+            console.log("✅ Profile found by ID:", JSON.stringify(profile));
+            userWarehouse = profile?.warehouse ?? "";
+            userMall = profile?.mall ?? "";
+          }
           } catch (fetchErr) {
             console.error("Exception during profile fetch:", fetchErr);
             userWarehouse = "";
