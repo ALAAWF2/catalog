@@ -741,9 +741,12 @@
     style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); align-items:center; justify-content:center; z-index:10002;">
     <div style="background:white; padding:20px; border-radius:10px; width: 1200px; max-width: 95%; max-height:90vh; display:flex; flex-direction:column; text-align:center; box-shadow: 0 0 20px rgba(0,0,0,0.3);">
       
-      <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid var(--primary); padding-bottom:10px; margin-bottom:10px;">
-        <h3 style="margin:0; color:var(--primary); font-size:1.6em;">طلب مواد استهلاكية للمعارض</h3>
-        <p style="margin:0; color:#7f8c8d; font-size:0.9em; font-weight:bold;">حدد الكميات المطلوبة، واترك الباقي فارغاً.</p>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; border-bottom:2px solid var(--primary); padding-bottom:10px; margin-bottom:10px; position:relative;">
+        <div>
+          <h3 style="margin:0; color:var(--primary); font-size:1.6em; text-align:right;">طلب مواد استهلاكية للمعارض</h3>
+          <p style="margin:5px 0 0 0; color:#7f8c8d; font-size:0.9em; font-weight:bold; text-align:right;">حدد الكميات المطلوبة، واترك الباقي فارغاً.</p>
+        </div>
+        <button onclick="closeExtrasModal()" style="background:none; border:none; font-size:1.8em; cursor:pointer; color:#e74c3c; line-height:1; padding:0 10px;" title="إغلاق">✕</button>
       </div>
       
       <style>
@@ -780,8 +783,12 @@
         .extra-card-name {
           flex: 1;
           background: #fff;
-          padding: 8px;
+          padding: 8px 4px;
           color: #2c3e50;
+          font-size: 0.85em !important;
+          line-height: 1.2;
+          word-wrap: break-word;
+          white-space: normal;
         }
         .extra-card-unit {
           width: 50px;
@@ -909,7 +916,6 @@
     }
 
     // Extras Modal Logic
-    let selectedExtras = {}; // { 'مساحة': 2, ... }
 
     function openExtrasModal() {
       const container = document.getElementById('extrasListContainer');
@@ -1133,6 +1139,8 @@
     let userMall = "";
     let isGuestMode = false;
     let cart = {};
+    let selectedExtras = {}; // Moved up to be accessible
+    let editingOrderId = null; // Track order being edited
     let logoutTimer;
     let submitting = false;
 
@@ -1245,6 +1253,41 @@
 
           populateFilters();
           await loadFirstSeen();
+          
+          // Check for edit mode
+          const params = new URLSearchParams(window.location.search);
+          const editId = params.get('edit');
+          if (editId) {
+            editingOrderId = editId;
+            try {
+              const { data, error } = await supabaseClient.from('orders').select('*').eq('id', editId).single();
+              if (data && (!user || data.user_id === user.id) && data.status !== 'sent') {
+                cart = {};
+                (data.items || []).forEach(item => { cart[item.code] = item; });
+                
+                if (data.extras_items && data.extras_items.length > 0) {
+                  document.getElementById('extraItemsCheckbox').checked = true;
+                  document.getElementById('openExtrasBtn').style.display = 'block';
+                  selectedExtras = {};
+                  data.extras_items.forEach(ext => {
+                     selectedExtras[ext.name] = ext.qty;
+                  });
+                  updateExtrasCountBadge();
+                  
+                  // Highlight the counts
+                  document.getElementById('extrasCountBadge').style.background = '#27ae60';
+                }
+                
+                const sendBtn = document.getElementById('sendOrderBtn');
+                if (sendBtn) sendBtn.innerHTML = '📝 حفظ التعديلات للطلبية';
+                
+                showSuccessModal('تم استرجاع الطلبية للتعديل. عدل الكميات واضغط حفظ التعديلات.');
+              }
+            } catch (err) {
+              console.error("Error loading order for edit:", err);
+            }
+          }
+
           renderProducts();
           resetLogoutTimer();
         } else {
@@ -1432,9 +1475,11 @@
     
     function closeOrderModal() { 
       document.getElementById('orderModal').style.display = 'none'; 
-      document.getElementById('extraItemsCheckbox').checked = false;
-      document.getElementById('openExtrasBtn').style.display = 'none';
-      selectedExtras = {}; // Reset extras on close
+      if (!editingOrderId) {
+        // Only clear extras if we are not editing, or if explicitly requested
+        // Actually, closing modal shouldn't clear cart or extras. It used to clear extras.
+        // Let's keep it consistent: don't clear checkbox or extras on close.
+      }
     }
 
     async function submitOrder() {
@@ -1477,29 +1522,40 @@
             };
         }) : [];
 
-        const { error } = await supabaseClient.from('orders').insert({
-          id: crypto.randomUUID(), // Explicitly generate ID to bypass missing DB default constraint
-          mall: userMall,
-          warehouse: userWarehouse,
+        const orderPayload = {
           has_extras: hasExtras,
           user_id: currentUser.id,
           items: ordersPayload,
           extras_items: formattedExtras,
-          status: 'pending'
-        });
-        if (error) throw error;
+          status: 'pending' // reset to pending if edited
+        };
 
-        showSuccessModal("✅ تم إرسال الطلبية بنجاح");
-        cart = {};
-        closeOrderModal();
-        renderProducts();
+        if (editingOrderId) {
+           const { error } = await supabaseClient.from('orders').update(orderPayload).eq('id', editingOrderId);
+           if (error) throw error;
+           showSuccessModal("✅ تم حفظ التعديلات بنجاح");
+           setTimeout(() => window.location.href = 'outlet-orders-supabase.html', 1500);
+        } else {
+           orderPayload.id = crypto.randomUUID();
+           orderPayload.mall = userMall;
+           orderPayload.warehouse = userWarehouse;
+           const { error } = await supabaseClient.from('orders').insert([orderPayload]);
+           if (error) throw error;
+           showSuccessModal("✅ تم إرسال الطلبية بنجاح");
+           cart = {};
+           selectedExtras = {};
+           document.getElementById("extraItemsCheckbox").checked = false;
+           document.getElementById('openExtrasBtn').style.display = 'none';
+           closeOrderModal();
+           renderProducts();
+        }
       } catch (err) {
         alert("❌ حدث خطأ أثناء الحفظ");
         console.error(err);
       } finally {
         submitting = false;
         confirmBtn.disabled = false;
-        confirmBtn.textContent = "تأكيد الطلبية";
+        confirmBtn.textContent = editingOrderId ? "تأكيد التعديلات" : "تأكيد الطلبية";
       }
     }
 

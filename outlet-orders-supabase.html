@@ -602,13 +602,19 @@
               </div>
               <div class="info-row">
                 <span class="info-label">إجمالي القطع:</span>
-                <span class="info-value" style="color: var(--primary); font-size: 1.1em;">${itemsCount} قطعة</span>
-              </div>
+            <div style="display:flex; gap:6px;">
+              <button class="btn-view" onclick="openOrderDetails('${order.id}')" style="flex:1;">
+                📄 تفاصيل
+              </button>
+              ${!isSent ? `
+              <button onclick="window.location.href='supabase-index.html?edit=${order.id}'" style="flex:1; background:#f39c12; color:white; border:none; border-radius:8px; font-weight:bold; cursor:pointer;" title="تعديل تفاصيل الطلبية">
+                ✏️ تعديل
+              </button>
+              <button onclick="cancelOrder('${order.id}')" style="flex:1; background:#e74c3c; color:white; border:none; border-radius:8px; font-weight:bold; cursor:pointer;" title="إلغاء وحذف الطلبية">
+                ❌ إلغاء
+              </button>
+              ` : ''}
             </div>
-            
-            <button class="btn-view" onclick="openOrderDetails('${order.id}')">
-              📄 عرض تفاصيل الطلبية
-            </button>
           </div>
         `;
       }).join('');
@@ -681,6 +687,24 @@
     document.getElementById('orderModal').addEventListener('click', function(e) {
       if (e.target === this) closeModal();
     });
+
+    async function cancelOrder(orderId) {
+      if (!confirm('هل أنت متأكد من رغبتك في إلغاء هذه الطلبية بشكل نهائي؟')) return;
+      
+      document.body.style.cursor = 'wait';
+      try {
+        const { error } = await supabaseClient.from('orders').delete().eq('id', orderId);
+        if (error) throw error;
+        
+        alert('✅ تم إلغاء الطلبية بنجاح.');
+        loadOrders(); // Reload the list
+      } catch (err) {
+        console.error("Error cancelling order:", err);
+        alert('❌ حدث خطأ أثناء محاولة الإلغاء. قد تحتاج إلى صلاحية حذف (Delete) في قاعدة البيانات: ' + err.message);
+      } finally {
+        document.body.style.cursor = 'default';
+      }
+    }
   </script>
 
 </body>
