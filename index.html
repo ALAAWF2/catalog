@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <title>جدول البضاعة</title>
-  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+  <!-- تفريغ دوال الـ console لمنع ثقل الصفحة أثناء عمليات البحث والفلترة -->
+  <script>console.log = function() {}; console.info = function() {};</script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -676,7 +676,7 @@
         style="background:#8e44ad; display:flex; align-items:center; gap:5px;">🖨️ طباعة الباركود</button>
       <button id="customProductBtn" onclick="openCustomProductModal()" style="background:#7f8c8d;">➕ منتج غير
         موجود</button>
-      <a id="myOrdersBtn" href="outlet-orders.html" style="text-decoration:none;"><button style="background:#2980b9;">
+      <a id="myOrdersBtn" href="outlet-orders-supabase.html" style="text-decoration:none;"><button style="background:#2980b9;">
           طلباتي
           السابقة</button></a>
       <button id="loginBtn" onclick="login()">🔑 تسجيل الدخول</button>
@@ -722,9 +722,10 @@
       </div>
 
       <label style="display:block; text-align:right; margin:10px 0; font-size:0.9em;">
-        <input type="checkbox" id="extraItemsCheckbox" />
+        <input type="checkbox" id="extraItemsCheckbox" onchange="document.getElementById('openExtrasBtn').style.display = this.checked ? 'block' : 'none'" />
         يوجد مستلزمات إضافية (أكياس/فواتير...)
       </label>
+      <button id="openExtrasBtn" onclick="openExtrasModal()" style="display:none; background:#3498db; color:white; padding:8px 15px; border:none; border-radius:5px; cursor:pointer; margin-bottom:15px; width:100%; font-weight:bold;">📦 اختر المستلزمات الإضافية والكميات</button>
 
       <div style="display:flex; gap:10px; justify-content:center; margin-top:20px;">
         <button id="confirmOrderBtn" onclick="submitOrder()"
@@ -735,6 +736,97 @@
       </div>
     </div>
   </div>
+
+  <div id="extrasModal"
+    style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); align-items:center; justify-content:center; z-index:10002;">
+    <div style="background:white; padding:20px; border-radius:10px; width: 1200px; max-width: 95%; max-height:90vh; display:flex; flex-direction:column; text-align:center; box-shadow: 0 0 20px rgba(0,0,0,0.3);">
+      
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; border-bottom:2px solid var(--primary); padding-bottom:10px; margin-bottom:10px; position:relative;">
+        <div>
+          <h3 style="margin:0; color:var(--primary); font-size:1.6em; text-align:right;">طلب مواد استهلاكية للمعارض</h3>
+          <p style="margin:5px 0 0 0; color:#7f8c8d; font-size:0.9em; font-weight:bold; text-align:right;">حدد الكميات المطلوبة، واترك الباقي فارغاً.</p>
+        </div>
+        <button onclick="closeExtrasModal()" style="background:none; border:none; font-size:1.8em; cursor:pointer; color:#e74c3c; line-height:1; padding:0 10px;" title="إغلاق">✕</button>
+      </div>
+      
+      <style>
+        .extras-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+          gap: 6px;
+          text-align: right;
+        }
+        .extra-card {
+          display: flex;
+          border: 1px solid #bdc3c7;
+          background: #fff;
+          align-items: stretch;
+          border-radius: 4px;
+          overflow: hidden;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .extra-card:hover {
+          border-color: var(--primary);
+        }
+        .extra-card > div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          border-left: 1px solid #bdc3c7;
+          font-size: 0.9em;
+          font-weight: bold;
+        }
+        .extra-card > div:last-child {
+          border-left: none;
+        }
+        .extra-card-name {
+          flex: 1;
+          background: #fff;
+          padding: 8px 4px;
+          color: #2c3e50;
+          font-size: 0.85em !important;
+          line-height: 1.2;
+          word-wrap: break-word;
+          white-space: normal;
+        }
+        .extra-card-unit {
+          width: 50px;
+          background: #fdfdfd;
+          color: #7f8c8d;
+          font-size: 0.8em !important;
+        }
+        .extra-card-qty {
+          width: 70px;
+          background: #fdfdfd;
+        }
+        .extra-card-qty input {
+          width: 100%;
+          height: 100%;
+          border: none;
+          text-align: center;
+          font-size: 1.1em;
+          font-weight: 800;
+          outline: none;
+          background: transparent;
+          color: var(--primary);
+        }
+        .extra-card-qty input:focus {
+          background: #ffeaa7;
+        }
+      </style>
+
+      <div id="extrasListContainer" class="extras-grid" style="overflow-y:auto; flex:1; padding:10px 5px;">
+        <!-- Extras injected here -->
+      </div>
+      
+      <div style="margin-top:15px; display:flex; justify-content:space-between; align-items:center; border-top:1px solid #eee; padding-top:15px;">
+        <div id="extrasCountBadge" style="background:#e67e22; color:white; padding:8px 15px; border-radius:20px; font-weight:bold; font-size:1em; box-shadow: 0 2px 5px rgba(230, 126, 34, 0.4);">0 عناصر مختارة</div>
+        <button onclick="closeExtrasModal()" style="background:#27ae60; color:white; padding:12px 30px; border:none; border-radius:8px; cursor:pointer; font-weight:bold; font-size:1.1em; box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);">اعتماد الاختيارات وإغلاق</button>
+      </div>
+    </div>
+  </div>
+
 
   <div id="loadingSpinner" class="loading-spinner"></div>
 
@@ -809,6 +901,57 @@
         console.error("❌ Catalog load failed:", e);
         window.products = [];
       }
+    }
+
+    async function loadExtras() {
+      try {
+        const res = await fetch("extras.json?_=" + Date.now(), { cache: "no-store" });
+        if (!res.ok) throw new Error("Failed to load extras.json");
+        window.EXTRAS_LIST = await res.json();
+        console.log("✅ extras.json loaded:", window.EXTRAS_LIST.length);
+      } catch (e) {
+        console.error("❌ Extras load failed:", e);
+        window.EXTRAS_LIST = [];
+      }
+    }
+
+    // Extras Modal Logic
+
+    function openExtrasModal() {
+      const container = document.getElementById('extrasListContainer');
+      container.innerHTML = (window.EXTRAS_LIST || []).map((ext) => {
+        const currentQty = selectedExtras[ext['البيان']] || '';
+        return `
+          <div class="extra-card">
+            <div class="extra-card-name">${ext['البيان']}</div>
+            <div class="extra-card-unit">${ext['الوحدة'] || '—'}</div>
+            <div class="extra-card-qty">
+              <input type="number" min="1" placeholder="الكمية" value="${currentQty}" 
+                     oninput="updateExtraItem('${ext['البيان'].replace(/'/g, "\\'")}', this.value)">
+            </div>
+          </div>
+        `;
+      }).join('');
+      updateExtrasCountBadge();
+      document.getElementById('extrasModal').style.display = 'flex';
+    }
+
+    function closeExtrasModal() {
+      document.getElementById('extrasModal').style.display = 'none';
+    }
+
+    function updateExtraItem(name, value) {
+      if (value && parseInt(value) > 0) {
+        selectedExtras[name] = parseInt(value);
+      } else {
+        delete selectedExtras[name];
+      }
+      updateExtrasCountBadge();
+    }
+
+    function updateExtrasCountBadge() {
+      const count = Object.keys(selectedExtras).length;
+      document.getElementById('extrasCountBadge').innerText = `${count} عناصر مختارة`;
     }
   </script>
 
@@ -918,18 +1061,13 @@
 
   <script>
     function rebuildDataForWarehouse(warehouse) {
-      if (!warehouse) {
-        window.data = [];
-        return;
-      }
-
       const RAW = Array.isArray(window.products) ? window.products : [];
-      const target = normalizeKey(warehouse);
+      let target = warehouse ? normalizeKey(warehouse) : '';
 
       window.data = RAW
         .map(p => {
-          // In Guest Mode (or Show All), preserve all items but fetch stock info
-          if (warehouse === 'SHOW_ALL') {
+          // If no warehouse defined or guest mode, preserve all items but fetch stock info
+          if (!warehouse || warehouse === 'SHOW_ALL') {
             return { ...p, stock: 0 };
           }
 
@@ -951,6 +1089,9 @@
           };
         })
         .filter(Boolean);
+
+      console.log("Products after rebuild:", window.data?.length);
+      console.log("Sample product:", window.data?.[0]);
     }
 
     // Helper to get stock by fuzzy key - handles multiple name variations
@@ -979,89 +1120,253 @@
   <!-- سكربت “آخر تحديث” -->
 
 
-  <!-- Firebase + منطق الصفحة -->
+  <!-- Supabase + منطق الصفحة -->
   <script>
-    const firebaseConfig = {
-      apiKey: "AIzaSyDBhsMvDPwECDlFNYNkmFXDVq4nWrEejJc",
-      authDomain: "orders-fb3bf.firebaseapp.com",
-      projectId: "orders-fb3bf",
-      storageBucket: "orders-fb3bf.firebasestorage.app",
-      messagingSenderId: "970674722848",
-      appId: "1:970674722848:web:e2e17f7a62bf59e51f0445"
-    };
-    firebase.initializeApp(firebaseConfig);
-    const db = firebase.firestore();
-    const auth = firebase.auth();
+    const SUPABASE_URL = "https://sufeqdvooqkolghflhta.supabase.co";
+    const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1ZmVxZHZvb3Frb2xnaGZsaHRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0MTY5OTIsImV4cCI6MjA4ODk5Mjk5Mn0.ody4a53OtJqzLIoTvJ3S6Igdue-Sy4HsUQ_Cz7MUSjY";
+    
+    // Initialize Supabase with specific auth settings to prevent deadlock on reload
+    const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+      auth: {
+        persistSession: true,
+        autoRefreshToken: true,
+        detectSessionInUrl: false
+      }
+    });
 
     let currentUser = null;
     let userWarehouse = "";
     let userMall = "";
     let isGuestMode = false;
     let cart = {};
+    let selectedExtras = {}; // Moved up to be accessible
+    let editingOrderId = null; // Track order being edited
     let logoutTimer;
     let submitting = false;
 
     const productsPerPage = 40;
     let filteredProducts = [], currentPage = 1;
 
-    auth.onAuthStateChanged(async user => {
-      currentUser = user;
+    let _authBusy = false;
+    let _authReady = false;
 
-      // Restore toggling of buttons now that they exist in DOM again
-      const sendBtn = document.getElementById('sendOrderBtn');
-      const crossBtn = document.getElementById('crossOutletSearchBtn');
-      const loginBtn = document.getElementById('loginBtn');
+    // Cache profile fetch promises to prevent race conditions and duplicate network requests
+    let _profileFetchPromises = {};
 
-      if (sendBtn) sendBtn.style.display = user ? 'inline-block' : 'none';
-      if (crossBtn) crossBtn.style.display = user ? 'inline-block' : 'none';
-      if (loginBtn) loginBtn.textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
+    async function handleAuthUser(user) {
+      if (_authBusy) return;
+      _authBusy = true;
 
-      const guestExportBtn = document.getElementById('exportGuestBtn');
-      if (guestExportBtn) guestExportBtn.style.display = 'none';
+      try {
+        currentUser = user;
+        isGuestMode = false;
 
-      if (user) {
-        const doc = await db.collection("users").doc(user.uid).get();
-        userWarehouse = doc.data()?.warehouse ?? "";
-        userMall = doc.data()?.mall ?? "";
+        const sendBtn = document.getElementById('sendOrderBtn');
+        const crossBtn = document.getElementById('crossOutletSearchBtn');
+        const loginBtn = document.getElementById('loginBtn');
 
-        document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
+        if (sendBtn) sendBtn.style.display = user ? 'inline-block' : 'none';
+        if (crossBtn) crossBtn.style.display = user ? 'inline-block' : 'none';
+        if (loginBtn) loginBtn.textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
 
-        // updateSidebarUserInfo(); // Deprecated
+        const guestExportBtn = document.getElementById('exportGuestBtn');
+        if (guestExportBtn) guestExportBtn.style.display = 'none';
 
-        // ✅ ترتيب التحميل الصحيح
-        await loadLocalCatalog();
-        await loadSalesByOutlet();   // ✅ الجديد
-        mergeKitData(); // ✅ دمج بيانات الـ KIT
-        rebuildDataForWarehouse(userWarehouse);
+        if (user) {
+          console.log("Fetching profile for user ID:", user.id);
+          try {
+            // Use singleton promise pattern to prevent multiple concurrent fetches for the same user locking up Supabase
+            if (!_profileFetchPromises[user.id]) {
+                _profileFetchPromises[user.id] = supabaseClient
+                  .from('profiles')
+                  .select('*')
+                  .eq('id', user.id)
+                  .single()
+                  .then(async (res) => {
+                      // If ID fetch fails, try fallback by email inside the same cached promise
+                      if (res.error) {
+                          console.error("❌ Failed to load profile by ID:", res.error.message);
+                          console.log("Attempting fallback by email:", user.email);
+                          const fallbackRes = await supabaseClient
+                            .from('profiles')
+                            .select('*')
+                            .eq('email', user.email)
+                            .single();
+                          return { data: fallbackRes.data, error: fallbackRes.error, byEmail: true };
+                      }
+                      return { data: res.data, error: res.error, byEmail: false };
+                  });
+            }
 
-        populateFilters();
-        await loadFirstSeen();
-        renderProducts();
-        resetLogoutTimer();
-      } else {
-        cart = {};
-        userWarehouse = "";
-        userMall = "";
-        window.data = [];
-        document.getElementById('userInfo').textContent = '';
-        renderProducts();
+            const fetchResult = await _profileFetchPromises[user.id];
+            
+            console.log("Profile fetch result (raw):", JSON.stringify(fetchResult));
+            const profile = fetchResult.data;
+            const error = fetchResult.error;
+
+            if (error) {
+              console.error("❌ Profile fetch definitively failed:", error.message);
+              userWarehouse = "";
+              userMall = "";
+            } else {
+              console.log(`✅ Profile found by ${fetchResult.byEmail ? 'email' : 'ID'}:`, JSON.stringify(profile));
+              userWarehouse = profile?.warehouse ?? "";
+              userMall = profile?.mall ?? "";
+            }
+          } catch (fetchErr) {
+            console.error("Exception during profile fetch:", fetchErr);
+            userWarehouse = "";
+            userMall = "";
+          }
+
+          console.log("Profile warehouse:", userWarehouse);
+          console.log("Profile mall:", userMall);
+
+          if (!userWarehouse || !userMall) {
+            console.error("Profile failed to load or is missing in Supabase.");
+            window.data = [];
+            filteredProducts = [];
+            
+            let errorHtml = `
+              <div style='text-align:center; padding: 40px;'>
+                <h3 style='color:#e74c3c; margin-bottom: 15px;'>تعذر التحقق من التخويل والمستودع.</h3>
+                <p style='color:#555; background:#fff3f3; padding:15px; border-radius:8px; border:1px solid #ffcdd2; display:inline-block; text-align:right;'>
+                   <strong>سبب المشكلة:</strong><br>
+                   المستخدم (${user.email}) قام بتسجيل الدخول بنجاح، ولكن لا يوجد له ملف شخصي (Profile) في جدول <code>profiles</code> في قاعدة بيانات Supabase، أو توجد قيود حماية (RLS) تمنع قراءة بياناته.<br><br>
+                   <strong>الحل المدرج:</strong><br>
+                   تأكد من وجود صف في جدول <code>profiles</code> يحتوي على <code>id</code> أو <code>email</code> لهذا المستخدم، وأنه يحتوي على قيم صالحة في أعمدة <code>warehouse</code> و <code>mall</code>.
+                </p>
+              </div>
+            `;
+            document.getElementById('productContainer').innerHTML = errorHtml;
+            return;
+          }
+
+          document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
+
+          // ✅ ترتيب التحميل الصحيح
+          await loadLocalCatalog();
+          await loadExtras();
+          await loadSalesByOutlet();
+          mergeKitData();
+          rebuildDataForWarehouse(userWarehouse);
+
+          populateFilters();
+          await loadFirstSeen();
+          
+          // Check for edit mode
+          const params = new URLSearchParams(window.location.search);
+          const editId = params.get('edit');
+          if (editId) {
+            editingOrderId = editId;
+            try {
+              const { data, error } = await supabaseClient.from('orders').select('*').eq('id', editId).single();
+              if (data && (!user || data.user_id === user.id) && data.status !== 'sent') {
+                cart = {};
+                (data.items || []).forEach(item => { cart[item.code] = item; });
+                
+                if (data.extras_items && data.extras_items.length > 0) {
+                  document.getElementById('extraItemsCheckbox').checked = true;
+                  document.getElementById('openExtrasBtn').style.display = 'block';
+                  selectedExtras = {};
+                  data.extras_items.forEach(ext => {
+                     selectedExtras[ext.name] = ext.qty;
+                  });
+                  updateExtrasCountBadge();
+                  
+                  // Highlight the counts
+                  document.getElementById('extrasCountBadge').style.background = '#27ae60';
+                }
+                
+                const sendBtn = document.getElementById('sendOrderBtn');
+                if (sendBtn) sendBtn.innerHTML = '📝 حفظ التعديلات للطلبية';
+                
+                showSuccessModal('تم استرجاع الطلبية للتعديل. عدل الكميات واضغط حفظ التعديلات.');
+              }
+            } catch (err) {
+              console.error("Error loading order for edit:", err);
+            }
+          }
+
+          renderProducts();
+          resetLogoutTimer();
+        } else {
+          cart = {};
+          userWarehouse = "";
+          userMall = "";
+          window.data = [];
+          document.getElementById('userInfo').textContent = '';
+          if (!isGuestMode) {
+              console.log("No user session. Stopping product rendering.");
+              document.getElementById('productContainer').innerHTML = "";
+          } else {
+              renderProducts();
+          }
+        }
+      } finally {
+        _authBusy = false;
       }
-    });
+    }
+
+    // Ensure we handle auth only once concurrently
+    let _activeAuthHandling = false;
+
+    // Handle initial session first
+    (async () => {
+      try {
+        const { data: { session }, error } = await supabaseClient.auth.getSession();
+        console.log("🔑 Initial session loaded:", session ? session.user.email : "none");
+        
+        if (session?.user) {
+           _activeAuthHandling = true;
+           await handleAuthUser(session.user);
+           _activeAuthHandling = false;
+        } else {
+           await handleAuthUser(null);
+        }
+        _authReady = true;
+
+        // ONLY subscribe to changes AFTER initial session is processed to prevent race conditions
+        supabaseClient.auth.onAuthStateChange(async (event, newSession) => {
+          console.log("Auth event fired:", event, "User:", newSession?.user?.email);
+          
+          if (event === 'INITIAL_SESSION') return; // Handled manually
+          
+          if (_activeAuthHandling) {
+             console.log("Skipping auth change - already handling auth");
+             return; 
+          }
+          
+          // Only process meaningful state changes
+          if (event === 'SIGNED_IN' || event === 'SIGNED_OUT' || event === 'USER_DELETED') {
+            _activeAuthHandling = true;
+            try {
+              await handleAuthUser(newSession?.user || null);
+            } finally {
+              _activeAuthHandling = false;
+            }
+          }
+        });
+
+      } catch (e) {
+        console.error("Error during initial auth setup:", e);
+      }
+    })();
 
     function resetLogoutTimer() {
       clearTimeout(logoutTimer);
-      logoutTimer = setTimeout(() => {
+      logoutTimer = setTimeout(async () => {
         if (currentUser) {
           alert("تم تسجيل الخروج تلقائيًا بعد 8 ساعات من عدم التفاعل.");
-          auth.signOut();
+          await supabaseClient.auth.signOut();
         }
       }, 8 * 60 * 60 * 1000);
     }
     ['click', 'mousemove', 'keydown', 'scroll', 'touchstart'].forEach(ev => document.addEventListener(ev, resetLogoutTimer));
 
-    function login() {
+    async function login() {
       if (currentUser) {
-        auth.signOut();
+        await supabaseClient.auth.signOut();
         localStorage.removeItem('savedEmail');
         localStorage.removeItem('savedPassword');
       } else {
@@ -1070,15 +1375,18 @@
       }
     }
     function closeLoginModal() { document.getElementById('loginModal').style.display = 'none'; }
-    function confirmLogin() {
+    async function confirmLogin() {
       const email = document.getElementById('emailInput').value;
       const password = document.getElementById('passwordInput').value;
       if (email && password) {
         localStorage.setItem('savedEmail', email);
         localStorage.setItem('savedPassword', password);
-        auth.signInWithEmailAndPassword(email, password)
-          .then(() => closeLoginModal())
-          .catch(e => alert("فشل الدخول: " + e.message));
+        const { error } = await supabaseClient.auth.signInWithPassword({ email, password });
+        if (error) {
+          alert("فشل الدخول: " + error.message);
+        } else {
+          closeLoginModal();
+        }
       } else {
         alert("يرجى إدخال البريد وكلمة المرور");
       }
@@ -1122,7 +1430,7 @@
       const spinner = document.getElementById('loadingSpinner');
       if (spinner) spinner.classList.add('active');
 
-      Promise.all([loadLocalCatalog(), loadFirstSeen(), loadSalesByOutlet()]).then(() => {
+      Promise.all([loadLocalCatalog(), loadExtras(), loadFirstSeen(), loadSalesByOutlet()]).then(() => {
         mergeKitData();
         rebuildDataForWarehouse('SHOW_ALL');
         populateFilters();
@@ -1164,7 +1472,15 @@
       document.getElementById('orderSummaryContainer').innerHTML = html;
       document.getElementById('orderModal').style.display = 'flex';
     }
-    function closeOrderModal() { document.getElementById('orderModal').style.display = 'none'; }
+    
+    function closeOrderModal() { 
+      document.getElementById('orderModal').style.display = 'none'; 
+      if (!editingOrderId) {
+        // Only clear extras if we are not editing, or if explicitly requested
+        // Actually, closing modal shouldn't clear cart or extras. It used to clear extras.
+        // Let's keep it consistent: don't clear checkbox or extras on close.
+      }
+    }
 
     async function submitOrder() {
       if (submitting) return;
@@ -1187,36 +1503,59 @@
           if (p) {
             return {
               code: p.code,
-              gofrugal_code: p.gofrugal_code ?? "",   // ✅ هذا هو السطر المطلوب
+              gofrugal_code: p.gofrugal_code ?? "",
               name: p.name,
               alias: d.alias ?? '',
               qty: Number(d.qty) || 0
             };
-
           }
           return { alias: d.alias ?? '', qty: Number(d.qty) || 0 };
         });
 
-        await db.collection("orders").add({
-          mall: userMall,
-          warehouse: userWarehouse,
-          hasExtras,
-          userId: currentUser.uid,
-          orders: ordersPayload,
-          timestamp: firebase.firestore.FieldValue.serverTimestamp()
-        });
+        // Prepare Extras Payload
+        const formattedExtras = hasExtras ? Object.entries(selectedExtras).map(([name, qty]) => {
+            const extDef = (window.EXTRAS_LIST || []).find(e => e['البيان'] === name) || {};
+            return {
+                name: name,
+                qty: qty,
+                unit: extDef['الوحدة'] || 'غير محدد'
+            };
+        }) : [];
 
-        showSuccessModal("✅ تم إرسال الطلبية بنجاح");
-        cart = {};
-        closeOrderModal();
-        renderProducts();
+        const orderPayload = {
+          has_extras: hasExtras,
+          user_id: currentUser.id,
+          items: ordersPayload,
+          extras_items: formattedExtras,
+          status: 'pending' // reset to pending if edited
+        };
+
+        if (editingOrderId) {
+           const { error } = await supabaseClient.from('orders').update(orderPayload).eq('id', editingOrderId);
+           if (error) throw error;
+           showSuccessModal("✅ تم حفظ التعديلات بنجاح");
+           setTimeout(() => window.location.href = 'outlet-orders-supabase.html', 1500);
+        } else {
+           orderPayload.id = crypto.randomUUID();
+           orderPayload.mall = userMall;
+           orderPayload.warehouse = userWarehouse;
+           const { error } = await supabaseClient.from('orders').insert([orderPayload]);
+           if (error) throw error;
+           showSuccessModal("✅ تم إرسال الطلبية بنجاح");
+           cart = {};
+           selectedExtras = {};
+           document.getElementById("extraItemsCheckbox").checked = false;
+           document.getElementById('openExtrasBtn').style.display = 'none';
+           closeOrderModal();
+           renderProducts();
+        }
       } catch (err) {
         alert("❌ حدث خطأ أثناء الحفظ");
         console.error(err);
       } finally {
         submitting = false;
         confirmBtn.disabled = false;
-        confirmBtn.textContent = "تأكيد الطلبية";
+        confirmBtn.textContent = editingOrderId ? "تأكيد التعديلات" : "تأكيد الطلبية";
       }
     }
 
@@ -1303,6 +1642,19 @@
     // Actually, I should insert the call inside existing auth listener.
 
     function renderProducts() {
+      console.log("Render start", {
+        user: currentUser?.email,
+        warehouse: userWarehouse,
+        dataCount: window.data?.length
+      });
+
+      if (!isGuestMode && (!currentUser || !userWarehouse)) {
+         console.error("Unauthorized render attempt intercepted.");
+         document.getElementById('productContainer').innerHTML = "<h3 style='text-align:center; color:#e74c3c; width:100%;'>الرجاء تسجيل الدخول وعرض الملف الشخصي.</h3>";
+         document.getElementById('loadingSpinner').classList.remove('active');
+         return;
+      }
+
       document.getElementById('loadingSpinner').classList.add('active');
 
       const category = document.getElementById('categoryFilter').value;
@@ -1353,6 +1705,8 @@
         filterByPrice(d.price, priceRange) &&
         (!newOnly || isNewArrival(d.code))
       );
+
+      console.log("Filtered products:", filteredProducts.length);
 
       sortProducts(sortBy);
       renderPage(1);

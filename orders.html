@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>عرض الطلبات</title>
-  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <style>
     body {
@@ -442,7 +441,7 @@
         <select id="statusFilter" onchange="loadOrders()">
           <option value="all">الكل</option>
           <option value="تم الإرسال">تم الإرسال</option>
-          <option value="—">غير محدد</option>
+          <option value="pending">قيد الانتظار</option>
         </select>
       </div>
 
@@ -569,71 +568,82 @@
 
 
   <script>
-    const firebaseConfig = {
-      apiKey: "AIzaSyDBhsMvDPwECDlFNYNkmFXDVq4nWrEejJc",
-      authDomain: "orders-fb3bf.firebaseapp.com",
-      projectId: "orders-fb3bf",
-      storageBucket: "orders-fb3bf.firebasestorage.app",
-      messagingSenderId: "970674722848",
-      appId: "1:970674722848:web:e2e17f7a62bf59e51f0445",
-      measurementId: "G-7LFHS7SRER"
-    };
-    firebase.initializeApp(firebaseConfig);
-    const db = firebase.firestore();
+    const SUPABASE_URL = "https://sufeqdvooqkolghflhta.supabase.co";
+    const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1ZmVxZHZvb3Frb2xnaGZsaHRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0MTY5OTIsImV4cCI6MjA4ODk5Mjk5Mn0.ody4a53OtJqzLIoTvJ3S6Igdue-Sy4HsUQ_Cz7MUSjY";
+    const STATUS_SENT_AR = 'تم الإرسال';
+    const STATUS_PENDING_AR = 'قيد الانتظار';
+    const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
     let currentOrder = null;
-    // Removed orderMap as we only hold current page
     let currentOrdersList = [];
 
-    // Pagination State
     let currentPage = 1;
     const ordersPerPage = 50;
-    let lastVisible = null;
-    let pagesStack = []; // Stores the 'lastVisible' of previous pages correctly
+    let totalPages = 1;
     let isFetching = false;
 
-    // We can't easily sort by arbitrary fields with simple queries + pagination without composite indexes.
-    // We will stick to Default Sort (Timestamp DESC) for the optimized view.
-    // Client-side sorting is removed for the main list to ensure speed.
-    // Filtering is applied server-side.
+    function normalizeStatusValue(raw) {
+      const s = String(raw || '').trim();
+      if (!s) return '?';
+      if (s === STATUS_SENT_AR || s.toLowerCase() === 'sent') return STATUS_SENT_AR;
+      if (s.toLowerCase() === 'pending') return STATUS_PENDING_AR;
+      return s;
+    }
+
+    function statusBadgeHtml(raw) {
+      const label = normalizeStatusValue(raw);
+      const cls = label === STATUS_SENT_AR ? 'status-sent' : 'status-pending';
+      return `<span class="status-badge ${cls}">${label}</span>`;
+    }
+
+    function getItems(order) {
+      return Array.isArray(order.items) ? order.items : [];
+    }
+
+    function getDateLabel(order) {
+      if (!order.created_at) return '?';
+      return new Date(order.created_at).toLocaleString('en-GB', { hour12: false });
+    }
+
+    // We compute stats in loadOrders now to get accurate counts.
 
     function displayOrders(orders) {
-      const tbody = document.querySelector("#ordersTable tbody");
-      tbody.innerHTML = "";
+      const tbody = document.querySelector('#ordersTable tbody');
+      tbody.innerHTML = '';
 
       orders.forEach((data) => {
-        const id = data.id_doc; // manually added ID
-        const dateObj = data.timestamp?.toDate?.();
-        const displayDate = dateObj ? dateObj.toLocaleString("en-GB", { hour12: false }) : "—";
-        const numItems = Array.isArray(data.orders) ? data.orders.length : 0;
+        const id = data.id;
+        const displayDate = getDateLabel(data);
+        const numItems = getItems(data).length;
 
-        const row = document.createElement("tr");
+        const row = document.createElement('tr');
         row.innerHTML = `
   <td><input type="checkbox" class="orderCheckbox" value="${id}"></td>
   <td>${displayDate}</td>
-  <td>${data.mall}</td>
-  <td>${data.warehouse}</td>
-  <td>${data.hasExtras ? 'نعم' : 'لا'}</td>
+  <td>${data.mall || ''}</td>
+  <td>${data.warehouse || ''}</td>
+  <td>${data.has_extras ? 'Yes' : 'No'}</td>
   <td>${numItems}</td>
   <td>
-    <button onclick='showOrder("${id}")'>عرض</button>
-    <button onclick='downloadExcelDirect("${id}")'>تحميل</button>
+    <button onclick='showOrder("${id}")'>View</button>
+    <button onclick='downloadExcelDirect("${id}")'>Download</button>
   </td>
-  <td>${data.status || '—'}</td>
-  <td><button onclick='updateStatus("${id}")'>🚚 تم الإرسال</button></td>
+  <td>${statusBadgeHtml(data.status)}</td>
+  <td><button onclick='updateStatus("${id}")'>Mark Sent</button></td>
   `;
         tbody.appendChild(row);
       });
 
       document.getElementById('currentPage').textContent = currentPage;
-      document.getElementById('totalPages').textContent = "?"; // Total pages unknown in infinite scroll/cursor pagination
+      document.getElementById('totalPages').textContent = totalPages;
+    }
 
-      // Update basic stats for *this page* or just hide them?
-      // User asked for optimization. Calculating total stats requires reading ALL docs which is what we want to avoid.
-      // We will set them to "Many" or just the count of current page for now, or 0.
-      document.getElementById("totalOrders").textContent = "---";
-      document.getElementById("sentOrders").textContent = "---";
-      document.getElementById("pendingOrders").textContent = "---";
+    function applyStatusFilter(query, statusValue) {
+      if (statusValue === 'all') return query;
+      if (statusValue === 'pending') {
+        return query.not('status', 'in', `("sent","${STATUS_SENT_AR}")`);
+      }
+      return query.in('status', ['sent', STATUS_SENT_AR]);
     }
 
     async function loadOrders(direction = 'first') {
@@ -642,119 +652,68 @@
       document.body.style.cursor = 'wait';
 
       try {
-        const warehouse = document.getElementById("warehouseFilter").value;
-        const status = document.getElementById("statusFilter").value;
-        const startDate = document.getElementById("startDateFilter").value;
-        const endDate = document.getElementById("endDateFilter").value;
+        const warehouse = document.getElementById('warehouseFilter').value;
+        const status = document.getElementById('statusFilter').value;
+        const startDate = document.getElementById('startDateFilter').value;
+        const endDate = document.getElementById('endDateFilter').value;
 
-        // Base Query
-        let query = db.collection("orders");
+        if (direction === 'first') currentPage = 1;
+        else if (direction === 'next') currentPage += 1;
+        else if (direction === 'prev') currentPage = Math.max(1, currentPage - 1);
 
-        // Apply filters
-        if (warehouse !== "all") query = query.where("warehouse", "==", warehouse);
-        if (status !== "all") {
-          // Note: 'status' field might not exist on all docs, filtering by it requires it to exist.
-          // If we filter where status == '—', we might need to look for null.
-          // For simplicity in this optimization, we only filter if it's a concrete value.
-          if (status === '—') {
-            // This is tricky in Firestore if field is missing.
-            // We'll skip complex 'missing field' queries for now to avoid errors.
-          } else {
-            query = query.where("status", "==", status);
-          }
-        }
+        let query = supabaseClient
+          .from('orders')
+          .select('id,mall,warehouse,has_extras,items,extras_items,status,created_at', { count: 'exact' });
 
-        // Date Filtering requires ordering by timestamp
-        // Verify index requirements!
-        if (startDate) {
-          const start = new Date(startDate);
-          query = query.where("timestamp", ">=", start);
-        }
-        if (endDate) {
-          const end = new Date(endDate);
-          end.setHours(23, 59, 59, 999);
-          query = query.where("timestamp", "<=", end);
-        }
-        // Always sort by timestamp desc for consistency
-        query = query.orderBy("timestamp", "desc");
+        if (warehouse !== 'all') query = query.eq('warehouse', warehouse);
+        query = applyStatusFilter(query, status);
 
-        // Pagination Logic
-        if (direction === 'first') {
-          currentPage = 1;
-          pagesStack = [];
-          lastVisible = null;
-        } else if (direction === 'next') {
-          if (lastVisible) {
-            pagesStack.push(lastVisible);
-            query = query.startAfter(lastVisible); currentPage++;
-          }
-        } else if (direction === 'prev') {
-          if (pagesStack.length > 0) {
-            const previousPageLastVisible = pagesStack.pop();
-            // Wait, popping gives us the end of the page BEFORE the previous one?
-            // Logic for previous in cursor pagination:
-            // We need to fetch the page starting AFTER the *end* of the (page - 2).
-            // If we are at page 2, we want page 1. Page 1 starts at beginning.
-            // It's easier to rebuild stack.
+        if (startDate) query = query.gte('created_at', new Date(`${startDate}T00:00:00`).toISOString());
+        if (endDate) query = query.lte('created_at', new Date(`${endDate}T23:59:59.999`).toISOString());
 
-            // Let's simplify:
-            // pagesStack[0] = end of page 1
-            // pagesStack[1] = end of page 2
-            // If I am at page 3, I have [endP1, endP2].
-            // 'prev' means I want page 2. I need to startAfter endP1.
-            // So I pop endP2 (current prev-ref), look at new top (endP1).
+        const from = (currentPage - 1) * ordersPerPage;
+        const to = from + ordersPerPage - 1;
 
-            // If I am at page 2, stack has [endP1].
-            // 'prev' means page 1. I pop endP1. Stack empty. Start from scratch.
+        const { data, error, count } = await query.order('created_at', { ascending: false }).range(from, to);
+        if (error) throw error;
 
-            // Pop the last one used to get HERE.
-            // No, pagesStack should store the start points or end points?
-            // Standard way:
-            // To load Page N: startAfter(pagesStack[N-2])
+        let totalCount = count || 0;
+        let sentCount = 0;
+        let pendingCount = 0;
 
-            currentPage--;
-            // We popped the cursor used to get to *current* page.
-            // The ONE BEFORE that is what we need for the new page.
-            const targetCursor = pagesStack.length > 0 ? pagesStack[pagesStack.length - 1] : null;
-
-            // Re-construct query from scratch but with target cursor
-            // query filters are same...
-            if (targetCursor) {
-              query = query.startAfter(targetCursor);
-            }
-          } else {
-            currentPage = 1;
-            // No cursor = start from beginning
-          }
-        }
-
-        query = query.limit(ordersPerPage);
-
-        const snapshot = await query.get();
-
-        if (!snapshot.empty) {
-          lastVisible = snapshot.docs[snapshot.docs.length - 1];
+        if (status === 'تم الإرسال') {
+           sentCount = totalCount;
+           pendingCount = 0;
+        } else if (status === 'pending') {
+           sentCount = 0;
+           pendingCount = totalCount;
         } else {
-          // End of list?
-          if (direction === 'next') {
-            alert("لا توجد المزيد من الطلبات");
-            currentPage--; // undo
-            isFetching = false;
-            document.body.style.cursor = 'default';
-            return;
-          }
+           let sentQuery = supabaseClient.from('orders').select('*', { count: 'exact', head: true }).in('status', ['sent', STATUS_SENT_AR]);
+           if (warehouse !== 'all') sentQuery = sentQuery.eq('warehouse', warehouse);
+           if (startDate) sentQuery = sentQuery.gte('created_at', new Date(`${startDate}T00:00:00`).toISOString());
+           if (endDate) sentQuery = sentQuery.lte('created_at', new Date(`${endDate}T23:59:59.999`).toISOString());
+           
+           const { count: sCount } = await sentQuery;
+           sentCount = sCount || 0;
+           pendingCount = totalCount - sentCount;
         }
 
-        currentOrdersList = [];
-        snapshot.forEach(doc => {
-          currentOrdersList.push({ id_doc: doc.id, ...doc.data() });
-        });
+        document.getElementById('totalOrders').textContent = String(totalCount);
+        document.getElementById('sentOrders').textContent = String(sentCount);
+        document.getElementById('pendingOrders').textContent = String(pendingCount);
 
+        totalPages = Math.max(1, Math.ceil(totalCount / ordersPerPage));
+
+        if (currentPage > totalPages) {
+          currentPage = totalPages;
+          return await loadOrders('first');
+        }
+
+        currentOrdersList = data || [];
         displayOrders(currentOrdersList);
-
       } catch (err) {
-        console.error("Error loading orders:", err);
-        alert("حدث خطأ أثناء تحميل البيانات: " + err.message);
+        console.error('Error loading orders:', err);
+        alert('Failed to load orders: ' + err.message);
       } finally {
         isFetching = false;
         document.body.style.cursor = 'default';
@@ -762,7 +721,7 @@
     }
 
     function changePage(delta) {
-      if (delta === 1) loadOrders('next');
+      if (delta === 1 && currentPage < totalPages) loadOrders('next');
       else if (delta === -1 && currentPage > 1) loadOrders('prev');
     }
 
@@ -770,112 +729,105 @@
       document.querySelectorAll('.orderCheckbox').forEach(cb => cb.checked = source.checked);
     }
 
-    // --- Optimized Download Functions ---
-
-    // Helper to format excel data
     function formatOrderForExcel(data) {
-      if (!Array.isArray(data.orders)) return [];
-      return data.orders.map(item => {
+      return getItems(data).map(item => {
         const [nameAr, nameEn] = splitName(item.name);
-        return [
-          item.code,
-          String(item.gofrugal_code ?? ""),
-          nameAr,
-          nameEn,
-          item.alias ?? "",
-          item.qty
-        ];
+        return [item.code, String(item.gofrugal_code ?? ''), nameAr, nameEn, item.alias ?? '', item.qty];
       });
     }
 
-    // Download only what is checked (from current loaded page)
-    function downloadSelected() {
-      const selectedIds = [...document.querySelectorAll('.orderCheckbox:checked')].map(el => el.value);
-      if (selectedIds.length === 0) return alert("🚫 لم يتم تحديد أي طلبية");
-
+    function createWorkbookForOrders(list) {
       const wb = XLSX.utils.book_new();
-      selectedIds.forEach(id => {
-        const data = currentOrdersList.find(o => o.id_doc === id);
-        if (!data) return; // Should not happen
-
+      list.forEach(data => {
         const wsData = [
-          ["اسم المعرض", data.mall],
-          ["المستودع", data.warehouse],
-          ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
+          ['Mall', data.mall],
+          ['Warehouse', data.warehouse],
+          ['Has Extras', data.has_extras ? 'Yes' : 'No'],
+          ['Date', getDateLabel(data)],
           [],
-          ["كود Dynamics", "كود GoFrugal", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"],
+          ['Dynamics Code', 'GoFrugal Code', 'Name AR', 'Name EN', 'Alias', 'Qty'],
           ...formatOrderForExcel(data)
         ];
         const ws = XLSX.utils.aoa_to_sheet(wsData);
-        XLSX.utils.book_append_sheet(wb, ws, data.mall.substring(0, 31));
+        const name = (data.mall || 'Order').substring(0, 31).replace(/[\/?*\[\]]/g, '_');
+        let unique = name || 'Order';
+        let n = 1;
+        while (wb.Sheets[unique]) {
+          unique = `${(name || 'Order').substring(0, 27)}_${n++}`;
+        }
+        XLSX.utils.book_append_sheet(wb, ws, unique);
+
+        // Add Extras Sheet if exists
+        if (data.extras_items && Array.isArray(data.extras_items) && data.extras_items.length > 0) {
+          const extrasData = [
+            ['Mall', data.mall],
+            ['Date', getDateLabel(data)],
+            [],
+            ['البيان', 'الوحدة', 'الكمية']
+          ];
+          data.extras_items.forEach(ext => {
+             extrasData.push([ext.name, ext.unit || '', ext.qty]);
+          });
+          const wsExtras = XLSX.utils.aoa_to_sheet(extrasData);
+          XLSX.utils.book_append_sheet(wb, wsExtras, unique.substring(0, 20) + "_مستلزمات");
+        }
       });
-      XLSX.writeFile(wb, `الطلبيات_المحددة.xlsx`);
+      return wb;
     }
 
-    // Heavy Function: Download ALL matching current filters
+    function downloadSelected() {
+      const selectedIds = [...document.querySelectorAll('.orderCheckbox:checked')].map(el => el.value);
+      if (selectedIds.length === 0) return alert('No orders selected');
+      const selected = selectedIds.map(id => currentOrdersList.find(o => o.id === id)).filter(Boolean);
+      XLSX.writeFile(createWorkbookForOrders(selected), 'selected_orders.xlsx');
+    }
+
     async function downloadAll() {
-      const confirmDownload = confirm("تحميل الكل سيقوم بسحب جميع البيانات التي تطابق الفلتر وقد يستغرق وقتاً. هل تريد المتابعة؟");
-      if (!confirmDownload) return;
+      if (!confirm('Download all matching orders?')) return;
 
       document.body.style.cursor = 'wait';
       const exportBtn = document.querySelector('button[onclick="downloadAll()"]');
       const originalText = exportBtn.innerHTML;
-      exportBtn.innerHTML = "⏳ جاري التحميل...";
+      exportBtn.innerHTML = 'Loading...';
       exportBtn.disabled = true;
 
       try {
-        const warehouse = document.getElementById("warehouseFilter").value;
-        const status = document.getElementById("statusFilter").value;
-        const startDate = document.getElementById("startDateFilter").value;
-        const endDate = document.getElementById("endDateFilter").value;
+        const warehouse = document.getElementById('warehouseFilter').value;
+        const status = document.getElementById('statusFilter').value;
+        const startDate = document.getElementById('startDateFilter').value;
+        const endDate = document.getElementById('endDateFilter').value;
 
-        let query = db.collection("orders");
+        let baseQuery = supabaseClient
+          .from('orders')
+          .select('id,mall,warehouse,has_extras,items,extras_items,status,created_at');
 
-        if (warehouse !== "all") query = query.where("warehouse", "==", warehouse);
-        if (status !== "all" && status !== '—') query = query.where("status", "==", status);
+        if (warehouse !== 'all') baseQuery = baseQuery.eq('warehouse', warehouse);
+        baseQuery = applyStatusFilter(baseQuery, status);
+        if (startDate) baseQuery = baseQuery.gte('created_at', new Date(`${startDate}T00:00:00`).toISOString());
+        if (endDate) baseQuery = baseQuery.lte('created_at', new Date(`${endDate}T23:59:59.999`).toISOString());
 
-        // To be safe with indexes, we try to match the loadOrders sorting if possible,
-        // but for export we just want data.
-        // However, Firestore requires index if we mix inequality fields and orders.
-        // We'll stick to same constraints:
-        if (startDate) query = query.where("timestamp", ">=", new Date(startDate));
-        if (endDate) {
-          const end = new Date(endDate);
-          end.setHours(23, 59, 59, 999);
-          query = query.where("timestamp", "<=", end);
-        } query = query.orderBy("timestamp", "desc"); const snapshot = await
-          query.get(); const wb = XLSX.utils.book_new(); if (snapshot.empty) { alert("لا توجد بيانات للتحميل"); return; }
-        snapshot.forEach(doc => {
-          const data = doc.data();
-          // Sheet name limited to 31 chars
-          const sheetName = (data.mall || "Order").substring(0, 31).replace(/[\\/?*[\]]/g, "_");
+        const allRows = [];
+        let from = 0;
+        const batchSize = 1000;
 
-          // Avoid Duplicate Sheet Names
-          let uniqueSheetName = sheetName;
-          let counter = 1;
-          while (wb.Sheets[uniqueSheetName]) {
-            uniqueSheetName = sheetName.substring(0, 28) + `_${counter}`;
-            counter++;
-          }
+        while (true) {
+          const { data, error } = await baseQuery.order('created_at', { ascending: false }).range(from, from + batchSize - 1);
+          if (error) throw error;
+          if (!data || data.length === 0) break;
+          allRows.push(...data);
+          if (data.length < batchSize) break;
+          from += batchSize;
+        }
 
-          const wsData = [
-            ["اسم المعرض", data.mall],
-            ["المستودع", data.warehouse],
-            ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
-            ["التاريخ", data.timestamp?.toDate?.()?.toLocaleString() ?? ""],
-            [],
-            ["كود Dynamics", "كود GoFrugal", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"],
-            ...formatOrderForExcel(data)
-          ];
-          const ws = XLSX.utils.aoa_to_sheet(wsData);
-          XLSX.utils.book_append_sheet(wb, ws, uniqueSheetName);
-        });
+        if (allRows.length === 0) {
+          alert('No data to export');
+          return;
+        }
 
-        XLSX.writeFile(wb, `كل_الطلبيات_Export.xlsx`);
-
+        XLSX.writeFile(createWorkbookForOrders(allRows), 'all_orders_export.xlsx');
       } catch (e) {
         console.error(e);
-        alert("حدث خطأ أثناء التصدير: " + e.message);
+        alert('Export failed: ' + e.message);
       } finally {
         document.body.style.cursor = 'default';
         exportBtn.innerHTML = originalText;
@@ -883,81 +835,79 @@
       }
     }
 
-    // Modal & Helper Functions
     function showOrder(docId) {
-      const data = currentOrdersList.find(o => o.id_doc === docId);
+      const data = currentOrdersList.find(o => o.id === docId);
       if (!data) return;
       currentOrder = data;
 
-      document.getElementById('modalMall').textContent = data.mall;
-      document.getElementById('modalWarehouse').textContent = data.warehouse;
-      const dateStr = data.timestamp?.toDate?.()
-        ? data.timestamp.toDate().toLocaleString('ar-SA')
-        : '—';
-      document.getElementById('modalDate').textContent = dateStr;
+      document.getElementById('modalMall').textContent = data.mall || '';
+      document.getElementById('modalWarehouse').textContent = data.warehouse || '';
+      document.getElementById('modalDate').textContent = getDateLabel(data);
 
-      const tbody = document.querySelector("#itemsTable tbody");
-      tbody.innerHTML = "";
-      if (!data.orders || !Array.isArray(data.orders)) {
-        tbody.innerHTML = "<tr><td colspan='4'>لا توجد تفاصيل</td></tr>";
+      const tbody = document.querySelector('#itemsTable tbody');
+      tbody.innerHTML = '';
+      const items = getItems(data);
+
+      if (items.length === 0) {
+        tbody.innerHTML = "<tr><td colspan='5'>No details</td></tr>";
       } else {
-        data.orders.forEach(item => {
+        items.forEach(item => {
           const [nameAr, nameEn] = splitName(item.name);
-          const row = document.createElement("tr");
-          row.innerHTML = `
-      <td>${item.code}</td>
-      <td>${nameAr}</td>
-      <td>${nameEn}</td>
-      <td>${item.alias ?? ''}</td>
-      <td>${item.qty}</td>
-      `;
+          const row = document.createElement('tr');
+          row.innerHTML = `<td>${item.code ?? ''}</td><td>${nameAr}</td><td>${nameEn}</td><td>${item.alias ?? ''}</td><td>${item.qty ?? ''}</td>`;
           tbody.appendChild(row);
         });
       }
-      document.getElementById("modal").style.display = "flex";
+
+      // Show Extras if any
+      if (data.extras_items && Array.isArray(data.extras_items) && data.extras_items.length > 0) {
+        const extraHeader = document.createElement('tr');
+        extraHeader.innerHTML = `<td colspan="5" style="background:var(--primary, #e67e22); color:white; text-align:center; font-weight:bold; font-size:1.1em; padding:15px;">--- المستلزمات الإضافية المرفقة مع الطلبية ---</td>`;
+        tbody.appendChild(extraHeader);
+        
+        data.extras_items.forEach(ext => {
+           const row = document.createElement('tr');
+           row.innerHTML = `<td colspan="3" style="font-weight:bold; color:#2c3e50;">${ext.name}</td><td style="color:#7f8c8d;">الوحدة: ${ext.unit || ''}</td><td style="font-weight:bold; color:#e67e22; font-size:1.2em;">${ext.qty}</td>`;
+           tbody.appendChild(row);
+        });
+      }
+
+      document.getElementById('modal').style.display = 'flex';
     }
 
     function closeModal() {
-      document.getElementById("modal").style.display = "none";
+      document.getElementById('modal').style.display = 'none';
     }
 
-    // Direct Download from Row
     function downloadExcelDirect(docId) {
-      const data = currentOrdersList.find(o => o.id_doc === docId);
+      const data = currentOrdersList.find(o => o.id === docId);
       if (!data) return;
-
-      const wb = XLSX.utils.book_new();
-      const wsData = [
-        ["اسم المعرض", data.mall],
-        ["المستودع", data.warehouse],
-        ["مستلزمات إضافية", data.hasExtras ? "نعم" : "لا"],
-        [],
-        ["كود Dynamics", "كود GoFrugal", "الاسم (عربي)", "الاسم (English)", "Alias", "الكمية"],
-        ...formatOrderForExcel(data)
-      ];
-      const ws = XLSX.utils.aoa_to_sheet(wsData);
-      XLSX.utils.book_append_sheet(wb, ws, "طلبية");
-      XLSX.writeFile(wb, `طلبية ${data.mall}.xlsx`);
+      XLSX.writeFile(createWorkbookForOrders([data]), `order_${data.mall || 'item'}.xlsx`);
     }
 
-    function updateStatus(docId) {
-      db.collection("orders").doc(docId).update({ status: "تم الإرسال" })
-        .then(() => {
-          alert("✅ تم تحديث حالة الطلبية");
-          // Update local status to avoid reload
-          const item = currentOrdersList.find(o => o.id_doc === docId);
-          if (item) item.status = "تم الإرسال";
-          displayOrders(currentOrdersList);
-        })
-        .catch(err => {
-          alert("❌ فشل التحديث");
-          console.error(err);
-        });
+    function downloadExcel() {
+      if (!currentOrder) {
+        alert('No order selected');
+        return;
+      }
+      XLSX.writeFile(createWorkbookForOrders([currentOrder]), `order_${currentOrder.mall || 'item'}.xlsx`);
     }
 
-    // Toggle sort disabled in optimization
+    async function updateStatus(docId) {
+      const { error } = await supabaseClient.from('orders').update({ status: 'sent' }).eq('id', docId);
+      if (error) {
+        alert('Update failed');
+        console.error(error);
+        return;
+      }
+      const item = currentOrdersList.find(o => o.id === docId);
+      if (item) item.status = 'sent';
+      displayOrders(currentOrdersList);
+      alert('Status updated');
+    }
+
     function toggleSort(field) {
-      alert("الترتيب متاح بالتاريخ فقط حالياً لتحسين الأداء.");
+      alert('Sorting is currently fixed by date for performance.');
     }
 
     // Initial Load
