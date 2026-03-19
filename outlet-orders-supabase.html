@@ -602,15 +602,15 @@
               </div>
               <div class="info-row">
                 <span class="info-label">إجمالي القطع:</span>
-            <div style="display:flex; gap:6px;">
-              <button class="btn-view" onclick="openOrderDetails('${order.id}')" style="flex:1;">
+            <div style="display:flex; gap:6px; margin-top:10px;">
+              <button class="btn-view" onclick="openOrderDetails('${order.id}')" style="flex:1; padding:8px 0; font-size:0.9em; justify-content:center; line-height:1.2;">
                 📄 تفاصيل
               </button>
               ${!isSent ? `
-              <button onclick="window.location.href='supabase-index.html?edit=${order.id}'" style="flex:1; background:#f39c12; color:white; border:none; border-radius:8px; font-weight:bold; cursor:pointer;" title="تعديل تفاصيل الطلبية">
+              <button onclick="window.location.href='supabase-index.html?edit=${order.id}'" style="flex:1; padding:8px 0; font-size:0.9em; background:#f39c12; color:white; border:none; border-radius:12px; font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:4px; line-height:1.2;" title="تعديل تفاصيل الطلبية">
                 ✏️ تعديل
               </button>
-              <button onclick="cancelOrder('${order.id}')" style="flex:1; background:#e74c3c; color:white; border:none; border-radius:8px; font-weight:bold; cursor:pointer;" title="إلغاء وحذف الطلبية">
+              <button onclick="cancelOrder('${order.id}')" style="flex:1; padding:8px 0; font-size:0.9em; background:#e74c3c; color:white; border:none; border-radius:12px; font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:4px; line-height:1.2;" title="إلغاء وحذف الطلبية">
                 ❌ إلغاء
               </button>
               ` : ''}
