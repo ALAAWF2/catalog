@@ -737,17 +737,83 @@
 
   <div id="extrasModal"
     style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); align-items:center; justify-content:center; z-index:10002;">
-    <div style="background:white; padding:20px; border-radius:10px; width: 600px; max-width: 95%; max-height:85vh; display:flex; flex-direction:column; text-align:center; box-shadow: 0 0 20px rgba(0,0,0,0.3);">
-      <h3 style="margin-top:0; color:var(--primary);">قائمة المستلزمات</h3>
-      <p style="color:#7f8c8d; font-size:0.9em; margin-bottom:15px;">حدد الكميات المطلوبة للمستلزمات، واترك الباقي فارغاً.</p>
+    <div style="background:white; padding:20px; border-radius:10px; width: 1200px; max-width: 95%; max-height:90vh; display:flex; flex-direction:column; text-align:center; box-shadow: 0 0 20px rgba(0,0,0,0.3);">
       
-      <div id="extrasListContainer" style="overflow-y:auto; flex:1; text-align:right; border:1px solid #eee; padding:10px; border-radius:8px; display:flex; flex-direction:column; gap:8px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid var(--primary); padding-bottom:10px; margin-bottom:10px;">
+        <h3 style="margin:0; color:var(--primary); font-size:1.6em;">طلب مواد استهلاكية للمعارض</h3>
+        <p style="margin:0; color:#7f8c8d; font-size:0.9em; font-weight:bold;">حدد الكميات المطلوبة، واترك الباقي فارغاً.</p>
+      </div>
+      
+      <style>
+        .extras-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+          gap: 6px;
+          text-align: right;
+        }
+        .extra-card {
+          display: flex;
+          border: 1px solid #bdc3c7;
+          background: #fff;
+          align-items: stretch;
+          border-radius: 4px;
+          overflow: hidden;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .extra-card:hover {
+          border-color: var(--primary);
+        }
+        .extra-card > div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          border-left: 1px solid #bdc3c7;
+          font-size: 0.9em;
+          font-weight: bold;
+        }
+        .extra-card > div:last-child {
+          border-left: none;
+        }
+        .extra-card-name {
+          flex: 1;
+          background: #fff;
+          padding: 8px;
+          color: #2c3e50;
+        }
+        .extra-card-unit {
+          width: 50px;
+          background: #fdfdfd;
+          color: #7f8c8d;
+          font-size: 0.8em !important;
+        }
+        .extra-card-qty {
+          width: 70px;
+          background: #fdfdfd;
+        }
+        .extra-card-qty input {
+          width: 100%;
+          height: 100%;
+          border: none;
+          text-align: center;
+          font-size: 1.1em;
+          font-weight: 800;
+          outline: none;
+          background: transparent;
+          color: var(--primary);
+        }
+        .extra-card-qty input:focus {
+          background: #ffeaa7;
+        }
+      </style>
+
+      <div id="extrasListContainer" class="extras-grid" style="overflow-y:auto; flex:1; padding:10px 5px;">
         <!-- Extras injected here -->
       </div>
       
-      <div style="margin-top:15px; display:flex; justify-content:space-between; align-items:center;">
-        <div id="extrasCountBadge" style="background:#e67e22; color:white; padding:5px 10px; border-radius:20px; font-weight:bold; font-size:0.9em;">0 مستلزمات مختارة</div>
-        <button onclick="closeExtrasModal()" style="background:#27ae60; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer; font-weight:bold;">اعتماد الاختيارات (إغلاق)</button>
+      <div style="margin-top:15px; display:flex; justify-content:space-between; align-items:center; border-top:1px solid #eee; padding-top:15px;">
+        <div id="extrasCountBadge" style="background:#e67e22; color:white; padding:8px 15px; border-radius:20px; font-weight:bold; font-size:1em; box-shadow: 0 2px 5px rgba(230, 126, 34, 0.4);">0 عناصر مختارة</div>
+        <button onclick="closeExtrasModal()" style="background:#27ae60; color:white; padding:12px 30px; border:none; border-radius:8px; cursor:pointer; font-weight:bold; font-size:1.1em; box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);">اعتماد الاختيارات وإغلاق</button>
       </div>
     </div>
   </div>
@@ -845,17 +911,16 @@
 
     function openExtrasModal() {
       const container = document.getElementById('extrasListContainer');
-      container.innerHTML = (window.EXTRAS_LIST || []).map((ext, idx) => {
+      container.innerHTML = (window.EXTRAS_LIST || []).map((ext) => {
         const currentQty = selectedExtras[ext['البيان']] || '';
         return `
-          <div style="display:flex; justify-content:space-between; align-items:center; background:#f9f9f9; padding:8px 12px; border-radius:6px;">
-            <div style="display:flex; flex-direction:column; gap:3px;">
-              <strong style="color:var(--text-main); font-size:0.95em;">${ext['البيان']}</strong>
-              <small style="color:#777;">الوحدة: ${ext['الوحدة'] || 'غير محدد'}</small>
+          <div class="extra-card">
+            <div class="extra-card-name">${ext['البيان']}</div>
+            <div class="extra-card-unit">${ext['الوحدة'] || '—'}</div>
+            <div class="extra-card-qty">
+              <input type="number" min="1" placeholder="الكمية" value="${currentQty}" 
+                     oninput="updateExtraItem('${ext['البيان'].replace(/'/g, "\\'")}', this.value)">
             </div>
-            <input type="number" min="1" placeholder="الكمية" value="${currentQty}" 
-                   oninput="updateExtraItem('${ext['البيان'].replace(/'/g, "\\'")}', this.value)"
-                   style="width:70px; text-align:center; border:1px solid #ccc; border-radius:5px; padding:5px;">
           </div>
         `;
       }).join('');
