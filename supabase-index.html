@@ -720,9 +720,10 @@
       </div>
 
       <label style="display:block; text-align:right; margin:10px 0; font-size:0.9em;">
-        <input type="checkbox" id="extraItemsCheckbox" />
+        <input type="checkbox" id="extraItemsCheckbox" onchange="document.getElementById('openExtrasBtn').style.display = this.checked ? 'block' : 'none'" />
         يوجد مستلزمات إضافية (أكياس/فواتير...)
       </label>
+      <button id="openExtrasBtn" onclick="openExtrasModal()" style="display:none; background:#3498db; color:white; padding:8px 15px; border:none; border-radius:5px; cursor:pointer; margin-bottom:15px; width:100%; font-weight:bold;">📦 اختر المستلزمات الإضافية والكميات</button>
 
       <div style="display:flex; gap:10px; justify-content:center; margin-top:20px;">
         <button id="confirmOrderBtn" onclick="submitOrder()"
@@ -733,6 +734,24 @@
       </div>
     </div>
   </div>
+
+  <div id="extrasModal"
+    style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); align-items:center; justify-content:center; z-index:10002;">
+    <div style="background:white; padding:20px; border-radius:10px; width: 600px; max-width: 95%; max-height:85vh; display:flex; flex-direction:column; text-align:center; box-shadow: 0 0 20px rgba(0,0,0,0.3);">
+      <h3 style="margin-top:0; color:var(--primary);">قائمة المستلزمات</h3>
+      <p style="color:#7f8c8d; font-size:0.9em; margin-bottom:15px;">حدد الكميات المطلوبة للمستلزمات، واترك الباقي فارغاً.</p>
+      
+      <div id="extrasListContainer" style="overflow-y:auto; flex:1; text-align:right; border:1px solid #eee; padding:10px; border-radius:8px; display:flex; flex-direction:column; gap:8px;">
+        <!-- Extras injected here -->
+      </div>
+      
+      <div style="margin-top:15px; display:flex; justify-content:space-between; align-items:center;">
+        <div id="extrasCountBadge" style="background:#e67e22; color:white; padding:5px 10px; border-radius:20px; font-weight:bold; font-size:0.9em;">0 مستلزمات مختارة</div>
+        <button onclick="closeExtrasModal()" style="background:#27ae60; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer; font-weight:bold;">اعتماد الاختيارات (إغلاق)</button>
+      </div>
+    </div>
+  </div>
+
 
   <div id="loadingSpinner" class="loading-spinner"></div>
 
@@ -807,6 +826,59 @@
         console.error("❌ Catalog load failed:", e);
         window.products = [];
       }
+    }
+
+    async function loadExtras() {
+      try {
+        const res = await fetch("extras.json?_=" + Date.now(), { cache: "no-store" });
+        if (!res.ok) throw new Error("Failed to load extras.json");
+        window.EXTRAS_LIST = await res.json();
+        console.log("✅ extras.json loaded:", window.EXTRAS_LIST.length);
+      } catch (e) {
+        console.error("❌ Extras load failed:", e);
+        window.EXTRAS_LIST = [];
+      }
+    }
+
+    // Extras Modal Logic
+    let selectedExtras = {}; // { 'مساحة': 2, ... }
+
+    function openExtrasModal() {
+      const container = document.getElementById('extrasListContainer');
+      container.innerHTML = (window.EXTRAS_LIST || []).map((ext, idx) => {
+        const currentQty = selectedExtras[ext['البيان']] || '';
+        return `
+          <div style="display:flex; justify-content:space-between; align-items:center; background:#f9f9f9; padding:8px 12px; border-radius:6px;">
+            <div style="display:flex; flex-direction:column; gap:3px;">
+              <strong style="color:var(--text-main); font-size:0.95em;">${ext['البيان']}</strong>
+              <small style="color:#777;">الوحدة: ${ext['الوحدة'] || 'غير محدد'}</small>
+            </div>
+            <input type="number" min="1" placeholder="الكمية" value="${currentQty}" 
+                   oninput="updateExtraItem('${ext['البيان'].replace(/'/g, "\\'")}', this.value)"
+                   style="width:70px; text-align:center; border:1px solid #ccc; border-radius:5px; padding:5px;">
+          </div>
+        `;
+      }).join('');
+      updateExtrasCountBadge();
+      document.getElementById('extrasModal').style.display = 'flex';
+    }
+
+    function closeExtrasModal() {
+      document.getElementById('extrasModal').style.display = 'none';
+    }
+
+    function updateExtraItem(name, value) {
+      if (value && parseInt(value) > 0) {
+        selectedExtras[name] = parseInt(value);
+      } else {
+        delete selectedExtras[name];
+      }
+      updateExtrasCountBadge();
+    }
+
+    function updateExtrasCountBadge() {
+      const count = Object.keys(selectedExtras).length;
+      document.getElementById('extrasCountBadge').innerText = `${count} عناصر مختارة`;
     }
   </script>
 
@@ -1099,6 +1171,7 @@
 
           // ✅ ترتيب التحميل الصحيح
           await loadLocalCatalog();
+          await loadExtras();
           await loadSalesByOutlet();
           mergeKitData();
           rebuildDataForWarehouse(userWarehouse);
@@ -1247,7 +1320,7 @@
       const spinner = document.getElementById('loadingSpinner');
       if (spinner) spinner.classList.add('active');
 
-      Promise.all([loadLocalCatalog(), loadFirstSeen(), loadSalesByOutlet()]).then(() => {
+      Promise.all([loadLocalCatalog(), loadExtras(), loadFirstSeen(), loadSalesByOutlet()]).then(() => {
         mergeKitData();
         rebuildDataForWarehouse('SHOW_ALL');
         populateFilters();
@@ -1289,7 +1362,13 @@
       document.getElementById('orderSummaryContainer').innerHTML = html;
       document.getElementById('orderModal').style.display = 'flex';
     }
-    function closeOrderModal() { document.getElementById('orderModal').style.display = 'none'; }
+    
+    function closeOrderModal() { 
+      document.getElementById('orderModal').style.display = 'none'; 
+      document.getElementById('extraItemsCheckbox').checked = false;
+      document.getElementById('openExtrasBtn').style.display = 'none';
+      selectedExtras = {}; // Reset extras on close
+    }
 
     async function submitOrder() {
       if (submitting) return;
@@ -1312,15 +1391,24 @@
           if (p) {
             return {
               code: p.code,
-              gofrugal_code: p.gofrugal_code ?? "",   // ✅ هذا هو السطر المطلوب
+              gofrugal_code: p.gofrugal_code ?? "",
               name: p.name,
               alias: d.alias ?? '',
               qty: Number(d.qty) || 0
             };
-
           }
           return { alias: d.alias ?? '', qty: Number(d.qty) || 0 };
         });
+
+        // Prepare Extras Payload
+        const formattedExtras = hasExtras ? Object.entries(selectedExtras).map(([name, qty]) => {
+            const extDef = (window.EXTRAS_LIST || []).find(e => e['البيان'] === name) || {};
+            return {
+                name: name,
+                qty: qty,
+                unit: extDef['الوحدة'] || 'غير محدد'
+            };
+        }) : [];
 
         const { error } = await supabaseClient.from('orders').insert({
           id: crypto.randomUUID(), // Explicitly generate ID to bypass missing DB default constraint
@@ -1329,6 +1417,7 @@
           has_extras: hasExtras,
           user_id: currentUser.id,
           items: ordersPayload,
+          extras_items: formattedExtras,
           status: 'pending'
         });
         if (error) throw error;

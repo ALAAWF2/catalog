@@ -525,7 +525,7 @@
       try {
         // Because RLS is active, this automatically returns ONLY this user's orders
         let query = supabaseClient.from('orders')
-          .select('id, mall, warehouse, has_extras, items, status, created_at')
+          .select('id, mall, warehouse, has_extras, items, extras_items, status, created_at')
           .order('created_at', { ascending: false });
 
         if (fromDate) query = query.gte('created_at', new Date(`${fromDate}T00:00:00`).toISOString());
@@ -652,6 +652,21 @@
               </tr>
             `;
         }).join('');
+      }
+
+      // Show Extras if any
+      if (order.extras_items && Array.isArray(order.extras_items) && order.extras_items.length > 0) {
+        const extraHeader = document.createElement('tr');
+        extraHeader.innerHTML = `<td colspan="4" style="background:var(--primary); color:white; text-align:center; font-weight:bold; font-size:1.1em; padding:15px;">--- المستلزمات الإضافية المرفقة ---</td>`;
+        itemsBody.appendChild(extraHeader);
+        
+        order.extras_items.forEach(ext => {
+           const row = document.createElement('tr');
+           row.innerHTML = `<td class="qty-cell" style="color:#e74c3c;">${ext.qty}</td>
+                            <td style="color:#7f8c8d;">${ext.unit || '—'}</td>
+                            <td colspan="2" style="font-weight:bold; color:#2c3e50;">${ext.name}</td>`;
+           itemsBody.appendChild(row);
+        });
       }
 
       const modal = document.getElementById('orderModal');
