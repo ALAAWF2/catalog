@@ -602,7 +602,11 @@
               </div>
               <div class="info-row">
                 <span class="info-label">إجمالي القطع:</span>
-            <div style="display:flex; gap:6px; margin-top:10px;">
+                <span class="info-value" style="color: var(--primary); font-size: 1.1em;">${itemsCount} قطعة</span>
+              </div>
+            </div>
+            
+            <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:10px;">
               <button class="btn-view" onclick="openOrderDetails('${order.id}')" style="flex:1; padding:8px 0; font-size:0.9em; justify-content:center; line-height:1.2;">
                 📄 تفاصيل
               </button>
