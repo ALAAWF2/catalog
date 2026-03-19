@@ -441,7 +441,7 @@
         <select id="statusFilter" onchange="loadOrders()">
           <option value="all">الكل</option>
           <option value="تم الإرسال">تم الإرسال</option>
-          <option value="—">غير محدد</option>
+          <option value="pending">قيد الانتظار</option>
         </select>
       </div>
 
@@ -605,12 +605,7 @@
       return new Date(order.created_at).toLocaleString('en-GB', { hour12: false });
     }
 
-    function updateStats(orders) {
-      document.getElementById('totalOrders').textContent = String(orders.length);
-      const sent = orders.filter(o => normalizeStatusValue(o.status) === STATUS_SENT_AR).length;
-      document.getElementById('sentOrders').textContent = String(sent);
-      document.getElementById('pendingOrders').textContent = String(orders.length - sent);
-    }
+    // We compute stats in loadOrders now to get accurate counts.
 
     function displayOrders(orders) {
       const tbody = document.querySelector('#ordersTable tbody');
@@ -641,15 +636,14 @@
 
       document.getElementById('currentPage').textContent = currentPage;
       document.getElementById('totalPages').textContent = totalPages;
-      updateStats(orders);
     }
 
     function applyStatusFilter(query, statusValue) {
       if (statusValue === 'all') return query;
-      if (statusValue === '?' || statusValue === '-') {
-        return query.is('status', null);
+      if (statusValue === 'pending') {
+        return query.not('status', 'in', `("sent","${STATUS_SENT_AR}")`);
       }
-      return query.or(`status.eq.sent,status.eq.${STATUS_SENT_AR}`);
+      return query.in('status', ['sent', STATUS_SENT_AR]);
     }
 
     async function loadOrders(direction = 'first') {
@@ -683,7 +677,32 @@
         const { data, error, count } = await query.order('created_at', { ascending: false }).range(from, to);
         if (error) throw error;
 
-        totalPages = Math.max(1, Math.ceil((count || 0) / ordersPerPage));
+        let totalCount = count || 0;
+        let sentCount = 0;
+        let pendingCount = 0;
+
+        if (status === 'تم الإرسال') {
+           sentCount = totalCount;
+           pendingCount = 0;
+        } else if (status === 'pending') {
+           sentCount = 0;
+           pendingCount = totalCount;
+        } else {
+           let sentQuery = supabaseClient.from('orders').select('*', { count: 'exact', head: true }).in('status', ['sent', STATUS_SENT_AR]);
+           if (warehouse !== 'all') sentQuery = sentQuery.eq('warehouse', warehouse);
+           if (startDate) sentQuery = sentQuery.gte('created_at', new Date(`${startDate}T00:00:00`).toISOString());
+           if (endDate) sentQuery = sentQuery.lte('created_at', new Date(`${endDate}T23:59:59.999`).toISOString());
+           
+           const { count: sCount } = await sentQuery;
+           sentCount = sCount || 0;
+           pendingCount = totalCount - sentCount;
+        }
+
+        document.getElementById('totalOrders').textContent = String(totalCount);
+        document.getElementById('sentOrders').textContent = String(sentCount);
+        document.getElementById('pendingOrders').textContent = String(pendingCount);
+
+        totalPages = Math.max(1, Math.ceil(totalCount / ordersPerPage));
 
         if (currentPage > totalPages) {
           currentPage = totalPages;

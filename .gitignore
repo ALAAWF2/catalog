@@ -43,3 +43,6 @@ usersssss-*.xlsx
 
 # Nested repo (added by mistake as embedded repository)
 firebase-to-supabase/
+
+# Scripts
+migrate_orders.py
