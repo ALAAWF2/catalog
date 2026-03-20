@@ -189,7 +189,7 @@
   <main>
     <div class="actions">
       <div class="search-box">
-        <input id="searchInput" type="text" placeholder="ابحث بالاسم، الكود أو الـ Alias" autocomplete="off" disabled>
+        <input id="searchInput" type="text" placeholder="ابحث بالاسم، الكود أو الـ Alias" autocomplete="new-password" readonly onfocus="this.removeAttribute('readonly');">
       </div>
       <a href="index.html">⟵ العودة إلى الصفحة الرئيسية</a>
     </div>
@@ -311,7 +311,8 @@
 
     // ===== Auth flow =====
     function handleUnauthenticated() {
-      searchInput.disabled = true;
+      // Don't disable completely, just keep readonly
+      searchInput.setAttribute('readonly', 'true');
       resultsTable.classList.add('hidden');
       toggleStatus('الرجاء تسجيل الدخول للوصول إلى البحث عبر المعارض. سيتم توجيهك تلقائياً خلال لحظات...', 'error');
       outletInfo.classList.add('hidden');
@@ -324,10 +325,17 @@
       userChecked = true;
 
       const user = session?.user ?? null;
-      if (!user) { handleUnauthenticated(); return; }
+      if (!user) {
+        handleUnauthenticated();
+        return;
+      }
 
+      // 1. First, unlock the search now that we have a user
+      searchInput.removeAttribute('readonly');
+      toggleStatus('اكتب على الأقل 4 أحرف للبحث في مخزون المعارض الأخرى.');
+
+      // 2. Then, try to fetch the profile for outlet info
       try {
-        // Try by ID first, fallback to email
         let profile = null;
         const { data: byId, error: errId } = await supabaseClient
           .from('profiles').select('*').eq('id', user.id).single();
@@ -350,21 +358,22 @@
           outletInfo.classList.remove('hidden');
         }
 
-        toggleStatus('اكتب على الأقل 4 أحرف للبحث في مخزون المعارض الأخرى.');
-        searchInput.disabled = false;
-        renderResults(searchInput.value);
       } catch (error) {
-        console.error('خطأ في جلب بيانات المستخدم:', error);
-        toggleStatus('حدث خطأ أثناء تحميل بيانات المستخدم. حاول إعادة تحميل الصفحة.', 'error');
+        console.warn('تنبيه: تعذر جلب بيانات الملف الشخصي (سيظل البحث يعمل):', error);
       }
+
+      // Trigger initial search if already typed
+      renderResults(searchInput.value);
     });
 
-    // رسالة متأخرة لو كان التحقق بطيئاً
+    // رسالة طوارئ لو تعطل الـ Supabase تماماً
     setTimeout(() => {
       if (!userChecked) {
-        loader.textContent = 'ما زلنا نحاول التحقق من حالة تسجيل الدخول...';
+        loader.textContent = 'تحذير: يبدو أن التحقق من الهوية متعثر. جرب تحديث الصفحة أو المتابعة إذا ظهر مربع البحث.';
+        // Fallback: unlock if we suspect a timeout
+        // searchInput.removeAttribute('readonly'); 
       }
-    }, 3000);
+    }, 6000);
   </script>
 </body>
 
