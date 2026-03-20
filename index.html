@@ -224,6 +224,24 @@
       border-radius: 5px;
     }
 
+    #galleryNameBanner {
+      display: none;
+      text-align: center;
+      padding: 8px 16px;
+      background: linear-gradient(135deg, #2c3e50, #3d5a80);
+      color: #fff;
+      font-size: 15px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      direction: rtl;
+    }
+
+    #galleryNameBanner span {
+      opacity: 0.75;
+      font-weight: normal;
+      margin-left: 4px;
+    }
+
     .loading-spinner {
       display: none;
       text-align: center;
@@ -599,6 +617,9 @@
 </head>
 
 <body>
+
+  <!-- Gallery Name Banner -->
+  <div id="galleryNameBanner"><span>المعرض الحالي:</span> <span id="galleryNameText"></span></div>
 
   <!-- Notices & Header -->
   <div class="top-notice">سيتم تحديث جدول البضاعة يومياً الساعة 3 مساءً</div>
@@ -1243,6 +1264,8 @@
           }
 
           document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
+          document.getElementById('galleryNameText').textContent = userMall;
+          document.getElementById('galleryNameBanner').style.display = 'block';
 
           // ✅ ترتيب التحميل الصحيح
           await loadLocalCatalog();
@@ -1296,6 +1319,8 @@
           userMall = "";
           window.data = [];
           document.getElementById('userInfo').textContent = '';
+          document.getElementById('galleryNameText').textContent = '';
+          document.getElementById('galleryNameBanner').style.display = 'none';
           if (!isGuestMode) {
               console.log("No user session. Stopping product rendering.");
               document.getElementById('productContainer').innerHTML = "";
