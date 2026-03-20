@@ -6,9 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>البحث عبر المعارض</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;600&display=swap">
-  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <!-- Load products from local JSON -->
   <script>
     async function loadLocalCatalog() {
@@ -217,19 +215,12 @@
 
 
   <script>
-    // ===== Firebase =====
-    const firebaseConfig = {
-      apiKey: "AIzaSyDBhsMvDPwECDlFNYNkmFXDVq4nWrEejJc",
-      authDomain: "orders-fb3bf.firebaseapp.com",
-      projectId: "orders-fb3bf",
-      storageBucket: "orders-fb3bf.firebasestorage.app",
-      messagingSenderId: "970674722848",
-      appId: "1:970674722848:web:e2e17f7a62bf59e51f0445"
-    };
-
-    firebase.initializeApp(firebaseConfig);
-    const db = firebase.firestore();
-    const auth = firebase.auth();
+    // ===== Supabase =====
+    const SUPABASE_URL = "https://sufeqdvooqkolghflhta.supabase.co";
+    const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1ZmVxZHZvb3Frb2xnaGZsaHRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0MTY5OTIsImV4cCI6MjA4ODk5Mjk5Mn0.ody4a53OtJqzLIoTvJ3S6Igdue-Sy4HsUQ_Cz7MUSjY";
+    const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+      auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false }
+    });
 
     // ===== DOM refs =====
     const searchInput = document.getElementById('searchInput');
@@ -244,11 +235,6 @@
 
     // ===== Helpers =====
     function normalize(v) { return (v || '').toString().trim().toLowerCase(); }
-
-    function getUserOutletName(userData) {
-      if (!userData) return '';
-      return userData.mall || userData.branch || userData.outlet || userData.warehouse || '';
-    }
 
     function toggleStatus(message = '', type = 'info') {
       if (!message) {
@@ -265,24 +251,8 @@
     // ===== Rendering (Lazy) =====
     function renderResults(query = '') {
       const src = window.data || [];
-      if (!Array.isArray(src) || src.length === 0) {
-        // If data is not loaded yet, or empty
-        if (!window.data) {
-          // data is undefined, meaning still loading or failed (if not initialized to empty)
-          // But we initialized it to [] in catch, or it is undefined initially.
-          // Let's just return silently or show loading if query is present?
-          // Since we have specific status messages, let's just wait.
-        }
-        // If it's truly empty after load, that's another case.
-        // For now, let's just stick to the safe empty array.
-        // If the user searches while loading, they just get no results.
-        // Ideally we should show a spinner, but the user asked for simple fix.
-        // The existing code handles empty array by showing status later.
-      }
-
       const q = normalize(query);
 
-      // لا نعرض شيئاً بدون بحث فعلي (على الأقل حرفين)
       if (!q || q.length < 4) {
         resultsBody.innerHTML = '';
         resultsTable.classList.add('hidden');
@@ -306,8 +276,8 @@
           const normalizedOutlet = normalize(currentOutletName);
           const qty = Number(quantity) || 0;
 
-          if (qty <= 0) return;                               // تجاهل الصفر
-          if (normalizedOutlet && normalizedBranch === normalizedOutlet) return; // استبعاد المعرض الحالي
+          if (qty <= 0) return;
+          if (normalizedOutlet && normalizedBranch === normalizedOutlet) return;
 
           rows.push(`
             <tr>
@@ -349,16 +319,28 @@
       setTimeout(() => { window.location.href = 'index.html'; }, 4000);
     }
 
-    auth.onAuthStateChanged(async (user) => {
+    supabaseClient.auth.onAuthStateChange(async (event, session) => {
       loader.classList.add('hidden');
       userChecked = true;
 
+      const user = session?.user ?? null;
       if (!user) { handleUnauthenticated(); return; }
 
       try {
-        const doc = await db.collection('users').doc(user.uid).get();
-        const userData = doc.exists ? doc.data() : null;
-        currentOutletName = getUserOutletName(userData);
+        // Try by ID first, fallback to email
+        let profile = null;
+        const { data: byId, error: errId } = await supabaseClient
+          .from('profiles').select('*').eq('id', user.id).single();
+
+        if (!errId && byId) {
+          profile = byId;
+        } else {
+          const { data: byEmail } = await supabaseClient
+            .from('profiles').select('*').eq('email', user.email).single();
+          profile = byEmail;
+        }
+
+        currentOutletName = profile?.mall || profile?.branch || profile?.outlet || profile?.warehouse || '';
 
         if (currentOutletName) {
           outletInfo.textContent = `المعرض الحالي: ${currentOutletName}`;
@@ -368,10 +350,8 @@
           outletInfo.classList.remove('hidden');
         }
 
-        toggleStatus('اكتب على الأقل حرفين للبحث في مخزون المعارض الأخرى.');
+        toggleStatus('اكتب على الأقل 4 أحرف للبحث في مخزون المعارض الأخرى.');
         searchInput.disabled = false;
-
-        // أول ريندر لن يعرض شيئًا لأن الحقل فارغ
         renderResults(searchInput.value);
       } catch (error) {
         console.error('خطأ في جلب بيانات المستخدم:', error);
