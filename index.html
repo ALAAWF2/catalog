@@ -700,6 +700,7 @@
       <a id="myOrdersBtn" href="outlet-orders-supabase.html" style="text-decoration:none;"><button style="background:#2980b9;">
           طلباتي
           السابقة</button></a>
+      <!-- مخفي مؤقتاً: <a id="maintenanceBtn" href="maintenance.html" style="text-decoration:none; display:none;"><button style="background:#e74c3c;">🔧 طلبات الصيانة</button></a> -->
       <button id="loginBtn" onclick="login()">🔑 تسجيل الدخول</button>
     </div>
   </header>
@@ -1184,10 +1185,12 @@
 
         const sendBtn = document.getElementById('sendOrderBtn');
         const crossBtn = document.getElementById('crossOutletSearchBtn');
+        const maintenanceLink = document.getElementById('maintenanceBtn');
         const loginBtn = document.getElementById('loginBtn');
 
         if (sendBtn) sendBtn.style.display = user ? 'inline-block' : 'none';
         if (crossBtn) crossBtn.style.display = user ? 'inline-block' : 'none';
+        if (maintenanceLink) maintenanceLink.style.display = user ? 'inline-block' : 'none';
         if (loginBtn) loginBtn.textContent = user ? 'تسجيل الخروج' : 'تسجيل الدخول';
 
         const guestExportBtn = document.getElementById('exportGuestBtn');
