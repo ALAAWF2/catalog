@@ -775,8 +775,9 @@
         .extras-grid {
           display: grid;
           grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-          gap: 6px;
+          gap: 8px;
           text-align: right;
+          align-content: start; /* Fixes grid items squishing */
         }
         .extra-card {
           display: flex;
@@ -786,6 +787,7 @@
           border-radius: 4px;
           overflow: hidden;
           box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+          min-height: 45px; /* Ensures the card never gets too small vertically */
         }
         .extra-card:hover {
           border-color: var(--primary);
