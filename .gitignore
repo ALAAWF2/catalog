@@ -3,7 +3,6 @@
 firebase-service-account.json
 firebase_users_export.json
 service-account.json
-import_to_supabase.js
 supabase_users_import.csv
 
 # Local backups / temp env
@@ -15,22 +14,59 @@ node_modules/
 __pycache__/
 *.pyc
 
-# Supabase/Firebase migration generated outputs
+# Supabase/Firebase migration scripts & outputs
+firebase-to-supabase/
+import_to_supabase.js
+export_firebase_users.js
+export_firebase_users.py
+generate_sql_migration.js
+generate_sql_migration_chunks.js
+import_firebase_excel_to_supabase.js
+execute_sql_scripts.js
+run_sql_chunks_js_draft.js
+update_three_passwords.js
+verify_supabase_logins.js
+generate_supabase_csv.js
+fix_auth_ids.sql
+migrate_orders.py
 *_orders_part.sql
 0_schema_and_profiles.sql
 supabase_migration.sql
 supabase_import_errors.log
 supabase_import_progress.json
-
-# Generated CSV chunks/exports
+supabase_orders.json
+supabase_users.json
 orders_import*.csv
 csv_chunks_half2/
 
-# Generated JSON exports
-supabase_orders.json
-supabase_users.json
+# Debug / inspection / verification scripts
+analyze_warehouses.py
+audit_project.py
+check_images.py
+check_image_pattern.py
+check_image_pattern_v2.py
+check_missing_users.py
+debug_*.py
+find_missing_data.py
+find_missing_users.py
+inspect_*.py
+show_hidden_items.py
+test_category_logic.py
+verify_phase*.py
 
-# Local reports / inspection outputs
+# Benchmark / baseline files
+benchmark_*.py
+*_baseline.json
+*_baseline.xlsx
+
+# Generated reports & logs
+missing_images_report.xlsx
+products_images_report.xlsx
+products_images_report_baseline.xlsx
+generate_image_report.py
+uncategorized_items.xlsx
+uncategorized_list.txt
+update_log.txt
 missing_users_report.txt
 mapping_inspection.txt
 excel_inspection.txt
@@ -38,14 +74,35 @@ incremental_migration_date.txt
 migration_cutoff_date.txt
 supabase_migration_cutoff.txt
 
+# Backup / legacy HTML & JS
+index - Copy.html
+index-old.html
+index-supabase.html
+orginal.html
+old-products.html
+oldproducts.js
+outlet-orders.html
+noimage.png
+
+# Archives & temp files
+catalog.zip
+temp_*.json
+
+# One-time utility scripts
+generate_catalog_direct.py
+upload_to_cloudinary.py
+upload_to_cloudinary_fast.py
+export_uncategorized.py
+read_extras.py
+update_mapping_excel.py
+update_index.py
+
+# Arabic-named files (manually maintained, not source)
+جدول المستلزمات.xlsx
+مستلزمات معرض.pdf
+
 # Local spreadsheets containing credentials/source data
 usersssss-*.xlsx
 
-# Nested repo (added by mistake as embedded repository)
-firebase-to-supabase/
-
 # Claude Code internal files
 .claude/
-
-# Scripts
-migrate_orders.py

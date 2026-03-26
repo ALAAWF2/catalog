@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Arabic-localized (RTL) product catalog system for a retail company ("Orange Pax") that fetches inventory data from Microsoft Dynamics 365 and serves it as a static web app with Supabase authentication and order management.
+Arabic-localized (RTL) product catalog system for a retail company ("Orange Pax") that fetches inventory data from Microsoft Dynamics 365 and serves it as a static web app with Supabase authentication, order management, and maintenance request tracking.
 
 ## Running the Application
 
@@ -22,12 +22,7 @@ This runs `create js/generate_catalog.py` which fetches from Dynamics 365 and re
 pip install pandas openpyxl requests python-dotenv msal
 ```
 
-**Node.js migration utilities** (one-time Supabase migration scripts only):
-```bash
-npm install dotenv pg @supabase/supabase-js
-```
-
-**Required `.env` file** (not in repo):
+**Required `.env` file** (not in repo, located in `create js/`):
 ```
 CLIENT_ID=<Azure AD client ID>
 CLIENT_SECRET=<Azure AD secret>
@@ -49,6 +44,7 @@ Microsoft Dynamics 365 OData API
         ├─ OAuth via MSAL
         ├─ Maps warehouse codes → outlet names (mapping.xlsx)
         ├─ Applies categories (category2026.xlsx)
+        ├─ Resolves product images (multiple candidate patterns)
         └─ Outputs: products.json, sales_by_outlet.json, first_seen.json
         ↓
   Static JSON files (committed to repo, served with HTML)
@@ -58,13 +54,24 @@ Microsoft Dynamics 365 OData API
 - **`index.html`** — Primary catalog: product browsing, cart, barcode printing, Excel export, order submission
 - **`outlet-orders-supabase.html`** — Order management (Supabase-backed)
 - **`cross-outlet-search.html`** — Search products across all outlets
+- **`maintenance.html`** — User-facing maintenance request submission and tracking
+- **`maintenance-admin.html`** — Admin dashboard for maintenance requests (repair costs, invoices, priorities)
 - **`upload_tool.html`** — Product image upload utility
-- **`orders.html`** — Legacy Firebase order view (being phased out)
+- **`orders.html`** — Order viewing and management
+
+### Maintenance Module
+- **User side** (`maintenance.html`): Submit maintenance requests with images, view request status/admin replies
+- **Admin side** (`maintenance-admin.html`): View all requests, filter by status/priority/outlet, reply with images, set repair cost, upload invoice images, export to Excel
+- **Admin access**: Restricted to `belal@orangebedbath.com`
+- **Supabase table**: `maintenance_requests` (fields: id, created_at, status, priority, description, images, admin_reply, repair_cost, admin_images, mall)
+- **Supabase storage bucket**: `maintenance-images`
 
 ### Authentication & Storage
-- **Supabase** (`sufeqdvooqkolghflhta.supabase.co`) handles user auth and the `orders` table
+- **Supabase** (`sufeqdvooqkolghflhta.supabase.co`) handles user auth, `orders` table, `maintenance_requests` table, and file storage
+- **Supabase tables**: `profiles` (user_id, email, mall, warehouse, role), `orders`, `maintenance_requests`
 - Session auto-expires after 1 hour of inactivity
-- **Firebase** is legacy — migration to Supabase is in progress; avoid adding new Firebase code
+- User roles and outlet/mall assignments fetched from `profiles` table
+- **Firebase** is fully deprecated — migration to Supabase is complete; do not add Firebase code
 
 ### Key Data Files (auto-generated daily)
 - `products.json` — Full product catalog (~5,900 items, 3.8MB)
@@ -75,6 +82,15 @@ Microsoft Dynamics 365 OData API
 ### Mapping/Config Files
 - `mapping.xlsx` — Warehouse code → outlet name mapping (Table5, Table6 sheets)
 - `create js/category2026.xlsx` — Product category assignment rules
+- `itemsfornotshow.xlsx` — Blocked products list (filtered out during catalog load)
+
+### Directory Notes
+- **`create js/`** — Despite the name, contains the Python catalog generator + Excel config files + `.env` (not JavaScript)
+- **`firebase-to-supabase/`** — One-time migration utility scripts (Node.js), excluded from git
+- **`images/`** — Product images (`.webp` format), committed to repo
+
+### Repository Hygiene
+Debug scripts, migration utilities, benchmark files, backup HTML copies, and generated reports are excluded from git via `.gitignore`. They may exist locally but are not tracked. Only core application files are committed.
 
 ## Code Patterns
 
