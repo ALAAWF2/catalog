@@ -1888,7 +1888,7 @@
     "alias": "916835",
     "name": "روب حمام مفرد | OIL OLIVE S/M - BATH ROBE OIL OLIVE S/M",
     "price": 119.0,
-    "stock": 1116,
+    "stock": 1110,
     "sales": 35,
     "branches": {
       "04-Andalos Mall": 11,
@@ -1939,8 +1939,9 @@
       "36-Al jubail Mall": 6,
       "44-Al-Jouf Center": 6,
       "47-Al-Nakheel Plaza": 6,
+      "Transit": 6,
       "Warehouse": 12,
-      "warehouse riyadh": 1104
+      "warehouse riyadh": 1098
     },
     "image_path": ""
   },
@@ -3050,7 +3051,7 @@
     "alias": "958210",
     "name": "روب حمام مفرد | مقاس P.BLUE (XS/S) - BATH ROBE P.BLUE XS/S",
     "price": 119.0,
-    "stock": 1118,
+    "stock": 1112,
     "sales": 14,
     "branches": {
       "04-Andalos Mall": 19,
@@ -3083,8 +3084,9 @@
       "36-Al jubail Mall": 4,
       "44-Al-Jouf Center": 4,
       "47-Al-Nakheel Plaza": 8,
+      "Transit": 6,
       "Warehouse": 423,
-      "warehouse riyadh": 695
+      "warehouse riyadh": 689
     },
     "image_path": "958210.webp"
   },
@@ -3827,7 +3829,7 @@
     "alias": "958233",
     "name": "روب حمام مفرد | BLACK RICH XS/S - BATH ROBE BLACK RICH XS/S",
     "price": 119.0,
-    "stock": 152,
+    "stock": 146,
     "sales": 17,
     "branches": {
       "04-Andalos Mall": 11,
@@ -3867,8 +3869,9 @@
       "36-Al jubail Mall": 2,
       "44-Al-Jouf Center": 5,
       "47-Al-Nakheel Plaza": 7,
+      "Transit": 6,
       "Warehouse": 56,
-      "warehouse riyadh": 96
+      "warehouse riyadh": 90
     },
     "image_path": "958233.webp"
   },
@@ -5824,6 +5827,7 @@
       "53-Al Basateen Mall": 1,
       "56- Aziz Mall 2": 2,
       "57-Sauq7": 0,
+      "12-Al_Hamra Mall": 0,
       "39-Salam Mall Riyadh": 1,
       "40-Hayat Mall Riyad": 2,
       "45- Riyadh Gallery Mall": 1,
@@ -6020,6 +6024,7 @@
       "53-Al Basateen Mall": 1,
       "54-THE VILLAGE": 1,
       "57-Sauq7": 0,
+      "12-Al_Hamra Mall": 0,
       "38-Al_Riyadh Park": 1,
       "39-Salam Mall Riyadh": 1,
       "40-Hayat Mall Riyad": 2,
@@ -6246,7 +6251,7 @@
     "name": "فناجين قهوة | 6 ق 90 مل CS 04",
     "price": 39.0,
     "stock": 262,
-    "sales": 11,
+    "sales": 12,
     "branches": {
       "57-Sauq7": 23,
       "00-GIFTS": 19,
@@ -7625,7 +7630,7 @@
     "name": "دمية | SQUISHIE DINO 18CM",
     "price": 19.0,
     "stock": 3440,
-    "sales": 12,
+    "sales": 13,
     "branches": {
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 2,
@@ -8619,6 +8624,7 @@
       "09-Al-Salam Mall": 2,
       "48 - Jeddah Park": 3,
       "57-Sauq7": 0,
+      "12-Al_Hamra Mall": 0,
       "25-Rabwa Othaim Mall": 1,
       "30-Tala Mall Riyadh": 2,
       "32-Atyaf Mall Riyadh": 1,
@@ -10146,6 +10152,7 @@
       "09-Al-Salam Mall": 3,
       "13-Al-Yasmin Mall": 1,
       "18-Al_Khayyat Center": 3,
+      "12-Al_Hamra Mall": 0,
       "25-Rabwa Othaim Mall": 2,
       "29-Al Nakheel Mall Riyadh": 4,
       "30-Tala Mall Riyadh": 2,
@@ -10780,7 +10787,7 @@
     "alias": "270106",
     "name": "طقم لحاف فل | 4 قطع VINTAGE ROSE (10-57)",
     "price": 199.0,
-    "stock": 913,
+    "stock": 911,
     "sales": 27,
     "branches": {
       "PLATFORMS": 50,
@@ -10798,8 +10805,8 @@
       "27-Dhahran Mall khobar": 1,
       "28-Al Nakheel Mall Dammam": 0,
       "47-Al-Nakheel Plaza": 1,
-      "Transit": 14,
-      "warehouse riyadh": 913
+      "Transit": 16,
+      "warehouse riyadh": 911
     },
     "image_path": ""
   },
@@ -10811,11 +10818,12 @@
     "alias": "270108",
     "name": "طقم لحاف فل | 4 قطع BUTTERFLY FLORAL (11-72)",
     "price": 199.0,
-    "stock": 566,
+    "stock": 564,
     "sales": 32,
     "branches": {
       "57-Sauq7": 1,
       "PLATFORMS": 50,
+      "12-Al_Hamra Mall": 0,
       "15-Riyadh Othaim Mall": 7,
       "25-Rabwa Othaim Mall": 5,
       "29-Al Nakheel Mall Riyadh": 2,
@@ -10839,9 +10847,9 @@
       "42-Dareen Mall Dammam": 4,
       "36-Al jubail Mall": 3,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 10,
+      "Transit": 12,
       "Warehouse": 17,
-      "warehouse riyadh": 549
+      "warehouse riyadh": 547
     },
     "image_path": "270108.webp"
   },
@@ -10900,7 +10908,7 @@
     "alias": "9629",
     "name": "لباد سرير كينغ | CLOUD DREEM 15CM",
     "price": 499.0,
-    "stock": 2339,
+    "stock": 2337,
     "sales": 106,
     "branches": {
       "04-Andalos Mall": 6,
@@ -10954,9 +10962,9 @@
       "36-Al jubail Mall": 5,
       "44-Al-Jouf Center": 1,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 24,
+      "Transit": 26,
       "Warehouse": 1066,
-      "warehouse riyadh": 1273
+      "warehouse riyadh": 1271
     },
     "image_path": "9629.webp"
   },
@@ -11109,7 +11117,7 @@
     "alias": "270113",
     "name": "طقم لحاف فل | 4 قطع BOTANCAL LILAC (11-110)",
     "price": 199.0,
-    "stock": 603,
+    "stock": 601,
     "sales": 38,
     "branches": {
       "PLATFORMS": 50,
@@ -11134,8 +11142,8 @@
       "42-Dareen Mall Dammam": 4,
       "36-Al jubail Mall": 4,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 14,
-      "warehouse riyadh": 603
+      "Transit": 16,
+      "warehouse riyadh": 601
     },
     "image_path": "270113.webp"
   },
@@ -11799,7 +11807,7 @@
     "alias": "9007-07",
     "name": "أكواب حرارية | WITH STRAW BLUSH",
     "price": 49.0,
-    "stock": 2041,
+    "stock": 2029,
     "sales": 61,
     "branches": {
       "04-Andalos Mall": 6,
@@ -11845,8 +11853,9 @@
       "42-Dareen Mall Dammam": 1,
       "36-Al jubail Mall": 9,
       "47-Al-Nakheel Plaza": 9,
+      "Transit": 12,
       "Warehouse": 998,
-      "warehouse riyadh": 1043
+      "warehouse riyadh": 1031
     },
     "image_path": "9007-07.webp"
   },
@@ -12178,7 +12187,7 @@
     "name": "أكواب حرارية | WITH STRAW VM  BRIGHT GOLD",
     "price": 29.0,
     "stock": 22282,
-    "sales": 145,
+    "sales": 147,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 4,
@@ -18297,7 +18306,7 @@
     "alias": "4489421",
     "name": "طقم لحاف كينغ | 8 قطع EILEEN WATERCOLOR",
     "price": 599.0,
-    "stock": 45,
+    "stock": 43,
     "sales": 50,
     "branches": {
       "48 - Jeddah Park": 0,
@@ -18336,9 +18345,9 @@
       "36-Al jubail Mall": 2,
       "44-Al-Jouf Center": 1,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 11,
+      "Transit": 13,
       "Warehouse": 19,
-      "warehouse riyadh": 26
+      "warehouse riyadh": 24
     },
     "image_path": "4489421.webp"
   },
@@ -22894,7 +22903,7 @@
     "alias": "269903",
     "name": "طقم لحاف فل | 6 قطع MULTI CARS - COMFORTER FULL MULTI CARS 6PCS",
     "price": 129.0,
-    "stock": 841,
+    "stock": 837,
     "sales": 32,
     "branches": {
       "04-Andalos Mall": 7,
@@ -22913,6 +22922,7 @@
       "25-Rabwa Othaim Mall": 1,
       "29-Al Nakheel Mall Riyadh": 17,
       "30-Tala Mall Riyadh": 3,
+      "32-Atyaf Mall Riyadh": 0,
       "38-Al_Riyadh Park": 7,
       "40-Hayat Mall Riyad": 1,
       "45- Riyadh Gallery Mall": 3,
@@ -22943,8 +22953,9 @@
       "36-Al jubail Mall": 6,
       "44-Al-Jouf Center": 4,
       "47-Al-Nakheel Plaza": 4,
+      "Transit": 4,
       "Warehouse": 418,
-      "warehouse riyadh": 423
+      "warehouse riyadh": 419
     },
     "image_path": "269903.webp"
   },
@@ -22956,7 +22967,7 @@
     "alias": "269902",
     "name": "طقم لحاف فل | 6 قطع VEHICLES - COMFORTER FULL VEHICLES 6PCS",
     "price": 129.0,
-    "stock": 863,
+    "stock": 859,
     "sales": 36,
     "branches": {
       "04-Andalos Mall": 4,
@@ -22974,6 +22985,7 @@
       "25-Rabwa Othaim Mall": 6,
       "29-Al Nakheel Mall Riyadh": 10,
       "30-Tala Mall Riyadh": 2,
+      "32-Atyaf Mall Riyadh": 0,
       "38-Al_Riyadh Park": 2,
       "39-Salam Mall Riyadh": 1,
       "45- Riyadh Gallery Mall": 1,
@@ -23005,9 +23017,9 @@
       "36-Al jubail Mall": 5,
       "44-Al-Jouf Center": 4,
       "47-Al-Nakheel Plaza": 4,
-      "Transit": 4,
+      "Transit": 8,
       "Warehouse": 460,
-      "warehouse riyadh": 403
+      "warehouse riyadh": 399
     },
     "image_path": "269902.webp"
   },
@@ -25761,7 +25773,7 @@
     "alias": "269718",
     "name": "طقم لحاف فل | 8 قطع STRIPE CONNOR - COFMORTER FULL STRIPE CONNOR 8PCS",
     "price": 249.0,
-    "stock": 46,
+    "stock": 44,
     "sales": 30,
     "branches": {
       "09-Al-Salam Mall": 1,
@@ -25774,6 +25786,7 @@
       "25-Rabwa Othaim Mall": 3,
       "29-Al Nakheel Mall Riyadh": 2,
       "30-Tala Mall Riyadh": 1,
+      "32-Atyaf Mall Riyadh": 0,
       "38-Al_Riyadh Park": 7,
       "39-Salam Mall Riyadh": 2,
       "40-Hayat Mall Riyad": 2,
@@ -25797,9 +25810,9 @@
       "36-Al jubail Mall": 3,
       "44-Al-Jouf Center": 1,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 8,
+      "Transit": 10,
       "Warehouse": 10,
-      "warehouse riyadh": 36
+      "warehouse riyadh": 34
     },
     "image_path": "269718.webp"
   },
@@ -52808,7 +52821,7 @@
     "alias": "440927",
     "name": "طقم لحاف كينغ | 11 قطع ARDICE IVORY ECRU - *COMFORTER KING ROYCE IVORY 11PCS KIT",
     "price": 599.0,
-    "stock": 76,
+    "stock": 75,
     "sales": 49,
     "branches": {
       "13-Al-Yasmin Mall": 1,
@@ -52837,9 +52850,9 @@
       "28-Al Nakheel Mall Dammam": 2,
       "42-Dareen Mall Dammam": 1,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 2,
+      "Transit": 3,
       "Warehouse": 14,
-      "warehouse riyadh": 62
+      "warehouse riyadh": 61
     },
     "image_path": "440927.webp"
   },
@@ -52915,7 +52928,7 @@
     "alias": "440925",
     "name": "طقم لحاف كينغ | 11 قطع ROYCE TAUPE - *COMFORTER KING ROYCE TAUPE 11PCS KIT",
     "price": 599.0,
-    "stock": 108,
+    "stock": 107,
     "sales": 57,
     "branches": {
       "04-Andalos Mall": 2,
@@ -52933,6 +52946,7 @@
       "25-Rabwa Othaim Mall": 1,
       "29-Al Nakheel Mall Riyadh": 9,
       "30-Tala Mall Riyadh": 1,
+      "32-Atyaf Mall Riyadh": 0,
       "38-Al_Riyadh Park": 4,
       "39-Salam Mall Riyadh": 2,
       "40-Hayat Mall Riyad": 1,
@@ -52956,9 +52970,9 @@
       "28-Al Nakheel Mall Dammam": 0,
       "42-Dareen Mall Dammam": 5,
       "47-Al-Nakheel Plaza": 1,
-      "Transit": 26,
+      "Transit": 27,
       "Warehouse": 102,
-      "warehouse riyadh": 6
+      "warehouse riyadh": 5
     },
     "image_path": "440925.webp"
   },
@@ -60098,7 +60112,7 @@
     "alias": "",
     "name": "طقم لحاف كينغ | 8 قطع NLIE STRIPE GREY",
     "price": 499.0,
-    "stock": 17,
+    "stock": 15,
     "sales": 14,
     "branches": {
       "05-Haifa Mall": 2,
@@ -60108,6 +60122,7 @@
       "12-Al_Hamra Mall": 2,
       "25-Rabwa Othaim Mall": 1,
       "30-Tala Mall Riyadh": 1,
+      "32-Atyaf Mall Riyadh": 0,
       "46-Khaleej Mall Riyadh": 2,
       "50-Meem Plaza Riyadh": 0,
       "51-Park Avenue Riyadh": 1,
@@ -60117,9 +60132,9 @@
       "28-Al Nakheel Mall Dammam": 6,
       "36-Al jubail Mall": 2,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 6,
+      "Transit": 8,
       "Warehouse": 7,
-      "warehouse riyadh": 10
+      "warehouse riyadh": 8
     },
     "image_path": ""
   },
@@ -61010,7 +61025,7 @@
     "alias": "9611",
     "name": "لباد سرير كينغ | CLOUD DREAM - MATRESSPAD KING CLOUD DREAM",
     "price": 399.0,
-    "stock": 7152,
+    "stock": 7150,
     "sales": 45,
     "branches": {
       "04-Andalos Mall": 3,
@@ -61031,6 +61046,7 @@
       "25-Rabwa Othaim Mall": 3,
       "29-Al Nakheel Mall Riyadh": 6,
       "30-Tala Mall Riyadh": 3,
+      "32-Atyaf Mall Riyadh": 0,
       "38-Al_Riyadh Park": 9,
       "39-Salam Mall Riyadh": 4,
       "40-Hayat Mall Riyad": 2,
@@ -61063,9 +61079,9 @@
       "36-Al jubail Mall": 3,
       "44-Al-Jouf Center": 1,
       "47-Al-Nakheel Plaza": 6,
-      "Transit": 13,
+      "Transit": 15,
       "Warehouse": 5380,
-      "warehouse riyadh": 1772
+      "warehouse riyadh": 1770
     },
     "image_path": "9611.webp"
   },
@@ -61911,7 +61927,7 @@
     "alias": "9005-22",
     "name": "أكواب حرارية |BLUE 24OZ - TUMBER WITH STRAW BLUE 24OZ",
     "price": 29.0,
-    "stock": 1584,
+    "stock": 1572,
     "sales": 29,
     "branches": {
       "04-Andalos Mall": 2,
@@ -61928,6 +61944,7 @@
       "15-Riyadh Othaim Mall": 14,
       "25-Rabwa Othaim Mall": 2,
       "30-Tala Mall Riyadh": 0,
+      "32-Atyaf Mall Riyadh": 0,
       "38-Al_Riyadh Park": 1,
       "39-Salam Mall Riyadh": 13,
       "45- Riyadh Gallery Mall": 3,
@@ -61951,9 +61968,9 @@
       "42-Dareen Mall Dammam": 2,
       "36-Al jubail Mall": 9,
       "44-Al-Jouf Center": 9,
-      "Transit": 36,
+      "Transit": 48,
       "Warehouse": 588,
-      "warehouse riyadh": 996
+      "warehouse riyadh": 984
     },
     "image_path": "9005-22.webp"
   },
@@ -62301,7 +62318,7 @@
     "alias": "9006-22",
     "name": "أكواب حرارية | LEAK PROOF SKY BLUE 20OZ - BOTTEL WATER LEAK PROOF SKY BLUE 20OZ",
     "price": 29.0,
-    "stock": 1907,
+    "stock": 1895,
     "sales": 51,
     "branches": {
       "04-Andalos Mall": 0,
@@ -62318,6 +62335,7 @@
       "12-Al_Hamra Mall": 6,
       "15-Riyadh Othaim Mall": 3,
       "29-Al Nakheel Mall Riyadh": 3,
+      "32-Atyaf Mall Riyadh": 0,
       "38-Al_Riyadh Park": 1,
       "40-Hayat Mall Riyad": 1,
       "45- Riyadh Gallery Mall": 0,
@@ -62341,9 +62359,9 @@
       "36-Al jubail Mall": 2,
       "44-Al-Jouf Center": 10,
       "47-Al-Nakheel Plaza": 12,
-      "Transit": 24,
+      "Transit": 36,
       "Warehouse": 743,
-      "warehouse riyadh": 1164
+      "warehouse riyadh": 1152
     },
     "image_path": "9006-22.webp"
   },
@@ -62671,7 +62689,7 @@
     "name": "دمية طرية | TEDDY BEAR GREY 25CM BTY-12 - TEDDY BEAR GREY 25CM BTY-12",
     "price": 29.0,
     "stock": 651,
-    "sales": 30,
+    "sales": 31,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -63972,7 +63990,7 @@
     "alias": "4489604",
     "name": "طقم لحاف كينغ | 11 قطع GEOMETRIC TEAL - *COMFORTER KING GEOMETRIC TEAL COTTON 11PCS KIT",
     "price": 799.0,
-    "stock": 73,
+    "stock": 72,
     "sales": 4,
     "branches": {
       "00-GIFTS": 1,
@@ -63980,6 +63998,7 @@
       "15-Riyadh Othaim Mall": 2,
       "25-Rabwa Othaim Mall": 1,
       "29-Al Nakheel Mall Riyadh": 0,
+      "32-Atyaf Mall Riyadh": 0,
       "38-Al_Riyadh Park": 1,
       "40-Hayat Mall Riyad": 1,
       "45- Riyadh Gallery Mall": 1,
@@ -63994,8 +64013,8 @@
       "42-Dareen Mall Dammam": 3,
       "36-Al jubail Mall": 2,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 2,
-      "warehouse riyadh": 73
+      "Transit": 3,
+      "warehouse riyadh": 72
     },
     "image_path": ""
   },
@@ -64007,7 +64026,7 @@
     "alias": "4489603",
     "name": "طقم لحاف كينغ | 11 قطع GEOMETRIC COPPER - *COMFORTER KING GEOMETRIC COPPER COTTON 11PCS KIT",
     "price": 799.0,
-    "stock": 158,
+    "stock": 157,
     "sales": 7,
     "branches": {
       "04-Andalos Mall": 2,
@@ -64025,6 +64044,7 @@
       "15-Riyadh Othaim Mall": 2,
       "25-Rabwa Othaim Mall": 2,
       "29-Al Nakheel Mall Riyadh": 3,
+      "32-Atyaf Mall Riyadh": 0,
       "38-Al_Riyadh Park": 1,
       "39-Salam Mall Riyadh": 2,
       "40-Hayat Mall Riyad": 3,
@@ -64055,8 +64075,9 @@
       "42-Dareen Mall Dammam": 4,
       "44-Al-Jouf Center": 2,
       "47-Al-Nakheel Plaza": 2,
+      "Transit": 1,
       "Warehouse": 86,
-      "warehouse riyadh": 72
+      "warehouse riyadh": 71
     },
     "image_path": "4489603.webp"
   },
@@ -64511,7 +64532,8 @@
       "42-Dareen Mall Dammam": 1,
       "36-Al jubail Mall": 1,
       "44-Al-Jouf Center": 2,
-      "Warehouse": 68
+      "Warehouse": 68,
+      "warehouse riyadh": 0
     },
     "image_path": "4489502.webp"
   },
@@ -66697,6 +66719,7 @@
       "54-THE VILLAGE": 1,
       "57-Sauq7": 2,
       "00-GIFTS": 6,
+      "12-Al_Hamra Mall": 0,
       "29-Al Nakheel Mall Riyadh": 1,
       "39-Salam Mall Riyadh": 2,
       "45- Riyadh Gallery Mall": 1,
@@ -115992,7 +116015,7 @@
     "alias": "49912",
     "name": "طقم لحاف كينغ | 8 ق PRINTED BLUSH DOMBURG - COMFORTER KING PRINTED BLUSH DOMBURG 8PCS",
     "price": 299.0,
-    "stock": 1000,
+    "stock": 998,
     "sales": 17,
     "branches": {
       "05-Haifa Mall": 3,
@@ -116005,6 +116028,7 @@
       "12-Al_Hamra Mall": 3,
       "25-Rabwa Othaim Mall": 1,
       "29-Al Nakheel Mall Riyadh": 1,
+      "32-Atyaf Mall Riyadh": 0,
       "40-Hayat Mall Riyad": 1,
       "45- Riyadh Gallery Mall": 1,
       "46-Khaleej Mall Riyadh": 2,
@@ -116021,9 +116045,9 @@
       "27-Dhahran Mall khobar": 2,
       "28-Al Nakheel Mall Dammam": 0,
       "44-Al-Jouf Center": 0,
-      "Transit": 12,
+      "Transit": 14,
       "Warehouse": 254,
-      "warehouse riyadh": 746
+      "warehouse riyadh": 744
     },
     "image_path": "49912.webp"
   },
@@ -116035,11 +116059,12 @@
     "alias": "49911",
     "name": "طقم لحاف كينغ | 8 ق PRINTED WHITE/MULTI VINE FLORAL FRUIT - COMFORTER KING PRINTED WHITE/MULTI VINE FLORAL 8PCS",
     "price": 299.0,
-    "stock": 371,
+    "stock": 369,
     "sales": 1,
     "branches": {
       "07-Arab Mall": 1,
       "00-GIFTS": 2,
+      "32-Atyaf Mall Riyadh": 0,
       "51-Park Avenue Riyadh": 2,
       "08-Makkah Mall": 2,
       "55- Jabl Omar": 2,
@@ -116048,9 +116073,9 @@
       "28-Al Nakheel Mall Dammam": 0,
       "44-Al-Jouf Center": 2,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 2,
+      "Transit": 4,
       "Warehouse": 11,
-      "warehouse riyadh": 360
+      "warehouse riyadh": 358
     },
     "image_path": "49911.webp"
   },
@@ -121996,7 +122021,7 @@
     "alias": "4052123",
     "name": "طقم لحاف كينغ | 6 قطع COSTCO GRAPHIC GEO GREY - COMFORTER KING COSTCO GRAPHIC GEO GREY 6PCS",
     "price": 229.0,
-    "stock": 74,
+    "stock": 72,
     "sales": 5,
     "branches": {
       "07-Arab Mall": 1,
@@ -122004,12 +122029,13 @@
       "00-GIFTS": 2,
       "29-Al Nakheel Mall Riyadh": 3,
       "30-Tala Mall Riyadh": 1,
+      "32-Atyaf Mall Riyadh": 0,
       "39-Salam Mall Riyadh": 1,
       "51-Park Avenue Riyadh": 0,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 2,
+      "Transit": 4,
       "Warehouse": 4,
-      "warehouse riyadh": 70
+      "warehouse riyadh": 68
     },
     "image_path": "4052123.webp"
   },
@@ -138178,13 +138204,14 @@
     "alias": "48940400",
     "name": "طقم لحاف كينغ | 5 قطع BOUQUET SPRING - *COMFORTER KING BOUQUET SPRING 5PCS",
     "price": 599.0,
-    "stock": 324,
+    "stock": 322,
     "sales": 36,
     "branches": {
       "48 - Jeddah Park": 2,
       "12-Al_Hamra Mall": 1,
       "15-Riyadh Othaim Mall": 1,
       "30-Tala Mall Riyadh": 1,
+      "32-Atyaf Mall Riyadh": 0,
       "38-Al_Riyadh Park": 4,
       "39-Salam Mall Riyadh": 1,
       "40-Hayat Mall Riyad": 3,
@@ -138203,9 +138230,9 @@
       "27-Dhahran Mall khobar": 3,
       "28-Al Nakheel Mall Dammam": 0,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 3,
+      "Transit": 5,
       "Warehouse": 80,
-      "warehouse riyadh": 244
+      "warehouse riyadh": 242
     },
     "image_path": ""
   },
