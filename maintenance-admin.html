@@ -407,7 +407,7 @@
   </style>
 </head>
 
-<body>
+<body style="visibility: hidden;" id="appBody">
 
   <h1>🔧 إدارة طلبات الصيانة</h1>
 
@@ -539,22 +539,39 @@
     // === Init ===
     (async () => {
       const { data: { session } } = await supabaseClient.auth.getSession();
-      if (!session?.user) {
+      
+      const showAuthScreen = (title, subTitle, isError = false) => {
+        document.body.style.visibility = 'visible';
         document.body.innerHTML = `
           <div style="text-align:center; padding:80px 20px; font-family:'Tajawal',sans-serif;">
-            <h1 style="color:#e67e22;">🔒 يرجى تسجيل الدخول</h1>
-            <p style="color:#666; margin-bottom:25px;">هذه الصفحة تتطلب تسجيل الدخول للوصول</p>
-            <button onclick="doLogin()" style="background:#e67e22; color:white; border:none; padding:12px 30px; border-radius:25px; font-size:1.1em; font-weight:700; cursor:pointer; font-family:'Tajawal',sans-serif;">🔑 تسجيل الدخول</button>
+            <h1 style="color:${isError ? '#e74c3c' : '#e67e22'};">${title}</h1>
+            <p style="color:#666; margin-bottom:25px;">${subTitle}</p>
+            <button onclick="doLogin()" style="background:${isError ? '#e74c3c' : '#e67e22'}; color:white; border:none; padding:12px 30px; border-radius:25px; font-size:1.1em; font-weight:700; cursor:pointer; font-family:'Tajawal',sans-serif;">🔑 تسجيل الدخول بإيميل الإدارة</button>
             <div id="loginBox" style="display:none; margin-top:20px;">
-              <input id="emailInput" type="email" placeholder="البريد الإلكتروني" style="display:block; margin:8px auto; padding:10px; width:280px; border:1px solid #ddd; border-radius:8px; font-family:'Tajawal',sans-serif;">
+              <input id="emailInput" type="email" placeholder="البريد الإلكتروني للإدارة" style="display:block; margin:8px auto; padding:10px; width:280px; border:1px solid #ddd; border-radius:8px; font-family:'Tajawal',sans-serif;">
               <input id="passwordInput" type="password" placeholder="كلمة المرور" style="display:block; margin:8px auto; padding:10px; width:280px; border:1px solid #ddd; border-radius:8px; font-family:'Tajawal',sans-serif;">
               <button onclick="confirmLogin()" style="background:#27ae60; color:white; border:none; padding:10px 25px; border-radius:8px; cursor:pointer; margin-top:8px; font-family:'Tajawal',sans-serif; font-weight:600;">دخول</button>
             </div>
           </div>`;
+      };
+
+      if (!session?.user) {
+        showAuthScreen('🔒 يرجى تسجيل الدخول', 'هذه الصفحة تتطلب تسجيل الدخول للوصول');
         return;
       }
-      await loadMalls();
-      await loadRequests();
+
+      // Check if admin
+      const adminEmail = 'belal@orangebedbath.com';
+      if (session.user.email && session.user.email.toLowerCase() === adminEmail) {
+        // Authorized!
+        document.body.style.visibility = 'visible';
+        await loadMalls();
+        await loadRequests();
+      } else {
+        // Sign out the non-admin user so they can sign in with admin
+        await supabaseClient.auth.signOut();
+        showAuthScreen('⛔ غير مصرح لك بالدخول', 'هذه الصفحة مخصصة لمدير النظام فقط. جرب الدخول بحساب الإدارة.', true);
+      }
     })();
 
     function doLogin() {

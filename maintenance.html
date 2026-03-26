@@ -809,21 +809,45 @@
       btn.innerHTML = '<span class="spinner"></span> جاري الإرسال...';
 
       try {
+        // Helper function to convert file to WebP
+        const convertToWebP = (file) => {
+          return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.onload = () => {
+              const canvas = document.createElement('canvas');
+              canvas.width = img.width;
+              canvas.height = img.height;
+              const ctx = canvas.getContext('2d');
+              ctx.drawImage(img, 0, 0);
+              canvas.toBlob((blob) => {
+                if (!blob) reject(new Error('Canvas is empty'));
+                resolve(new File([blob], file.name.replace(/\.[^/.]+$/, "") + ".webp", { type: 'image/webp' }));
+              }, 'image/webp', 0.8); // 0.8 quality
+            };
+            img.onerror = reject;
+            img.src = URL.createObjectURL(file);
+          });
+        };
+
         // Upload images
         let imageUrls = [];
         for (const file of selectedFiles) {
-          const ext = file.name.split('.').pop();
-          const fileName = `${currentUser.id}/${Date.now()}_${Math.random().toString(36).substr(2, 9)}.${ext}`;
+          try {
+            const webpFile = await convertToWebP(file);
+            const fileName = `${currentUser.id}/${Date.now()}_${Math.random().toString(36).substr(2, 9)}.webp`;
 
-          const { error: uploadError } = await supabaseClient.storage
-            .from('maintenance-images')
-            .upload(fileName, file);
-
-          if (!uploadError) {
-            const { data: urlData } = supabaseClient.storage
+            const { error: uploadError } = await supabaseClient.storage
               .from('maintenance-images')
-              .getPublicUrl(fileName);
-            imageUrls.push(urlData.publicUrl);
+              .upload(fileName, webpFile);
+
+            if (!uploadError) {
+              const { data: urlData } = supabaseClient.storage
+                .from('maintenance-images')
+                .getPublicUrl(fileName);
+              imageUrls.push(urlData.publicUrl);
+            }
+          } catch(err) {
+            console.error('Image conversion/upload error:', err);
           }
         }
 
@@ -863,10 +887,18 @@
     // === Load Requests ===
     async function loadRequests() {
       try {
-        const { data, error } = await supabaseClient
+        let query = supabaseClient
           .from('maintenance_requests')
           .select('*')
           .order('created_at', { ascending: false });
+          
+        if (userMall) {
+          query = query.eq('mall', userMall);
+        } else if (currentUser) {
+          query = query.eq('user_id', currentUser.id);
+        }
+
+        const { data, error } = await query;
 
         if (error) throw error;
         allRequests = data || [];
