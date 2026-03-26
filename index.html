@@ -1859,7 +1859,7 @@
           src="https://res.cloudinary.com/dsp8ysswh/image/upload/w_500,q_auto,f_auto,d_noimage.png/${(d.alias && String(d.alias).trim() !== '') ? d.alias : d.code}.jpg"
           alt="${d.name}"
           onclick="showProductDetails('${d.code}')"
-          onerror="if(this.dataset.fallback !== 'true') { this.dataset.fallback = 'true'; this.src = 'images/${(d.alias && String(d.alias).trim() !== '') ? d.alias : d.code}.webp'; } else { this.src='noimage.png'; this.onerror=null; }"
+          onerror="if(this.dataset.fallback !== 'true') { this.dataset.fallback = 'true'; this.src = (d.image_path ? 'images/' + d.image_path : 'noimage.png'); } else { this.src='noimage.png'; this.onerror=null; }"
         >
 
         <h4 title="${d.name}">${d.name}</h4>
@@ -1943,7 +1943,7 @@
       modalImage.onerror = function() {
         if (this.dataset.fallback !== 'true') {
           this.dataset.fallback = 'true';
-          this.src = 'images/' + imageId + '.webp';
+          this.src = product.image_path ? 'images/' + product.image_path : 'noimage.png';
         } else {
           this.src = 'noimage.png';
           this.onerror = null;
