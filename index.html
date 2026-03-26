@@ -1859,7 +1859,7 @@
           src="https://res.cloudinary.com/dsp8ysswh/image/upload/w_500,q_auto,f_auto,d_noimage.png/${(d.alias && String(d.alias).trim() !== '') ? d.alias : d.code}.jpg"
           alt="${d.name}"
           onclick="showProductDetails('${d.code}')"
-          onerror="this.src='noimage.png';this.onerror=null;"
+          onerror="if(this.dataset.fallback !== 'true') { this.dataset.fallback = 'true'; this.src = 'images/${(d.alias && String(d.alias).trim() !== '') ? d.alias : d.code}.webp'; } else { this.src='noimage.png'; this.onerror=null; }"
         >
 
         <h4 title="${d.name}">${d.name}</h4>
@@ -1939,7 +1939,16 @@
       modalImage.className = 'modal-image';
       const imageId = (product.alias && String(product.alias).trim() !== '') ? product.alias : product.code;
       modalImage.src = `https://res.cloudinary.com/dsp8ysswh/image/upload/w_600,q_auto,f_auto,d_noimage.png/${imageId}.jpg`;
-      modalImage.onerror = () => { modalImage.src = 'noimage.png'; };
+      modalImage.dataset.fallback = 'false';
+      modalImage.onerror = function() {
+        if (this.dataset.fallback !== 'true') {
+          this.dataset.fallback = 'true';
+          this.src = 'images/' + imageId + '.webp';
+        } else {
+          this.src = 'noimage.png';
+          this.onerror = null;
+        }
+      };
 
       modalDetails.innerHTML = `
     <p><strong>السعر:</strong> ${product.price} ريال</p>

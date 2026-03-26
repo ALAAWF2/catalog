@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>إدارة طلبات الصيانة</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #e67e22;
+      --primary-dark: #d35400;
+      --danger: #e74c3c;
+      --success: #27ae60;
+      --info: #3498db;
+      --warning: #f39c12;
+      --bg-color: #fdf6f0;
+      --card-bg: #ffffff;
+      --text-main: #2c3e50;
+      --text-muted: #666;
+      --font-family: 'Tajawal', sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: var(--font-family);
+      background: var(--bg-color);
+      padding: 20px;
+      max-width: 1400px;
+      margin: 0 auto;
+      color: var(--text-main);
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 30px;
+      font-size: 28px;
+      font-weight: 800;
+    }
+
+    /* Stats Cards */
+    .stats-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .stat-card {
+      background: linear-gradient(145deg, #ffffff, #f8f9fa);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid rgba(230, 126, 34, 0.1);
+    }
+
+    .stat-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .stat-title { color: var(--text-muted); font-size: 14px; margin-bottom: 8px; font-weight: 600; }
+    .stat-value { color: var(--primary); font-size: 28px; font-weight: 800; }
+    .stat-value.new-color { color: var(--warning); }
+    .stat-value.progress-color { color: var(--info); }
+    .stat-value.resolved-color { color: var(--success); }
+
+    /* Filters */
+    .filters-container {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      margin-bottom: 25px;
+      border: 1px solid rgba(230, 126, 34, 0.1);
+    }
+
+    .filters-row {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .filter-group {
+      flex: 1;
+      min-width: 180px;
+    }
+
+    .filter-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.9em;
+    }
+
+    select, input[type="date"], input[type="text"] {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1.5px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 14px;
+      font-family: var(--font-family);
+      transition: border-color 0.3s;
+      background: #fafafa;
+    }
+
+    select:focus, input[type="date"]:focus, input[type="text"]:focus {
+      border-color: var(--primary);
+      outline: none;
+      background: #fff;
+    }
+
+    /* Action Buttons */
+    .actions-container {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+
+    button {
+      padding: 10px 18px;
+      background: linear-gradient(145deg, #e67e22, #f39c12);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      font-family: var(--font-family);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      font-size: 14px;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    button.secondary {
+      background: linear-gradient(145deg, #95a5a6, #7f8c8d);
+    }
+
+    button.danger-btn {
+      background: linear-gradient(145deg, #e74c3c, #c0392b);
+    }
+
+    button.success-btn {
+      background: linear-gradient(145deg, #27ae60, #229954);
+    }
+
+    button.info-btn {
+      background: linear-gradient(145deg, #3498db, #2980b9);
+    }
+
+    /* Table */
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin: 20px 0;
+    }
+
+    th, td {
+      padding: 14px 15px;
+      text-align: right;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 0.92em;
+    }
+
+    th {
+      background: linear-gradient(145deg, #e67e22, #f39c12);
+      color: white;
+      font-weight: 700;
+      white-space: nowrap;
+      letter-spacing: 0.3px;
+    }
+
+    tr:hover { background: #fff8f0; }
+
+    /* Status Badges */
+    .status-badge {
+      padding: 5px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      display: inline-block;
+      text-align: center;
+      min-width: 90px;
+    }
+
+    .status-new { background: #fff3e0; color: #e65100; }
+    .status-in-progress { background: #e3f2fd; color: #1565c0; }
+    .status-resolved { background: #e8f5e9; color: #2e7d32; }
+
+    /* Status Dropdown in table */
+    .status-select {
+      padding: 5px 10px;
+      border-radius: 8px;
+      border: 1.5px solid #ddd;
+      font-family: var(--font-family);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      background: white;
+      min-width: 120px;
+    }
+
+    .status-select:focus { border-color: var(--primary); outline: none; }
+
+    /* Thumbnails */
+    .thumb-row {
+      display: flex;
+      gap: 5px;
+    }
+
+    .thumb-row img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: transform 0.2s;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .thumb-row img:hover { transform: scale(1.2); }
+
+    /* Modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.5);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 750px;
+      width: 92%;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #f0f0f0;
+    }
+
+    .modal-header h3 { color: var(--primary); margin: 0; font-size: 1.3em; }
+
+    .modal-close {
+      background: none; border: none;
+      font-size: 26px; color: #aaa;
+      cursor: pointer; padding: 0;
+      box-shadow: none;
+    }
+
+    .modal-close:hover { color: var(--danger); transform: none; }
+
+    .modal-body {
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    .detail-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px dashed #eee;
+    }
+
+    .detail-label { color: var(--text-muted); font-weight: 700; }
+    .detail-value { color: var(--primary); font-weight: 600; }
+
+    .detail-desc {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 15px 0;
+      line-height: 1.8;
+      color: #444;
+      white-space: pre-wrap;
+    }
+
+    .detail-images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .detail-images img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.2s;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .detail-images img:hover { transform: scale(1.05); }
+
+    .modal-footer {
+      margin-top: 20px;
+      padding-top: 15px;
+      border-top: 2px solid #f0f0f0;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    /* Image Viewer */
+    .image-viewer {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.9);
+      z-index: 5000;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .image-viewer img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+      box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    }
+
+    /* Pagination */
+    .pagination-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      gap: 12px;
+    }
+
+    .page-info { font-size: 15px; color: var(--text-muted); font-weight: 600; }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      bottom: 25px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: var(--text-main);
+      color: white;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-family: var(--font-family);
+      font-weight: 600;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+      z-index: 9999;
+      transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    }
+
+    .toast.show { transform: translateX(-50%) translateY(0); }
+    .toast.success { background: var(--success); }
+    .toast.error { background: var(--danger); }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      body { padding: 10px; }
+      th, td { padding: 10px 8px; font-size: 0.82em; }
+      .filters-row { flex-direction: column; }
+      .filter-group { min-width: 100%; }
+      .actions-container { justify-content: center; }
+      .modal-content { padding: 20px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🔧 إدارة طلبات الصيانة</h1>
+
+  <!-- Stats -->
+  <div class="stats-container">
+    <div class="stat-card">
+      <div class="stat-title">إجمالي الطلبات</div>
+      <div class="stat-value" id="totalCount">0</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-title">🟠 جديد</div>
+      <div class="stat-value new-color" id="newCount">0</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-title">🔵 قيد المعالجة</div>
+      <div class="stat-value progress-color" id="progressCount">0</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-title">🟢 تم الحل</div>
+      <div class="stat-value resolved-color" id="resolvedCount">0</div>
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filters-container">
+    <div class="filters-row">
+      <div class="filter-group">
+        <label>المعرض:</label>
+        <select id="mallFilter" onchange="loadRequests()">
+          <option value="all">الكل</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>الحالة:</label>
+        <select id="statusFilter" onchange="loadRequests()">
+          <option value="all">الكل</option>
+          <option value="جديد">🟠 جديد</option>
+          <option value="قيد المعالجة">🔵 قيد المعالجة</option>
+          <option value="تم الحل">🟢 تم الحل</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>من تاريخ:</label>
+        <input type="date" id="startDate" onchange="loadRequests()">
+      </div>
+      <div class="filter-group">
+        <label>إلى تاريخ:</label>
+        <input type="date" id="endDate" onchange="loadRequests()">
+      </div>
+      <div class="filter-group">
+        <label>بحث:</label>
+        <input type="text" id="searchInput" placeholder="بحث بالعنوان..." oninput="loadRequests()">
+      </div>
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div class="actions-container">
+    <button onclick="exportAll()">📥 تصدير الكل (Excel)</button>
+    <button onclick="exportFiltered()" class="info-btn">📥 تصدير المفلتر</button>
+    <button onclick="toggleSort()" class="secondary">🔤 ترتيب</button>
+    <a href="index.html" style="text-decoration:none;"><button class="secondary">📦 العودة للبضاعة</button></a>
+  </div>
+
+  <!-- Table -->
+  <table id="requestsTable">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>التاريخ</th>
+        <th>المعرض</th>
+        <th>عنوان المشكلة</th>
+        <th>صور</th>
+        <th>الحالة</th>
+        <th>تغيير الحالة</th>
+        <th>تفاصيل</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+  <!-- Pagination -->
+  <div class="pagination-container">
+    <button onclick="changePage(-1)" class="secondary">السابق</button>
+    <span class="page-info">صفحة <span id="currentPage">1</span> من <span id="totalPages">1</span></span>
+    <button onclick="changePage(1)" class="secondary">التالي</button>
+  </div>
+
+  <!-- Detail Modal -->
+  <div class="modal-overlay" id="detailModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>📋 تفاصيل طلب الصيانة</h3>
+        <button class="modal-close" onclick="closeDetailModal()">×</button>
+      </div>
+      <div class="modal-body" id="detailBody"></div>
+      <div class="modal-footer">
+        <button onclick="exportSingleRequest()" class="info-btn">📥 تصدير</button>
+        <button onclick="closeDetailModal()" class="secondary">إغلاق</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Viewer -->
+  <div class="image-viewer" id="imageViewer" onclick="this.style.display='none'">
+    <img id="viewerImage" src="" alt="صورة مكبرة">
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // === Supabase ===
+    const SUPABASE_URL = "https://sufeqdvooqkolghflhta.supabase.co";
+    const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1ZmVxZHZvb3Frb2xnaGZsaHRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0MTY5OTIsImV4cCI6MjA4ODk5Mjk5Mn0.ody4a53OtJqzLIoTvJ3S6Igdue-Sy4HsUQ_Cz7MUSjY";
+    const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+      auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false }
+    });
+
+    let allData = [];
+    let currentPageNum = 1;
+    const perPage = 30;
+    let totalPagesNum = 1;
+    let sortField = 'created_at';
+    let sortAsc = false;
+    let currentDetailRequest = null;
+    let mallsList = [];
+
+    // === Init ===
+    (async () => {
+      const { data: { session } } = await supabaseClient.auth.getSession();
+      if (!session?.user) {
+        document.body.innerHTML = `
+          <div style="text-align:center; padding:80px 20px; font-family:'Tajawal',sans-serif;">
+            <h1 style="color:#e67e22;">🔒 يرجى تسجيل الدخول</h1>
+            <p style="color:#666; margin-bottom:25px;">هذه الصفحة تتطلب تسجيل الدخول للوصول</p>
+            <button onclick="doLogin()" style="background:#e67e22; color:white; border:none; padding:12px 30px; border-radius:25px; font-size:1.1em; font-weight:700; cursor:pointer; font-family:'Tajawal',sans-serif;">🔑 تسجيل الدخول</button>
+            <div id="loginBox" style="display:none; margin-top:20px;">
+              <input id="emailInput" type="email" placeholder="البريد الإلكتروني" style="display:block; margin:8px auto; padding:10px; width:280px; border:1px solid #ddd; border-radius:8px; font-family:'Tajawal',sans-serif;">
+              <input id="passwordInput" type="password" placeholder="كلمة المرور" style="display:block; margin:8px auto; padding:10px; width:280px; border:1px solid #ddd; border-radius:8px; font-family:'Tajawal',sans-serif;">
+              <button onclick="confirmLogin()" style="background:#27ae60; color:white; border:none; padding:10px 25px; border-radius:8px; cursor:pointer; margin-top:8px; font-family:'Tajawal',sans-serif; font-weight:600;">دخول</button>
+            </div>
+          </div>`;
+        return;
+      }
+      await loadMalls();
+      await loadRequests();
+    })();
+
+    function doLogin() {
+      const box = document.getElementById('loginBox');
+      if (box) {
+        box.style.display = 'block';
+        const se = localStorage.getItem('savedEmail');
+        const sp = localStorage.getItem('savedPassword');
+        if (se) document.getElementById('emailInput').value = se;
+        if (sp) document.getElementById('passwordInput').value = sp;
+      }
+    }
+
+    async function confirmLogin() {
+      const email = document.getElementById('emailInput').value;
+      const password = document.getElementById('passwordInput').value;
+      if (!email || !password) return;
+      localStorage.setItem('savedEmail', email);
+      localStorage.setItem('savedPassword', password);
+      const { error } = await supabaseClient.auth.signInWithPassword({ email, password });
+      if (error) { alert('فشل الدخول: ' + error.message); }
+      else { location.reload(); }
+    }
+
+    // === Load Malls for filter ===
+    async function loadMalls() {
+      const { data } = await supabaseClient
+        .from('maintenance_requests')
+        .select('mall');
+
+      if (data) {
+        const unique = [...new Set(data.map(r => r.mall).filter(Boolean))].sort();
+        mallsList = unique;
+        const sel = document.getElementById('mallFilter');
+        unique.forEach(m => {
+          const opt = document.createElement('option');
+          opt.value = m;
+          opt.textContent = m;
+          sel.appendChild(opt);
+        });
+      }
+    }
+
+    // === Load Requests ===
+    async function loadRequests() {
+      const mall = document.getElementById('mallFilter').value;
+      const status = document.getElementById('statusFilter').value;
+      const startDate = document.getElementById('startDate').value;
+      const endDate = document.getElementById('endDate').value;
+      const search = document.getElementById('searchInput').value.trim();
+
+      let query = supabaseClient
+        .from('maintenance_requests')
+        .select('*', { count: 'exact' });
+
+      if (mall !== 'all') query = query.eq('mall', mall);
+      if (status !== 'all') query = query.eq('status', status);
+      if (startDate) query = query.gte('created_at', new Date(`${startDate}T00:00:00`).toISOString());
+      if (endDate) query = query.lte('created_at', new Date(`${endDate}T23:59:59.999`).toISOString());
+      if (search) query = query.ilike('title', `%${search}%`);
+
+      const from = (currentPageNum - 1) * perPage;
+      const to = from + perPage - 1;
+
+      const { data, error, count } = await query
+        .order(sortField, { ascending: sortAsc })
+        .range(from, to);
+
+      if (error) {
+        console.error(error);
+        showToast('خطأ في تحميل البيانات', 'error');
+        return;
+      }
+
+      allData = data || [];
+      const total = count || 0;
+      totalPagesNum = Math.max(1, Math.ceil(total / perPage));
+
+      document.getElementById('currentPage').textContent = currentPageNum;
+      document.getElementById('totalPages').textContent = totalPagesNum;
+
+      // Stats
+      await updateStats(mall, startDate, endDate, search, total);
+      renderTable();
+    }
+
+    async function updateStats(mall, startDate, endDate, search, totalFiltered) {
+      // Count by status
+      const statuses = ['جديد', 'قيد المعالجة', 'تم الحل'];
+      const counts = {};
+
+      for (const s of statuses) {
+        let q = supabaseClient.from('maintenance_requests').select('*', { count: 'exact', head: true }).eq('status', s);
+        if (mall !== 'all') q = q.eq('mall', mall);
+        if (startDate) q = q.gte('created_at', new Date(`${startDate}T00:00:00`).toISOString());
+        if (endDate) q = q.lte('created_at', new Date(`${endDate}T23:59:59.999`).toISOString());
+        if (search) q = q.ilike('title', `%${search}%`);
+        const { count } = await q;
+        counts[s] = count || 0;
+      }
+
+      const statusFilter = document.getElementById('statusFilter').value;
+      let totalDisplay = totalFiltered;
+      if (statusFilter === 'all') {
+        // already have total
+      }
+
+      document.getElementById('totalCount').textContent = totalFiltered;
+      document.getElementById('newCount').textContent = counts['جديد'];
+      document.getElementById('progressCount').textContent = counts['قيد المعالجة'];
+      document.getElementById('resolvedCount').textContent = counts['تم الحل'];
+    }
+
+    // === Render Table ===
+    function renderTable() {
+      const tbody = document.getElementById('tableBody');
+      tbody.innerHTML = '';
+
+      if (allData.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="8" style="text-align:center; padding:40px; color:#aaa; font-size:1.1em;">لا توجد طلبات صيانة</td></tr>';
+        return;
+      }
+
+      allData.forEach((req, idx) => {
+        const date = new Date(req.created_at).toLocaleDateString('ar-SA', {
+          year: 'numeric', month: 'short', day: 'numeric',
+          hour: '2-digit', minute: '2-digit'
+        });
+
+        const statusClass = req.status === 'جديد' ? 'status-new' :
+                           req.status === 'قيد المعالجة' ? 'status-in-progress' : 'status-resolved';
+
+        const thumbs = (req.images && req.images.length > 0)
+          ? `<div class="thumb-row">${req.images.slice(0, 3).map(url =>
+              `<img src="${url}" onclick="viewImage('${url}')" alt="صورة">`
+            ).join('')}${req.images.length > 3 ? `<span style="color:#999; font-size:12px; align-self:center;">+${req.images.length - 3}</span>` : ''}</div>`
+          : '<span style="color:#ccc;">—</span>';
+
+        const rowNum = (currentPageNum - 1) * perPage + idx + 1;
+
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${rowNum}</td>
+          <td style="white-space:nowrap; font-size:0.85em;">${date}</td>
+          <td><strong>${escapeHtml(req.mall)}</strong></td>
+          <td>${escapeHtml(req.title)}</td>
+          <td>${thumbs}</td>
+          <td><span class="status-badge ${statusClass}">${req.status}</span></td>
+          <td>
+            <select class="status-select" onchange="changeStatus('${req.id}', this.value)">
+              <option value="جديد" ${req.status === 'جديد' ? 'selected' : ''}>🟠 جديد</option>
+              <option value="قيد المعالجة" ${req.status === 'قيد المعالجة' ? 'selected' : ''}>🔵 قيد المعالجة</option>
+              <option value="تم الحل" ${req.status === 'تم الحل' ? 'selected' : ''}>🟢 تم الحل</option>
+            </select>
+          </td>
+          <td><button onclick="showDetail('${req.id}')" class="info-btn" style="font-size:12px; padding:6px 14px;">عرض</button></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    // === Change Status ===
+    async function changeStatus(id, newStatus) {
+      const { error } = await supabaseClient
+        .from('maintenance_requests')
+        .update({ status: newStatus, updated_at: new Date().toISOString() })
+        .eq('id', id);
+
+      if (error) {
+        showToast('فشل تحديث الحالة: ' + error.message, 'error');
+        return;
+      }
+
+      showToast('تم تحديث الحالة ✅', 'success');
+      await loadRequests();
+    }
+
+    // === Show Detail Modal ===
+    function showDetail(id) {
+      const req = allData.find(r => r.id === id);
+      if (!req) return;
+      currentDetailRequest = req;
+
+      const date = new Date(req.created_at).toLocaleDateString('ar-SA', {
+        year: 'numeric', month: 'long', day: 'numeric',
+        hour: '2-digit', minute: '2-digit', second: '2-digit'
+      });
+
+      const statusClass = req.status === 'جديد' ? 'status-new' :
+                         req.status === 'قيد المعالجة' ? 'status-in-progress' : 'status-resolved';
+
+      let html = `
+        <div class="detail-row">
+          <span class="detail-label">المعرض</span>
+          <span class="detail-value">${escapeHtml(req.mall)}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">البريد</span>
+          <span class="detail-value">${escapeHtml(req.user_email)}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">التاريخ</span>
+          <span class="detail-value">${date}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">الحالة</span>
+          <span class="status-badge ${statusClass}">${req.status}</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">عنوان المشكلة</span>
+          <span class="detail-value">${escapeHtml(req.title)}</span>
+        </div>
+      `;
+
+      if (req.description) {
+        html += `
+          <h4 style="margin-top:20px; color:var(--text-main);">📝 الوصف:</h4>
+          <div class="detail-desc">${escapeHtml(req.description)}</div>
+        `;
+      }
+
+      if (req.images && req.images.length > 0) {
+        html += `
+          <h4 style="margin-top:20px; color:var(--text-main);">📸 الصور المرفقة (${req.images.length}):</h4>
+          <div class="detail-images">
+            ${req.images.map(url => `<img src="${url}" onclick="viewImage('${url}')" alt="صورة">`).join('')}
+          </div>
+        `;
+      }
+
+      if (req.updated_at && req.updated_at !== req.created_at) {
+        const updDate = new Date(req.updated_at).toLocaleDateString('ar-SA', {
+          year: 'numeric', month: 'long', day: 'numeric',
+          hour: '2-digit', minute: '2-digit'
+        });
+        html += `
+          <div class="detail-row" style="margin-top:15px; border-top:2px solid #eee; padding-top:10px;">
+            <span class="detail-label">آخر تحديث</span>
+            <span style="color:#aaa;">${updDate}</span>
+          </div>
+        `;
+      }
+
+      document.getElementById('detailBody').innerHTML = html;
+      document.getElementById('detailModal').style.display = 'flex';
+    }
+
+    function closeDetailModal() {
+      document.getElementById('detailModal').style.display = 'none';
+    }
+
+    // === Image Viewer ===
+    function viewImage(url) {
+      document.getElementById('viewerImage').src = url;
+      document.getElementById('imageViewer').style.display = 'flex';
+    }
+
+    // === Pagination ===
+    function changePage(delta) {
+      const newPage = currentPageNum + delta;
+      if (newPage < 1 || newPage > totalPagesNum) return;
+      currentPageNum = newPage;
+      loadRequests();
+    }
+
+    // === Sort ===
+    function toggleSort() {
+      if (sortField === 'created_at') {
+        sortField = 'mall';
+        sortAsc = true;
+      } else {
+        sortField = 'created_at';
+        sortAsc = false;
+      }
+      currentPageNum = 1;
+      loadRequests();
+    }
+
+    // === Export ===
+    function buildExportData(data) {
+      return [
+        ['المعرض', 'البريد', 'عنوان المشكلة', 'الوصف', 'الحالة', 'التاريخ', 'آخر تحديث', 'عدد الصور', 'روابط الصور'],
+        ...data.map(r => [
+          r.mall,
+          r.user_email,
+          r.title,
+          r.description || '',
+          r.status,
+          new Date(r.created_at).toLocaleString('en-GB', { hour12: false }),
+          r.updated_at ? new Date(r.updated_at).toLocaleString('en-GB', { hour12: false }) : '',
+          (r.images || []).length,
+          (r.images || []).join('\n')
+        ])
+      ];
+    }
+
+    function exportFiltered() {
+      if (allData.length === 0) { showToast('لا توجد بيانات للتصدير', 'error'); return; }
+      const wb = XLSX.utils.book_new();
+      const ws = XLSX.utils.aoa_to_sheet(buildExportData(allData));
+      ws['!cols'] = [{ wch: 20 }, { wch: 30 }, { wch: 30 }, { wch: 50 }, { wch: 15 }, { wch: 20 }, { wch: 20 }, { wch: 10 }, { wch: 60 }];
+      XLSX.utils.book_append_sheet(wb, ws, 'طلبات الصيانة');
+      XLSX.writeFile(wb, 'maintenance_requests_filtered.xlsx');
+      showToast('تم التصدير ✅', 'success');
+    }
+
+    async function exportAll() {
+      showToast('جاري تحميل كل البيانات...', '');
+
+      let allExport = [];
+      let page = 0;
+      const batchSize = 1000;
+
+      while (true) {
+        const { data, error } = await supabaseClient
+          .from('maintenance_requests')
+          .select('*')
+          .order('created_at', { ascending: false })
+          .range(page * batchSize, (page + 1) * batchSize - 1);
+
+        if (error || !data || data.length === 0) break;
+        allExport = allExport.concat(data);
+        if (data.length < batchSize) break;
+        page++;
+      }
+
+      if (allExport.length === 0) { showToast('لا توجد بيانات', 'error'); return; }
+
+      const wb = XLSX.utils.book_new();
+      const ws = XLSX.utils.aoa_to_sheet(buildExportData(allExport));
+      ws['!cols'] = [{ wch: 20 }, { wch: 30 }, { wch: 30 }, { wch: 50 }, { wch: 15 }, { wch: 20 }, { wch: 20 }, { wch: 10 }, { wch: 60 }];
+      XLSX.utils.book_append_sheet(wb, ws, 'طلبات الصيانة');
+      XLSX.writeFile(wb, 'all_maintenance_requests.xlsx');
+      showToast(`تم تصدير ${allExport.length} طلب ✅`, 'success');
+    }
+
+    function exportSingleRequest() {
+      if (!currentDetailRequest) return;
+      const wb = XLSX.utils.book_new();
+      const ws = XLSX.utils.aoa_to_sheet(buildExportData([currentDetailRequest]));
+      ws['!cols'] = [{ wch: 20 }, { wch: 30 }, { wch: 30 }, { wch: 50 }, { wch: 15 }, { wch: 20 }, { wch: 20 }, { wch: 10 }, { wch: 60 }];
+      XLSX.utils.book_append_sheet(wb, ws, 'طلب صيانة');
+      XLSX.writeFile(wb, `maintenance_${currentDetailRequest.mall}_${currentDetailRequest.id.substring(0, 8)}.xlsx`);
+      showToast('تم التصدير ✅', 'success');
+    }
+
+    // === Utils ===
+    function escapeHtml(text) {
+      if (!text) return '';
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function showToast(msg, type = '') {
+      const toast = document.getElementById('toast');
+      toast.textContent = msg;
+      toast.className = 'toast show ' + type;
+      setTimeout(() => { toast.className = 'toast'; }, 3500);
+    }
+  </script>
+
+</body>
+</html>

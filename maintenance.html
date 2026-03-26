@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>طلبات الصيانة</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>console.log = function() {}; console.info = function() {};</script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #e67e22;
+      --primary-dark: #d35400;
+      --danger: #e74c3c;
+      --success: #27ae60;
+      --info: #3498db;
+      --bg-color: #fff8f0;
+      --card-bg: #ffffff;
+      --text-main: #2c3e50;
+      --text-muted: #7f8c8d;
+      --border-radius: 12px;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+      --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.1);
+      --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+      --font-family: 'Tajawal', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-family);
+      background: var(--bg-color);
+      color: var(--text-main);
+      min-height: 100vh;
+    }
+
+    /* Header */
+    .page-header {
+      background: linear-gradient(135deg, #e67e22, #d35400);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 15px rgba(230, 126, 34, 0.3);
+    }
+
+    .page-header h1 {
+      font-size: 1.6em;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .page-header .subtitle {
+      font-size: 0.9em;
+      opacity: 0.85;
+    }
+
+    .header-actions {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+
+    .header-actions button, .header-actions a button {
+      background: rgba(255,255,255,0.2);
+      color: white;
+      border: 1px solid rgba(255,255,255,0.3);
+      padding: 8px 18px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-family: var(--font-family);
+      font-size: 0.9em;
+      font-weight: 600;
+      transition: all 0.3s;
+      backdrop-filter: blur(5px);
+    }
+
+    .header-actions button:hover {
+      background: rgba(255,255,255,0.35);
+      transform: translateY(-1px);
+    }
+
+    /* Container */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Auth Required */
+    .auth-required {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .auth-required .icon { font-size: 4em; margin-bottom: 15px; }
+
+    .auth-required h2 { color: var(--primary); margin-bottom: 10px; }
+
+    .auth-required p { color: var(--text-muted); margin-bottom: 25px; }
+
+    .auth-required button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-size: 1.1em;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: var(--font-family);
+      transition: all 0.3s;
+    }
+
+    .auth-required button:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    /* New Request Form */
+    .form-card {
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      padding: 25px;
+      box-shadow: var(--shadow-md);
+      margin-bottom: 25px;
+      border: 1px solid rgba(230, 126, 34, 0.1);
+    }
+
+    .form-card h2 {
+      color: var(--primary);
+      font-size: 1.3em;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .form-group {
+      margin-bottom: 18px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 700;
+      color: var(--text-main);
+      font-size: 0.95em;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 12px 15px;
+      border: 1.5px solid #e0e0e0;
+      border-radius: 10px;
+      font-family: var(--font-family);
+      font-size: 1em;
+      transition: border-color 0.3s, box-shadow 0.3s;
+      background: #fafafa;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(230, 126, 34, 0.15);
+      background: #fff;
+    }
+
+    .form-group textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    /* Image Upload */
+    .image-upload-area {
+      border: 2px dashed #ddd;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s;
+      background: #fefefe;
+    }
+
+    .image-upload-area:hover {
+      border-color: var(--primary);
+      background: #fff8f0;
+    }
+
+    .image-upload-area.dragover {
+      border-color: var(--primary);
+      background: rgba(230, 126, 34, 0.05);
+    }
+
+    .image-upload-area .upload-icon {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .image-upload-area p {
+      color: var(--text-muted);
+      font-size: 0.9em;
+    }
+
+    .image-previews {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .image-preview {
+      position: relative;
+      width: 90px;
+      height: 90px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .image-preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .image-preview .remove-img {
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      background: var(--danger);
+      color: white;
+      border: none;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .image-preview:hover .remove-img { opacity: 1; }
+
+    /* Submit Button */
+    .submit-btn {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: white;
+      border: none;
+      padding: 14px 30px;
+      border-radius: 25px;
+      font-size: 1.1em;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: var(--font-family);
+      width: 100%;
+      transition: all 0.3s;
+      box-shadow: 0 4px 15px rgba(230, 126, 34, 0.3);
+    }
+
+    .submit-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(230, 126, 34, 0.4);
+    }
+
+    .submit-btn:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+      box-shadow: none;
+      transform: none;
+    }
+
+    /* Requests List */
+    .section-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+
+    .section-title h2 {
+      color: var(--primary);
+      font-size: 1.3em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .filter-chips {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .chip {
+      background: white;
+      border: 1.5px solid #eee;
+      padding: 6px 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.85em;
+      font-family: var(--font-family);
+      font-weight: 600;
+      color: var(--text-muted);
+      transition: all 0.2s;
+    }
+
+    .chip.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .chip:hover:not(.active) {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    /* Request Card */
+    .request-card {
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      padding: 20px;
+      margin-bottom: 15px;
+      box-shadow: var(--shadow-sm);
+      border-right: 4px solid var(--primary);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .request-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .request-card .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+
+    .request-card .card-title {
+      font-weight: 800;
+      font-size: 1.1em;
+      color: var(--text-main);
+    }
+
+    .status-badge {
+      padding: 4px 12px;
+      border-radius: 15px;
+      font-size: 0.8em;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .status-new { background: #fff3e0; color: #e65100; }
+    .status-in-progress { background: #e3f2fd; color: #1565c0; }
+    .status-resolved { background: #e8f5e9; color: #2e7d32; }
+
+    .request-card .card-desc {
+      color: var(--text-muted);
+      font-size: 0.92em;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .request-card .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.82em;
+      color: #aaa;
+    }
+
+    .card-images {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+
+    .card-images img {
+      width: 70px;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .card-images img:hover {
+      transform: scale(1.1);
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 50px 20px;
+      color: var(--text-muted);
+    }
+
+    .empty-state .icon { font-size: 3em; margin-bottom: 10px; }
+
+    /* Image Viewer Modal */
+    .image-viewer {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.85);
+      z-index: 5000;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .image-viewer img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    }
+
+    /* Login Modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.5);
+      justify-content: center;
+      align-items: center;
+      z-index: 3000;
+    }
+
+    .modal-box {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      width: 320px;
+      text-align: center;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .modal-box h3 {
+      color: var(--primary);
+      margin-bottom: 15px;
+    }
+
+    .modal-box input {
+      width: 90%;
+      padding: 10px;
+      margin: 6px 0;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-family: var(--font-family);
+      font-size: 0.95em;
+    }
+
+    .modal-box input:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    .modal-box .btn-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 15px;
+      justify-content: center;
+    }
+
+    .modal-box button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: var(--font-family);
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 25px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: var(--text-main);
+      color: white;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-family: var(--font-family);
+      font-weight: 600;
+      box-shadow: var(--shadow-lg);
+      z-index: 9999;
+      transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    }
+
+    .toast.show { transform: translateX(-50%) translateY(0); }
+    .toast.success { background: var(--success); }
+    .toast.error { background: var(--danger); }
+
+    /* Loading Spinner */
+    .spinner {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 3px solid #fff;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      vertical-align: middle;
+      margin-inline-end: 8px;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container { padding: 12px; }
+      .form-card { padding: 18px; }
+      .section-title { flex-direction: column; gap: 10px; align-items: flex-start; }
+      .request-card .card-header { flex-direction: column; gap: 8px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="page-header">
+    <h1>🔧 طلبات الصيانة</h1>
+    <div class="subtitle" id="userMallDisplay"></div>
+    <div class="header-actions">
+      <a href="index.html"><button>📦 العودة لجدول البضاعة</button></a>
+      <button id="loginBtn" onclick="login()">🔑 تسجيل الدخول</button>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- Auth Required Screen -->
+    <div id="authRequired" class="auth-required">
+      <div class="icon">🔒</div>
+      <h2>يرجى تسجيل الدخول</h2>
+      <p>لإنشاء ومتابعة طلبات الصيانة، تحتاج لتسجيل الدخول بحسابك أولاً</p>
+      <button onclick="login()">🔑 تسجيل الدخول</button>
+    </div>
+
+    <!-- Main Content (hidden until auth) -->
+    <div id="mainContent" style="display:none;">
+
+      <!-- New Request Form -->
+      <div class="form-card">
+        <h2>📝 طلب صيانة جديد</h2>
+
+        <div class="form-group">
+          <label>عنوان المشكلة *</label>
+          <input type="text" id="reqTitle" placeholder="مثال: تعطل جهاز التكييف...">
+        </div>
+
+        <div class="form-group">
+          <label>وصف المشكلة وتفاصيلها</label>
+          <textarea id="reqDescription" placeholder="اشرح المشكلة بالتفصيل: متى بدأت، ما الأعراض، أي معلومات إضافية..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>حالة الطلب</label>
+          <select id="reqStatus">
+            <option value="جديد">🟠 جديد</option>
+            <option value="قيد المعالجة">🔵 قيد المعالجة</option>
+            <option value="تم الحل">🟢 تم الحل</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>صور (اختياري)</label>
+          <div class="image-upload-area" id="uploadArea" onclick="document.getElementById('fileInput').click()">
+            <div class="upload-icon">📸</div>
+            <p>اضغط هنا أو اسحب الصور لرفعها</p>
+            <p style="font-size:0.8em; color:#bbb; margin-top:5px;">يدعم JPG, PNG, WEBP - حد أقصى 5 صور</p>
+          </div>
+          <input type="file" id="fileInput" accept="image/*" multiple style="display:none" onchange="handleFiles(this.files)">
+          <div class="image-previews" id="imagePreviews"></div>
+        </div>
+
+        <button class="submit-btn" id="submitBtn" onclick="submitRequest()">
+          📤 إرسال الطلب
+        </button>
+      </div>
+
+      <!-- Existing Requests -->
+      <div class="section-title">
+        <h2>📋 طلباتي السابقة</h2>
+        <div class="filter-chips">
+          <div class="chip active" onclick="filterRequests('all', this)">الكل</div>
+          <div class="chip" onclick="filterRequests('جديد', this)">🟠 جديد</div>
+          <div class="chip" onclick="filterRequests('قيد المعالجة', this)">🔵 قيد المعالجة</div>
+          <div class="chip" onclick="filterRequests('تم الحل', this)">🟢 تم الحل</div>
+        </div>
+      </div>
+
+      <div id="requestsList"></div>
+    </div>
+  </div>
+
+  <!-- Image Viewer -->
+  <div class="image-viewer" id="imageViewer" onclick="this.style.display='none'">
+    <img id="viewerImage" src="" alt="صورة مكبرة">
+  </div>
+
+  <!-- Login Modal -->
+  <div class="modal-overlay" id="loginModal">
+    <div class="modal-box">
+      <h3>🔑 تسجيل الدخول</h3>
+      <input id="emailInput" type="email" placeholder="البريد الإلكتروني">
+      <input id="passwordInput" type="password" placeholder="كلمة المرور">
+      <div class="btn-row">
+        <button onclick="confirmLogin()" style="background:var(--primary); color:white;">دخول</button>
+        <button onclick="closeLoginModal()" style="background:#eee; color:#333;">إلغاء</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // === Supabase Setup (same as index.html) ===
+    const SUPABASE_URL = "https://sufeqdvooqkolghflhta.supabase.co";
+    const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN1ZmVxZHZvb3Frb2xnaGZsaHRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0MTY5OTIsImV4cCI6MjA4ODk5Mjk5Mn0.ody4a53OtJqzLIoTvJ3S6Igdue-Sy4HsUQ_Cz7MUSjY";
+
+    const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+      auth: {
+        persistSession: true,
+        autoRefreshToken: true,
+        detectSessionInUrl: false
+      }
+    });
+
+    let currentUser = null;
+    let userMall = "";
+    let allRequests = [];
+    let currentFilter = 'all';
+    let selectedFiles = [];
+
+    // === Auth Logic ===
+    async function handleAuthUser(user) {
+      currentUser = user;
+
+      const loginBtn = document.getElementById('loginBtn');
+      const authReq = document.getElementById('authRequired');
+      const mainContent = document.getElementById('mainContent');
+      const mallDisplay = document.getElementById('userMallDisplay');
+
+      if (user) {
+        loginBtn.textContent = '🚪 تسجيل الخروج';
+
+        // Fetch profile
+        let profile = null;
+        try {
+          let res = await supabaseClient.from('profiles').select('*').eq('id', user.id).single();
+          if (res.error) {
+            res = await supabaseClient.from('profiles').select('*').eq('email', user.email).single();
+          }
+          profile = res.data;
+        } catch(e) {}
+
+        userMall = profile?.mall || '';
+        mallDisplay.textContent = userMall ? `المعرض: ${userMall}` : '';
+
+        authReq.style.display = 'none';
+        mainContent.style.display = 'block';
+        loadRequests();
+      } else {
+        loginBtn.textContent = '🔑 تسجيل الدخول';
+        authReq.style.display = 'block';
+        mainContent.style.display = 'none';
+        mallDisplay.textContent = '';
+      }
+    }
+
+    // Init auth
+    (async () => {
+      try {
+        const { data: { session } } = await supabaseClient.auth.getSession();
+        await handleAuthUser(session?.user || null);
+
+        supabaseClient.auth.onAuthStateChange(async (event, newSession) => {
+          if (event === 'INITIAL_SESSION') return;
+          if (event === 'SIGNED_IN' || event === 'SIGNED_OUT' || event === 'USER_DELETED') {
+            await handleAuthUser(newSession?.user || null);
+          }
+        });
+      } catch(e) {
+        console.error("Auth init error:", e);
+      }
+    })();
+
+    async function login() {
+      if (currentUser) {
+        await supabaseClient.auth.signOut();
+        localStorage.removeItem('savedEmail');
+        localStorage.removeItem('savedPassword');
+      } else {
+        document.getElementById('loginModal').style.display = 'flex';
+        const se = localStorage.getItem('savedEmail');
+        const sp = localStorage.getItem('savedPassword');
+        if (se) document.getElementById('emailInput').value = se;
+        if (sp) document.getElementById('passwordInput').value = sp;
+      }
+    }
+
+    function closeLoginModal() { document.getElementById('loginModal').style.display = 'none'; }
+
+    async function confirmLogin() {
+      const email = document.getElementById('emailInput').value;
+      const password = document.getElementById('passwordInput').value;
+      if (email && password) {
+        localStorage.setItem('savedEmail', email);
+        localStorage.setItem('savedPassword', password);
+        const { error } = await supabaseClient.auth.signInWithPassword({ email, password });
+        if (error) {
+          showToast('فشل الدخول: ' + error.message, 'error');
+        } else {
+          closeLoginModal();
+        }
+      } else {
+        showToast('يرجى إدخال البريد وكلمة المرور', 'error');
+      }
+    }
+
+    // === Image Upload ===
+    const uploadArea = document.getElementById('uploadArea');
+
+    uploadArea.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      uploadArea.classList.add('dragover');
+    });
+
+    uploadArea.addEventListener('dragleave', () => {
+      uploadArea.classList.remove('dragover');
+    });
+
+    uploadArea.addEventListener('drop', (e) => {
+      e.preventDefault();
+      uploadArea.classList.remove('dragover');
+      handleFiles(e.dataTransfer.files);
+    });
+
+    function handleFiles(files) {
+      const maxFiles = 5;
+      for (let i = 0; i < files.length; i++) {
+        if (selectedFiles.length >= maxFiles) {
+          showToast(`الحد الأقصى ${maxFiles} صور`, 'error');
+          break;
+        }
+        if (files[i].type.startsWith('image/')) {
+          selectedFiles.push(files[i]);
+        }
+      }
+      renderPreviews();
+    }
+
+    function renderPreviews() {
+      const container = document.getElementById('imagePreviews');
+      container.innerHTML = selectedFiles.map((file, idx) => {
+        const url = URL.createObjectURL(file);
+        return `
+          <div class="image-preview">
+            <img src="${url}" alt="صورة ${idx + 1}">
+            <button class="remove-img" onclick="removeImage(${idx})">✕</button>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function removeImage(idx) {
+      selectedFiles.splice(idx, 1);
+      renderPreviews();
+    }
+
+    // === Submit Request ===
+    async function submitRequest() {
+      const title = document.getElementById('reqTitle').value.trim();
+      const description = document.getElementById('reqDescription').value.trim();
+      const status = document.getElementById('reqStatus').value;
+
+      if (!title) {
+        showToast('يرجى إدخال عنوان المشكلة', 'error');
+        return;
+      }
+
+      const btn = document.getElementById('submitBtn');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span> جاري الإرسال...';
+
+      try {
+        // Upload images
+        let imageUrls = [];
+        for (const file of selectedFiles) {
+          const ext = file.name.split('.').pop();
+          const fileName = `${currentUser.id}/${Date.now()}_${Math.random().toString(36).substr(2, 9)}.${ext}`;
+
+          const { error: uploadError } = await supabaseClient.storage
+            .from('maintenance-images')
+            .upload(fileName, file);
+
+          if (!uploadError) {
+            const { data: urlData } = supabaseClient.storage
+              .from('maintenance-images')
+              .getPublicUrl(fileName);
+            imageUrls.push(urlData.publicUrl);
+          }
+        }
+
+        // Insert request
+        const { error } = await supabaseClient
+          .from('maintenance_requests')
+          .insert({
+            user_id: currentUser.id,
+            user_email: currentUser.email,
+            mall: userMall || 'غير محدد',
+            title: title,
+            description: description,
+            status: status,
+            images: imageUrls
+          });
+
+        if (error) throw error;
+
+        showToast('تم إرسال طلب الصيانة بنجاح ✅', 'success');
+
+        // Reset form
+        document.getElementById('reqTitle').value = '';
+        document.getElementById('reqDescription').value = '';
+        document.getElementById('reqStatus').value = 'جديد';
+        selectedFiles = [];
+        renderPreviews();
+        loadRequests();
+
+      } catch(e) {
+        showToast('حدث خطأ: ' + e.message, 'error');
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = '📤 إرسال الطلب';
+      }
+    }
+
+    // === Load Requests ===
+    async function loadRequests() {
+      try {
+        const { data, error } = await supabaseClient
+          .from('maintenance_requests')
+          .select('*')
+          .order('created_at', { ascending: false });
+
+        if (error) throw error;
+        allRequests = data || [];
+        renderRequests();
+      } catch(e) {
+        document.getElementById('requestsList').innerHTML =
+          '<div class="empty-state"><div class="icon">⚠️</div><p>حدث خطأ في تحميل الطلبات</p></div>';
+      }
+    }
+
+    function filterRequests(filter, chipEl) {
+      currentFilter = filter;
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      if (chipEl) chipEl.classList.add('active');
+      renderRequests();
+    }
+
+    function renderRequests() {
+      const container = document.getElementById('requestsList');
+      let filtered = allRequests;
+
+      if (currentFilter !== 'all') {
+        filtered = allRequests.filter(r => r.status === currentFilter);
+      }
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <div class="icon">📭</div>
+            <p>${currentFilter === 'all' ? 'لا توجد طلبات صيانة حالياً' : 'لا توجد طلبات بهذه الحالة'}</p>
+          </div>`;
+        return;
+      }
+
+      container.innerHTML = filtered.map(req => {
+        const statusClass = req.status === 'جديد' ? 'status-new' :
+                           req.status === 'قيد المعالجة' ? 'status-in-progress' : 'status-resolved';
+
+        const date = new Date(req.created_at).toLocaleDateString('ar-SA', {
+          year: 'numeric', month: 'long', day: 'numeric',
+          hour: '2-digit', minute: '2-digit'
+        });
+
+        const imagesHtml = (req.images && req.images.length > 0)
+          ? `<div class="card-images">${req.images.map(url =>
+              `<img src="${url}" onclick="viewImage('${url}')" alt="صورة">`
+            ).join('')}</div>`
+          : '';
+
+        return `
+          <div class="request-card">
+            <div class="card-header">
+              <div class="card-title">${escapeHtml(req.title)}</div>
+              <span class="status-badge ${statusClass}">${req.status}</span>
+            </div>
+            ${req.description ? `<div class="card-desc">${escapeHtml(req.description)}</div>` : ''}
+            ${imagesHtml}
+            <div class="card-meta">
+              <span>📅 ${date}</span>
+              <span>📍 ${escapeHtml(req.mall)}</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function viewImage(url) {
+      document.getElementById('viewerImage').src = url;
+      document.getElementById('imageViewer').style.display = 'flex';
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // === Toast ===
+    function showToast(msg, type = '') {
+      const toast = document.getElementById('toast');
+      toast.textContent = msg;
+      toast.className = 'toast show ' + type;
+      setTimeout(() => { toast.className = 'toast'; }, 3500);
+    }
+  </script>
+
+</body>
+</html>
