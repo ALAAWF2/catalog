@@ -578,11 +578,12 @@
         </div>
 
         <div class="form-group">
-          <label>حالة الطلب</label>
-          <select id="reqStatus">
-            <option value="جديد">🟠 جديد</option>
-            <option value="قيد المعالجة">🔵 قيد المعالجة</option>
-            <option value="تم الحل">🟢 تم الحل</option>
+          <label>أولوية الطلب</label>
+          <select id="reqPriority">
+            <option value="عالية جداً">🔴 عالية جداً (طارئ)</option>
+            <option value="عالية">🟠 عالية</option>
+            <option value="متوسطة">🟡 متوسطة</option>
+            <option value="عادية" selected>🟢 عادية</option>
           </select>
         </div>
 
@@ -797,7 +798,8 @@
     async function submitRequest() {
       const title = document.getElementById('reqTitle').value.trim();
       const description = document.getElementById('reqDescription').value.trim();
-      const status = document.getElementById('reqStatus').value;
+      const priority = document.getElementById('reqPriority').value;
+      const status = 'جديد';
 
       if (!title) {
         showToast('يرجى إدخال عنوان المشكلة', 'error');
@@ -861,6 +863,7 @@
             title: title,
             description: description,
             status: status,
+            priority: priority,
             images: imageUrls
           });
 
@@ -871,7 +874,7 @@
         // Reset form
         document.getElementById('reqTitle').value = '';
         document.getElementById('reqDescription').value = '';
-        document.getElementById('reqStatus').value = 'جديد';
+        document.getElementById('reqPriority').value = 'عادية';
         selectedFiles = [];
         renderPreviews();
         loadRequests();
@@ -954,9 +957,26 @@
               <div class="card-title">${escapeHtml(req.title)}</div>
               <span class="status-badge ${statusClass}">${req.status}</span>
             </div>
+            <div style="margin-bottom: 8px; font-size: 0.9em;">
+              <strong>الأولوية: </strong> 
+              <span style="color: ${req.priority === 'عالية جداً' ? 'var(--danger)' : req.priority === 'عالية' ? '#e67e22' : req.priority === 'متوسطة' ? '#f39c12' : 'var(--success)'}; font-weight: bold;">
+                ${req.priority || 'عادية'}
+              </span>
+            </div>
             ${req.description ? `<div class="card-desc">${escapeHtml(req.description)}</div>` : ''}
             ${imagesHtml}
-            <div class="card-meta">
+            ${req.admin_reply ? `
+              <div style="margin-top: 15px; padding: 12px; background: #fdf6f0; border-right: 3px solid var(--primary); border-radius: 8px;">
+                <div style="font-weight: bold; color: var(--primary-dark); font-size: 0.9em; margin-bottom: 5px;">👨‍🔧 رد الإدارة:</div>
+                <div style="font-size: 0.9em; color: var(--text-main); margin-bottom: 8px; white-space: pre-wrap;">${escapeHtml(req.admin_reply)}</div>
+                ${(req.admin_images && req.admin_images.length > 0) ? `
+                  <div class="card-images">
+                    ${req.admin_images.map(url => `<img src="${url}" onclick="viewImage('${url}')" alt="صورة رد الإدارة">`).join('')}
+                  </div>
+                ` : ''}
+              </div>
+            ` : ''}
+            <div class="card-meta" style="margin-top: 10px;">
               <span>📅 ${date}</span>
               <span>📍 ${escapeHtml(req.mall)}</span>
             </div>

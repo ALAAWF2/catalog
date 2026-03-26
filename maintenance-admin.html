@@ -481,6 +481,7 @@
         <th>المعرض</th>
         <th>عنوان المشكلة</th>
         <th>صور</th>
+        <th>الأولوية</th>
         <th>الحالة</th>
         <th>تغيير الحالة</th>
         <th>تفاصيل</th>
@@ -691,7 +692,7 @@
       tbody.innerHTML = '';
 
       if (allData.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="8" style="text-align:center; padding:40px; color:#aaa; font-size:1.1em;">لا توجد طلبات صيانة</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="9" style="text-align:center; padding:40px; color:#aaa; font-size:1.1em;">لا توجد طلبات صيانة</td></tr>';
         return;
       }
 
@@ -719,6 +720,7 @@
           <td><strong>${escapeHtml(req.mall)}</strong></td>
           <td>${escapeHtml(req.title)}</td>
           <td>${thumbs}</td>
+          <td><span style="color: ${req.priority === 'عالية جداً' ? 'var(--danger)' : req.priority === 'عالية' ? '#e67e22' : req.priority === 'متوسطة' ? '#f39c12' : 'var(--success)'}; font-weight: bold;">${req.priority || 'عادية'}</span></td>
           <td><span class="status-badge ${statusClass}">${req.status}</span></td>
           <td>
             <select class="status-select" onchange="changeStatus('${req.id}', this.value)">
@@ -777,6 +779,10 @@
           <span class="detail-value">${date}</span>
         </div>
         <div class="detail-row">
+          <span class="detail-label">الأولوية</span>
+          <span style="color: ${req.priority === 'عالية جداً' ? 'var(--danger)' : req.priority === 'عالية' ? '#e67e22' : req.priority === 'متوسطة' ? '#f39c12' : 'var(--success)'}; font-weight: bold;">${req.priority || 'عادية'}</span>
+        </div>
+        <div class="detail-row">
           <span class="detail-label">الحالة</span>
           <span class="status-badge ${statusClass}">${req.status}</span>
         </div>
@@ -815,6 +821,34 @@
         `;
       }
 
+      adminSelectedFiles = []; // Reset files on open
+
+      html += `
+        <div style="margin-top:25px; border-top:2px solid #eee; padding-top:20px;">
+          <h4 style="color:var(--primary); margin-bottom:15px;">👨‍🔧 إضافة/تعديل رد الإدارة</h4>
+          
+          <textarea id="adminReplyText" style="width:100%; min-height:100px; padding:12px; border:1px solid #ddd; border-radius:10px; font-family:var(--font-family); resize:vertical; margin-bottom:15px;" placeholder="اكتب ردك أو تعليماتك هنا...">${req.admin_reply ? escapeHtml(req.admin_reply) : ''}</textarea>
+          
+          <div style="margin-bottom:15px;">
+            <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--text-muted);">إرفاق صور (اختياري)</label>
+            <input type="file" id="adminFileInput" accept="image/*" multiple style="display:none" onchange="handleAdminFiles(this.files)">
+            <button onclick="document.getElementById('adminFileInput').click()" class="secondary" style="margin-bottom:10px;">📸 اختيار صور</button>
+            <div id="adminImagePreviews" style="display:flex; gap:10px; flex-wrap:wrap;"></div>
+          </div>
+          
+          ${(req.admin_images && req.admin_images.length > 0) ? `
+            <div style="margin-bottom:15px;">
+              <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--text-muted);">الصور المرفقة مسبقاً:</label>
+              <div class="detail-images">
+                ${req.admin_images.map(url => `<img src="${url}" onclick="viewImage('${url}')" alt="صورة الإدارة">`).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          <button id="saveReplyBtn" onclick="saveAdminReply('${req.id}')" class="success-btn" style="width:100%; justify-content:center; padding:12px;">💾 حفظ الرد</button>
+        </div>
+      `;
+
       document.getElementById('detailBody').innerHTML = html;
       document.getElementById('detailModal').style.display = 'flex';
     }
@@ -842,6 +876,9 @@
       if (sortField === 'created_at') {
         sortField = 'mall';
         sortAsc = true;
+      } else if (sortField === 'mall') {
+        sortField = 'priority';
+        sortAsc = true;
       } else {
         sortField = 'created_at';
         sortAsc = false;
@@ -853,15 +890,17 @@
     // === Export ===
     function buildExportData(data) {
       return [
-        ['المعرض', 'البريد', 'عنوان المشكلة', 'الوصف', 'الحالة', 'التاريخ', 'آخر تحديث', 'عدد الصور', 'روابط الصور'],
+        ['المعرض', 'البريد', 'عنوان المشكلة', 'الأولوية', 'الوصف', 'الحالة', 'التاريخ', 'آخر تحديث', 'رد الإدارة', 'عدد الصور', 'روابط الصور'],
         ...data.map(r => [
           r.mall,
           r.user_email,
           r.title,
+          r.priority || 'عادية',
           r.description || '',
           r.status,
           new Date(r.created_at).toLocaleString('en-GB', { hour12: false }),
           r.updated_at ? new Date(r.updated_at).toLocaleString('en-GB', { hour12: false }) : '',
+          r.admin_reply || '',
           (r.images || []).length,
           (r.images || []).join('\n')
         ])
@@ -916,6 +955,98 @@
       XLSX.utils.book_append_sheet(wb, ws, 'طلب صيانة');
       XLSX.writeFile(wb, `maintenance_${currentDetailRequest.mall}_${currentDetailRequest.id.substring(0, 8)}.xlsx`);
       showToast('تم التصدير ✅', 'success');
+    }
+
+    let adminSelectedFiles = [];
+
+    function handleAdminFiles(files) {
+      const maxFiles = 5;
+      for (let i = 0; i < files.length; i++) {
+        if (adminSelectedFiles.length >= maxFiles) break;
+        if (files[i].type.startsWith('image/')) {
+          adminSelectedFiles.push(files[i]);
+        }
+      }
+      renderAdminPreviews();
+    }
+
+    function renderAdminPreviews() {
+      const container = document.getElementById('adminImagePreviews');
+      if(!container) return;
+      container.innerHTML = adminSelectedFiles.map((file, idx) => {
+        const url = URL.createObjectURL(file);
+        return `
+          <div style="position:relative; width:70px; height:70px; border-radius:8px; overflow:hidden;">
+            <img src="${url}" style="width:100%; height:100%; object-fit:cover;">
+            <button onclick="removeAdminImage(${idx})" style="position:absolute; top:2px; left:2px; background:var(--danger); color:white; border:none; border-radius:50%; width:20px; height:20px; display:flex; align-items:center; justify-content:center; font-size:10px; cursor:pointer;">✕</button>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function removeAdminImage(idx) {
+      adminSelectedFiles.splice(idx, 1);
+      renderAdminPreviews();
+    }
+
+    async function saveAdminReply(id) {
+      const text = document.getElementById('adminReplyText').value.trim();
+      const btn = document.getElementById('saveReplyBtn');
+      btn.disabled = true;
+      btn.textContent = 'جاري الحفظ...';
+
+      try {
+        const convertToWebP = (file) => {
+          return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.onload = () => {
+              const canvas = document.createElement('canvas');
+              canvas.width = img.width;
+              canvas.height = img.height;
+              const ctx = canvas.getContext('2d');
+              ctx.drawImage(img, 0, 0);
+              canvas.toBlob((blob) => {
+                if (!blob) reject(new Error('Canvas is empty'));
+                resolve(new File([blob], file.name.replace(/\.[^/.]+$/, "") + ".webp", { type: 'image/webp' }));
+              }, 'image/webp', 0.8);
+            };
+            img.onerror = reject;
+            img.src = URL.createObjectURL(file);
+          });
+        };
+
+        let newImageUrls = [];
+        for (const file of adminSelectedFiles) {
+          try {
+            const webpFile = await convertToWebP(file);
+            const fileName = `admin/${Date.now()}_${Math.random().toString(36).substr(2, 9)}.webp`;
+            const { error: uploadError } = await supabaseClient.storage.from('maintenance-images').upload(fileName, webpFile);
+            if (!uploadError) {
+              const { data: urlData } = supabaseClient.storage.from('maintenance-images').getPublicUrl(fileName);
+              newImageUrls.push(urlData.publicUrl);
+            }
+          } catch(e) { console.error(e); }
+        }
+
+        const req = allData.find(r => r.id === id);
+        let finalImages = req.admin_images || [];
+        if(newImageUrls.length > 0) finalImages = [...finalImages, ...newImageUrls];
+
+        const { error } = await supabaseClient
+          .from('maintenance_requests')
+          .update({ admin_reply: text, admin_images: finalImages, updated_at: new Date().toISOString() })
+          .eq('id', id);
+
+        if (error) throw error;
+        
+        showToast('تم حفظ الرد بنجاح ✅', 'success');
+        closeDetailModal();
+        loadRequests();
+      } catch(e) {
+        showToast('حدث خطأ: ' + e.message, 'error');
+        btn.disabled = false;
+        btn.textContent = '💾 حفظ الرد';
+      }
     }
 
     // === Utils ===
