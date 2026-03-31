@@ -1856,10 +1856,10 @@
         ${isNewArrival(d.code) ? '<div class="badge-new">جديد</div>' : ''}
         <img
           loading="lazy"
-          src="https://res.cloudinary.com/dsp8ysswh/image/upload/w_500,q_auto,f_auto,d_noimage.png/${(d.alias && String(d.alias).trim() !== '') ? d.alias : d.code}.jpg"
+          src="${d.image_path ? 'images/' + d.image_path : 'https://res.cloudinary.com/dsp8ysswh/image/upload/w_500,q_auto,f_auto,d_noimage.png/' + ((d.alias && String(d.alias).trim() !== '') ? d.alias : d.code) + '.jpg'}"
           alt="${d.name}"
           onclick="showProductDetails('${d.code}')"
-          onerror="if(this.dataset.fallback !== 'true') { this.dataset.fallback = 'true'; this.src = (d.image_path ? 'images/' + d.image_path : 'noimage.png'); } else { this.src='noimage.png'; this.onerror=null; }"
+          onerror="if(this.dataset.fallback !== 'true' && '${d.image_path}' !== '') { this.dataset.fallback = 'true'; this.src = 'https://res.cloudinary.com/dsp8ysswh/image/upload/w_500,q_auto,f_auto,d_noimage.png/' + ((d.alias && String(d.alias).trim() !== '') ? d.alias : d.code) + '.jpg'; } else { this.src='noimage.png'; this.onerror=null; }"
         >
 
         <h4 title="${d.name}">${d.name}</h4>
@@ -1938,12 +1938,16 @@
 
       modalImage.className = 'modal-image';
       const imageId = (product.alias && String(product.alias).trim() !== '') ? product.alias : product.code;
-      modalImage.src = `https://res.cloudinary.com/dsp8ysswh/image/upload/w_600,q_auto,f_auto,d_noimage.png/${imageId}.jpg`;
+      if (product.image_path) {
+        modalImage.src = 'images/' + product.image_path;
+      } else {
+        modalImage.src = `https://res.cloudinary.com/dsp8ysswh/image/upload/w_600,q_auto,f_auto,d_noimage.png/${imageId}.jpg`;
+      }
       modalImage.dataset.fallback = 'false';
       modalImage.onerror = function() {
-        if (this.dataset.fallback !== 'true') {
+        if (this.dataset.fallback !== 'true' && product.image_path) {
           this.dataset.fallback = 'true';
-          this.src = product.image_path ? 'images/' + product.image_path : 'noimage.png';
+          this.src = `https://res.cloudinary.com/dsp8ysswh/image/upload/w_600,q_auto,f_auto,d_noimage.png/${imageId}.jpg`;
         } else {
           this.src = 'noimage.png';
           this.onerror = null;
