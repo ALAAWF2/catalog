@@ -206,6 +206,9 @@
     .status-new { background: #fff3e0; color: #e65100; }
     .status-in-progress { background: #e3f2fd; color: #1565c0; }
     .status-resolved { background: #e8f5e9; color: #2e7d32; }
+    .status-waiting { background: #fdf2e9; color: #d35400; }
+    .status-approved { background: #d4efdf; color: #1e8449; }
+    .status-rejected { background: #fadbd8; color: #c0392b; }
 
     /* Status Dropdown in table */
     .status-select {
@@ -445,8 +448,11 @@
         <select id="statusFilter" onchange="loadRequests()">
           <option value="all">الكل</option>
           <option value="جديد">🟠 جديد</option>
+          <option value="بانتظار موافقة المدير">⏳ بانتظار موافقة المدير</option>
+          <option value="موافق عليه">👍 موافق عليه</option>
           <option value="قيد المعالجة">🔵 قيد المعالجة</option>
           <option value="تم الحل">🟢 تم الحل</option>
+          <option value="مرفوض">❌ مرفوض</option>
         </select>
       </div>
       <div class="filter-group">
@@ -562,9 +568,20 @@
         return;
       }
 
-      // Check if admin
-      const adminEmail = 'belal@orangebedbath.com';
-      if (session.user.email && session.user.email.toLowerCase() === adminEmail) {
+      // Check Profile Role
+      let userRole = 'user';
+      try {
+        const { data: profile } = await supabaseClient.from('profiles').select('role').eq('id', session.user.id).single();
+        if (profile) userRole = profile.role;
+      } catch (err) {}
+
+      // Fallback fallback rule just in case profile isn't fetched
+      if (session.user.email && session.user.email.toLowerCase() === 'belal@orangebedbath.com') {
+        userRole = 'maintenance_admin';
+      }
+
+      if (['manager', 'maintenance_admin', 'admin'].includes(userRole)) {
+        window.currentUserRole = userRole;
         // Authorized!
         document.body.style.visibility = 'visible';
         await loadMalls();
@@ -572,7 +589,7 @@
       } else {
         // Sign out the non-admin user so they can sign in with admin
         await supabaseClient.auth.signOut();
-        showAuthScreen('⛔ غير مصرح لك بالدخول', 'هذه الصفحة مخصصة لمدير النظام فقط. جرب الدخول بحساب الإدارة.', true);
+        showAuthScreen('⛔ غير مصرح لك بالدخول', 'هذه الصفحة مخصصة للمدراء ومسؤولي الصيانة فقط.', true);
       }
     })();
 
@@ -662,7 +679,7 @@
 
     async function updateStats(mall, startDate, endDate, search, totalFiltered) {
       // Count by status
-      const statuses = ['جديد', 'قيد المعالجة', 'تم الحل'];
+      const statuses = ['جديد', 'بانتظار موافقة المدير', 'قيد المعالجة', 'تم الحل'];
       const counts = {};
 
       for (const s of statuses) {
@@ -704,7 +721,10 @@
         });
 
         const statusClass = req.status === 'جديد' ? 'status-new' :
-                           req.status === 'قيد المعالجة' ? 'status-in-progress' : 'status-resolved';
+                           req.status === 'قيد المعالجة' ? 'status-in-progress' : 
+                           req.status === 'بانتظار موافقة المدير' ? 'status-waiting' : 
+                           req.status === 'مرفوض' ? 'status-rejected' : 
+                           req.status === 'موافق عليه' ? 'status-approved' : 'status-resolved';
 
         const thumbs = (req.images && req.images.length > 0)
           ? `<div class="thumb-row">${req.images.slice(0, 3).map(url =>
@@ -727,11 +747,19 @@
           <td>
             <select class="status-select" onchange="changeStatus('${req.id}', this.value)">
               <option value="جديد" ${req.status === 'جديد' ? 'selected' : ''}>🟠 جديد</option>
+              <option value="بانتظار موافقة المدير" ${req.status === 'بانتظار موافقة المدير' ? 'selected' : ''}>⏳ بانتظار موافقة المدير</option>
+              <option value="موافق عليه" ${req.status === 'موافق عليه' ? 'selected' : ''}>👍 موافق عليه</option>
               <option value="قيد المعالجة" ${req.status === 'قيد المعالجة' ? 'selected' : ''}>🔵 قيد المعالجة</option>
               <option value="تم الحل" ${req.status === 'تم الحل' ? 'selected' : ''}>🟢 تم الحل</option>
+              <option value="مرفوض" ${req.status === 'مرفوض' ? 'selected' : ''}>❌ مرفوض</option>
             </select>
           </td>
-          <td><button onclick="showDetail('${req.id}')" class="info-btn" style="font-size:12px; padding:6px 14px;">عرض</button></td>
+          <td>
+            <div style="display:flex; gap:5px;">
+              <button onclick="showDetail('${req.id}')" class="info-btn" style="font-size:12px; padding:6px 14px;">عرض</button>
+              ${window.currentUserRole === 'manager' ? `<button onclick="deleteRequest('${req.id}')" class="danger-btn" style="font-size:12px; padding:6px 14px;">حذف</button>` : ''}
+            </div>
+          </td>
         `;
         tbody.appendChild(tr);
       });
@@ -753,6 +781,24 @@
       await loadRequests();
     }
 
+    // === Delete Request ===
+    async function deleteRequest(id) {
+      if (!confirm('هل أنت متأكد من حذف هذا الطلب نهائياً؟')) return;
+      
+      const { error } = await supabaseClient
+        .from('maintenance_requests')
+        .delete()
+        .eq('id', id);
+
+      if (error) {
+        showToast('فشل الحذف: ' + error.message, 'error');
+        return;
+      }
+
+      showToast('تم حذف الطلب بنجاح 🗑️', 'success');
+      await loadRequests();
+    }
+
     // === Show Detail Modal ===
     function showDetail(id) {
       const req = allData.find(r => r.id === id);
@@ -765,7 +811,10 @@
       });
 
       const statusClass = req.status === 'جديد' ? 'status-new' :
-                         req.status === 'قيد المعالجة' ? 'status-in-progress' : 'status-resolved';
+                         req.status === 'قيد المعالجة' ? 'status-in-progress' : 
+                         req.status === 'بانتظار موافقة المدير' ? 'status-waiting' : 
+                         req.status === 'مرفوض' ? 'status-rejected' : 
+                         req.status === 'موافق عليه' ? 'status-approved' : 'status-resolved';
 
       let html = `
         <div class="detail-row">
@@ -831,6 +880,7 @@
 
       adminSelectedFiles = []; // Reset files on open
       adminSelectedInvoice = null;
+      adminSelectedQuote = null;
 
       html += `
         <div style="margin-top:25px; border-top:2px solid #eee; padding-top:20px;">
@@ -844,10 +894,16 @@
               <input type="number" step="0.01" id="adminCostInput" value="${req.repair_cost || ''}" placeholder="0.00" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:8px; font-family:var(--font-family);">
             </div>
             <div style="flex:1; min-width:180px;">
-              <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--text-muted);">صورة الفاتورة (اختياري)</label>
+              <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--text-muted);">صورة الفاتورة (للتكاليف)</label>
               <input type="file" id="adminInvoiceInput" accept="image/*" style="display:none" onchange="handleInvoiceFile(this.files[0])">
               <button onclick="document.getElementById('adminInvoiceInput').click()" class="secondary" style="padding:10px; width:100%; text-align:center; display:block;">🧾 إرفاق الفاتورة</button>
-              <div id="invoiceFileName" style="font-size:12px; color:#666; margin-top:5px; text-align:center;">${req.invoice_image ? 'موجودة مسبقاً (سيتم استبدالها برفع جديدة)' : ''}</div>
+              <div id="invoiceFileName" style="font-size:12px; color:#666; margin-top:5px; text-align:center;">${req.invoice_image ? 'موجودة مسبقاً (سيتم استبدالها)' : ''}</div>
+            </div>
+            <div style="flex:1; min-width:180px;">
+              <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--text-muted);">عرض السعر (للمدير)</label>
+              <input type="file" id="adminQuoteInput" accept="image/*" style="display:none" onchange="handleQuoteFile(this.files[0])">
+              <button onclick="document.getElementById('adminQuoteInput').click()" class="info-btn" style="padding:10px; width:100%; text-align:center; display:block;">📄 إرفاق عرض السعر</button>
+              <div id="quoteFileName" style="font-size:12px; color:#666; margin-top:5px; text-align:center;">${req.quote_image ? 'موجود مسبقاً' : ''}</div>
             </div>
           </div>
 
@@ -874,7 +930,21 @@
                 <img src="${req.invoice_image}" onclick="viewImage('${req.invoice_image}')" style="width:100px; height:100px; object-fit:cover; border-radius:10px; cursor:pointer;" alt="الفاتورة">
               </div>
             ` : ''}
+            
+            ${req.quote_image ? `
+              <div style="margin-bottom:15px; flex:1;">
+                <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--text-muted);">عرض السعر:</label>
+                <img src="${req.quote_image}" onclick="viewImage('${req.quote_image}')" style="width:100px; height:100px; object-fit:cover; border-radius:10px; cursor:pointer;" alt="عرض السعر">
+              </div>
+            ` : ''}
           </div>
+
+          ${(window.currentUserRole === 'manager' || req.manager_reply) ? `
+            <div style="margin-bottom:15px; border-top:1px dashed #ddd; padding-top:15px;">
+              <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--primary);">تعليق / موافقة المدير:</label>
+              <textarea id="managerReplyText" style="width:100%; min-height:80px; padding:12px; border:1px solid #ddd; border-radius:10px; font-family:var(--font-family); resize:vertical;" ${window.currentUserRole !== 'manager' ? 'disabled' : ''} placeholder="${window.currentUserRole === 'manager' ? 'اكتب ردك وموافقتك هنا...' : ''}">${req.manager_reply ? escapeHtml(req.manager_reply) : ''}</textarea>
+            </div>
+          ` : ''}
 
           <button id="saveReplyBtn" onclick="saveAdminReply('${req.id}')" class="success-btn" style="width:100%; justify-content:center; padding:12px; font-size:1.1em; margin-top:10px;">💾 حفظ الرد والتكلفة</button>
         </div>
@@ -992,11 +1062,19 @@
 
     let adminSelectedFiles = [];
     let adminSelectedInvoice = null;
+    let adminSelectedQuote = null;
 
     function handleInvoiceFile(file) {
       if(file && file.type.startsWith('image/')) {
         adminSelectedInvoice = file;
         document.getElementById('invoiceFileName').textContent = file.name;
+      }
+    }
+
+    function handleQuoteFile(file) {
+      if(file && file.type.startsWith('image/')) {
+        adminSelectedQuote = file;
+        document.getElementById('quoteFileName').textContent = file.name;
       }
     }
 
@@ -1086,12 +1164,42 @@
           } catch(e) { console.error(e); }
         }
 
+        let quoteUrl = req.quote_image;
+        if (adminSelectedQuote) {
+          try {
+            const webpFile = await convertToWebP(adminSelectedQuote);
+            const fileName = `admin/quote_${Date.now()}_${Math.random().toString(36).substr(2, 9)}.webp`;
+            const { error: uploadError } = await supabaseClient.storage.from('maintenance-images').upload(fileName, webpFile);
+            if (!uploadError) {
+              const { data: urlData } = supabaseClient.storage.from('maintenance-images').getPublicUrl(fileName);
+              quoteUrl = urlData.publicUrl;
+            }
+          } catch(e) { console.error(e); }
+        }
+
         const costVal = document.getElementById('adminCostInput').value.trim();
         const finalCost = costVal ? parseFloat(costVal) : null;
 
+        // Fetch optional manager reply if the text area is present
+        const managerReplyEl = document.getElementById('managerReplyText');
+        const managerReplyVal = managerReplyEl ? managerReplyEl.value.trim() : req.manager_reply;
+
+        const updateData = { 
+          admin_reply: text, 
+          admin_images: finalImages, 
+          repair_cost: finalCost, 
+          invoice_image: invoiceUrl, 
+          quote_image: quoteUrl,
+          updated_at: new Date().toISOString() 
+        };
+        
+        if (window.currentUserRole === 'manager' && managerReplyEl) {
+          updateData.manager_reply = managerReplyVal;
+        }
+
         const { error } = await supabaseClient
           .from('maintenance_requests')
-          .update({ admin_reply: text, admin_images: finalImages, repair_cost: finalCost, invoice_image: invoiceUrl, updated_at: new Date().toISOString() })
+          .update(updateData)
           .eq('id', id);
 
         if (error) throw error;

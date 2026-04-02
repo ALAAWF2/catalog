@@ -45,12 +45,14 @@ def load_available_images():
         print(f"Error reading images: {e}")
         return set()
 
-def resolve_image(available_images, code, alias, gofrugal):
+def resolve_image(available_images, code, alias, gofrugal, related_kit_id=None):
     candidates = []
     
     # 1. Gather Raw Candidates
     raw_list = [code, alias, gofrugal]
-    
+    if related_kit_id:
+        raw_list.append(related_kit_id)
+        
     for r in raw_list:
         s = str(r).strip()
         if not s: continue
@@ -379,6 +381,15 @@ def main():
 
     onhand_grouped = df_onhand.groupby("ItemNumber")
 
+    base_to_kit = {}
+    for _, r in df_items.iterrows():
+        item_num = str(r["ItemNumber"]).strip().upper()
+        alias = str(r["OldItem"]).strip()
+        if item_num.startswith("KIT"):
+            base = item_num[4:] if item_num.startswith("KIT-") else item_num[3:]
+            if base:
+                base_to_kit[base] = alias if alias != "nan" and alias else item_num
+
     for _, r in df_items.iterrows():
         item_number = r["ItemNumber"]
         
@@ -420,7 +431,7 @@ def main():
             "stock": total_stock,
             "sales": total_sales,
             "branches": branches,
-            "image_path": resolve_image(available_images, item_number, r["OldItem"] if pd.notna(r["OldItem"]) else "", gf)
+            "image_path": resolve_image(available_images, item_number, r["OldItem"] if pd.notna(r["OldItem"]) else "", gf, base_to_kit.get(item_number))
         })
 
         if pd.notna(r["SalesPriceDate"]):
