@@ -1339,7 +1339,7 @@
               userMall = userManagedOutlets[0];
               userWarehouse = 'Warehouse'; // Default to Jeddah
               try {
-                const { data } = await supabaseClient.from('profiles').select('warehouse').eq('mall', userMall).neq('role', 'manager').limit(1).single();
+                const { data } = await supabaseClient.from('profiles').select('warehouse').eq('mall', userMall).neq('role', 'manager').limit(1).maybeSingle();
                 if (data && data.warehouse && data.warehouse !== 'ALL') {
                   userWarehouse = data.warehouse;
                 } else if (String(userMall).toLowerCase().includes('riyadh') || String(userMall).includes('الرياض')) {
@@ -1445,7 +1445,7 @@
       
       userWarehouse = 'Warehouse'; // Default to Jeddah
       try {
-        const { data } = await supabaseClient.from('profiles').select('warehouse').eq('mall', userMall).neq('role', 'manager').limit(1).single();
+        const { data } = await supabaseClient.from('profiles').select('warehouse').eq('mall', userMall).neq('role', 'manager').limit(1).maybeSingle();
         if (data && data.warehouse && data.warehouse !== 'ALL') {
           userWarehouse = data.warehouse;
         } else if (String(userMall).toLowerCase().includes('riyadh') || String(userMall).includes('الرياض')) {
