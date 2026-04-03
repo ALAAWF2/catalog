@@ -425,6 +425,10 @@
       <div class="stat-value new-color" id="newCount">0</div>
     </div>
     <div class="stat-card">
+      <div class="stat-title">⏳ بانتظار موافقة</div>
+      <div class="stat-value" style="color: #d35400;" id="waitingCount">0</div>
+    </div>
+    <div class="stat-card">
       <div class="stat-title">🔵 قيد المعالجة</div>
       <div class="stat-value progress-color" id="progressCount">0</div>
     </div>
@@ -597,10 +601,7 @@
       const box = document.getElementById('loginBox');
       if (box) {
         box.style.display = 'block';
-        const se = localStorage.getItem('savedEmail');
-        const sp = localStorage.getItem('savedPassword');
         if (se) document.getElementById('emailInput').value = se;
-        if (sp) document.getElementById('passwordInput').value = sp;
       }
     }
 
@@ -609,7 +610,6 @@
       const password = document.getElementById('passwordInput').value;
       if (!email || !password) return;
       localStorage.setItem('savedEmail', email);
-      localStorage.setItem('savedPassword', password);
       const { error } = await supabaseClient.auth.signInWithPassword({ email, password });
       if (error) { alert('فشل الدخول: ' + error.message); }
       else { location.reload(); }
@@ -700,6 +700,7 @@
 
       document.getElementById('totalCount').textContent = totalFiltered;
       document.getElementById('newCount').textContent = counts['جديد'];
+      document.getElementById('waitingCount').textContent = counts['بانتظار موافقة المدير'];
       document.getElementById('progressCount').textContent = counts['قيد المعالجة'];
       document.getElementById('resolvedCount').textContent = counts['تم الحل'];
     }
@@ -748,10 +749,10 @@
             <select class="status-select" onchange="changeStatus('${req.id}', this.value)">
               <option value="جديد" ${req.status === 'جديد' ? 'selected' : ''}>🟠 جديد</option>
               <option value="بانتظار موافقة المدير" ${req.status === 'بانتظار موافقة المدير' ? 'selected' : ''}>⏳ بانتظار موافقة المدير</option>
-              <option value="موافق عليه" ${req.status === 'موافق عليه' ? 'selected' : ''}>👍 موافق عليه</option>
+              ${(window.currentUserRole === 'manager' || req.status === 'موافق عليه') ? `<option value="موافق عليه" ${req.status === 'موافق عليه' ? 'selected' : ''}>👍 موافق عليه</option>` : ''}
               <option value="قيد المعالجة" ${req.status === 'قيد المعالجة' ? 'selected' : ''}>🔵 قيد المعالجة</option>
               <option value="تم الحل" ${req.status === 'تم الحل' ? 'selected' : ''}>🟢 تم الحل</option>
-              <option value="مرفوض" ${req.status === 'مرفوض' ? 'selected' : ''}>❌ مرفوض</option>
+              ${(window.currentUserRole === 'manager' || req.status === 'مرفوض') ? `<option value="مرفوض" ${req.status === 'مرفوض' ? 'selected' : ''}>❌ مرفوض</option>` : ''}
             </select>
           </td>
           <td>
@@ -767,6 +768,12 @@
 
     // === Change Status ===
     async function changeStatus(id, newStatus) {
+      if ((newStatus === 'موافق عليه' || newStatus === 'مرفوض') && window.currentUserRole !== 'manager') {
+        showToast('ليس لديك صلاحية للموافقة أو الرفض. يرجى توجيهها بانتظار موافقة المدير.', 'error');
+        await loadRequests();
+        return;
+      }
+
       const { error } = await supabaseClient
         .from('maintenance_requests')
         .update({ status: newStatus, updated_at: new Date().toISOString() })
@@ -882,6 +889,8 @@
       adminSelectedInvoice = null;
       adminSelectedQuote = null;
 
+      const isCostLocked = window.currentUserRole !== 'manager' && (req.status === 'موافق عليه' || req.status === 'تم الحل' || req.status === 'مرفوض');
+
       html += `
         <div style="margin-top:25px; border-top:2px solid #eee; padding-top:20px;">
           <h4 style="color:var(--primary); margin-bottom:15px;">👨‍🔧 إضافة/تعديل رد الإدارة والتكاليف</h4>
@@ -891,18 +900,18 @@
           <div style="display:flex; gap:10px; margin-bottom:15px; flex-wrap:wrap;">
             <div style="flex:1; min-width:180px;">
               <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--text-muted);">تكلفة الإصلاح (اختياري)</label>
-              <input type="number" step="0.01" id="adminCostInput" value="${req.repair_cost || ''}" placeholder="0.00" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:8px; font-family:var(--font-family);">
+              <input type="number" step="0.01" id="adminCostInput" value="${req.repair_cost || ''}" placeholder="0.00" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:8px; font-family:var(--font-family);" ${isCostLocked ? 'disabled' : ''}>
             </div>
             <div style="flex:1; min-width:180px;">
-              <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--text-muted);">صورة الفاتورة (للتكاليف)</label>
+              <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--text-muted);">صورة الفاتورة (النهائية)</label>
               <input type="file" id="adminInvoiceInput" accept="image/*" style="display:none" onchange="handleInvoiceFile(this.files[0])">
               <button onclick="document.getElementById('adminInvoiceInput').click()" class="secondary" style="padding:10px; width:100%; text-align:center; display:block;">🧾 إرفاق الفاتورة</button>
               <div id="invoiceFileName" style="font-size:12px; color:#666; margin-top:5px; text-align:center;">${req.invoice_image ? 'موجودة مسبقاً (سيتم استبدالها)' : ''}</div>
             </div>
             <div style="flex:1; min-width:180px;">
-              <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--text-muted);">عرض السعر (للمدير)</label>
-              <input type="file" id="adminQuoteInput" accept="image/*" style="display:none" onchange="handleQuoteFile(this.files[0])">
-              <button onclick="document.getElementById('adminQuoteInput').click()" class="info-btn" style="padding:10px; width:100%; text-align:center; display:block;">📄 إرفاق عرض السعر</button>
+              <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--text-muted);">عرض السعر (المبدئي)</label>
+              <input type="file" id="adminQuoteInput" accept="image/*" style="display:none" onchange="handleQuoteFile(this.files[0])" ${isCostLocked ? 'disabled' : ''}>
+              <button onclick="if(!${isCostLocked}) document.getElementById('adminQuoteInput').click()" class="${isCostLocked ? 'secondary' : 'info-btn'}" style="padding:10px; width:100%; text-align:center; display:block; ${isCostLocked ? 'opacity:0.5; cursor:not-allowed;' : ''}">📄 إرفاق عرض السعر</button>
               <div id="quoteFileName" style="font-size:12px; color:#666; margin-top:5px; text-align:center;">${req.quote_image ? 'موجود مسبقاً' : ''}</div>
             </div>
           </div>
@@ -943,10 +952,17 @@
             <div style="margin-bottom:15px; border-top:1px dashed #ddd; padding-top:15px;">
               <label style="display:block; margin-bottom:8px; font-weight:bold; color:var(--primary);">تعليق / موافقة المدير:</label>
               <textarea id="managerReplyText" style="width:100%; min-height:80px; padding:12px; border:1px solid #ddd; border-radius:10px; font-family:var(--font-family); resize:vertical;" ${window.currentUserRole !== 'manager' ? 'disabled' : ''} placeholder="${window.currentUserRole === 'manager' ? 'اكتب ردك وموافقتك هنا...' : ''}">${req.manager_reply ? escapeHtml(req.manager_reply) : ''}</textarea>
+              
+              ${window.currentUserRole === 'manager' ? `
+                <div style="display:flex; gap:10px; margin-top:10px;">
+                  <button onclick="saveAdminReply('${req.id}', 'موافق عليه')" class="success-btn" style="flex:1; justify-content:center;">✅ موافقة وحفظ</button>
+                  <button onclick="saveAdminReply('${req.id}', 'مرفوض')" class="danger-btn" style="flex:1; justify-content:center;">❌ رفض وحفظ</button>
+                </div>
+              ` : ''}
             </div>
           ` : ''}
 
-          <button id="saveReplyBtn" onclick="saveAdminReply('${req.id}')" class="success-btn" style="width:100%; justify-content:center; padding:12px; font-size:1.1em; margin-top:10px;">💾 حفظ الرد والتكلفة</button>
+          ${window.currentUserRole !== 'manager' ? `<button id="saveReplyBtn" onclick="saveAdminReply('${req.id}')" class="success-btn" style="width:100%; justify-content:center; padding:12px; font-size:1.1em; margin-top:10px;">💾 حفظ الرد والتكلفة</button>` : `<button id="saveReplyBtn" onclick="saveAdminReply('${req.id}')" class="secondary" style="width:100%; justify-content:center; padding:12px; margin-top:10px;">💾 حفظ التعليقات دون تغيير الحالة</button>`}
         </div>
       `;
 
@@ -1108,7 +1124,7 @@
       renderAdminPreviews();
     }
 
-    async function saveAdminReply(id) {
+    async function saveAdminReply(id, statusOverride = null) {
       const text = document.getElementById('adminReplyText').value.trim();
       const btn = document.getElementById('saveReplyBtn');
       btn.disabled = true;
@@ -1195,6 +1211,10 @@
         
         if (window.currentUserRole === 'manager' && managerReplyEl) {
           updateData.manager_reply = managerReplyVal;
+        }
+
+        if (statusOverride) {
+          updateData.status = statusOverride;
         }
 
         const { error } = await supabaseClient
