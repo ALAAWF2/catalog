@@ -1433,7 +1433,8 @@
       userWarehouse = newOutlet;
       userMall = newOutlet;
       console.log("Manager switched outlet to:", newOutlet);
-      document.getElementById('galleryNameText').textContent = userMall;
+      const textSpan = document.getElementById('galleryNameText');
+      if (textSpan) textSpan.textContent = userMall;
       // Re-run the data loading targeting the new warehouse/outlet
       rebuildDataForWarehouse(userWarehouse);
       renderProducts();
