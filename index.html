@@ -1152,13 +1152,13 @@
             return { ...p, stock: 0 };
           }
 
-          if (!p.branches) return null;
-
           let warehouseStock = 0;
 
-          for (const branch in p.branches) {
-            if (normalizeKey(branch) === target) {
-              warehouseStock = Number(p.branches[branch]) || 0;
+          if (p.branches) {
+            for (const branch in p.branches) {
+              if (normalizeKey(branch) === target) {
+                warehouseStock = Number(p.branches[branch]) || 0;
+              }
             }
           }
 
@@ -1336,8 +1336,16 @@
           if (userRole === 'manager' && userManagedOutlets.length > 0) {
             // For managers, we default to the first outlet in their list initially if userWarehouse is 'ALL'
             if (userWarehouse === 'ALL' || userWarehouse === '') {
-              userWarehouse = userManagedOutlets[0];
               userMall = userManagedOutlets[0];
+              userWarehouse = 'Warehouse'; // Default to Jeddah
+              try {
+                const { data } = await supabaseClient.from('profiles').select('warehouse').eq('mall', userMall).neq('role', 'manager').limit(1).single();
+                if (data && data.warehouse && data.warehouse !== 'ALL') {
+                  userWarehouse = data.warehouse;
+                } else if (String(userMall).toLowerCase().includes('riyadh') || String(userMall).includes('الرياض')) {
+                  userWarehouse = 'warehouse riyadh';
+                }
+              } catch(err) {}
             }
             
             // Generate dropdown for them to switch outlets
@@ -1428,14 +1436,26 @@
     // Ensure we handle auth only once concurrently
     let _activeAuthHandling = false;
 
-    window.changeManagerOutlet = function(newOutlet) {
+    window.changeManagerOutlet = async function(newOutlet) {
       if (!newOutlet || newOutlet === '') return;
-      userWarehouse = newOutlet;
       userMall = newOutlet;
       console.log("Manager switched outlet to:", newOutlet);
       const textSpan = document.getElementById('galleryNameText');
       if (textSpan) textSpan.textContent = userMall;
-      // Re-run the data loading targeting the new warehouse/outlet
+      
+      userWarehouse = 'Warehouse'; // Default to Jeddah
+      try {
+        const { data } = await supabaseClient.from('profiles').select('warehouse').eq('mall', userMall).neq('role', 'manager').limit(1).single();
+        if (data && data.warehouse && data.warehouse !== 'ALL') {
+          userWarehouse = data.warehouse;
+        } else if (String(userMall).toLowerCase().includes('riyadh') || String(userMall).includes('الرياض')) {
+          userWarehouse = 'warehouse riyadh';
+        }
+      } catch(err) {
+        console.warn("Failed to find regional warehouse", err);
+      }
+      
+      // Re-run the data loading targeting the new regional warehouse
       rebuildDataForWarehouse(userWarehouse);
       renderProducts();
     };
