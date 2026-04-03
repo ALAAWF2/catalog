@@ -1218,6 +1218,8 @@
     let currentUser = null;
     let userWarehouse = "";
     let userMall = "";
+    let userRole = "";
+    let userManagedOutlets = [];
     let isGuestMode = false;
     let cart = {};
     let selectedExtras = {}; // Moved up to be accessible
@@ -1291,15 +1293,21 @@
               console.error("❌ Profile fetch definitively failed:", error.message);
               userWarehouse = "";
               userMall = "";
+              userRole = "";
+              userManagedOutlets = [];
             } else {
               console.log(`✅ Profile found by ${fetchResult.byEmail ? 'email' : 'ID'}:`, JSON.stringify(profile));
               userWarehouse = profile?.warehouse ?? "";
               userMall = profile?.mall ?? "";
+              userRole = profile?.role ?? "";
+              userManagedOutlets = profile?.managed_outlets ?? [];
             }
           } catch (fetchErr) {
             console.error("Exception during profile fetch:", fetchErr);
             userWarehouse = "";
             userMall = "";
+            userRole = "";
+            userManagedOutlets = [];
           }
 
           console.log("Profile warehouse:", userWarehouse);
@@ -1325,9 +1333,31 @@
             return;
           }
 
-          document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
-          document.getElementById('galleryNameText').textContent = userMall;
-          document.getElementById('galleryNameBanner').style.display = 'block';
+          if (userRole === 'manager' && userManagedOutlets.length > 0) {
+            // For managers, we default to the first outlet in their list initially if userWarehouse is 'ALL'
+            if (userWarehouse === 'ALL' || userWarehouse === '') {
+              userWarehouse = userManagedOutlets[0];
+              userMall = userManagedOutlets[0];
+            }
+            
+            // Generate dropdown for them to switch outlets
+            let optionsHtml = userManagedOutlets.map(outlet => 
+              `<option value="${outlet}" ${outlet === userMall ? 'selected' : ''}>${outlet}</option>`
+            ).join('');
+            
+            document.getElementById('galleryNameBanner').innerHTML = `
+              <span>اختر المعرض: </span>
+              <select id="managerOutletSelect" onchange="changeManagerOutlet(this.value)" style="padding:5px; border-radius:5px; background:white; color:#333; font-weight:bold; border:1px solid #ccc; outline:none; cursor:pointer;">
+                ${optionsHtml}
+              </select>
+            `;
+            document.getElementById('galleryNameBanner').style.display = 'block';
+            document.getElementById('userInfo').textContent = `مرحباً بك خيارات مدير المنطقة`;
+          } else {
+            document.getElementById('userInfo').textContent = `مرحباً بك في معرض ${userMall}`;
+            document.getElementById('galleryNameText').textContent = userMall;
+            document.getElementById('galleryNameBanner').style.display = 'block';
+          }
 
           // ✅ ترتيب التحميل الصحيح
           await loadLocalCatalog();
@@ -1397,6 +1427,17 @@
 
     // Ensure we handle auth only once concurrently
     let _activeAuthHandling = false;
+
+    window.changeManagerOutlet = function(newOutlet) {
+      if (!newOutlet || newOutlet === '') return;
+      userWarehouse = newOutlet;
+      userMall = newOutlet;
+      console.log("Manager switched outlet to:", newOutlet);
+      document.getElementById('galleryNameText').textContent = userMall;
+      // Re-run the data loading targeting the new warehouse/outlet
+      rebuildDataForWarehouse(userWarehouse);
+      renderProducts();
+    };
 
     // Handle initial session first
     (async () => {

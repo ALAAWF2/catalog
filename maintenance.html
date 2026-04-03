@@ -251,16 +251,38 @@
 
         // Fetch profile
         let profile = null;
+        let userRole = 'user';
+        let userManagedOutlets = [];
         try {
           let res = await supabaseClient.from('profiles').select('*').eq('id', user.id).single();
           if (res.error) {
             res = await supabaseClient.from('profiles').select('*').eq('email', user.email).single();
           }
-          profile = res.data;
+          profile = res.data || {};
+          userRole = profile.role || 'user';
+          userManagedOutlets = profile.managed_outlets || [];
         } catch(e) {}
 
-        userMall = profile?.mall || '';
-        mallDisplay.textContent = userMall ? `المعرض: ${userMall}` : '';
+        window.currentUserRole = userRole;
+        window.userManagedOutlets = userManagedOutlets;
+
+        if (userRole === 'manager' && userManagedOutlets.length > 0) {
+          userMall = userManagedOutlets[0]; // Default to first
+          
+          let optionsHtml = userManagedOutlets.map(outlet => 
+            `<option value="${outlet}" ${outlet === userMall ? 'selected' : ''}>${outlet}</option>`
+          ).join('');
+          
+          mallDisplay.innerHTML = `
+            <span>اختر المعرض: </span>
+            <select id="managerOutletSelect" onchange="changeManagerOutlet(this.value)" style="padding:5px; border-radius:5px; background:white; color:#333; font-weight:bold; border:1px solid #ccc; outline:none; cursor:pointer;">
+              ${optionsHtml}
+            </select>
+          `;
+        } else {
+          userMall = profile?.mall || '';
+          mallDisplay.textContent = userMall ? `المعرض: ${userMall}` : '';
+        }
 
         authReq.style.display = 'none';
         mainContent.style.display = 'block';
@@ -271,6 +293,13 @@
         mainContent.style.display = 'none';
         mallDisplay.textContent = '';
       }
+    }
+
+    function changeManagerOutlet(newOutlet) {
+      if (!newOutlet) return;
+      userMall = newOutlet;
+      console.log("Manager switched outlet to:", newOutlet);
+      loadRequests();
     }
 
     // Init auth

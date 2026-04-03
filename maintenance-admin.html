@@ -574,9 +574,13 @@
 
       // Check Profile Role
       let userRole = 'user';
+      let userManagedOutlets = [];
       try {
-        const { data: profile } = await supabaseClient.from('profiles').select('role').eq('id', session.user.id).single();
-        if (profile) userRole = profile.role;
+        const { data: profile } = await supabaseClient.from('profiles').select('role, managed_outlets').eq('id', session.user.id).single();
+        if (profile) {
+          userRole = profile.role;
+          userManagedOutlets = profile.managed_outlets || [];
+        }
       } catch (err) {}
 
       // Fallback fallback rule just in case profile isn't fetched
@@ -586,6 +590,7 @@
 
       if (['manager', 'maintenance_admin', 'admin'].includes(userRole)) {
         window.currentUserRole = userRole;
+        window.userManagedOutlets = userManagedOutlets;
         // Authorized!
         document.body.style.visibility = 'visible';
         await loadMalls();
@@ -617,21 +622,37 @@
 
     // === Load Malls for filter ===
     async function loadMalls() {
-      const { data } = await supabaseClient
-        .from('maintenance_requests')
-        .select('mall');
-
-      if (data) {
-        const unique = [...new Set(data.map(r => r.mall).filter(Boolean))].sort();
-        mallsList = unique;
-        const sel = document.getElementById('mallFilter');
-        unique.forEach(m => {
-          const opt = document.createElement('option');
-          opt.value = m;
-          opt.textContent = m;
-          sel.appendChild(opt);
-        });
+      let query = supabaseClient.from('maintenance_requests').select('mall');
+      
+      if (window.currentUserRole === 'manager' && window.userManagedOutlets && window.userManagedOutlets.length > 0) {
+        query = query.in('mall', window.userManagedOutlets);
       }
+
+      const { data } = await query;
+
+      const sel = document.getElementById('mallFilter');
+      sel.innerHTML = '<option value="all">الكل</option>'; // Reset options first
+
+      let unique = [];
+      if (data) {
+        unique = [...new Set(data.map(r => r.mall).filter(Boolean))].sort();
+      }
+
+      // If manager, maybe they have outlets with no requests yet. Ensure all managed outlets are in the filter.
+      if (window.currentUserRole === 'manager' && window.userManagedOutlets) {
+         window.userManagedOutlets.forEach(m => {
+            if (!unique.includes(m)) unique.push(m);
+         });
+         unique.sort();
+      }
+
+      mallsList = unique;
+      unique.forEach(m => {
+        const opt = document.createElement('option');
+        opt.value = m;
+        opt.textContent = m;
+        sel.appendChild(opt);
+      });
     }
 
     // === Load Requests ===
@@ -646,7 +667,22 @@
         .from('maintenance_requests')
         .select('*', { count: 'exact' });
 
-      if (mall !== 'all') query = query.eq('mall', mall);
+      // If user is manager, restrict query to their managed outlets
+      if (window.currentUserRole === 'manager' && window.userManagedOutlets && window.userManagedOutlets.length > 0) {
+        if (mall === 'all') {
+           query = query.in('mall', window.userManagedOutlets);
+        } else {
+           // Ensure the selected mall is actually one they manage
+           if (window.userManagedOutlets.includes(mall)) {
+              query = query.eq('mall', mall);
+           } else {
+              // Forced empty result if they try to hack
+              query = query.eq('mall', 'NOT_ALLOWED_HACK');
+           }
+        }
+      } else {
+        if (mall !== 'all') query = query.eq('mall', mall);
+      }
       if (status !== 'all') query = query.eq('status', status);
       if (startDate) query = query.gte('created_at', new Date(`${startDate}T00:00:00`).toISOString());
       if (endDate) query = query.lte('created_at', new Date(`${endDate}T23:59:59.999`).toISOString());
@@ -684,7 +720,19 @@
 
       for (const s of statuses) {
         let q = supabaseClient.from('maintenance_requests').select('*', { count: 'exact', head: true }).eq('status', s);
-        if (mall !== 'all') q = q.eq('mall', mall);
+        
+        // Ensure manager's counts are also restricted
+        if (window.currentUserRole === 'manager' && window.userManagedOutlets && window.userManagedOutlets.length > 0) {
+          if (mall === 'all') {
+             q = q.in('mall', window.userManagedOutlets);
+          } else {
+             if (window.userManagedOutlets.includes(mall)) q = q.eq('mall', mall);
+             else q = q.eq('mall', 'NOT_ALLOWED_HACK');
+          }
+        } else {
+          if (mall !== 'all') q = q.eq('mall', mall);
+        }
+        
         if (startDate) q = q.gte('created_at', new Date(`${startDate}T00:00:00`).toISOString());
         if (endDate) q = q.lte('created_at', new Date(`${endDate}T23:59:59.999`).toISOString());
         if (search) q = q.ilike('title', `%${search}%`);
