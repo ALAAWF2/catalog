@@ -1912,6 +1912,7 @@
         ${isGuestMode ? `
              <div class="product-meta"><span>الكمية في مستودع الرياض:</span> <span style="font-weight:bold;">${getStockForWarehouse(d, 'Riyadh Warehouse')}</span></div>
              <div class="product-meta"><span>الكمية في مستودع جدة:</span> <span style="font-weight:bold; color:#27ae60;">${getStockForWarehouse(d, 'Jeddah Warehouse')}</span></div>
+        ` : `
              <div class="product-meta"><span>المبيعات توتال:</span> <span style="color:#e67e22;font-weight:bold;">${d.sales || 0}</span></div>
              <div class="product-meta"><span>مبيعات المعرض:</span> <span style="color:#27ae60;font-weight:bold;">${getSalesInMall(d.code)}</span></div>
              
