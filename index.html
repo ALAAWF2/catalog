@@ -1342,7 +1342,7 @@
                 const { data } = await supabaseClient.from('profiles').select('warehouse').eq('mall', userMall).neq('role', 'manager').limit(1).maybeSingle();
                 if (data && data.warehouse && data.warehouse !== 'ALL') {
                   userWarehouse = data.warehouse;
-                } else if (String(userMall).toLowerCase().includes('riyadh') || String(userMall).includes('الرياض')) {
+                } else if (String(userMall).toLowerCase().match(/riyadh|riyad|الرياض|malgha|alrabie|rabwa|atyaf|tala|hayat|meem|park avenue/)) {
                   userWarehouse = 'warehouse riyadh';
                 }
               } catch(err) {}
@@ -1448,7 +1448,7 @@
         const { data } = await supabaseClient.from('profiles').select('warehouse').eq('mall', userMall).neq('role', 'manager').limit(1).maybeSingle();
         if (data && data.warehouse && data.warehouse !== 'ALL') {
           userWarehouse = data.warehouse;
-        } else if (String(userMall).toLowerCase().includes('riyadh') || String(userMall).includes('الرياض')) {
+        } else if (String(userMall).toLowerCase().match(/riyadh|riyad|الرياض|malgha|alrabie|rabwa|atyaf|tala|hayat|meem|park avenue/)) {
           userWarehouse = 'warehouse riyadh';
         }
       } catch(err) {
