@@ -1939,7 +1939,14 @@
              
              <div class="product-meta">
                 <span>الكمية في المعرض:</span> 
-                <span style="${getSalesInMall(d.code) > (d.stock ?? 0) ? 'color:red; font-weight:900;' : 'color:var(--text-main); font-weight:bold;'}">
+                <span style="${getSalesInMall(d.code) > (d.branches?.[userMall] ?? 0) ? 'color:red; font-weight:900;' : 'color:var(--text-main); font-weight:bold;'}">
+                  ${d.branches?.[userMall] ?? 0}
+                </span>
+             </div>
+             
+             <div class="product-meta">
+                <span>الكمية في المستودع:</span> 
+                <span style="color:var(--text-main); font-weight:bold;">
                   ${d.stock ?? 0}
                 </span>
              </div>
