@@ -1608,6 +1608,15 @@
     async function submitOrder() {
       if (submitting) return;
 
+      // التأكد من أن الجلسة لم تنتهِ قبل الإرسال
+      const { data: { session } } = await supabaseClient.auth.getSession();
+      if (!session) {
+          alert("انتهت جلسة تسجيل الدخول! يرجى النقر على موافق وإدخال كلمة المرور مجدداً لإرسال الطلبية بدون ضياع المنتجات التي اخترتها.");
+          document.getElementById('loginModal').style.display = 'flex';
+          if (typeof loadSavedCredentials === 'function') loadSavedCredentials();
+          return;
+      }
+
       if (!currentUser) { alert("يجب تسجيل الدخول."); return; }
       if (!userWarehouse || !userMall) { alert("تعذر تحديد بيانات المستخدم."); return; }
       if (Object.keys(cart).length === 0) { alert("🚫 لا يمكن إرسال طلبية بدون منتجات"); return; }
