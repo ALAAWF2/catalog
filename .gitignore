@@ -106,3 +106,18 @@ usersssss-*.xlsx
 
 # Claude Code internal files
 .claude/
+
+# Image processing temp folders
+newpic process/
+
+# Sensitive or Local Excel Files
+mapping.xlsx
+itemsfornotshow.xlsx
+create js/category2026.xlsx
+create js/mapping.xlsx
+~$Managers_Access.xlsx
+~$managers emails.xlsx
+Managers_Access.xlsx
+managers emails.xlsx
+
+
