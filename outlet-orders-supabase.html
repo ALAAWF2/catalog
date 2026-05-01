@@ -108,6 +108,65 @@
       border-color: var(--primary);
     }
 
+    .search-wrapper {
+      position: relative;
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .search-wrapper input[type="text"] {
+      width: 100%;
+      padding: 10px 40px 10px 15px;
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      font-family: var(--font-family);
+      color: var(--text-main);
+      outline: none;
+      transition: border-color 0.3s ease;
+      box-sizing: border-box;
+    }
+
+    .search-wrapper input[type="text"]:focus {
+      border-color: var(--primary);
+    }
+
+    .search-icon {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      font-size: 1.1em;
+      color: #aaa;
+    }
+
+    .btn-clear-search {
+      position: absolute;
+      left: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.1em;
+      color: #aaa;
+      display: none;
+      padding: 2px 6px;
+      border-radius: 50%;
+      transition: all 0.2s;
+    }
+
+    .btn-clear-search:hover {
+      color: #e74c3c;
+      background: #fdecea;
+    }
+
+    .product-highlight {
+      background: #fff3cd;
+      padding: 0 3px;
+      border-radius: 3px;
+    }
+
     .btn-apply {
       background: var(--primary);
       color: white;
@@ -396,6 +455,11 @@
     <div id="authStatus"></div>
 
     <div class="filters-bar" id="filtersBar" style="display:none;">
+      <div class="search-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="productSearch" placeholder="ابحث باسم المنتج أو الكود..." oninput="handleProductSearch()">
+        <button class="btn-clear-search" id="clearSearchBtn" onclick="clearProductSearch()">✕</button>
+      </div>
       <div class="filter-item">
         <label>من:</label>
         <input type="date" id="fromDate">
@@ -534,7 +598,6 @@
         const { data, error } = await query;
         if (error) throw error;
 
-        // Apply status filter locally (handles mixed Arabic/English statuses gracefully)
         cachedOrders = data || [];
         
         let filtered = cachedOrders;
@@ -547,7 +610,20 @@
             });
         }
 
-        renderOrders(filtered);
+        const searchTerm = document.getElementById('productSearch').value.trim().toLowerCase();
+        if (searchTerm) {
+          filtered = filtered.filter(order => {
+            const items = Array.isArray(order.items) ? order.items : [];
+            return items.some(item => {
+              const nameMatch = (item.name || '').toLowerCase().includes(searchTerm);
+              const codeMatch = (item.code || '').toLowerCase().includes(searchTerm);
+              const aliasMatch = (item.alias || '').toLowerCase().includes(searchTerm);
+              return nameMatch || codeMatch || aliasMatch;
+            });
+          });
+        }
+
+        renderOrders(filtered, searchTerm);
 
       } catch (err) {
         console.error("Error loading orders:", err);
@@ -557,15 +633,18 @@
       }
     }
 
-    function renderOrders(orders) {
+    function renderOrders(orders, searchTerm = '') {
       const grid = document.getElementById('ordersGrid');
       
       if (orders.length === 0) {
+        const emptyMsg = searchTerm
+          ? `لا توجد طلبات تحتوي على المنتج "${document.getElementById('productSearch').value.trim()}".`
+          : 'لم تقم بإنشاء أي طلبات ضمن الفلتر المحدد حتى الآن.';
         grid.innerHTML = `
           <div style="grid-column: 1 / -1;" class="empty-state">
             <div style="font-size: 50px; margin-bottom: 15px;">📭</div>
             <h3>لا توجد طلبات سابقة</h3>
-            <p>لم تقم بإنشاء أي طلبات ضمن الفلتر المحدد حتى الآن.</p>
+            <p>${emptyMsg}</p>
           </div>
         `;
         return;
@@ -583,6 +662,32 @@
         const statusText = isSent ? 'تم الإرسال (مُعتمد)' : 'قيد الانتظار لمعالجة الطلب';
         
         const itemsCount = Array.isArray(order.items) ? order.items.reduce((sum, item) => sum + (Number(item.qty) || 0), 0) : 0;
+
+        let matchedHtml = '';
+        if (searchTerm) {
+          const items = Array.isArray(order.items) ? order.items : [];
+          const matched = items.filter(item => {
+            const n = (item.name || '').toLowerCase().includes(searchTerm);
+            const c = (item.code || '').toLowerCase().includes(searchTerm);
+            const a = (item.alias || '').toLowerCase().includes(searchTerm);
+            return n || c || a;
+          });
+          if (matched.length > 0) {
+            matchedHtml = `
+              <div style="background:#fff8f0; border:1px dashed #f0c78a; border-radius:10px; padding:10px 14px; margin-top:12px; margin-bottom:4px;">
+                <div style="font-size:0.85em; color:var(--primary); font-weight:700; margin-bottom:6px;">🔎 منتجات مطابقة (${matched.length})</div>
+                ${matched.map(m => {
+                  const [nameAr] = splitName(m.name);
+                  return `<div style="font-size:0.85em; padding:3px 0; border-bottom:1px solid #f5e6d0;">
+                    <span style="color:var(--primary); font-weight:700;">${m.qty || 0}</span> ×
+                    <span style="font-family:monospace;">${m.code || '—'}</span> —
+                    <span style="font-weight:600;">${nameAr || m.name || '—'}</span>
+                  </div>`;
+                }).join('')}
+              </div>
+            `;
+          }
+        }
 
         return `
           <div class="order-card">
@@ -605,6 +710,7 @@
                 <span class="info-value" style="color: var(--primary); font-size: 1.1em;">${itemsCount} قطعة</span>
               </div>
             </div>
+            ${matchedHtml}
             
             <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:10px;">
               <button class="btn-view" onclick="openOrderDetails('${order.id}')" style="flex:1; padding:8px 0; font-size:0.9em; justify-content:center; line-height:1.2;">
@@ -701,13 +807,65 @@
         if (error) throw error;
         
         alert('✅ تم إلغاء الطلبية بنجاح.');
-        loadOrders(); // Reload the list
+        loadOrders();
       } catch (err) {
         console.error("Error cancelling order:", err);
         alert('❌ حدث خطأ أثناء محاولة الإلغاء. قد تحتاج إلى صلاحية حذف (Delete) في قاعدة البيانات: ' + err.message);
       } finally {
         document.body.style.cursor = 'default';
       }
+    }
+
+    let searchTimeout = null;
+    function handleProductSearch() {
+      const input = document.getElementById('productSearch');
+      const clearBtn = document.getElementById('clearSearchBtn');
+      clearBtn.style.display = input.value.trim() ? 'block' : 'none';
+
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(() => {
+        applyAllFilters();
+      }, 300);
+    }
+
+    function clearProductSearch() {
+      const input = document.getElementById('productSearch');
+      input.value = '';
+      document.getElementById('clearSearchBtn').style.display = 'none';
+      applyAllFilters();
+      input.focus();
+    }
+
+    function applyAllFilters() {
+      if (!currentUser || cachedOrders.length === 0) return;
+
+      const statusFilter = document.getElementById('statusFilter').value;
+      const searchTerm = document.getElementById('productSearch').value.trim().toLowerCase();
+
+      let filtered = cachedOrders;
+
+      if (statusFilter !== 'all') {
+        filtered = filtered.filter(o => {
+          const s = String(o.status).toLowerCase();
+          if (statusFilter === 'pending') return s === 'pending' || s.includes('انتظار');
+          if (statusFilter === 'sent') return s === 'sent' || s.includes('إرسال');
+          return true;
+        });
+      }
+
+      if (searchTerm) {
+        filtered = filtered.filter(order => {
+          const items = Array.isArray(order.items) ? order.items : [];
+          return items.some(item => {
+            const nameMatch = (item.name || '').toLowerCase().includes(searchTerm);
+            const codeMatch = (item.code || '').toLowerCase().includes(searchTerm);
+            const aliasMatch = (item.alias || '').toLowerCase().includes(searchTerm);
+            return nameMatch || codeMatch || aliasMatch;
+          });
+        });
+      }
+
+      renderOrders(filtered, searchTerm);
     }
   </script>
 
