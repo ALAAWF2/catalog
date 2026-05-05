@@ -1035,6 +1035,11 @@
 
     // ✅ هذه الدالة هي الحل الحقيقي لمشكلة "0"
     function getSalesInMall(code) {
+      if (userMall === 'إجمالي المستودعات') {
+          const p = (window.data || window.products || []).find(x => String(x.code) === String(code));
+          return p ? (Number(p.sales) || 0) : 0;
+      }
+
       const obj = window.SALES_BY_OUTLET?.[String(code)];
       if (!obj || !userMall) return 0;
 
@@ -1047,6 +1052,22 @@
         }
       }
       return 0;
+    }
+
+    function getQtyInMall(d) {
+        if (userMall === 'إجمالي المستودعات') {
+            let total = 0;
+            if (d.branches) {
+                for (let k in d.branches) {
+                    const kLower = k.toLowerCase();
+                    if (kLower !== 'warehouse' && !kLower.includes('riyadh') && !kLower.includes('مستودع')) {
+                        total += Number(d.branches[k]) || 0;
+                    }
+                }
+            }
+            return total;
+        }
+        return d.branches?.[userMall] ?? 0;
     }
   </script>
 
@@ -1124,6 +1145,16 @@
           // If no warehouse defined or guest mode, preserve all items but fetch stock info
           if (!warehouse || warehouse === 'SHOW_ALL') {
             return { ...p, stock: 0 };
+          }
+          
+          if (warehouse === 'TOTAL_WAREHOUSES') {
+             let totalStock = 0;
+             if (p.branches) {
+                totalStock += Number(p.branches['Warehouse']) || 0;
+                totalStock += Number(p.branches['warehouse riyadh']) || 0;
+             }
+             if (totalStock <= 0) return null;
+             return { ...p, stock: totalStock };
           }
 
           let warehouseStock = 0;
@@ -1313,11 +1344,15 @@
               userMall = userManagedOutlets[0];
               userWarehouse = 'Warehouse'; // Default to Jeddah
               try {
-                const { data } = await supabaseClient.from('profiles').select('warehouse').eq('mall', userMall).neq('role', 'manager').limit(1).maybeSingle();
-                if (data && data.warehouse && data.warehouse !== 'ALL') {
-                  userWarehouse = data.warehouse;
-                } else if (String(userMall).toLowerCase().match(/riyadh|riyad|الرياض|malgha|alrabie|rabwa|atyaf|tala|hayat|meem|park avenue/)) {
-                  userWarehouse = 'warehouse riyadh';
+                if (userMall === 'إجمالي المستودعات') {
+                  userWarehouse = 'TOTAL_WAREHOUSES';
+                } else {
+                  const { data } = await supabaseClient.from('profiles').select('warehouse').eq('mall', userMall).neq('role', 'manager').limit(1).maybeSingle();
+                  if (data && data.warehouse && data.warehouse !== 'ALL') {
+                    userWarehouse = data.warehouse;
+                  } else if (String(userMall).toLowerCase().match(/riyadh|riyad|الرياض|malgha|alrabie|rabwa|atyaf|tala|hayat|meem|park avenue/)) {
+                    userWarehouse = 'warehouse riyadh';
+                  }
                 }
               } catch(err) {}
             }
@@ -1419,11 +1454,15 @@
       
       userWarehouse = 'Warehouse'; // Default to Jeddah
       try {
-        const { data } = await supabaseClient.from('profiles').select('warehouse').eq('mall', userMall).neq('role', 'manager').limit(1).maybeSingle();
-        if (data && data.warehouse && data.warehouse !== 'ALL') {
-          userWarehouse = data.warehouse;
-        } else if (String(userMall).toLowerCase().match(/riyadh|riyad|الرياض|malgha|alrabie|rabwa|atyaf|tala|hayat|meem|park avenue/)) {
-          userWarehouse = 'warehouse riyadh';
+        if (userMall === 'إجمالي المستودعات') {
+          userWarehouse = 'TOTAL_WAREHOUSES';
+        } else {
+          const { data } = await supabaseClient.from('profiles').select('warehouse').eq('mall', userMall).neq('role', 'manager').limit(1).maybeSingle();
+          if (data && data.warehouse && data.warehouse !== 'ALL') {
+            userWarehouse = data.warehouse;
+          } else if (String(userMall).toLowerCase().match(/riyadh|riyad|الرياض|malgha|alrabie|rabwa|atyaf|tala|hayat|meem|park avenue/)) {
+            userWarehouse = 'warehouse riyadh';
+          }
         }
       } catch(err) {
         console.warn("Failed to find regional warehouse", err);
@@ -1945,7 +1984,7 @@
                </div>
                <div class="stat-item">
                    <span class="stat-label">الكمية بالمعرض</span>
-                   <span class="stat-value ${getSalesInMall(d.code) > (d.branches?.[userMall] ?? 0) ? 'danger' : ''}">${d.branches?.[userMall] ?? 0}</span>
+                   <span class="stat-value ${getSalesInMall(d.code) > getQtyInMall(d) ? 'danger' : ''}">${getQtyInMall(d)}</span>
                </div>
           `}
           </div>
