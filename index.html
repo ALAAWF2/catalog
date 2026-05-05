@@ -1149,11 +1149,18 @@
           
           if (warehouse === 'TOTAL_WAREHOUSES') {
              let totalStock = 0;
+             let showroomStock = 0;
              if (p.branches) {
                 totalStock += Number(p.branches['Warehouse']) || 0;
                 totalStock += Number(p.branches['warehouse riyadh']) || 0;
+                for (let k in p.branches) {
+                    const kLower = k.toLowerCase();
+                    if (kLower !== 'warehouse' && !kLower.includes('riyadh') && !kLower.includes('مستودع')) {
+                        showroomStock += Number(p.branches[k]) || 0;
+                    }
+                }
              }
-             if (totalStock <= 0) return null;
+             if (totalStock <= 0 && showroomStock <= 0) return null;
              return { ...p, stock: totalStock };
           }
 
@@ -1969,6 +1976,23 @@
                    <span class="stat-label">جدة</span>
                    <span class="stat-value highlight-green">${getStockForWarehouse(d, 'Jeddah Warehouse')}</span>
                </div>
+          ` : (userMall === 'إجمالي المستودعات' ? `
+               <div class="stat-item">
+                   <span class="stat-label">إجمالي المبيعات</span>
+                   <span class="stat-value highlight-orange">${d.sales || 0}</span>
+               </div>
+               <div class="stat-item">
+                   <span class="stat-label">إجمالي المعارض</span>
+                   <span class="stat-value highlight-green">${getQtyInMall(d)}</span>
+               </div>
+               <div class="stat-item">
+                   <span class="stat-label">مستودع الرياض</span>
+                   <span class="stat-value">${getStockForWarehouse(d, 'Riyadh Warehouse')}</span>
+               </div>
+               <div class="stat-item">
+                   <span class="stat-label">مستودع جدة</span>
+                   <span class="stat-value">${getStockForWarehouse(d, 'Jeddah Warehouse')}</span>
+               </div>
           ` : `
                <div class="stat-item">
                    <span class="stat-label">مبيعات توتال</span>
@@ -1986,7 +2010,7 @@
                    <span class="stat-label">الكمية بالمعرض</span>
                    <span class="stat-value ${getSalesInMall(d.code) > getQtyInMall(d) ? 'danger' : ''}">${getQtyInMall(d)}</span>
                </div>
-          `}
+          `)}
           </div>
           
           ${isGuestMode ? '' : `
