@@ -47,7 +47,7 @@
     "name": "لباد سرير كينغ | JUST RELAX - MATRESSPAD KING JUST RELAX 200*200",
     "price": 194.0,
     "stock": 6515,
-    "sales": 451,
+    "sales": 458,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 6,
@@ -88,7 +88,7 @@
       "16-Ehsa Othaim Mall": 14,
       "49-AlAhsa Mall": 13,
       "17-Arar Othaim Mall": 17,
-      "19-Hail Othaim Mall": 9,
+      "19-Hail Othaim Mall": 19,
       "21-Abha Al_Rashid Mall New": 15,
       "43-Mujan Park": 21,
       "52-Al_Baha Mall": 22,
@@ -100,7 +100,7 @@
       "36-Al jubail Mall": 3,
       "44-Al-Jouf Center": 9,
       "47-Al-Nakheel Plaza": 7,
-      "Transit": 18,
+      "Transit": 8,
       "Warehouse": 2789,
       "warehouse riyadh": 3726
     },
@@ -469,7 +469,7 @@
     "name": "كيس لحاف كينغ | 3 قطع Hydrangea Csmomile",
     "price": 299.0,
     "stock": 36,
-    "sales": 9,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 3,
@@ -793,7 +793,7 @@
     "name": "طقم لحاف فل | 8 قطع EVELYN PINK",
     "price": 299.0,
     "stock": 31,
-    "sales": 144,
+    "sales": 145,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 2,
@@ -950,7 +950,7 @@
     "name": "طقم لحاف فل | 8 قطع EVELYN BLUE",
     "price": 299.0,
     "stock": 39,
-    "sales": 64,
+    "sales": 67,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 2,
@@ -1129,7 +1129,7 @@
     "name": "طقم لحاف كينغ | 11 قطعة PERRYN ANTIQUE WHITE",
     "price": 699.0,
     "stock": 62,
-    "sales": 21,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -1292,7 +1292,7 @@
       "16-Ehsa Othaim Mall": 2,
       "49-AlAhsa Mall": 2,
       "17-Arar Othaim Mall": 2,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 2,
       "21-Abha Al_Rashid Mall New": 4,
       "43-Mujan Park": 4,
       "52-Al_Baha Mall": 5,
@@ -1304,7 +1304,6 @@
       "36-Al jubail Mall": 2,
       "44-Al-Jouf Center": 1,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 1,
       "Warehouse": 102,
       "warehouse riyadh": 24
     },
@@ -1876,7 +1875,7 @@
     "name": "منشفة بحر |  JACQUARD STRIPE 180*90CM",
     "price": 59.0,
     "stock": 2399,
-    "sales": 231,
+    "sales": 237,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 35,
@@ -1917,7 +1916,7 @@
     "name": "منشفة بحر |   JACQUARD STRIPE 100*80CM",
     "price": 59.0,
     "stock": 1446,
-    "sales": 279,
+    "sales": 281,
     "branches": {
       "04-Andalos Mall": 32,
       "05-Haifa Mall": 7,
@@ -1957,7 +1956,7 @@
     "name": "منشفة بحر |  JACQUARD STRIPE 150*90CM",
     "price": 49.0,
     "stock": 10,
-    "sales": 183,
+    "sales": 185,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 11,
@@ -1995,7 +1994,7 @@
     "name": "منشفة بحر |  JACQUARD STRIPE 160*86CM",
     "price": 49.0,
     "stock": 10,
-    "sales": 509,
+    "sales": 511,
     "branches": {
       "04-Andalos Mall": 37,
       "05-Haifa Mall": 14,
@@ -2035,7 +2034,7 @@
     "name": "منشفة بحر |  JACQUARD STRIPE 160*80CM",
     "price": 39.0,
     "stock": 208,
-    "sales": 916,
+    "sales": 920,
     "branches": {
       "04-Andalos Mall": 25,
       "05-Haifa Mall": 36,
@@ -3066,7 +3065,7 @@
     "name": "مخدة كينغ | .EXTRA FIRM - PILLOW KING EXTRA FIRM",
     "price": 89.0,
     "stock": 11167,
-    "sales": 969,
+    "sales": 987,
     "branches": {
       "04-Andalos Mall": 79,
       "05-Haifa Mall": 19,
@@ -3106,7 +3105,7 @@
       "16-Ehsa Othaim Mall": 43,
       "49-AlAhsa Mall": 50,
       "17-Arar Othaim Mall": 18,
-      "19-Hail Othaim Mall": 19,
+      "19-Hail Othaim Mall": 43,
       "21-Abha Al_Rashid Mall New": 64,
       "43-Mujan Park": 76,
       "52-Al_Baha Mall": 46,
@@ -3118,7 +3117,7 @@
       "36-Al jubail Mall": 32,
       "44-Al-Jouf Center": 20,
       "47-Al-Nakheel Plaza": 26,
-      "Transit": 72,
+      "Transit": 48,
       "Warehouse": 5767,
       "warehouse riyadh": 5400
     },
@@ -3133,7 +3132,7 @@
     "name": "مخدة ستاندرد | EXTRA FIRM STANDARD - PILLOW STANDARD EXTRA FIRM",
     "price": 59.0,
     "stock": 38086,
-    "sales": 1063,
+    "sales": 1080,
     "branches": {
       "04-Andalos Mall": 106,
       "05-Haifa Mall": 43,
@@ -3469,7 +3468,7 @@
       "16-Ehsa Othaim Mall": 1,
       "49-AlAhsa Mall": 2,
       "17-Arar Othaim Mall": 1,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 4,
       "21-Abha Al_Rashid Mall New": 1,
       "43-Mujan Park": 1,
       "52-Al_Baha Mall": 2,
@@ -3479,7 +3478,6 @@
       "28-Al Nakheel Mall Dammam": 2,
       "42-Dareen Mall Dammam": 2,
       "47-Al-Nakheel Plaza": 1,
-      "Transit": 2,
       "Warehouse": 44,
       "warehouse riyadh": 1
     },
@@ -3589,7 +3587,7 @@
     "name": "طقم لحاف كينغ | 11 قطعة KATTY COTTON",
     "price": 795.0,
     "stock": 48,
-    "sales": 9,
+    "sales": 10,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 3,
@@ -3672,7 +3670,7 @@
     "name": "روب حمام مفرد | مقاس OYSTER MUSHROOM (XS/S) - BATH ROBE OYSTER MUSHROOM XS/S",
     "price": 119.0,
     "stock": 2748,
-    "sales": 59,
+    "sales": 60,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 4,
@@ -3814,7 +3812,7 @@
     "name": "روب حمام مفرد | OIL OLIVE L/XL - BATH ROBE OIL OLIVE L/XL",
     "price": 119.0,
     "stock": 792,
-    "sales": 61,
+    "sales": 62,
     "branches": {
       "04-Andalos Mall": 1,
       "07-Arab Mall": 2,
@@ -3888,7 +3886,7 @@
     "name": "روب حمام مفرد | مقاس WHITE (XS/S) - BATH ROBE WHITE XS/S",
     "price": 119.0,
     "stock": 2288,
-    "sales": 49,
+    "sales": 51,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 7,
@@ -4098,7 +4096,7 @@
     "name": "روب حمام مفرد | مقاس IVORY (XS/S) - BATH ROBE IVORY XS/S",
     "price": 119.0,
     "stock": 1972,
-    "sales": 55,
+    "sales": 56,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 1,
@@ -4382,7 +4380,7 @@
     "name": "روب حمام مفرد | PEEL ORANGE XS/S - BATH ROBE PEEL ORANGE XS/S",
     "price": 119.0,
     "stock": 150,
-    "sales": 20,
+    "sales": 21,
     "branches": {
       "05-Haifa Mall": 1,
       "13-Al-Yasmin Mall": 1,
@@ -4574,7 +4572,7 @@
     "name": "روب حمام مفرد | PEEL ORANGE S/M - BATH ROBE PEEL ORANGE S/M",
     "price": 119.0,
     "stock": 286,
-    "sales": 37,
+    "sales": 39,
     "branches": {
       "06-Red Sea Mall": 5,
       "07-Arab Mall": 2,
@@ -4648,7 +4646,7 @@
     "name": "روب حمام مفرد | OIL OLIVE S/M - BATH ROBE OIL OLIVE S/M",
     "price": 119.0,
     "stock": 954,
-    "sales": 52,
+    "sales": 53,
     "branches": {
       "07-Arab Mall": 8,
       "09-Al-Salam Mall": 4,
@@ -5791,7 +5789,7 @@
     "name": "روب حمام مفرد | مقاس IVORY (L/XL) - BATH ROBE IVORY L/XL",
     "price": 119.0,
     "stock": 650,
-    "sales": 134,
+    "sales": 141,
     "branches": {
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 3,
@@ -6075,7 +6073,7 @@
     "name": "روب حمام مفرد | مقاس LINEN (S-M) - BATH ROBE LINEN S/M.",
     "price": 119.0,
     "stock": 731,
-    "sales": 266,
+    "sales": 269,
     "branches": {
       "04-Andalos Mall": 26,
       "05-Haifa Mall": 8,
@@ -6141,7 +6139,7 @@
     "name": "روب حمام مفرد | مقاس WHITE (S-M) - BATH ROBE WHITE S/M",
     "price": 119.0,
     "stock": 488,
-    "sales": 172,
+    "sales": 175,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 7,
@@ -6338,7 +6336,7 @@
     "name": "روب حمام مفرد | مقاس WHITE (L/XL) - BATH ROBE WHITE L/XL",
     "price": 119.0,
     "stock": 3130,
-    "sales": 186,
+    "sales": 189,
     "branches": {
       "04-Andalos Mall": 20,
       "05-Haifa Mall": 7,
@@ -7052,7 +7050,7 @@
     "name": "طقم لحاف كينغ | 8 قطع ASTRO PORCELAIN GREEN COTTON",
     "price": 695.0,
     "stock": 284,
-    "sales": 25,
+    "sales": 26,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -7368,7 +7366,7 @@
     "name": "طقم لحاف كينغ | 8 قطع ASTOR SAFRON WHITE ON CREAM BRULEE COT",
     "price": 695.0,
     "stock": 475,
-    "sales": 30,
+    "sales": 32,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 3,
@@ -7631,7 +7629,7 @@
       "26-Al-Noor Mall Madinah": 4,
       "16-Ehsa Othaim Mall": 1,
       "49-AlAhsa Mall": 1,
-      "19-Hail Othaim Mall": 3,
+      "19-Hail Othaim Mall": 5,
       "21-Abha Al_Rashid Mall New": 2,
       "43-Mujan Park": 2,
       "52-Al_Baha Mall": 1,
@@ -7642,7 +7640,6 @@
       "42-Dareen Mall Dammam": 1,
       "36-Al jubail Mall": 3,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 2,
       "Warehouse": 21,
       "warehouse riyadh": 25
     },
@@ -7657,7 +7654,7 @@
     "name": "ASTOR SAFRON WHITE ON CREAM BRULEE 8 PCS COMFORTER FULL",
     "price": 499.0,
     "stock": 27,
-    "sales": 39,
+    "sales": 40,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -8026,7 +8023,7 @@
       "16-Ehsa Othaim Mall": 2,
       "49-AlAhsa Mall": 1,
       "17-Arar Othaim Mall": 1,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 3,
       "21-Abha Al_Rashid Mall New": 3,
       "43-Mujan Park": 3,
       "52-Al_Baha Mall": 1,
@@ -8036,7 +8033,7 @@
       "42-Dareen Mall Dammam": 4,
       "36-Al jubail Mall": 2,
       "47-Al-Nakheel Plaza": 1,
-      "Transit": 3,
+      "Transit": 1,
       "Warehouse": 8,
       "warehouse riyadh": 2
     },
@@ -8051,7 +8048,7 @@
     "name": "طقم لحاف كينغ | 8 قطع JOUY DE TOILE",
     "price": 599.0,
     "stock": 15,
-    "sales": 54,
+    "sales": 57,
     "branches": {
       "07-Arab Mall": 6,
       "09-Al-Salam Mall": 2,
@@ -8311,7 +8308,7 @@
     "name": "فناجين قهوة | 6 ق 90 مل TURKISH",
     "price": 39.0,
     "stock": 181,
-    "sales": 6,
+    "sales": 7,
     "branches": {
       "09-Al-Salam Mall": 1,
       "57-Sauq7": 26,
@@ -8653,7 +8650,7 @@
     "name": "مجسم الكعبة SQ40581",
     "price": 59.0,
     "stock": 0,
-    "sales": 1,
+    "sales": 2,
     "branches": {
       "55- Jabl Omar": 10
     },
@@ -9085,7 +9082,7 @@
     "name": "طقم شراشف كينغ | 4 قطع POLY GREY",
     "price": 69.0,
     "stock": 291,
-    "sales": 4,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 1,
@@ -9637,7 +9634,7 @@
     "name": "دمية | SQUISHIE STRAWBERRY 18CM",
     "price": 19.0,
     "stock": 3092,
-    "sales": 33,
+    "sales": 34,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 6,
@@ -9674,7 +9671,7 @@
     "name": "عازل مرتبة فل | PROTECTOR KNITTED BASIC",
     "price": 69.0,
     "stock": 2400,
-    "sales": 62,
+    "sales": 64,
     "branches": {
       "04-Andalos Mall": 20,
       "05-Haifa Mall": 3,
@@ -9711,7 +9708,7 @@
       "24-Yanbu Dana Mall": 8,
       "16-Ehsa Othaim Mall": 38,
       "49-AlAhsa Mall": 13,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 11,
       "21-Abha Al_Rashid Mall New": 11,
       "43-Mujan Park": 6,
       "52-Al_Baha Mall": 3,
@@ -9723,7 +9720,6 @@
       "36-Al jubail Mall": 13,
       "44-Al-Jouf Center": 10,
       "47-Al-Nakheel Plaza": 6,
-      "Transit": 10,
       "Warehouse": 1110,
       "warehouse riyadh": 1290
     },
@@ -9738,7 +9734,7 @@
     "name": "لباد سرير فل | PROTECTOR COOLING 191*122",
     "price": 99.0,
     "stock": 2660,
-    "sales": 62,
+    "sales": 64,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 7,
@@ -9774,7 +9770,7 @@
       "16-Ehsa Othaim Mall": 32,
       "49-AlAhsa Mall": 10,
       "17-Arar Othaim Mall": 6,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 10,
       "21-Abha Al_Rashid Mall New": 10,
       "43-Mujan Park": 26,
       "52-Al_Baha Mall": 7,
@@ -9785,7 +9781,6 @@
       "42-Dareen Mall Dammam": 10,
       "36-Al jubail Mall": 13,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 10,
       "Warehouse": 1310,
       "warehouse riyadh": 1350
     },
@@ -9800,7 +9795,7 @@
     "name": "عازل مرتبة كينغ | PROTECTOR KNITTED BASIC",
     "price": 99.0,
     "stock": 2240,
-    "sales": 83,
+    "sales": 87,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 11,
@@ -9866,7 +9861,7 @@
     "name": "لباد سرير كينغ | PROTECTOR COOLING 203*198",
     "price": 159.0,
     "stock": 2270,
-    "sales": 93,
+    "sales": 95,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 15,
@@ -10289,7 +10284,7 @@
     "name": "دمية | SQUISHIE CHICK 18CM",
     "price": 19.0,
     "stock": 3140,
-    "sales": 12,
+    "sales": 13,
     "branches": {
       "06-Red Sea Mall": 5,
       "07-Arab Mall": 6,
@@ -10443,7 +10438,7 @@
     "name": "مخدة كينغ | PROTECTER COOLING 36*20",
     "price": 49.0,
     "stock": 2126,
-    "sales": 148,
+    "sales": 152,
     "branches": {
       "04-Andalos Mall": 26,
       "05-Haifa Mall": 13,
@@ -10644,7 +10639,7 @@
     "name": "كيس لحاف كينغ | 3 قطع ANNETTE GREY PINK",
     "price": 299.0,
     "stock": 82,
-    "sales": 5,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 2,
@@ -10695,7 +10690,7 @@
     "name": "كيس لحاف كينغ | 3 قطع JACOBEAN SUMMER MID",
     "price": 299.0,
     "stock": 76,
-    "sales": 4,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 2,
@@ -10803,7 +10798,7 @@
     "name": "كيس لحاف فل | 3 قطع HAWLING STRIPE GRAPE PURPLE",
     "price": 249.0,
     "stock": 23,
-    "sales": 3,
+    "sales": 4,
     "branches": {
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 1,
@@ -11005,7 +11000,7 @@
     "name": "مخدة ستاندرد | PERFECT",
     "price": 49.0,
     "stock": 1914,
-    "sales": 633,
+    "sales": 653,
     "branches": {
       "04-Andalos Mall": 43,
       "05-Haifa Mall": 13,
@@ -11068,7 +11063,7 @@
     "name": "مخدة كينغ | PERFECT",
     "price": 69.0,
     "stock": 2850,
-    "sales": 899,
+    "sales": 913,
     "branches": {
       "04-Andalos Mall": 28,
       "05-Haifa Mall": 18,
@@ -11134,7 +11129,7 @@
     "name": "دمية | SQUISHIE COFFEE 24CM",
     "price": 29.0,
     "stock": 952,
-    "sales": 15,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 5,
       "06-Red Sea Mall": 4,
@@ -11322,7 +11317,7 @@
     "name": "طقم لحاف كينغ | 8 قطع  NATURAL GARDEN ROYAL",
     "price": 599.0,
     "stock": 133,
-    "sales": 23,
+    "sales": 24,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 1,
@@ -11389,7 +11384,7 @@
     "name": "طقم لحاف كينغ | 8 قطع ANNETTE GREY PINK",
     "price": 599.0,
     "stock": 90,
-    "sales": 55,
+    "sales": 57,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 1,
@@ -11612,7 +11607,7 @@
     "name": "طقم لحاف فل | 8 قطع NATURAL GARDEN ROYAL",
     "price": 399.0,
     "stock": 8,
-    "sales": 12,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 2,
@@ -11649,7 +11644,7 @@
     "name": "طقم لحاف فل | 8 قطع JACOBEAN SUMMER MID",
     "price": 399.0,
     "stock": 17,
-    "sales": 10,
+    "sales": 11,
     "branches": {
       "07-Arab Mall": 1,
       "53-Al Basateen Mall": 2,
@@ -11679,7 +11674,7 @@
     "name": "دمية | SQUISHIE FLOWER 24CM",
     "price": 29.0,
     "stock": 856,
-    "sales": 36,
+    "sales": 37,
     "branches": {
       "04-Andalos Mall": 3,
       "13-Al-Yasmin Mall": 3,
@@ -11771,7 +11766,7 @@
     "name": "طقم لحاف كينغ | 8 قطع PARADIES BIRDS",
     "price": 599.0,
     "stock": 20,
-    "sales": 123,
+    "sales": 125,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 1,
@@ -11807,7 +11802,7 @@
       "26-Al-Noor Mall Madinah": 8,
       "24-Yanbu Dana Mall": 3,
       "17-Arar Othaim Mall": 3,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 3,
       "21-Abha Al_Rashid Mall New": 8,
       "43-Mujan Park": 17,
       "52-Al_Baha Mall": 7,
@@ -11818,7 +11813,7 @@
       "42-Dareen Mall Dammam": 4,
       "36-Al jubail Mall": 3,
       "47-Al-Nakheel Plaza": 4,
-      "Transit": 5,
+      "Transit": 3,
       "Warehouse": 16,
       "warehouse riyadh": 4
     },
@@ -11894,7 +11889,7 @@
     "name": "دمية | SQUISHIE FOOTBALL BLUE WHITE 24CM",
     "price": 29.0,
     "stock": 761,
-    "sales": 28,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 3,
@@ -11951,7 +11946,7 @@
     "name": "دمية | SQUISHIE TEA 24CM",
     "price": 29.0,
     "stock": 942,
-    "sales": 14,
+    "sales": 17,
     "branches": {
       "05-Haifa Mall": 3,
       "06-Red Sea Mall": 4,
@@ -12297,7 +12292,7 @@
     "name": "دمية | SQUISHIE SCHOOL BUS 24CM",
     "price": 29.0,
     "stock": 886,
-    "sales": 23,
+    "sales": 24,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 7,
@@ -12382,7 +12377,7 @@
     "name": "دمية | SQUISHIE FOOTBALL YELLOW BLACK 24CM",
     "price": 29.0,
     "stock": 871,
-    "sales": 33,
+    "sales": 35,
     "branches": {
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 4,
@@ -12425,7 +12420,7 @@
     "name": "طقم لحاف كينغ | 5 قطع STRIPE LIGHT GREY (10-89)",
     "price": 299.0,
     "stock": 715,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "13-Al-Yasmin Mall": 5,
       "48 - Jeddah Park": 1,
@@ -12451,7 +12446,7 @@
     "name": "طقم لحاف فل | 4 قطع VINTAGE ROSE (10-57)",
     "price": 199.0,
     "stock": 188,
-    "sales": 113,
+    "sales": 116,
     "branches": {
       "04-Andalos Mall": 2,
       "06-Red Sea Mall": 2,
@@ -12478,13 +12473,12 @@
       "24-Yanbu Dana Mall": 2,
       "16-Ehsa Othaim Mall": 1,
       "49-AlAhsa Mall": 2,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 5,
       "1906-LAVANDA PARK": 2,
       "27-Dhahran Mall khobar": 1,
       "28-Al Nakheel Mall Dammam": 2,
       "42-Dareen Mall Dammam": 1,
       "47-Al-Nakheel Plaza": 5,
-      "Transit": 4,
       "Warehouse": 2,
       "warehouse riyadh": 186
     },
@@ -12600,7 +12594,7 @@
     "name": "طقم لحاف فل | 4 قطع CORAL TWIG BLOOMS (11-112)",
     "price": 199.0,
     "stock": 267,
-    "sales": 16,
+    "sales": 18,
     "branches": {
       "09-Al-Salam Mall": 1,
       "57-Sauq7": 1,
@@ -12869,7 +12863,7 @@
     "name": "طقم لحاف فل | 4 قطع BOTANCAL LILAC (11-110)",
     "price": 199.0,
     "stock": 383,
-    "sales": 36,
+    "sales": 37,
     "branches": {
       "PLATFORMS": 50,
       "00-GIFTS": 4,
@@ -12909,7 +12903,7 @@
     "name": "لباد سرير كينغ | CLOUD DREEM 15CM",
     "price": 499.0,
     "stock": 1370,
-    "sales": 155,
+    "sales": 161,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 3,
@@ -12950,7 +12944,7 @@
       "16-Ehsa Othaim Mall": 3,
       "49-AlAhsa Mall": 8,
       "17-Arar Othaim Mall": 3,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 7,
       "21-Abha Al_Rashid Mall New": 3,
       "43-Mujan Park": 6,
       "52-Al_Baha Mall": 5,
@@ -12962,7 +12956,7 @@
       "36-Al jubail Mall": 5,
       "44-Al-Jouf Center": 1,
       "47-Al-Nakheel Plaza": 5,
-      "Transit": 9,
+      "Transit": 2,
       "Warehouse": 571,
       "warehouse riyadh": 799
     },
@@ -12977,7 +12971,7 @@
     "name": "طقم لحاف فل | 4 قطع STRIPE LIGHT GREY (10-89)",
     "price": 199.0,
     "stock": 125,
-    "sales": 45,
+    "sales": 46,
     "branches": {
       "48 - Jeddah Park": 2,
       "PLATFORMS": 48,
@@ -13015,7 +13009,7 @@
     "name": "لباد سرير فل | CLOUD DREEM 15CM",
     "price": 299.0,
     "stock": 512,
-    "sales": 60,
+    "sales": 66,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
@@ -13054,7 +13048,7 @@
       "16-Ehsa Othaim Mall": 5,
       "49-AlAhsa Mall": 5,
       "17-Arar Othaim Mall": 3,
-      "19-Hail Othaim Mall": 3,
+      "19-Hail Othaim Mall": 5,
       "21-Abha Al_Rashid Mall New": 9,
       "43-Mujan Park": 8,
       "52-Al_Baha Mall": 2,
@@ -13066,7 +13060,6 @@
       "36-Al jubail Mall": 6,
       "44-Al-Jouf Center": 3,
       "47-Al-Nakheel Plaza": 4,
-      "Transit": 2,
       "Warehouse": 174,
       "warehouse riyadh": 338
     },
@@ -13081,7 +13074,7 @@
     "name": "أكواب حرارية | WITH STRAW LIGHT GREY",
     "price": 49.0,
     "stock": 1875,
-    "sales": 35,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 5,
@@ -13146,7 +13139,7 @@
     "name": "أكواب حرارية | WITH STRAW LIGHT PINK",
     "price": 49.0,
     "stock": 1481,
-    "sales": 85,
+    "sales": 86,
     "branches": {
       "04-Andalos Mall": 20,
       "05-Haifa Mall": 13,
@@ -13211,7 +13204,7 @@
     "name": "أكواب حرارية | WITH STRAW VM  BRIGHT GOLD",
     "price": 29.0,
     "stock": 16519,
-    "sales": 655,
+    "sales": 665,
     "branches": {
       "04-Andalos Mall": 44,
       "05-Haifa Mall": 60,
@@ -13278,7 +13271,7 @@
     "name": "أكواب حرارية | BOTTEL WATER LEAF PROOF VM 20OZ  BRIGHT GOLD",
     "price": 29.0,
     "stock": 16336,
-    "sales": 771,
+    "sales": 785,
     "branches": {
       "04-Andalos Mall": 28,
       "05-Haifa Mall": 60,
@@ -13537,7 +13530,7 @@
     "name": "أكواب حرارية | WITH STRAW COFFEE",
     "price": 49.0,
     "stock": 1480,
-    "sales": 37,
+    "sales": 40,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 21,
@@ -13604,7 +13597,7 @@
     "name": "أكواب حرارية | WITH STRAW BLUSH",
     "price": 49.0,
     "stock": 1321,
-    "sales": 103,
+    "sales": 105,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 5,
@@ -13665,7 +13658,7 @@
     "name": "أكواب حرارية | WITH STRAW PURPLE",
     "price": 49.0,
     "stock": 1809,
-    "sales": 53,
+    "sales": 56,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 13,
@@ -13793,7 +13786,7 @@
     "name": "أكواب حرارية | WITH STRAW SEAFOAM",
     "price": 49.0,
     "stock": 1781,
-    "sales": 65,
+    "sales": 66,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 13,
@@ -13857,7 +13850,7 @@
     "name": "أكواب حرارية | WITH STRAW DARK BLUE",
     "price": 49.0,
     "stock": 1258,
-    "sales": 90,
+    "sales": 92,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 17,
@@ -14050,7 +14043,7 @@
     "name": "منشفة حمام | OPTICAL WHITE ZERO TWIST 172*80",
     "price": 79.0,
     "stock": 2303,
-    "sales": 115,
+    "sales": 116,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 4,
@@ -14173,7 +14166,7 @@
     "name": "منشفة حمام | LINEN ZERO TWIST 172*80",
     "price": 79.0,
     "stock": 2005,
-    "sales": 84,
+    "sales": 86,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 6,
@@ -14237,7 +14230,7 @@
     "name": "منشفة حمام | SILVER ZERO TWIST 172*80",
     "price": 79.0,
     "stock": 1529,
-    "sales": 89,
+    "sales": 92,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 7,
@@ -14300,7 +14293,7 @@
     "name": "منشفة حمام | CHARCOAL ZERO TWIST 172*80",
     "price": 79.0,
     "stock": 1015,
-    "sales": 135,
+    "sales": 137,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 8,
@@ -14427,7 +14420,7 @@
     "name": "منشفة حمام | TC.BLUE ZERO TWIST 172*80",
     "price": 79.0,
     "stock": 112,
-    "sales": 65,
+    "sales": 66,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 8,
@@ -14530,7 +14523,7 @@
       "24-Yanbu Dana Mall": 14,
       "16-Ehsa Othaim Mall": 2,
       "49-AlAhsa Mall": 8,
-      "19-Hail Othaim Mall": 3,
+      "19-Hail Othaim Mall": 9,
       "21-Abha Al_Rashid Mall New": 7,
       "43-Mujan Park": 8,
       "52-Al_Baha Mall": 5,
@@ -14541,7 +14534,6 @@
       "42-Dareen Mall Dammam": 10,
       "36-Al jubail Mall": 7,
       "47-Al-Nakheel Plaza": 6,
-      "Transit": 6,
       "Warehouse": 77,
       "warehouse riyadh": 132
     },
@@ -14591,7 +14583,7 @@
     "name": "منشفة حمام | IVORY ZERO TWIST 140*70",
     "price": 59.0,
     "stock": 2472,
-    "sales": 74,
+    "sales": 75,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 8,
@@ -14654,7 +14646,7 @@
     "name": "منشفة حمام | NAVY ZERO TWIST 172*80",
     "price": 79.0,
     "stock": 203,
-    "sales": 103,
+    "sales": 105,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 7,
@@ -14716,7 +14708,7 @@
     "name": "منشفة حمام | OPTICAL WHITE ZERO TWIST 140*70",
     "price": 59.0,
     "stock": 1990,
-    "sales": 171,
+    "sales": 174,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 6,
@@ -14845,7 +14837,7 @@
     "name": "منشفة حمام | LINEN ZERO TWIST 140*70",
     "price": 59.0,
     "stock": 2226,
-    "sales": 112,
+    "sales": 114,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 8,
@@ -14910,7 +14902,7 @@
     "name": "منشفة حمام | NAVY ZERO TWIST 90*50",
     "price": 35.0,
     "stock": 1481,
-    "sales": 92,
+    "sales": 93,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 5,
@@ -14975,7 +14967,7 @@
     "name": "منشفة حمام | HOT PINK ZERO TWIST 140*70",
     "price": 59.0,
     "stock": 1291,
-    "sales": 55,
+    "sales": 57,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 20,
@@ -15038,7 +15030,7 @@
     "name": "منشفة حمام | OPTICAL WHITE ZERO TWIST 90*50",
     "price": 35.0,
     "stock": 1937,
-    "sales": 255,
+    "sales": 258,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 6,
@@ -15078,7 +15070,7 @@
       "16-Ehsa Othaim Mall": 8,
       "49-AlAhsa Mall": 10,
       "17-Arar Othaim Mall": 8,
-      "19-Hail Othaim Mall": 8,
+      "19-Hail Othaim Mall": 16,
       "21-Abha Al_Rashid Mall New": 7,
       "43-Mujan Park": 9,
       "52-Al_Baha Mall": 10,
@@ -15089,7 +15081,6 @@
       "42-Dareen Mall Dammam": 18,
       "36-Al jubail Mall": 9,
       "47-Al-Nakheel Plaza": 14,
-      "Transit": 8,
       "Warehouse": 931,
       "warehouse riyadh": 1006
     },
@@ -15234,7 +15225,7 @@
     "name": "منشفة حمام | SILVER ZERO TWIST 90*50",
     "price": 35.0,
     "stock": 2804,
-    "sales": 120,
+    "sales": 122,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 11,
@@ -15489,7 +15480,7 @@
     "name": "منشفة حمام | TC.BLUE ZERO TWIST 90*50",
     "price": 35.0,
     "stock": 1098,
-    "sales": 65,
+    "sales": 67,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 6,
@@ -15553,7 +15544,7 @@
     "name": "منشفة حمام | ORANGE ZERO TWIST 90*50",
     "price": 35.0,
     "stock": 1451,
-    "sales": 42,
+    "sales": 45,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 18,
@@ -15656,7 +15647,7 @@
       "24-Yanbu Dana Mall": 10,
       "16-Ehsa Othaim Mall": 11,
       "49-AlAhsa Mall": 12,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 10,
       "21-Abha Al_Rashid Mall New": 10,
       "43-Mujan Park": 10,
       "1906-LAVANDA PARK": 7,
@@ -15666,7 +15657,6 @@
       "42-Dareen Mall Dammam": 21,
       "36-Al jubail Mall": 11,
       "47-Al-Nakheel Plaza": 7,
-      "Transit": 8,
       "Warehouse": 480,
       "warehouse riyadh": 420
     },
@@ -15984,7 +15974,7 @@
     "name": "منشفة حمام | SILVER ZERO TWIST 33*33",
     "price": 25.0,
     "stock": 768,
-    "sales": 40,
+    "sales": 41,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 6,
@@ -16473,7 +16463,7 @@
     "name": "منشفة حمام | NAVY ZERO TWIST 140*70",
     "price": 59.0,
     "stock": 1264,
-    "sales": 92,
+    "sales": 94,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 5,
@@ -16659,7 +16649,7 @@
     "name": "منشفة حمام | PURPLE ZERO TWIST 140*70",
     "price": 59.0,
     "stock": 575,
-    "sales": 92,
+    "sales": 94,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 7,
@@ -16721,7 +16711,7 @@
     "name": "منشفة حمام | COOL BLUSH ZERO TWIST 140*70",
     "price": 59.0,
     "stock": 2047,
-    "sales": 113,
+    "sales": 115,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 4,
@@ -16784,7 +16774,7 @@
     "name": "منشفة حمام | CHARCOAL ZERO TWIST 140*70",
     "price": 59.0,
     "stock": 938,
-    "sales": 140,
+    "sales": 145,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 5,
@@ -16848,7 +16838,7 @@
     "name": "منشفة حمام | SILVER ZERO TWIST 140*70",
     "price": 59.0,
     "stock": 2114,
-    "sales": 108,
+    "sales": 112,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 5,
@@ -16912,7 +16902,7 @@
     "name": "منشفة حمام | TC.BLUE ZERO TWIST 140*70",
     "price": 59.0,
     "stock": 313,
-    "sales": 77,
+    "sales": 78,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 6,
@@ -17065,7 +17055,7 @@
     "name": "بطانية أطفال | 152*127 JUMBO ELEPHENT TOY",
     "price": 59.0,
     "stock": 145,
-    "sales": 51,
+    "sales": 54,
     "branches": {
       "06-Red Sea Mall": 11,
       "07-Arab Mall": 1,
@@ -17115,7 +17105,7 @@
     "name": "بطانية أطفال | 152*127 HILDE HIPPO TOY",
     "price": 59.0,
     "stock": 553,
-    "sales": 64,
+    "sales": 67,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 4,
@@ -17171,7 +17161,7 @@
     "name": "بطانية أطفال | 152*127 JOJO MONKEY TOY",
     "price": 59.0,
     "stock": 698,
-    "sales": 49,
+    "sales": 50,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 2,
@@ -17228,7 +17218,7 @@
     "name": "بطانية أطفال | 152*127 TOTO DOG TOY",
     "price": 59.0,
     "stock": 285,
-    "sales": 54,
+    "sales": 57,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 10,
@@ -17642,7 +17632,7 @@
     "name": "طقم لحاف كينغ | 3 قطع شتوي FEATHER PINK",
     "price": 399.0,
     "stock": 510,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -17887,7 +17877,7 @@
     "name": "حشوة لحاف كينغ |  JUST RELAX",
     "price": 299.0,
     "stock": 2287,
-    "sales": 36,
+    "sales": 38,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 5,
@@ -18013,7 +18003,7 @@
     "name": "طقم لحاف كينغ | 3 قطع THE HOTEL COLLECTION BLACK ON WHITE",
     "price": 399.0,
     "stock": 347,
-    "sales": 18,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -18047,7 +18037,7 @@
       "26-Al-Noor Mall Madinah": 3,
       "24-Yanbu Dana Mall": 4,
       "16-Ehsa Othaim Mall": 2,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 3,
       "21-Abha Al_Rashid Mall New": 3,
       "43-Mujan Park": 4,
       "52-Al_Baha Mall": 1,
@@ -18058,7 +18048,6 @@
       "42-Dareen Mall Dammam": 2,
       "36-Al jubail Mall": 1,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 1,
       "Warehouse": 308,
       "warehouse riyadh": 39
     },
@@ -18093,7 +18082,7 @@
     "name": "طقم لحاف كينغ | 5 قطع BROWN LOTUS SEA PEAREL (11-91)",
     "price": 299.0,
     "stock": 1,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "07-Arab Mall": 3,
       "13-Al-Yasmin Mall": 2,
@@ -18181,7 +18170,7 @@
     "name": "طقم لحاف كينغ | 5 قطع BROWN ROSE NOVA SCOTIA (11-77)",
     "price": 299.0,
     "stock": 659,
-    "sales": 37,
+    "sales": 39,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 5,
@@ -18225,7 +18214,7 @@
     "name": "طقم لحاف كينغ | 5 قطع STRIPE BEIGE (10-89)",
     "price": 299.0,
     "stock": 132,
-    "sales": 17,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -18599,7 +18588,7 @@
     "name": "طقم لحاف فل | 6 قطع STRIPE GRAY",
     "price": 129.0,
     "stock": 343,
-    "sales": 63,
+    "sales": 71,
     "branches": {
       "04-Andalos Mall": 3,
       "13-Al-Yasmin Mall": 5,
@@ -18720,7 +18709,7 @@
       "16-Ehsa Othaim Mall": 7,
       "49-AlAhsa Mall": 3,
       "17-Arar Othaim Mall": 1,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 6,
       "43-Mujan Park": 2,
       "52-Al_Baha Mall": 2,
       "1906-LAVANDA PARK": 1,
@@ -18730,7 +18719,7 @@
       "36-Al jubail Mall": 2,
       "44-Al-Jouf Center": 4,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 8,
+      "Transit": 4,
       "Warehouse": 13,
       "warehouse riyadh": 389
     },
@@ -18745,7 +18734,7 @@
     "name": "طقم لحاف فل | 6 قطع UNICORN WHITE",
     "price": 129.0,
     "stock": 428,
-    "sales": 59,
+    "sales": 62,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -18783,7 +18772,7 @@
       "24-Yanbu Dana Mall": 6,
       "16-Ehsa Othaim Mall": 6,
       "49-AlAhsa Mall": 6,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 6,
       "43-Mujan Park": 11,
       "52-Al_Baha Mall": 4,
       "1906-LAVANDA PARK": 2,
@@ -18794,7 +18783,6 @@
       "36-Al jubail Mall": 1,
       "44-Al-Jouf Center": 4,
       "47-Al-Nakheel Plaza": 5,
-      "Transit": 4,
       "Warehouse": 33,
       "warehouse riyadh": 395
     },
@@ -18838,7 +18826,7 @@
     "name": "طقم لحاف فل | 6 قطع SPORTS BALLS",
     "price": 129.0,
     "stock": 595,
-    "sales": 53,
+    "sales": 54,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 4,
@@ -19046,14 +19034,13 @@
       "11-Jouri Mall": 1,
       "16-Ehsa Othaim Mall": 4,
       "49-AlAhsa Mall": 6,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 6,
       "27-Dhahran Mall khobar": 11,
       "28-Al Nakheel Mall Dammam": 2,
       "42-Dareen Mall Dammam": 5,
       "36-Al jubail Mall": 3,
       "44-Al-Jouf Center": 1,
       "47-Al-Nakheel Plaza": 4,
-      "Transit": 4,
       "Warehouse": 9,
       "warehouse riyadh": 379
     },
@@ -19157,7 +19144,7 @@
       "26-Al-Noor Mall Madinah": 6,
       "16-Ehsa Othaim Mall": 3,
       "49-AlAhsa Mall": 7,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 5,
       "21-Abha Al_Rashid Mall New": 1,
       "52-Al_Baha Mall": 1,
       "27-Dhahran Mall khobar": 7,
@@ -19166,7 +19153,7 @@
       "36-Al jubail Mall": 6,
       "44-Al-Jouf Center": 3,
       "47-Al-Nakheel Plaza": 5,
-      "Transit": 8,
+      "Transit": 4,
       "Warehouse": 23,
       "warehouse riyadh": 96
     },
@@ -19181,7 +19168,7 @@
     "name": "طقم غطاء سرير كينغ | 3 قطع GARDEN",
     "price": 299.0,
     "stock": 193,
-    "sales": 67,
+    "sales": 69,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 7,
@@ -19218,7 +19205,7 @@
       "16-Ehsa Othaim Mall": 3,
       "49-AlAhsa Mall": 1,
       "17-Arar Othaim Mall": 2,
-      "19-Hail Othaim Mall": 4,
+      "19-Hail Othaim Mall": 8,
       "21-Abha Al_Rashid Mall New": 7,
       "52-Al_Baha Mall": 1,
       "1906-LAVANDA PARK": 5,
@@ -19227,7 +19214,6 @@
       "42-Dareen Mall Dammam": 7,
       "36-Al jubail Mall": 6,
       "47-Al-Nakheel Plaza": 9,
-      "Transit": 4,
       "Warehouse": 17,
       "warehouse riyadh": 176
     },
@@ -19283,7 +19269,7 @@
       "16-Ehsa Othaim Mall": 4,
       "49-AlAhsa Mall": 3,
       "17-Arar Othaim Mall": 4,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 6,
       "21-Abha Al_Rashid Mall New": 2,
       "43-Mujan Park": 4,
       "52-Al_Baha Mall": 7,
@@ -19294,7 +19280,6 @@
       "42-Dareen Mall Dammam": 6,
       "36-Al jubail Mall": 2,
       "47-Al-Nakheel Plaza": 7,
-      "Transit": 4,
       "Warehouse": 23,
       "warehouse riyadh": 59
     },
@@ -19678,7 +19663,7 @@
     "name": "طقم غطاء سرير كينغ | 3 قطع GARLAND",
     "price": 299.0,
     "stock": 38,
-    "sales": 63,
+    "sales": 64,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 7,
@@ -19717,7 +19702,7 @@
     "name": "طقم لحاف فل | 8 قطع EILEEN WATERCOLOR",
     "price": 399.0,
     "stock": 12,
-    "sales": 14,
+    "sales": 16,
     "branches": {
       "53-Al Basateen Mall": 1,
       "12-Al_Hamra Mall": 6,
@@ -19757,7 +19742,7 @@
     "name": "طقم لحاف كينغ | 8 قطع GIACOMO CORAL GREY",
     "price": 599.0,
     "stock": 143,
-    "sales": 19,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 2,
@@ -20628,7 +20613,7 @@
     "name": "بطانية فل |  NAVY COMFY - BLANKET FULL NAVY COMFY 66*90",
     "price": 89.0,
     "stock": 2567,
-    "sales": 89,
+    "sales": 90,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 3,
@@ -20694,7 +20679,7 @@
     "name": "بطانية فل |  ROSE PINK  COMFY - BLANKET FULL COMFY ROSE PINK 66*90",
     "price": 89.0,
     "stock": 628,
-    "sales": 61,
+    "sales": 63,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 3,
@@ -20724,7 +20709,7 @@
       "24-Yanbu Dana Mall": 4,
       "16-Ehsa Othaim Mall": 1,
       "17-Arar Othaim Mall": 2,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 2,
       "21-Abha Al_Rashid Mall New": 3,
       "43-Mujan Park": 5,
       "52-Al_Baha Mall": 5,
@@ -20732,7 +20717,6 @@
       "22-Tabuk Park": 10,
       "42-Dareen Mall Dammam": 1,
       "44-Al-Jouf Center": 4,
-      "Transit": 2,
       "Warehouse": 610,
       "warehouse riyadh": 18
     },
@@ -20747,7 +20731,7 @@
     "name": "بطانية فل |  DOE SKIN COMFY - BLANKET FULL DOE SKIN COMFY 66*90",
     "price": 89.0,
     "stock": 3641,
-    "sales": 114,
+    "sales": 115,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 5,
@@ -20957,7 +20941,7 @@
     "name": "بطانية كينغ | PORCINI COMFY 104*90 - BLANKET KING COMFY PORCINI 17K",
     "price": 129.0,
     "stock": 656,
-    "sales": 39,
+    "sales": 40,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 3,
@@ -21023,7 +21007,7 @@
     "name": "بطانية كينغ | FIRE PIT COMFY 104*90 - BLANKET KING COMFY FIRE 81W",
     "price": 129.0,
     "stock": 1545,
-    "sales": 44,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 1,
@@ -21087,7 +21071,7 @@
     "name": "بطانية كينغ | LAMENT BLUE COMFY 104*90 - BLANKET KING COMFY LAMENT BLUE 82N",
     "price": 129.0,
     "stock": 622,
-    "sales": 15,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 3,
@@ -21125,7 +21109,7 @@
       "16-Ehsa Othaim Mall": 7,
       "49-AlAhsa Mall": 8,
       "17-Arar Othaim Mall": 6,
-      "19-Hail Othaim Mall": 8,
+      "19-Hail Othaim Mall": 11,
       "21-Abha Al_Rashid Mall New": 6,
       "43-Mujan Park": 5,
       "52-Al_Baha Mall": 12,
@@ -21137,7 +21121,6 @@
       "36-Al jubail Mall": 4,
       "44-Al-Jouf Center": 9,
       "47-Al-Nakheel Plaza": 5,
-      "Transit": 3,
       "Warehouse": 290,
       "warehouse riyadh": 332
     },
@@ -21193,7 +21176,7 @@
       "16-Ehsa Othaim Mall": 5,
       "49-AlAhsa Mall": 4,
       "17-Arar Othaim Mall": 2,
-      "19-Hail Othaim Mall": 3,
+      "19-Hail Othaim Mall": 6,
       "21-Abha Al_Rashid Mall New": 4,
       "43-Mujan Park": 4,
       "52-Al_Baha Mall": 4,
@@ -21203,7 +21186,6 @@
       "42-Dareen Mall Dammam": 4,
       "36-Al jubail Mall": 4,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 3,
       "Warehouse": 709,
       "warehouse riyadh": 785
     },
@@ -21284,7 +21266,7 @@
     "name": "بطانية كينغ | GREY COMFY THROW - BLANKET KING GREY COMFY 104*90",
     "price": 129.0,
     "stock": 2054,
-    "sales": 35,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 4,
@@ -21390,7 +21372,7 @@
       "16-Ehsa Othaim Mall": 4,
       "49-AlAhsa Mall": 4,
       "17-Arar Othaim Mall": 1,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 5,
       "21-Abha Al_Rashid Mall New": 5,
       "43-Mujan Park": 2,
       "52-Al_Baha Mall": 4,
@@ -21400,7 +21382,7 @@
       "36-Al jubail Mall": 5,
       "44-Al-Jouf Center": 2,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 8,
+      "Transit": 4,
       "Warehouse": 1387,
       "warehouse riyadh": 1419
     },
@@ -21454,7 +21436,7 @@
       "16-Ehsa Othaim Mall": 7,
       "49-AlAhsa Mall": 7,
       "17-Arar Othaim Mall": 1,
-      "19-Hail Othaim Mall": 10,
+      "19-Hail Othaim Mall": 12,
       "21-Abha Al_Rashid Mall New": 5,
       "43-Mujan Park": 5,
       "52-Al_Baha Mall": 4,
@@ -21466,7 +21448,6 @@
       "36-Al jubail Mall": 3,
       "44-Al-Jouf Center": 9,
       "47-Al-Nakheel Plaza": 6,
-      "Transit": 2,
       "Warehouse": 517,
       "warehouse riyadh": 540
     },
@@ -21629,7 +21610,7 @@
     "name": "بطانية فل | FARMHOUSE SAGE COMFY 66*90 - BLANKET FULL COMFY FARMHOUSE SAGE 66*90",
     "price": 89.0,
     "stock": 383,
-    "sales": 96,
+    "sales": 99,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 8,
@@ -21667,7 +21648,7 @@
       "24-Yanbu Dana Mall": 4,
       "16-Ehsa Othaim Mall": 6,
       "17-Arar Othaim Mall": 8,
-      "19-Hail Othaim Mall": 3,
+      "19-Hail Othaim Mall": 7,
       "21-Abha Al_Rashid Mall New": 6,
       "43-Mujan Park": 5,
       "52-Al_Baha Mall": 5,
@@ -21679,7 +21660,7 @@
       "36-Al jubail Mall": 4,
       "44-Al-Jouf Center": 3,
       "47-Al-Nakheel Plaza": 4,
-      "Transit": 8,
+      "Transit": 4,
       "Warehouse": 54,
       "warehouse riyadh": 329
     },
@@ -21694,7 +21675,7 @@
     "name": "بطانية فل | LAMENT BLUE COMFY  66*90 - BLANKET FULL COMFY LAMENT BLUE 66*90",
     "price": 89.0,
     "stock": 466,
-    "sales": 54,
+    "sales": 57,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 4,
@@ -21760,7 +21741,7 @@
     "name": "بطانية فل | FIRE PIT COMFY 66*90 - BLANKET FULL COMFY FIRE PIT 66*90",
     "price": 89.0,
     "stock": 1681,
-    "sales": 102,
+    "sales": 103,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 4,
@@ -21891,7 +21872,7 @@
     "name": "بطانية فل |  MARSHMALLOW COMFY - BLANKET FULL MARSHMALLOW COMFY 66*90",
     "price": 89.0,
     "stock": 1498,
-    "sales": 71,
+    "sales": 73,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 2,
@@ -22051,7 +22032,7 @@
     "name": "طقم لحاف كينغ | 8 قطع CASIA",
     "price": 299.0,
     "stock": 877,
-    "sales": 22,
+    "sales": 23,
     "branches": {
       "53-Al Basateen Mall": 1,
       "00-GIFTS": 2,
@@ -22455,7 +22436,7 @@
     "name": "طقم لحاف كينغ | 8 قطع dakota linen",
     "price": 599.0,
     "stock": 5,
-    "sales": 87,
+    "sales": 88,
     "branches": {
       "05-Haifa Mall": 1,
       "07-Arab Mall": 8,
@@ -22482,7 +22463,7 @@
       "16-Ehsa Othaim Mall": 3,
       "49-AlAhsa Mall": 2,
       "17-Arar Othaim Mall": 1,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 6,
       "52-Al_Baha Mall": 4,
       "27-Dhahran Mall khobar": 5,
       "28-Al Nakheel Mall Dammam": 0,
@@ -22490,7 +22471,7 @@
       "36-Al jubail Mall": 1,
       "44-Al-Jouf Center": 1,
       "47-Al-Nakheel Plaza": 5,
-      "Transit": 10,
+      "Transit": 4,
       "Warehouse": 5
     },
     "image_path": "489419.webp"
@@ -22504,7 +22485,7 @@
     "name": "طقم لحاف كينغ | 8 قطع caspian peach",
     "price": 599.0,
     "stock": 3,
-    "sales": 190,
+    "sales": 192,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 2,
@@ -22627,7 +22608,7 @@
     "name": "طقم لحاف كينغ | 11 قطعة cascade forest cotton taupe",
     "price": 799.0,
     "stock": 12,
-    "sales": 17,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -22726,7 +22707,7 @@
     "name": "طقم لحاف كينغ | 11 قطعة stripe linnea cotton",
     "price": 799.0,
     "stock": 84,
-    "sales": 30,
+    "sales": 31,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -23375,7 +23356,7 @@
     "name": "اكسسوار حمام | SOAP PUMP RIB GLASS BAUBLE WHITE - BATH ACCESSORY SOAP PUMP RIB GLASS BAUBLE WHITE",
     "price": 19.0,
     "stock": 3334,
-    "sales": 11,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 9,
@@ -23532,7 +23513,7 @@
     "name": "اكسسوار حمام | SOAP DISH RIB GLASS BAUBLE WHITE - BATH ACCESSORY SOAP DISH RIB GLASS BAUBLE WHITE",
     "price": 15.0,
     "stock": 295,
-    "sales": 6,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 36,
       "05-Haifa Mall": 19,
@@ -23596,7 +23577,7 @@
     "name": "اكسسوار حمام | TIMBLER RIB GLASS BAUBLE WHITE - BATH ACCESSORY TIMBLER RIB GLASS BAUBLE WHITE",
     "price": 15.0,
     "stock": 742,
-    "sales": 3,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 7,
@@ -23659,7 +23640,7 @@
     "name": "اكسسوار حمام | SOAP PUMP RIB GLASS BAUBLE BLUE - BATH ACCESSORY SOAP PUMP RIB GLASS BAUBLE BLUE",
     "price": 19.0,
     "stock": 3362,
-    "sales": 5,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 7,
@@ -23722,7 +23703,7 @@
     "name": "اكسسوار حمام | SOAP DISH RIB GLASS BAUBLE BLUE - BATH ACCESSORY SOAP DISH RIB GLASS BAUBLE BLUE",
     "price": 15.0,
     "stock": 314,
-    "sales": 5,
+    "sales": 6,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 20,
@@ -23786,7 +23767,7 @@
     "name": "اكسسوار حمام | TIMBLER RIB GLASS BAUBLE BLUE - BATH ACCESSORY TIMBLER RIB GLASS BAUBLE BLUE",
     "price": 15.0,
     "stock": 770,
-    "sales": 4,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 5,
@@ -24151,7 +24132,7 @@
     "name": "طقم لحاف توين | 4 قطع DINOSAUR - COMFORTER TWIN DINOSAUR 4PCS",
     "price": 99.0,
     "stock": 231,
-    "sales": 41,
+    "sales": 42,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 4,
@@ -24805,7 +24786,7 @@
     "name": "روب حمام مفرد | ZERO TWIST PINK S/M - BATH ROBE ZERO TWIST PINK S/M",
     "price": 159.0,
     "stock": 44,
-    "sales": 65,
+    "sales": 66,
     "branches": {
       "04-Andalos Mall": 1,
       "12-Al_Hamra Mall": 3,
@@ -25275,7 +25256,7 @@
     "name": "طقم غطاء سرير كينغ | 3 قطع GOOD ONE TAUPE STRIPE - GOOD ONE KING TAUPE STRIPE 3PCS",
     "price": 149.0,
     "stock": 25,
-    "sales": 65,
+    "sales": 66,
     "branches": {
       "04-Andalos Mall": 1,
       "06-Red Sea Mall": 2,
@@ -25323,7 +25304,7 @@
     "name": "طقم غطاء سرير كينغ | 3 قطع GOOD ONE TRIDENT FLORAL - GOOD ONE KING TRIDENT FLORAL 3PCS",
     "price": 149.0,
     "stock": 50,
-    "sales": 48,
+    "sales": 50,
     "branches": {
       "04-Andalos Mall": 1,
       "06-Red Sea Mall": 3,
@@ -25352,13 +25333,12 @@
       "16-Ehsa Othaim Mall": 2,
       "49-AlAhsa Mall": 4,
       "17-Arar Othaim Mall": 3,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 8,
       "52-Al_Baha Mall": 3,
       "27-Dhahran Mall khobar": 7,
       "42-Dareen Mall Dammam": 6,
       "36-Al jubail Mall": 4,
       "47-Al-Nakheel Plaza": 6,
-      "Transit": 6,
       "Warehouse": 13,
       "warehouse riyadh": 37
     },
@@ -25562,7 +25542,7 @@
     "name": "طقم غطاء سرير فل | 2 قطعة GOOD ONE DAISY - GOOD ONE FULL DAISY 2PCS",
     "price": 99.0,
     "stock": 745,
-    "sales": 49,
+    "sales": 52,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 5,
@@ -25655,7 +25635,7 @@
     "name": "طقم غطاء سرير فل | 2 قطعة GOOD ONE MULTI BALLS - GOOD ONE FULL MULTI BALLS 2PCS",
     "price": 99.0,
     "stock": 1354,
-    "sales": 33,
+    "sales": 34,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 5,
@@ -25714,7 +25694,7 @@
     "name": "طقم غطاء سرير فل | 2 قطعة GOOD ONE AIRSHIP - GOOD ONE FULL AIRSHIP 2PCS",
     "price": 99.0,
     "stock": 895,
-    "sales": 47,
+    "sales": 48,
     "branches": {
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 17,
@@ -25810,7 +25790,7 @@
       "24-Yanbu Dana Mall": 4,
       "16-Ehsa Othaim Mall": 4,
       "49-AlAhsa Mall": 3,
-      "19-Hail Othaim Mall": 5,
+      "19-Hail Othaim Mall": 10,
       "21-Abha Al_Rashid Mall New": 7,
       "43-Mujan Park": 6,
       "52-Al_Baha Mall": 6,
@@ -25821,7 +25801,6 @@
       "42-Dareen Mall Dammam": 6,
       "36-Al jubail Mall": 6,
       "47-Al-Nakheel Plaza": 7,
-      "Transit": 5,
       "Warehouse": 260,
       "warehouse riyadh": 633
     },
@@ -25836,7 +25815,7 @@
     "name": "طقم غطاء سرير فل | 2 قطعة GOOD ONE MULTI FLOWER - GOOD ONE FULL MULTI FLOWER 2PCS",
     "price": 99.0,
     "stock": 1077,
-    "sales": 46,
+    "sales": 49,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 5,
@@ -26240,7 +26219,7 @@
     "name": "روب حمام مفرد | ZERO TEIST NAVY S/M - BATH ROBE ZERO TWIST NAVY S/M",
     "price": 159.0,
     "stock": 12,
-    "sales": 49,
+    "sales": 52,
     "branches": {
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 1,
@@ -26308,7 +26287,7 @@
     "name": "روب حمام مفرد | ZERO TEIST IVORY L/XL - BATH ROBE ZERO TWIST IVORY L/XL",
     "price": 159.0,
     "stock": 17,
-    "sales": 59,
+    "sales": 61,
     "branches": {
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 3,
@@ -26362,7 +26341,7 @@
     "name": "روب حمام مفرد | ZERO TEIST WHITE L/XL - BATH ROBE ZERO TWIST WHITE L/XL",
     "price": 159.0,
     "stock": 568,
-    "sales": 120,
+    "sales": 123,
     "branches": {
       "04-Andalos Mall": 25,
       "05-Haifa Mall": 5,
@@ -26429,7 +26408,7 @@
     "name": "روب حمام مفرد |  ZERO TEIST OYSTER MUSHROOM L/XL - BATH ROBE ZERO TWIST OYSTER MUSHROOM L/XL",
     "price": 159.0,
     "stock": 8,
-    "sales": 24,
+    "sales": 25,
     "branches": {
       "48 - Jeddah Park": 1,
       "53-Al Basateen Mall": 1,
@@ -26467,7 +26446,7 @@
     "name": "روب حمام مفرد |  ZERO TEIST OYSTER MUSHROOM S/M - BATH ROBE ZERO TWIST OYSTER MUSHROOM S/M",
     "price": 159.0,
     "stock": 94,
-    "sales": 70,
+    "sales": 72,
     "branches": {
       "04-Andalos Mall": 18,
       "05-Haifa Mall": 7,
@@ -26533,7 +26512,7 @@
     "name": "روب حمام مفرد | ZERO TEIST IVORY S/M - BATH ROBE ZERO TWIST IVORY S/M",
     "price": 159.0,
     "stock": 428,
-    "sales": 107,
+    "sales": 113,
     "branches": {
       "04-Andalos Mall": 28,
       "05-Haifa Mall": 4,
@@ -26601,7 +26580,7 @@
     "name": "روب حمام مفرد | ZERO TEIST WHITE S/M - BATH ROBE ZERO TWIST WHITE S/M",
     "price": 159.0,
     "stock": 1073,
-    "sales": 67,
+    "sales": 68,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 10,
@@ -26744,7 +26723,7 @@
     "name": "شال SUPERSOFT STRIPE BEIGE&GREY - THROW SUPER SOFT STRIPE BEIGE&GREY",
     "price": 39.0,
     "stock": 1321,
-    "sales": 167,
+    "sales": 171,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 5,
@@ -26927,7 +26906,7 @@
     "name": "شال SUPERSOFT FLORAL SILHOURTTES - THROW SUPER SOFT FLORAL SILHOURTTES",
     "price": 39.0,
     "stock": 42,
-    "sales": 66,
+    "sales": 67,
     "branches": {
       "05-Haifa Mall": 1,
       "13-Al-Yasmin Mall": 1,
@@ -26975,7 +26954,7 @@
     "name": "شال SUPERSOFT SNOWMAN - THROW SUPER SOFT SNOWMAN",
     "price": 39.0,
     "stock": 212,
-    "sales": 62,
+    "sales": 63,
     "branches": {
       "07-Arab Mall": 7,
       "18-Al_Khayyat Center": 5,
@@ -27021,7 +27000,7 @@
     "name": "منشفة بحر | مقاس SWIRLS WAVY 192.9*91.4 - TOWEL BEACH SWIRLS WAVY 192.9*91.4",
     "price": 59.0,
     "stock": 856,
-    "sales": 35,
+    "sales": 36,
     "branches": {
       "12-Al_Hamra Mall": 8,
       "32-Atyaf Mall Riyadh": 5,
@@ -27047,7 +27026,7 @@
     "name": "منشفة بحر | مقاس CORAL&SHELL 182.9*96.5 - TOWEL BEACH CORAL&SHELL 182.9*101.6",
     "price": 59.0,
     "stock": 30,
-    "sales": 135,
+    "sales": 137,
     "branches": {
       "12-Al_Hamra Mall": 4,
       "32-Atyaf Mall Riyadh": 9,
@@ -27096,7 +27075,7 @@
     "name": "منشفة بحر | مقاس SEASHELL 182.9*96.5 - TOWEL BEACH SEASHELL 182.9*96.5",
     "price": 59.0,
     "stock": 1229,
-    "sales": 90,
+    "sales": 92,
     "branches": {
       "25-Rabwa Othaim Mall": 5,
       "32-Atyaf Mall Riyadh": 3,
@@ -27626,7 +27605,7 @@
     "name": "سليبر | رجالي مقاس 45-44 موديل GREY  BE-104 - SLIPPER MAN GREY 44/45 BE-104",
     "price": 39.0,
     "stock": 53,
-    "sales": 20,
+    "sales": 21,
     "branches": {
       "12-Al_Hamra Mall": 3,
       "29-Al Nakheel Mall Riyadh": 4,
@@ -27994,7 +27973,7 @@
     "name": "طقم لحاف فل | 8 قطع CLOVELLY - COFMORTER FULL CLOVELLY 8PCS",
     "price": 249.0,
     "stock": 42,
-    "sales": 36,
+    "sales": 38,
     "branches": {
       "PLATFORMS": 10,
       "12-Al_Hamra Mall": 9,
@@ -28144,7 +28123,7 @@
     "name": "شال SUPERSOFT SAIBOAT STRIPE NAVT - THROW SUPERSOFT SAIBOAT STRIPE NAVT",
     "price": 39.0,
     "stock": 1772,
-    "sales": 135,
+    "sales": 136,
     "branches": {
       "04-Andalos Mall": 12,
       "06-Red Sea Mall": 23,
@@ -28257,7 +28236,7 @@
     "name": "طقم لحاف كينغ | 11  قطعة LUSIA - COMFORTER KING LUSIA 11PCS KIT",
     "price": 799.0,
     "stock": 31,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "05-Haifa Mall": 1,
       "07-Arab Mall": 1,
@@ -28382,7 +28361,7 @@
     "name": "شال SUPERSOFT DINESHA - THROW SUPERSOFT DINESHA",
     "price": 39.0,
     "stock": 718,
-    "sales": 76,
+    "sales": 78,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 1,
@@ -28452,7 +28431,7 @@
     "name": "شال SUPERSOFT NAUTICAL STRIPE - THROW SUPERSOFT NAUTICAL STRIPE",
     "price": 39.0,
     "stock": 2456,
-    "sales": 91,
+    "sales": 94,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 8,
@@ -28506,7 +28485,7 @@
     "name": "شال SUPERSOFT BROOK STRIPE - THROW SUPERSOFT BROOK STRIPE",
     "price": 39.0,
     "stock": 2485,
-    "sales": 90,
+    "sales": 92,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 1,
@@ -28558,7 +28537,7 @@
     "name": "شال SUPERSOFT SPECKIE - THROW SUPERSOFT SPECKIE",
     "price": 39.0,
     "stock": 1600,
-    "sales": 35,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 7,
       "06-Red Sea Mall": 14,
@@ -28620,7 +28599,7 @@
     "name": "طقم لحاف كينغ | 11 قطعة REGINA - *COMFORTER KING REGINA 11PCS KIT",
     "price": 899.0,
     "stock": 7,
-    "sales": 47,
+    "sales": 48,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 4,
@@ -28740,7 +28719,7 @@
     "name": "شال SUPERSOFT BUTTERFLY PURPLE - THROW SUPERSOFT BUTTERFLY PURPLE",
     "price": 39.0,
     "stock": 962,
-    "sales": 140,
+    "sales": 143,
     "branches": {
       "04-Andalos Mall": 3,
       "06-Red Sea Mall": 18,
@@ -28861,7 +28840,7 @@
     "name": "EMBROIDERY SERVICE.",
     "price": 19.0,
     "stock": 0,
-    "sales": 85,
+    "sales": 87,
     "branches": {},
     "image_path": ""
   },
@@ -28938,7 +28917,7 @@
     "name": "شال SUPERSOFT PINK BUTTERFLY - THROW SUPERSOFT PINK BUTTERFLY",
     "price": 39.0,
     "stock": 653,
-    "sales": 111,
+    "sales": 112,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 2,
@@ -28993,7 +28972,7 @@
     "name": "شال SUPERSOFT PEACH STRIPE CLASSIC - THROW SUPERSOFT PEACH STRIPE CLASSIC",
     "price": 39.0,
     "stock": 1985,
-    "sales": 143,
+    "sales": 150,
     "branches": {
       "04-Andalos Mall": 6,
       "06-Red Sea Mall": 29,
@@ -29049,7 +29028,7 @@
     "name": "شال SUPERSOFT KHAKI CHECK - THROW SUPERSOFT KHAKI CHECK",
     "price": 39.0,
     "stock": 1006,
-    "sales": 142,
+    "sales": 143,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 8,
@@ -29104,7 +29083,7 @@
     "name": "سليبر | نسائي مقاس 36-37 موديل CAMEL  BE-101 - SLIPPER WOMEN CAMEL 36/37 BE-101",
     "price": 39.0,
     "stock": 20,
-    "sales": 27,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 3,
@@ -29317,7 +29296,7 @@
     "name": "سليبر | رجالي مقاس 45-44 موديل CAMEL  BE-104 - SLIPPER MAN CAMEL 44/45 BE-104",
     "price": 39.0,
     "stock": 6,
-    "sales": 17,
+    "sales": 18,
     "branches": {
       "54-THE VILLAGE": 1,
       "12-Al_Hamra Mall": 2,
@@ -29428,7 +29407,7 @@
     "name": "سليبر | رجالي مقاس 41-40 موديل CAMEL  BE-104 - SLIPPER MAN CAMEL 40/41 BE-104",
     "price": 39.0,
     "stock": 7,
-    "sales": 18,
+    "sales": 21,
     "branches": {
       "12-Al_Hamra Mall": 9,
       "25-Rabwa Othaim Mall": 12,
@@ -29762,14 +29741,13 @@
       "23-Alia Mall Madinah": 2,
       "16-Ehsa Othaim Mall": 3,
       "49-AlAhsa Mall": 7,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 4,
       "52-Al_Baha Mall": 3,
       "27-Dhahran Mall khobar": 5,
       "28-Al Nakheel Mall Dammam": 1,
       "42-Dareen Mall Dammam": 2,
       "36-Al jubail Mall": 2,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 2,
       "Warehouse": 2,
       "warehouse riyadh": 182
     },
@@ -29965,7 +29943,7 @@
     "name": "طقم لحاف فل | 10 قطع SALVA",
     "price": 349.0,
     "stock": 0,
-    "sales": 5,
+    "sales": 6,
     "branches": {
       "00-GIFTS": 1,
       "12-Al_Hamra Mall": 3,
@@ -30065,7 +30043,7 @@
     "name": "شال SUPER SOFT LILY - THROW SUPER SOFT LILY",
     "price": 39.0,
     "stock": 387,
-    "sales": 75,
+    "sales": 77,
     "branches": {
       "05-Haifa Mall": 9,
       "13-Al-Yasmin Mall": 2,
@@ -30084,7 +30062,7 @@
       "26-Al-Noor Mall Madinah": 2,
       "24-Yanbu Dana Mall": 2,
       "49-AlAhsa Mall": 7,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 11,
       "43-Mujan Park": 3,
       "52-Al_Baha Mall": 1,
       "1906-LAVANDA PARK": 1,
@@ -30093,7 +30071,6 @@
       "42-Dareen Mall Dammam": 10,
       "36-Al jubail Mall": 8,
       "44-Al-Jouf Center": 4,
-      "Transit": 10,
       "Warehouse": 12,
       "warehouse riyadh": 375
     },
@@ -30206,7 +30183,7 @@
     "name": "شال SUPER SOFT CRISS CROOSSED STRIPE - THROW SUPER SOFT CRISS CROOSSED STRIPE",
     "price": 39.0,
     "stock": 1068,
-    "sales": 51,
+    "sales": 54,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 7,
@@ -30314,7 +30291,7 @@
     "name": "شال SUPER SOFT COLORFULL DOT AND STAR - THROW SUPER SOFT COLORFULL DOT AND STAR",
     "price": 39.0,
     "stock": 1587,
-    "sales": 68,
+    "sales": 74,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 5,
@@ -30358,7 +30335,7 @@
     "name": "طقم شراشف توين | 4 قطع DOT GLOBAL BLUE - SHEET TWIN DOT GLOBAL BLUE 4PCS",
     "price": 79.0,
     "stock": 144,
-    "sales": 19,
+    "sales": 21,
     "branches": {
       "06-Red Sea Mall": 1,
       "56- Aziz Mall 2": 1,
@@ -30408,7 +30385,7 @@
     "name": "طقم شراشف كوين | 4 قطع DOT GLOBAL BLUE - SHEET QUEEN DOT GLOBAL BLUE 4PCS",
     "price": 99.0,
     "stock": 3777,
-    "sales": 45,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 5,
@@ -30467,7 +30444,7 @@
     "name": "طقم شراشف كينغ | 4 قطع DOT GLOBAL BLUE - SHEET KING DOT GLOBAL BLUE 4PCS",
     "price": 129.0,
     "stock": 234,
-    "sales": 54,
+    "sales": 55,
     "branches": {
       "09-Al-Salam Mall": 1,
       "57-Sauq7": 1,
@@ -30517,7 +30494,7 @@
     "name": "طقم شراشف فل | 4 قطع DOT GLOBAL BLUE - SHEET FULL DOT GLOBAL BLUE 4PCS",
     "price": 99.0,
     "stock": 942,
-    "sales": 62,
+    "sales": 65,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 5,
@@ -30698,7 +30675,7 @@
     "name": "طقم غطاء سرير فل | 2 قطعة GOOD ONE BOWKNOT - GOOD ONE FULL BOWKNOT 2PCS",
     "price": 99.0,
     "stock": 54,
-    "sales": 126,
+    "sales": 130,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 6,
@@ -30738,7 +30715,7 @@
       "16-Ehsa Othaim Mall": 7,
       "49-AlAhsa Mall": 5,
       "17-Arar Othaim Mall": 5,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 7,
       "43-Mujan Park": 5,
       "1906-LAVANDA PARK": 5,
       "22-Tabuk Park": 12,
@@ -30747,7 +30724,6 @@
       "42-Dareen Mall Dammam": 2,
       "36-Al jubail Mall": 2,
       "47-Al-Nakheel Plaza": 6,
-      "Transit": 6,
       "Warehouse": 18,
       "warehouse riyadh": 36
     },
@@ -30906,7 +30882,7 @@
     "name": "طقم غطاء سرير كينغ | 3 قطع GOOD ONE GREEN LEAF - GOOD ONE KING GREEN LEAF 3PCS",
     "price": 149.0,
     "stock": 312,
-    "sales": 25,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 5,
@@ -30968,7 +30944,7 @@
     "name": "طقم غطاء سرير كينغ | 3 قطع GOOD ONE DAISY - GOOD ONE KING DAISY 3PCS",
     "price": 149.0,
     "stock": 1290,
-    "sales": 22,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 1,
@@ -31097,7 +31073,7 @@
     "name": "طقم غطاء سرير فل | 2 قطعة GOOD ONE MARBILING - GOOD ONE FULL MARBILING 2PCS",
     "price": 99.0,
     "stock": 48,
-    "sales": 83,
+    "sales": 84,
     "branches": {
       "07-Arab Mall": 1,
       "56- Aziz Mall 2": 10,
@@ -31429,7 +31405,7 @@
     "name": "طقم غطاء سرير فل | 2 قطعة GOOD ONE CRUCIATE FLOWER - GOOD ONE FULL CRUCIATE FLOWER 2PCS",
     "price": 99.0,
     "stock": 310,
-    "sales": 112,
+    "sales": 115,
     "branches": {
       "04-Andalos Mall": 11,
       "06-Red Sea Mall": 16,
@@ -31926,7 +31902,7 @@
     "name": "طقم لحاف كينغ | 11 قطع LILIC SPRING COTTON - *COMFORTER KING LILIC SPRING COTTON 11PCS KIT",
     "price": 695.0,
     "stock": 93,
-    "sales": 50,
+    "sales": 51,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 3,
@@ -31992,7 +31968,7 @@
     "name": "طقم لحاف كينغ | 11 قطع PROVENCIA COTTON - *COMFORTER KING PROVENCIA COTTON 11PCS KIT",
     "price": 695.0,
     "stock": 38,
-    "sales": 32,
+    "sales": 34,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -32196,7 +32172,7 @@
     "name": "لباد سرير فل | CLOUD DREAM 5CM - MATTRESS PAD FULL CLOUD DREAM 5CM",
     "price": 189.0,
     "stock": 3349,
-    "sales": 69,
+    "sales": 71,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 4,
@@ -32262,7 +32238,7 @@
     "name": "لباد سرير توين | CLOUD DREAM 5CM - MATTRESS PAD TWIN CLOUD DREAM 5CM",
     "price": 179.0,
     "stock": 1289,
-    "sales": 46,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 4,
@@ -32383,7 +32359,7 @@
     "name": "طقم لحاف فل | 2 قطعة SO-SOFT LIGHT PINK - COMFORTER FULL SO-SOFT LIGHT PINK 2PCS",
     "price": 199.0,
     "stock": 363,
-    "sales": 3,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 3,
@@ -32657,7 +32633,7 @@
       "16-Ehsa Othaim Mall": 5,
       "49-AlAhsa Mall": 5,
       "17-Arar Othaim Mall": 3,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 4,
       "21-Abha Al_Rashid Mall New": 7,
       "43-Mujan Park": 3,
       "52-Al_Baha Mall": 3,
@@ -32668,7 +32644,6 @@
       "42-Dareen Mall Dammam": 4,
       "36-Al jubail Mall": 1,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 2,
       "Warehouse": 106,
       "warehouse riyadh": 2
     },
@@ -32742,7 +32717,7 @@
     "name": "بطانية فل | WHISPER WHITE 90*108 - BLANKET WHISPER WHITE 90*108",
     "price": 69.0,
     "stock": 219,
-    "sales": 91,
+    "sales": 92,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 10,
@@ -33114,7 +33089,7 @@
     "name": "طقم مناشف مطرز | 3 قطع FLORAL - TOWEL SET EMBROIDERED FLORAL 3PCS",
     "price": 99.0,
     "stock": 1044,
-    "sales": 30,
+    "sales": 32,
     "branches": {
       "06-Red Sea Mall": 2,
       "07-Arab Mall": 1,
@@ -33257,7 +33232,7 @@
     "name": "بطانية فل | WHISPER WHITE 90*66 - BLANKET WHISPER WHITE 90*66",
     "price": 49.0,
     "stock": 291,
-    "sales": 34,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 5,
@@ -33305,7 +33280,7 @@
     "name": "بطانية فل | WHISPER WHITE 90*90 - BLANKET WHISPER WHITE 90*90",
     "price": 59.0,
     "stock": 816,
-    "sales": 80,
+    "sales": 81,
     "branches": {
       "04-Andalos Mall": 12,
       "06-Red Sea Mall": 5,
@@ -33779,7 +33754,7 @@
     "name": "دمية | TEDDY BEAR BROWN(2) 25CM BTY-14 - TEDDY BEAR BROWN(2) 25CM BTY-14",
     "price": 29.0,
     "stock": 2213,
-    "sales": 29,
+    "sales": 30,
     "branches": {
       "06-Red Sea Mall": 2,
       "07-Arab Mall": 11,
@@ -34098,7 +34073,7 @@
     "name": "طقم لحاف كينغ | 11 قطع FOLIA FRAME WHITE/SILVER - *COMFORTER KING FOLIA FRAME WHITE/SILVER COTTON 11PCS KIT",
     "price": 799.0,
     "stock": 32,
-    "sales": 79,
+    "sales": 83,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 3,
@@ -34136,7 +34111,7 @@
       "16-Ehsa Othaim Mall": 2,
       "49-AlAhsa Mall": 2,
       "17-Arar Othaim Mall": 3,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 2,
       "21-Abha Al_Rashid Mall New": 3,
       "43-Mujan Park": 2,
       "1906-LAVANDA PARK": 2,
@@ -34145,7 +34120,6 @@
       "28-Al Nakheel Mall Dammam": 2,
       "42-Dareen Mall Dammam": 4,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 2,
       "Warehouse": 30,
       "warehouse riyadh": 2
     },
@@ -37733,7 +37707,7 @@
     "name": "أكواب حرارية | 20 PRINT BLUE LEAK PROOF WATER OZ - BOTTEL WATER PRINT LEAK PROOF BLUE  20OZ",
     "price": 29.0,
     "stock": 2580,
-    "sales": 23,
+    "sales": 24,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 3,
@@ -37765,7 +37739,7 @@
     "name": "أكواب حرارية | 20 PRINT RAINBOW LEAK PROOF WATER OZ - BOTTEL WATER PRINT LEAK PROOF RAINBOW 20OZ",
     "price": 29.0,
     "stock": 5490,
-    "sales": 32,
+    "sales": 33,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 10,
@@ -38410,7 +38384,7 @@
     "name": "أكواب حرارية | 24  SOLID WHITE TUMBER WITH STRAW OZ - TUMBER SOLID WITH STRAW WHITE 24OZ",
     "price": 29.0,
     "stock": 316,
-    "sales": 20,
+    "sales": 21,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 8,
@@ -38789,7 +38763,7 @@
     "name": "أكواب حرارية | 24  SOLID BLUE TUMBER WITH STRAW OZ - TUMBLER WITH STRAW PRINT BLUE 24OZ",
     "price": 29.0,
     "stock": 548,
-    "sales": 14,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 12,
       "06-Red Sea Mall": 20,
@@ -38886,7 +38860,7 @@
     "name": "أكواب حرارية | 24 PRINT RAINBOW AND WHITE TUMBER WITH STRAW - TUMBLER PRINT WITH STRAW RAINBOW&WHITE 24OZ",
     "price": 29.0,
     "stock": 1991,
-    "sales": 16,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -39116,14 +39090,13 @@
       "24-Yanbu Dana Mall": 10,
       "16-Ehsa Othaim Mall": 5,
       "49-AlAhsa Mall": 1,
-      "19-Hail Othaim Mall": 4,
+      "19-Hail Othaim Mall": 16,
       "43-Mujan Park": 7,
       "52-Al_Baha Mall": 26,
       "22-Tabuk Park": 4,
       "42-Dareen Mall Dammam": 6,
       "44-Al-Jouf Center": 15,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 12,
       "Warehouse": 1514,
       "warehouse riyadh": 372
     },
@@ -39300,7 +39273,7 @@
     "name": "دمية طرية |  STRAWBERRY TEA PEACH PING - SMOOSHIE TOY STRAWBERRY TEA PEACH PING A450",
     "price": 69.0,
     "stock": 5,
-    "sales": 14,
+    "sales": 15,
     "branches": {
       "00-GIFTS": 1,
       "25-Rabwa Othaim Mall": 0,
@@ -40187,7 +40160,7 @@
     "name": "دمية طرية |  FROG O422 - SMOOSHIE TOY FROG GREEN O422",
     "price": 69.0,
     "stock": 412,
-    "sales": 14,
+    "sales": 16,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -40515,7 +40488,7 @@
     "name": "دمية طرية |  CUTTLEFISH FUSHIA - SMOOSHIE TOY CUTTLEFISH FUSHIA T425",
     "price": 69.0,
     "stock": 0,
-    "sales": 16,
+    "sales": 17,
     "branches": {
       "00-GIFTS": 1,
       "51-Park Avenue Riyadh": 0,
@@ -42132,7 +42105,7 @@
     "name": "أكواب حرارية | 40 WHITE COSTCO TUMBLERS OZ - TUMBLER WHITE  40OZ",
     "price": 49.0,
     "stock": 497,
-    "sales": 93,
+    "sales": 98,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 4,
@@ -42481,7 +42454,7 @@
     "name": "أكواب حرارية | 40 LIGHT BLUE COSTCO TUMBLERS OZ - TUMBLER LIGHT BLUE 40OZ",
     "price": 49.0,
     "stock": 166,
-    "sales": 77,
+    "sales": 78,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 25,
@@ -42540,7 +42513,7 @@
     "name": "أكواب حرارية | 40 CHRISTMAS RED COSTCO TUMBLERS OZ - TUMBLER CHRISTMAS RED 40OZ",
     "price": 49.0,
     "stock": 11,
-    "sales": 26,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 7,
@@ -51254,7 +51227,7 @@
     "name": "سليبر | نسائي مقاس 40-41 موديل YELLOW BE-78 - SLIPPER WOMEN YELLOW 40/41 BE-78",
     "price": 29.0,
     "stock": 0,
-    "sales": 3,
+    "sales": 4,
     "branches": {
       "15-Riyadh Othaim Mall": 6,
       "25-Rabwa Othaim Mall": 4,
@@ -52278,7 +52251,7 @@
     "name": "شال SUPER SOFT WHITE FLORA-2 STRIPE - THROW SUPER SOFT WHITE FLORA-2 STRIPE",
     "price": 39.0,
     "stock": 329,
-    "sales": 27,
+    "sales": 29,
     "branches": {
       "07-Arab Mall": 2,
       "18-Al_Khayyat Center": 1,
@@ -52339,7 +52312,7 @@
     "name": "طقم لحاف كينغ | 11 قطع PATIA GRAY - *COMFORTER KING PATIA GRAY 11PCS KIT",
     "price": 399.0,
     "stock": 26,
-    "sales": 24,
+    "sales": 27,
     "branches": {
       "12-Al_Hamra Mall": 4,
       "25-Rabwa Othaim Mall": 1,
@@ -52355,12 +52328,11 @@
       "1115-Alrabie Mall": 2,
       "23-Alia Mall Madinah": 3,
       "49-AlAhsa Mall": 1,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 2,
       "43-Mujan Park": 1,
       "28-Al Nakheel Mall Dammam": 3,
       "42-Dareen Mall Dammam": 2,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 2,
       "Warehouse": 4,
       "warehouse riyadh": 22
     },
@@ -52409,7 +52381,7 @@
     "name": "روب حمام أطفال | TIGER BOYS مقاس 10 - BATH ROBE BOYS KIDS TIGER 10/12",
     "price": 69.0,
     "stock": 283,
-    "sales": 62,
+    "sales": 66,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 2,
@@ -52469,7 +52441,7 @@
     "name": "روب حمام أطفال | TIGER BOYS مقاس 6 - BATH ROBE BOYS KIDS TIGER 6/8",
     "price": 69.0,
     "stock": 30,
-    "sales": 14,
+    "sales": 15,
     "branches": {
       "06-Red Sea Mall": 1,
       "09-Al-Salam Mall": 1,
@@ -52533,7 +52505,7 @@
     "name": "روب حمام أطفال | DUK BOYS مقاس 10 - BATH ROBE BOYS KIDS DUK 10/12",
     "price": 69.0,
     "stock": 376,
-    "sales": 67,
+    "sales": 68,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 6,
@@ -52715,7 +52687,7 @@
     "name": "طقم لحاف كينغ | 11 قطع ROYCE GRAY - *COMFORTER KING ROYCE GRAY 11PCS KIT",
     "price": 599.0,
     "stock": 102,
-    "sales": 13,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 4,
@@ -52777,7 +52749,7 @@
     "name": "طقم لحاف كينغ | 11 قطع ROYCE TAUPE - *COMFORTER KING ROYCE TAUPE 11PCS KIT",
     "price": 599.0,
     "stock": 157,
-    "sales": 67,
+    "sales": 68,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 2,
@@ -52818,7 +52790,7 @@
       "16-Ehsa Othaim Mall": 0,
       "49-AlAhsa Mall": 12,
       "17-Arar Othaim Mall": 1,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 4,
       "21-Abha Al_Rashid Mall New": 6,
       "43-Mujan Park": 3,
       "52-Al_Baha Mall": 12,
@@ -52830,7 +52802,6 @@
       "36-Al jubail Mall": 2,
       "44-Al-Jouf Center": 2,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 2,
       "Warehouse": 80,
       "warehouse riyadh": 77
     },
@@ -52958,7 +52929,7 @@
     "name": "روب حمام أطفال | BUNNY BOYS مقاس 10 - BATH ROBE BOYS KIDS BUNNY 10/12",
     "price": 69.0,
     "stock": 307,
-    "sales": 59,
+    "sales": 61,
     "branches": {
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 3,
@@ -53588,7 +53559,7 @@
     "name": "كيس مخدة مربع 2 قطعة | MARSHMALLOW/IVORY - PILLOW EURO SHAM CASHION MARSHMALLOW IVORY KIT",
     "price": 59.0,
     "stock": 370,
-    "sales": 34,
+    "sales": 35,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 5,
@@ -53649,7 +53620,7 @@
     "name": "كيس مخدة مربع 2 قطعة | WHITE - PILLOW EURO SHAM CUSHION WHITE KIT",
     "price": 59.0,
     "stock": 443,
-    "sales": 36,
+    "sales": 41,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 4,
@@ -53797,7 +53768,7 @@
     "name": "روب حمام أطفال | PRINCES-2 GIRLS مقاس 6 - BATH ROBE GIRLS KIDS PRINCES-2 SIZE 6/8",
     "price": 69.0,
     "stock": 520,
-    "sales": 59,
+    "sales": 60,
     "branches": {
       "05-Haifa Mall": 5,
       "06-Red Sea Mall": 10,
@@ -53842,7 +53813,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 SPARKLE DK.GREY - TOWEL KITC SPARKLE DK.GREY BTP-689",
     "price": 9.0,
     "stock": 5870,
-    "sales": 57,
+    "sales": 59,
     "branches": {
       "07-Arab Mall": 3,
       "09-Al-Salam Mall": 19,
@@ -53877,7 +53848,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 SPARKLE DUSTY PINK - TOWEL KITC SPARKLE DUSTY PINK BTP-689",
     "price": 9.0,
     "stock": 5870,
-    "sales": 50,
+    "sales": 51,
     "branches": {
       "07-Arab Mall": 20,
       "09-Al-Salam Mall": 15,
@@ -53911,7 +53882,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 SPARKLE DK.PEACH - TOWEL KITC SPARKLE DK.PEACH BTP-689",
     "price": 9.0,
     "stock": 5870,
-    "sales": 77,
+    "sales": 80,
     "branches": {
       "06-Red Sea Mall": 13,
       "07-Arab Mall": 55,
@@ -54070,7 +54041,7 @@
     "name": "روب حمام أطفال | FLOWER HOOD PONCHO - HOOD PONCHO KIDS FLOWER",
     "price": 32.0,
     "stock": 423,
-    "sales": 47,
+    "sales": 48,
     "branches": {
       "04-Andalos Mall": 1,
       "07-Arab Mall": 1,
@@ -54118,7 +54089,7 @@
     "name": "روب حمام أطفال | MERMAID HOOD PONCHO - HOOD PONCHO KIDS MERMAID",
     "price": 32.0,
     "stock": 156,
-    "sales": 53,
+    "sales": 54,
     "branches": {
       "04-Andalos Mall": 12,
       "48 - Jeddah Park": 1,
@@ -54160,7 +54131,7 @@
     "name": "روب حمام أطفال | PENGUIN HOOD PONCHO - HOOD PONCHO KIDS PENGUIN",
     "price": 32.0,
     "stock": 142,
-    "sales": 32,
+    "sales": 33,
     "branches": {
       "13-Al-Yasmin Mall": 11,
       "56- Aziz Mall 2": 1,
@@ -54294,7 +54265,7 @@
     "name": "روب حمام أطفال | SHARK HOOD PONCHO - HOOD PONCHO KIDS SHARK",
     "price": 32.0,
     "stock": 294,
-    "sales": 49,
+    "sales": 50,
     "branches": {
       "05-Haifa Mall": 2,
       "09-Al-Salam Mall": 1,
@@ -54335,7 +54306,7 @@
     "name": "روب حمام أطفال | PRINCES-2 GIRLS مقاس 14 - BATH ROBE GIRLS KIDS PRINCES-2 SIZE 14/16",
     "price": 69.0,
     "stock": 375,
-    "sales": 38,
+    "sales": 40,
     "branches": {
       "04-Andalos Mall": 4,
       "07-Arab Mall": 1,
@@ -54437,7 +54408,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 SPARKLE BURGANDY - TOWEL KITC SPARKLE BURGANDY BTP-689",
     "price": 9.0,
     "stock": 3522,
-    "sales": 30,
+    "sales": 33,
     "branches": {
       "07-Arab Mall": 7,
       "09-Al-Salam Mall": 12,
@@ -54515,7 +54486,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 PINK - TOWEL KITC PINK BTP-800",
     "price": 9.0,
     "stock": 3124,
-    "sales": 67,
+    "sales": 69,
     "branches": {
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 7,
@@ -54591,7 +54562,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 IVORY - TOWEL KITC IVORY BTP-800",
     "price": 9.0,
     "stock": 6992,
-    "sales": 128,
+    "sales": 133,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 8,
@@ -54631,7 +54602,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 BANANA AZUL - TOWEL KITC BANANA AZUL BTP-892",
     "price": 9.0,
     "stock": 4666,
-    "sales": 31,
+    "sales": 32,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 4,
@@ -54753,7 +54724,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 BANANA DUSTY BLUE - TOWEL KITC BANANA DUSTY BLUE BTP-892",
     "price": 9.0,
     "stock": 6156,
-    "sales": 40,
+    "sales": 41,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 7,
@@ -54794,7 +54765,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 POPCORN PTIC WHITE - TOWEL KITC POPCORN PTIC WHITE BTP-8920",
     "price": 9.0,
     "stock": 8286,
-    "sales": 106,
+    "sales": 108,
     "branches": {
       "05-Haifa Mall": 7,
       "07-Arab Mall": 6,
@@ -54873,7 +54844,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 POPCORN DK.CHARCAL - TOWEL KITC POPCORN DK.CHARCAL BTP-8920",
     "price": 9.0,
     "stock": 3636,
-    "sales": 54,
+    "sales": 56,
     "branches": {
       "05-Haifa Mall": 2,
       "07-Arab Mall": 4,
@@ -54993,7 +54964,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 POPCORN BEIGE - TOWEL KITC POPCORN BEIGE BTP-8920",
     "price": 9.0,
     "stock": 4576,
-    "sales": 54,
+    "sales": 57,
     "branches": {
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 9,
@@ -55032,7 +55003,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 POPCORN SILVER - TOWEL KITC POPCORN SILVER BTP-8920",
     "price": 9.0,
     "stock": 4576,
-    "sales": 121,
+    "sales": 123,
     "branches": {
       "05-Haifa Mall": 5,
       "06-Red Sea Mall": 25,
@@ -55072,7 +55043,7 @@
     "name": "روب حمام أطفال | PRINCES-2 GIRLS مقاس 10 - BATH ROBE GIRLS KIDS PRINCES-2 SIZE 10/12",
     "price": 69.0,
     "stock": 1131,
-    "sales": 54,
+    "sales": 57,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 10,
@@ -55111,7 +55082,7 @@
     "name": "روب حمام أطفال | MERMAID GIRLS مقاس 14 - BATH ROBE GIRLS KIDS MERMAID SIZE 14/16",
     "price": 69.0,
     "stock": 370,
-    "sales": 30,
+    "sales": 31,
     "branches": {
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 5,
@@ -55144,7 +55115,7 @@
     "name": "روب حمام أطفال | TURTLE BOYS مقاس 6 - BATH ROBE BOYS KIDS TURTLE 6/8",
     "price": 69.0,
     "stock": 23,
-    "sales": 25,
+    "sales": 26,
     "branches": {
       "04-Andalos Mall": 1,
       "06-Red Sea Mall": 1,
@@ -55185,7 +55156,7 @@
     "name": "روب حمام أطفال | MERMAID GIRLS مقاس 10 - BATH ROBE GIRLS KIDS MERMAID SIZE 10/12",
     "price": 69.0,
     "stock": 1089,
-    "sales": 68,
+    "sales": 69,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 4,
@@ -55424,7 +55395,7 @@
     "name": "روب حمام أطفال | PENGUIN GIRLS مقاس 10 - BATH ROBE GIRLS KIDS PENGUIN 10/12",
     "price": 69.0,
     "stock": 201,
-    "sales": 37,
+    "sales": 38,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 8,
@@ -55536,7 +55507,7 @@
     "name": "روب حمام أطفال | SHEEP GIRLS مقاس 10 - BATH ROBE GIRLS KIDS SHEEP 10/12",
     "price": 69.0,
     "stock": 34,
-    "sales": 62,
+    "sales": 63,
     "branches": {
       "05-Haifa Mall": 4,
       "06-Red Sea Mall": 3,
@@ -55702,7 +55673,7 @@
     "name": "روب حمام أطفال | SHARK BOYS مقاس 10 - BATH ROBE BOYS KIDS SHARK SIZE 10/12",
     "price": 69.0,
     "stock": 1156,
-    "sales": 64,
+    "sales": 66,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
@@ -55743,7 +55714,7 @@
     "name": "روب حمام أطفال | SHARK BOYS مقاس 14 - BATH ROBE BOYS KIDS SHARK SIZE 14/16",
     "price": 69.0,
     "stock": 350,
-    "sales": 31,
+    "sales": 33,
     "branches": {
       "05-Haifa Mall": 4,
       "07-Arab Mall": 2,
@@ -55773,7 +55744,7 @@
     "name": "روب حمام أطفال | MONSTER BOYS مقاس 6 - BATH ROBE BOYS KIDS MONSTER SIZE 6/8",
     "price": 69.0,
     "stock": 532,
-    "sales": 49,
+    "sales": 51,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 9,
@@ -55860,7 +55831,7 @@
     "name": "روب حمام أطفال | MERMAID GIRLS مقاس 6 - BATH ROBE GIRLS KIDS MERMAID SIZE 6/8",
     "price": 69.0,
     "stock": 544,
-    "sales": 42,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 8,
@@ -55903,7 +55874,7 @@
     "name": "روب حمام أطفال | OWL GIRLS مقاس 14 - BATH ROBE GIRLS KIDS OWL SIZE 14/16",
     "price": 69.0,
     "stock": 364,
-    "sales": 44,
+    "sales": 45,
     "branches": {
       "06-Red Sea Mall": 3,
       "07-Arab Mall": 2,
@@ -55938,7 +55909,7 @@
     "name": "روب حمام أطفال | OWL GIRLS مقاس 10 - BATH ROBE GIRLS KIDS OWL SIZE 10/12",
     "price": 69.0,
     "stock": 1117,
-    "sales": 49,
+    "sales": 52,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 8,
@@ -55978,7 +55949,7 @@
     "name": "روب حمام أطفال | OWL GIRLS مقاس 6 - BATH ROBE GIRLS KIDS OWL SIZE 6/8",
     "price": 69.0,
     "stock": 532,
-    "sales": 42,
+    "sales": 44,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 4,
@@ -56103,7 +56074,7 @@
     "name": "روب حمام أطفال | RINO BOYS مقاس 14 - BATH ROBE BOYS KIDS RINO SIZE 14/16",
     "price": 69.0,
     "stock": 335,
-    "sales": 52,
+    "sales": 54,
     "branches": {
       "06-Red Sea Mall": 2,
       "07-Arab Mall": 1,
@@ -56143,7 +56114,7 @@
     "name": "روب حمام أطفال | MONSTER BOYS مقاس 10 - BATH ROBE BOYS KIDS MONSTER SIZE 10/12",
     "price": 69.0,
     "stock": 1102,
-    "sales": 37,
+    "sales": 38,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 9,
@@ -56188,7 +56159,7 @@
     "name": "روب حمام أطفال | RINO BOYS مقاس 10 - BATH ROBE BOYS KIDS RINO SIZE 10/12",
     "price": 69.0,
     "stock": 1166,
-    "sales": 37,
+    "sales": 39,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 5,
@@ -56230,7 +56201,7 @@
     "name": "روب حمام أطفال | RINO BOYS مقاس 6 - BATH ROBE BOYS KIDS RINO SIZE 6/8",
     "price": 69.0,
     "stock": 531,
-    "sales": 61,
+    "sales": 63,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 5,
@@ -56316,7 +56287,7 @@
     "name": "روب حمام أطفال | WHALE BOYS مقاس 10 - BATH ROBE BOYS KIDS WHALE SIZE 10/12",
     "price": 69.0,
     "stock": 1072,
-    "sales": 10,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 16,
       "05-Haifa Mall": 12,
@@ -56361,7 +56332,7 @@
     "name": "روب حمام أطفال | WHALE BOYS مقاس 6 - BATH ROBE BOYS KIDS WHALE SIZE 6/8",
     "price": 69.0,
     "stock": 552,
-    "sales": 17,
+    "sales": 18,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 14,
@@ -56403,7 +56374,7 @@
     "name": "روب حمام أطفال | MONSTER BOYS مقاس 14 - BATH ROBE BOYS KIDS MONSTER SIZE 14/16",
     "price": 69.0,
     "stock": 360,
-    "sales": 15,
+    "sales": 17,
     "branches": {
       "09-Al-Salam Mall": 4,
       "13-Al-Yasmin Mall": 1,
@@ -59833,7 +59804,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 AQUA - TOWEL KITC AQUA BTP-800",
     "price": 9.0,
     "stock": 2994,
-    "sales": 49,
+    "sales": 50,
     "branches": {
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 5,
@@ -59872,7 +59843,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 MOUVE - TOWEL KITC MOUVE BTP-800",
     "price": 9.0,
     "stock": 2622,
-    "sales": 39,
+    "sales": 41,
     "branches": {
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 4,
@@ -60107,7 +60078,7 @@
       "24-Yanbu Dana Mall": 2,
       "16-Ehsa Othaim Mall": 1,
       "17-Arar Othaim Mall": 2,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 3,
       "21-Abha Al_Rashid Mall New": 7,
       "43-Mujan Park": 13,
       "52-Al_Baha Mall": 7,
@@ -60119,7 +60090,7 @@
       "36-Al jubail Mall": 2,
       "44-Al-Jouf Center": 4,
       "47-Al-Nakheel Plaza": 4,
-      "Transit": 8,
+      "Transit": 6,
       "Warehouse": 15,
       "warehouse riyadh": 2
     },
@@ -60169,7 +60140,7 @@
     "name": "طقم لحاف كينغ | 8 قطع  EXETER BEIGE - *COMFORTER KING EXETER BEIGE 8PCS KIT",
     "price": 599.0,
     "stock": 124,
-    "sales": 47,
+    "sales": 50,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -60209,7 +60180,7 @@
       "16-Ehsa Othaim Mall": 6,
       "49-AlAhsa Mall": 2,
       "17-Arar Othaim Mall": 1,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 3,
       "21-Abha Al_Rashid Mall New": 4,
       "43-Mujan Park": 7,
       "52-Al_Baha Mall": 4,
@@ -60221,7 +60192,6 @@
       "36-Al jubail Mall": 3,
       "44-Al-Jouf Center": 2,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 1,
       "Warehouse": 66,
       "warehouse riyadh": 58
     },
@@ -60404,7 +60374,7 @@
     "name": "طقم لحاف كينغ | 8 قطع LUXE BROWN MITALLIC - *COMFORTER KING LUXE BROWN MITALLIC 8PCS KIT",
     "price": 599.0,
     "stock": 78,
-    "sales": 172,
+    "sales": 176,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 5,
@@ -60439,7 +60409,7 @@
       "16-Ehsa Othaim Mall": 1,
       "49-AlAhsa Mall": 6,
       "17-Arar Othaim Mall": 5,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 6,
       "43-Mujan Park": 0,
       "52-Al_Baha Mall": 2,
       "1906-LAVANDA PARK": 0,
@@ -60449,7 +60419,7 @@
       "42-Dareen Mall Dammam": 6,
       "44-Al-Jouf Center": 2,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 10,
+      "Transit": 4,
       "Warehouse": 73,
       "warehouse riyadh": 5
     },
@@ -60538,7 +60508,7 @@
     "name": "طقم لحاف كينغ | 11 قطعة GULRON COTTON - *COMFORTER KING GULRON COTTON 11PCS KIT",
     "price": 695.0,
     "stock": 38,
-    "sales": 33,
+    "sales": 35,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -60932,7 +60902,7 @@
     "name": "لباد سرير كينغ | CLOUD DREAM - MATRESSPAD KING CLOUD DREAM",
     "price": 399.0,
     "stock": 6666,
-    "sales": 66,
+    "sales": 69,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 1,
@@ -60974,7 +60944,7 @@
       "16-Ehsa Othaim Mall": 3,
       "49-AlAhsa Mall": 10,
       "17-Arar Othaim Mall": 3,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 8,
       "21-Abha Al_Rashid Mall New": 9,
       "43-Mujan Park": 6,
       "52-Al_Baha Mall": 4,
@@ -60986,7 +60956,7 @@
       "36-Al jubail Mall": 4,
       "44-Al-Jouf Center": 1,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 10,
+      "Transit": 4,
       "Warehouse": 5127,
       "warehouse riyadh": 1539
     },
@@ -61196,7 +61166,7 @@
     "name": "طقم لحاف كينغ | 11 قطعة CASCADE CAIRA COTTON - *COMFORTER KING CASCADE CAIRA COTTON 11PCS KIT",
     "price": 695.0,
     "stock": 96,
-    "sales": 58,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -61234,7 +61204,7 @@
       "16-Ehsa Othaim Mall": 0,
       "49-AlAhsa Mall": 2,
       "17-Arar Othaim Mall": 2,
-      "19-Hail Othaim Mall": 3,
+      "19-Hail Othaim Mall": 5,
       "21-Abha Al_Rashid Mall New": 3,
       "43-Mujan Park": 6,
       "52-Al_Baha Mall": 2,
@@ -61245,7 +61215,7 @@
       "42-Dareen Mall Dammam": 4,
       "44-Al-Jouf Center": 2,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 4,
+      "Transit": 2,
       "Warehouse": 82,
       "warehouse riyadh": 14
     },
@@ -61371,7 +61341,7 @@
     "name": "أكواب حرارية | LEAK PROOF SKY BLUE 20OZ - BOTTEL WATER LEAK PROOF SKY BLUE 20OZ",
     "price": 29.0,
     "stock": 1130,
-    "sales": 109,
+    "sales": 111,
     "branches": {
       "04-Andalos Mall": 23,
       "05-Haifa Mall": 9,
@@ -61424,7 +61394,7 @@
     "name": "أكواب حرارية | LEAK PROOF FUSHIA 20OZ - BOTTEL WATER LEAK PROOF FUSHIA 20OZ",
     "price": 29.0,
     "stock": 26,
-    "sales": 67,
+    "sales": 70,
     "branches": {
       "07-Arab Mall": 11,
       "13-Al-Yasmin Mall": 5,
@@ -61504,7 +61474,7 @@
     "name": "أكواب حرارية | LEAK PROOF OMBLER PINK 20OZ - BOTTEL WATER LEAK PROOF OMBLER PINK 20OZ",
     "price": 29.0,
     "stock": 655,
-    "sales": 67,
+    "sales": 70,
     "branches": {
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 5,
@@ -61574,7 +61544,7 @@
       "24-Yanbu Dana Mall": 15,
       "16-Ehsa Othaim Mall": 12,
       "17-Arar Othaim Mall": 8,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 13,
       "21-Abha Al_Rashid Mall New": 8,
       "22-Tabuk Park": 6,
       "27-Dhahran Mall khobar": 12,
@@ -61582,7 +61552,6 @@
       "36-Al jubail Mall": 2,
       "44-Al-Jouf Center": 9,
       "47-Al-Nakheel Plaza": 6,
-      "Transit": 12,
       "Warehouse": 306,
       "warehouse riyadh": 840
     },
@@ -61705,7 +61674,7 @@
     "name": "أكواب حرارية |PEACH 24OZ - TUMBER WITH STRAW PEACH 24OZ",
     "price": 29.0,
     "stock": 700,
-    "sales": 54,
+    "sales": 56,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 2,
@@ -61803,7 +61772,7 @@
     "name": "أكواب حرارية |BLUE 24OZ - TUMBER WITH STRAW BLUE 24OZ",
     "price": 29.0,
     "stock": 1125,
-    "sales": 71,
+    "sales": 72,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 6,
@@ -61892,7 +61861,7 @@
     "name": "أكواب حرارية |OMBLER BLACK 24OZ - TUMBER WITH STRAW OMBLER BLACK 24OZ",
     "price": 29.0,
     "stock": 1449,
-    "sales": 52,
+    "sales": 55,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 10,
@@ -61942,7 +61911,7 @@
     "name": "أكواب حرارية |OMBLER PINK 24OZ - TUMBER WITH STRAW OMBLER PINK 24OZ",
     "price": 29.0,
     "stock": 708,
-    "sales": 39,
+    "sales": 40,
     "branches": {
       "05-Haifa Mall": 4,
       "06-Red Sea Mall": 6,
@@ -62076,7 +62045,7 @@
     "name": "أكواب حرارية | LEAK PROOF YELLOW 20OZ - BOTTEL WATER LEAK PROOF YELLOW 20OZ",
     "price": 29.0,
     "stock": 374,
-    "sales": 31,
+    "sales": 32,
     "branches": {
       "05-Haifa Mall": 7,
       "06-Red Sea Mall": 1,
@@ -62098,7 +62067,7 @@
       "26-Al-Noor Mall Madinah": 12,
       "16-Ehsa Othaim Mall": 14,
       "17-Arar Othaim Mall": 3,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 13,
       "43-Mujan Park": 1,
       "22-Tabuk Park": 14,
       "27-Dhahran Mall khobar": 3,
@@ -62106,7 +62075,6 @@
       "42-Dareen Mall Dammam": 1,
       "36-Al jubail Mall": 8,
       "44-Al-Jouf Center": 6,
-      "Transit": 12,
       "Warehouse": 3,
       "warehouse riyadh": 371
     },
@@ -62237,7 +62205,7 @@
     "name": "دمية طرية | TEDDY BEAR PURPLE 30CM BTY-17 - TEDDY BEAR PURPLE 30CM BTY-17",
     "price": 39.0,
     "stock": 356,
-    "sales": 35,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 10,
       "06-Red Sea Mall": 1,
@@ -62498,7 +62466,7 @@
     "name": "دمية طرية | TEDDY BEAR BROWN 25CM BTY-14 - TEDDY BEAR BROWN 25CM BTY-14",
     "price": 29.0,
     "stock": 314,
-    "sales": 58,
+    "sales": 61,
     "branches": {
       "04-Andalos Mall": 25,
       "06-Red Sea Mall": 1,
@@ -62537,7 +62505,7 @@
     "name": "دمية طرية | TEDDY BEAR BEIGE 30CM BTY-9 - TEDDY BEAR BEIGE 30CM BTY-9",
     "price": 39.0,
     "stock": 286,
-    "sales": 22,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 12,
       "07-Arab Mall": 42,
@@ -62583,7 +62551,7 @@
     "name": "دمية طرية | TEDDY BEAR BEIGE 25CM BTY-14 - TEDDY BEAR BEIGE 25CM BTY-14",
     "price": 29.0,
     "stock": 2771,
-    "sales": 46,
+    "sales": 48,
     "branches": {
       "06-Red Sea Mall": 1,
       "09-Al-Salam Mall": 30,
@@ -62630,7 +62598,7 @@
     "name": "دمية طرية | TEDDY BEAR BEIGE 25CM BTY-13 - TEDDY BEAR BEIGE 25CM BTY-13",
     "price": 29.0,
     "stock": 789,
-    "sales": 26,
+    "sales": 27,
     "branches": {
       "06-Red Sea Mall": 1,
       "07-Arab Mall": 31,
@@ -62719,7 +62687,7 @@
     "name": "دمية طرية | TEDDY BEAR BEIGE WITH PINK 25CM BTY-11 - TEDDY BEAR BEIGE WITH PINK 25CM BTY-11",
     "price": 29.0,
     "stock": 499,
-    "sales": 32,
+    "sales": 33,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 1,
@@ -62759,7 +62727,7 @@
     "name": "دمية طرية | TEDDY BEAR BEIGE WITH BLUE 25CM BTY-11 - TEDDY BEAR BEIGE WITH BLUE 25CM BTY-11",
     "price": 29.0,
     "stock": 789,
-    "sales": 28,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 1,
@@ -62880,7 +62848,7 @@
     "name": "منشفة حمام | JACQUARD LENA CHARCOAL 90*50 - TOWEL JACQUARD LENA CHARCOAL 90*50",
     "price": 25.0,
     "stock": 12,
-    "sales": 6,
+    "sales": 7,
     "branches": {
       "04-Andalos Mall": 2,
       "09-Al-Salam Mall": 2,
@@ -63281,7 +63249,7 @@
     "name": "دعاسة حمام | مقاس LT.GREY 30*20 - BATH MAT LT.GREY 30*20",
     "price": 19.0,
     "stock": 1733,
-    "sales": 36,
+    "sales": 37,
     "branches": {
       "05-Haifa Mall": 3,
       "06-Red Sea Mall": 3,
@@ -63417,7 +63385,7 @@
     "name": "منشفة بحر | مقاس CABANA BEACH AMERICANA 182.9*96.5 - TOWEL BEACH CABANA BEACH AMERICANA 182.9*96.5",
     "price": 59.0,
     "stock": 744,
-    "sales": 113,
+    "sales": 114,
     "branches": {
       "25-Rabwa Othaim Mall": 8,
       "32-Atyaf Mall Riyadh": 4,
@@ -63446,7 +63414,7 @@
     "name": "منشفة بحر | مقاس CABANA BEACH 182.9*96.5 - TOWEL BEACH CABANA BEACH 182.9*96.5",
     "price": 59.0,
     "stock": 1686,
-    "sales": 85,
+    "sales": 87,
     "branches": {
       "25-Rabwa Othaim Mall": 6,
       "32-Atyaf Mall Riyadh": 4,
@@ -63790,7 +63758,7 @@
     "name": "طقم لحاف كينغ | 11 قطع SHIMMERY LEAF - *COMFORTER KING SHIMMERY LEAF COTTON 11PCS KIT",
     "price": 799.0,
     "stock": 35,
-    "sales": 11,
+    "sales": 12,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -64141,7 +64109,7 @@
     "name": "طقم لحاف فل | 8 قطع ROPE - *COMFORTER FULL ROPE 11PCS KIT",
     "price": 799.0,
     "stock": 77,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 1,
@@ -64464,7 +64432,7 @@
     "name": "منشفة بحر | مقاس PINK YELLOW 192.9*91.4 - TOWEL BEACH PINK YELLOW 192.9*91.4",
     "price": 59.0,
     "stock": 834,
-    "sales": 112,
+    "sales": 113,
     "branches": {
       "12-Al_Hamra Mall": 4,
       "38-Al_Riyadh Park": 2,
@@ -64492,7 +64460,7 @@
     "name": "منشفة بحر | مقاس NAVY BLUE 192.9*91.4 - TOWEL BEACH NAVY BLUE 192.9*91.4",
     "price": 59.0,
     "stock": 1648,
-    "sales": 83,
+    "sales": 85,
     "branches": {
       "12-Al_Hamra Mall": 11,
       "25-Rabwa Othaim Mall": 8,
@@ -64553,7 +64521,7 @@
     "name": "منشفة حمام | JACQUARD BOWS PINK&WHITE 90*50 - TOWEL JACQUARD BOWS PINK&WHITE 90*50",
     "price": 25.0,
     "stock": 1249,
-    "sales": 22,
+    "sales": 23,
     "branches": {
       "04-Andalos Mall": 1,
       "07-Arab Mall": 8,
@@ -64912,7 +64880,7 @@
     "name": "منشفة حمام | JACQUARD FLOWER GREEN 90*50 - TOWEL JACQUARD FLOWER GREEN 90*50",
     "price": 25.0,
     "stock": 710,
-    "sales": 6,
+    "sales": 7,
     "branches": {
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 1,
@@ -65007,7 +64975,7 @@
     "name": "منشفة حمام | JACQUARD DAMASK GREEN 90*50 - TOWEL JACQUARD DAMASK GREEN 90*50",
     "price": 25.0,
     "stock": 233,
-    "sales": 8,
+    "sales": 9,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 13,
@@ -65111,7 +65079,7 @@
     "name": "منشفة حمام | JACQUARD DAMASK NAVY 90*50 - TOWEL JACQUARD DAMASK NAVY 90*50",
     "price": 25.0,
     "stock": 33,
-    "sales": 11,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -65202,7 +65170,7 @@
     "name": "منشفة بحر | مقاس PINEAPPLES 182.9*101.6 - TOWEL BEACH PINEAPPLES 182.9*101.6",
     "price": 59.0,
     "stock": 127,
-    "sales": 222,
+    "sales": 227,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 1,
@@ -65380,7 +65348,7 @@
     "name": "منشفة بحر | مقاس BOHO BEACH 182.9*101.6 - TOWEL BEACH BOHO BEACH 182.9*101.6",
     "price": 59.0,
     "stock": 0,
-    "sales": 79,
+    "sales": 82,
     "branches": {
       "12-Al_Hamra Mall": 11,
       "25-Rabwa Othaim Mall": 6,
@@ -65412,7 +65380,7 @@
     "name": "منشفة بحر | مقاس MGEO BEACH 182.9*101.6 - TOWEL BEACH MGEO BEACH 182.9*101.6",
     "price": 59.0,
     "stock": 2,
-    "sales": 79,
+    "sales": 83,
     "branches": {
       "12-Al_Hamra Mall": 9,
       "15-Riyadh Othaim Mall": 6,
@@ -65799,7 +65767,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 LT.PINK - TOWEL KITC LT.PINK BTP-901",
     "price": 9.0,
     "stock": 5136,
-    "sales": 37,
+    "sales": 38,
     "branches": {
       "05-Haifa Mall": 6,
       "06-Red Sea Mall": 2,
@@ -66024,7 +65992,7 @@
       "16-Ehsa Othaim Mall": 2,
       "49-AlAhsa Mall": 2,
       "17-Arar Othaim Mall": 2,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 3,
       "21-Abha Al_Rashid Mall New": 4,
       "43-Mujan Park": 3,
       "52-Al_Baha Mall": 4,
@@ -66035,7 +66003,7 @@
       "42-Dareen Mall Dammam": 6,
       "36-Al jubail Mall": 2,
       "47-Al-Nakheel Plaza": 4,
-      "Transit": 4,
+      "Transit": 2,
       "Warehouse": 25,
       "warehouse riyadh": 114
     },
@@ -66050,7 +66018,7 @@
     "name": "طقم لحاف كينغ | 11 قطعة ISABELLA SILVER - *COMFORTER KING ISABELLA SILVER 11PCS KIT",
     "price": 995.0,
     "stock": 92,
-    "sales": 2,
+    "sales": 3,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -66433,9 +66401,8 @@
       "24-Yanbu Dana Mall": 6,
       "16-Ehsa Othaim Mall": 4,
       "49-AlAhsa Mall": 6,
-      "19-Hail Othaim Mall": 5,
+      "19-Hail Othaim Mall": 11,
       "42-Dareen Mall Dammam": 6,
-      "Transit": 6,
       "Warehouse": 346,
       "warehouse riyadh": 323
     },
@@ -66508,7 +66475,7 @@
     "name": "كيس مخدة كينغ | 2 قطعة SATIN PINK - PILLOW CASE KING SATIN PINK 2PCS",
     "price": 39.0,
     "stock": 114,
-    "sales": 64,
+    "sales": 67,
     "branches": {
       "05-Haifa Mall": 0,
       "13-Al-Yasmin Mall": 5,
@@ -66729,7 +66696,7 @@
     "name": "دعاسة حمام | TUFTED TEAL - BATH MAT TUFTED TEAL",
     "price": 19.0,
     "stock": 2248,
-    "sales": 2,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 5,
       "06-Red Sea Mall": 6,
@@ -66848,7 +66815,7 @@
     "name": "منشفة بحر | مقاس 101*183 AMERICANA - BEACH TOWEL AMERICANA 101*183",
     "price": 59.0,
     "stock": 2401,
-    "sales": 295,
+    "sales": 308,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 8,
@@ -66910,7 +66877,7 @@
     "name": "دعاسة حمام | TUFTED BEIGE - BATH MAT TUFTED BEIGE",
     "price": 19.0,
     "stock": 187,
-    "sales": 20,
+    "sales": 21,
     "branches": {
       "48 - Jeddah Park": 1,
       "12-Al_Hamra Mall": 2,
@@ -66977,7 +66944,7 @@
     "name": "منشفة بحر | مقاس 101*183 TOUR FRUIT - BEACH TOWEL TOUR FRUIT 101*183",
     "price": 59.0,
     "stock": 4827,
-    "sales": 305,
+    "sales": 309,
     "branches": {
       "04-Andalos Mall": 24,
       "05-Haifa Mall": 7,
@@ -67035,7 +67002,7 @@
     "name": "منشفة بحر | مقاس 101*183 PALMS SUNSET - BEACH TOWEL PALMS SUNSET 101*183",
     "price": 59.0,
     "stock": 2186,
-    "sales": 323,
+    "sales": 330,
     "branches": {
       "04-Andalos Mall": 21,
       "05-Haifa Mall": 22,
@@ -67096,7 +67063,7 @@
     "name": "منشفة بحر | مقاس 101*183 DAY THE SEA - BEACH TOWEL DAY THE SEA 101*183",
     "price": 59.0,
     "stock": 223,
-    "sales": 331,
+    "sales": 339,
     "branches": {
       "04-Andalos Mall": 22,
       "05-Haifa Mall": 8,
@@ -67355,14 +67322,13 @@
       "26-Al-Noor Mall Madinah": 2,
       "16-Ehsa Othaim Mall": 2,
       "49-AlAhsa Mall": 1,
-      "19-Hail Othaim Mall": 4,
+      "19-Hail Othaim Mall": 10,
       "22-Tabuk Park": 5,
       "27-Dhahran Mall khobar": 9,
       "28-Al Nakheel Mall Dammam": 1,
       "42-Dareen Mall Dammam": 9,
       "36-Al jubail Mall": 2,
       "47-Al-Nakheel Plaza": 3,
-      "Transit": 6,
       "Warehouse": 16,
       "warehouse riyadh": 23
     },
@@ -67408,7 +67374,7 @@
     "name": "دمية طرية |  FIRES FRENCE - SMOOSHIE TOY FIRES FRENCE 0153",
     "price": 69.0,
     "stock": 527,
-    "sales": 26,
+    "sales": 27,
     "branches": {
       "04-Andalos Mall": 2,
       "06-Red Sea Mall": 3,
@@ -67481,7 +67447,7 @@
     "name": "مخدة مربع | ALERNATIVE DOWN SHAM EURO - PILLOW ALERNATIVE DOWN SHAM EURO",
     "price": 99.0,
     "stock": 2456,
-    "sales": 367,
+    "sales": 375,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 6,
@@ -67598,7 +67564,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 BLUE - TOWEL KITC BLUE BTP-901",
     "price": 9.0,
     "stock": 3852,
-    "sales": 23,
+    "sales": 24,
     "branches": {
       "05-Haifa Mall": 10,
       "06-Red Sea Mall": 6,
@@ -67639,7 +67605,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 DK.SAGE - TOWEL KITC DK.SAGE BTP-901",
     "price": 9.0,
     "stock": 5136,
-    "sales": 46,
+    "sales": 48,
     "branches": {
       "05-Haifa Mall": 5,
       "06-Red Sea Mall": 17,
@@ -67678,7 +67644,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 SLATE GREY - TOWEL KITC SLATE GREY BTP-901",
     "price": 9.0,
     "stock": 5136,
-    "sales": 35,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 2,
@@ -67756,7 +67722,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 SILVER GREY - TOWEL KITC SILVER GREY BTP-901",
     "price": 9.0,
     "stock": 6420,
-    "sales": 47,
+    "sales": 48,
     "branches": {
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 14,
@@ -67890,7 +67856,7 @@
     "name": "دمية طرية |  CUP CAT - SMOOSHIE TOY CUP CAT 0290",
     "price": 69.0,
     "stock": 257,
-    "sales": 22,
+    "sales": 25,
     "branches": {
       "04-Andalos Mall": 2,
       "06-Red Sea Mall": 3,
@@ -67915,7 +67881,7 @@
       "23-Alia Mall Madinah": 7,
       "26-Al-Noor Mall Madinah": 4,
       "16-Ehsa Othaim Mall": 11,
-      "19-Hail Othaim Mall": 3,
+      "19-Hail Othaim Mall": 9,
       "43-Mujan Park": 1,
       "22-Tabuk Park": 4,
       "27-Dhahran Mall khobar": 4,
@@ -67923,7 +67889,6 @@
       "42-Dareen Mall Dammam": 3,
       "36-Al jubail Mall": 5,
       "47-Al-Nakheel Plaza": 5,
-      "Transit": 6,
       "Warehouse": 126,
       "warehouse riyadh": 131
     },
@@ -68052,7 +68017,7 @@
     "name": "دمية طرية |  TOAST - SMOOSHIE TOY TOAST 0320",
     "price": 69.0,
     "stock": 683,
-    "sales": 4,
+    "sales": 5,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -68331,7 +68296,7 @@
     "name": "دمية طرية |  AVOCADO - SMOOSHIE TOY AVOCADO 0252",
     "price": 69.0,
     "stock": 209,
-    "sales": 16,
+    "sales": 17,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -68358,13 +68323,12 @@
       "24-Yanbu Dana Mall": 7,
       "16-Ehsa Othaim Mall": 4,
       "17-Arar Othaim Mall": 1,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 6,
       "43-Mujan Park": 3,
       "22-Tabuk Park": 2,
       "42-Dareen Mall Dammam": 6,
       "36-Al jubail Mall": 2,
       "47-Al-Nakheel Plaza": 4,
-      "Transit": 6,
       "Warehouse": 84,
       "warehouse riyadh": 125
     },
@@ -68620,7 +68584,7 @@
     "name": "منشفة بحر | مقاس 101*183 FUN FLAMINGO - BEACH TOWEL FUN FLAMINGO 101*183",
     "price": 59.0,
     "stock": 3696,
-    "sales": 212,
+    "sales": 215,
     "branches": {
       "04-Andalos Mall": 33,
       "05-Haifa Mall": 24,
@@ -68659,7 +68623,7 @@
     "name": "منشفة بحر | مقاس 101*183 PALM TROUPICAL - BEACH TOWEL PALM TROUPICAL 101*183",
     "price": 59.0,
     "stock": 4716,
-    "sales": 293,
+    "sales": 297,
     "branches": {
       "04-Andalos Mall": 30,
       "05-Haifa Mall": 31,
@@ -69100,7 +69064,7 @@
     "name": "منشفة بحر | مقاس PACK4 DUSTY PINK WHITE 70*35 - TOWEL BEACH DUSTY PINK WHITE 70*35 PACK4",
     "price": 49.0,
     "stock": 62,
-    "sales": 22,
+    "sales": 23,
     "branches": {
       "06-Red Sea Mall": 1,
       "13-Al-Yasmin Mall": 10,
@@ -69288,7 +69252,7 @@
     "name": "شال CHENILE OATMEAL 081TH - THROW CHENILE OATMEAL 081TH",
     "price": 59.0,
     "stock": 24,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "05-Haifa Mall": 1,
       "07-Arab Mall": 6,
@@ -69324,7 +69288,7 @@
     "name": "شال CHENILE NAVY 004TH - THROW CHENILE NAVY 004TH",
     "price": 59.0,
     "stock": 1060,
-    "sales": 59,
+    "sales": 60,
     "branches": {
       "04-Andalos Mall": 21,
       "05-Haifa Mall": 9,
@@ -69389,7 +69353,7 @@
     "name": "شال CHENILE BLUSH 004TH - THROW CHENILE BLUSH 004TH",
     "price": 59.0,
     "stock": 678,
-    "sales": 62,
+    "sales": 63,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 7,
@@ -69502,7 +69466,7 @@
     "name": "شال CHENILE IVORY 004TH - THROW CHENILE IVORY 004TH",
     "price": 59.0,
     "stock": 188,
-    "sales": 54,
+    "sales": 55,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -69755,7 +69719,7 @@
     "name": "شال CHENILE DARK GREY 081TH - THROW CHENILE DARK GREY 081TH",
     "price": 59.0,
     "stock": 935,
-    "sales": 61,
+    "sales": 63,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 14,
@@ -72445,7 +72409,7 @@
     "name": "PORCELAIN CUP WITH DISH",
     "price": 17.0,
     "stock": 0,
-    "sales": 5,
+    "sales": 11,
     "branches": {
       "57-Sauq7": 112,
       "17-Arar Othaim Mall": 1
@@ -72957,7 +72921,7 @@
     "name": "*ROPE EMBRODERY KING COMFORTER 11 PCS KIT - *COMFORTER KING ROPE EMBRODERY 11PCS KIT",
     "price": 1299.0,
     "stock": 79,
-    "sales": 56,
+    "sales": 58,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 2,
@@ -72998,7 +72962,7 @@
       "16-Ehsa Othaim Mall": 5,
       "49-AlAhsa Mall": 3,
       "17-Arar Othaim Mall": 8,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 4,
       "21-Abha Al_Rashid Mall New": 6,
       "43-Mujan Park": 5,
       "52-Al_Baha Mall": 3,
@@ -73010,7 +72974,7 @@
       "36-Al jubail Mall": 2,
       "44-Al-Jouf Center": 2,
       "47-Al-Nakheel Plaza": 6,
-      "Transit": 6,
+      "Transit": 4,
       "Warehouse": 79
     },
     "image_path": "44746.webp"
@@ -73183,7 +73147,7 @@
     "name": "*LEXY BLUSH KING COMFORTER 8 PCS KIT - *COMFORTER KING LEXY BLUSH 8PCS KIT",
     "price": 495.0,
     "stock": 39,
-    "sales": 27,
+    "sales": 29,
     "branches": {
       "07-Arab Mall": 1,
       "00-GIFTS": 1,
@@ -76140,7 +76104,7 @@
     "name": "حقيبة قماش - TOTE BAGS FABRIC",
     "price": 19.0,
     "stock": 3634,
-    "sales": 116,
+    "sales": 117,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 2,
@@ -77495,7 +77459,7 @@
     "name": "فواحة | 500 مل GARDEN LAVENDER BLACK - ROOM SPRAY GARDEN LAVENDER BLACK 500ML",
     "price": 79.0,
     "stock": 598,
-    "sales": 130,
+    "sales": 131,
     "branches": {
       "04-Andalos Mall": 37,
       "05-Haifa Mall": 34,
@@ -77706,7 +77670,7 @@
     "name": "فواحة | 500 مل BLACK CHERRY BLACK - ROOM SPRAY BLACK CHERRY 500ML",
     "price": 79.0,
     "stock": 199,
-    "sales": 61,
+    "sales": 62,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -77770,7 +77734,7 @@
     "name": "فواحة | 500 مل APRIL BREEZE BLACK - ROOM SPRAY  APRIL BREEZE BLACK 500ML",
     "price": 79.0,
     "stock": 102,
-    "sales": 45,
+    "sales": 46,
     "branches": {
       "04-Andalos Mall": 54,
       "05-Haifa Mall": 40,
@@ -78008,7 +77972,7 @@
     "name": "فواحة | 500 مل WHITE MUSK BLACK - FRESHENER BLACK WHITE MUSK 500ML",
     "price": 79.0,
     "stock": 1002,
-    "sales": 65,
+    "sales": 67,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 21,
@@ -79077,7 +79041,7 @@
     "name": "منشفة حمام | IVORY AIR-RICH - BATH SHEET AIR-RICH IVORY",
     "price": 69.0,
     "stock": 9756,
-    "sales": 54,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 9,
@@ -79138,7 +79102,7 @@
     "name": "منشفة حمام | WHITE AIR-RICH - BATH SHEET AIR-RICH WHITE",
     "price": 69.0,
     "stock": 9814,
-    "sales": 41,
+    "sales": 42,
     "branches": {
       "04-Andalos Mall": 24,
       "05-Haifa Mall": 10,
@@ -79204,7 +79168,7 @@
     "name": "منشفة حمام | LINEN AIR-RICH - BATH SHEET AIR-RICH LINEN",
     "price": 69.0,
     "stock": 1393,
-    "sales": 26,
+    "sales": 29,
     "branches": {
       "04-Andalos Mall": 3,
       "07-Arab Mall": 1,
@@ -79254,7 +79218,7 @@
     "name": "منشفة حمام | PINK AIR-RICH - BATH SHEET AIR-RICH PINK",
     "price": 69.0,
     "stock": 7898,
-    "sales": 29,
+    "sales": 30,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 7,
@@ -79449,7 +79413,7 @@
     "name": "فواحة | 200 مل BOUQUET ROSE COCODOR DIFFUSER DAFFODILS - FRESHENER DAFFODILS BOUQUEST ROSE 200ML",
     "price": 39.0,
     "stock": 1537,
-    "sales": 65,
+    "sales": 66,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 1,
@@ -79949,7 +79913,7 @@
     "name": "فواحة | 200 مل GARDEN LAVENDER SIMPLE DIFFUSER - ROOM SPRAY GARDEN LAVENDER 200ML",
     "price": 39.0,
     "stock": 2162,
-    "sales": 61,
+    "sales": 63,
     "branches": {
       "04-Andalos Mall": 86,
       "05-Haifa Mall": 22,
@@ -79992,7 +79956,7 @@
     "name": "فواحة | 200 مل WHITE JASMINE SIMPLE DIFFUSER - ROOM SPRAY WHITE JASMINE 200ML",
     "price": 39.0,
     "stock": 2092,
-    "sales": 62,
+    "sales": 63,
     "branches": {
       "04-Andalos Mall": 73,
       "05-Haifa Mall": 34,
@@ -80116,7 +80080,7 @@
     "name": "فواحة | 200 مل PINK SAND SIMPLE DIFFUSER - ROOM SPRAY PINK SAND 200ML",
     "price": 39.0,
     "stock": 676,
-    "sales": 47,
+    "sales": 48,
     "branches": {
       "04-Andalos Mall": 55,
       "05-Haifa Mall": 36,
@@ -81529,7 +81493,7 @@
     "name": "معطر غرف | 500 مل   BOMB SHELL COCODOR - ROOM SPRAY  BOMB SHELL 500ML",
     "price": 39.0,
     "stock": 4555,
-    "sales": 94,
+    "sales": 103,
     "branches": {
       "04-Andalos Mall": 15,
       "05-Haifa Mall": 14,
@@ -81565,7 +81529,7 @@
       "16-Ehsa Othaim Mall": 6,
       "49-AlAhsa Mall": 4,
       "17-Arar Othaim Mall": 2,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 36,
       "21-Abha Al_Rashid Mall New": 12,
       "43-Mujan Park": 5,
       "52-Al_Baha Mall": 16,
@@ -81575,7 +81539,6 @@
       "42-Dareen Mall Dammam": 5,
       "36-Al jubail Mall": 2,
       "44-Al-Jouf Center": 3,
-      "Transit": 36,
       "Warehouse": 2269,
       "warehouse riyadh": 2286
     },
@@ -81590,7 +81553,7 @@
     "name": "شال | SUPER SOFT RIPPLING - THROW SUPER SOFT RIPPLING",
     "price": 39.0,
     "stock": 1389,
-    "sales": 142,
+    "sales": 144,
     "branches": {
       "04-Andalos Mall": 17,
       "06-Red Sea Mall": 9,
@@ -81703,7 +81666,7 @@
     "name": "معطر غرف | 500 مل   RAIN ROSE COCODOR - ROOM SPRAY RAIN ROSE 500ML",
     "price": 39.0,
     "stock": 14707,
-    "sales": 84,
+    "sales": 88,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 20,
@@ -81740,7 +81703,7 @@
       "16-Ehsa Othaim Mall": 20,
       "49-AlAhsa Mall": 2,
       "17-Arar Othaim Mall": 1,
-      "19-Hail Othaim Mall": 12,
+      "19-Hail Othaim Mall": 30,
       "21-Abha Al_Rashid Mall New": 15,
       "43-Mujan Park": 14,
       "1906-LAVANDA PARK": 4,
@@ -81750,7 +81713,6 @@
       "42-Dareen Mall Dammam": 7,
       "44-Al-Jouf Center": 1,
       "47-Al-Nakheel Plaza": 4,
-      "Transit": 18,
       "Warehouse": 7327,
       "warehouse riyadh": 7380
     },
@@ -81765,7 +81727,7 @@
     "name": "معطر غرف | 500 مل   ROSE BOUQUET COCODOR - ROOM SPRAY ROSE BOUQUET 500ML",
     "price": 39.0,
     "stock": 182,
-    "sales": 601,
+    "sales": 607,
     "branches": {
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 3,
@@ -82097,7 +82059,7 @@
     "name": "شال | SUPER SOFT ROGER SQUARE - THROW SUPER SOFT ROGER SQUARE",
     "price": 39.0,
     "stock": 1896,
-    "sales": 129,
+    "sales": 130,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 8,
@@ -82155,7 +82117,7 @@
     "name": "شال | SUPER SOFT SUNFLOWER - THROW SUPER SOFT SUNFLOWER",
     "price": 39.0,
     "stock": 45,
-    "sales": 35,
+    "sales": 37,
     "branches": {
       "06-Red Sea Mall": 8,
       "07-Arab Mall": 9,
@@ -82402,7 +82364,7 @@
     "name": "شال | SOLID VELVETLOFT PINK LADY 60*70 - THROW SOLID VELVETLOFT PINK LADY",
     "price": 39.0,
     "stock": 1501,
-    "sales": 95,
+    "sales": 97,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 1,
@@ -82917,7 +82879,7 @@
     "name": "منشفة حمام | AIR-RICH 70X140 CM RICH BLACK - BATH TOWEL AIR-RICH RICH BLACK 70*140",
     "price": 49.0,
     "stock": 6,
-    "sales": 2,
+    "sales": 4,
     "branches": {
       "12-Al_Hamra Mall": 1,
       "25-Rabwa Othaim Mall": 5,
@@ -83199,7 +83161,7 @@
     "name": "منشفة مطبخ | مقاس 50 * 90 سم BTP-248 - KITCH TOWEL 90*50 BTP-248",
     "price": 9.0,
     "stock": 2448,
-    "sales": 81,
+    "sales": 82,
     "branches": {
       "00-GIFTS": 2,
       "15-Riyadh Othaim Mall": 1,
@@ -83313,7 +83275,7 @@
     "name": "منشفة حمام | TITANIUM AIR-RICH 70 * 140 - BATH TOWEL AIR-RICH TITANIUM 70*140",
     "price": 49.0,
     "stock": 1097,
-    "sales": 24,
+    "sales": 25,
     "branches": {
       "12-Al_Hamra Mall": 16,
       "15-Riyadh Othaim Mall": 1,
@@ -83417,7 +83379,7 @@
     "name": "منشفة حمام | NAVY AIR-RICH 70 * 140 - BATH TOWEL AIR-RICH NAVY 70*140",
     "price": 49.0,
     "stock": 1878,
-    "sales": 26,
+    "sales": 27,
     "branches": {
       "00-GIFTS": 2,
       "12-Al_Hamra Mall": 13,
@@ -83572,7 +83534,7 @@
     "name": "منشفة حمام |  LAVENDER BLUE AIR-RICH 70 * 140 - BATH TOWEL AIR-RICH LAVENDER BLUE 70*140",
     "price": 49.0,
     "stock": 552,
-    "sales": 29,
+    "sales": 30,
     "branches": {
       "00-GIFTS": 1,
       "12-Al_Hamra Mall": 18,
@@ -84056,7 +84018,7 @@
     "name": "منشفة مطبخ | مقاس 15 * 25 انش ENVOGUE PRINTED - TOWEL KITC ENVOGUE PRINTED",
     "price": 14.0,
     "stock": 9,
-    "sales": 51,
+    "sales": 52,
     "branches": {
       "04-Andalos Mall": 3,
       "06-Red Sea Mall": 30,
@@ -84810,7 +84772,7 @@
     "name": "منشفة حمام | OYSTER MUSHROOM EUR AIR-RICH - TOWEL EUR AIR-RICH OYSTER MUSHROOM 50*100",
     "price": 25.0,
     "stock": 933,
-    "sales": 45,
+    "sales": 46,
     "branches": {
       "05-Haifa Mall": 1,
       "09-Al-Salam Mall": 1,
@@ -85019,7 +84981,7 @@
     "name": "منشفة حمام | LAVENDER BLUE EUR AIR-RICH - TOWEL EUR AIR-RICH LAVENDER BLUE 50*100",
     "price": 25.0,
     "stock": 880,
-    "sales": 36,
+    "sales": 38,
     "branches": {
       "04-Andalos Mall": 1,
       "00-GIFTS": 1,
@@ -85064,7 +85026,7 @@
     "name": "منشفة حمام | مربعة IVORY AIR-RICH - TOWEL SQUARE AIR-RICH IVORY 30*30",
     "price": 5.0,
     "stock": 6642,
-    "sales": 69,
+    "sales": 70,
     "branches": {
       "05-Haifa Mall": 23,
       "06-Red Sea Mall": 30,
@@ -85484,7 +85446,7 @@
     "name": "منشفة حمام | OYSTER MUSHROOM AIR-RICH - BATH SHEET AIR-RICH OYSTER MUSHROOM",
     "price": 69.0,
     "stock": 186,
-    "sales": 35,
+    "sales": 36,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 16,
@@ -85674,7 +85636,7 @@
     "name": "منشفة حمام | TERRA COTTA AIR-RICH - BATH SHEET AIR-RICH TERRA COTTA 86*172",
     "price": 69.0,
     "stock": 600,
-    "sales": 4,
+    "sales": 6,
     "branches": {
       "12-Al_Hamra Mall": 7,
       "15-Riyadh Othaim Mall": 12,
@@ -85744,7 +85706,7 @@
     "name": "منشفة حمام | LAVENDER BLUE AIR-RICH - BATH SHEET AIR-RICH LAVENDER BLUE 86*172",
     "price": 69.0,
     "stock": 444,
-    "sales": 20,
+    "sales": 23,
     "branches": {
       "12-Al_Hamra Mall": 17,
       "15-Riyadh Othaim Mall": 9,
@@ -85782,7 +85744,7 @@
     "name": "منشفة حمام | IVORY EUR AIR-RICH - TOWEL EUR AIR-RICH IVORY 50*100",
     "price": 25.0,
     "stock": 2827,
-    "sales": 94,
+    "sales": 99,
     "branches": {
       "04-Andalos Mall": 14,
       "05-Haifa Mall": 14,
@@ -85826,7 +85788,7 @@
     "name": "منشفة حمام | WHITE EUR AIR-RICH - TOWEL EUR AIR-RICH WHITE 50*100",
     "price": 25.0,
     "stock": 3349,
-    "sales": 132,
+    "sales": 133,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 16,
@@ -85869,7 +85831,7 @@
     "name": "منشفة حمام | LINEN EUR AIR-RICH - TOWEL EUR AIR-RICH LINEN 50*100",
     "price": 25.0,
     "stock": 854,
-    "sales": 186,
+    "sales": 188,
     "branches": {
       "05-Haifa Mall": 8,
       "06-Red Sea Mall": 23,
@@ -85957,7 +85919,7 @@
     "name": "منشفة حمام | مربعة ROSE AIR-RICH - TOWEL SQUARE AIR-RICH ROSE 30*30",
     "price": 5.0,
     "stock": 336,
-    "sales": 25,
+    "sales": 26,
     "branches": {
       "25-Rabwa Othaim Mall": 22,
       "30-Tala Mall Riyadh": 37,
@@ -86391,7 +86353,7 @@
       "23-Alia Mall Madinah": 12,
       "16-Ehsa Othaim Mall": 2,
       "49-AlAhsa Mall": 3,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 13,
       "22-Tabuk Park": 1,
       "27-Dhahran Mall khobar": 2,
       "28-Al Nakheel Mall Dammam": 12,
@@ -86399,7 +86361,6 @@
       "36-Al jubail Mall": 2,
       "44-Al-Jouf Center": 1,
       "47-Al-Nakheel Plaza": 7,
-      "Transit": 12,
       "warehouse riyadh": 2532
     },
     "image_path": "714401.webp"
@@ -87697,7 +87658,7 @@
     "name": "لباد سرير كينغ | (SMALL) SHARPER IMAGE - MATRESSPAD KING(SMALL) SHARPER IMAGE",
     "price": 249.0,
     "stock": 0,
-    "sales": 3,
+    "sales": 4,
     "branches": {
       "07-Arab Mall": 1,
       "54-THE VILLAGE": 1,
@@ -87922,7 +87883,7 @@
     "name": "حشوة لحاف كينغ |  JUST RELAX - DUVET KING JUST RELAX 274*228",
     "price": 299.0,
     "stock": 16,
-    "sales": 29,
+    "sales": 30,
     "branches": {
       "04-Andalos Mall": 3,
       "07-Arab Mall": 4,
@@ -88130,7 +88091,7 @@
     "name": "مخدة كينغ | COMFORT DREAM - PILLOW KING COMFORT DREAM",
     "price": 99.0,
     "stock": 9227,
-    "sales": 868,
+    "sales": 891,
     "branches": {
       "04-Andalos Mall": 73,
       "05-Haifa Mall": 21,
@@ -88170,7 +88131,7 @@
       "16-Ehsa Othaim Mall": 43,
       "49-AlAhsa Mall": 47,
       "17-Arar Othaim Mall": 28,
-      "19-Hail Othaim Mall": 34,
+      "19-Hail Othaim Mall": 40,
       "21-Abha Al_Rashid Mall New": 45,
       "43-Mujan Park": 49,
       "52-Al_Baha Mall": 64,
@@ -88182,7 +88143,7 @@
       "36-Al jubail Mall": 37,
       "44-Al-Jouf Center": 28,
       "47-Al-Nakheel Plaza": 18,
-      "Transit": 48,
+      "Transit": 42,
       "Warehouse": 3359,
       "warehouse riyadh": 5868
     },
@@ -88398,7 +88359,7 @@
     "name": "مخدة ستاندرد | DREAM COMFORT 300TC - PILLOW STANDARD DREAM COMFORT",
     "price": 69.0,
     "stock": 0,
-    "sales": 3,
+    "sales": 7,
     "branches": {
       "06-Red Sea Mall": 3,
       "00-GIFTS": 4,
@@ -88425,7 +88386,7 @@
     "name": "مخدة ستاندرد | FRESH LAVENDER MEMORY FOAM - PILLOW STANDARD FRESH LAVENDER MEMORY FOAM",
     "price": 99.0,
     "stock": 741,
-    "sales": 137,
+    "sales": 139,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 14,
@@ -88482,7 +88443,7 @@
     "name": "مخدة ستاندرد | FRESH LINEN MEMORY FOAM - PILLOW STANDARD FRESH LINEN MEMORY FOAM",
     "price": 99.0,
     "stock": 343,
-    "sales": 91,
+    "sales": 95,
     "branches": {
       "04-Andalos Mall": 1,
       "13-Al-Yasmin Mall": 6,
@@ -88556,7 +88517,7 @@
     "name": "مخدة كينغ | FEATHER WHITE DOWN - PILLOW KING FEATHER WHITE DOWN",
     "price": 395.0,
     "stock": 152,
-    "sales": 181,
+    "sales": 183,
     "branches": {
       "04-Andalos Mall": 17,
       "05-Haifa Mall": 6,
@@ -88758,7 +88719,7 @@
     "name": "مخدة كينغ فايبر | COOLING - PILLOW KING COOLING MEMORY FIBER",
     "price": 94.0,
     "stock": 47,
-    "sales": 227,
+    "sales": 228,
     "branches": {
       "04-Andalos Mall": 44,
       "05-Haifa Mall": 3,
@@ -90058,7 +90019,7 @@
     "name": "طقم شراشف فل | 3 ق 300 غرزة PLATINUM GREY - SHEET FULL PLATINUM GREY 300 STITCH 3PCS",
     "price": 89.0,
     "stock": 335,
-    "sales": 58,
+    "sales": 59,
     "branches": {
       "04-Andalos Mall": 5,
       "07-Arab Mall": 10,
@@ -90167,7 +90128,7 @@
     "name": "طقم شراشف فل | 3 ق 300 غرزة PINK - SHEET FULL PINK 300 STITCH 3PCS",
     "price": 89.0,
     "stock": 137,
-    "sales": 60,
+    "sales": 62,
     "branches": {
       "07-Arab Mall": 8,
       "09-Al-Salam Mall": 1,
@@ -90235,7 +90196,7 @@
     "name": "طقم شراشف فل | 3 ق 300 غرزة STERLING BLUE - SHEET FULL STERLING BLUE 300 STITCH 3PCS",
     "price": 89.0,
     "stock": 328,
-    "sales": 39,
+    "sales": 40,
     "branches": {
       "06-Red Sea Mall": 3,
       "13-Al-Yasmin Mall": 5,
@@ -90282,7 +90243,7 @@
     "name": "طقم شراشف فل | 3 ق 300 غرزة WHITE - SHEET FULL WHITE 300 STITCH 3PCS",
     "price": 89.0,
     "stock": 6433,
-    "sales": 266,
+    "sales": 268,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 16,
@@ -90440,7 +90401,7 @@
     "name": "طقم شراشف كوين | 3 ق 300 غرزة PRISTINE OFF WHITE - SHEET QUEEN OFF WHITE 300 STITCH 3PCS",
     "price": 89.0,
     "stock": 3602,
-    "sales": 71,
+    "sales": 72,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 6,
@@ -90629,7 +90590,7 @@
     "name": "طقم شراشف فل | 3 ق 300 غرزة SILVER - SHEET FULL SILVER GREY 300 STITCH 3PCS",
     "price": 89.0,
     "stock": 123,
-    "sales": 30,
+    "sales": 32,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 5,
@@ -90693,7 +90654,7 @@
     "name": "طقم شراشف فل | 2 ق شتوي PINK - SHEET FULL WINTER ROSE PINK 2PCS",
     "price": 69.0,
     "stock": 1804,
-    "sales": 9,
+    "sales": 11,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 12,
@@ -91228,7 +91189,7 @@
     "name": "طقم شراشف فل | 2 ق شتوي MARSHMALLOW - SHEET FULL WINTER MARSHMALLOW  2PCS",
     "price": 69.0,
     "stock": 1503,
-    "sales": 28,
+    "sales": 31,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 16,
@@ -91290,7 +91251,7 @@
     "name": "طقم شراشف فل | 2 ق شتوي HAS SKY - SHEET FULL WINTER HAS SKY 2PCS",
     "price": 69.0,
     "stock": 1330,
-    "sales": 17,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 10,
@@ -93300,7 +93261,7 @@
     "name": "كيس مخدة كينغ | 2 ق STERLING BLUE - PILLOW CASES KING STERLING BLUW 2PCS",
     "price": 35.0,
     "stock": 16,
-    "sales": 32,
+    "sales": 34,
     "branches": {
       "05-Haifa Mall": 1,
       "06-Red Sea Mall": 1,
@@ -93493,7 +93454,7 @@
     "name": "مخدة ستاندرد | CUSHION SEAT BLACK - PILLOW CUSHION SEAT BLACK 35.5*48*48.5",
     "price": 49.0,
     "stock": 1228,
-    "sales": 67,
+    "sales": 68,
     "branches": {
       "04-Andalos Mall": 49,
       "05-Haifa Mall": 15,
@@ -93767,7 +93728,7 @@
     "name": "مخدة ستاندرد | COMFORT DREAM STANDARD - PILLOW STANDARD COMFORT DREAM",
     "price": 69.0,
     "stock": 1203,
-    "sales": 499,
+    "sales": 504,
     "branches": {
       "05-Haifa Mall": 2,
       "06-Red Sea Mall": 8,
@@ -94803,7 +94764,7 @@
     "name": "طقم شراشف كينغ | 4 ق DUNN CHECK - SHEET KING PRINTED RAE DUNN CHECK 4PCS",
     "price": 89.0,
     "stock": 0,
-    "sales": 1,
+    "sales": 2,
     "branches": {
       "00-GIFTS": 7,
       "40-Hayat Mall Riyad": 3,
@@ -95060,7 +95021,7 @@
     "name": "روب حمام أطفال | FLOWER LEMON - BATH ROBE KIDS HOODED TOWEL  FLOWER LEMON",
     "price": 69.0,
     "stock": 2996,
-    "sales": 52,
+    "sales": 54,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 2,
@@ -95242,7 +95203,7 @@
     "name": "روب حمام أطفال | ELEOHANT L.BLUE - BATH ROBE KIDS HOODED TOWEL ELEOHANT L.BLUE",
     "price": 69.0,
     "stock": 792,
-    "sales": 158,
+    "sales": 162,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 12,
@@ -95794,7 +95755,7 @@
     "name": "روب حمام أطفال | PINEAPPLE YELLOW - BATH ROBE KIDS HOODED TOWEL PINEAPPLE YELLOW",
     "price": 69.0,
     "stock": 2521,
-    "sales": 95,
+    "sales": 96,
     "branches": {
       "04-Andalos Mall": 11,
       "05-Haifa Mall": 11,
@@ -95851,7 +95812,7 @@
     "name": "روب حمام أطفال | BUNNY L.PINK - BATH ROBE KIDS HOODED TOWEL BUNNY L.PINK",
     "price": 69.0,
     "stock": 331,
-    "sales": 137,
+    "sales": 138,
     "branches": {
       "04-Andalos Mall": 1,
       "05-Haifa Mall": 1,
@@ -96285,7 +96246,7 @@
     "name": "روب حمام أطفال | OWL2 BEIGE - BATH ROBE KIDS HOODED TOWEL OWL2 BEIGE",
     "price": 69.0,
     "stock": 6,
-    "sales": 76,
+    "sales": 78,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 2,
@@ -96338,7 +96299,7 @@
     "name": "روب حمام أطفال | DINO2 L.GREEN - BATH ROBE KIDS HOODED TOWEL DINO2 L.GREEN",
     "price": 69.0,
     "stock": 1400,
-    "sales": 185,
+    "sales": 189,
     "branches": {
       "04-Andalos Mall": 9,
       "06-Red Sea Mall": 16,
@@ -96551,7 +96512,7 @@
     "name": "روب حمام أطفال | BUTTERFLY L.BLUE - BATH ROBE KIDS HOODED TOWEL BUTTERFLY L.BLUE",
     "price": 69.0,
     "stock": 108,
-    "sales": 185,
+    "sales": 188,
     "branches": {
       "04-Andalos Mall": 3,
       "05-Haifa Mall": 11,
@@ -97580,7 +97541,7 @@
     "name": "روب حمام أطفال | UNICORN LILAC HOODED - BATH ROBE KIDS HOODED TOWEL UNICORN LILAC",
     "price": 69.0,
     "stock": 12,
-    "sales": 83,
+    "sales": 84,
     "branches": {
       "04-Andalos Mall": 4,
       "06-Red Sea Mall": 3,
@@ -97713,7 +97674,7 @@
     "name": "روب حمام أطفال | COW HOODED - BATH ROBE KIDS HOODED TOWEL COW",
     "price": 69.0,
     "stock": 690,
-    "sales": 17,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 7,
@@ -97998,7 +97959,7 @@
     "name": "روب حمام أطفال | RABBIT CREAM HOODED - BATH ROBE KIDS HOODED TOWEL RABBIT CREAM",
     "price": 69.0,
     "stock": 419,
-    "sales": 107,
+    "sales": 110,
     "branches": {
       "04-Andalos Mall": 10,
       "05-Haifa Mall": 1,
@@ -98088,7 +98049,7 @@
     "name": "روب حمام أطفال | LION PEACH HOODED - BATH ROBE KIDS HOODED TOWEL LION PEACH",
     "price": 69.0,
     "stock": 1923,
-    "sales": 110,
+    "sales": 115,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 3,
@@ -98325,7 +98286,7 @@
     "name": "روب حمام أطفال | LADY FROG HOODED - BATH ROBE KIDS HOODED TOWEL LADY FROG",
     "price": 69.0,
     "stock": 336,
-    "sales": 44,
+    "sales": 45,
     "branches": {
       "04-Andalos Mall": 13,
       "05-Haifa Mall": 9,
@@ -98652,7 +98613,7 @@
     "name": "دعاسة حمام | مقاس 17*24 انش OYESTER MUSHROON - BATH MAT DARKER LIGHT GREY 17*24",
     "price": 39.0,
     "stock": 260,
-    "sales": 41,
+    "sales": 42,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 4,
@@ -99497,7 +99458,7 @@
     "name": "دعاسة حمام | مقاس 21*34 انش WHITE - BATH MAT WHITE 21*34",
     "price": 59.0,
     "stock": 63,
-    "sales": 18,
+    "sales": 20,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 8,
@@ -100068,7 +100029,7 @@
     "name": "طقم دعاسات حمام | 2 ق TAN - BATH MAT SET CHINO GREEN 2PCS",
     "price": 99.0,
     "stock": 2549,
-    "sales": 23,
+    "sales": 24,
     "branches": {
       "53-Al Basateen Mall": 2,
       "00-GIFTS": 1,
@@ -100369,7 +100330,7 @@
       "24-Yanbu Dana Mall": 6,
       "16-Ehsa Othaim Mall": 7,
       "17-Arar Othaim Mall": 4,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 6,
       "43-Mujan Park": 4,
       "1906-LAVANDA PARK": 3,
       "22-Tabuk Park": 7,
@@ -100378,7 +100339,6 @@
       "42-Dareen Mall Dammam": 1,
       "36-Al jubail Mall": 3,
       "47-Al-Nakheel Plaza": 62,
-      "Transit": 6,
       "Warehouse": 12,
       "warehouse riyadh": 87
     },
@@ -100713,7 +100673,7 @@
     "name": "دعاسة حمام | مقاس 21*34 انش BLACK - BATH MAT BLACK 21*34",
     "price": 59.0,
     "stock": 264,
-    "sales": 17,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 9,
       "05-Haifa Mall": 10,
@@ -104272,7 +104232,7 @@
     "name": "طقم مناشف مطرز | 3قطع موديل D #8 - TOWEL SET EMBROIDERED 3PCS D8",
     "price": 99.0,
     "stock": 46,
-    "sales": 1,
+    "sales": 3,
     "branches": {
       "32-Atyaf Mall Riyadh": 8,
       "40-Hayat Mall Riyad": 5,
@@ -105300,7 +105260,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 موديل 839 IVORY - TOWEL KITC IVORY BTP-839",
     "price": 9.0,
     "stock": 240,
-    "sales": 17,
+    "sales": 18,
     "branches": {
       "15-Riyadh Othaim Mall": 2,
       "25-Rabwa Othaim Mall": 1,
@@ -105336,7 +105296,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 موديل 839 WHITE - TOWEL KITC WHITE BTP-839",
     "price": 9.0,
     "stock": 512,
-    "sales": 60,
+    "sales": 62,
     "branches": {
       "12-Al_Hamra Mall": 3,
       "15-Riyadh Othaim Mall": 5,
@@ -105423,7 +105383,7 @@
     "name": "طقم مناشف مطبخ | 3 ق MANI OCHRE - TOWEL KITC SET MANI OCHRE 3PCS",
     "price": 49.0,
     "stock": 7,
-    "sales": 1,
+    "sales": 2,
     "branches": {
       "04-Andalos Mall": 11,
       "06-Red Sea Mall": 3,
@@ -105463,7 +105423,7 @@
     "name": "طقم مناشف مطبخ | 3 ق MATRY BLUE - TOWEL KITC SET MATRY BLUE 3PCS",
     "price": 49.0,
     "stock": 8,
-    "sales": 3,
+    "sales": 4,
     "branches": {
       "04-Andalos Mall": 7,
       "13-Al-Yasmin Mall": 5,
@@ -105562,7 +105522,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 موديل 857 SILVER - TOWEL KITC SILVER BTP-857",
     "price": 9.0,
     "stock": 210,
-    "sales": 35,
+    "sales": 36,
     "branches": {
       "12-Al_Hamra Mall": 1,
       "29-Al Nakheel Mall Riyadh": 6,
@@ -105596,7 +105556,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 موديل 857 BEIGE - TOWEL KITC BEIGE BTP-857",
     "price": 9.0,
     "stock": 179,
-    "sales": 12,
+    "sales": 13,
     "branches": {
       "12-Al_Hamra Mall": 3,
       "15-Riyadh Othaim Mall": 1,
@@ -105857,7 +105817,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 موديل 862 BLUE - TOWEL KITC BLUE BTP-862",
     "price": 9.0,
     "stock": 142,
-    "sales": 10,
+    "sales": 11,
     "branches": {
       "12-Al_Hamra Mall": 3,
       "15-Riyadh Othaim Mall": 5,
@@ -105923,7 +105883,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 موديل 870 SAND - TOWEL KITC SAND BTP-870",
     "price": 9.0,
     "stock": 589,
-    "sales": 40,
+    "sales": 41,
     "branches": {
       "00-GIFTS": 4,
       "12-Al_Hamra Mall": 1,
@@ -106067,7 +106027,7 @@
     "name": "منشفة مطبخ | مقاس 50*90 موديل 870 SAGE - TOWEL KITC SAGE BTP-870",
     "price": 9.0,
     "stock": 256,
-    "sales": 11,
+    "sales": 12,
     "branches": {
       "12-Al_Hamra Mall": 1,
       "15-Riyadh Othaim Mall": 2,
@@ -107761,7 +107721,7 @@
     "name": "طقم مناشف مطرز | 3 ق ROSE1 - TOWEL SET EMBROIDERED ROSE1 WAVE 3PCS",
     "price": 99.0,
     "stock": 291,
-    "sales": 12,
+    "sales": 13,
     "branches": {
       "12-Al_Hamra Mall": 12,
       "29-Al Nakheel Mall Riyadh": 9,
@@ -109559,7 +109519,7 @@
     "name": "طقم مناشف مطرز | 3 ق LEAF - TOWEL SET EMBROIDERED LEAF WAVE 3PCS",
     "price": 99.0,
     "stock": 455,
-    "sales": 19,
+    "sales": 20,
     "branches": {
       "48 - Jeddah Park": 1,
       "12-Al_Hamra Mall": 11,
@@ -109590,7 +109550,7 @@
     "name": "طقم مناشف مطرز | 3 ق LEAF 2 - TOWEL SET EMBROIDERED LEAF 2 WAVE 3PCS",
     "price": 99.0,
     "stock": 563,
-    "sales": 14,
+    "sales": 16,
     "branches": {
       "13-Al-Yasmin Mall": 2,
       "PLATFORMS": 46,
@@ -109726,7 +109686,7 @@
     "name": "طقم مناشف مطرز | 3 ق BIRDS GILDED - TOWEL SET EMBROIDERED BIRDS GILDED WAVE 3PCS",
     "price": 99.0,
     "stock": 9,
-    "sales": 6,
+    "sales": 7,
     "branches": {
       "00-GIFTS": 1,
       "29-Al Nakheel Mall Riyadh": 1,
@@ -109750,7 +109710,7 @@
     "name": "طقم مناشف مطرز | 3 ق ZAG ZIAG - TOWEL SET EMBROIDERED ZAG ZIAG WAVE 3PCS",
     "price": 99.0,
     "stock": 570,
-    "sales": 29,
+    "sales": 31,
     "branches": {
       "13-Al-Yasmin Mall": 1,
       "PLATFORMS": 40,
@@ -111909,7 +111869,7 @@
       "11-Jouri Mall": 2,
       "16-Ehsa Othaim Mall": 2,
       "49-AlAhsa Mall": 2,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 1,
       "43-Mujan Park": 4,
       "52-Al_Baha Mall": 4,
       "1906-LAVANDA PARK": 2,
@@ -111918,7 +111878,6 @@
       "28-Al Nakheel Mall Dammam": 2,
       "42-Dareen Mall Dammam": 4,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 1,
       "Warehouse": 33,
       "warehouse riyadh": 71
     },
@@ -112014,7 +111973,7 @@
     "name": "طقم لحاف كينغ | 3 قطع IVORY SO-SOFT - COMFORTER KING  SO-SOFT IVORY 3PCS",
     "price": 299.0,
     "stock": 1065,
-    "sales": 6,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 4,
       "06-Red Sea Mall": 6,
@@ -113840,7 +113799,7 @@
     "name": "طقم لحاف فل | 2 ق HAS SKY SO-SOFT - COMFORTER FULL SO-SOFT HAS SKY 2PCS",
     "price": 199.0,
     "stock": 114,
-    "sales": 11,
+    "sales": 13,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 2,
@@ -113880,7 +113839,7 @@
     "name": "طقم لحاف فل | 2 ق COMET SO-SOFT - COMFORTER FULL SO-SOFT COMET 2PCS",
     "price": 199.0,
     "stock": 41,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "04-Andalos Mall": 2,
       "05-Haifa Mall": 1,
@@ -113972,7 +113931,7 @@
     "name": "طقم لحاف فل | 2 ق GREY SO-SOFT - COMFORTER FULL SO-SOFT GREY 2PCS",
     "price": 199.0,
     "stock": 477,
-    "sales": 6,
+    "sales": 8,
     "branches": {
       "04-Andalos Mall": 4,
       "06-Red Sea Mall": 3,
@@ -115060,7 +115019,7 @@
     "name": "طقم لحاف كينغ | 12 ق LEILANI SILVER - COMFORTER KING LEILANI SILVER 12PCS",
     "price": 399.0,
     "stock": 960,
-    "sales": 46,
+    "sales": 47,
     "branches": {
       "06-Red Sea Mall": 1,
       "07-Arab Mall": 3,
@@ -115875,7 +115834,7 @@
     "name": "طقم لحاف كينغ | 1 ق COOLING WHITE - COMFORTER KING COOLING WHITE 1PCS",
     "price": 299.0,
     "stock": 476,
-    "sales": 78,
+    "sales": 79,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 4,
@@ -123926,7 +123885,7 @@
     "name": "طقم شراشف كينغ | 4 ق 300 غرزة WHITE - SHEET KING WHITE 300 STITCH 4PCS",
     "price": 219.0,
     "stock": 5223,
-    "sales": 52,
+    "sales": 55,
     "branches": {
       "04-Andalos Mall": 12,
       "05-Haifa Mall": 3,
@@ -128441,7 +128400,7 @@
     "name": "طقم شراشف كينغ | 3 ق 300 غرزة OFF WHITE - SHEET KING OFF WHITE 300 STITCH 3PCS",
     "price": 129.0,
     "stock": 1,
-    "sales": 23,
+    "sales": 24,
     "branches": {
       "06-Red Sea Mall": 19,
       "07-Arab Mall": 6,
@@ -128465,7 +128424,7 @@
     "name": "طقم شراشف كينغ | 3 ق 300 غرزة HEATHER - SHEET KING HEATHER GREY 300 STITCH 3PCS",
     "price": 129.0,
     "stock": 388,
-    "sales": 35,
+    "sales": 37,
     "branches": {
       "05-Haifa Mall": 8,
       "13-Al-Yasmin Mall": 1,
@@ -128718,7 +128677,7 @@
     "name": "طقم لحاف كينغ | 5 قطع BOW GIMINY LAVENDER - COMFORTER KING BOW GIMINY LAVENDER 5PCS",
     "price": 299.0,
     "stock": 123,
-    "sales": 11,
+    "sales": 12,
     "branches": {
       "04-Andalos Mall": 2,
       "06-Red Sea Mall": 1,
@@ -128763,7 +128722,7 @@
     "name": "طقم شراشف كينغ | 3 ق WINTER SHEET PINK - SHEET KING WINTER ROSE PINK 3PCS",
     "price": 99.0,
     "stock": 42,
-    "sales": 16,
+    "sales": 19,
     "branches": {
       "04-Andalos Mall": 19,
       "05-Haifa Mall": 17,
@@ -129060,7 +129019,7 @@
     "name": "طقم شراشف كينغ | 3 ق 300 غرزة GREY - SHEET KING GREY 300 STITCH 3PCS",
     "price": 129.0,
     "stock": 5433,
-    "sales": 99,
+    "sales": 100,
     "branches": {
       "04-Andalos Mall": 23,
       "05-Haifa Mall": 10,
@@ -129291,7 +129250,7 @@
     "name": "طقم شراشف كينغ | 4 ق 300 غرزة PURBLE - SHEET KING PURBLE 300 STITCH 4PCS",
     "price": 219.0,
     "stock": 0,
-    "sales": 0,
+    "sales": 1,
     "branches": {
       "09-Al-Salam Mall": 2,
       "15-Riyadh Othaim Mall": 1,
@@ -129599,7 +129558,7 @@
     "name": "طقم شراشف كينغ | 3 ق 300 غرزة WHITE - SHEET KING WHITE 300 STITCH 3PCS",
     "price": 129.0,
     "stock": 7109,
-    "sales": 386,
+    "sales": 389,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 8,
@@ -129732,7 +129691,7 @@
     "name": "طقم شراشف كينغ | 3 ق 300 غرزة STERLNG BLUE - SHEET KING STERLNG BLUE 300 STITCH 3PCS",
     "price": 129.0,
     "stock": 516,
-    "sales": 84,
+    "sales": 89,
     "branches": {
       "04-Andalos Mall": 5,
       "05-Haifa Mall": 11,
@@ -129803,11 +129762,10 @@
       "46-Khaleej Mall Riyadh": 2,
       "51-Park Avenue Riyadh": 2,
       "26-Al-Noor Mall Madinah": 5,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 2,
       "52-Al_Baha Mall": 1,
       "27-Dhahran Mall khobar": 1,
       "47-Al-Nakheel Plaza": 1,
-      "Transit": 2,
       "Warehouse": 1,
       "warehouse riyadh": 746
     },
@@ -129835,12 +129793,11 @@
       "51-Park Avenue Riyadh": 2,
       "20-Sitten Street Makkah": 1,
       "23-Alia Mall Madinah": 2,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 2,
       "43-Mujan Park": 2,
       "27-Dhahran Mall khobar": 1,
       "42-Dareen Mall Dammam": 5,
       "47-Al-Nakheel Plaza": 1,
-      "Transit": 2,
       "Warehouse": 1,
       "warehouse riyadh": 1465
     },
@@ -129855,7 +129812,7 @@
     "name": "طقم لحاف كينغ | 8 قطع ROSEL VERNAZZA - COMFORTER KING ROSEL VERNAZZA 8PCS",
     "price": 299.0,
     "stock": 1792,
-    "sales": 7,
+    "sales": 8,
     "branches": {
       "06-Red Sea Mall": 2,
       "09-Al-Salam Mall": 3,
@@ -129866,13 +129823,12 @@
       "51-Park Avenue Riyadh": 3,
       "23-Alia Mall Madinah": 2,
       "26-Al-Noor Mall Madinah": 5,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 2,
       "21-Abha Al_Rashid Mall New": 1,
       "43-Mujan Park": 2,
       "1906-LAVANDA PARK": 2,
       "27-Dhahran Mall khobar": 2,
       "42-Dareen Mall Dammam": 4,
-      "Transit": 2,
       "Warehouse": 18,
       "warehouse riyadh": 1774
     },
@@ -129926,7 +129882,7 @@
     "name": "طقم شراشف كينغ | 3 ق 300 غرزة L. MARBLE - SHEET KING L. MARBLE 300 STITCH 3PCS",
     "price": 129.0,
     "stock": 780,
-    "sales": 67,
+    "sales": 68,
     "branches": {
       "PLATFORMS": 2,
       "00-GIFTS": 2,
@@ -130988,7 +130944,7 @@
       "16-Ehsa Othaim Mall": 4,
       "49-AlAhsa Mall": 14,
       "17-Arar Othaim Mall": 1,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 3,
       "21-Abha Al_Rashid Mall New": 5,
       "43-Mujan Park": 4,
       "52-Al_Baha Mall": 2,
@@ -130998,7 +130954,6 @@
       "42-Dareen Mall Dammam": 4,
       "36-Al jubail Mall": 1,
       "44-Al-Jouf Center": 2,
-      "Transit": 2,
       "Warehouse": 282,
       "warehouse riyadh": 308
     },
@@ -131470,12 +131425,11 @@
       "1115-Alrabie Mall": 1,
       "16-Ehsa Othaim Mall": 2,
       "49-AlAhsa Mall": 8,
-      "19-Hail Othaim Mall": 1,
+      "19-Hail Othaim Mall": 3,
       "27-Dhahran Mall khobar": 4,
       "28-Al Nakheel Mall Dammam": 1,
       "36-Al jubail Mall": 1,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 2,
       "warehouse riyadh": 118
     },
     "image_path": "274613.webp"
@@ -131721,7 +131675,7 @@
     "name": "طقم لحاف فل | 8 قطع AIDEN - COMFORTER FULL AIDEN 8PCS",
     "price": 249.0,
     "stock": 16,
-    "sales": 14,
+    "sales": 15,
     "branches": {
       "04-Andalos Mall": 4,
       "05-Haifa Mall": 2,
@@ -133104,7 +133058,7 @@
     "name": "طقم غطاء سرير كينغ | 3 قطع GOOD ONE PATINA - GOOD ONE KING PATINA 3PCS",
     "price": 149.0,
     "stock": 686,
-    "sales": 40,
+    "sales": 41,
     "branches": {
       "04-Andalos Mall": 7,
       "05-Haifa Mall": 1,
@@ -133142,7 +133096,7 @@
       "24-Yanbu Dana Mall": 4,
       "16-Ehsa Othaim Mall": 7,
       "17-Arar Othaim Mall": 6,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 5,
       "21-Abha Al_Rashid Mall New": 10,
       "43-Mujan Park": 5,
       "1906-LAVANDA PARK": 0,
@@ -133153,7 +133107,7 @@
       "36-Al jubail Mall": 6,
       "44-Al-Jouf Center": 2,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 11,
+      "Transit": 6,
       "Warehouse": 307,
       "warehouse riyadh": 379
     },
@@ -133676,7 +133630,7 @@
     "name": "طقم لحاف فل | 4 ق WHITE DAMASK - COMFORTER FULL DAMASK WHITE 500TC 4PCS",
     "price": 499.0,
     "stock": 0,
-    "sales": 8,
+    "sales": 10,
     "branches": {
       "05-Haifa Mall": 2,
       "00-GIFTS": 14,
@@ -134012,7 +133966,7 @@
     "name": "طقم غطاء سرير فل | 2 قطعة GOOD ONE SAKURA - GOOD ONE FULL SAKURA 2PCS",
     "price": 99.0,
     "stock": 140,
-    "sales": 43,
+    "sales": 45,
     "branches": {
       "05-Haifa Mall": 5,
       "06-Red Sea Mall": 1,
@@ -134045,7 +133999,7 @@
       "24-Yanbu Dana Mall": 4,
       "16-Ehsa Othaim Mall": 8,
       "17-Arar Othaim Mall": 5,
-      "19-Hail Othaim Mall": 5,
+      "19-Hail Othaim Mall": 10,
       "43-Mujan Park": 2,
       "52-Al_Baha Mall": 2,
       "1906-LAVANDA PARK": 3,
@@ -134056,7 +134010,6 @@
       "36-Al jubail Mall": 7,
       "44-Al-Jouf Center": 3,
       "47-Al-Nakheel Plaza": 8,
-      "Transit": 5,
       "warehouse riyadh": 140
     },
     "image_path": "542555.webp"
@@ -134316,7 +134269,7 @@
     "name": "طقم غطاء سرير كينغ | 3 قطع GOOD ONE JASMINE - GOOD ONE KING JASMINE 3PCS",
     "price": 149.0,
     "stock": 33,
-    "sales": 20,
+    "sales": 21,
     "branches": {
       "57-Sauq7": 1,
       "PLATFORMS": 2,
@@ -134365,7 +134318,7 @@
     "name": "طقم غطاء سرير كينغ | 3 قطع GOOD ONE EBULLENT - GOOD ONE KING EBULLENT 3PCS",
     "price": 149.0,
     "stock": 1245,
-    "sales": 46,
+    "sales": 47,
     "branches": {
       "04-Andalos Mall": 8,
       "05-Haifa Mall": 4,
@@ -134465,7 +134418,7 @@
       "16-Ehsa Othaim Mall": 4,
       "49-AlAhsa Mall": 4,
       "17-Arar Othaim Mall": 3,
-      "19-Hail Othaim Mall": 2,
+      "19-Hail Othaim Mall": 7,
       "21-Abha Al_Rashid Mall New": 10,
       "43-Mujan Park": 7,
       "22-Tabuk Park": 9,
@@ -134474,7 +134427,6 @@
       "36-Al jubail Mall": 3,
       "44-Al-Jouf Center": 3,
       "47-Al-Nakheel Plaza": 6,
-      "Transit": 5,
       "Warehouse": 39,
       "warehouse riyadh": 318
     },
@@ -134500,9 +134452,8 @@
       "26-Al-Noor Mall Madinah": 5,
       "24-Yanbu Dana Mall": 4,
       "17-Arar Othaim Mall": 2,
-      "19-Hail Othaim Mall": 0,
+      "19-Hail Othaim Mall": 4,
       "44-Al-Jouf Center": 5,
-      "Transit": 4,
       "Warehouse": 8
     },
     "image_path": "538826.webp"
@@ -134538,7 +134489,7 @@
       "16-Ehsa Othaim Mall": 2,
       "49-AlAhsa Mall": 3,
       "17-Arar Othaim Mall": 6,
-      "19-Hail Othaim Mall": 7,
+      "19-Hail Othaim Mall": 12,
       "1906-LAVANDA PARK": 1,
       "27-Dhahran Mall khobar": 7,
       "28-Al Nakheel Mall Dammam": 7,
@@ -134546,7 +134497,6 @@
       "36-Al jubail Mall": 5,
       "44-Al-Jouf Center": 4,
       "47-Al-Nakheel Plaza": 2,
-      "Transit": 5,
       "Warehouse": 11,
       "warehouse riyadh": 11
     },
@@ -135241,7 +135191,7 @@
     "name": "طقم غطاء سرير فل | 2 قطعة GOOD ONE FLORENTE - GOOD ONE FULL FLORENTE 2PCS",
     "price": 99.0,
     "stock": 21,
-    "sales": 10,
+    "sales": 11,
     "branches": {
       "07-Arab Mall": 2,
       "30-Tala Mall Riyadh": 1,
@@ -136744,7 +136694,7 @@
     "name": "طقم لحاف كينغ | 5 قطع BOUQUET SPRING - *COMFORTER KING BOUQUET SPRING 5PCS",
     "price": 599.0,
     "stock": 278,
-    "sales": 9,
+    "sales": 10,
     "branches": {
       "48 - Jeddah Park": 2,
       "15-Riyadh Othaim Mall": 1,
@@ -137496,7 +137446,7 @@
     "name": "طقم لحاف فل | 1 ق COOLING WHITE - COMFORTER FULL COOLING WHITE 1PCS",
     "price": 229.0,
     "stock": 279,
-    "sales": 36,
+    "sales": 37,
     "branches": {
       "04-Andalos Mall": 6,
       "05-Haifa Mall": 4,
@@ -137642,7 +137592,7 @@
     "name": "طقم لحاف فل | 8 ق MEADOW FLORAL MULTI - COMFORTER FULL MEADOW FLORAL MULTI 8PCS",
     "price": 249.0,
     "stock": 20,
-    "sales": 4,
+    "sales": 5,
     "branches": {
       "05-Haifa Mall": 1,
       "57-Sauq7": 1,
@@ -138404,7 +138354,7 @@
     "name": "طقم لحاف توين | 5 ق DAISY SPRING TANGERING - COMFORTER TWIN DAISY SPRING TANGERING 5PCS",
     "price": 139.0,
     "stock": 153,
-    "sales": 16,
+    "sales": 17,
     "branches": {
       "PLATFORMS": 2,
       "00-GIFTS": 1,
