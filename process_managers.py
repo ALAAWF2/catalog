@@ -2,7 +2,23 @@ import pandas as pd
 import random
 import string
 import json
+import os
 
+# 1. Load existing passwords from Managers_Access.xlsx if it exists
+existing_passwords = {}
+if os.path.exists('Managers_Access.xlsx'):
+    try:
+        df_old = pd.read_excel('Managers_Access.xlsx')
+        for idx, row in df_old.iterrows():
+            email = str(row.get('Email')).strip().lower()
+            pwd = str(row.get('Password')).strip()
+            if email and email != 'nan' and pwd and pwd != 'nan':
+                existing_passwords[email] = pwd
+        print(f"Loaded {len(existing_passwords)} existing manager passwords from Managers_Access.xlsx.")
+    except Exception as e:
+        print(f"Warning: Could not read existing Managers_Access.xlsx: {e}")
+
+# 2. Read the new updated managers emails list
 df = pd.read_excel('managers emails.xlsx')
 
 managers = {}
@@ -16,8 +32,14 @@ for idx, row in df.iterrows():
         continue
         
     if email not in managers:
-        # Generate 4-char password
-        password = ''.join(random.choices(string.ascii_letters + string.digits, k=4))
+        # Use existing password if available, otherwise generate a new one
+        if email in existing_passwords:
+            password = existing_passwords[email]
+            print(f"Preserving password for: {email}")
+        else:
+            password = ''.join(random.choices(string.ascii_letters + string.digits, k=4))
+            print(f"Generated new password for: {email}")
+            
         managers[email] = {
             'name': name,
             'password': password,
@@ -26,7 +48,7 @@ for idx, row in df.iterrows():
     if outlet != 'nan' and outlet:
         managers[email]['outlets'].append(outlet)
 
-# 1. Output Managers_Access.xlsx
+# 3. Output Managers_Access.xlsx with only active managers
 out_data = []
 for email, data in managers.items():
     out_data.append({
@@ -38,8 +60,9 @@ for email, data in managers.items():
     
 out_df = pd.DataFrame(out_data)
 out_df.to_excel('Managers_Access.xlsx', index=False)
+print("Managers_Access.xlsx updated successfully.")
 
-# 2. Output SQL
+# 4. Output SQL for upserting active managers
 sql_statements = []
 for email, data in managers.items():
     pwd = data['password']
@@ -86,6 +109,7 @@ for email, data in managers.items():
       )
       ON CONFLICT (id) DO UPDATE SET 
         role = 'manager',
+        mall = '{data['name']}',
         managed_outlets = '{malls_json}'::jsonb;
     END $$;
     """
@@ -95,4 +119,4 @@ with open('insert_managers.sql', 'w', encoding='utf-8') as f:
     f.write("-- Create Area Managers\n")
     f.write("\n".join(sql_statements))
     
-print("SQL and Excel created successfully.")
+print("SQL and Excel created successfully. Preserved existing passwords.")

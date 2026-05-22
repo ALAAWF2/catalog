@@ -10,12 +10,11 @@ from pathlib import Path
 # =========================
 # CONFIG
 # =========================
-MAPPING_FILE = "mapping.xlsx"
-TABLE5_SHEET = "Table5"
-TABLE6_SHEET = "Table6"
-
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE_DIR.parent
+MAPPING_FILE = PROJECT_ROOT / "mapping.xlsx"
+TABLE5_SHEET = "Table5"
+TABLE6_SHEET = "Table6"
 OUTPUT_PRODUCTS = PROJECT_ROOT / "products.json"
 OUTPUT_FIRST_SEEN = PROJECT_ROOT / "first_seen.json"
 OUTPUT_SALES_BY_OUTLET = PROJECT_ROOT / "sales_by_outlet.json"
