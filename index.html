@@ -1870,8 +1870,8 @@
           }
         }
 
-        // Stock check (skip for Guest Mode)
-        if (!isGuestMode && d.stock <= 20) return false;
+        // Stock check (skip for Guest Mode, Admin and Manager roles)
+        if (!isGuestMode && userRole === 'user' && d.stock <= 20) return false;
 
         return true;
       }).filter(d =>
