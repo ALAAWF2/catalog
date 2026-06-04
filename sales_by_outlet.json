@@ -264,6 +264,7 @@
     "47-Al-Nakheel Plaza": 1
   },
   "100010666": {
+    "1114-Malgha Mall": 1,
     "12-Al_Hamra Mall": 6,
     "16-Ehsa Othaim Mall": 3,
     "19-Hail Othaim Mall": 3,
@@ -378,6 +379,7 @@
     "05-Haifa Mall": 1,
     "11-Jouri Mall": 1,
     "1114-Malgha Mall": 1,
+    "19-Hail Othaim Mall": 1,
     "20-Sitten Street Makkah": 1,
     "21-Abha Al_Rashid Mall New": 2,
     "25-Rabwa Othaim Mall": 1,
@@ -401,7 +403,7 @@
     "12-Al_Hamra Mall": 2,
     "14-Al Kamal Mall": 1,
     "16-Ehsa Othaim Mall": 1,
-    "21-Abha Al_Rashid Mall New": 1,
+    "21-Abha Al_Rashid Mall New": 2,
     "23-Alia Mall Madinah": 1,
     "27-Dhahran Mall khobar": 7,
     "28-Al Nakheel Mall Dammam": 3,
@@ -435,12 +437,13 @@
     "52-Al_Baha Mall": 6,
     "54-THE VILLAGE": 4,
     "56- Aziz Mall 2": 5,
-    "57-Sauq7": 2
+    "57-Sauq7": 3
   },
   "100010750": {
     "07-Arab Mall": 2,
     "08-Makkah Mall": 1,
     "11-Jouri Mall": 1,
+    "1114-Malgha Mall": 1,
     "12-Al_Hamra Mall": 2,
     "13-Al-Yasmin Mall": 2,
     "14-Al Kamal Mall": 1,
@@ -454,6 +457,7 @@
     "40-Hayat Mall Riyad": 1,
     "43-Mujan Park": 1,
     "44-Al-Jouf Center": 1,
+    "45- Riyadh Gallery Mall": 1,
     "51-Park Avenue Riyadh": 1,
     "54-THE VILLAGE": 3,
     "57-Sauq7": 1
@@ -471,6 +475,7 @@
     "49-AlAhsa Mall": 1
   },
   "100010754": {
+    "1114-Malgha Mall": 1,
     "12-Al_Hamra Mall": 1,
     "15-Riyadh Othaim Mall": 1,
     "16-Ehsa Othaim Mall": 5,
@@ -505,6 +510,7 @@
     "51-Park Avenue Riyadh": 1
   },
   "100010757": {
+    "1114-Malgha Mall": 2,
     "1115-Alrabie Mall": 1,
     "12-Al_Hamra Mall": 3,
     "14-Al Kamal Mall": 2,
@@ -519,10 +525,11 @@
   },
   "100010758": {
     "12-Al_Hamra Mall": 5,
-    "15-Riyadh Othaim Mall": 1,
+    "15-Riyadh Othaim Mall": 2,
     "19-Hail Othaim Mall": 2,
     "27-Dhahran Mall khobar": 1,
     "28-Al Nakheel Mall Dammam": 5,
+    "36-Al jubail Mall": 1,
     "39-Salam Mall Riyadh": 1,
     "42-Dareen Mall Dammam": 2,
     "45- Riyadh Gallery Mall": 2,
@@ -553,17 +560,18 @@
     "39-Salam Mall Riyadh": 2,
     "45- Riyadh Gallery Mall": 2,
     "47-Al-Nakheel Plaza": 1,
-    "49-AlAhsa Mall": 8
+    "49-AlAhsa Mall": 9
   },
   "100010764": {
     "04-Andalos Mall": 2,
     "09-Al-Salam Mall": 3,
     "1114-Malgha Mall": 1,
     "13-Al-Yasmin Mall": 3,
-    "54-THE VILLAGE": 1,
+    "54-THE VILLAGE": 3,
     "55- Jabl Omar": 2
   },
   "100010765": {
+    "13-Al-Yasmin Mall": 1,
     "51-Park Avenue Riyadh": 1
   },
   "100010766": {
@@ -617,6 +625,9 @@
     "54-THE VILLAGE": 1,
     "55- Jabl Omar": 1
   },
+  "100010776": {
+    "13-Al-Yasmin Mall": 1
+  },
   "100010777": {
     "04-Andalos Mall": 1,
     "08-Makkah Mall": 1,
@@ -630,7 +641,7 @@
     "51-Park Avenue Riyadh": 1,
     "54-THE VILLAGE": 1,
     "56- Aziz Mall 2": 1,
-    "57-Sauq7": 1
+    "57-Sauq7": 2
   },
   "100010778": {
     "07-Arab Mall": 1,
@@ -660,7 +671,8 @@
     "43-Mujan Park": 1,
     "45- Riyadh Gallery Mall": 1,
     "47-Al-Nakheel Plaza": 2,
-    "48 - Jeddah Park": 1
+    "48 - Jeddah Park": 1,
+    "53-Al Basateen Mall": 1
   },
   "100010781": {
     "05-Haifa Mall": 1,
@@ -731,7 +743,7 @@
     "48 - Jeddah Park": 2,
     "50-Meem Plaza Riyadh": 1,
     "52-Al_Baha Mall": 4,
-    "54-THE VILLAGE": 3,
+    "54-THE VILLAGE": 4,
     "56- Aziz Mall 2": 1,
     "57-Sauq7": 2
   },
@@ -780,6 +792,7 @@
     "26-Al-Noor Mall Madinah": 1,
     "27-Dhahran Mall khobar": 1,
     "28-Al Nakheel Mall Dammam": 1,
+    "46-Khaleej Mall Riyadh": 1,
     "47-Al-Nakheel Plaza": 1,
     "52-Al_Baha Mall": 1,
     "54-THE VILLAGE": 1
@@ -801,7 +814,7 @@
     "11-Jouri Mall": 1,
     "1906-LAVANDA PARK": 1,
     "20-Sitten Street Makkah": 1,
-    "21-Abha Al_Rashid Mall New": 1,
+    "21-Abha Al_Rashid Mall New": 2,
     "26-Al-Noor Mall Madinah": 1,
     "43-Mujan Park": 2,
     "48 - Jeddah Park": 2,
@@ -969,9 +982,9 @@
     "1114-Malgha Mall": 4,
     "1115-Alrabie Mall": 3,
     "12-Al_Hamra Mall": 1,
-    "16-Ehsa Othaim Mall": 4,
+    "16-Ehsa Othaim Mall": 5,
     "1906-LAVANDA PARK": 1,
-    "22-Tabuk Park": 1,
+    "22-Tabuk Park": 3,
     "25-Rabwa Othaim Mall": 3,
     "27-Dhahran Mall khobar": 2,
     "28-Al Nakheel Mall Dammam": 1,
@@ -1191,6 +1204,7 @@
   },
   "100030389": {
     "16-Ehsa Othaim Mall": 2,
+    "22-Tabuk Park": 1,
     "24-Yanbu Dana Mall": 1,
     "27-Dhahran Mall khobar": 1,
     "28-Al Nakheel Mall Dammam": 1,
@@ -1223,7 +1237,7 @@
     "57-Sauq7": 2
   },
   "100030391": {
-    "05-Haifa Mall": 1,
+    "05-Haifa Mall": 2,
     "08-Makkah Mall": 1,
     "12-Al_Hamra Mall": 1,
     "13-Al-Yasmin Mall": 1,
@@ -1286,7 +1300,8 @@
     "1114-Malgha Mall": 2,
     "12-Al_Hamra Mall": 1,
     "19-Hail Othaim Mall": 1,
-    "30-Tala Mall Riyadh": 2
+    "30-Tala Mall Riyadh": 2,
+    "42-Dareen Mall Dammam": 1
   },
   "100030396": {
     "20-Sitten Street Makkah": 1,
@@ -1382,7 +1397,7 @@
     "20-Sitten Street Makkah": 2,
     "26-Al-Noor Mall Madinah": 1,
     "27-Dhahran Mall khobar": 1,
-    "28-Al Nakheel Mall Dammam": 1,
+    "28-Al Nakheel Mall Dammam": 3,
     "32-Atyaf Mall Riyadh": 3,
     "38-Al_Riyadh Park": 2,
     "39-Salam Mall Riyadh": 1,
@@ -1430,7 +1445,7 @@
   },
   "100030416": {
     "07-Arab Mall": 1,
-    "1114-Malgha Mall": 2,
+    "1114-Malgha Mall": 3,
     "21-Abha Al_Rashid Mall New": 1,
     "22-Tabuk Park": 1,
     "24-Yanbu Dana Mall": 1,
@@ -1501,7 +1516,7 @@
     "56- Aziz Mall 2": 1
   },
   "100030425": {
-    "04-Andalos Mall": 1,
+    "04-Andalos Mall": 2,
     "09-Al-Salam Mall": 1,
     "11-Jouri Mall": 3,
     "13-Al-Yasmin Mall": 1,
@@ -1545,7 +1560,7 @@
     "08-Makkah Mall": 2,
     "1114-Malgha Mall": 2,
     "12-Al_Hamra Mall": 2,
-    "13-Al-Yasmin Mall": 2,
+    "13-Al-Yasmin Mall": 6,
     "16-Ehsa Othaim Mall": 1,
     "19-Hail Othaim Mall": 1,
     "1906-LAVANDA PARK": 3,
@@ -1575,12 +1590,12 @@
     "51-Park Avenue Riyadh": 4
   },
   "100030431": {
-    "04-Andalos Mall": 2,
+    "04-Andalos Mall": 3,
     "05-Haifa Mall": 3,
     "08-Makkah Mall": 11,
     "11-Jouri Mall": 3,
     "1114-Malgha Mall": 1,
-    "13-Al-Yasmin Mall": 4,
+    "13-Al-Yasmin Mall": 8,
     "14-Al Kamal Mall": 2,
     "19-Hail Othaim Mall": 1,
     "20-Sitten Street Makkah": 3,
@@ -1634,6 +1649,7 @@
     "19-Hail Othaim Mall": 2,
     "1906-LAVANDA PARK": 2,
     "20-Sitten Street Makkah": 1,
+    "22-Tabuk Park": 1,
     "23-Alia Mall Madinah": 2,
     "25-Rabwa Othaim Mall": 1,
     "26-Al-Noor Mall Madinah": 1,
@@ -1665,6 +1681,7 @@
     "50-Meem Plaza Riyadh": 1
   },
   "100030446": {
+    "06-Red Sea Mall": 1,
     "12-Al_Hamra Mall": 1,
     "16-Ehsa Othaim Mall": 1,
     "21-Abha Al_Rashid Mall New": 1,
@@ -1752,7 +1769,7 @@
     "25-Rabwa Othaim Mall": 3,
     "27-Dhahran Mall khobar": 3,
     "28-Al Nakheel Mall Dammam": 3,
-    "32-Atyaf Mall Riyadh": 1,
+    "32-Atyaf Mall Riyadh": 2,
     "36-Al jubail Mall": 1,
     "38-Al_Riyadh Park": 1,
     "42-Dareen Mall Dammam": 2,
@@ -1775,6 +1792,7 @@
     "23-Alia Mall Madinah": 1,
     "24-Yanbu Dana Mall": 1,
     "27-Dhahran Mall khobar": 6,
+    "32-Atyaf Mall Riyadh": 1,
     "42-Dareen Mall Dammam": 2,
     "43-Mujan Park": 3,
     "44-Al-Jouf Center": 1,
@@ -1832,7 +1850,7 @@
     "25-Rabwa Othaim Mall": 6,
     "27-Dhahran Mall khobar": 2,
     "28-Al Nakheel Mall Dammam": 7,
-    "32-Atyaf Mall Riyadh": 1,
+    "32-Atyaf Mall Riyadh": 2,
     "36-Al jubail Mall": 2,
     "38-Al_Riyadh Park": 3,
     "39-Salam Mall Riyadh": 4,
@@ -1855,8 +1873,8 @@
     "38-Al_Riyadh Park": 2,
     "39-Salam Mall Riyadh": 1,
     "40-Hayat Mall Riyad": 1,
-    "42-Dareen Mall Dammam": 1,
-    "45- Riyadh Gallery Mall": 1,
+    "42-Dareen Mall Dammam": 2,
+    "45- Riyadh Gallery Mall": 2,
     "46-Khaleej Mall Riyadh": 2,
     "47-Al-Nakheel Plaza": 2,
     "49-AlAhsa Mall": 3,
@@ -1867,7 +1885,7 @@
     "12-Al_Hamra Mall": 5,
     "15-Riyadh Othaim Mall": 1,
     "16-Ehsa Othaim Mall": 4,
-    "25-Rabwa Othaim Mall": 8,
+    "25-Rabwa Othaim Mall": 9,
     "28-Al Nakheel Mall Dammam": 5,
     "30-Tala Mall Riyadh": 2,
     "36-Al jubail Mall": 1,
@@ -1890,7 +1908,7 @@
     "26-Al-Noor Mall Madinah": 1,
     "27-Dhahran Mall khobar": 2,
     "28-Al Nakheel Mall Dammam": 4,
-    "32-Atyaf Mall Riyadh": 1,
+    "32-Atyaf Mall Riyadh": 2,
     "38-Al_Riyadh Park": 2,
     "39-Salam Mall Riyadh": 2,
     "42-Dareen Mall Dammam": 1,
@@ -1913,7 +1931,7 @@
     "39-Salam Mall Riyadh": 2,
     "42-Dareen Mall Dammam": 3,
     "44-Al-Jouf Center": 1,
-    "45- Riyadh Gallery Mall": 3,
+    "45- Riyadh Gallery Mall": 4,
     "46-Khaleej Mall Riyadh": 3,
     "47-Al-Nakheel Plaza": 1,
     "49-AlAhsa Mall": 3,
@@ -2067,7 +2085,7 @@
     "39-Salam Mall Riyadh": 1,
     "40-Hayat Mall Riyad": 1,
     "42-Dareen Mall Dammam": 3,
-    "46-Khaleej Mall Riyadh": 3,
+    "46-Khaleej Mall Riyadh": 4,
     "47-Al-Nakheel Plaza": 2,
     "49-AlAhsa Mall": 1
   },
@@ -2099,7 +2117,7 @@
     "22-Tabuk Park": 1,
     "23-Alia Mall Madinah": 1,
     "24-Yanbu Dana Mall": 1,
-    "25-Rabwa Othaim Mall": 3,
+    "25-Rabwa Othaim Mall": 4,
     "26-Al-Noor Mall Madinah": 2,
     "30-Tala Mall Riyadh": 3,
     "32-Atyaf Mall Riyadh": 2,
@@ -2109,7 +2127,7 @@
     "42-Dareen Mall Dammam": 1,
     "43-Mujan Park": 2,
     "44-Al-Jouf Center": 1,
-    "45- Riyadh Gallery Mall": 9,
+    "45- Riyadh Gallery Mall": 10,
     "46-Khaleej Mall Riyadh": 2,
     "47-Al-Nakheel Plaza": 3,
     "48 - Jeddah Park": 3,
@@ -2123,7 +2141,7 @@
     "04-Andalos Mall": 4,
     "06-Red Sea Mall": 3,
     "07-Arab Mall": 3,
-    "08-Makkah Mall": 1,
+    "08-Makkah Mall": 2,
     "11-Jouri Mall": 1,
     "1114-Malgha Mall": 1,
     "12-Al_Hamra Mall": 2,
@@ -2263,6 +2281,7 @@
     "48 - Jeddah Park": 2,
     "49-AlAhsa Mall": 1,
     "51-Park Avenue Riyadh": 1,
+    "54-THE VILLAGE": 1,
     "57-Sauq7": 1
   },
   "110010209": {
@@ -2321,6 +2340,7 @@
     "56- Aziz Mall 2": 2
   },
   "110010212": {
+    "04-Andalos Mall": 1,
     "05-Haifa Mall": 2,
     "06-Red Sea Mall": 2,
     "07-Arab Mall": 2,
@@ -2352,6 +2372,7 @@
     "08-Makkah Mall": 2,
     "15-Riyadh Othaim Mall": 1,
     "18-Al_Khayyat Center": 1,
+    "22-Tabuk Park": 1,
     "27-Dhahran Mall khobar": 2,
     "40-Hayat Mall Riyad": 1,
     "46-Khaleej Mall Riyadh": 1,
@@ -2385,7 +2406,7 @@
   },
   "110010215": {
     "09-Al-Salam Mall": 1,
-    "12-Al_Hamra Mall": 2,
+    "12-Al_Hamra Mall": 3,
     "15-Riyadh Othaim Mall": 1,
     "20-Sitten Street Makkah": 1,
     "25-Rabwa Othaim Mall": 2,
@@ -2409,7 +2430,7 @@
     "1115-Alrabie Mall": 1,
     "12-Al_Hamra Mall": 2,
     "16-Ehsa Othaim Mall": 1,
-    "19-Hail Othaim Mall": 2,
+    "19-Hail Othaim Mall": 3,
     "32-Atyaf Mall Riyadh": 2,
     "39-Salam Mall Riyadh": 2,
     "40-Hayat Mall Riyad": 2,
@@ -2440,6 +2461,7 @@
     "39-Salam Mall Riyadh": 1,
     "45- Riyadh Gallery Mall": 1,
     "47-Al-Nakheel Plaza": 2,
+    "50-Meem Plaza Riyadh": 1,
     "51-Park Avenue Riyadh": 1,
     "53-Al Basateen Mall": 1,
     "54-THE VILLAGE": 2
@@ -2456,17 +2478,18 @@
   },
   "110010221": {
     "06-Red Sea Mall": 5,
-    "07-Arab Mall": 2,
+    "07-Arab Mall": 3,
     "08-Makkah Mall": 3,
     "09-Al-Salam Mall": 3,
     "11-Jouri Mall": 2,
     "1115-Alrabie Mall": 1,
     "12-Al_Hamra Mall": 2,
+    "16-Ehsa Othaim Mall": 1,
     "17-Arar Othaim Mall": 1,
     "18-Al_Khayyat Center": 1,
     "19-Hail Othaim Mall": 1,
     "20-Sitten Street Makkah": 2,
-    "21-Abha Al_Rashid Mall New": 4,
+    "21-Abha Al_Rashid Mall New": 6,
     "25-Rabwa Othaim Mall": 1,
     "27-Dhahran Mall khobar": 6,
     "28-Al Nakheel Mall Dammam": 5,
@@ -2481,6 +2504,7 @@
     "51-Park Avenue Riyadh": 1,
     "52-Al_Baha Mall": 1,
     "55- Jabl Omar": 1,
+    "56- Aziz Mall 2": 1,
     "57-Sauq7": 1
   },
   "110010222": {
@@ -2504,7 +2528,7 @@
     "38-Al_Riyadh Park": 5,
     "43-Mujan Park": 2,
     "45- Riyadh Gallery Mall": 2,
-    "46-Khaleej Mall Riyadh": 1,
+    "46-Khaleej Mall Riyadh": 2,
     "47-Al-Nakheel Plaza": 3,
     "48 - Jeddah Park": 2,
     "50-Meem Plaza Riyadh": 3,
@@ -2521,6 +2545,7 @@
     "46-Khaleej Mall Riyadh": 4
   },
   "110030067": {
+    "06-Red Sea Mall": 2,
     "18-Al_Khayyat Center": 1,
     "39-Salam Mall Riyadh": 2,
     "54-THE VILLAGE": 2
@@ -2614,7 +2639,7 @@
   },
   "110030088": {
     "1115-Alrabie Mall": 2,
-    "12-Al_Hamra Mall": 2,
+    "12-Al_Hamra Mall": 3,
     "23-Alia Mall Madinah": 2,
     "27-Dhahran Mall khobar": 1,
     "28-Al Nakheel Mall Dammam": 1,
@@ -2647,7 +2672,7 @@
     "19-Hail Othaim Mall": 4,
     "23-Alia Mall Madinah": 5,
     "25-Rabwa Othaim Mall": 6,
-    "26-Al-Noor Mall Madinah": 3,
+    "26-Al-Noor Mall Madinah": 4,
     "27-Dhahran Mall khobar": 4,
     "28-Al Nakheel Mall Dammam": 2,
     "38-Al_Riyadh Park": 1,
@@ -2693,6 +2718,9 @@
     "43-Mujan Park": 1,
     "46-Khaleej Mall Riyadh": 2,
     "48 - Jeddah Park": 1
+  },
+  "110030093": {
+    "16-Ehsa Othaim Mall": 1
   },
   "110030094": {
     "1115-Alrabie Mall": 3,
@@ -2743,7 +2771,7 @@
     "22-Tabuk Park": 1,
     "23-Alia Mall Madinah": 3,
     "25-Rabwa Othaim Mall": 2,
-    "26-Al-Noor Mall Madinah": 1,
+    "26-Al-Noor Mall Madinah": 2,
     "27-Dhahran Mall khobar": 6,
     "28-Al Nakheel Mall Dammam": 3,
     "32-Atyaf Mall Riyadh": 2,
@@ -2790,6 +2818,7 @@
     "36-Al jubail Mall": 3,
     "38-Al_Riyadh Park": 4,
     "40-Hayat Mall Riyad": 3,
+    "43-Mujan Park": 1,
     "45- Riyadh Gallery Mall": 4,
     "46-Khaleej Mall Riyadh": 2,
     "47-Al-Nakheel Plaza": 1,
@@ -2814,17 +2843,17 @@
     "23-Alia Mall Madinah": 1,
     "24-Yanbu Dana Mall": 1,
     "25-Rabwa Othaim Mall": 2,
-    "26-Al-Noor Mall Madinah": 1,
+    "26-Al-Noor Mall Madinah": 2,
     "27-Dhahran Mall khobar": 1,
     "32-Atyaf Mall Riyadh": 1,
-    "38-Al_Riyadh Park": 2,
+    "38-Al_Riyadh Park": 3,
     "39-Salam Mall Riyadh": 4,
     "40-Hayat Mall Riyad": 1,
     "42-Dareen Mall Dammam": 3,
     "43-Mujan Park": 4,
     "45- Riyadh Gallery Mall": 6,
     "46-Khaleej Mall Riyadh": 4,
-    "47-Al-Nakheel Plaza": 2,
+    "47-Al-Nakheel Plaza": 3,
     "48 - Jeddah Park": 4,
     "50-Meem Plaza Riyadh": 1
   },
@@ -2844,7 +2873,7 @@
     "50-Meem Plaza Riyadh": 2
   },
   "110030101": {
-    "04-Andalos Mall": 2,
+    "04-Andalos Mall": 4,
     "06-Red Sea Mall": 2,
     "07-Arab Mall": 1,
     "11-Jouri Mall": 1,
@@ -2905,7 +2934,7 @@
     "22-Tabuk Park": 2,
     "23-Alia Mall Madinah": 2,
     "25-Rabwa Othaim Mall": 2,
-    "27-Dhahran Mall khobar": 3,
+    "27-Dhahran Mall khobar": 4,
     "30-Tala Mall Riyadh": 3,
     "40-Hayat Mall Riyad": 1,
     "43-Mujan Park": 2,
@@ -2933,6 +2962,7 @@
     "28-Al Nakheel Mall Dammam": 3,
     "32-Atyaf Mall Riyadh": 1,
     "36-Al jubail Mall": 3,
+    "38-Al_Riyadh Park": 1,
     "40-Hayat Mall Riyad": 2,
     "43-Mujan Park": 2,
     "45- Riyadh Gallery Mall": 6,
@@ -3030,7 +3060,8 @@
     "48 - Jeddah Park": 1,
     "50-Meem Plaza Riyadh": 2,
     "51-Park Avenue Riyadh": 1,
-    "53-Al Basateen Mall": 1
+    "53-Al Basateen Mall": 1,
+    "54-THE VILLAGE": 1
   },
   "120010006": {
     "11-Jouri Mall": 2,
@@ -3096,7 +3127,7 @@
     "04-Andalos Mall": 1,
     "06-Red Sea Mall": 3,
     "07-Arab Mall": 1,
-    "08-Makkah Mall": 1,
+    "08-Makkah Mall": 2,
     "09-Al-Salam Mall": 1,
     "1115-Alrabie Mall": 1,
     "14-Al Kamal Mall": 1,
@@ -3130,6 +3161,7 @@
     "23-Alia Mall Madinah": 1,
     "27-Dhahran Mall khobar": 6,
     "38-Al_Riyadh Park": 1,
+    "43-Mujan Park": 1,
     "50-Meem Plaza Riyadh": 1,
     "51-Park Avenue Riyadh": 2,
     "53-Al Basateen Mall": 2,
@@ -3163,7 +3195,7 @@
     "20-Sitten Street Makkah": 3,
     "21-Abha Al_Rashid Mall New": 15,
     "23-Alia Mall Madinah": 2,
-    "26-Al-Noor Mall Madinah": 8,
+    "26-Al-Noor Mall Madinah": 9,
     "30-Tala Mall Riyadh": 10,
     "32-Atyaf Mall Riyadh": 1,
     "38-Al_Riyadh Park": 2,
@@ -3245,7 +3277,7 @@
     "39-Salam Mall Riyadh": 2,
     "40-Hayat Mall Riyad": 5,
     "42-Dareen Mall Dammam": 3,
-    "46-Khaleej Mall Riyadh": 5,
+    "46-Khaleej Mall Riyadh": 6,
     "47-Al-Nakheel Plaza": 1,
     "49-AlAhsa Mall": 2,
     "50-Meem Plaza Riyadh": 3,
@@ -3299,7 +3331,7 @@
     "25-Rabwa Othaim Mall": 2,
     "27-Dhahran Mall khobar": 4,
     "28-Al Nakheel Mall Dammam": 7,
-    "30-Tala Mall Riyadh": 1,
+    "30-Tala Mall Riyadh": 2,
     "32-Atyaf Mall Riyadh": 2,
     "36-Al jubail Mall": 2,
     "38-Al_Riyadh Park": 3,
@@ -3316,7 +3348,7 @@
     "53-Al Basateen Mall": 3,
     "54-THE VILLAGE": 6,
     "55- Jabl Omar": 1,
-    "56- Aziz Mall 2": 1,
+    "56- Aziz Mall 2": 2,
     "57-Sauq7": 1
   },
   "120010032": {
@@ -3331,7 +3363,8 @@
     "21-Abha Al_Rashid Mall New": 3,
     "25-Rabwa Othaim Mall": 1,
     "30-Tala Mall Riyadh": 2,
-    "43-Mujan Park": 1
+    "43-Mujan Park": 1,
+    "46-Khaleej Mall Riyadh": 1
   },
   "120010034": {
     "1114-Malgha Mall": 2,
@@ -3375,7 +3408,7 @@
     "19-Hail Othaim Mall": 2,
     "1906-LAVANDA PARK": 3,
     "20-Sitten Street Makkah": 1,
-    "21-Abha Al_Rashid Mall New": 2,
+    "21-Abha Al_Rashid Mall New": 3,
     "23-Alia Mall Madinah": 1,
     "27-Dhahran Mall khobar": 1,
     "28-Al Nakheel Mall Dammam": 5,
@@ -3406,7 +3439,7 @@
     "09-Al-Salam Mall": 1,
     "11-Jouri Mall": 3,
     "1114-Malgha Mall": 4,
-    "13-Al-Yasmin Mall": 5,
+    "13-Al-Yasmin Mall": 6,
     "24-Yanbu Dana Mall": 1,
     "27-Dhahran Mall khobar": 14,
     "28-Al Nakheel Mall Dammam": 1,
@@ -3587,6 +3620,7 @@
     "36-Al jubail Mall": 1,
     "38-Al_Riyadh Park": 2,
     "40-Hayat Mall Riyad": 1,
+    "45- Riyadh Gallery Mall": 1,
     "46-Khaleej Mall Riyadh": 3,
     "47-Al-Nakheel Plaza": 2,
     "50-Meem Plaza Riyadh": 1,
@@ -3608,7 +3642,7 @@
     "19-Hail Othaim Mall": 5,
     "25-Rabwa Othaim Mall": 1,
     "28-Al Nakheel Mall Dammam": 1,
-    "30-Tala Mall Riyadh": 3,
+    "30-Tala Mall Riyadh": 4,
     "39-Salam Mall Riyadh": 3,
     "42-Dareen Mall Dammam": 1,
     "45- Riyadh Gallery Mall": 1,
@@ -3684,7 +3718,7 @@
   },
   "120030019": {
     "04-Andalos Mall": 3,
-    "06-Red Sea Mall": 2,
+    "06-Red Sea Mall": 4,
     "07-Arab Mall": 1,
     "12-Al_Hamra Mall": 3,
     "13-Al-Yasmin Mall": 3,
@@ -3719,11 +3753,12 @@
   },
   "120030023": {
     "04-Andalos Mall": 2,
-    "06-Red Sea Mall": 1,
+    "06-Red Sea Mall": 3,
     "07-Arab Mall": 1,
     "08-Makkah Mall": 1,
     "11-Jouri Mall": 1,
     "20-Sitten Street Makkah": 2,
+    "22-Tabuk Park": 1,
     "28-Al Nakheel Mall Dammam": 1,
     "43-Mujan Park": 4,
     "48 - Jeddah Park": 1,
@@ -3747,14 +3782,15 @@
     "42-Dareen Mall Dammam": 6,
     "45- Riyadh Gallery Mall": 1,
     "46-Khaleej Mall Riyadh": 5,
+    "47-Al-Nakheel Plaza": 1,
     "49-AlAhsa Mall": 2,
     "50-Meem Plaza Riyadh": 8,
     "51-Park Avenue Riyadh": 1
   },
   "120030031": {
-    "12-Al_Hamra Mall": 5,
+    "12-Al_Hamra Mall": 6,
     "15-Riyadh Othaim Mall": 1,
-    "16-Ehsa Othaim Mall": 2,
+    "16-Ehsa Othaim Mall": 3,
     "19-Hail Othaim Mall": 1,
     "27-Dhahran Mall khobar": 5,
     "28-Al Nakheel Mall Dammam": 4,
@@ -3778,7 +3814,7 @@
     "1114-Malgha Mall": 5,
     "1115-Alrabie Mall": 2,
     "12-Al_Hamra Mall": 6,
-    "13-Al-Yasmin Mall": 7,
+    "13-Al-Yasmin Mall": 8,
     "14-Al Kamal Mall": 5,
     "16-Ehsa Othaim Mall": 8,
     "17-Arar Othaim Mall": 2,
@@ -3800,7 +3836,7 @@
     "42-Dareen Mall Dammam": 3,
     "43-Mujan Park": 18,
     "45- Riyadh Gallery Mall": 3,
-    "46-Khaleej Mall Riyadh": 6,
+    "46-Khaleej Mall Riyadh": 7,
     "47-Al-Nakheel Plaza": 1,
     "48 - Jeddah Park": 2,
     "50-Meem Plaza Riyadh": 6,
@@ -3825,9 +3861,9 @@
     "17-Arar Othaim Mall": 1,
     "19-Hail Othaim Mall": 2,
     "25-Rabwa Othaim Mall": 2,
-    "27-Dhahran Mall khobar": 6,
+    "27-Dhahran Mall khobar": 7,
     "28-Al Nakheel Mall Dammam": 2,
-    "30-Tala Mall Riyadh": 2,
+    "30-Tala Mall Riyadh": 3,
     "32-Atyaf Mall Riyadh": 3,
     "38-Al_Riyadh Park": 5,
     "39-Salam Mall Riyadh": 2,
@@ -3885,6 +3921,7 @@
     "07-Arab Mall": 2,
     "08-Makkah Mall": 8,
     "09-Al-Salam Mall": 2,
+    "12-Al_Hamra Mall": 1,
     "13-Al-Yasmin Mall": 1,
     "14-Al Kamal Mall": 1,
     "18-Al_Khayyat Center": 1,
@@ -3917,7 +3954,8 @@
   },
   "120040003": {
     "16-Ehsa Othaim Mall": 1,
-    "43-Mujan Park": 1
+    "43-Mujan Park": 1,
+    "47-Al-Nakheel Plaza": 1
   },
   "120040006": {
     "06-Red Sea Mall": 1,
@@ -3955,11 +3993,11 @@
   "130010008": {
     "04-Andalos Mall": 14,
     "05-Haifa Mall": 5,
-    "06-Red Sea Mall": 10,
+    "06-Red Sea Mall": 11,
     "07-Arab Mall": 4,
     "08-Makkah Mall": 20,
     "09-Al-Salam Mall": 4,
-    "11-Jouri Mall": 12,
+    "11-Jouri Mall": 13,
     "1114-Malgha Mall": 8,
     "1115-Alrabie Mall": 5,
     "12-Al_Hamra Mall": 10,
@@ -3970,7 +4008,7 @@
     "19-Hail Othaim Mall": 10,
     "1906-LAVANDA PARK": 4,
     "20-Sitten Street Makkah": 6,
-    "21-Abha Al_Rashid Mall New": 10,
+    "21-Abha Al_Rashid Mall New": 11,
     "22-Tabuk Park": 6,
     "23-Alia Mall Madinah": 10,
     "24-Yanbu Dana Mall": 6,
@@ -3989,10 +4027,10 @@
     "44-Al-Jouf Center": 1,
     "45- Riyadh Gallery Mall": 3,
     "46-Khaleej Mall Riyadh": 2,
-    "47-Al-Nakheel Plaza": 10,
+    "47-Al-Nakheel Plaza": 12,
     "48 - Jeddah Park": 3,
     "49-AlAhsa Mall": 2,
-    "50-Meem Plaza Riyadh": 13,
+    "50-Meem Plaza Riyadh": 15,
     "51-Park Avenue Riyadh": 7,
     "52-Al_Baha Mall": 5,
     "53-Al Basateen Mall": 2,
@@ -4013,6 +4051,7 @@
     "45- Riyadh Gallery Mall": 3
   },
   "130010023": {
+    "04-Andalos Mall": 1,
     "06-Red Sea Mall": 1,
     "08-Makkah Mall": 4,
     "11-Jouri Mall": 2,
@@ -4025,8 +4064,10 @@
     "20-Sitten Street Makkah": 1,
     "21-Abha Al_Rashid Mall New": 6,
     "24-Yanbu Dana Mall": 3,
+    "26-Al-Noor Mall Madinah": 1,
     "27-Dhahran Mall khobar": 3,
     "32-Atyaf Mall Riyadh": 1,
+    "36-Al jubail Mall": 1,
     "40-Hayat Mall Riyad": 1,
     "43-Mujan Park": 1,
     "46-Khaleej Mall Riyadh": 2,
@@ -4069,6 +4110,7 @@
     "49-AlAhsa Mall": 2,
     "50-Meem Plaza Riyadh": 7,
     "51-Park Avenue Riyadh": 4,
+    "52-Al_Baha Mall": 1,
     "54-THE VILLAGE": 4,
     "56- Aziz Mall 2": 1,
     "57-Sauq7": 1
@@ -4077,6 +4119,7 @@
     "05-Haifa Mall": 1,
     "07-Arab Mall": 4,
     "08-Makkah Mall": 5,
+    "09-Al-Salam Mall": 1,
     "11-Jouri Mall": 3,
     "1114-Malgha Mall": 1,
     "1115-Alrabie Mall": 1,
@@ -4103,7 +4146,7 @@
     "43-Mujan Park": 1,
     "46-Khaleej Mall Riyadh": 3,
     "48 - Jeddah Park": 1,
-    "52-Al_Baha Mall": 3,
+    "52-Al_Baha Mall": 4,
     "54-THE VILLAGE": 4,
     "55- Jabl Omar": 1,
     "56- Aziz Mall 2": 1,
@@ -4198,7 +4241,7 @@
     "13-Al-Yasmin Mall": 1,
     "14-Al Kamal Mall": 1,
     "16-Ehsa Othaim Mall": 12,
-    "19-Hail Othaim Mall": 2,
+    "19-Hail Othaim Mall": 3,
     "20-Sitten Street Makkah": 3,
     "21-Abha Al_Rashid Mall New": 2,
     "22-Tabuk Park": 2,
@@ -4206,6 +4249,7 @@
     "24-Yanbu Dana Mall": 1,
     "25-Rabwa Othaim Mall": 1,
     "27-Dhahran Mall khobar": 1,
+    "28-Al Nakheel Mall Dammam": 2,
     "39-Salam Mall Riyadh": 1,
     "42-Dareen Mall Dammam": 1,
     "43-Mujan Park": 5,
@@ -4216,7 +4260,7 @@
     "57-Sauq7": 2
   },
   "130030009": {
-    "04-Andalos Mall": 1,
+    "04-Andalos Mall": 2,
     "08-Makkah Mall": 1,
     "1114-Malgha Mall": 4,
     "1115-Alrabie Mall": 1,
@@ -4239,7 +4283,7 @@
     "04-Andalos Mall": 4,
     "06-Red Sea Mall": 1,
     "07-Arab Mall": 1,
-    "08-Makkah Mall": 4,
+    "08-Makkah Mall": 5,
     "13-Al-Yasmin Mall": 2,
     "16-Ehsa Othaim Mall": 1,
     "19-Hail Othaim Mall": 4,
@@ -4276,6 +4320,7 @@
     "20-Sitten Street Makkah": 2,
     "21-Abha Al_Rashid Mall New": 2,
     "22-Tabuk Park": 2,
+    "27-Dhahran Mall khobar": 1,
     "28-Al Nakheel Mall Dammam": 1,
     "38-Al_Riyadh Park": 3,
     "39-Salam Mall Riyadh": 1,
@@ -4344,6 +4389,9 @@
     "50-Meem Plaza Riyadh": 3,
     "51-Park Avenue Riyadh": 1
   },
+  "140010003": {
+    "43-Mujan Park": 1
+  },
   "140010004": {
     "04-Andalos Mall": 1,
     "06-Red Sea Mall": 6,
@@ -4404,6 +4452,7 @@
   },
   "150010016": {
     "04-Andalos Mall": 4,
+    "17-Arar Othaim Mall": 1,
     "26-Al-Noor Mall Madinah": 3,
     "56- Aziz Mall 2": 2,
     "57-Sauq7": 2
@@ -4420,18 +4469,19 @@
     "32-Atyaf Mall Riyadh": 3,
     "40-Hayat Mall Riyad": 1,
     "46-Khaleej Mall Riyadh": 2,
-    "47-Al-Nakheel Plaza": 4,
+    "47-Al-Nakheel Plaza": 6,
     "49-AlAhsa Mall": 3
   },
   "150010024": {
     "04-Andalos Mall": 5,
     "06-Red Sea Mall": 11,
-    "07-Arab Mall": 12,
+    "07-Arab Mall": 13,
     "09-Al-Salam Mall": 2,
     "11-Jouri Mall": 1,
     "1114-Malgha Mall": 5,
     "1115-Alrabie Mall": 3,
     "12-Al_Hamra Mall": 3,
+    "14-Al Kamal Mall": 2,
     "15-Riyadh Othaim Mall": 1,
     "16-Ehsa Othaim Mall": 7,
     "18-Al_Khayyat Center": 7,
@@ -4446,6 +4496,7 @@
     "38-Al_Riyadh Park": 13,
     "40-Hayat Mall Riyad": 4,
     "46-Khaleej Mall Riyadh": 3,
+    "47-Al-Nakheel Plaza": 2,
     "48 - Jeddah Park": 2,
     "49-AlAhsa Mall": 1,
     "50-Meem Plaza Riyadh": 9,
@@ -4475,7 +4526,7 @@
     "23-Alia Mall Madinah": 2,
     "24-Yanbu Dana Mall": 2,
     "26-Al-Noor Mall Madinah": 1,
-    "43-Mujan Park": 4,
+    "43-Mujan Park": 5,
     "48 - Jeddah Park": 6,
     "54-THE VILLAGE": 3,
     "56- Aziz Mall 2": 5
@@ -4483,14 +4534,14 @@
   "150010031": {
     "04-Andalos Mall": 22,
     "05-Haifa Mall": 8,
-    "06-Red Sea Mall": 36,
+    "06-Red Sea Mall": 38,
     "07-Arab Mall": 18,
     "08-Makkah Mall": 30,
     "09-Al-Salam Mall": 15,
-    "11-Jouri Mall": 15,
+    "11-Jouri Mall": 17,
     "1114-Malgha Mall": 18,
     "1115-Alrabie Mall": 7,
-    "12-Al_Hamra Mall": 24,
+    "12-Al_Hamra Mall": 26,
     "13-Al-Yasmin Mall": 22,
     "14-Al Kamal Mall": 22,
     "15-Riyadh Othaim Mall": 6,
@@ -4512,7 +4563,7 @@
     "36-Al jubail Mall": 6,
     "38-Al_Riyadh Park": 14,
     "39-Salam Mall Riyadh": 9,
-    "40-Hayat Mall Riyad": 6,
+    "40-Hayat Mall Riyad": 7,
     "42-Dareen Mall Dammam": 19,
     "43-Mujan Park": 24,
     "44-Al-Jouf Center": 2,
@@ -4523,11 +4574,11 @@
     "49-AlAhsa Mall": 32,
     "50-Meem Plaza Riyadh": 22,
     "51-Park Avenue Riyadh": 10,
-    "52-Al_Baha Mall": 8,
+    "52-Al_Baha Mall": 10,
     "53-Al Basateen Mall": 6,
     "54-THE VILLAGE": 32,
     "55- Jabl Omar": 3,
-    "56- Aziz Mall 2": 10,
+    "56- Aziz Mall 2": 11,
     "57-Sauq7": 12
   },
   "150010032": {
@@ -4537,7 +4588,7 @@
     "07-Arab Mall": 15,
     "08-Makkah Mall": 22,
     "09-Al-Salam Mall": 11,
-    "11-Jouri Mall": 22,
+    "11-Jouri Mall": 24,
     "1114-Malgha Mall": 11,
     "1115-Alrabie Mall": 11,
     "12-Al_Hamra Mall": 22,
@@ -4550,13 +4601,13 @@
     "19-Hail Othaim Mall": 21,
     "1906-LAVANDA PARK": 3,
     "20-Sitten Street Makkah": 16,
-    "21-Abha Al_Rashid Mall New": 45,
+    "21-Abha Al_Rashid Mall New": 47,
     "22-Tabuk Park": 15,
-    "23-Alia Mall Madinah": 20,
+    "23-Alia Mall Madinah": 21,
     "24-Yanbu Dana Mall": 9,
     "25-Rabwa Othaim Mall": 20,
     "26-Al-Noor Mall Madinah": 11,
-    "27-Dhahran Mall khobar": 65,
+    "27-Dhahran Mall khobar": 67,
     "28-Al Nakheel Mall Dammam": 39,
     "30-Tala Mall Riyadh": 12,
     "32-Atyaf Mall Riyadh": 10,
@@ -4587,11 +4638,11 @@
   "150010036": {
     "04-Andalos Mall": 23,
     "05-Haifa Mall": 4,
-    "06-Red Sea Mall": 18,
+    "06-Red Sea Mall": 20,
     "07-Arab Mall": 28,
     "08-Makkah Mall": 30,
     "09-Al-Salam Mall": 14,
-    "11-Jouri Mall": 8,
+    "11-Jouri Mall": 10,
     "1114-Malgha Mall": 27,
     "1115-Alrabie Mall": 10,
     "12-Al_Hamra Mall": 45,
@@ -4609,7 +4660,7 @@
     "25-Rabwa Othaim Mall": 9,
     "26-Al-Noor Mall Madinah": 4,
     "27-Dhahran Mall khobar": 28,
-    "28-Al Nakheel Mall Dammam": 41,
+    "28-Al Nakheel Mall Dammam": 42,
     "30-Tala Mall Riyadh": 8,
     "32-Atyaf Mall Riyadh": 12,
     "36-Al jubail Mall": 17,
@@ -4618,15 +4669,15 @@
     "40-Hayat Mall Riyad": 8,
     "42-Dareen Mall Dammam": 4,
     "43-Mujan Park": 28,
-    "46-Khaleej Mall Riyadh": 20,
-    "47-Al-Nakheel Plaza": 38,
+    "46-Khaleej Mall Riyadh": 21,
+    "47-Al-Nakheel Plaza": 40,
     "48 - Jeddah Park": 1,
     "49-AlAhsa Mall": 8,
-    "50-Meem Plaza Riyadh": 22,
+    "50-Meem Plaza Riyadh": 26,
     "51-Park Avenue Riyadh": 12,
     "52-Al_Baha Mall": 9,
     "53-Al Basateen Mall": 4,
-    "54-THE VILLAGE": 34,
+    "54-THE VILLAGE": 36,
     "55- Jabl Omar": 48,
     "56- Aziz Mall 2": 8,
     "57-Sauq7": 8
@@ -4664,7 +4715,8 @@
     "40-Hayat Mall Riyad": 2,
     "42-Dareen Mall Dammam": 2,
     "51-Park Avenue Riyadh": 1,
-    "53-Al Basateen Mall": 4
+    "53-Al Basateen Mall": 4,
+    "56- Aziz Mall 2": 1
   },
   "150110015": {
     "06-Red Sea Mall": 1,
@@ -4696,7 +4748,7 @@
   },
   "150110017": {
     "1114-Malgha Mall": 3,
-    "1115-Alrabie Mall": 1,
+    "1115-Alrabie Mall": 2,
     "12-Al_Hamra Mall": 5,
     "15-Riyadh Othaim Mall": 3,
     "16-Ehsa Othaim Mall": 8,
@@ -4729,7 +4781,7 @@
   "150110024": {
     "04-Andalos Mall": 5,
     "05-Haifa Mall": 1,
-    "06-Red Sea Mall": 15,
+    "06-Red Sea Mall": 16,
     "07-Arab Mall": 6,
     "08-Makkah Mall": 2,
     "09-Al-Salam Mall": 2,
@@ -4749,7 +4801,7 @@
     "12-Al_Hamra Mall": 2,
     "25-Rabwa Othaim Mall": 1,
     "28-Al Nakheel Mall Dammam": 1,
-    "36-Al jubail Mall": 1,
+    "36-Al jubail Mall": 2,
     "47-Al-Nakheel Plaza": 2,
     "50-Meem Plaza Riyadh": 1
   },
@@ -4757,7 +4809,7 @@
     "55- Jabl Omar": 2
   },
   "150110028": {
-    "55- Jabl Omar": 3
+    "55- Jabl Omar": 4
   },
   "150110029": {
     "30-Tala Mall Riyadh": 3
@@ -4770,6 +4822,7 @@
     "19-Hail Othaim Mall": 1,
     "25-Rabwa Othaim Mall": 1,
     "27-Dhahran Mall khobar": 16,
+    "36-Al jubail Mall": 1,
     "40-Hayat Mall Riyad": 1,
     "45- Riyadh Gallery Mall": 4,
     "47-Al-Nakheel Plaza": 1
@@ -4793,11 +4846,11 @@
   "150110033": {
     "04-Andalos Mall": 41,
     "05-Haifa Mall": 5,
-    "06-Red Sea Mall": 33,
-    "07-Arab Mall": 24,
+    "06-Red Sea Mall": 40,
+    "07-Arab Mall": 26,
     "08-Makkah Mall": 41,
-    "09-Al-Salam Mall": 7,
-    "11-Jouri Mall": 31,
+    "09-Al-Salam Mall": 9,
+    "11-Jouri Mall": 33,
     "1114-Malgha Mall": 8,
     "1115-Alrabie Mall": 3,
     "12-Al_Hamra Mall": 8,
@@ -4807,12 +4860,13 @@
     "16-Ehsa Othaim Mall": 22,
     "17-Arar Othaim Mall": 7,
     "18-Al_Khayyat Center": 11,
+    "19-Hail Othaim Mall": 1,
     "1906-LAVANDA PARK": 16,
     "20-Sitten Street Makkah": 3,
     "21-Abha Al_Rashid Mall New": 40,
     "22-Tabuk Park": 22,
-    "23-Alia Mall Madinah": 18,
-    "24-Yanbu Dana Mall": 14,
+    "23-Alia Mall Madinah": 19,
+    "24-Yanbu Dana Mall": 15,
     "25-Rabwa Othaim Mall": 8,
     "26-Al-Noor Mall Madinah": 20,
     "27-Dhahran Mall khobar": 51,
@@ -4842,20 +4896,20 @@
     "04-Andalos Mall": 14,
     "05-Haifa Mall": 9,
     "06-Red Sea Mall": 1,
-    "07-Arab Mall": 7,
+    "07-Arab Mall": 9,
     "08-Makkah Mall": 31,
     "09-Al-Salam Mall": 7,
     "11-Jouri Mall": 9,
     "1114-Malgha Mall": 16,
     "1115-Alrabie Mall": 3,
-    "12-Al_Hamra Mall": 21,
+    "12-Al_Hamra Mall": 23,
     "13-Al-Yasmin Mall": 21,
     "14-Al Kamal Mall": 7,
     "15-Riyadh Othaim Mall": 10,
     "16-Ehsa Othaim Mall": 17,
     "18-Al_Khayyat Center": 6,
     "19-Hail Othaim Mall": 20,
-    "1906-LAVANDA PARK": 13,
+    "1906-LAVANDA PARK": 14,
     "20-Sitten Street Makkah": 8,
     "23-Alia Mall Madinah": 21,
     "25-Rabwa Othaim Mall": 20,
@@ -4876,7 +4930,7 @@
     "48 - Jeddah Park": 6,
     "49-AlAhsa Mall": 7,
     "50-Meem Plaza Riyadh": 25,
-    "51-Park Avenue Riyadh": 16,
+    "51-Park Avenue Riyadh": 18,
     "53-Al Basateen Mall": 3,
     "55- Jabl Omar": 7,
     "57-Sauq7": 8
@@ -4936,7 +4990,7 @@
     "1906-LAVANDA PARK": 1,
     "23-Alia Mall Madinah": 1,
     "25-Rabwa Othaim Mall": 7,
-    "26-Al-Noor Mall Madinah": 3,
+    "26-Al-Noor Mall Madinah": 4,
     "27-Dhahran Mall khobar": 3,
     "28-Al Nakheel Mall Dammam": 4,
     "30-Tala Mall Riyadh": 1,
@@ -4944,7 +4998,8 @@
     "36-Al jubail Mall": 3,
     "38-Al_Riyadh Park": 1,
     "52-Al_Baha Mall": 1,
-    "54-THE VILLAGE": 4
+    "54-THE VILLAGE": 4,
+    "56- Aziz Mall 2": 1
   },
   "150170004": {
     "06-Red Sea Mall": 1,
@@ -4953,11 +5008,11 @@
   "150170007": {
     "04-Andalos Mall": 17,
     "05-Haifa Mall": 3,
-    "06-Red Sea Mall": 16,
+    "06-Red Sea Mall": 18,
     "07-Arab Mall": 16,
     "08-Makkah Mall": 13,
     "09-Al-Salam Mall": 7,
-    "11-Jouri Mall": 8,
+    "11-Jouri Mall": 9,
     "1114-Malgha Mall": 6,
     "1115-Alrabie Mall": 3,
     "12-Al_Hamra Mall": 14,
@@ -4970,14 +5025,14 @@
     "19-Hail Othaim Mall": 13,
     "1906-LAVANDA PARK": 6,
     "20-Sitten Street Makkah": 1,
-    "21-Abha Al_Rashid Mall New": 8,
+    "21-Abha Al_Rashid Mall New": 9,
     "22-Tabuk Park": 10,
     "23-Alia Mall Madinah": 7,
     "24-Yanbu Dana Mall": 1,
     "25-Rabwa Othaim Mall": 7,
     "26-Al-Noor Mall Madinah": 3,
     "27-Dhahran Mall khobar": 32,
-    "28-Al Nakheel Mall Dammam": 12,
+    "28-Al Nakheel Mall Dammam": 15,
     "30-Tala Mall Riyadh": 17,
     "32-Atyaf Mall Riyadh": 6,
     "36-Al jubail Mall": 3,
@@ -4988,7 +5043,7 @@
     "43-Mujan Park": 14,
     "45- Riyadh Gallery Mall": 5,
     "46-Khaleej Mall Riyadh": 2,
-    "47-Al-Nakheel Plaza": 13,
+    "47-Al-Nakheel Plaza": 14,
     "48 - Jeddah Park": 5,
     "49-AlAhsa Mall": 4,
     "50-Meem Plaza Riyadh": 13,
@@ -5037,7 +5092,7 @@
     "18-Al_Khayyat Center": 3,
     "21-Abha Al_Rashid Mall New": 2,
     "22-Tabuk Park": 4,
-    "23-Alia Mall Madinah": 2,
+    "23-Alia Mall Madinah": 3,
     "24-Yanbu Dana Mall": 2,
     "26-Al-Noor Mall Madinah": 1,
     "43-Mujan Park": 2,
@@ -5101,6 +5156,7 @@
   "160110004": {
     "06-Red Sea Mall": 2,
     "09-Al-Salam Mall": 2,
+    "1906-LAVANDA PARK": 1,
     "24-Yanbu Dana Mall": 1,
     "52-Al_Baha Mall": 1,
     "53-Al Basateen Mall": 1
@@ -5168,7 +5224,7 @@
   "160110033": {
     "11-Jouri Mall": 2,
     "1115-Alrabie Mall": 3,
-    "12-Al_Hamra Mall": 2,
+    "12-Al_Hamra Mall": 3,
     "16-Ehsa Othaim Mall": 3,
     "27-Dhahran Mall khobar": 3,
     "38-Al_Riyadh Park": 2,
@@ -5322,6 +5378,7 @@
     "05-Haifa Mall": 1,
     "07-Arab Mall": 1,
     "08-Makkah Mall": 1,
+    "11-Jouri Mall": 1,
     "1115-Alrabie Mall": 1,
     "12-Al_Hamra Mall": 1,
     "13-Al-Yasmin Mall": 2,
@@ -5409,7 +5466,7 @@
     "07-Arab Mall": 1,
     "08-Makkah Mall": 2,
     "09-Al-Salam Mall": 2,
-    "11-Jouri Mall": 2,
+    "11-Jouri Mall": 3,
     "12-Al_Hamra Mall": 2,
     "13-Al-Yasmin Mall": 2,
     "18-Al_Khayyat Center": 1,
@@ -5459,7 +5516,7 @@
     "14-Al Kamal Mall": 1,
     "16-Ehsa Othaim Mall": 1,
     "18-Al_Khayyat Center": 1,
-    "19-Hail Othaim Mall": 1,
+    "19-Hail Othaim Mall": 2,
     "21-Abha Al_Rashid Mall New": 1,
     "22-Tabuk Park": 1,
     "23-Alia Mall Madinah": 1,
@@ -5501,7 +5558,7 @@
     "07-Arab Mall": 1,
     "08-Makkah Mall": 4,
     "09-Al-Salam Mall": 1,
-    "12-Al_Hamra Mall": 2,
+    "12-Al_Hamra Mall": 3,
     "13-Al-Yasmin Mall": 2,
     "17-Arar Othaim Mall": 1,
     "23-Alia Mall Madinah": 1,
@@ -5610,7 +5667,7 @@
   },
   "170030005": {
     "05-Haifa Mall": 2,
-    "06-Red Sea Mall": 3,
+    "06-Red Sea Mall": 5,
     "07-Arab Mall": 3,
     "08-Makkah Mall": 4,
     "09-Al-Salam Mall": 1,
@@ -5690,7 +5747,7 @@
     "08-Makkah Mall": 3,
     "11-Jouri Mall": 1,
     "1114-Malgha Mall": 1,
-    "1115-Alrabie Mall": 1,
+    "1115-Alrabie Mall": 2,
     "13-Al-Yasmin Mall": 1,
     "16-Ehsa Othaim Mall": 2,
     "18-Al_Khayyat Center": 1,
@@ -5724,7 +5781,7 @@
     "20-Sitten Street Makkah": 5,
     "21-Abha Al_Rashid Mall New": 1,
     "22-Tabuk Park": 1,
-    "23-Alia Mall Madinah": 1,
+    "23-Alia Mall Madinah": 2,
     "27-Dhahran Mall khobar": 6,
     "28-Al Nakheel Mall Dammam": 1,
     "42-Dareen Mall Dammam": 2,
@@ -5737,14 +5794,14 @@
   },
   "170030044": {
     "04-Andalos Mall": 6,
-    "06-Red Sea Mall": 2,
+    "06-Red Sea Mall": 4,
     "07-Arab Mall": 1,
     "08-Makkah Mall": 4,
     "11-Jouri Mall": 1,
     "1114-Malgha Mall": 2,
     "1115-Alrabie Mall": 1,
-    "12-Al_Hamra Mall": 1,
-    "13-Al-Yasmin Mall": 3,
+    "12-Al_Hamra Mall": 2,
+    "13-Al-Yasmin Mall": 17,
     "14-Al Kamal Mall": 2,
     "15-Riyadh Othaim Mall": 1,
     "16-Ehsa Othaim Mall": 1,
@@ -5803,7 +5860,7 @@
     "13-Al-Yasmin Mall": 2,
     "16-Ehsa Othaim Mall": 2,
     "1906-LAVANDA PARK": 1,
-    "20-Sitten Street Makkah": 1,
+    "20-Sitten Street Makkah": 3,
     "32-Atyaf Mall Riyadh": 2,
     "36-Al jubail Mall": 1,
     "46-Khaleej Mall Riyadh": 10,
@@ -5867,9 +5924,9 @@
     "42-Dareen Mall Dammam": 1,
     "45- Riyadh Gallery Mall": 14,
     "46-Khaleej Mall Riyadh": 18,
-    "48 - Jeddah Park": 3,
+    "48 - Jeddah Park": 6,
     "52-Al_Baha Mall": 1,
-    "54-THE VILLAGE": 8,
+    "54-THE VILLAGE": 9,
     "56- Aziz Mall 2": 4
   },
   "180000109": {
@@ -5922,8 +5979,8 @@
     "56- Aziz Mall 2": 1
   },
   "180000118": {
-    "12-Al_Hamra Mall": 4,
-    "27-Dhahran Mall khobar": 3,
+    "12-Al_Hamra Mall": 5,
+    "27-Dhahran Mall khobar": 4,
     "28-Al Nakheel Mall Dammam": 4,
     "32-Atyaf Mall Riyadh": 2,
     "36-Al jubail Mall": 4,
@@ -5966,10 +6023,10 @@
     "56- Aziz Mall 2": 3
   },
   "180000121": {
-    "04-Andalos Mall": 4,
+    "04-Andalos Mall": 5,
     "05-Haifa Mall": 2,
     "06-Red Sea Mall": 6,
-    "07-Arab Mall": 6,
+    "07-Arab Mall": 7,
     "08-Makkah Mall": 5,
     "11-Jouri Mall": 2,
     "12-Al_Hamra Mall": 6,
@@ -5991,7 +6048,7 @@
     "56- Aziz Mall 2": 1
   },
   "180000122": {
-    "04-Andalos Mall": 6,
+    "04-Andalos Mall": 7,
     "05-Haifa Mall": 4,
     "06-Red Sea Mall": 7,
     "07-Arab Mall": 6,
@@ -6013,8 +6070,8 @@
     "38-Al_Riyadh Park": 1,
     "40-Hayat Mall Riyad": 2,
     "47-Al-Nakheel Plaza": 1,
-    "48 - Jeddah Park": 1,
-    "54-THE VILLAGE": 1,
+    "48 - Jeddah Park": 2,
+    "54-THE VILLAGE": 2,
     "55- Jabl Omar": 6,
     "56- Aziz Mall 2": 1,
     "57-Sauq7": 1
@@ -6064,7 +6121,8 @@
     "11-Jouri Mall": 2,
     "12-Al_Hamra Mall": 2,
     "36-Al jubail Mall": 1,
-    "40-Hayat Mall Riyad": 2
+    "40-Hayat Mall Riyad": 2,
+    "48 - Jeddah Park": 1
   },
   "180000147": {
     "12-Al_Hamra Mall": 1,
@@ -6105,7 +6163,7 @@
   },
   "180000161": {
     "1115-Alrabie Mall": 1,
-    "12-Al_Hamra Mall": 1,
+    "12-Al_Hamra Mall": 2,
     "15-Riyadh Othaim Mall": 1,
     "16-Ehsa Othaim Mall": 8,
     "23-Alia Mall Madinah": 1,
@@ -6246,11 +6304,11 @@
     "16-Ehsa Othaim Mall": 1,
     "19-Hail Othaim Mall": 4,
     "25-Rabwa Othaim Mall": 11,
-    "27-Dhahran Mall khobar": 2,
+    "27-Dhahran Mall khobar": 3,
     "28-Al Nakheel Mall Dammam": 5,
     "36-Al jubail Mall": 1,
     "39-Salam Mall Riyadh": 2,
-    "40-Hayat Mall Riyad": 3,
+    "40-Hayat Mall Riyad": 4,
     "42-Dareen Mall Dammam": 3,
     "44-Al-Jouf Center": 1,
     "45- Riyadh Gallery Mall": 34,
@@ -6336,7 +6394,7 @@
     "08-Makkah Mall": 2,
     "11-Jouri Mall": 4,
     "12-Al_Hamra Mall": 3,
-    "13-Al-Yasmin Mall": 4,
+    "13-Al-Yasmin Mall": 5,
     "14-Al Kamal Mall": 2,
     "15-Riyadh Othaim Mall": 2,
     "16-Ehsa Othaim Mall": 5,
@@ -6359,7 +6417,7 @@
     "04-Andalos Mall": 5,
     "05-Haifa Mall": 1,
     "06-Red Sea Mall": 10,
-    "07-Arab Mall": 1,
+    "07-Arab Mall": 2,
     "08-Makkah Mall": 4,
     "09-Al-Salam Mall": 3,
     "1115-Alrabie Mall": 1,
@@ -6373,7 +6431,7 @@
     "20-Sitten Street Makkah": 2,
     "22-Tabuk Park": 1,
     "23-Alia Mall Madinah": 4,
-    "25-Rabwa Othaim Mall": 4,
+    "25-Rabwa Othaim Mall": 5,
     "30-Tala Mall Riyadh": 1,
     "32-Atyaf Mall Riyadh": 2,
     "38-Al_Riyadh Park": 3,
@@ -6439,6 +6497,7 @@
   },
   "180000182": {
     "04-Andalos Mall": 8,
+    "05-Haifa Mall": 1,
     "06-Red Sea Mall": 6,
     "08-Makkah Mall": 1,
     "11-Jouri Mall": 2,
@@ -6457,7 +6516,7 @@
     "38-Al_Riyadh Park": 10,
     "40-Hayat Mall Riyad": 1,
     "42-Dareen Mall Dammam": 2,
-    "46-Khaleej Mall Riyadh": 7,
+    "46-Khaleej Mall Riyadh": 8,
     "47-Al-Nakheel Plaza": 3,
     "48 - Jeddah Park": 4,
     "54-THE VILLAGE": 11,
@@ -6502,7 +6561,7 @@
     "04-Andalos Mall": 17,
     "05-Haifa Mall": 2,
     "06-Red Sea Mall": 7,
-    "07-Arab Mall": 5,
+    "07-Arab Mall": 6,
     "08-Makkah Mall": 5,
     "09-Al-Salam Mall": 4,
     "11-Jouri Mall": 2,
@@ -6519,7 +6578,7 @@
     "24-Yanbu Dana Mall": 1,
     "26-Al-Noor Mall Madinah": 6,
     "27-Dhahran Mall khobar": 6,
-    "36-Al jubail Mall": 1,
+    "36-Al jubail Mall": 2,
     "38-Al_Riyadh Park": 4,
     "40-Hayat Mall Riyad": 1,
     "42-Dareen Mall Dammam": 2,
@@ -6547,7 +6606,7 @@
     "28-Al Nakheel Mall Dammam": 2,
     "32-Atyaf Mall Riyadh": 3,
     "38-Al_Riyadh Park": 6,
-    "39-Salam Mall Riyadh": 3,
+    "39-Salam Mall Riyadh": 4,
     "42-Dareen Mall Dammam": 1,
     "43-Mujan Park": 3,
     "45- Riyadh Gallery Mall": 4,
@@ -6603,7 +6662,7 @@
   },
   "180000188": {
     "25-Rabwa Othaim Mall": 4,
-    "27-Dhahran Mall khobar": 4,
+    "27-Dhahran Mall khobar": 5,
     "28-Al Nakheel Mall Dammam": 1,
     "36-Al jubail Mall": 2,
     "51-Park Avenue Riyadh": 1
@@ -6628,21 +6687,21 @@
     "27-Dhahran Mall khobar": 5,
     "28-Al Nakheel Mall Dammam": 6,
     "32-Atyaf Mall Riyadh": 3,
-    "36-Al jubail Mall": 2,
+    "36-Al jubail Mall": 3,
     "39-Salam Mall Riyadh": 3,
     "45- Riyadh Gallery Mall": 10,
     "46-Khaleej Mall Riyadh": 10,
     "47-Al-Nakheel Plaza": 7,
-    "48 - Jeddah Park": 10,
+    "48 - Jeddah Park": 11,
     "49-AlAhsa Mall": 1,
     "50-Meem Plaza Riyadh": 1,
     "51-Park Avenue Riyadh": 1,
     "52-Al_Baha Mall": 2,
-    "54-THE VILLAGE": 6,
+    "54-THE VILLAGE": 8,
     "56- Aziz Mall 2": 2
   },
   "180000190": {
-    "04-Andalos Mall": 3,
+    "04-Andalos Mall": 4,
     "05-Haifa Mall": 2,
     "06-Red Sea Mall": 1,
     "08-Makkah Mall": 1,
@@ -6665,7 +6724,7 @@
     "46-Khaleej Mall Riyadh": 5,
     "47-Al-Nakheel Plaza": 1,
     "48 - Jeddah Park": 5,
-    "54-THE VILLAGE": 9,
+    "54-THE VILLAGE": 10,
     "56- Aziz Mall 2": 1
   },
   "180000192": {
@@ -6715,11 +6774,11 @@
   "190150024": {
     "04-Andalos Mall": 27,
     "05-Haifa Mall": 8,
-    "06-Red Sea Mall": 72,
-    "07-Arab Mall": 18,
+    "06-Red Sea Mall": 74,
+    "07-Arab Mall": 19,
     "08-Makkah Mall": 35,
-    "09-Al-Salam Mall": 18,
-    "11-Jouri Mall": 24,
+    "09-Al-Salam Mall": 20,
+    "11-Jouri Mall": 25,
     "1114-Malgha Mall": 15,
     "1115-Alrabie Mall": 21,
     "12-Al_Hamra Mall": 45,
@@ -6731,8 +6790,8 @@
     "19-Hail Othaim Mall": 19,
     "1906-LAVANDA PARK": 11,
     "20-Sitten Street Makkah": 3,
-    "21-Abha Al_Rashid Mall New": 31,
-    "22-Tabuk Park": 4,
+    "21-Abha Al_Rashid Mall New": 32,
+    "22-Tabuk Park": 5,
     "23-Alia Mall Madinah": 34,
     "24-Yanbu Dana Mall": 6,
     "25-Rabwa Othaim Mall": 9,
@@ -6740,14 +6799,14 @@
     "27-Dhahran Mall khobar": 21,
     "28-Al Nakheel Mall Dammam": 30,
     "30-Tala Mall Riyadh": 13,
-    "32-Atyaf Mall Riyadh": 34,
+    "32-Atyaf Mall Riyadh": 35,
     "36-Al jubail Mall": 5,
-    "38-Al_Riyadh Park": 28,
+    "38-Al_Riyadh Park": 29,
     "40-Hayat Mall Riyad": 16,
     "42-Dareen Mall Dammam": 9,
-    "43-Mujan Park": 20,
+    "43-Mujan Park": 21,
     "45- Riyadh Gallery Mall": 39,
-    "46-Khaleej Mall Riyadh": 29,
+    "46-Khaleej Mall Riyadh": 31,
     "47-Al-Nakheel Plaza": 25,
     "48 - Jeddah Park": 45,
     "49-AlAhsa Mall": 17,
@@ -6755,7 +6814,7 @@
     "51-Park Avenue Riyadh": 88909,
     "52-Al_Baha Mall": 15,
     "53-Al Basateen Mall": 6,
-    "54-THE VILLAGE": 49,
+    "54-THE VILLAGE": 52,
     "55- Jabl Omar": 15,
     "56- Aziz Mall 2": 17
   },
@@ -6767,10 +6826,10 @@
     "04-Andalos Mall": 16,
     "05-Haifa Mall": 2,
     "06-Red Sea Mall": 32,
-    "07-Arab Mall": 10,
-    "08-Makkah Mall": 12,
+    "07-Arab Mall": 11,
+    "08-Makkah Mall": 13,
     "09-Al-Salam Mall": 10,
-    "11-Jouri Mall": 8,
+    "11-Jouri Mall": 9,
     "1114-Malgha Mall": 7,
     "1115-Alrabie Mall": 6,
     "12-Al_Hamra Mall": 10,
@@ -6780,11 +6839,11 @@
     "16-Ehsa Othaim Mall": 6,
     "18-Al_Khayyat Center": 15,
     "19-Hail Othaim Mall": 21,
-    "1906-LAVANDA PARK": 14,
+    "1906-LAVANDA PARK": 17,
     "20-Sitten Street Makkah": 11,
     "21-Abha Al_Rashid Mall New": 17,
     "22-Tabuk Park": 26,
-    "23-Alia Mall Madinah": 14,
+    "23-Alia Mall Madinah": 15,
     "24-Yanbu Dana Mall": 4,
     "25-Rabwa Othaim Mall": 1,
     "26-Al-Noor Mall Madinah": 22,
@@ -6796,7 +6855,7 @@
     "38-Al_Riyadh Park": 13,
     "40-Hayat Mall Riyad": 6,
     "42-Dareen Mall Dammam": 8,
-    "43-Mujan Park": 9,
+    "43-Mujan Park": 10,
     "45- Riyadh Gallery Mall": 15,
     "46-Khaleej Mall Riyadh": 6,
     "47-Al-Nakheel Plaza": 13,
@@ -6816,7 +6875,7 @@
     "13-Al-Yasmin Mall": 12,
     "14-Al Kamal Mall": 5,
     "16-Ehsa Othaim Mall": 8,
-    "19-Hail Othaim Mall": 3,
+    "19-Hail Othaim Mall": 5,
     "1906-LAVANDA PARK": 3,
     "25-Rabwa Othaim Mall": 9,
     "30-Tala Mall Riyadh": 2,
@@ -6871,7 +6930,7 @@
     "40-Hayat Mall Riyad": 1,
     "45- Riyadh Gallery Mall": 3,
     "46-Khaleej Mall Riyadh": 4,
-    "47-Al-Nakheel Plaza": 5,
+    "47-Al-Nakheel Plaza": 6,
     "49-AlAhsa Mall": 2,
     "50-Meem Plaza Riyadh": 1,
     "51-Park Avenue Riyadh": 1,
@@ -6926,6 +6985,7 @@
   },
   "190160047": {
     "06-Red Sea Mall": 4,
+    "07-Arab Mall": 1,
     "09-Al-Salam Mall": 1,
     "11-Jouri Mall": 3,
     "1114-Malgha Mall": 4,
@@ -6937,6 +6997,7 @@
     "27-Dhahran Mall khobar": 1,
     "28-Al Nakheel Mall Dammam": 1,
     "30-Tala Mall Riyadh": 3,
+    "36-Al jubail Mall": 1,
     "38-Al_Riyadh Park": 4,
     "42-Dareen Mall Dammam": 1,
     "45- Riyadh Gallery Mall": 1,
@@ -6963,6 +7024,7 @@
     "23-Alia Mall Madinah": 4,
     "24-Yanbu Dana Mall": 2,
     "27-Dhahran Mall khobar": 3,
+    "36-Al jubail Mall": 1,
     "40-Hayat Mall Riyad": 2,
     "42-Dareen Mall Dammam": 1,
     "45- Riyadh Gallery Mall": 2,
@@ -6978,7 +7040,7 @@
     "05-Haifa Mall": 2,
     "08-Makkah Mall": 2,
     "09-Al-Salam Mall": 2,
-    "11-Jouri Mall": 2,
+    "11-Jouri Mall": 3,
     "1114-Malgha Mall": 3,
     "1115-Alrabie Mall": 2,
     "12-Al_Hamra Mall": 3,
@@ -6997,6 +7059,7 @@
     "42-Dareen Mall Dammam": 2,
     "43-Mujan Park": 1,
     "44-Al-Jouf Center": 1,
+    "45- Riyadh Gallery Mall": 1,
     "46-Khaleej Mall Riyadh": 1,
     "47-Al-Nakheel Plaza": 1,
     "49-AlAhsa Mall": 2,
@@ -7020,10 +7083,10 @@
   "190160074": {
     "04-Andalos Mall": 15,
     "06-Red Sea Mall": 5,
-    "07-Arab Mall": 6,
-    "08-Makkah Mall": 6,
+    "07-Arab Mall": 11,
+    "08-Makkah Mall": 7,
     "09-Al-Salam Mall": 3,
-    "11-Jouri Mall": 2,
+    "11-Jouri Mall": 4,
     "13-Al-Yasmin Mall": 3,
     "14-Al Kamal Mall": 4,
     "17-Arar Othaim Mall": 11,
@@ -7056,7 +7119,7 @@
     "43-Mujan Park": 2,
     "48 - Jeddah Park": 4,
     "52-Al_Baha Mall": 4,
-    "54-THE VILLAGE": 8,
+    "54-THE VILLAGE": 9,
     "55- Jabl Omar": 4
   },
   "190160076": {
@@ -7076,7 +7139,7 @@
     "48 - Jeddah Park": 2,
     "52-Al_Baha Mall": 1,
     "53-Al Basateen Mall": 1,
-    "54-THE VILLAGE": 10,
+    "54-THE VILLAGE": 11,
     "55- Jabl Omar": 9,
     "56- Aziz Mall 2": 2
   },
@@ -7188,7 +7251,7 @@
     "08-Makkah Mall": 5,
     "09-Al-Salam Mall": 2,
     "11-Jouri Mall": 1,
-    "12-Al_Hamra Mall": 2,
+    "12-Al_Hamra Mall": 3,
     "16-Ehsa Othaim Mall": 2,
     "22-Tabuk Park": 1,
     "23-Alia Mall Madinah": 4,
@@ -7220,6 +7283,7 @@
     "27-Dhahran Mall khobar": 4,
     "32-Atyaf Mall Riyadh": 5,
     "44-Al-Jouf Center": 1,
+    "48 - Jeddah Park": 1,
     "51-Park Avenue Riyadh": 1
   },
   "200050012": {
@@ -7307,13 +7371,14 @@
     "08-Makkah Mall": 10,
     "09-Al-Salam Mall": 6,
     "11-Jouri Mall": 1,
-    "13-Al-Yasmin Mall": 3,
+    "13-Al-Yasmin Mall": 4,
     "18-Al_Khayyat Center": 3,
     "21-Abha Al_Rashid Mall New": 1,
     "23-Alia Mall Madinah": 2,
     "26-Al-Noor Mall Madinah": 7,
     "48 - Jeddah Park": 28,
     "53-Al Basateen Mall": 1,
+    "54-THE VILLAGE": 1,
     "55- Jabl Omar": 5,
     "56- Aziz Mall 2": 4
   },
@@ -7333,7 +7398,7 @@
     "48 - Jeddah Park": 2,
     "50-Meem Plaza Riyadh": 2,
     "52-Al_Baha Mall": 3,
-    "54-THE VILLAGE": 3,
+    "54-THE VILLAGE": 4,
     "55- Jabl Omar": 2,
     "56- Aziz Mall 2": 1
   },
@@ -7348,7 +7413,7 @@
     "23-Alia Mall Madinah": 2,
     "24-Yanbu Dana Mall": 1,
     "25-Rabwa Othaim Mall": 2,
-    "26-Al-Noor Mall Madinah": 6,
+    "26-Al-Noor Mall Madinah": 7,
     "27-Dhahran Mall khobar": 12,
     "32-Atyaf Mall Riyadh": 3,
     "42-Dareen Mall Dammam": 14,
@@ -7373,7 +7438,8 @@
   "200050050": {
     "1115-Alrabie Mall": 3,
     "19-Hail Othaim Mall": 1,
-    "45- Riyadh Gallery Mall": 1
+    "45- Riyadh Gallery Mall": 1,
+    "56- Aziz Mall 2": 1
   },
   "200050055": {
     "25-Rabwa Othaim Mall": 1,
@@ -7401,7 +7467,7 @@
     "1114-Malgha Mall": 15,
     "12-Al_Hamra Mall": 2,
     "18-Al_Khayyat Center": 1,
-    "23-Alia Mall Madinah": 2,
+    "23-Alia Mall Madinah": 5,
     "25-Rabwa Othaim Mall": 1,
     "27-Dhahran Mall khobar": 7,
     "28-Al Nakheel Mall Dammam": 3,
@@ -7414,7 +7480,7 @@
     "12-Al_Hamra Mall": 1,
     "15-Riyadh Othaim Mall": 3,
     "25-Rabwa Othaim Mall": 5,
-    "27-Dhahran Mall khobar": 26,
+    "27-Dhahran Mall khobar": 28,
     "32-Atyaf Mall Riyadh": 7,
     "44-Al-Jouf Center": 1,
     "50-Meem Plaza Riyadh": 16
@@ -7426,6 +7492,7 @@
     "11-Jouri Mall": 5,
     "1114-Malgha Mall": 4,
     "18-Al_Khayyat Center": 1,
+    "27-Dhahran Mall khobar": 2,
     "28-Al Nakheel Mall Dammam": 1,
     "48 - Jeddah Park": 2,
     "56- Aziz Mall 2": 7
@@ -7446,7 +7513,7 @@
   },
   "200050066": {
     "1114-Malgha Mall": 1,
-    "27-Dhahran Mall khobar": 2,
+    "27-Dhahran Mall khobar": 4,
     "28-Al Nakheel Mall Dammam": 2,
     "32-Atyaf Mall Riyadh": 2,
     "42-Dareen Mall Dammam": 6
@@ -7681,7 +7748,7 @@
     "38-Al_Riyadh Park": 3
   },
   "200050172": {
-    "07-Arab Mall": 1,
+    "07-Arab Mall": 2,
     "11-Jouri Mall": 1,
     "23-Alia Mall Madinah": 1,
     "26-Al-Noor Mall Madinah": 2,
@@ -7773,6 +7840,7 @@
     "32-Atyaf Mall Riyadh": 1
   },
   "200050186": {
+    "30-Tala Mall Riyadh": 1,
     "32-Atyaf Mall Riyadh": 1,
     "39-Salam Mall Riyadh": 2
   },
@@ -7803,6 +7871,7 @@
     "04-Andalos Mall": 1,
     "27-Dhahran Mall khobar": 2,
     "32-Atyaf Mall Riyadh": 1,
+    "36-Al jubail Mall": 1,
     "45- Riyadh Gallery Mall": 1,
     "47-Al-Nakheel Plaza": 1,
     "49-AlAhsa Mall": 1
@@ -7853,7 +7922,8 @@
     "50-Meem Plaza Riyadh": 1,
     "51-Park Avenue Riyadh": 2,
     "53-Al Basateen Mall": 2,
-    "55- Jabl Omar": 3
+    "55- Jabl Omar": 3,
+    "57-Sauq7": 2
   },
   "200050199": {
     "06-Red Sea Mall": 1,
@@ -7914,7 +7984,7 @@
   },
   "200050201": {
     "06-Red Sea Mall": 3,
-    "07-Arab Mall": 5,
+    "07-Arab Mall": 6,
     "08-Makkah Mall": 1,
     "09-Al-Salam Mall": 3,
     "1114-Malgha Mall": 2,
@@ -7924,7 +7994,7 @@
     "15-Riyadh Othaim Mall": 2,
     "16-Ehsa Othaim Mall": 3,
     "18-Al_Khayyat Center": 6,
-    "1906-LAVANDA PARK": 1,
+    "1906-LAVANDA PARK": 2,
     "21-Abha Al_Rashid Mall New": 2,
     "22-Tabuk Park": 5,
     "23-Alia Mall Madinah": 3,
@@ -7951,20 +8021,20 @@
     "57-Sauq7": 2
   },
   "200050202": {
-    "04-Andalos Mall": 2,
+    "04-Andalos Mall": 3,
     "05-Haifa Mall": 2,
     "06-Red Sea Mall": 2,
     "07-Arab Mall": 4,
     "09-Al-Salam Mall": 6,
     "1114-Malgha Mall": 1,
     "12-Al_Hamra Mall": 3,
-    "13-Al-Yasmin Mall": 5,
+    "13-Al-Yasmin Mall": 6,
     "15-Riyadh Othaim Mall": 2,
     "18-Al_Khayyat Center": 3,
     "19-Hail Othaim Mall": 1,
     "1906-LAVANDA PARK": 2,
     "20-Sitten Street Makkah": 4,
-    "21-Abha Al_Rashid Mall New": 8,
+    "21-Abha Al_Rashid Mall New": 9,
     "22-Tabuk Park": 1,
     "26-Al-Noor Mall Madinah": 1,
     "27-Dhahran Mall khobar": 7,
@@ -8219,7 +8289,7 @@
     "40-Hayat Mall Riyad": 1,
     "45- Riyadh Gallery Mall": 2,
     "46-Khaleej Mall Riyadh": 1,
-    "47-Al-Nakheel Plaza": 4,
+    "47-Al-Nakheel Plaza": 5,
     "48 - Jeddah Park": 3,
     "49-AlAhsa Mall": 5,
     "50-Meem Plaza Riyadh": 3,
@@ -8228,7 +8298,7 @@
     "54-THE VILLAGE": 4
   },
   "200050212": {
-    "04-Andalos Mall": 1,
+    "04-Andalos Mall": 2,
     "06-Red Sea Mall": 12,
     "07-Arab Mall": 1,
     "08-Makkah Mall": 3,
@@ -8282,7 +8352,7 @@
     "1906-LAVANDA PARK": 1,
     "20-Sitten Street Makkah": 3,
     "21-Abha Al_Rashid Mall New": 1,
-    "22-Tabuk Park": 7,
+    "22-Tabuk Park": 8,
     "23-Alia Mall Madinah": 3,
     "24-Yanbu Dana Mall": 5,
     "25-Rabwa Othaim Mall": 1,
@@ -8390,7 +8460,7 @@
     "57-Sauq7": 1
   },
   "200050216": {
-    "04-Andalos Mall": 3,
+    "04-Andalos Mall": 4,
     "06-Red Sea Mall": 4,
     "07-Arab Mall": 2,
     "08-Makkah Mall": 2,
@@ -8417,7 +8487,7 @@
     "38-Al_Riyadh Park": 4,
     "42-Dareen Mall Dammam": 4,
     "43-Mujan Park": 4,
-    "45- Riyadh Gallery Mall": 3,
+    "45- Riyadh Gallery Mall": 4,
     "46-Khaleej Mall Riyadh": 2,
     "47-Al-Nakheel Plaza": 2,
     "48 - Jeddah Park": 5,
@@ -8463,6 +8533,7 @@
   },
   "200050218": {
     "04-Andalos Mall": 1,
+    "06-Red Sea Mall": 1,
     "07-Arab Mall": 1,
     "1114-Malgha Mall": 1,
     "12-Al_Hamra Mall": 4,
@@ -8579,11 +8650,11 @@
     "06-Red Sea Mall": 8,
     "07-Arab Mall": 7,
     "08-Makkah Mall": 8,
-    "11-Jouri Mall": 4,
+    "11-Jouri Mall": 5,
     "1114-Malgha Mall": 1,
     "1115-Alrabie Mall": 10,
-    "12-Al_Hamra Mall": 3,
-    "14-Al Kamal Mall": 2,
+    "12-Al_Hamra Mall": 4,
+    "14-Al Kamal Mall": 3,
     "15-Riyadh Othaim Mall": 2,
     "16-Ehsa Othaim Mall": 1,
     "18-Al_Khayyat Center": 4,
@@ -8611,7 +8682,7 @@
     "50-Meem Plaza Riyadh": 66,
     "51-Park Avenue Riyadh": 7,
     "52-Al_Baha Mall": 7,
-    "53-Al Basateen Mall": 2,
+    "53-Al Basateen Mall": 4,
     "54-THE VILLAGE": 1,
     "55- Jabl Omar": 4,
     "56- Aziz Mall 2": 1,
@@ -8676,7 +8747,7 @@
     "28-Al Nakheel Mall Dammam": 4,
     "30-Tala Mall Riyadh": 1,
     "38-Al_Riyadh Park": 2,
-    "40-Hayat Mall Riyad": 4,
+    "40-Hayat Mall Riyad": 5,
     "42-Dareen Mall Dammam": 1,
     "45- Riyadh Gallery Mall": 2,
     "46-Khaleej Mall Riyadh": 2,
@@ -8690,6 +8761,7 @@
   },
   "200050225": {
     "04-Andalos Mall": 4,
+    "05-Haifa Mall": 1,
     "06-Red Sea Mall": 6,
     "07-Arab Mall": 1,
     "08-Makkah Mall": 3,
@@ -8715,7 +8787,7 @@
     "36-Al jubail Mall": 2,
     "38-Al_Riyadh Park": 6,
     "39-Salam Mall Riyadh": 1,
-    "40-Hayat Mall Riyad": 10,
+    "40-Hayat Mall Riyad": 11,
     "42-Dareen Mall Dammam": 1,
     "43-Mujan Park": 6,
     "45- Riyadh Gallery Mall": 7,
@@ -8731,18 +8803,18 @@
   },
   "200050226": {
     "04-Andalos Mall": 3,
-    "06-Red Sea Mall": 4,
+    "06-Red Sea Mall": 5,
     "07-Arab Mall": 2,
     "08-Makkah Mall": 2,
     "09-Al-Salam Mall": 1,
     "1114-Malgha Mall": 1,
     "12-Al_Hamra Mall": 3,
-    "13-Al-Yasmin Mall": 4,
+    "13-Al-Yasmin Mall": 5,
     "14-Al Kamal Mall": 1,
     "15-Riyadh Othaim Mall": 1,
     "16-Ehsa Othaim Mall": 3,
     "18-Al_Khayyat Center": 2,
-    "21-Abha Al_Rashid Mall New": 3,
+    "21-Abha Al_Rashid Mall New": 4,
     "22-Tabuk Park": 3,
     "23-Alia Mall Madinah": 2,
     "24-Yanbu Dana Mall": 1,
@@ -8774,7 +8846,7 @@
     "1115-Alrabie Mall": 2,
     "12-Al_Hamra Mall": 2,
     "13-Al-Yasmin Mall": 1,
-    "15-Riyadh Othaim Mall": 3,
+    "15-Riyadh Othaim Mall": 4,
     "18-Al_Khayyat Center": 1,
     "1906-LAVANDA PARK": 1,
     "20-Sitten Street Makkah": 3,
@@ -8834,11 +8906,12 @@
   "200050229": {
     "04-Andalos Mall": 1,
     "05-Haifa Mall": 1,
-    "06-Red Sea Mall": 5,
+    "06-Red Sea Mall": 6,
     "07-Arab Mall": 3,
     "1115-Alrabie Mall": 2,
     "12-Al_Hamra Mall": 2,
     "13-Al-Yasmin Mall": 2,
+    "15-Riyadh Othaim Mall": 1,
     "18-Al_Khayyat Center": 1,
     "22-Tabuk Park": 2,
     "23-Alia Mall Madinah": 2,
@@ -8945,6 +9018,7 @@
     "07-Arab Mall": 3,
     "08-Makkah Mall": 1,
     "12-Al_Hamra Mall": 2,
+    "15-Riyadh Othaim Mall": 1,
     "16-Ehsa Othaim Mall": 1,
     "19-Hail Othaim Mall": 1,
     "20-Sitten Street Makkah": 3,
@@ -8964,7 +9038,7 @@
     "51-Park Avenue Riyadh": 1,
     "52-Al_Baha Mall": 1,
     "54-THE VILLAGE": 1,
-    "55- Jabl Omar": 1,
+    "55- Jabl Omar": 2,
     "56- Aziz Mall 2": 1
   },
   "200050234": {
@@ -8979,6 +9053,7 @@
     "13-Al-Yasmin Mall": 1,
     "18-Al_Khayyat Center": 2,
     "19-Hail Othaim Mall": 2,
+    "1906-LAVANDA PARK": 1,
     "20-Sitten Street Makkah": 1,
     "22-Tabuk Park": 4,
     "27-Dhahran Mall khobar": 6,
@@ -9013,12 +9088,12 @@
     "27-Dhahran Mall khobar": 2,
     "28-Al Nakheel Mall Dammam": 1,
     "32-Atyaf Mall Riyadh": 1,
-    "38-Al_Riyadh Park": 7,
+    "38-Al_Riyadh Park": 8,
     "45- Riyadh Gallery Mall": 1,
     "46-Khaleej Mall Riyadh": 2,
     "48 - Jeddah Park": 1,
     "49-AlAhsa Mall": 1,
-    "50-Meem Plaza Riyadh": 1,
+    "50-Meem Plaza Riyadh": 3,
     "51-Park Avenue Riyadh": 2,
     "53-Al Basateen Mall": 3,
     "54-THE VILLAGE": 1,
@@ -9051,7 +9126,7 @@
     "1115-Alrabie Mall": 2,
     "13-Al-Yasmin Mall": 4,
     "18-Al_Khayyat Center": 1,
-    "1906-LAVANDA PARK": 1,
+    "1906-LAVANDA PARK": 2,
     "21-Abha Al_Rashid Mall New": 1,
     "22-Tabuk Park": 1,
     "23-Alia Mall Madinah": 1,
@@ -9082,6 +9157,7 @@
     "28-Al Nakheel Mall Dammam": 2,
     "32-Atyaf Mall Riyadh": 2,
     "38-Al_Riyadh Park": 4,
+    "42-Dareen Mall Dammam": 1,
     "48 - Jeddah Park": 1,
     "49-AlAhsa Mall": 1,
     "52-Al_Baha Mall": 1,
@@ -9317,6 +9393,7 @@
   "200070079": {
     "1115-Alrabie Mall": 7,
     "16-Ehsa Othaim Mall": 9,
+    "20-Sitten Street Makkah": 1,
     "36-Al jubail Mall": 2,
     "38-Al_Riyadh Park": 6,
     "45- Riyadh Gallery Mall": 1
@@ -9352,7 +9429,8 @@
   },
   "200070085": {
     "27-Dhahran Mall khobar": 3,
-    "36-Al jubail Mall": 7
+    "36-Al jubail Mall": 7,
+    "45- Riyadh Gallery Mall": 1
   },
   "200070086": {
     "27-Dhahran Mall khobar": 2
@@ -9554,7 +9632,7 @@
     "09-Al-Salam Mall": 9,
     "13-Al-Yasmin Mall": 5,
     "23-Alia Mall Madinah": 2,
-    "48 - Jeddah Park": 4,
+    "48 - Jeddah Park": 5,
     "52-Al_Baha Mall": 4,
     "54-THE VILLAGE": 4
   },
@@ -9608,7 +9686,7 @@
     "17-Arar Othaim Mall": 4,
     "1906-LAVANDA PARK": 1,
     "22-Tabuk Park": 2,
-    "23-Alia Mall Madinah": 2,
+    "23-Alia Mall Madinah": 3,
     "48 - Jeddah Park": 11
   },
   "200070134": {
@@ -9661,13 +9739,13 @@
     "26-Al-Noor Mall Madinah": 2,
     "43-Mujan Park": 1,
     "48 - Jeddah Park": 6,
-    "54-THE VILLAGE": 20,
+    "54-THE VILLAGE": 22,
     "56- Aziz Mall 2": 2,
     "57-Sauq7": 9
   },
   "200070138": {
     "06-Red Sea Mall": 1,
-    "07-Arab Mall": 2,
+    "07-Arab Mall": 4,
     "08-Makkah Mall": 1,
     "09-Al-Salam Mall": 2,
     "11-Jouri Mall": 2,
@@ -9729,7 +9807,7 @@
     "13-Al-Yasmin Mall": 5,
     "14-Al Kamal Mall": 1,
     "48 - Jeddah Park": 2,
-    "54-THE VILLAGE": 5
+    "54-THE VILLAGE": 6
   },
   "200070143": {
     "04-Andalos Mall": 2,
@@ -9737,10 +9815,10 @@
     "06-Red Sea Mall": 8,
     "08-Makkah Mall": 3,
     "11-Jouri Mall": 2,
-    "13-Al-Yasmin Mall": 12,
+    "13-Al-Yasmin Mall": 14,
     "17-Arar Othaim Mall": 4,
     "1906-LAVANDA PARK": 1,
-    "23-Alia Mall Madinah": 10,
+    "23-Alia Mall Madinah": 11,
     "26-Al-Noor Mall Madinah": 7,
     "43-Mujan Park": 1,
     "48 - Jeddah Park": 21,
@@ -9769,7 +9847,7 @@
     "11-Jouri Mall": 4,
     "13-Al-Yasmin Mall": 1,
     "14-Al Kamal Mall": 1,
-    "20-Sitten Street Makkah": 2,
+    "20-Sitten Street Makkah": 3,
     "23-Alia Mall Madinah": 5,
     "48 - Jeddah Park": 13,
     "52-Al_Baha Mall": 5,
@@ -9992,8 +10070,8 @@
   "200090258": {
     "16-Ehsa Othaim Mall": 1,
     "38-Al_Riyadh Park": 4,
-    "42-Dareen Mall Dammam": 7,
-    "46-Khaleej Mall Riyadh": 1
+    "42-Dareen Mall Dammam": 8,
+    "46-Khaleej Mall Riyadh": 2
   },
   "200090259": {
     "12-Al_Hamra Mall": 1,
@@ -10024,6 +10102,7 @@
     "28-Al Nakheel Mall Dammam": 6,
     "38-Al_Riyadh Park": 4,
     "42-Dareen Mall Dammam": 2,
+    "46-Khaleej Mall Riyadh": 1,
     "47-Al-Nakheel Plaza": 4
   },
   "200090265": {
@@ -10056,8 +10135,8 @@
     "27-Dhahran Mall khobar": 3,
     "28-Al Nakheel Mall Dammam": 2,
     "38-Al_Riyadh Park": 11,
-    "40-Hayat Mall Riyad": 4,
-    "42-Dareen Mall Dammam": 2,
+    "40-Hayat Mall Riyad": 5,
+    "42-Dareen Mall Dammam": 3,
     "44-Al-Jouf Center": 1,
     "45- Riyadh Gallery Mall": 3,
     "46-Khaleej Mall Riyadh": 2,
@@ -10086,7 +10165,7 @@
     "05-Haifa Mall": 1,
     "06-Red Sea Mall": 1,
     "07-Arab Mall": 1,
-    "08-Makkah Mall": 4,
+    "08-Makkah Mall": 5,
     "24-Yanbu Dana Mall": 1,
     "26-Al-Noor Mall Madinah": 1,
     "55- Jabl Omar": 2,
@@ -10099,7 +10178,7 @@
     "07-Arab Mall": 3,
     "11-Jouri Mall": 2,
     "1906-LAVANDA PARK": 4,
-    "20-Sitten Street Makkah": 2,
+    "20-Sitten Street Makkah": 4,
     "23-Alia Mall Madinah": 1,
     "48 - Jeddah Park": 4,
     "53-Al Basateen Mall": 2,
@@ -10177,7 +10256,7 @@
   },
   "200090281": {
     "1906-LAVANDA PARK": 1,
-    "22-Tabuk Park": 1,
+    "22-Tabuk Park": 2,
     "24-Yanbu Dana Mall": 2,
     "26-Al-Noor Mall Madinah": 4,
     "53-Al Basateen Mall": 1,
@@ -10189,7 +10268,7 @@
     "05-Haifa Mall": 1,
     "06-Red Sea Mall": 8,
     "07-Arab Mall": 2,
-    "08-Makkah Mall": 3,
+    "08-Makkah Mall": 4,
     "09-Al-Salam Mall": 1,
     "11-Jouri Mall": 1,
     "20-Sitten Street Makkah": 3,
@@ -10232,8 +10311,8 @@
     "04-Andalos Mall": 5,
     "05-Haifa Mall": 2,
     "06-Red Sea Mall": 37,
-    "07-Arab Mall": 30,
-    "09-Al-Salam Mall": 5,
+    "07-Arab Mall": 32,
+    "09-Al-Salam Mall": 6,
     "13-Al-Yasmin Mall": 3,
     "18-Al_Khayyat Center": 3,
     "22-Tabuk Park": 1,
@@ -10278,20 +10357,20 @@
     "19-Hail Othaim Mall": 1,
     "1906-LAVANDA PARK": 1,
     "21-Abha Al_Rashid Mall New": 3,
-    "22-Tabuk Park": 5,
+    "22-Tabuk Park": 6,
     "23-Alia Mall Madinah": 6,
     "24-Yanbu Dana Mall": 3,
     "26-Al-Noor Mall Madinah": 17,
     "27-Dhahran Mall khobar": 2,
     "28-Al Nakheel Mall Dammam": 6,
     "30-Tala Mall Riyadh": 3,
-    "32-Atyaf Mall Riyadh": 8,
+    "32-Atyaf Mall Riyadh": 9,
     "38-Al_Riyadh Park": 3,
     "39-Salam Mall Riyadh": 3,
     "40-Hayat Mall Riyad": 3,
     "42-Dareen Mall Dammam": 2,
     "45- Riyadh Gallery Mall": 12,
-    "46-Khaleej Mall Riyadh": 30,
+    "46-Khaleej Mall Riyadh": 32,
     "48 - Jeddah Park": 7,
     "49-AlAhsa Mall": 2,
     "50-Meem Plaza Riyadh": 2,
@@ -10308,12 +10387,12 @@
     "52-Al_Baha Mall": 1
   },
   "200100053": {
-    "04-Andalos Mall": 11,
+    "04-Andalos Mall": 12,
     "05-Haifa Mall": 4,
     "06-Red Sea Mall": 39,
     "07-Arab Mall": 17,
     "08-Makkah Mall": 8,
-    "09-Al-Salam Mall": 5,
+    "09-Al-Salam Mall": 6,
     "11-Jouri Mall": 7,
     "13-Al-Yasmin Mall": 9,
     "14-Al Kamal Mall": 2,
@@ -10340,7 +10419,7 @@
     "04-Andalos Mall": 5,
     "05-Haifa Mall": 3,
     "06-Red Sea Mall": 33,
-    "07-Arab Mall": 25,
+    "07-Arab Mall": 27,
     "09-Al-Salam Mall": 2,
     "11-Jouri Mall": 2,
     "1114-Malgha Mall": 1,
@@ -10359,13 +10438,13 @@
     "27-Dhahran Mall khobar": 6,
     "28-Al Nakheel Mall Dammam": 9,
     "30-Tala Mall Riyadh": 3,
-    "32-Atyaf Mall Riyadh": 11,
+    "32-Atyaf Mall Riyadh": 12,
     "38-Al_Riyadh Park": 3,
     "39-Salam Mall Riyadh": 1,
     "40-Hayat Mall Riyad": 4,
     "42-Dareen Mall Dammam": 3,
     "45- Riyadh Gallery Mall": 11,
-    "46-Khaleej Mall Riyadh": 28,
+    "46-Khaleej Mall Riyadh": 29,
     "47-Al-Nakheel Plaza": 2,
     "48 - Jeddah Park": 5,
     "49-AlAhsa Mall": 1,
@@ -10379,7 +10458,7 @@
     "04-Andalos Mall": 11,
     "05-Haifa Mall": 5,
     "06-Red Sea Mall": 44,
-    "07-Arab Mall": 41,
+    "07-Arab Mall": 42,
     "08-Makkah Mall": 5,
     "09-Al-Salam Mall": 3,
     "11-Jouri Mall": 4,
@@ -10394,7 +10473,7 @@
     "19-Hail Othaim Mall": 1,
     "20-Sitten Street Makkah": 1,
     "21-Abha Al_Rashid Mall New": 4,
-    "22-Tabuk Park": 4,
+    "22-Tabuk Park": 5,
     "23-Alia Mall Madinah": 9,
     "24-Yanbu Dana Mall": 4,
     "26-Al-Noor Mall Madinah": 35,
@@ -10407,7 +10486,7 @@
     "42-Dareen Mall Dammam": 5,
     "43-Mujan Park": 1,
     "45- Riyadh Gallery Mall": 31,
-    "46-Khaleej Mall Riyadh": 53,
+    "46-Khaleej Mall Riyadh": 56,
     "47-Al-Nakheel Plaza": 2,
     "48 - Jeddah Park": 4,
     "49-AlAhsa Mall": 1,
@@ -10418,12 +10497,12 @@
     "57-Sauq7": 1
   },
   "200100056": {
-    "04-Andalos Mall": 13,
+    "04-Andalos Mall": 14,
     "05-Haifa Mall": 7,
     "06-Red Sea Mall": 37,
     "07-Arab Mall": 26,
     "08-Makkah Mall": 15,
-    "09-Al-Salam Mall": 5,
+    "09-Al-Salam Mall": 6,
     "1114-Malgha Mall": 3,
     "12-Al_Hamra Mall": 14,
     "13-Al-Yasmin Mall": 5,
@@ -10432,7 +10511,7 @@
     "18-Al_Khayyat Center": 4,
     "19-Hail Othaim Mall": 1,
     "1906-LAVANDA PARK": 1,
-    "20-Sitten Street Makkah": 1,
+    "20-Sitten Street Makkah": 2,
     "21-Abha Al_Rashid Mall New": 2,
     "25-Rabwa Othaim Mall": 8,
     "26-Al-Noor Mall Madinah": 1,
@@ -10442,7 +10521,7 @@
     "38-Al_Riyadh Park": 5,
     "42-Dareen Mall Dammam": 1,
     "45- Riyadh Gallery Mall": 12,
-    "46-Khaleej Mall Riyadh": 28,
+    "46-Khaleej Mall Riyadh": 31,
     "47-Al-Nakheel Plaza": 3,
     "48 - Jeddah Park": 9,
     "49-AlAhsa Mall": 5,
@@ -10454,16 +10533,17 @@
     "57-Sauq7": 1
   },
   "200100057": {
-    "04-Andalos Mall": 23,
+    "04-Andalos Mall": 24,
     "05-Haifa Mall": 3,
-    "06-Red Sea Mall": 44,
-    "07-Arab Mall": 31,
+    "06-Red Sea Mall": 45,
+    "07-Arab Mall": 32,
     "08-Makkah Mall": 12,
     "09-Al-Salam Mall": 3,
     "13-Al-Yasmin Mall": 6,
     "14-Al Kamal Mall": 2,
     "18-Al_Khayyat Center": 5,
     "20-Sitten Street Makkah": 2,
+    "22-Tabuk Park": 1,
     "48 - Jeddah Park": 15,
     "52-Al_Baha Mall": 1,
     "54-THE VILLAGE": 26,
@@ -10482,15 +10562,15 @@
     "56- Aziz Mall 2": 3
   },
   "200100062": {
-    "04-Andalos Mall": 2,
+    "04-Andalos Mall": 3,
     "06-Red Sea Mall": 21,
     "09-Al-Salam Mall": 5,
     "13-Al-Yasmin Mall": 12,
     "18-Al_Khayyat Center": 1,
     "21-Abha Al_Rashid Mall New": 11,
     "23-Alia Mall Madinah": 3,
-    "48 - Jeddah Park": 36,
-    "54-THE VILLAGE": 9,
+    "48 - Jeddah Park": 37,
+    "54-THE VILLAGE": 10,
     "56- Aziz Mall 2": 24,
     "57-Sauq7": 2
   },
@@ -10502,8 +10582,8 @@
     "13-Al-Yasmin Mall": 18,
     "21-Abha Al_Rashid Mall New": 9,
     "22-Tabuk Park": 2,
-    "48 - Jeddah Park": 22,
-    "54-THE VILLAGE": 15,
+    "48 - Jeddah Park": 23,
+    "54-THE VILLAGE": 16,
     "56- Aziz Mall 2": 26,
     "57-Sauq7": 2
   },
@@ -10518,12 +10598,12 @@
     "22-Tabuk Park": 2
   },
   "200100068": {
-    "06-Red Sea Mall": 7,
+    "06-Red Sea Mall": 8,
     "56- Aziz Mall 2": 2
   },
   "200100069": {
     "16-Ehsa Othaim Mall": 1,
-    "19-Hail Othaim Mall": 15,
+    "19-Hail Othaim Mall": 16,
     "1906-LAVANDA PARK": 5,
     "24-Yanbu Dana Mall": 1,
     "27-Dhahran Mall khobar": 8,
@@ -10555,7 +10635,7 @@
     "23-Alia Mall Madinah": 3,
     "43-Mujan Park": 3,
     "48 - Jeddah Park": 10,
-    "54-THE VILLAGE": 1,
+    "54-THE VILLAGE": 8,
     "56- Aziz Mall 2": 7
   },
   "200100072": {
@@ -10591,7 +10671,7 @@
     "57-Sauq7": 1
   },
   "200100080": {
-    "04-Andalos Mall": 5,
+    "04-Andalos Mall": 7,
     "05-Haifa Mall": 2,
     "06-Red Sea Mall": 28,
     "07-Arab Mall": 4,
@@ -10600,7 +10680,7 @@
     "13-Al-Yasmin Mall": 13,
     "21-Abha Al_Rashid Mall New": 8,
     "22-Tabuk Park": 2,
-    "48 - Jeddah Park": 50,
+    "48 - Jeddah Park": 51,
     "54-THE VILLAGE": 19,
     "56- Aziz Mall 2": 17,
     "57-Sauq7": 3
@@ -10630,8 +10710,9 @@
     "12-Al_Hamra Mall": 5,
     "25-Rabwa Othaim Mall": 2,
     "27-Dhahran Mall khobar": 16,
+    "28-Al Nakheel Mall Dammam": 1,
     "30-Tala Mall Riyadh": 2,
-    "32-Atyaf Mall Riyadh": 1,
+    "32-Atyaf Mall Riyadh": 2,
     "38-Al_Riyadh Park": 2,
     "39-Salam Mall Riyadh": 1,
     "47-Al-Nakheel Plaza": 2,
@@ -10655,7 +10736,7 @@
   },
   "200100087": {
     "17-Arar Othaim Mall": 1,
-    "20-Sitten Street Makkah": 1,
+    "20-Sitten Street Makkah": 2,
     "32-Atyaf Mall Riyadh": 2
   },
   "200100088": {
@@ -10686,7 +10767,7 @@
   "200100089": {
     "11-Jouri Mall": 3,
     "14-Al Kamal Mall": 1,
-    "20-Sitten Street Makkah": 2,
+    "20-Sitten Street Makkah": 3,
     "21-Abha Al_Rashid Mall New": 2,
     "22-Tabuk Park": 1,
     "52-Al_Baha Mall": 1
@@ -10702,8 +10783,8 @@
     "39-Salam Mall Riyadh": 2,
     "40-Hayat Mall Riyad": 1,
     "42-Dareen Mall Dammam": 1,
-    "45- Riyadh Gallery Mall": 9,
-    "46-Khaleej Mall Riyadh": 11,
+    "45- Riyadh Gallery Mall": 10,
+    "46-Khaleej Mall Riyadh": 13,
     "50-Meem Plaza Riyadh": 1,
     "51-Park Avenue Riyadh": 4
   },
@@ -10719,7 +10800,7 @@
     "39-Salam Mall Riyadh": 2,
     "40-Hayat Mall Riyad": 5,
     "45- Riyadh Gallery Mall": 12,
-    "46-Khaleej Mall Riyadh": 22
+    "46-Khaleej Mall Riyadh": 24
   },
   "200100092": {
     "12-Al_Hamra Mall": 6,
@@ -10749,12 +10830,12 @@
     "25-Rabwa Othaim Mall": 1,
     "27-Dhahran Mall khobar": 2,
     "42-Dareen Mall Dammam": 2,
-    "46-Khaleej Mall Riyadh": 4
+    "46-Khaleej Mall Riyadh": 6
   },
   "200100095": {
     "12-Al_Hamra Mall": 2,
     "16-Ehsa Othaim Mall": 4,
-    "27-Dhahran Mall khobar": 18,
+    "27-Dhahran Mall khobar": 21,
     "30-Tala Mall Riyadh": 1,
     "32-Atyaf Mall Riyadh": 1,
     "38-Al_Riyadh Park": 5,
@@ -10776,7 +10857,7 @@
     "39-Salam Mall Riyadh": 1,
     "40-Hayat Mall Riyad": 4,
     "42-Dareen Mall Dammam": 2,
-    "45- Riyadh Gallery Mall": 10,
+    "45- Riyadh Gallery Mall": 11,
     "46-Khaleej Mall Riyadh": 20,
     "47-Al-Nakheel Plaza": 4,
     "50-Meem Plaza Riyadh": 1,
@@ -10794,8 +10875,8 @@
     "38-Al_Riyadh Park": 5,
     "40-Hayat Mall Riyad": 4,
     "42-Dareen Mall Dammam": 1,
-    "45- Riyadh Gallery Mall": 25,
-    "46-Khaleej Mall Riyadh": 30,
+    "45- Riyadh Gallery Mall": 26,
+    "46-Khaleej Mall Riyadh": 32,
     "50-Meem Plaza Riyadh": 2,
     "51-Park Avenue Riyadh": 7
   },
@@ -10811,7 +10892,7 @@
     "38-Al_Riyadh Park": 2,
     "40-Hayat Mall Riyad": 4,
     "45- Riyadh Gallery Mall": 4,
-    "46-Khaleej Mall Riyadh": 20,
+    "46-Khaleej Mall Riyadh": 22,
     "51-Park Avenue Riyadh": 6
   },
   "200100099": {
@@ -10823,7 +10904,7 @@
     "40-Hayat Mall Riyad": 3,
     "42-Dareen Mall Dammam": 1,
     "45- Riyadh Gallery Mall": 15,
-    "46-Khaleej Mall Riyadh": 18,
+    "46-Khaleej Mall Riyadh": 20,
     "50-Meem Plaza Riyadh": 1,
     "51-Park Avenue Riyadh": 3
   },
@@ -10934,7 +11015,7 @@
   "200100107": {
     "04-Andalos Mall": 7,
     "05-Haifa Mall": 3,
-    "06-Red Sea Mall": 22,
+    "06-Red Sea Mall": 23,
     "07-Arab Mall": 17,
     "13-Al-Yasmin Mall": 14,
     "18-Al_Khayyat Center": 11,
@@ -10968,8 +11049,9 @@
     "11-Jouri Mall": 10,
     "1114-Malgha Mall": 2,
     "1115-Alrabie Mall": 4,
-    "12-Al_Hamra Mall": 4,
+    "12-Al_Hamra Mall": 5,
     "13-Al-Yasmin Mall": 6,
+    "14-Al Kamal Mall": 1,
     "15-Riyadh Othaim Mall": 2,
     "16-Ehsa Othaim Mall": 3,
     "19-Hail Othaim Mall": 2,
@@ -10989,7 +11071,7 @@
     "43-Mujan Park": 5,
     "45- Riyadh Gallery Mall": 1,
     "46-Khaleej Mall Riyadh": 7,
-    "47-Al-Nakheel Plaza": 4,
+    "47-Al-Nakheel Plaza": 5,
     "48 - Jeddah Park": 2,
     "49-AlAhsa Mall": 4,
     "50-Meem Plaza Riyadh": 2,
@@ -11008,7 +11090,7 @@
     "09-Al-Salam Mall": 3,
     "1114-Malgha Mall": 2,
     "12-Al_Hamra Mall": 3,
-    "13-Al-Yasmin Mall": 10,
+    "13-Al-Yasmin Mall": 11,
     "14-Al Kamal Mall": 3,
     "16-Ehsa Othaim Mall": 1,
     "17-Arar Othaim Mall": 2,
@@ -11019,13 +11101,13 @@
     "22-Tabuk Park": 2,
     "23-Alia Mall Madinah": 3,
     "24-Yanbu Dana Mall": 4,
-    "26-Al-Noor Mall Madinah": 10,
+    "26-Al-Noor Mall Madinah": 11,
     "38-Al_Riyadh Park": 3,
     "39-Salam Mall Riyadh": 5,
     "40-Hayat Mall Riyad": 1,
     "43-Mujan Park": 6,
     "46-Khaleej Mall Riyadh": 5,
-    "48 - Jeddah Park": 12,
+    "48 - Jeddah Park": 13,
     "50-Meem Plaza Riyadh": 2,
     "52-Al_Baha Mall": 3,
     "54-THE VILLAGE": 13,
@@ -11045,11 +11127,11 @@
   "210120027": {
     "1114-Malgha Mall": 2,
     "1115-Alrabie Mall": 3,
-    "12-Al_Hamra Mall": 12,
+    "12-Al_Hamra Mall": 13,
     "15-Riyadh Othaim Mall": 6,
     "16-Ehsa Othaim Mall": 2,
     "19-Hail Othaim Mall": 5,
-    "25-Rabwa Othaim Mall": 6,
+    "25-Rabwa Othaim Mall": 7,
     "27-Dhahran Mall khobar": 13,
     "28-Al Nakheel Mall Dammam": 5,
     "30-Tala Mall Riyadh": 2,
@@ -11069,7 +11151,7 @@
   "210120028": {
     "04-Andalos Mall": 4,
     "05-Haifa Mall": 4,
-    "06-Red Sea Mall": 8,
+    "06-Red Sea Mall": 9,
     "07-Arab Mall": 8,
     "08-Makkah Mall": 6,
     "09-Al-Salam Mall": 1,
@@ -11103,7 +11185,7 @@
     "51-Park Avenue Riyadh": 4,
     "52-Al_Baha Mall": 9,
     "53-Al Basateen Mall": 2,
-    "54-THE VILLAGE": 10,
+    "54-THE VILLAGE": 11,
     "55- Jabl Omar": 1,
     "56- Aziz Mall 2": 4,
     "57-Sauq7": 2
@@ -11120,7 +11202,7 @@
     "11-Jouri Mall": 4,
     "1115-Alrabie Mall": 2,
     "12-Al_Hamra Mall": 2,
-    "13-Al-Yasmin Mall": 3,
+    "13-Al-Yasmin Mall": 4,
     "16-Ehsa Othaim Mall": 5,
     "17-Arar Othaim Mall": 1,
     "18-Al_Khayyat Center": 1,
@@ -11134,13 +11216,13 @@
     "32-Atyaf Mall Riyadh": 1,
     "38-Al_Riyadh Park": 3,
     "39-Salam Mall Riyadh": 1,
-    "40-Hayat Mall Riyad": 1,
+    "40-Hayat Mall Riyad": 2,
     "42-Dareen Mall Dammam": 3,
     "45- Riyadh Gallery Mall": 2,
     "46-Khaleej Mall Riyadh": 1,
     "48 - Jeddah Park": 2,
     "51-Park Avenue Riyadh": 3,
-    "54-THE VILLAGE": 7,
+    "54-THE VILLAGE": 8,
     "56- Aziz Mall 2": 2
   },
   "210120108": {
@@ -11152,7 +11234,7 @@
     "15-Riyadh Othaim Mall": 1,
     "19-Hail Othaim Mall": 1,
     "21-Abha Al_Rashid Mall New": 2,
-    "22-Tabuk Park": 1,
+    "22-Tabuk Park": 2,
     "27-Dhahran Mall khobar": 4,
     "28-Al Nakheel Mall Dammam": 2,
     "38-Al_Riyadh Park": 3,
@@ -11201,7 +11283,7 @@
   "210120119": {
     "04-Andalos Mall": 4,
     "05-Haifa Mall": 1,
-    "06-Red Sea Mall": 3,
+    "06-Red Sea Mall": 4,
     "07-Arab Mall": 2,
     "1114-Malgha Mall": 1,
     "12-Al_Hamra Mall": 2,
@@ -11213,7 +11295,7 @@
     "38-Al_Riyadh Park": 2,
     "45- Riyadh Gallery Mall": 2,
     "46-Khaleej Mall Riyadh": 2,
-    "47-Al-Nakheel Plaza": 3,
+    "47-Al-Nakheel Plaza": 5,
     "48 - Jeddah Park": 5,
     "49-AlAhsa Mall": 1,
     "54-THE VILLAGE": 2,
@@ -11269,7 +11351,7 @@
     "48 - Jeddah Park": 1,
     "50-Meem Plaza Riyadh": 2,
     "51-Park Avenue Riyadh": 1,
-    "53-Al Basateen Mall": 3,
+    "53-Al Basateen Mall": 4,
     "54-THE VILLAGE": 1
   },
   "210120196": {
@@ -11293,7 +11375,7 @@
     "23-Alia Mall Madinah": 1,
     "26-Al-Noor Mall Madinah": 1,
     "27-Dhahran Mall khobar": 9,
-    "28-Al Nakheel Mall Dammam": 4,
+    "28-Al Nakheel Mall Dammam": 5,
     "30-Tala Mall Riyadh": 1,
     "32-Atyaf Mall Riyadh": 2,
     "38-Al_Riyadh Park": 3,
@@ -11334,7 +11416,7 @@
     "16-Ehsa Othaim Mall": 3,
     "18-Al_Khayyat Center": 2,
     "1906-LAVANDA PARK": 2,
-    "21-Abha Al_Rashid Mall New": 2,
+    "21-Abha Al_Rashid Mall New": 3,
     "23-Alia Mall Madinah": 5,
     "25-Rabwa Othaim Mall": 1,
     "26-Al-Noor Mall Madinah": 5,
@@ -11343,7 +11425,7 @@
     "30-Tala Mall Riyadh": 1,
     "32-Atyaf Mall Riyadh": 2,
     "36-Al jubail Mall": 1,
-    "38-Al_Riyadh Park": 1,
+    "38-Al_Riyadh Park": 2,
     "39-Salam Mall Riyadh": 1,
     "40-Hayat Mall Riyad": 1,
     "43-Mujan Park": 3,
@@ -11380,7 +11462,7 @@
     "06-Red Sea Mall": 8,
     "07-Arab Mall": 1,
     "08-Makkah Mall": 8,
-    "11-Jouri Mall": 1,
+    "11-Jouri Mall": 2,
     "1114-Malgha Mall": 1,
     "12-Al_Hamra Mall": 1,
     "13-Al-Yasmin Mall": 3,
@@ -11406,7 +11488,7 @@
     "48 - Jeddah Park": 4,
     "49-AlAhsa Mall": 1,
     "50-Meem Plaza Riyadh": 1,
-    "53-Al Basateen Mall": 1,
+    "53-Al Basateen Mall": 2,
     "54-THE VILLAGE": 4
   },
   "210120201": {
@@ -11423,7 +11505,7 @@
     "39-Salam Mall Riyadh": 1,
     "42-Dareen Mall Dammam": 1,
     "46-Khaleej Mall Riyadh": 2,
-    "47-Al-Nakheel Plaza": 1,
+    "47-Al-Nakheel Plaza": 2,
     "48 - Jeddah Park": 2,
     "49-AlAhsa Mall": 1,
     "50-Meem Plaza Riyadh": 3,
@@ -11486,7 +11568,7 @@
     "43-Mujan Park": 1,
     "45- Riyadh Gallery Mall": 3,
     "46-Khaleej Mall Riyadh": 1,
-    "47-Al-Nakheel Plaza": 4,
+    "47-Al-Nakheel Plaza": 5,
     "48 - Jeddah Park": 3,
     "50-Meem Plaza Riyadh": 1,
     "51-Park Avenue Riyadh": 3
@@ -11597,7 +11679,7 @@
     "28-Al Nakheel Mall Dammam": 1,
     "32-Atyaf Mall Riyadh": 3,
     "36-Al jubail Mall": 1,
-    "38-Al_Riyadh Park": 4,
+    "38-Al_Riyadh Park": 5,
     "46-Khaleej Mall Riyadh": 1,
     "49-AlAhsa Mall": 1,
     "50-Meem Plaza Riyadh": 3,
@@ -11607,10 +11689,10 @@
     "49-AlAhsa Mall": 5
   },
   "210130010": {
-    "04-Andalos Mall": 1,
+    "04-Andalos Mall": 2,
     "05-Haifa Mall": 1,
-    "06-Red Sea Mall": 4,
-    "07-Arab Mall": 7,
+    "06-Red Sea Mall": 5,
+    "07-Arab Mall": 8,
     "08-Makkah Mall": 19,
     "09-Al-Salam Mall": 1,
     "11-Jouri Mall": 3,
@@ -11637,7 +11719,7 @@
   },
   "210130033": {
     "06-Red Sea Mall": 7,
-    "07-Arab Mall": 2,
+    "07-Arab Mall": 3,
     "08-Makkah Mall": 4,
     "18-Al_Khayyat Center": 1,
     "1906-LAVANDA PARK": 1,
@@ -11679,13 +11761,14 @@
     "49-AlAhsa Mall": 1,
     "52-Al_Baha Mall": 1,
     "54-THE VILLAGE": 8,
+    "55- Jabl Omar": 1,
     "56- Aziz Mall 2": 1
   },
   "210130049": {
-    "04-Andalos Mall": 1,
+    "04-Andalos Mall": 2,
     "05-Haifa Mall": 1,
-    "06-Red Sea Mall": 12,
-    "07-Arab Mall": 4,
+    "06-Red Sea Mall": 13,
+    "07-Arab Mall": 5,
     "08-Makkah Mall": 9,
     "11-Jouri Mall": 3,
     "1115-Alrabie Mall": 1,
@@ -11697,7 +11780,7 @@
     "21-Abha Al_Rashid Mall New": 1,
     "24-Yanbu Dana Mall": 3,
     "28-Al Nakheel Mall Dammam": 1,
-    "32-Atyaf Mall Riyadh": 1,
+    "32-Atyaf Mall Riyadh": 2,
     "38-Al_Riyadh Park": 4,
     "43-Mujan Park": 3,
     "45- Riyadh Gallery Mall": 10,
@@ -11878,6 +11961,7 @@
     "08-Makkah Mall": 7,
     "1114-Malgha Mall": 3,
     "1115-Alrabie Mall": 3,
+    "12-Al_Hamra Mall": 1,
     "13-Al-Yasmin Mall": 1,
     "17-Arar Othaim Mall": 2,
     "18-Al_Khayyat Center": 1,
@@ -11936,11 +12020,11 @@
   "210130112": {
     "05-Haifa Mall": 1,
     "06-Red Sea Mall": 11,
-    "07-Arab Mall": 2,
+    "07-Arab Mall": 3,
     "08-Makkah Mall": 2,
     "1115-Alrabie Mall": 1,
     "12-Al_Hamra Mall": 1,
-    "13-Al-Yasmin Mall": 3,
+    "13-Al-Yasmin Mall": 4,
     "14-Al Kamal Mall": 4,
     "17-Arar Othaim Mall": 1,
     "18-Al_Khayyat Center": 2,
@@ -11959,7 +12043,7 @@
     "48 - Jeddah Park": 3,
     "49-AlAhsa Mall": 1,
     "51-Park Avenue Riyadh": 5,
-    "54-THE VILLAGE": 9,
+    "54-THE VILLAGE": 11,
     "56- Aziz Mall 2": 5
   },
   "210130150": {
@@ -11967,7 +12051,7 @@
     "32-Atyaf Mall Riyadh": 2,
     "36-Al jubail Mall": 4,
     "42-Dareen Mall Dammam": 3,
-    "46-Khaleej Mall Riyadh": 1,
+    "46-Khaleej Mall Riyadh": 2,
     "50-Meem Plaza Riyadh": 3,
     "51-Park Avenue Riyadh": 1
   },
@@ -11982,7 +12066,7 @@
     "23-Alia Mall Madinah": 2,
     "27-Dhahran Mall khobar": 2,
     "28-Al Nakheel Mall Dammam": 5,
-    "32-Atyaf Mall Riyadh": 2,
+    "32-Atyaf Mall Riyadh": 3,
     "40-Hayat Mall Riyad": 1,
     "42-Dareen Mall Dammam": 1,
     "43-Mujan Park": 1,
@@ -12002,6 +12086,7 @@
   "210130153": {
     "36-Al jubail Mall": 1,
     "44-Al-Jouf Center": 1,
+    "47-Al-Nakheel Plaza": 1,
     "55- Jabl Omar": 2
   },
   "210130154": {
@@ -12119,6 +12204,7 @@
     "22-Tabuk Park": 1,
     "28-Al Nakheel Mall Dammam": 5,
     "30-Tala Mall Riyadh": 1,
+    "32-Atyaf Mall Riyadh": 1,
     "36-Al jubail Mall": 2,
     "38-Al_Riyadh Park": 5,
     "44-Al-Jouf Center": 1,
@@ -12178,7 +12264,7 @@
   "210130174": {
     "04-Andalos Mall": 4,
     "05-Haifa Mall": 1,
-    "06-Red Sea Mall": 11,
+    "06-Red Sea Mall": 13,
     "07-Arab Mall": 2,
     "13-Al-Yasmin Mall": 1,
     "18-Al_Khayyat Center": 1,
@@ -12193,7 +12279,7 @@
     "51-Park Avenue Riyadh": 5
   },
   "210130175": {
-    "04-Andalos Mall": 4,
+    "04-Andalos Mall": 5,
     "05-Haifa Mall": 1,
     "06-Red Sea Mall": 7,
     "08-Makkah Mall": 1,
@@ -12227,10 +12313,11 @@
     "40-Hayat Mall Riyad": 2,
     "45- Riyadh Gallery Mall": 10,
     "46-Khaleej Mall Riyadh": 7,
+    "47-Al-Nakheel Plaza": 2,
     "51-Park Avenue Riyadh": 4
   },
   "210130177": {
-    "04-Andalos Mall": 1,
+    "04-Andalos Mall": 2,
     "06-Red Sea Mall": 2,
     "07-Arab Mall": 4,
     "11-Jouri Mall": 2,
@@ -12245,7 +12332,7 @@
     "38-Al_Riyadh Park": 6,
     "45- Riyadh Gallery Mall": 6,
     "46-Khaleej Mall Riyadh": 3,
-    "48 - Jeddah Park": 2,
+    "48 - Jeddah Park": 3,
     "50-Meem Plaza Riyadh": 1,
     "51-Park Avenue Riyadh": 3,
     "56- Aziz Mall 2": 1
@@ -12268,7 +12355,7 @@
     "42-Dareen Mall Dammam": 2,
     "45- Riyadh Gallery Mall": 3,
     "46-Khaleej Mall Riyadh": 10,
-    "48 - Jeddah Park": 2,
+    "48 - Jeddah Park": 3,
     "50-Meem Plaza Riyadh": 1,
     "51-Park Avenue Riyadh": 5,
     "54-THE VILLAGE": 2
@@ -12342,6 +12429,7 @@
     "20-Sitten Street Makkah": 2,
     "22-Tabuk Park": 4,
     "23-Alia Mall Madinah": 2,
+    "24-Yanbu Dana Mall": 2,
     "25-Rabwa Othaim Mall": 3,
     "26-Al-Noor Mall Madinah": 3,
     "27-Dhahran Mall khobar": 1,
@@ -12368,7 +12456,7 @@
     "36-Al jubail Mall": 1,
     "45- Riyadh Gallery Mall": 4,
     "46-Khaleej Mall Riyadh": 5,
-    "48 - Jeddah Park": 1,
+    "48 - Jeddah Park": 2,
     "51-Park Avenue Riyadh": 4,
     "54-THE VILLAGE": 4,
     "55- Jabl Omar": 3,
@@ -12430,7 +12518,7 @@
   "210130189": {
     "04-Andalos Mall": 1,
     "05-Haifa Mall": 2,
-    "06-Red Sea Mall": 3,
+    "06-Red Sea Mall": 4,
     "07-Arab Mall": 1,
     "13-Al-Yasmin Mall": 2,
     "17-Arar Othaim Mall": 1,
@@ -12450,7 +12538,7 @@
     "56- Aziz Mall 2": 1
   },
   "210130190": {
-    "04-Andalos Mall": 1,
+    "04-Andalos Mall": 2,
     "05-Haifa Mall": 4,
     "06-Red Sea Mall": 8,
     "08-Makkah Mall": 2,
@@ -12466,7 +12554,7 @@
     "46-Khaleej Mall Riyadh": 1,
     "48 - Jeddah Park": 2,
     "51-Park Avenue Riyadh": 2,
-    "54-THE VILLAGE": 7
+    "54-THE VILLAGE": 8
   },
   "210130191": {
     "12-Al_Hamra Mall": 7,
@@ -12493,6 +12581,7 @@
     "20-Sitten Street Makkah": 3,
     "22-Tabuk Park": 3,
     "23-Alia Mall Madinah": 1,
+    "24-Yanbu Dana Mall": 1,
     "26-Al-Noor Mall Madinah": 1,
     "27-Dhahran Mall khobar": 4,
     "28-Al Nakheel Mall Dammam": 4,
@@ -12504,7 +12593,7 @@
     "51-Park Avenue Riyadh": 4
   },
   "210130193": {
-    "04-Andalos Mall": 2,
+    "04-Andalos Mall": 3,
     "05-Haifa Mall": 1,
     "06-Red Sea Mall": 15,
     "07-Arab Mall": 2,
@@ -12573,7 +12662,7 @@
     "54-THE VILLAGE": 8
   },
   "210130197": {
-    "27-Dhahran Mall khobar": 3,
+    "27-Dhahran Mall khobar": 4,
     "28-Al Nakheel Mall Dammam": 7,
     "36-Al jubail Mall": 4,
     "38-Al_Riyadh Park": 9,
@@ -12746,6 +12835,7 @@
     "18-Al_Khayyat Center": 2,
     "20-Sitten Street Makkah": 1,
     "27-Dhahran Mall khobar": 1,
+    "28-Al Nakheel Mall Dammam": 1,
     "32-Atyaf Mall Riyadh": 1,
     "40-Hayat Mall Riyad": 2,
     "45- Riyadh Gallery Mall": 1,
@@ -12830,7 +12920,9 @@
     "11-Jouri Mall": 1,
     "1114-Malgha Mall": 1,
     "1115-Alrabie Mall": 2,
-    "20-Sitten Street Makkah": 1
+    "20-Sitten Street Makkah": 1,
+    "36-Al jubail Mall": 1,
+    "57-Sauq7": 2
   },
   "220050099": {
     "04-Andalos Mall": 3,
@@ -12877,6 +12969,7 @@
     "14-Al Kamal Mall": 2,
     "20-Sitten Street Makkah": 3,
     "23-Alia Mall Madinah": 2,
+    "48 - Jeddah Park": 1,
     "53-Al Basateen Mall": 2,
     "54-THE VILLAGE": 5,
     "56- Aziz Mall 2": 1
@@ -12997,6 +13090,7 @@
   },
   "220050153": {
     "06-Red Sea Mall": 3,
+    "07-Arab Mall": 1,
     "08-Makkah Mall": 1,
     "11-Jouri Mall": 1,
     "12-Al_Hamra Mall": 2,
@@ -13020,7 +13114,8 @@
     "22-Tabuk Park": 2,
     "24-Yanbu Dana Mall": 2,
     "48 - Jeddah Park": 1,
-    "51-Park Avenue Riyadh": 1
+    "51-Park Avenue Riyadh": 1,
+    "57-Sauq7": 1
   },
   "220050156": {
     "07-Arab Mall": 1,
@@ -13069,15 +13164,18 @@
   },
   "220050161": {
     "1114-Malgha Mall": 3,
-    "16-Ehsa Othaim Mall": 1
+    "16-Ehsa Othaim Mall": 1,
+    "38-Al_Riyadh Park": 2
   },
   "220050162": {
+    "26-Al-Noor Mall Madinah": 1,
     "27-Dhahran Mall khobar": 1,
     "54-THE VILLAGE": 3
   },
   "220050163": {
     "09-Al-Salam Mall": 2,
     "22-Tabuk Park": 2,
+    "26-Al-Noor Mall Madinah": 1,
     "28-Al Nakheel Mall Dammam": 2
   },
   "220050164": {
@@ -13160,6 +13258,7 @@
     "56- Aziz Mall 2": 1
   },
   "220050174": {
+    "09-Al-Salam Mall": 3,
     "1115-Alrabie Mall": 2,
     "12-Al_Hamra Mall": 1,
     "16-Ehsa Othaim Mall": 2,
@@ -13265,7 +13364,7 @@
   },
   "230000048": {
     "11-Jouri Mall": 2,
-    "54-THE VILLAGE": 4
+    "54-THE VILLAGE": 5
   },
   "230000049": {
     "22-Tabuk Park": 1,
@@ -13477,7 +13576,7 @@
     "04-Andalos Mall": 3,
     "07-Arab Mall": 1,
     "1115-Alrabie Mall": 1,
-    "40-Hayat Mall Riyad": 2,
+    "40-Hayat Mall Riyad": 3,
     "54-THE VILLAGE": 2
   },
   "240000604": {
@@ -13527,7 +13626,7 @@
     "47-Al-Nakheel Plaza": 1
   },
   "240000615": {
-    "1114-Malgha Mall": 2,
+    "1114-Malgha Mall": 3,
     "12-Al_Hamra Mall": 4,
     "19-Hail Othaim Mall": 2,
     "27-Dhahran Mall khobar": 5,
@@ -13538,7 +13637,7 @@
     "49-AlAhsa Mall": 1
   },
   "240000616": {
-    "1114-Malgha Mall": 1,
+    "1114-Malgha Mall": 2,
     "27-Dhahran Mall khobar": 2,
     "28-Al Nakheel Mall Dammam": 1,
     "32-Atyaf Mall Riyadh": 4,
@@ -13602,7 +13701,7 @@
     "1115-Alrabie Mall": 1,
     "16-Ehsa Othaim Mall": 5,
     "19-Hail Othaim Mall": 1,
-    "27-Dhahran Mall khobar": 7,
+    "27-Dhahran Mall khobar": 8,
     "28-Al Nakheel Mall Dammam": 1,
     "32-Atyaf Mall Riyadh": 1,
     "40-Hayat Mall Riyad": 3,
@@ -13638,7 +13737,7 @@
     "26-Al-Noor Mall Madinah": 1,
     "44-Al-Jouf Center": 2,
     "48 - Jeddah Park": 11,
-    "54-THE VILLAGE": 20,
+    "54-THE VILLAGE": 22,
     "55- Jabl Omar": 4,
     "56- Aziz Mall 2": 5
   },
@@ -13833,7 +13932,7 @@
     "22-Tabuk Park": 1
   },
   "250000041": {
-    "04-Andalos Mall": 9,
+    "04-Andalos Mall": 10,
     "05-Haifa Mall": 1,
     "06-Red Sea Mall": 2,
     "07-Arab Mall": 4,
@@ -13935,6 +14034,7 @@
     "13-Al-Yasmin Mall": 1,
     "23-Alia Mall Madinah": 1,
     "24-Yanbu Dana Mall": 1,
+    "26-Al-Noor Mall Madinah": 1,
     "28-Al Nakheel Mall Dammam": 3,
     "30-Tala Mall Riyadh": 1,
     "32-Atyaf Mall Riyadh": 1,
@@ -13968,7 +14068,7 @@
     "48 - Jeddah Park": 4,
     "49-AlAhsa Mall": 1,
     "50-Meem Plaza Riyadh": 4,
-    "56- Aziz Mall 2": 1,
+    "56- Aziz Mall 2": 2,
     "57-Sauq7": 1
   },
   "250000056": {
@@ -14039,6 +14139,7 @@
     "27-Dhahran Mall khobar": 5,
     "28-Al Nakheel Mall Dammam": 5,
     "32-Atyaf Mall Riyadh": 2,
+    "36-Al jubail Mall": 1,
     "39-Salam Mall Riyadh": 3,
     "40-Hayat Mall Riyad": 4,
     "43-Mujan Park": 1,
@@ -14053,7 +14154,7 @@
     "12-Al_Hamra Mall": 5,
     "15-Riyadh Othaim Mall": 1,
     "22-Tabuk Park": 1,
-    "27-Dhahran Mall khobar": 2,
+    "27-Dhahran Mall khobar": 3,
     "28-Al Nakheel Mall Dammam": 5,
     "38-Al_Riyadh Park": 2,
     "40-Hayat Mall Riyad": 4,
@@ -14096,7 +14197,7 @@
     "12-Al_Hamra Mall": 1,
     "16-Ehsa Othaim Mall": 1,
     "23-Alia Mall Madinah": 5,
-    "27-Dhahran Mall khobar": 5,
+    "27-Dhahran Mall khobar": 6,
     "28-Al Nakheel Mall Dammam": 1,
     "30-Tala Mall Riyadh": 1,
     "36-Al jubail Mall": 1,
@@ -14106,13 +14207,13 @@
     "50-Meem Plaza Riyadh": 5,
     "53-Al Basateen Mall": 1,
     "55- Jabl Omar": 1,
-    "56- Aziz Mall 2": 2
+    "56- Aziz Mall 2": 3
   },
   "250000063": {
     "05-Haifa Mall": 2,
     "06-Red Sea Mall": 5,
     "07-Arab Mall": 2,
-    "09-Al-Salam Mall": 2,
+    "09-Al-Salam Mall": 3,
     "12-Al_Hamra Mall": 1,
     "13-Al-Yasmin Mall": 3,
     "16-Ehsa Othaim Mall": 6,
@@ -14166,7 +14267,7 @@
     "40-Hayat Mall Riyad": 5,
     "44-Al-Jouf Center": 1,
     "45- Riyadh Gallery Mall": 13,
-    "46-Khaleej Mall Riyadh": 6,
+    "46-Khaleej Mall Riyadh": 7,
     "49-AlAhsa Mall": 2,
     "51-Park Avenue Riyadh": 4
   },
@@ -14179,7 +14280,7 @@
     "23-Alia Mall Madinah": 7,
     "28-Al Nakheel Mall Dammam": 2,
     "32-Atyaf Mall Riyadh": 8,
-    "38-Al_Riyadh Park": 6,
+    "38-Al_Riyadh Park": 7,
     "39-Salam Mall Riyadh": 1,
     "45- Riyadh Gallery Mall": 2,
     "46-Khaleej Mall Riyadh": 2,
@@ -14199,7 +14300,7 @@
     "40-Hayat Mall Riyad": 2,
     "42-Dareen Mall Dammam": 4,
     "45- Riyadh Gallery Mall": 5,
-    "46-Khaleej Mall Riyadh": 3,
+    "46-Khaleej Mall Riyadh": 4,
     "51-Park Avenue Riyadh": 7
   },
   "250000068": {
@@ -14220,7 +14321,7 @@
     "27-Dhahran Mall khobar": 2,
     "28-Al Nakheel Mall Dammam": 5,
     "32-Atyaf Mall Riyadh": 2,
-    "38-Al_Riyadh Park": 2,
+    "38-Al_Riyadh Park": 3,
     "39-Salam Mall Riyadh": 1,
     "40-Hayat Mall Riyad": 2,
     "42-Dareen Mall Dammam": 2,
@@ -14333,7 +14434,7 @@
     "11-Jouri Mall": 1,
     "12-Al_Hamra Mall": 2,
     "15-Riyadh Othaim Mall": 1,
-    "19-Hail Othaim Mall": 1,
+    "19-Hail Othaim Mall": 2,
     "22-Tabuk Park": 1,
     "24-Yanbu Dana Mall": 1,
     "25-Rabwa Othaim Mall": 1,
@@ -14385,13 +14486,14 @@
     "1114-Malgha Mall": 1,
     "12-Al_Hamra Mall": 1,
     "13-Al-Yasmin Mall": 1,
-    "14-Al Kamal Mall": 2,
+    "14-Al Kamal Mall": 3,
     "16-Ehsa Othaim Mall": 1,
     "19-Hail Othaim Mall": 4,
     "22-Tabuk Park": 1,
     "24-Yanbu Dana Mall": 1,
     "25-Rabwa Othaim Mall": 4,
     "26-Al-Noor Mall Madinah": 1,
+    "27-Dhahran Mall khobar": 1,
     "36-Al jubail Mall": 2,
     "39-Salam Mall Riyadh": 1,
     "40-Hayat Mall Riyad": 4,
@@ -14464,7 +14566,7 @@
     "14-Al Kamal Mall": 2,
     "16-Ehsa Othaim Mall": 7,
     "18-Al_Khayyat Center": 2,
-    "19-Hail Othaim Mall": 1,
+    "19-Hail Othaim Mall": 2,
     "20-Sitten Street Makkah": 1,
     "22-Tabuk Park": 2,
     "23-Alia Mall Madinah": 1,
@@ -14557,6 +14659,7 @@
     "26-Al-Noor Mall Madinah": 1,
     "28-Al Nakheel Mall Dammam": 4,
     "38-Al_Riyadh Park": 1,
+    "44-Al-Jouf Center": 1,
     "45- Riyadh Gallery Mall": 2,
     "46-Khaleej Mall Riyadh": 2,
     "55- Jabl Omar": 1
@@ -14609,11 +14712,11 @@
   },
   "250000084": {
     "04-Andalos Mall": 15,
-    "05-Haifa Mall": 20,
+    "05-Haifa Mall": 21,
     "06-Red Sea Mall": 25,
     "07-Arab Mall": 6,
     "08-Makkah Mall": 10,
-    "09-Al-Salam Mall": 18,
+    "09-Al-Salam Mall": 19,
     "11-Jouri Mall": 16,
     "1114-Malgha Mall": 3,
     "1115-Alrabie Mall": 2,
@@ -14622,10 +14725,10 @@
     "14-Al Kamal Mall": 4,
     "15-Riyadh Othaim Mall": 4,
     "16-Ehsa Othaim Mall": 12,
-    "18-Al_Khayyat Center": 6,
+    "18-Al_Khayyat Center": 7,
     "19-Hail Othaim Mall": 9,
     "1906-LAVANDA PARK": 3,
-    "20-Sitten Street Makkah": 3,
+    "20-Sitten Street Makkah": 4,
     "22-Tabuk Park": 5,
     "23-Alia Mall Madinah": 15,
     "24-Yanbu Dana Mall": 5,
@@ -14640,9 +14743,9 @@
     "42-Dareen Mall Dammam": 9,
     "43-Mujan Park": 5,
     "45- Riyadh Gallery Mall": 7,
-    "46-Khaleej Mall Riyadh": 11,
+    "46-Khaleej Mall Riyadh": 12,
     "47-Al-Nakheel Plaza": 7,
-    "48 - Jeddah Park": 26,
+    "48 - Jeddah Park": 27,
     "49-AlAhsa Mall": 2,
     "50-Meem Plaza Riyadh": 6,
     "51-Park Avenue Riyadh": 11,
@@ -14654,8 +14757,8 @@
   },
   "250000085": {
     "04-Andalos Mall": 9,
-    "05-Haifa Mall": 17,
-    "06-Red Sea Mall": 15,
+    "05-Haifa Mall": 18,
+    "06-Red Sea Mall": 16,
     "07-Arab Mall": 1,
     "08-Makkah Mall": 11,
     "09-Al-Salam Mall": 13,
@@ -14670,7 +14773,8 @@
     "18-Al_Khayyat Center": 9,
     "19-Hail Othaim Mall": 8,
     "1906-LAVANDA PARK": 3,
-    "20-Sitten Street Makkah": 4,
+    "20-Sitten Street Makkah": 5,
+    "21-Abha Al_Rashid Mall New": 2,
     "22-Tabuk Park": 2,
     "23-Alia Mall Madinah": 12,
     "24-Yanbu Dana Mall": 6,
@@ -14689,14 +14793,14 @@
     "45- Riyadh Gallery Mall": 13,
     "46-Khaleej Mall Riyadh": 7,
     "47-Al-Nakheel Plaza": 5,
-    "48 - Jeddah Park": 20,
+    "48 - Jeddah Park": 21,
     "49-AlAhsa Mall": 2,
     "50-Meem Plaza Riyadh": 6,
-    "51-Park Avenue Riyadh": 13,
+    "51-Park Avenue Riyadh": 14,
     "52-Al_Baha Mall": 5,
-    "54-THE VILLAGE": 23,
+    "54-THE VILLAGE": 24,
     "55- Jabl Omar": 10,
-    "56- Aziz Mall 2": 14,
+    "56- Aziz Mall 2": 15,
     "57-Sauq7": 5
   },
   "260000001": {
@@ -14738,9 +14842,11 @@
     "48 - Jeddah Park": 4
   },
   "260000027": {
-    "04-Andalos Mall": 4,
+    "04-Andalos Mall": 5,
+    "06-Red Sea Mall": 1,
     "08-Makkah Mall": 1,
     "17-Arar Othaim Mall": 1,
+    "20-Sitten Street Makkah": 1,
     "21-Abha Al_Rashid Mall New": 1,
     "26-Al-Noor Mall Madinah": 2,
     "36-Al jubail Mall": 2,
@@ -14767,6 +14873,7 @@
   },
   "260000030": {
     "04-Andalos Mall": 2,
+    "06-Red Sea Mall": 1,
     "09-Al-Salam Mall": 2,
     "16-Ehsa Othaim Mall": 1,
     "20-Sitten Street Makkah": 1,
@@ -14822,7 +14929,7 @@
     "43-Mujan Park": 1,
     "45- Riyadh Gallery Mall": 1,
     "46-Khaleej Mall Riyadh": 1,
-    "48 - Jeddah Park": 2,
+    "48 - Jeddah Park": 3,
     "51-Park Avenue Riyadh": 3
   },
   "260000035": {
@@ -14886,6 +14993,7 @@
     "57-Sauq7": 1
   },
   "260000041": {
+    "04-Andalos Mall": 1,
     "19-Hail Othaim Mall": 1,
     "22-Tabuk Park": 1,
     "23-Alia Mall Madinah": 1,
@@ -14918,6 +15026,7 @@
   },
   "260000044": {
     "04-Andalos Mall": 4,
+    "06-Red Sea Mall": 1,
     "11-Jouri Mall": 1,
     "16-Ehsa Othaim Mall": 1,
     "17-Arar Othaim Mall": 1,
@@ -14930,15 +15039,17 @@
     "56- Aziz Mall 2": 1
   },
   "260000045": {
+    "06-Red Sea Mall": 1,
     "11-Jouri Mall": 1,
     "16-Ehsa Othaim Mall": 1,
+    "20-Sitten Street Makkah": 1,
     "21-Abha Al_Rashid Mall New": 3,
     "23-Alia Mall Madinah": 1,
     "24-Yanbu Dana Mall": 2,
     "38-Al_Riyadh Park": 1,
     "43-Mujan Park": 1,
     "46-Khaleej Mall Riyadh": 1,
-    "48 - Jeddah Park": 1
+    "48 - Jeddah Park": 2
   },
   "260000046": {
     "04-Andalos Mall": 4,
@@ -14983,6 +15094,7 @@
     "47-Al-Nakheel Plaza": 1
   },
   "260000056": {
+    "20-Sitten Street Makkah": 1,
     "49-AlAhsa Mall": 2
   },
   "260000058": {
@@ -15126,6 +15238,7 @@
   },
   "260000078": {
     "08-Makkah Mall": 2,
+    "16-Ehsa Othaim Mall": 1,
     "19-Hail Othaim Mall": 1,
     "25-Rabwa Othaim Mall": 2,
     "30-Tala Mall Riyadh": 1,
@@ -15173,7 +15286,7 @@
   "260000083": {
     "11-Jouri Mall": 2,
     "17-Arar Othaim Mall": 1,
-    "19-Hail Othaim Mall": 1,
+    "19-Hail Othaim Mall": 2,
     "23-Alia Mall Madinah": 2,
     "26-Al-Noor Mall Madinah": 2
   },
@@ -15212,7 +15325,7 @@
   },
   "260000087": {
     "13-Al-Yasmin Mall": 1,
-    "16-Ehsa Othaim Mall": 1,
+    "16-Ehsa Othaim Mall": 2,
     "23-Alia Mall Madinah": 2,
     "27-Dhahran Mall khobar": 3,
     "32-Atyaf Mall Riyadh": 1,
@@ -15232,8 +15345,8 @@
   },
   "260000089": {
     "08-Makkah Mall": 1,
-    "13-Al-Yasmin Mall": 1,
-    "19-Hail Othaim Mall": 2,
+    "13-Al-Yasmin Mall": 2,
+    "19-Hail Othaim Mall": 3,
     "20-Sitten Street Makkah": 1,
     "42-Dareen Mall Dammam": 1,
     "54-THE VILLAGE": 2
@@ -15257,8 +15370,9 @@
     "27-Dhahran Mall khobar": 2
   },
   "260000094": {
-    "09-Al-Salam Mall": 1,
+    "09-Al-Salam Mall": 2,
     "12-Al_Hamra Mall": 2,
+    "17-Arar Othaim Mall": 1,
     "1906-LAVANDA PARK": 2,
     "24-Yanbu Dana Mall": 1,
     "30-Tala Mall Riyadh": 4,
@@ -15307,7 +15421,7 @@
     "17-Arar Othaim Mall": 1,
     "18-Al_Khayyat Center": 1,
     "19-Hail Othaim Mall": 3,
-    "22-Tabuk Park": 5,
+    "22-Tabuk Park": 6,
     "45- Riyadh Gallery Mall": 1,
     "47-Al-Nakheel Plaza": 2,
     "48 - Jeddah Park": 3,
@@ -15322,6 +15436,8 @@
     "12-Al_Hamra Mall": 1,
     "19-Hail Othaim Mall": 4,
     "1906-LAVANDA PARK": 4,
+    "20-Sitten Street Makkah": 1,
+    "27-Dhahran Mall khobar": 1,
     "28-Al Nakheel Mall Dammam": 1,
     "32-Atyaf Mall Riyadh": 1,
     "44-Al-Jouf Center": 2,
@@ -15337,7 +15453,7 @@
     "12-Al_Hamra Mall": 3,
     "18-Al_Khayyat Center": 1,
     "20-Sitten Street Makkah": 1,
-    "22-Tabuk Park": 6,
+    "22-Tabuk Park": 7,
     "24-Yanbu Dana Mall": 1,
     "27-Dhahran Mall khobar": 1,
     "44-Al-Jouf Center": 2,
@@ -15355,7 +15471,7 @@
     "23-Alia Mall Madinah": 3,
     "27-Dhahran Mall khobar": 1,
     "48 - Jeddah Park": 3,
-    "51-Park Avenue Riyadh": 3
+    "51-Park Avenue Riyadh": 4
   },
   "260000102": {
     "06-Red Sea Mall": 5,
@@ -15457,6 +15573,7 @@
     "06-Red Sea Mall": 2,
     "11-Jouri Mall": 2,
     "1115-Alrabie Mall": 2,
+    "13-Al-Yasmin Mall": 1,
     "16-Ehsa Othaim Mall": 1,
     "18-Al_Khayyat Center": 1,
     "20-Sitten Street Makkah": 1,
@@ -15525,7 +15642,7 @@
     "26-Al-Noor Mall Madinah": 2,
     "27-Dhahran Mall khobar": 4,
     "38-Al_Riyadh Park": 1,
-    "48 - Jeddah Park": 4
+    "48 - Jeddah Park": 5
   },
   "260000130": {
     "11-Jouri Mall": 1,
@@ -15542,6 +15659,7 @@
   "260000131": {
     "11-Jouri Mall": 1,
     "16-Ehsa Othaim Mall": 2,
+    "21-Abha Al_Rashid Mall New": 1,
     "24-Yanbu Dana Mall": 2,
     "27-Dhahran Mall khobar": 1,
     "38-Al_Riyadh Park": 1,
@@ -15554,6 +15672,7 @@
   },
   "260000132": {
     "08-Makkah Mall": 1,
+    "23-Alia Mall Madinah": 1,
     "27-Dhahran Mall khobar": 2,
     "46-Khaleej Mall Riyadh": 1,
     "48 - Jeddah Park": 2,
@@ -15594,7 +15713,7 @@
     "46-Khaleej Mall Riyadh": 1,
     "48 - Jeddah Park": 2,
     "54-THE VILLAGE": 2,
-    "56- Aziz Mall 2": 1
+    "56- Aziz Mall 2": 2
   },
   "260000136": {
     "04-Andalos Mall": 2,
@@ -15681,7 +15800,7 @@
     "18-Al_Khayyat Center": 1,
     "23-Alia Mall Madinah": 5,
     "24-Yanbu Dana Mall": 1,
-    "27-Dhahran Mall khobar": 1,
+    "27-Dhahran Mall khobar": 2,
     "40-Hayat Mall Riyad": 3,
     "42-Dareen Mall Dammam": 2,
     "46-Khaleej Mall Riyadh": 5,
@@ -15692,9 +15811,9 @@
   },
   "260000142": {
     "06-Red Sea Mall": 5,
-    "07-Arab Mall": 2,
+    "07-Arab Mall": 3,
     "21-Abha Al_Rashid Mall New": 1,
-    "23-Alia Mall Madinah": 9,
+    "23-Alia Mall Madinah": 10,
     "26-Al-Noor Mall Madinah": 1,
     "27-Dhahran Mall khobar": 1,
     "42-Dareen Mall Dammam": 1,
@@ -15715,7 +15834,7 @@
   "260000144": {
     "06-Red Sea Mall": 4,
     "08-Makkah Mall": 1,
-    "09-Al-Salam Mall": 1,
+    "09-Al-Salam Mall": 2,
     "13-Al-Yasmin Mall": 2,
     "16-Ehsa Othaim Mall": 1,
     "19-Hail Othaim Mall": 1,
@@ -15827,7 +15946,7 @@
     "16-Ehsa Othaim Mall": 1,
     "18-Al_Khayyat Center": 1,
     "22-Tabuk Park": 2,
-    "23-Alia Mall Madinah": 4,
+    "23-Alia Mall Madinah": 6,
     "26-Al-Noor Mall Madinah": 1,
     "27-Dhahran Mall khobar": 2,
     "32-Atyaf Mall Riyadh": 2,
@@ -15844,7 +15963,7 @@
     "06-Red Sea Mall": 2,
     "1114-Malgha Mall": 1,
     "16-Ehsa Othaim Mall": 1,
-    "27-Dhahran Mall khobar": 3,
+    "27-Dhahran Mall khobar": 4,
     "28-Al Nakheel Mall Dammam": 1,
     "32-Atyaf Mall Riyadh": 1,
     "38-Al_Riyadh Park": 1,
@@ -15959,6 +16078,7 @@
     "43-Mujan Park": 1
   },
   "270010064": {
+    "14-Al Kamal Mall": 1,
     "50-Meem Plaza Riyadh": 1,
     "51-Park Avenue Riyadh": 2,
     "55- Jabl Omar": 1
@@ -16255,7 +16375,7 @@
     "55- Jabl Omar": 2
   },
   "290000070": {
-    "55- Jabl Omar": 6
+    "55- Jabl Omar": 7
   },
   "290000071": {
     "55- Jabl Omar": 13
@@ -16276,7 +16396,7 @@
     "55- Jabl Omar": 11
   },
   "290000078": {
-    "55- Jabl Omar": 44
+    "55- Jabl Omar": 45
   },
   "290000079": {
     "55- Jabl Omar": 36
@@ -16300,7 +16420,7 @@
     "55- Jabl Omar": 11
   },
   "300000001": {
-    "55- Jabl Omar": 397
+    "55- Jabl Omar": 401
   },
   "300000002": {
     "55- Jabl Omar": 10
@@ -16321,7 +16441,7 @@
     "55- Jabl Omar": 19
   },
   "300000032": {
-    "55- Jabl Omar": 27
+    "55- Jabl Omar": 28
   },
   "300000053": {
     "55- Jabl Omar": 20
@@ -16369,10 +16489,10 @@
     "55- Jabl Omar": 53
   },
   "300000091": {
-    "55- Jabl Omar": 28
+    "55- Jabl Omar": 29
   },
   "300000092": {
-    "55- Jabl Omar": 44
+    "55- Jabl Omar": 45
   },
   "300000093": {
     "55- Jabl Omar": 35
@@ -16405,16 +16525,16 @@
     "55- Jabl Omar": 7
   },
   "300000108": {
-    "55- Jabl Omar": 45
+    "55- Jabl Omar": 46
   },
   "300000109": {
     "55- Jabl Omar": 5
   },
   "300000110": {
-    "55- Jabl Omar": 23
+    "55- Jabl Omar": 24
   },
   "300000111": {
-    "55- Jabl Omar": 83
+    "55- Jabl Omar": 84
   },
   "300000112": {
     "55- Jabl Omar": 33
@@ -16426,7 +16546,7 @@
     "55- Jabl Omar": 51
   },
   "310000005": {
-    "55- Jabl Omar": 67
+    "55- Jabl Omar": 69
   },
   "310000008": {
     "55- Jabl Omar": 2
@@ -16444,7 +16564,7 @@
     "55- Jabl Omar": 33
   },
   "310000017": {
-    "55- Jabl Omar": 95
+    "55- Jabl Omar": 97
   },
   "310000024": {
     "55- Jabl Omar": 1
@@ -16480,7 +16600,7 @@
     "55- Jabl Omar": 2
   },
   "310000044": {
-    "55- Jabl Omar": 20
+    "55- Jabl Omar": 21
   },
   "310000046": {
     "55- Jabl Omar": 9
@@ -16501,7 +16621,7 @@
     "55- Jabl Omar": 7
   },
   "310000053": {
-    "55- Jabl Omar": 23
+    "55- Jabl Omar": 24
   },
   "310000054": {
     "55- Jabl Omar": 2
@@ -16546,7 +16666,7 @@
     "55- Jabl Omar": 24
   },
   "980000001": {
-    "05-Haifa Mall": 2,
+    "05-Haifa Mall": 18,
     "57-Sauq7": 11
   },
   "980000003": {
@@ -16623,7 +16743,7 @@
     "55- Jabl Omar": 26
   },
   "990000038": {
-    "55- Jabl Omar": 11
+    "55- Jabl Omar": 12
   },
   "990000039": {
     "55- Jabl Omar": 4
@@ -16925,6 +17045,7 @@
     "11-Jouri Mall": 1,
     "1114-Malgha Mall": 1,
     "1115-Alrabie Mall": 1,
+    "21-Abha Al_Rashid Mall New": 1,
     "23-Alia Mall Madinah": 2,
     "25-Rabwa Othaim Mall": 1,
     "26-Al-Noor Mall Madinah": 1,
@@ -17087,12 +17208,13 @@
     "18-Al_Khayyat Center": 2,
     "19-Hail Othaim Mall": 1,
     "1906-LAVANDA PARK": 1,
+    "20-Sitten Street Makkah": 1,
     "21-Abha Al_Rashid Mall New": 2,
     "22-Tabuk Park": 2,
     "23-Alia Mall Madinah": 1,
     "24-Yanbu Dana Mall": 1,
     "25-Rabwa Othaim Mall": 3,
-    "26-Al-Noor Mall Madinah": 2,
+    "26-Al-Noor Mall Madinah": 3,
     "27-Dhahran Mall khobar": 3,
     "39-Salam Mall Riyadh": 1,
     "47-Al-Nakheel Plaza": 2,
@@ -17122,7 +17244,7 @@
     "06-Red Sea Mall": 7,
     "07-Arab Mall": 2,
     "08-Makkah Mall": 8,
-    "09-Al-Salam Mall": 2,
+    "09-Al-Salam Mall": 3,
     "11-Jouri Mall": 3,
     "1114-Malgha Mall": 4,
     "12-Al_Hamra Mall": 10,
@@ -17150,7 +17272,7 @@
     "43-Mujan Park": 11,
     "45- Riyadh Gallery Mall": 3,
     "46-Khaleej Mall Riyadh": 7,
-    "47-Al-Nakheel Plaza": 7,
+    "47-Al-Nakheel Plaza": 8,
     "48 - Jeddah Park": 5,
     "50-Meem Plaza Riyadh": 1,
     "54-THE VILLAGE": 2,
@@ -17193,7 +17315,7 @@
     "11-Jouri Mall": 1,
     "1114-Malgha Mall": 1,
     "1115-Alrabie Mall": 3,
-    "12-Al_Hamra Mall": 2,
+    "12-Al_Hamra Mall": 3,
     "16-Ehsa Othaim Mall": 4,
     "19-Hail Othaim Mall": 4,
     "1906-LAVANDA PARK": 1,
@@ -17217,7 +17339,7 @@
     "54-THE VILLAGE": 7
   },
   "KIT-100010699": {
-    "09-Al-Salam Mall": 1,
+    "09-Al-Salam Mall": 2,
     "11-Jouri Mall": 1,
     "20-Sitten Street Makkah": 1,
     "22-Tabuk Park": 1,
@@ -17304,6 +17426,7 @@
     "28-Al Nakheel Mall Dammam": 1,
     "43-Mujan Park": 1,
     "45- Riyadh Gallery Mall": 2,
+    "47-Al-Nakheel Plaza": 1,
     "49-AlAhsa Mall": 1,
     "50-Meem Plaza Riyadh": 1,
     "54-THE VILLAGE": 1
@@ -17328,7 +17451,7 @@
   "KIT-100010715": {
     "04-Andalos Mall": 2,
     "08-Makkah Mall": 1,
-    "11-Jouri Mall": 3,
+    "11-Jouri Mall": 4,
     "1114-Malgha Mall": 1,
     "12-Al_Hamra Mall": 2,
     "19-Hail Othaim Mall": 6,
@@ -17378,6 +17501,7 @@
   },
   "KIT-100010720": {
     "05-Haifa Mall": 1,
+    "06-Red Sea Mall": 1,
     "07-Arab Mall": 1,
     "08-Makkah Mall": 3,
     "12-Al_Hamra Mall": 2,
@@ -17393,6 +17517,7 @@
     "39-Salam Mall Riyadh": 1,
     "40-Hayat Mall Riyad": 3,
     "42-Dareen Mall Dammam": 1,
+    "47-Al-Nakheel Plaza": 1,
     "51-Park Avenue Riyadh": 1,
     "53-Al Basateen Mall": 1,
     "54-THE VILLAGE": 1,
@@ -17423,7 +17548,7 @@
     "42-Dareen Mall Dammam": 1,
     "43-Mujan Park": 1,
     "47-Al-Nakheel Plaza": 1,
-    "50-Meem Plaza Riyadh": 4,
+    "50-Meem Plaza Riyadh": 6,
     "51-Park Avenue Riyadh": 2,
     "54-THE VILLAGE": 3,
     "55- Jabl Omar": 4,
@@ -17471,6 +17596,7 @@
     "11-Jouri Mall": 1,
     "22-Tabuk Park": 1,
     "28-Al Nakheel Mall Dammam": 1,
+    "36-Al jubail Mall": 1,
     "38-Al_Riyadh Park": 1,
     "43-Mujan Park": 1,
     "51-Park Avenue Riyadh": 1
@@ -17482,6 +17608,7 @@
     "14-Al Kamal Mall": 1,
     "17-Arar Othaim Mall": 1,
     "1906-LAVANDA PARK": 1,
+    "21-Abha Al_Rashid Mall New": 1,
     "22-Tabuk Park": 4,
     "26-Al-Noor Mall Madinah": 1,
     "27-Dhahran Mall khobar": 1,
@@ -17582,12 +17709,12 @@
     "13-Al-Yasmin Mall": 1,
     "15-Riyadh Othaim Mall": 1,
     "16-Ehsa Othaim Mall": 8,
-    "19-Hail Othaim Mall": 4,
+    "19-Hail Othaim Mall": 5,
     "25-Rabwa Othaim Mall": 4,
     "27-Dhahran Mall khobar": 8,
-    "28-Al Nakheel Mall Dammam": 12,
+    "28-Al Nakheel Mall Dammam": 13,
     "30-Tala Mall Riyadh": 1,
-    "32-Atyaf Mall Riyadh": 6,
+    "32-Atyaf Mall Riyadh": 7,
     "36-Al jubail Mall": 1,
     "38-Al_Riyadh Park": 2,
     "39-Salam Mall Riyadh": 6,
@@ -17678,7 +17805,7 @@
     "46-Khaleej Mall Riyadh": 1,
     "47-Al-Nakheel Plaza": 1,
     "49-AlAhsa Mall": 2,
-    "50-Meem Plaza Riyadh": 1,
+    "50-Meem Plaza Riyadh": 2,
     "51-Park Avenue Riyadh": 1,
     "53-Al Basateen Mall": 1,
     "54-THE VILLAGE": 1,
@@ -17785,6 +17912,7 @@
   "KIT-100010790": {
     "04-Andalos Mall": 1,
     "06-Red Sea Mall": 6,
+    "07-Arab Mall": 1,
     "08-Makkah Mall": 7,
     "11-Jouri Mall": 8,
     "12-Al_Hamra Mall": 1,
@@ -17828,7 +17956,7 @@
     "51-Park Avenue Riyadh": 2
   },
   "KIT-100010792": {
-    "04-Andalos Mall": 3,
+    "04-Andalos Mall": 4,
     "05-Haifa Mall": 1,
     "06-Red Sea Mall": 3,
     "07-Arab Mall": 3,
@@ -17855,13 +17983,14 @@
     "38-Al_Riyadh Park": 1,
     "40-Hayat Mall Riyad": 1,
     "42-Dareen Mall Dammam": 1,
-    "43-Mujan Park": 7,
+    "43-Mujan Park": 8,
     "46-Khaleej Mall Riyadh": 2,
     "47-Al-Nakheel Plaza": 5,
     "48 - Jeddah Park": 3,
     "49-AlAhsa Mall": 1,
     "50-Meem Plaza Riyadh": 2,
     "52-Al_Baha Mall": 4,
+    "53-Al Basateen Mall": 1,
     "54-THE VILLAGE": 5,
     "55- Jabl Omar": 2,
     "56- Aziz Mall 2": 2
@@ -17899,7 +18028,8 @@
   },
   "KIT-100010798": {
     "06-Red Sea Mall": 1,
-    "19-Hail Othaim Mall": 1
+    "19-Hail Othaim Mall": 1,
+    "28-Al Nakheel Mall Dammam": 2
   },
   "KIT-100010799": {
     "12-Al_Hamra Mall": 2,
@@ -17967,6 +18097,7 @@
     "20-Sitten Street Makkah": 1,
     "21-Abha Al_Rashid Mall New": 1,
     "26-Al-Noor Mall Madinah": 1,
+    "28-Al Nakheel Mall Dammam": 2,
     "30-Tala Mall Riyadh": 1,
     "54-THE VILLAGE": 2
   },
@@ -18081,7 +18212,7 @@
   },
   "KIT-100030109": {
     "06-Red Sea Mall": 1,
-    "1114-Malgha Mall": 2,
+    "1114-Malgha Mall": 3,
     "12-Al_Hamra Mall": 1,
     "21-Abha Al_Rashid Mall New": 1,
     "22-Tabuk Park": 1,
@@ -18105,6 +18236,7 @@
     "08-Makkah Mall": 1
   },
   "KIT-100030272": {
+    "06-Red Sea Mall": 1,
     "1114-Malgha Mall": 1,
     "25-Rabwa Othaim Mall": 1,
     "27-Dhahran Mall khobar": 15,
@@ -18170,6 +18302,7 @@
     "20-Sitten Street Makkah": 1,
     "22-Tabuk Park": 1,
     "27-Dhahran Mall khobar": 2,
+    "40-Hayat Mall Riyad": 1,
     "43-Mujan Park": 1,
     "47-Al-Nakheel Plaza": 1,
     "49-AlAhsa Mall": 1,
@@ -18188,7 +18321,7 @@
     "1906-LAVANDA PARK": 1,
     "20-Sitten Street Makkah": 1,
     "21-Abha Al_Rashid Mall New": 4,
-    "22-Tabuk Park": 1,
+    "22-Tabuk Park": 2,
     "23-Alia Mall Madinah": 3,
     "24-Yanbu Dana Mall": 1,
     "25-Rabwa Othaim Mall": 1,
@@ -18331,6 +18464,7 @@
   },
   "KIT-100030440": {
     "07-Arab Mall": 1,
+    "09-Al-Salam Mall": 1,
     "13-Al-Yasmin Mall": 1,
     "26-Al-Noor Mall Madinah": 2
   },
@@ -18383,7 +18517,7 @@
     "08-Makkah Mall": 2,
     "1114-Malgha Mall": 2,
     "12-Al_Hamra Mall": 2,
-    "14-Al Kamal Mall": 3,
+    "14-Al Kamal Mall": 4,
     "15-Riyadh Othaim Mall": 1,
     "16-Ehsa Othaim Mall": 4,
     "17-Arar Othaim Mall": 2,
@@ -18470,11 +18604,11 @@
   },
   "KIT100010663": {
     "1114-Malgha Mall": 1,
-    "12-Al_Hamra Mall": 6,
+    "12-Al_Hamra Mall": 7,
     "16-Ehsa Othaim Mall": 2,
     "19-Hail Othaim Mall": 1,
     "25-Rabwa Othaim Mall": 1,
-    "27-Dhahran Mall khobar": 3,
+    "27-Dhahran Mall khobar": 4,
     "28-Al Nakheel Mall Dammam": 1,
     "32-Atyaf Mall Riyadh": 7,
     "36-Al jubail Mall": 1,
@@ -18530,7 +18664,8 @@
   "KIT100030338": {
     "1115-Alrabie Mall": 1,
     "16-Ehsa Othaim Mall": 1,
-    "21-Abha Al_Rashid Mall New": 1
+    "21-Abha Al_Rashid Mall New": 1,
+    "40-Hayat Mall Riyad": 1
   },
   "KIT160110023": {
     "04-Andalos Mall": 2,
