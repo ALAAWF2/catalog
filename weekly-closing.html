@@ -482,11 +482,11 @@
     <!-- Navbar -->
     <header class="navbar">
       <div class="navbar-brand">
-        <h1>👑 نظام التقفيلات الأسبوعية</h1>
+        <h1>نظام التقفيلات الأسبوعية</h1>
       </div>
       <div class="navbar-actions">
-        <a href="index.html" class="btn btn-outline">📦 العودة للبضاعة</a>
-        <a href="weekly-closing-admin.html" id="adminPanelLink" class="btn btn-outline" style="display:none; border-color:var(--primary); color:var(--primary);">📊 لوحة تحكم المالية</a>
+        <a href="index.html" class="btn btn-outline">العودة للبضاعة</a>
+        <a href="weekly-closing-admin.html" id="adminPanelLink" class="btn btn-outline" style="display:none; border-color:var(--primary); color:var(--primary);">لوحة تحكم المالية</a>
       </div>
     </header>
 
@@ -614,8 +614,8 @@
 
       <!-- Submission Actions -->
       <div class="form-actions">
-        <button id="saveDraftBtn" class="btn btn-outline" onclick="saveDraftLocal(true)">💾 حفظ كمسودة مؤقتة</button>
-        <button id="submitBtn" class="btn btn-success" onclick="submitClosing()" disabled>🚀 إرسال واعتماد التقفيلة</button>
+        <button id="saveDraftBtn" class="btn btn-outline" onclick="saveDraftLocal(true)">حفظ كمسودة مؤقتة</button>
+        <button id="submitBtn" class="btn btn-success" onclick="submitClosing()" disabled>إرسال واعتماد التقفيلة</button>
       </div>
     </main>
   </div>
@@ -923,15 +923,15 @@
         
         if (data.status === 'مقبول') {
           banner.className = "status-banner approved";
-          banner.innerHTML = `🟢 تم اعتماد هذه التقفيلة والموافقة عليها من قبل الإدارة المالية. (مغلق للتعديل)`;
+          banner.innerHTML = `تم اعتماد هذه التقفيلة والموافقة عليها من قبل الإدارة المالية. (مغلق للتعديل)`;
           lockForm(true);
         } else if (data.status === 'مرفوض') {
           banner.className = "status-banner rejected";
-          banner.innerHTML = `❌ تم رفض هذه التقفيلة من قبل المالية. <strong>سبب الرفض:</strong> ${data.finance_reply || "لم يذكر"}. يرجى التعديل وإعادة الإرسال.`;
+          banner.innerHTML = `تم رفض هذه التقفيلة من قبل المالية. <strong>سبب الرفض:</strong> ${data.finance_reply || "لم يذكر"}. يرجى التعديل وإعادة الإرسال.`;
           lockForm(false);
         } else {
           banner.className = "status-banner pending";
-          banner.innerHTML = `⏳ تم إرسال هذه التقفيلة وهي قيد المراجعة حالياً من قبل المالية. (مغلق للتعديل)`;
+          banner.innerHTML = `تم إرسال هذه التقفيلة وهي قيد المراجعة حالياً من قبل المالية. (مغلق للتعديل)`;
           lockForm(true);
         }
       } else {
@@ -1142,7 +1142,7 @@
         const banner = document.getElementById('statusBanner');
         banner.style.display = "block";
         banner.className = "status-banner draft";
-        banner.innerHTML = `📝 تم تحميل التقفيلة من المسودة المحفوظة في المتصفح. لا تنسَ إرسالها واعتمادها للمالية.`;
+        banner.innerHTML = `تم تحميل التقفيلة من المسودة المحفوظة في المتصفح. لا تنسَ إرسالها واعتمادها للمالية.`;
 
         showToast("تم استعادة المسودة بنجاح", "success");
       } catch (err) {
@@ -1238,7 +1238,7 @@
         const key = `draft_${userMall}_${currentWeekData.week}`;
         localStorage.removeItem(key);
 
-        showToast("تم إرسال واعتماد التقفيلة بنجاح 🚀", "success");
+        showToast("تم إرسال واعتماد التقفيلة بنجاح", "success");
         
         // Reload week to lock it
         await onWeekChange();

@@ -392,12 +392,11 @@
   <!-- App Header -->
   <header class="navbar">
     <div class="nav-brand">
-      <div class="logo-icon">👑</div>
       <h1>الإدارة المالية - تقفيلات المعارض</h1>
     </div>
     <div class="nav-actions">
-      <a href="index.html" class="btn btn-outline">📦 العودة للبضاعة</a>
-      <a href="weekly-closing.html" class="btn btn-outline">📝 صفحة التقفيل للمعرض</a>
+      <a href="index.html" class="btn btn-outline">العودة للبضاعة</a>
+      <a href="weekly-closing.html" class="btn btn-outline">صفحة التقفيل للمعرض</a>
       <button class="btn btn-primary" onclick="logout()" style="background:var(--danger)">تسجيل الخروج</button>
     </div>
   </header>
@@ -449,9 +448,9 @@
           <label>الحالة</label>
           <select id="statusFilter" onchange="loadReports()">
             <option value="all">الكل</option>
-            <option value="جديد">⏳ بانتظار الاعتماد</option>
-            <option value="مقبول">🟢 مقبول ومعتمد</option>
-            <option value="مرفوض">❌ مرفوض للتعديل</option>
+            <option value="جديد">بانتظار الاعتماد</option>
+            <option value="مقبول">مقبول ومعتمد</option>
+            <option value="مرفوض">مرفوض للتعديل</option>
           </select>
         </div>
       </div>
@@ -486,14 +485,14 @@
   <div class="modal-overlay" id="detailModal">
     <div class="modal-content">
       <div class="modal-header">
-        <h3 id="modalTitle">📋 تقرير تقفيلة الأسبوع</h3>
+        <h3 id="modalTitle">تقرير تقفيلة الأسبوع</h3>
         <button class="modal-close" onclick="closeModal()">×</button>
       </div>
       <div class="modal-body" id="detailBody">
         <!-- Inside modal report details -->
       </div>
       <div class="modal-footer">
-        <button class="btn btn-outline" onclick="exportReportToExcel()">📥 تصدير كملف Excel الأصلي</button>
+        <button class="btn btn-outline" onclick="exportReportToExcel()">تصدير كملف Excel الأصلي</button>
         <button class="btn btn-primary" onclick="closeModal()">إغلاق</button>
       </div>
     </div>
@@ -553,7 +552,7 @@
 
         <div class="auth-overlay">
           <div class="auth-card">
-            <div class="logo" style="background:${isError ? 'var(--danger)' : 'var(--secondary)'}">🔒</div>
+            <div class="logo" style="background:${isError ? 'var(--danger)' : 'var(--secondary)'}"></div>
             <h2 style="color:${isError ? 'var(--danger)' : 'var(--secondary)'}">${title}</h2>
             <p>${subTitle}</p>
             <div id="loginBox" style="text-align:right; margin-top:20px;">
@@ -687,7 +686,7 @@
           <td>${dateStr}</td>
           <td><span class="status-badge ${badgeClass}">${r.status}</span></td>
           <td>
-            <button class="btn btn-outline" style="padding:4px 8px; font-size:0.8em;" onclick="viewDetail('${r.id}')">🔍 مراجعة التفاصيل</button>
+            <button class="btn btn-outline" style="padding:4px 8px; font-size:0.8em;" onclick="viewDetail('${r.id}')">مراجعة التفاصيل</button>
           </td>
         `;
         tbody.appendChild(tr);
@@ -712,9 +711,9 @@
 
       const dateStr = new Date(currentReport.created_at).toLocaleString('ar-SA');
       let statusHtml = "";
-      if (currentReport.status === 'جديد') statusHtml = `<span style="color:var(--warning)">⏳ جديد (بانتظار المراجعة)</span>`;
-      else if (currentReport.status === 'مقبول') statusHtml = `<span style="color:var(--success)">🟢 مقبول ومعتمد</span>`;
-      else statusHtml = `<span style="color:var(--danger)">❌ مرفوض للتعديل</span>`;
+      if (currentReport.status === 'جديد') statusHtml = `<span style="color:var(--warning)">جديد (بانتظار المراجعة)</span>`;
+      else if (currentReport.status === 'مقبول') statusHtml = `<span style="color:var(--success)">مقبول ومعتمد</span>`;
+      else statusHtml = `<span style="color:var(--danger)">مرفوض للتعديل</span>`;
 
       let bodyHtml = `
         <div class="modal-report-details">
@@ -803,8 +802,8 @@
           <label for="financeNotes">ملاحظات وقرار الإدارة المالية:</label>
           <textarea id="financeNotes" placeholder="اكتب ملاحظاتك للمدير هنا في حال الرفض أو القبول...">${currentReport.finance_reply || ''}</textarea>
           <div style="display:flex; gap:10px;">
-            <button class="btn btn-success" onclick="updateReportStatus('مقبول')">👍 اعتماد وقبول التقفيلة</button>
-            <button class="btn btn-danger" onclick="updateReportStatus('مرفوض')">❌ رفض وإعادة للتعديل</button>
+            <button class="btn btn-success" onclick="updateReportStatus('مقبول')">اعتماد وقبول التقفيلة</button>
+            <button class="btn btn-danger" onclick="updateReportStatus('مرفوض')">رفض وإعادة للتعديل</button>
           </div>
         </div>
       `;
@@ -1182,7 +1181,7 @@
         const buffer = await workbook.xlsx.writeBuffer();
         const blob = new Blob([buffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
         saveAs(blob, `تقفيلة_الأسبوع_${currentReport.week_number}_معرض_${currentReport.mall}.xlsx`);
-        showToast("تم تصدير ملف Excel بنجاح 📥", "success");
+        showToast("تم تصدير ملف Excel بنجاح", "success");
 
       } catch (err) {
         console.error("Excel generation error:", err);
