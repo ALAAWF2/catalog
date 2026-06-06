@@ -545,6 +545,12 @@
       hideOverlay();
       document.getElementById('appBody').style.visibility = 'visible';
       document.body.innerHTML = `
+        <!-- Loading Overlay recreated -->
+        <div id="loadingOverlay" class="overlay" style="display: none;">
+          <div class="spinner"></div>
+          <p id="loadingText">جاري العمل...</p>
+        </div>
+
         <div class="auth-overlay">
           <div class="auth-card">
             <div class="logo" style="background:${isError ? 'var(--danger)' : 'var(--secondary)'}">🔒</div>
@@ -1198,12 +1204,18 @@
 
     function showOverlay(text) {
       const overlay = document.getElementById('loadingOverlay');
-      document.getElementById('loadingText').textContent = text;
-      overlay.style.display = "flex";
+      if (overlay) {
+        const textEl = document.getElementById('loadingText');
+        if (textEl) textEl.textContent = text;
+        overlay.style.display = "flex";
+      }
     }
 
     function hideOverlay() {
-      document.getElementById('loadingOverlay').style.display = "none";
+      const overlay = document.getElementById('loadingOverlay');
+      if (overlay) {
+        overlay.style.display = "none";
+      }
     }
   </script>
 </body>
