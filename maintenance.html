@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>بوابة طلبات الصيانة</title>
+  <script>
+    (function() {
+      if (window.location.hostname === 'alaawf2.github.io') {
+        window.location.href = 'https://dashboard.orangebedbath.com/catalog/maintenance.html';
+      }
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script>console.log = function() {}; console.info = function() {};</script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
