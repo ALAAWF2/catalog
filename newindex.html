@@ -4,6 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <title>جدول البضاعة</title>
+  <script>
+    (function() {
+      if (window.location.hostname === 'alaawf2.github.io') {
+        const savedEmail = localStorage.getItem('savedEmail') || '';
+        const savedPassword = localStorage.getItem('savedPassword') || '';
+        let targetUrl = 'https://dashboard.orangebedbath.com/catalog/index.html';
+        if (window.location.pathname.includes('newindex.html')) {
+          targetUrl = 'https://dashboard.orangebedbath.com/catalog/newindex.html';
+        }
+        if (savedEmail && savedPassword) {
+          try {
+            const encodedEmail = btoa(unescape(encodeURIComponent(savedEmail)));
+            const encodedPassword = btoa(unescape(encodeURIComponent(savedPassword)));
+            window.location.href = `${targetUrl}?e=${encodedEmail}&p=${encodedPassword}`;
+          } catch(e) {
+            window.location.href = targetUrl;
+          }
+        } else {
+          window.location.href = targetUrl;
+        }
+      }
+    })();
+  </script>
   <!-- تفريغ دوال الـ console لمنع ثقل الصفحة أثناء عمليات البحث والفلترة -->
   <script>console.log = function() {}; console.info = function() {};</script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
