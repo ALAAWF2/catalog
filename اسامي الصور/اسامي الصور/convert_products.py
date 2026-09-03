@@ -127,7 +127,7 @@ def main():
                 else:
                     status = "OK"
                 target = unique_path(out_dir, number)
-                img.convert("RGB").save(target, "WEBP", quality=args.quality, method=6)
+                img.convert("RGB").save(target, "WEBP", quality=args.quality, method=4)
                 new_name = target.name
             else:
                 status = "NO_NUMBER_FOUND"
@@ -135,7 +135,7 @@ def main():
             status = f"ERROR: {exc}"
         rows.append({"Original": path.name, "Number": number, "NewFile": new_name,
                      "Status": status, "Confidence": confidence})
-        print(f"[{i}/{len(images)}] {path.name} -> {new_name or '-'} ({status})")
+        print(f"[{i}/{len(images)}] {path.name} -> {new_name or '-'} ({status})", flush=True)
 
     report = out_dir / "report.csv"
     with open(report, "w", newline="", encoding="utf-8-sig") as fh:
